@@ -582,4 +582,5 @@ fetch("opportunities.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error
 }).catch(()=>{$("#v-feed").innerHTML=`<div class="slide endcard"><div><h2>Couldn't load opportunities</h2><p>Check your connection and reopen the app.</p></div></div>`});
 </script>
 
+<script>if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});</script>
 </body></html>
