@@ -283,8 +283,8 @@ function score(o){
   return{s,why:why.slice(0,2),label:s>=55?"Strong match":s>=35?"Good match":"Possible match"};
 }
 /* ---------- topic filters (football only, startups only, ...) ---------- */
-const TOPICS=[["football","⚽ Football"],["basketball","🏀 Basketball"],["volleyball","🏐 Volleyball"],["padel","🎾 Padel & tennis"],["swimming","🏊 Swimming"],["cycling","🚴 Cycling"],["ski","⛷️ Ski"],["othersport","🥇 Other sports"],["clubs","👥 Clubs & communities"],["arts","🎨 Arts & creative"],["hiking","🥾 Hiking"],["running","🏃 Running"],["hackathon","💻 Hackathons"],["startup","🚀 Startups"],["case","📊 Case comps"],["research","🔬 Research"],["scholarship","🎓 Scholarships & exchange"],["conference","🎤 Conferences & MUN"],["volunteer","🤝 Volunteering"],["career","💼 Careers"],["funded","✈️ Fully funded"]];
-const SPORT_RE={football:/football|soccer|futsal/i,basketball:/basketball/i,volleyball:/volleyball/i,padel:/padel|tennis/i,swimming:/swim/i,cycling:/cycl|\bbike\b/i,ski:/\bski(ing)?\b|snowboard/i};
+const TOPICS=[["tournament","🏆 Tournaments"],["football","⚽ Football"],["basketball","🏀 Basketball"],["volleyball","🏐 Volleyball"],["padel","🎾 Padel & tennis"],["swimming","🏊 Swimming"],["cycling","🚴 Cycling"],["ski","⛷️ Ski"],["chess","♟️ Chess"],["esports","🎮 Esports"],["othersport","🥇 Other sports"],["clubs","👥 Clubs & communities"],["arts","🎨 Arts & creative"],["hiking","🥾 Hiking"],["running","🏃 Running"],["hackathon","💻 Hackathons"],["startup","🚀 Startups"],["case","📊 Case comps"],["research","🔬 Research"],["scholarship","🎓 Scholarships & exchange"],["conference","🎤 Conferences & MUN"],["volunteer","🤝 Volunteering"],["career","💼 Careers"],["funded","✈️ Fully funded"]];
+const SPORT_RE={football:/football|soccer|futsal/i,basketball:/basketball/i,volleyball:/volleyball/i,padel:/padel|tennis/i,swimming:/swim/i,cycling:/cycl|\bbike\b/i,ski:/\bski(ing)?\b|snowboard/i,chess:/chess/i,esports:/e-?sports|\bgaming\b|\bfifa\b|ea fc|valorant|league of legends|\blan party/i};
 function topicsOf(o){
   if(o._topics)return o._topics;
   const t=new Set(),text=o.title+" "+o.org,sport=o.sport==="tennis"?"padel":o.sport;
@@ -296,6 +296,7 @@ function topicsOf(o){
   if(o.source==="bulk-conferences"||/conference|summit|forum|\bmun\b|model united|debat|symposium|congress/i.test(o.title))t.add("conference");
   if(o.funded==="full")t.add("funded");
   if(o.club)t.add("clubs");
+  if(/^bulk-tournaments/.test(o.source||"")||/tournament|championship|\bcup\b|\bopen\b|league|olympiad|contest|competition|regatta|\bmeet\b/i.test(o.title))t.add("tournament");
   if(o.art||(o.tags||[]).includes("arts")||/painting|drawing|\barts?\b|illustration|photograph|film festival|short film|music|song|dance|theat(er|re)|poetry|writing contest|essay contest|pottery|ceramic|craft/i.test(o.title))t.add("arts");
   return(o._topics=t);
 }
