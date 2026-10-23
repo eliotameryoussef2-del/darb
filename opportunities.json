@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T13:09:39.559Z",
- "count": 410,
+ "updated": "2026-10-23T13:18:18.759Z",
+ "count": 476,
  "opportunities": [
   {
    "id": "hk-amazon-dev-2026",
@@ -1330,6 +1330,92 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "fd-emotic-mediation-advocacy-vienna-2026",
+   "cat": "community",
+   "title": "Mediation and Advocacy Competences and Tactics for Sustainable Futures (Erasmus+ Training Course)",
+   "org": "EMOTiC / AOD (Austria)",
+   "place": "Vienna, Austria",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free (no participation fee); EUR 500 cancellation fee after signing",
+   "deadline": "2026-10-28T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "As soon as possible, no later than 28 Oct 2026 (rolling review; results by 29 Oct)",
+   "when": "10-17 Nov 2026 (travel days included)",
+   "meet": "Jugendgästehaus Wien Brigittenau, Adalbert-Stifter-Strasse 73, 1200 Vienna",
+   "team": "Individual",
+   "tags": [
+    "volunteering",
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Youth workers, trainers, facilitators, leaders, educators or volunteers actively working with young people",
+     "University: Not applicable",
+     "Nationality/residency: Must live in Austria, Croatia, France, Italy, Latvia, Algeria, Egypt, Lebanon or Tunisia; Lebanon explicitly eligible",
+     "Age: 24-35",
+     "Team: Individual",
+     "Other: English B2+; local follow-up reaching 15+ young people by 30 Jan 2027; participants from Lebanon must already hold a valid Schengen visa (no visa support or invitation letters)"
+    ]
+   },
+   "money": [
+    [
+     "Participation fee",
+     "None",
+     "yes"
+    ],
+    [
+     "Accommodation",
+     "Covered by host",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Covered during the activity",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Reimbursed up to EUR 400 for Lebanon",
+     "partial"
+    ],
+    [
+     "Visa",
+     "Not provided; must already hold a valid Schengen visa",
+     "no"
+    ],
+    [
+     "Insurance",
+     "Activity insurance by AOD; own travel health insurance required",
+     "partial"
+    ]
+   ],
+   "steps": [
+    "Read the info pack and submit the Google application form linked on the page by 28 Oct 2026.",
+    "If selected, sign the participation agreement and send passport/ID copy within 24 hours.",
+    "Book travel only after written approval of your travel plan."
+   ],
+   "contact": [
+    [
+     "Email",
+     "arabdiplomacy.org@gmail.com",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.emotic.org/projects/mediation",
+   "confidence": "High",
+   "caveat": "Only realistic for Lebanese applicants who already hold a valid Schengen visa.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": "https://www.emotic.org/assets/a7950a1ee856dc87b7724033ddb09a87.png",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "hk-codesprint-elitecoders",
    "cat": "hackathon",
    "title": "CodeSprint by Elite Coders",
@@ -2033,6 +2119,76 @@
    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/579/349/datas/large.png",
    "logo": null,
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "ar-nordart-2027",
+   "cat": "community",
+   "art": "painting",
+   "title": "NordArt 2027 – international call for artists",
+   "org": "Kunstwerk Carlshütte (NordArt)",
+   "place": "Büdelsdorf, Germany (exhibition); online application",
+   "travel": false,
+   "funded": "none",
+   "feeUSD": 0,
+   "feeText": "Free to apply (selected artists pay transport of works)",
+   "deadline": "2026-10-31T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "31 Oct 2026 (postmark for postal entries)",
+   "when": "Apply by 31 Oct 2026; exhibition 5 Jun – 3 Oct 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "prize": "NordArt Prize €10,000; three Public Choice Awards €1,000",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Artists (contemporary visual art)",
+     "University: Any",
+     "Nationality/residency: 'Artists from around the world' – Lebanon eligible",
+     "Age: Not stated",
+     "Team: Individual",
+     "CV and up to 10 images of works (painting, sculpture, installation, photography, video)"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "Free",
+     "yes"
+    ],
+    [
+     "Shipping of works",
+     "Paid by the artist",
+     "no"
+    ],
+    [
+     "Insurance and installation",
+     "Covered by NordArt",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Apply online with contact details, CV and up to 10 images (under 1MB each), or email application@nordart.de, before 31 Oct 2026."
+   ],
+   "contact": [
+    [
+     "Email",
+     "application@nordart.de",
+     "Published on the application page"
+    ]
+   ],
+   "url": "https://www.nordart.de/en/artists/application-2027",
+   "confidence": "High",
+   "caveat": "Aimed at practising artists; selected artists pay to ship works to Germany.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "sc-fel-ellis-phd-2027",
@@ -2749,6 +2905,60 @@
    "image": "https://www.expandnorthstar.com/images/SchemaImageENS.png?v=11.3",
    "logo": null,
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "ar-bolu-biah-poster-2026",
+   "cat": "community",
+   "art": "design",
+   "title": "7th Bolu International Poster Design Competition (BIAH) – 'Beyond Horizons'",
+   "org": "Bolu Abant İzzet Baysal University, Faculty of Fine Arts",
+   "place": "Online; exhibition 1–8 Dec 2026 in Türkiye",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated on the official site",
+   "deadline": "2026-11-01T23:59:00+03:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "1 Nov 2026 (time not stated)",
+   "when": "Submissions until 1 Nov 2026; selected list 7 Nov; exhibition 1–8 Dec 2026",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Digital certificates; top three get a BIAH Achievement Certificate",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all",
+     "University: Any",
+     "Nationality/residency: Not restricted on the official theme page",
+     "Age: Not stated",
+     "Team: Individual",
+     "A3 vertical poster, 300 dpi RGB, on the theme 'Designing a Sustainable Future' (SDGs 4, 8, 9, 12, 17); text in English (or native language + English); unlimited submissions"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Read the guidelines on biahposter.com.",
+    "Submit posters via biahposter.com/submit before 1 Nov 2026."
+   ],
+   "contact": [],
+   "url": "https://biahposter.com/theme/",
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://biahposter.com/wp-content/uploads/2022/10/seo-2.webp",
+   "logo": null,
+   "imageChecked": "2026-10-23"
   },
   {
    "travel": true,
@@ -3979,12 +4189,12 @@
    ],
    "prize": "Winner £3,000; 3 shortlisted £200 + publication; 10 longlisted £50 vouchers + book subscription",
    "elig": {
-    "status": "check",
+    "status": "ok",
     "lines": [
      "Level: Open to all writers",
      "University: Any",
-     "Nationality/residency: Not stated on the prize info page",
-     "Age: Not stated",
+     "Nationality/residency: Open to writers 'from anywhere in the world' – Lebanon eligible",
+     "Age: No age restrictions",
      "Team: Individual",
      "Unpublished short story, max 6,000 words"
     ]
@@ -6404,6 +6614,91 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "fd-youth-global-forum-paris-2027",
+   "cat": "community",
+   "title": "Youth Global Forum 2027 (Paris) – Fully & Partially Funded Seats",
+   "org": "Centre for Global Dialogue and Leadership (CGDL)",
+   "place": "Paris, France",
+   "travel": true,
+   "funded": "full",
+   "feeUSD": 17,
+   "feeText": "USD 16.99 listed for funded categories; self-funded seat USD 699",
+   "deadline": "2026-11-20T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "20 Nov 2026 (funded categories; homepage says 18 Nov 2026)",
+   "when": "20-23 Jan 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange",
+    "volunteering"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all academic backgrounds",
+     "University: Any",
+     "Nationality/residency: Open to applicants from all countries; no nationality restriction stated (Lebanon not excluded)",
+     "Age: 16-46",
+     "Team: Individual",
+     "Other: Funded selection by rubric on motivation, leadership potential, relevance to themes, global awareness"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "USD 16.99 listed for funded categories (context unclear)",
+     "info"
+    ],
+    [
+     "Flights/travel",
+     "Fully funded: round-trip international airfare support; partially funded: not included",
+     "yes"
+    ],
+    [
+     "Accommodation",
+     "Twin-shared 4-star hotel (fully and partially funded)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Meals and coffee breaks",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Visa invitation letter and support (not the visa fee)",
+     "partial"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the forum page and click Apply Now (one form for fully and partially funded seats).",
+    "Submit before the funded-category deadline; selection is competitive (30 fully funded, 40 partially funded seats of 250)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@thecgdl.org",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://thecgdl.org/ygf2027/",
+   "confidence": "Medium",
+   "caveat": "Only 30 fully funded seats; most seats are paid. 'Airfare support' amount not specified. Two deadlines appear on the site (18 and 20 Nov 2026) - apply by 18 Nov to be safe.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": "https://thecgdl.org/wp-content/uploads/2025/01/cropped-CGDL-Thumbnail-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "hk-bridge-the-gap-hacks",
    "cat": "hackathon",
    "title": "Bridge The Gap Hacks",
@@ -6790,6 +7085,66 @@
    "imageChecked": "2026-10-23"
   },
   {
+   "id": "ar-isc-2026",
+   "cat": "community",
+   "art": "music",
+   "title": "International Songwriting Competition (ISC) 2026 – extended deadline",
+   "org": "International Songwriting Competition",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 35,
+   "feeText": "$35 per song per category (extended deadline)",
+   "deadline": "2026-11-23T23:59:00-05:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Extended deadline 23 Nov 2026 (time zone not stated)",
+   "when": "Entries until 23 Nov 2026; finalists Feb–Mar 2027, winners Apr–May 2027",
+   "meet": "Not stated",
+   "team": "Individual or co-writers",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Grand Prize US$25,000 cash plus gear and studio time; more than $175,000 in prizes overall",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Amateur and professional songwriters",
+     "University: Any",
+     "Nationality/residency: Open to songwriters of any nationality – Lebanon eligible",
+     "Age: Any (under 18 needs parent signature; Teen category 18 or younger)",
+     "Team: Individual or co-writers",
+     "Categories include Pop, Rock, World Music, Lyrics Only, Performance, Teen, Unsigned, Unpublished; AI use must be disclosed"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "$35 per song per category",
+     "info"
+    ],
+    [
+     "Grand prize",
+     "US$25,000",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Record or write your song (Lyrics Only category also exists).",
+    "Enter online at songwritingcompetition.com and pay per entry before 23 Nov 2026."
+   ],
+   "contact": [],
+   "url": "https://www.songwritingcompetition.com/rules",
+   "confidence": "High",
+   "caveat": "Organiser says fees and deadlines may change; special promotions may run until Jan 2027.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "fd-salto-tic-tac-rome-2027",
    "cat": "community",
    "title": "TIC TAC: Training Course & Partnership Building Activity on Mobility of Youth Workers",
@@ -7022,6 +7377,63 @@
    "image": null,
    "logo": null,
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "ar-ifl-cattaruzza-exhibition-2026",
+   "cat": "community",
+   "art": "other",
+   "title": "I Am Folding the Land – Catherine Cattaruzza (exhibition)",
+   "org": "Institut français du Liban",
+   "place": "Beit Beirut, Sodeco, Rue de Damas, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2026-11-29T20:00:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Runs until 29 Nov 2026",
+   "when": "16 Oct – 29 Nov 2026, Wednesday–Sunday 12:00–20:00",
+   "meet": "Beit Beirut, Sodeco",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Any",
+     "Nationality/residency: Open to all in Lebanon",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Visit Beit Beirut Wednesday–Sunday, 12:00–20:00, before 29 Nov 2026."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 420 200",
+     "Institut français du Liban, published on the page"
+    ]
+   ],
+   "url": "https://institutfrancais-liban.com/evenement/i-am-folding-the-land-catherine-cattaruzza/",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://institutfrancais-liban.com/wp-content/uploads/2026/10/Entete-event-site-960-x-400-px.png",
+   "logo": null,
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "sc-uni-sciencespo-boutmy-2027",
@@ -7703,6 +8115,84 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "fd-egu-2027-travel-support",
+   "cat": "research",
+   "title": "EGU General Assembly 2027 – Early Career Scientist's Travel Support & Roland Schlich Support",
+   "org": "European Geosciences Union (EGU)",
+   "place": "Vienna, Austria",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Registration fee waived for awardees",
+   "deadline": "2026-12-01T13:00:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Abstract submission by 1 Dec 2026, 13:00 CET; decisions by 9 Jan 2027",
+   "when": "4-9 Apr 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Early career scientists - students, PhD candidates or scientists within 7 years of their highest degree (BSc/MSc/PhD) as of 1 Jan 2027",
+     "University: Any",
+     "Nationality/residency: Dedicated ECSTS funds for low, lower-middle and upper-middle income non-European countries (World Bank); Lebanon qualifies under this classification",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Must be contact, first and presenting author of an abstract and an EGU 2027 member"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "Waived",
+     "yes"
+    ],
+    [
+     "Abstract processing charge",
+     "Refunded if support granted",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Up to EUR 400 at committee discretion",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Not covered (not stated)",
+     "ns"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Become an EGU 2027 member.",
+    "Submit your abstract (call opens 28 Oct 2026) and apply for support with it by 1 Dec 2026, 13:00 CET."
+   ],
+   "contact": [],
+   "url": "https://www.egu27.eu/attendance/financial_support_and_waivers.html",
+   "confidence": "High",
+   "caveat": "Requires an accepted geoscience abstract; funds limited. Undergraduate/Master's students can also get free virtual registration.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": "https://www.egu27.eu/favicon_egu_180x180_.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "sc-emjm-mundus-mapp-2027",
    "cat": "exchange",
    "title": "Mundus MAPP – Erasmus Mundus Master's in Public Policy 2027–2029",
@@ -7997,6 +8487,138 @@
    "image": null,
    "logo": null,
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "ar-chicago-latino-poster-2027",
+   "cat": "community",
+   "art": "design",
+   "title": "43rd Chicago Latino Film Festival Poster Contest 2027",
+   "org": "International Latino Cultural Center of Chicago",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": "2026-12-01T23:59:00-06:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "1 Dec 2026, 23:59 (time zone not stated – assume Chicago)",
+   "when": "Entries until 1 Dec 2026; winner announced late Jan 2027",
+   "meet": "Not stated",
+   "team": "Individual, team or design firm (max 3 entries)",
+   "tags": [
+    "arts"
+   ],
+   "prize": "US$1,000 and the poster becomes the festival's official image",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all artists",
+     "University: Any",
+     "Nationality/residency: Worldwide entries accepted; preference to Illinois/Midwest artists and Latino artists worldwide",
+     "Age: Not stated",
+     "Team: Individuals, teams or design firms, up to 3 entries",
+     "Theme 'Latino Stories for Movie Lovers'; 18x24in vertical; no fully AI-produced works"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Free",
+     "yes"
+    ],
+    [
+     "Prize",
+     "US$1,000",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Design a poster including '43rd Chicago Latino Film Festival' and 'April 15-26, 2027'.",
+    "Submit via the online form on the contest page before 1 Dec 2026."
+   ],
+   "contact": [
+    [
+     "Email",
+     "design@latinoculturalcenter.org",
+     "Published on the contest page"
+    ]
+   ],
+   "url": "https://chicagolatinofilmfestival.org/poster-contest-2",
+   "confidence": "High",
+   "caveat": "Organisers give preference to Midwest and Latino artists.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://chicagolatinofilmfestival.org/wp-content/uploads/2025/10/CLFF-poster-Contest-poster-1-scaled.png",
+   "logo": "https://chicagolatinofilmfestival.org/wp-content/uploads/2023/01/cropped-Chicago-Latino-Film-Festival-International-Latino-Cultural-Center-of-Chicago-5-1-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-aftermath-project-grant-2026",
+   "cat": "community",
+   "art": "photography",
+   "title": "The Aftermath Project 2026 Post-Conflict Grant (US$25,000)",
+   "org": "The Aftermath Project",
+   "place": "Online application; project in any post-conflict area",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated on the application page",
+   "deadline": "2026-12-01T23:59:00-08:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "1 Dec 2026, midnight Pacific Time (2 Dec 09:59 Beirut)",
+   "when": "Apply by 1 Dec 2026; project to be completed by 1 Jan 2028",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "prize": "One US$25,000 production grant plus four finalists",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Working photographers (not for full-time students – fits young graduates)",
+     "University: Not applicable",
+     "Nationality/residency: Worldwide – Lebanon eligible",
+     "Age: Not stated",
+     "Team: Individual",
+     "Still-photography project on the aftermath of conflict; full-time students are NOT eligible"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Grant",
+     "US$25,000",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Prepare signed form, 2-page proposal, up to 30 JPGs, caption sheet and bio.",
+    "Click 'Apply Now' and send the files by WeTransfer/Drive/Dropbox to aftermathprojectinfo@gmail.com before 1 Dec 2026."
+   ],
+   "contact": [
+    [
+     "Email",
+     "aftermathprojectinfo@gmail.com",
+     "Published on the application page"
+    ]
+   ],
+   "url": "https://theaftermathproject.org/application/2026-post-conflict-grant-application",
+   "confidence": "High",
+   "caveat": "Full-time students cannot apply – for recent graduates and working photographers.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": "https://theaftermathproject.org/sites/all/themes/aftermath/apple-touch-icon-precomposed-x144.png",
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "hk-wpy-2027",
@@ -8655,6 +9277,85 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "fd-acm-w-research-conference-scholarships",
+   "cat": "research",
+   "title": "ACM-W Computer Science Research Conference Scholarships",
+   "org": "ACM-W (Association for Computing Machinery Council on Women in Computing)",
+   "place": "Any computer science research conference (your choice)",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free to apply",
+   "deadline": "2026-12-15T23:59:00-05:00",
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling windows: 15 Dec 2026 for conferences 1 Feb-31 Mar 2027; then 15 Feb, 15 Apr, 15 Jun, 15 Aug, 15 Oct",
+   "when": "Conference of your choice (one-time award)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Undergraduate and graduate students in computer science and related programmes",
+     "University: Any",
+     "Nationality/residency: No country restriction stated (Lebanon not excluded)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Aimed at advancing women in computing research; presenting a paper not required; advisor support letter required; Grace Hopper and Tapia excluded; past recipients ineligible"
+    ]
+   },
+   "money": [
+    [
+     "Travel scholarship",
+     "Up to USD 1,200 intercontinental / USD 600 intra-continental",
+     "partial"
+    ],
+    [
+     "Registration",
+     "Free registration and a mentor at some ACM SIG conferences",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Not stated (paid from the award)",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Create an ACM web account.",
+    "Complete the scholarship application (conference details, statement).",
+    "Have your advisor upload a support letter before the window deadline."
+   ],
+   "contact": [
+    [
+     "Email",
+     "acm-w-scholarship@acm.org",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://women.acm.org/scholarships",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": "https://women.acm.org/wp-content/uploads/2020/04/cropped-circle-2020-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "sc-eth-ssrf-2027",
    "cat": "research",
    "title": "ETH Zurich Student Summer Research Fellowship 2027 (Computer Science)",
@@ -9046,6 +9747,153 @@
    "caveat": "Nationality rules not stated on the application-procedure page."
   },
   {
+   "id": "ar-animayo-poster-2027",
+   "cat": "community",
+   "art": "design",
+   "title": "Animayo Gran Canaria 2027 International Poster Competition",
+   "org": "Animayo (Damián Perea Producciones)",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": "2026-12-31T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "31 Dec 2026, 23:59 Canary Islands time (1 Jan 01:59 Beirut)",
+   "when": "15 Sep – 31 Dec 2026; festival 5–8 May 2027",
+   "meet": "Not stated",
+   "team": "Individual or joint authors",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Winning poster becomes the official image of Animayo 2027 (prize details in the rules PDF)",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all",
+     "University: Any",
+     "Nationality/residency: No nationality restriction stated on the registration page",
+     "Age: Not stated on the registration page",
+     "Team: Individual or several authors",
+     "Original poster for the animation/VFX/video-game festival; see rules PDF"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Free",
+     "yes"
+    ],
+    [
+     "Prize",
+     "See rules PDF",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Read the rules (bases) PDF on the competition page.",
+    "Complete the three-step online registration form and upload your design before 31 Dec 2026."
+   ],
+   "contact": [
+    [
+     "Email",
+     "carteles@animayo.com",
+     "Published on the competition page"
+    ]
+   ],
+   "url": "https://www.animayo.com/?accion=concurso_carteles",
+   "confidence": "Medium",
+   "caveat": "Prize amount and age rule are in the rules PDF, not opened.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": "2027-01-01T23:59:00+01:00",
+   "eventDate": "2027-01-08T00:00:00+01:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-prague-open-2027",
+   "sport": "chess",
+   "title": "Prague Open 2027 (25th International Chess Festival, CZECH TOUR)",
+   "org": "AVE CHESS z.s.",
+   "place": "Olympik hotel Tristar, Prague, Czech Republic",
+   "feeUSD": 75,
+   "feeText": "Open A EUR 93.5-170 / Open B EUR 93.5-106.5 (non-hotel players; cheaper if staying at organiser hotel); rapid/blitz EUR 9",
+   "deadlineText": "Apply by 1 Jan 2027 (EUR 13 late surcharge after)",
+   "when": "8-15 Jan 2027 (rapid 10 Jan, blitz 13 Jan)",
+   "difficulty": "9-round Swiss, 90 min + 30 s/move",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open A has no limits; Open B for FIDE 1700-1999, under 1700 or unrated",
+     "University: Not restricted",
+     "Nationality/residency: International open; no nationality rule stated",
+     "Age: No age limits in A and B; C is 30+",
+     "Team: Individual",
+     "Other: Attendance before round 1 is mandatory; 25% off for women and FMs in A/B"
+    ]
+   },
+   "money": [
+    [
+     "Open B (under 1700/unrated, not at organiser hotel)",
+     "EUR 106.5",
+     "info"
+    ],
+    [
+     "Open B (if accommodated by organiser)",
+     "EUR 64",
+     "info"
+    ],
+    [
+     "Rapid or blitz",
+     "EUR 9",
+     "info"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Apply online at czechtour.net/applications/ (or email office@avechess.cz) by 1 Jan 2027.",
+    "Pay the fee at on-site registration (cash EUR/CZK/USD or card)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "office@avechess.cz",
+     "Published in the official regulations"
+    ],
+    [
+     "Phone",
+     "+420 466 535 200",
+     "Published in the official regulations"
+    ]
+   ],
+   "url": "https://www.czechtour.net/prague-open/regulations/",
+   "caveat": "Schengen visa needed for Lebanese passport holders.",
+   "image": "https://www.czechtour.net/cz/xmedia/theme/czech/img/czechtour-facebook.png",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "hk-innovart-2027",
    "cat": "hackathon",
    "title": "InnovArt 2027: Art and Technology Hack Day",
@@ -9310,6 +10158,72 @@
    "logo": "https://static.wixstatic.com/media/1dddb9_0ed7c4d72fde41f09f4e897c8b030840%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/1dddb9_0ed7c4d72fde41f09f4e897c8b030840%7Emv2.png",
    "imageChecked": "2026-10-22",
    "caveat": "Nationality rules not stated on the admission requirements page."
+  },
+  {
+   "id": "ar-post-wave-illustration-prize-2027",
+   "cat": "community",
+   "art": "drawing",
+   "title": "Post Wave Prize for Illustration 2027",
+   "org": "Post Wave Publishing UK Ltd",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated on the official page",
+   "deadline": "2027-01-04T17:30:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "4 Jan 2027, 17:30 GMT (19:30 Beirut time)",
+   "when": "Open since 1 Oct 2026 until 4 Jan 2027",
+   "meet": "Not stated",
+   "team": "Individual (one entry per person)",
+   "tags": [
+    "arts"
+   ],
+   "prize": "£3,000, funded creative trip to Anxi County (China), display at Bologna Children's Book Fair 2027, possible publication",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Emerging and aspiring illustrators not yet commercially published in children's books (self-published OK)",
+     "University: Any",
+     "Nationality/residency: 'Entrants from anywhere in the world' – Lebanon eligible",
+     "Age: 18 and over",
+     "Team: Individual",
+     "Children's book cover + one double-page spread with text; any media but no AI; max A3, 10MB total"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Prize",
+     "£3,000 + funded trip to China",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Prepare a cover and one double-page spread with supporting text (JPEG/PDF, max 10MB).",
+    "Submit via the 'Enter now' page before 4 Jan 2027, 17:30 GMT."
+   ],
+   "contact": [
+    [
+     "Email",
+     "PWPrize@postwavepublishing.com",
+     "Published on the prize page"
+    ]
+   ],
+   "url": "https://postwavepublishing.com/about/post-wave-prize-for-illustration/",
+   "confidence": "High",
+   "caveat": "Aggregator lists it as free; the official page does not mention a fee.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://postwavepublishing.com/wp-content/uploads/2026/09/PW_Promo_Slides_1560x430px_PW_Illustration_Prize_General_UK-scaled.jpg",
+   "logo": "https://postwavepublishing.com/wp-content/uploads/2024/07/cropped-favicon-192x192.png",
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "sc-emjm-ilspsd-2027",
@@ -9642,6 +10556,82 @@
    "caveat": "Nationality rules not stated."
   },
   {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": "2027-01-06T23:59:00+01:00",
+   "eventDate": "2027-01-16T00:00:00+01:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-marienbad-open-2027",
+   "sport": "chess",
+   "title": "Marienbad Open 2027 (CZECH TOUR)",
+   "org": "AVE CHESS z.s.",
+   "place": "Continental Hotel, Marianske Lazne, Czech Republic",
+   "feeUSD": 100,
+   "feeText": "Open C EUR 85-119 (non-hotel players; EUR 42.5-76.5 if accommodated by organiser); rapid/blitz EUR 9",
+   "deadlineText": "Apply by 6 Jan 2027 (EUR 13 late surcharge after)",
+   "when": "16-23 Jan 2027 (mandatory check-in Fri 15 Jan, 17:00-20:00)",
+   "difficulty": "Open C: 9-round Swiss, 90 min/40 moves + 30 min + 30 s/move",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open C has no rating limits (GM/IM round-robins need 2200+)",
+     "University: Not restricted",
+     "Nationality/residency: International open; no nationality rule stated",
+     "Age: No age limits in Open C",
+     "Team: Individual",
+     "Other: 25% off for women, FMs and over-65s"
+    ]
+   },
+   "money": [
+    [
+     "Open C (under 1700/unrated, not at organiser hotel)",
+     "EUR 119",
+     "info"
+    ],
+    [
+     "Open C (if accommodated by organiser)",
+     "EUR 76.5",
+     "info"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Apply at czechtour.net/applications/ or email office@avechess.cz by 6 Jan 2027.",
+    "Attend check-in on 15 Jan and pay the fee."
+   ],
+   "contact": [
+    [
+     "Email",
+     "office@avechess.cz",
+     "Published in the official regulations"
+    ],
+    [
+     "Phone",
+     "+420 466 535 200",
+     "Published in the official regulations"
+    ]
+   ],
+   "url": "https://www.czechtour.net/marienbad-open/regulations/",
+   "caveat": "Schengen visa needed for Lebanese passport holders.",
+   "image": "https://www.czechtour.net/cz/xmedia/theme/czech/img/czechtour-facebook.png",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "sc-emjm-imsiss-2027",
    "cat": "exchange",
    "title": "IMSISS – Erasmus Mundus International Master in Security, Intelligence and Strategic Studies 2027",
@@ -9945,6 +10935,67 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "ar-posterfor-2027",
+   "cat": "community",
+   "art": "design",
+   "title": "POSTER FOR International Poster Competition 2027 (Edition 6)",
+   "org": "POSTER FOR",
+   "place": "Online; selected posters shown in Times Square, New York",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 40,
+   "feeText": "$40 per submission",
+   "deadline": "2027-01-10T23:59:00-05:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "10 Jan 2027 (time zone not stated)",
+   "when": "Submissions until 10 Jan 2027; Times Square exhibition Feb 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Award certificates for 200+ selected designers; selected posters displayed on a Times Square billboard",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Designers and artists, any level",
+     "University: Any",
+     "Nationality/residency: 'Designers and artists from around the world' – Lebanon eligible",
+     "Age: Any; category F (hand-drawn) only for under-19s",
+     "Team: Individual",
+     "Categories: Climate, Technology, Art, Culture, UN SDGs, hand-drawn"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "$40 per poster",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Fill in the submission form PDF from posterfor.com.",
+    "Email it with your poster (700x1000px JPG/PDF) to info@posterfor.com, subject 'Poster Submission', and pay the $40 fee before 10 Jan 2027."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@posterfor.com",
+     "Published on the official site"
+    ]
+   ],
+   "url": "https://www.posterfor.com/",
+   "confidence": "Medium",
+   "caveat": "Paid entry; page contains some conflicting older text.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": "https://static.wixstatic.com/media/75f115_2db0d93a5ba5464da937b693e0303ee9%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/75f115_2db0d93a5ba5464da937b693e0303ee9%7Emv2.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "cf-a-chomun-2027",
    "cat": "community",
    "title": "University of Chicago Model United Nations (ChoMUN XXX) 2027",
@@ -10029,6 +11080,60 @@
    "image": null,
    "logo": null,
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "ar-pictoplasma-animation-2027",
+   "cat": "community",
+   "art": "film",
+   "title": "Pictoplasma Berlin 2027 – call for character animation films",
+   "org": "Pictoplasma",
+   "place": "Online submission; festival in Berlin, Germany",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free when entering via the Pictoplasma site",
+   "deadline": "2027-01-11T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "11 Jan 2027 (time not stated)",
+   "when": "Submissions until 11 Jan 2027; festival 29 Apr – 2 May 2027",
+   "meet": "Not stated",
+   "team": "Individual or team",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Selection for the Pictoplasma Berlin 2027 screenings (no cash prize stated)",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all, including student films",
+     "University: Any",
+     "Nationality/residency: 'From any part of the world' – Lebanon eligible",
+     "Age: Not stated",
+     "Team: Individual or team",
+     "Character-driven animated shorts, music videos or experimental work, about 1–15 min, Full HD QuickTime; largely AI-made work unlikely to be considered"
+    ]
+   },
+   "money": [
+    [
+     "Submission fee",
+     "Free via Pictoplasma site",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Download the entry form PDF from the Pictoplasma animation page.",
+    "Email a download link to your film with the completed form to the address in the form before 11 Jan 2027."
+   ],
+   "contact": [],
+   "url": "https://conference.pictoplasma.com/animation/",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://conference.pictoplasma.com/files/Animation_share.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "sc-emjm-imaging-2027",
@@ -10370,6 +11475,118 @@
    "caveat": "Devpost rules page returned 403 during this audit; eligibility could not be re-confirmed."
   },
   {
+   "id": "ar-silent-manga-audition-25",
+   "cat": "community",
+   "art": "drawing",
+   "title": "Silent Manga Audition SMA25 – 'A Kind Heart'",
+   "org": "Silent Manga Audition (Coamix)",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2027-01-15T23:59:00+09:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "15 Jan 2027 (time not stated)",
+   "when": "Submissions until 15 Jan 2027; results 30 Apr 2027",
+   "meet": "Not stated",
+   "team": "Individual, group or partners",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Grand Prix ¥500,000 + MasterClass offer; runner-up ¥300,000; Excellence ¥100,000; all entries get editorial feedback",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Creators of all ages and levels",
+     "University: Any",
+     "Nationality/residency: 'Creators of all ages from across the world' – Lebanon eligible",
+     "Age: Any",
+     "Team: Individual or group",
+     "Silent manga (no dialogue), 5–17 pages, read right-to-left, theme 'A Kind Heart' (omoiyari)"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Grand Prix",
+     "¥500,000",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Draw a 5–17 page silent manga on the theme.",
+    "Export pages as PNG, zip them, and submit via the Google Form on the SMA25 page (needs a Gmail account) before 15 Jan 2027."
+   ],
+   "contact": [],
+   "url": "https://www.manga-audition.com/sma25-a-kind-heart/",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://www.manga-audition.com/img/ogp/sns_sma25.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-ashkal-alwan-afteruse-2026",
+   "cat": "community",
+   "art": "other",
+   "title": "Afteruse – Ali Merhi (exhibition)",
+   "org": "Ashkal Alwan",
+   "place": "Ashkal Alwan, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2027-01-15T18:00:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Runs until 15 Jan 2027",
+   "when": "16 Oct 2026 – 15 Jan 2027, Monday–Friday 12:00–18:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Any",
+     "Nationality/residency: Open to all in Lebanon",
+     "Age: Not stated",
+     "Team: Individual",
+     "Sculptures and sound works made from everyday objects"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Visit Ashkal Alwan Monday–Friday, 12:00–18:00, before 15 Jan 2027."
+   ],
+   "contact": [],
+   "url": "https://ashkalalwan.org/program.php?category=4&id=550",
+   "confidence": "Medium",
+   "caveat": "Address and fee not on the page.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "sc-emjm-choreomundus-2027",
    "cat": "exchange",
    "title": "Choreomundus – Erasmus Mundus Master in Dance Knowledge, Practice and Heritage 2027",
@@ -10434,6 +11651,91 @@
    "logo": "https://choreomundus.org/wp-content/uploads/2020/07/cropped-favicon-192x192.png",
    "imageChecked": "2026-10-22",
    "caveat": "For graduates; the page does not say whether final-year students can apply."
+  },
+  {
+   "id": "fd-iau-ga-2027-grants",
+   "cat": "research",
+   "title": "IAU General Assembly 2027 Grants (Rome)",
+   "org": "International Astronomical Union (IAU)",
+   "place": "Rome, Italy",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": null,
+   "feeText": "Early registration fee applies if not selected (amount not stated on grant page)",
+   "deadline": "2027-01-15T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "15 Jan 2027, 23:59 CET (abstracts and grant applications); outcomes by 30 Apr 2027",
+   "when": "10-19 Aug 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not limited to students; career stage considered; priority to early-career researchers",
+     "University: Any",
+     "Nationality/residency: Priority to applicants from OECD ODA-eligible countries (Lebanon is ODA-eligible)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Must submit an abstract to a scientific session and register online first; English only"
+    ]
+   },
+   "money": [
+    [
+     "Registration",
+     "Eligible expense",
+     "partial"
+    ],
+    [
+     "Flights/travel",
+     "Eligible expense (amount not stated)",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Eligible expense",
+     "partial"
+    ],
+    [
+     "Child care",
+     "Eligible expense",
+     "partial"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Submit your abstract(s) for the GA.",
+    "Register online (choose bank transfer to avoid immediate payment).",
+    "Apply for the grant in ConfTool by 15 Jan 2027."
+   ],
+   "contact": [
+    [
+     "Email",
+     "scientific@iaurome2027.org",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://iaurome2027.org/iau-grant/",
+   "confidence": "Medium",
+   "caveat": "Aimed at astronomers presenting work; grant amounts not published; oversubscription expected.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": "https://iaurome2027.org/wp-content/uploads/2026/02/Logo_IAU27_fullcol-website-small-1.png",
+   "logo": "https://iaurome2027.org/wp-content/uploads/2026/02/cropped-Logo_IAU27_fullcol-website-small-192x192.png",
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "sc-emjm-euroculture-2027",
@@ -12651,6 +13953,86 @@
    "imageChecked": "2026-10-23"
   },
   {
+   "id": "fd-company-of-biologists-travelling-fellowships",
+   "cat": "research",
+   "title": "Company of Biologists Travelling Fellowships (Development, Journal of Cell Science, Journal of Experimental Biology)",
+   "org": "The Company of Biologists",
+   "place": "Host laboratory anywhere in the world",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free to apply",
+   "deadline": "2027-02-05T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Next round 5 Feb 2027 (then 7 May, 6 Aug, 5 Nov 2027)",
+   "when": "Collaborative lab visit starting within 6 months of award",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research",
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Early-career scientists - graduate students and postdocs",
+     "University: Any",
+     "Nationality/residency: No nationality restriction; cannot pay recipients in jurisdictions under UN/EU/UK sanctions",
+     "Age: Not stated",
+     "Team: Individual (one applicant per lab per round)",
+     "Other: Must work in the field of the chosen journal; letters from Head of Department, supervisor and host lab; CV and publication list"
+    ]
+   },
+   "money": [
+    [
+     "Award",
+     "Up to GBP 3,000",
+     "info"
+    ],
+    [
+     "Flights/travel",
+     "Covered from the award",
+     "partial"
+    ],
+    [
+     "Accommodation & subsistence",
+     "Covered from the award",
+     "partial"
+    ],
+    [
+     "Visa",
+     "Covered from the award",
+     "partial"
+    ],
+    [
+     "Bench/user fees",
+     "Covered from the award",
+     "partial"
+    ],
+    [
+     "Insurance",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Read the FAQs and applicant handbook.",
+    "Submit the online application with the required letters, CV and publication list before the round deadline.",
+    "If successful, sign the grant agreement; upload receipts and a short report after the visit."
+   ],
+   "contact": [],
+   "url": "https://www.biologists.com/grants/travelling-fellowships/",
+   "confidence": "High",
+   "caveat": "Best for graduate researchers in biology; undergraduates are not the target.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": "https://www.biologists.com/wp-content/uploads/2015/07/Banner_Dev_140_092.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "sc-emjm-radmep-2027",
    "cat": "exchange",
    "title": "RADMEP – Erasmus Mundus Master in Radiation and its Effects on MicroElectronics and Photonics Technologies 2027",
@@ -12873,6 +14255,76 @@
    "image": null,
    "logo": null,
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "ar-cannes-la-cinef-2027",
+   "cat": "community",
+   "art": "film",
+   "title": "La Cinef 2027 – Cannes Film Festival selection for film-school films",
+   "org": "Festival de Cannes",
+   "place": "Online submission; festival in Cannes, France",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2027-02-15T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "15 Feb 2027 (form filled and film uploaded by then)",
+   "when": "Submissions until 15 Feb 2027; festival May 2027",
+   "meet": "Not stated",
+   "team": "Film-school film (director/rights-holder submits)",
+   "tags": [
+    "arts"
+   ],
+   "prize": "1st prize €15,000, 2nd €11,000, 3rd €7,500",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Film-school students (films from film schools)",
+     "University: Film schools – any country",
+     "Nationality/residency: No nationality rule in the 2027 regulations – Lebanese film schools not excluded",
+     "Age: Not stated",
+     "Team: Film-school production",
+     "Fiction or animation, max 60 minutes, made in the 18 months before the festival, not shown at major international festivals; documentaries not accepted"
+    ]
+   },
+   "money": [
+    [
+     "Submission fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "1st prize",
+     "€15,000",
+     "info"
+    ],
+    [
+     "Travel to Cannes if selected",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Create a 'My Account' on the Festival de Cannes site.",
+    "Fill in the La Cinef application form and upload the film before 15 Feb 2027."
+   ],
+   "contact": [
+    [
+     "Email",
+     "lacinef@festival-cannes.fr",
+     "Published in the 2027 regulations"
+    ]
+   ],
+   "url": "https://www.festival-cannes.com/en/take-part/submit-a-film/la-cinef-rules-and-regulations/",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "sc-emjm-lascala-2027",
@@ -13478,6 +14930,87 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": "2027-03-02T23:59:00+01:00",
+   "eventDate": "2027-03-13T00:00:00+01:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-novy-bor-open-2027",
+   "sport": "chess",
+   "title": "Novy Bor Open 2027 (5th International Chess Festival, CZECH TOUR)",
+   "org": "AVE CHESS z.s. (CZECH TOUR)",
+   "place": "Grandhotel Novy Bor, Novy Bor, Czech Republic",
+   "feeUSD": 100,
+   "feeText": "EUR 64-98 (non-hotel players; EUR 42.5-76.5 if accommodated by organiser)",
+   "deadlineText": "Apply by 2 Mar 2027 (EUR 13 late surcharge after)",
+   "when": "13-20 Mar 2027",
+   "difficulty": "Open group: 9-round Swiss, 90 min/40 moves + 30 min + 30 s/move",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open group has no age or rating limits (GM/IM round-robins need 2200+)",
+     "University: Not restricted",
+     "Nationality/residency: International open; no nationality rule stated",
+     "Age: No age limits in the open group",
+     "Team: Individual",
+     "Other: 25% off for women, FMs and over-65s"
+    ]
+   },
+   "money": [
+    [
+     "Open group (under 1700/unrated, not at organiser hotel)",
+     "EUR 98",
+     "info"
+    ],
+    [
+     "Open group (if accommodated by organiser)",
+     "EUR 76.5",
+     "info"
+    ],
+    [
+     "Rapid or blitz side events",
+     "EUR 9",
+     "info"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Apply at czechtour.net/applications/ or email office@avechess.cz before the deadline.",
+    "Attend registration before round 1 and pay (cash EUR/CZK/USD or card)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "office@avechess.cz",
+     "Published in the official regulations"
+    ],
+    [
+     "Phone",
+     "+420 466 535 200",
+     "Published in the official regulations"
+    ]
+   ],
+   "url": "https://www.czechtour.net/novy-bor-open/regulations/",
+   "caveat": "Schengen visa needed for Lebanese passport holders. USD figure approximate.",
+   "image": "https://www.czechtour.net/cz/xmedia/theme/czech/img/czechtour-facebook.png",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "fd-cimpa-modelisation-mathematiques-et-intelligen",
    "cat": "research",
    "title": "CIMPA Research School: Modélisation mathématique et intelligence artificielle au service des sciences de la santé et de l'environnement",
@@ -13559,6 +15092,87 @@
    "source": "bulk-funded",
    "added": "2026-10-23",
    "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": "2027-03-11T23:59:00+01:00",
+   "eventDate": "2027-03-21T16:00:00+01:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-pilsen-open-2027",
+   "sport": "chess",
+   "title": "Pilsen Open 2027 (CZECH TOUR)",
+   "org": "AVE CHESS z.s. (CZECH TOUR)",
+   "place": "Parkhotel Plzen, Pilsen, Czech Republic",
+   "feeUSD": 100,
+   "feeText": "EUR 64-98 (non-hotel players; EUR 42.5-76.5 if accommodated by organiser); CZK 40,000 prize fund in the open",
+   "deadlineText": "Apply by 11 Mar 2027 (EUR 13 late surcharge after)",
+   "when": "21-28 Mar 2027 (round 1 Sun 21 Mar 16:00; blitz 23 Mar, rapid 27 Mar)",
+   "difficulty": "Open group: 9-round Swiss, 90 min/40 moves + 30 min + 30 s/move",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open group has no age or rating limits (GM/IM round-robins need 2200+)",
+     "University: Not restricted",
+     "Nationality/residency: International open; no nationality rule stated",
+     "Age: No age limits in the open group",
+     "Team: Individual",
+     "Other: 25% off for women, FMs and over-65s; hotel rooms from EUR 81/night"
+    ]
+   },
+   "money": [
+    [
+     "Open group (under 1700/unrated, not at organiser hotel)",
+     "EUR 98",
+     "info"
+    ],
+    [
+     "Open group (if accommodated by organiser)",
+     "EUR 76.5",
+     "info"
+    ],
+    [
+     "Rapid or blitz side events",
+     "EUR 9",
+     "info"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Apply at czechtour.net/applications/ or email office@avechess.cz before the deadline.",
+    "Attend registration before round 1 and pay (cash EUR/CZK/USD or card)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "office@avechess.cz",
+     "Published in the official regulations"
+    ],
+    [
+     "Phone",
+     "+420 466 535 200",
+     "Published in the official regulations"
+    ]
+   ],
+   "url": "https://www.czechtour.net/pilsen-open/regulations/",
+   "caveat": "Schengen visa needed for Lebanese passport holders. USD figure approximate.",
+   "image": "https://www.czechtour.net/cz/xmedia/theme/czech/img/czechtour-facebook.png",
    "logo": null,
    "imageChecked": "2026-10-23"
   },
@@ -13991,6 +15605,77 @@
    "url": "https://oceanmanswim.com/races/ayia-napa-cyprus-2027",
    "caveat": "Sprint pricing on the registration page is slightly inconsistent; confirm at checkout.",
    "image": "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/1234c9a3-e533-4bd9-af9a-cc6beccad411",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-red-dot-design-concept-2027",
+   "cat": "community",
+   "art": "design",
+   "title": "Red Dot Award: Design Concept 2027 (incl. Next Gen for under-30s)",
+   "org": "Red Dot",
+   "place": "Online; results and exhibition in Singapore",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Fees not yet published; Next Gen gets 30% off",
+   "deadline": "2027-04-28T23:59:00+08:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Early 1 Dec 2026–20 Jan 2027; standard to 17 Mar 2027; late to 28 Apr 2027",
+   "when": "Submissions open 1 Dec 2026; final judging May 2027, results June 2027",
+   "meet": "Not stated",
+   "team": "Individual or team",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Red Dot: Luminary; Red Dot: Peter Zec Prize with SGD 10,000 sponsorship",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Designers; Next Gen category for design students and young professionals",
+     "University: Any",
+     "Nationality/residency: No nationality rule stated",
+     "Age: Next Gen – under 30 before the competition year starts",
+     "Team: Individual or team",
+     "Unrealised design concepts and prototypes"
+    ]
+   },
+   "money": [
+    [
+     "Submission fee",
+     "Not yet published (rises after early phase)",
+     "ns"
+    ],
+    [
+     "Next Gen discount",
+     "30% off fee and winner package",
+     "info"
+    ],
+    [
+     "Winner package",
+     "Mandatory for distinctions, price not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register on red-dot.org from 1 Dec 2026.",
+    "Submit your concept (early phase until 20 Jan 2027 is cheapest); final deadline 28 Apr 2027."
+   ],
+   "contact": [
+    [
+     "Email",
+     "award@red-dot.sg",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.red-dot.org/design-concept/dates-fees",
+   "confidence": "Medium",
+   "caveat": "Paid entry; fees and winner-package costs not yet published.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-23"
   },
@@ -15054,6 +16739,134 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-11-09T00:00:00+04:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Low",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-abu-dhabi-world-amateur-jj-2026",
+   "sport": "martial-arts",
+   "title": "Abu Dhabi World Amateur Jiu-Jitsu Championship 2026",
+   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
+   "place": "Mubadala Arena, Abu Dhabi, UAE",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "9-10 Nov 2026",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Amateur jiu-jitsu athletes",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated (see AJP divisions)",
+     "Team: Individual",
+     "Other: Entry rules (belt, ranking, registration via AJP account) not visible on the page that loaded"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the AJP Tour events page and select the World Amateur Championship 2026.",
+    "Register online with an AJP account."
+   ],
+   "url": "https://ajptour.com/federation/1/events",
+   "caveat": "Only the AJP calendar listing could be opened; the event page (ajptour.com/en/event/1529) blocked access, so fee and entry rules are unverified.",
+   "contact": [],
+   "image": "https://ajptour.com/pictures/t/1843208-gmyy/ajp.png",
+   "logo": "https://ajptour.com/build/webpack/img/favicon/ajp/apple-touch-icon.517f4ac87201fceee8ae..png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-12-04T00:00:00+03:00",
+   "meet": "Basaksehir Genclik ve Spor Ilce Mudurlugu Tesisleri, Istanbul",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Low",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-ajp-world-nogi-istanbul-2026",
+   "sport": "martial-arts",
+   "title": "AJP World Jiu-Jitsu No-Gi Championship 2026 (Istanbul)",
+   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
+   "place": "Istanbul, Turkey",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "4-6 Dec 2026",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: No-Gi grappling"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the AJP Tour events page and select the No-Gi World Championship 2026.",
+    "Register online with an AJP account."
+   ],
+   "url": "https://ajptour.com/en/events-1/events-calendar-2026",
+   "caveat": "Only the AJP calendar listing could be opened; event page blocked access.",
+   "contact": [],
+   "image": "https://ajptour.com/pictures/t/1843208-gmyy/ajp.png",
+   "logo": "https://ajptour.com/build/webpack/img/favicon/ajp/apple-touch-icon.517f4ac87201fceee8ae..png",
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "ar-ifl-club-lecture-2026",
    "cat": "community",
    "art": "writing",
@@ -15326,6 +17139,806 @@
    "added": "2026-10-23",
    "image": null,
    "logo": "https://fabricadesignplatform.com/wp-content/uploads/2023/10/cropped-logoarabic-01-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-alkafaat-uff-2026",
+   "cat": "community",
+   "art": "film",
+   "title": "AlKafaāt University Film Festival 2026 – screenings and masterclasses",
+   "org": "Al Kafaat University",
+   "place": "AlKafaāt Auditorium, Al Kafaat University campus, Ain Saadeh, Mount Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free and open to the public",
+   "deadline": null,
+   "eventDate": "2026-11-11T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No registration stated – free entry over the three days",
+   "when": "11–13 Nov 2026 (daily times not stated)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Any",
+     "Nationality/residency: Open to all in Lebanon",
+     "Age: Not stated",
+     "Team: Individual",
+     "Short-film screenings, masterclasses (directing, cinematography, editing, sound), filmmaker Q&As and awards ceremony"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Free",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Go to the AlKafaāt Auditorium in Ain Saadeh on 11–13 Nov 2026; check the programme on the festival page."
+   ],
+   "contact": [
+    [
+     "Email",
+     "filmfestival@aku.edu.lb",
+     "Published on the festival page"
+    ]
+   ],
+   "url": "https://aku.edu.lb/filmfestival.html",
+   "confidence": "High",
+   "caveat": "Film submissions are closed; this item is for attending screenings and masterclasses.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-reedsy-weekly-contest",
+   "cat": "community",
+   "art": "writing",
+   "title": "Reedsy Prompts weekly short story contest",
+   "org": "Reedsy",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 5,
+   "feeText": "$5 per contest entry (posting free stories is free but not judged)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Every Friday 23:59 EST (Saturday 06:59 Beirut time)",
+   "when": "Weekly: five new prompts each Friday, entries close the following Friday",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "prize": "$250 weekly winner + publication; shortlisted get $25 Reedsy credit",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all writers",
+     "University: Any",
+     "Nationality/residency: Open internationally – Lebanon eligible (winners need PayPal)",
+     "Age: 18 and over",
+     "Team: Individual",
+     "1,000–3,000 words in English, unpublished, standalone story based on a weekly prompt"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "$5",
+     "info"
+    ],
+    [
+     "Prize",
+     "$250 via PayPal",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Create a free Reedsy Prompts account.",
+    "Pick one of the week's prompts, write 1,000–3,000 words.",
+    "Submit to the contest and pay $5 before Friday 23:59 EST."
+   ],
+   "contact": [],
+   "url": "https://reedsy.com/creative-writing-prompts/contests/",
+   "confidence": "High",
+   "caveat": "Prize paid via PayPal, which may be hard to receive in Lebanon.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://blog-cdn.reedsy.com/assets/writing-prompts/og-image-401b29f7dce0d35883e1e50c9794e20de8848e28bb1e2bec9f49fa66765fd243.jpg",
+   "logo": "https://blog-cdn.reedsy.com/assets/icons/favicon/apple-icon-180x180-10c058b4a65ae9f56578a8afd5ba7798acce80cffc0597369e9c57f2ad4c7f18.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-bac-mohamad-kanaan-2026",
+   "cat": "community",
+   "art": "drawing",
+   "title": "Mohamad Kanaan – The Joy of Becoming (exhibition with performances and workshops)",
+   "org": "Beirut Art Center",
+   "place": "Beirut Art Center, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-12T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "Opens 12 Nov 2026",
+   "when": "12 Nov 2026 – 12 Feb 2027; programme of performances, workshops and collective events alongside",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Any",
+     "Nationality/residency: Open to all in Lebanon",
+     "Age: Not stated",
+     "Team: Individual",
+     "Solo show mixing drawing, sculpture, textiles, moving image, sound and performance"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Visit Beirut Art Center between 12 Nov 2026 and 12 Feb 2027; watch the event page for workshop dates."
+   ],
+   "contact": [],
+   "url": "https://beirutartcenter.org/event/mohamad-kanaan-the-joy-of-becoming/",
+   "confidence": "Medium",
+   "caveat": "Opening hours, fee and workshop dates not stated on the page.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://beirutartcenter.org/wp-content/uploads/2026/10/261014_BAC_MK_Horizontal-scaled.png",
+   "logo": "https://beirutartcenter.org/wp-content/uploads/2021/06/cropped-bac-icon-rounded-512-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-lau-raed-charaf-talk-2026",
+   "cat": "community",
+   "art": "drawing",
+   "title": "Behind the Image: A Conversation with Raëd Charaf (illustrator)",
+   "org": "Institute of Art in the Arab World, LAU School of Architecture and Design",
+   "place": "LAU Beirut campus, Gezairi building, room 1002",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-28T13:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No registration stated",
+   "when": "28 Oct 2026, 13:00–14:00",
+   "meet": "Gezairi building, room 1002",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated (held on LAU campus)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Go to Gezairi building room 1002 at LAU Beirut on 28 Oct 2026 at 13:00."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20261023_behind-the-image-a-conversation-",
+   "confidence": "Medium",
+   "caveat": "Page does not say whether non-LAU students can attend.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://eventscal.lau.edu.lb/images/RAED-1200.jpg?v=2",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-lau-primavera-screening-2026",
+   "cat": "community",
+   "art": "film",
+   "title": "Primavera: Italian Film Screening",
+   "org": "LAU Department of English and Creative Arts, with the Embassy of Italy and Italian Cultural Institute",
+   "place": "Irwin Hall Auditorium, LAU Beirut campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free entry",
+   "deadline": null,
+   "eventDate": "2026-10-27T18:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No registration stated",
+   "when": "27 Oct 2026, 18:00",
+   "meet": "Irwin Hall Auditorium",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Any",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Film by Damiano Michieletto, set in 18th-century Venice"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Free",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Go to Irwin Hall Auditorium, LAU Beirut, on 27 Oct 2026 at 18:00."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20261016_primavera-italian-film-screening",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://eventscal.lau.edu.lb/images/PRIMAVERA.jpg?v=2",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-lau-music-nights-piano-trio-2026",
+   "cat": "community",
+   "art": "music",
+   "title": "LAU Music Nights: Piano Trio",
+   "org": "LAU School of Arts and Sciences",
+   "place": "Irwin Auditorium, LAU Beirut campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-24T20:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No registration stated",
+   "when": "24 Nov 2026, 20:00–21:00",
+   "meet": "Irwin Auditorium",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated (held on LAU campus)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Go to Irwin Auditorium, LAU Beirut, on 24 Nov 2026 at 20:00."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20260821_lau-music-night-piano-trio",
+   "confidence": "Medium",
+   "caveat": "Audience and fee not stated.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://toolbox.lau.edu.lb/_ui/lau-event-social-media.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-lau-choir-christmas-2026",
+   "cat": "community",
+   "art": "music",
+   "title": "LAU Choir Christmas Concert",
+   "org": "LAU School of Arts and Sciences",
+   "place": "Gulbenkian Amphitheater, LAU Beirut campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-12-03T18:30:00+02:00",
+   "rolling": false,
+   "deadlineText": "No registration stated",
+   "when": "Thu 3 Dec 2026, 18:30–19:30",
+   "meet": "Gulbenkian Amphitheater",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated (held on LAU campus)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Go to the Gulbenkian Amphitheater, LAU Beirut, on 3 Dec 2026 at 18:30."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20260821_lau-choir-christmas-concert",
+   "confidence": "Medium",
+   "caveat": "Audience and fee not stated.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://toolbox.lau.edu.lb/_ui/lau-event-social-media.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-vienna-phil-summer-academy-2027",
+   "cat": "community",
+   "art": "music",
+   "title": "Vienna Philharmonic Summer Academy 2027 – auditions",
+   "org": "Vienna Philharmonic (Wiener Philharmoniker)",
+   "place": "Vienna, Austria (live audition) or video application",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 0,
+   "feeText": "No application fee stated; €100 non-refundable deposit if accepted",
+   "deadline": null,
+   "eventDate": "2027-03-01T00:00:00+01:00",
+   "rolling": false,
+   "deadlineText": "Applications open in December 2026; deadline 'until March 2027' (exact date per instrument not stated)",
+   "when": "Auditions March 2027; results mid-April 2027; academy in summer 2027",
+   "meet": "Audition meeting point emailed a few days before",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Young orchestral musicians",
+     "University: Any",
+     "Nationality/residency: 'Young musicians of all nationalities' – Lebanon eligible",
+     "Age: 16 to 26",
+     "Team: Individual",
+     "Live audition preferred; video audition allowed if you cannot travel (not for Viennese oboe, horn, timpani)"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Deposit if accepted",
+     "€100 (non-refundable)",
+     "info"
+    ],
+    [
+     "Travel",
+     "Not reimbursed",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Wait for applications to open in December 2026.",
+    "Apply via the online form with CV, photo and contact details; add two uncut video links if auditioning by video.",
+    "Audition in March 2027."
+   ],
+   "contact": [
+    [
+     "Email",
+     "sommerakademie@wienerphilharmoniker.at",
+     "Published on the application page"
+    ]
+   ],
+   "url": "https://www.wienerphilharmoniker.at/en/youth/soak/soak2027-application",
+   "confidence": "Medium",
+   "caveat": "Exact application deadline not yet published ('until March 2027'); date shown is the audition month.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": "https://wph-live.s3.amazonaws.com/static/images/favicons/favicon-196.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-fabrica-beginner-wheel-throwing",
+   "cat": "community",
+   "art": "crafts",
+   "title": "Beginner Wheel Throwing (weekly pottery class)",
+   "org": "Fabrica Design Platform",
+   "place": "Dar Khawla Building, Chehade Street, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Weekly class – contact the studio to join",
+   "when": "Fridays 10:00–12:00 (e.g. 30 Oct 2026)",
+   "meet": "At the studio",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Beginner – no prior experience required",
+     "University: Any",
+     "Nationality/residency: Open to the public in Beirut",
+     "Age: Not stated",
+     "Team: Individual",
+     "All studio tools and equipment provided"
+    ]
+   },
+   "money": [
+    [
+     "Class fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Tools and equipment",
+     "Provided",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Contact Fabrica by email or WhatsApp to ask about price and book a place."
+   ],
+   "contact": [
+    [
+     "Email",
+     "connect@fabricadesignplatform.com",
+     "Published on the class page"
+    ],
+    [
+     "Phone/WhatsApp",
+     "+961 76 90 76 91",
+     "Published on the class page"
+    ]
+   ],
+   "url": "https://fabricadesignplatform.com/event/beginner-wheel-throwing/2026-10-30/",
+   "confidence": "Medium",
+   "caveat": "Price not stated.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": "https://fabricadesignplatform.com/wp-content/uploads/2023/10/cropped-logoarabic-01-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-fabrica-porcelain",
+   "cat": "community",
+   "art": "crafts",
+   "title": "Handbuilding & Glazing with Porcelain (weekly class)",
+   "org": "Fabrica Design Platform",
+   "place": "Dar Khawla Building, Chehade Street, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Weekly class – contact the studio to join",
+   "when": "Wednesdays 09:00–12:00 (e.g. 28 Oct and 4 Nov 2026)",
+   "meet": "At the studio",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Some prior handbuilding or wheel experience recommended",
+     "University: Any",
+     "Nationality/residency: Open to the public in Beirut",
+     "Age: Not stated",
+     "Team: Individual",
+     "Instructor Zeina Bacardi; all tools provided"
+    ]
+   },
+   "money": [
+    [
+     "Class fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Tools",
+     "Provided",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Contact Fabrica by email or WhatsApp to ask about price and book a place."
+   ],
+   "contact": [
+    [
+     "Email",
+     "connect@fabricadesignplatform.com",
+     "Published on the class page"
+    ],
+    [
+     "Phone/WhatsApp",
+     "+961 76 90 76 91",
+     "Published on the class page"
+    ]
+   ],
+   "url": "https://fabricadesignplatform.com/event/handbuilding-glazing-with-porcelain-zb/2026-10-28/",
+   "confidence": "Medium",
+   "caveat": "Price not stated.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": "https://fabricadesignplatform.com/wp-content/uploads/2023/10/cropped-logoarabic-01-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-fabrica-advanced-sculpture",
+   "cat": "community",
+   "art": "crafts",
+   "title": "Advanced Sculpture Ceramic Art (weekly class)",
+   "org": "Fabrica Design Platform",
+   "place": "Dar Khawla Building, Chehade Street, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Weekly class – contact the studio to join",
+   "when": "Mondays 12:00–15:00 (e.g. 26 Oct and 2 Nov 2026)",
+   "meet": "At the studio",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Advanced – prior handbuilding or sculpture experience recommended",
+     "University: Any",
+     "Nationality/residency: Open to the public in Beirut",
+     "Age: Not stated",
+     "Team: Individual",
+     "Instructor Zouhair Dabbagh; all tools provided; demos, open studio, critiques"
+    ]
+   },
+   "money": [
+    [
+     "Class fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Tools",
+     "Provided",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Contact Fabrica by email or WhatsApp to ask about price and book a place."
+   ],
+   "contact": [
+    [
+     "Email",
+     "connect@fabricadesignplatform.com",
+     "Published on the class page"
+    ],
+    [
+     "Phone/WhatsApp",
+     "+961 76 90 76 91",
+     "Published on the class page"
+    ]
+   ],
+   "url": "https://fabricadesignplatform.com/event/advanced-sculpture-ceramic-art/2026-11-02/",
+   "confidence": "Medium",
+   "caveat": "Price not stated.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": "https://fabricadesignplatform.com/wp-content/uploads/2023/10/cropped-logoarabic-01-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-seeds-of-change-expression-tripoli",
+   "cat": "community",
+   "art": "other",
+   "title": "Seeds of Change: a journey within into expression (art, music and movement workshop)",
+   "org": "Raw Healing Inc (Reina Hallab) with music and art therapist Nayla Abi Antoun",
+   "place": "Beit El Fan, El Mina, Tripoli",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "$50 (+$2.49 booking fee on ihjoz)",
+   "deadline": null,
+   "eventDate": "2026-10-24T10:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "Limited spaces – book before 24 Oct",
+   "when": "Sat 24 Oct 2026, 10:00–13:00",
+   "meet": "Beit El Fan, El Mina",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all – no art or movement experience required",
+     "University: Any",
+     "Nationality/residency: Open to the public in Tripoli",
+     "Age: Not stated",
+     "Team: Individual",
+     "Breathwork, creative art exploration, journaling, music and movement"
+    ]
+   },
+   "money": [
+    [
+     "Fee",
+     "$50 per person",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Pay $50 via Whish Money to 03 407 234 (or book on ihjoz).",
+    "Send the payment confirmation, your full name and phone number to the organiser."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 3 407 234",
+     "Published on the booking page"
+    ],
+    [
+     "Email",
+     "info@rawmarketing.ca",
+     "Published on the booking page"
+    ]
+   ],
+   "url": "https://ihjoz.com/events/9263",
+   "confidence": "High",
+   "caveat": "Wellbeing-oriented creative workshop rather than an art class.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9263/A62FBB74-3EA2-41B6-A9E4-472FB24D560C.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-seeds-of-change-power-of-word-tripoli",
+   "cat": "community",
+   "art": "writing",
+   "title": "Seeds of Change: Power of the Word (journaling and words workshop)",
+   "org": "Raw Healing Inc (Reina Hallab) with Yoga by Usha",
+   "place": "Usha Yoga, Tripoli",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 40,
+   "feeText": "$40 (+$2.21 booking fee on ihjoz); tea or cacao included",
+   "deadline": null,
+   "eventDate": "2026-10-27T18:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "Limited spaces – book before 27 Oct",
+   "when": "Tue 27 Oct 2026, 18:00–21:00",
+   "meet": "Usha Yoga, Tripoli",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "bring": "A journal and a pen",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all",
+     "University: Any",
+     "Nationality/residency: Open to the public in Tripoli",
+     "Age: Not stated",
+     "Team: Individual",
+     "Guided reflection, journaling and small-group sharing about the words we use"
+    ]
+   },
+   "money": [
+    [
+     "Fee",
+     "$40 per person",
+     "info"
+    ],
+    [
+     "Tea or ceremonial cacao",
+     "Included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Pay $40 via Whish Money to 03 407 234 (or book on ihjoz).",
+    "Send the payment confirmation to the organiser to confirm your place."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 3 407 234",
+     "Published on the booking page"
+    ],
+    [
+     "Email",
+     "info@rawmarketing.ca",
+     "Published on the booking page"
+    ]
+   ],
+   "url": "https://ihjoz.com/events/9264",
+   "confidence": "High",
+   "caveat": "Wellbeing-oriented journaling circle rather than a formal writing class.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9264/2F3CDB70-E9FB-40CA-9F69-01D5DF359E7A.jpg",
+   "logo": null,
    "imageChecked": "2026-10-23"
   },
   {
@@ -17937,6 +20550,1143 @@
    "club": true,
    "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/chapter_banners/blob_M23nDom",
    "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_192,q_auto:good,w_192/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_Favicon_y29LtMy.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-aws-user-group-lebanon",
+   "cat": "community",
+   "title": "AWS User Group Lebanon",
+   "org": "AWS User Group Lebanon (community group)",
+   "place": "Beirut (mostly Beirut Digital District) and online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free to join the group (Meetup shows no membership dues)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Monthly meetups, sessions and workshops (as stated by the group); recent: AWS Community Day Lebanon, 26 Sep 2026",
+   "meet": "Often BDD 1280 or 1075 Rooftop, Beirut Digital District",
+   "team": "Individual",
+   "tags": [
+    "careers",
+    "hackathon"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Anyone interested in cloud and technology",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; group is based in Lebanon",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free to join the group (Meetup shows no membership dues)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the group page on Meetup and click \"Join this group\" (free Meetup account needed).",
+    "RSVP to the next event listed on the page."
+   ],
+   "contact": [
+    [
+     "Message",
+     "Through the Meetup group page",
+     "Meetup group page"
+    ]
+   ],
+   "url": "https://www.meetup.com/aws-ug-lb/",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://secure.meetupstatic.com/photos/event/e/2/d/4/600_532558068.jpeg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-grafana-friends-beirut",
+   "cat": "community",
+   "title": "Grafana & Friends Beirut (observability meetup)",
+   "org": "Grafana & Friends (community meetup)",
+   "place": "University venues in Lebanon (LAU Beirut, BAU Tripoli)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free to join the group (Meetup shows no membership dues)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Occasional meetups (Oct 2025 at LAU Beirut; Oct 2026 at BAU Tripoli)",
+   "meet": "Venue announced per event",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to anyone interested",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; group is based in Lebanon",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free to join the group (Meetup shows no membership dues)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the group page on Meetup and click \"Join this group\" (free Meetup account needed).",
+    "RSVP to the next event listed on the page."
+   ],
+   "contact": [
+    [
+     "Message",
+     "Through the Meetup group page",
+     "Meetup group page"
+    ]
+   ],
+   "url": "https://www.meetup.com/grafana-friends-beirut/",
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://secure.meetupstatic.com/photos/event/2/1/2/9/600_530408489.jpeg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-hack-the-box-meetup-beirut",
+   "cat": "community",
+   "title": "Hack The Box Meetups: Beirut (cybersecurity community)",
+   "org": "Hack The Box Meetups",
+   "place": "Beirut universities (AUB, LAU, Lebanese University Hadat) and online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free to join the group (Meetup shows no membership dues)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Meetups and workshops during the academic year (Sep to Nov 2025, Feb 2026)",
+   "meet": "Venue announced per event",
+   "team": "Individual",
+   "tags": [
+    "hackathon",
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Anyone interested in cybersecurity and penetration testing",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; group is based in Lebanon",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free to join the group (Meetup shows no membership dues)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the group page on Meetup and click \"Join this group\" (free Meetup account needed).",
+    "RSVP to the next event listed on the page."
+   ],
+   "contact": [
+    [
+     "Message",
+     "Through the Meetup group page",
+     "Meetup group page"
+    ]
+   ],
+   "url": "https://www.meetup.com/hack-the-box-meetups-beirut-lb/",
+   "confidence": "Medium",
+   "caveat": "No upcoming event was listed on 23 Oct 2026; the latest listed event was 17 Feb 2026.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://secure.meetupstatic.com/photos/event/c/4/e/4/600_527390404.jpeg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-dotnet-lebanon",
+   "cat": "community",
+   "title": ".NET Lebanon (Dotnet Arabi developer community)",
+   "org": "Dotnet Arabi / .NET Foundation Meetup network",
+   "place": "Beirut and online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free to join the group (Meetup shows no membership dues)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Occasional meetups and online sessions (latest listed: 11 Feb 2026)",
+   "meet": "Venue announced per event",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Developers, students and tech enthusiasts",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; group is based in Lebanon",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free to join the group (Meetup shows no membership dues)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the group page on Meetup and click \"Join this group\" (free Meetup account needed).",
+    "RSVP to the next event listed on the page."
+   ],
+   "contact": [
+    [
+     "Message",
+     "Through the Meetup group page",
+     "Meetup group page"
+    ]
+   ],
+   "url": "https://www.meetup.com/dotnetlebanon/",
+   "confidence": "Medium",
+   "caveat": "No upcoming event was listed on 23 Oct 2026.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://secure.meetupstatic.com/photos/event/a/d/b/600_529202779.jpeg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-mongodb-user-group-lebanon",
+   "cat": "community",
+   "title": "Lebanon MongoDB User Group",
+   "org": "MongoDB User Groups",
+   "place": "Online (Lebanon group)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free to join the group (Meetup shows no membership dues)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Occasional online sessions (latest listed: 5 Sep 2025)",
+   "meet": "Online",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Beginners to professionals",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; group is based in Lebanon",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free to join the group (Meetup shows no membership dues)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the group page on Meetup and click \"Join this group\" (free Meetup account needed).",
+    "RSVP to the next event listed on the page."
+   ],
+   "contact": [
+    [
+     "Message",
+     "Through the Meetup group page",
+     "Meetup group page"
+    ]
+   ],
+   "url": "https://www.meetup.com/mongodb-usergroup-lebanon/",
+   "confidence": "Low",
+   "caveat": "Last listed event was in September 2025; activity may be irregular.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://secure.meetupstatic.com/photos/event/6/7/b/d/600_536066557.jpeg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-aws-sbg-lau-byblos",
+   "cat": "community",
+   "title": "AWS Student Builder Group at LAU Byblos",
+   "org": "AWS Student Builder Groups",
+   "place": "Lebanese American University, Byblos campus, and online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free to join the group (Meetup shows no membership dues)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Student sessions during the semester (latest listed: Oct and Nov 2025)",
+   "meet": "LAU Byblos or online",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Students",
+     "University: Student-led group at LAU Byblos; whether non-LAU students can join is not stated",
+     "Nationality/residency: Not mentioned",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free to join the group (Meetup shows no membership dues)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the group page on Meetup and click \"Join this group\" (free Meetup account needed).",
+    "RSVP to the next event listed on the page."
+   ],
+   "contact": [
+    [
+     "Message",
+     "Through the Meetup group page",
+     "Meetup group page"
+    ]
+   ],
+   "url": "https://www.meetup.com/aws-sbg-at-lebanese-american-university-byblos-campus/",
+   "confidence": "Low",
+   "caveat": "Last listed event was in November 2025.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://secure.meetupstatic.com/photos/event/a/d/e/f/600_533984527.jpeg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-beirut-graphic-design-meetup",
+   "cat": "community",
+   "title": "The Beirut Graphic Design Meetup Group (monthly meetup)",
+   "org": "The Beirut Graphic Design Meetup Group",
+   "place": "Sugar n' Cream Coffee Shop, Alfred Nobel St, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free to join the group (Meetup shows no membership dues)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Monthly, usually a Saturday at 7:00 PM (listed: 14 Nov 2026, 12 Dec 2026, 9 Jan 2027, 13 Feb 2027)",
+   "meet": "Sugar n' Cream Coffee Shop, Alfred Nobel St, Beirut",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "art": "design",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Graphic designers and anyone interested",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; group is based in Lebanon",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free to join the group (Meetup shows no membership dues)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the group page on Meetup and click \"Join this group\" (free Meetup account needed).",
+    "RSVP to the next event listed on the page."
+   ],
+   "contact": [
+    [
+     "Message",
+     "Through the Meetup group page",
+     "Meetup group page"
+    ]
+   ],
+   "url": "https://www.meetup.com/graphicdesign-439/",
+   "confidence": "Medium",
+   "caveat": "Events appear as a recurring series; confirm on the page that the next one is still on.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://secure.meetupstatic.com/photos/event/4/9/6/b/600_474318795.jpeg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-assabil-arabic-book-club",
+   "cat": "community",
+   "title": "Arabic Book Club at Beirut municipal library (Bachoura)",
+   "org": "ASSABIL (Friends of Public Libraries)",
+   "place": "Elias Khoury Library, Bachoura, Issaf Municipal Building, 3rd floor, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free (library membership is free)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Every 3rd Thursday of the month",
+   "meet": "Bachoura public library",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "art": "literature",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all readers",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free (library membership is free)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Visit the library and ask for your free library membership.",
+    "Join the next book-club session; members choose the book (Arabic or translated)."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 667 701",
+     "Published on the ASSABIL site"
+    ],
+    [
+     "Email",
+     "library@assabil.com",
+     "Published on the ASSABIL site"
+    ]
+   ],
+   "url": "https://assabil.com/events-calendar/",
+   "confidence": "Medium",
+   "caveat": "Exact session dates are not shown on the calendar; call the library to confirm.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://assabil.com/wp-content/uploads/events.jpg",
+   "logo": "https://assabil.com/wp-content/uploads/2019/03/cropped-fav-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-assabil-french-book-club",
+   "cat": "community",
+   "title": "French Book Club at Beirut municipal library (Monnot)",
+   "org": "ASSABIL (Friends of Public Libraries)",
+   "place": "Monnot Library, USJ Street next to Monnot Theater, Beirut, or online via Zoom",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free (library membership is free)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Monthly (day not stated)",
+   "meet": "Monnot public library or Zoom",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "art": "literature",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all readers",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned",
+     "Age: Not stated",
+     "Team: Individual membership",
+     "Discussions are in French"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free (library membership is free)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Visit the library and ask for your free library membership.",
+    "Contact the Monnot library for the next session date."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 203 026",
+     "Published on the ASSABIL site"
+    ],
+    [
+     "Email",
+     "library@assabil.com",
+     "Published on the ASSABIL site"
+    ]
+   ],
+   "url": "https://assabil.com/events-calendar/",
+   "confidence": "Medium",
+   "caveat": "Session day is not stated.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://assabil.com/wp-content/uploads/events.jpg",
+   "logo": "https://assabil.com/wp-content/uploads/2019/03/cropped-fav-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-assabil-cine-club",
+   "cat": "community",
+   "title": "ASSABIL Cine Club (monthly film screening and discussion)",
+   "org": "ASSABIL (Friends of Public Libraries)",
+   "place": "Beirut municipal public library",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free (library membership is free)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Every 3rd Monday of the month, 7:00 PM",
+   "meet": "Public library (branch announced by ASSABIL)",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "art": "film",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free (library membership is free)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Check the ASSABIL events calendar or call a library for the next screening."
+   ],
+   "contact": [
+    [
+     "Email",
+     "library@assabil.com",
+     "Published on the ASSABIL site"
+    ]
+   ],
+   "url": "https://assabil.com/events-calendar/",
+   "confidence": "Medium",
+   "caveat": "The fee for screenings is not stated; library membership itself is free.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://assabil.com/wp-content/uploads/events.jpg",
+   "logo": "https://assabil.com/wp-content/uploads/2019/03/cropped-fav-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-scouts-du-liban-route",
+   "cat": "community",
+   "title": "Les Scouts du Liban: Route and Pionnières branches (17+)",
+   "org": "Les Scouts du Liban",
+   "place": "104 groups across Lebanon (HQ: Champville, Dik El Mehdi)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Regular unit meetings and camps through the scout year (2026-2027 year under way)",
+   "meet": "Set by each local group",
+   "team": "Individual",
+   "tags": [
+    "volunteering",
+    "hiking"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Young people; members are aged 8 to 21, Route and Pionnières branches are 17+",
+     "University: Open to anyone (not university-based)",
+     "Nationality/residency: Not mentioned; open regardless of religion or social class",
+     "Age: 17 to 21 for the young-adult branches",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Use \"Devenir Scout / Nous Rejoindre\" on the official site to reach the registration page.",
+    "Or contact the association by phone or email."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 3 338 438",
+     "Published on the official site"
+    ],
+    [
+     "Email",
+     "administratif@scoutsduliban.org",
+     "Published on the official site"
+    ]
+   ],
+   "url": "https://www.scoutsduliban.org/",
+   "confidence": "Medium",
+   "caveat": "Membership fees are not stated. Older students usually take part as trained leaders (chefs); the leader pathway is not detailed on the homepage.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://www.scoutsduliban.org/images/og-image.png",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-guides-du-liban-young-adults",
+   "cat": "community",
+   "title": "Guides du Liban: JEM (17+) and Tournesol (18+) branches",
+   "org": "Association des Guides du Liban",
+   "place": "Lebanon (HQ: Imm. Tohmé No 5, Rue Tohmé, Antélias)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Regular branch activities, outings and trainings (2026 theme: \"Fortes de nos liens\")",
+   "meet": "Set by each unit",
+   "team": "Individual",
+   "tags": [
+    "volunteering"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Girls and young women: JEM branch 17+, Équipe Tournesol women 18+",
+     "University: Open to anyone (not university-based)",
+     "Nationality/residency: Not mentioned",
+     "Age: 17+ (JEM), 18+ (Tournesol)",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Contact the association by phone or email (\"Rejoignez nous\" section on the site)."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 4 403 005",
+     "Published on the official site"
+    ],
+    [
+     "Phone",
+     "+961 3 209 249",
+     "Published on the official site"
+    ],
+    [
+     "Email",
+     "guides@guidesduliban.org",
+     "Published on the official site"
+    ]
+   ],
+   "url": "https://www.guidesduliban.org",
+   "confidence": "Medium",
+   "caveat": "Membership fees and meeting days are not stated.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": null,
+   "logo": "https://www.guidesduliban.org/wp-content/uploads/2023/04/cropped-Logo-AGDL-Variations_Website-Icon2-1-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-vamos-todos-membership",
+   "cat": "community",
+   "title": "Vamos Todos hiking and ecotourism club (membership)",
+   "org": "Vamos Todos (ecotourism NGO)",
+   "place": "Hikes across Lebanon; meeting point: Sagesse School parking, Jdeideh",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Hikes and ecotourism days most weekends (e.g. 24, 25, 31 Oct and 7 Nov 2026)",
+   "meet": "Sagesse School parking, Jdeideh, facing the public garden",
+   "team": "Individual",
+   "tags": [
+    "hiking",
+    "sports"
+   ],
+   "sport": "other",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Member benefits",
+     "Lower prices on Vamos Todos activities; partner discounts (e.g. 25% Sport Experts)",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Contact Vamos Todos to ask about membership.",
+    "Book activities by SMS/WhatsApp with your name, surname, email and the event (8 AM to 5 PM)."
+   ],
+   "contact": [
+    [
+     "Phone/WhatsApp",
+     "+961 3 917 190",
+     "Published on the official site"
+    ],
+    [
+     "Phone/WhatsApp",
+     "+961 79 115 001",
+     "Published on the official site"
+    ],
+    [
+     "Phone",
+     "+961 9 635 145",
+     "Published on the official site"
+    ]
+   ],
+   "url": "https://www.vamos-todos.com/",
+   "confidence": "Medium",
+   "caveat": "Membership fee and sign-up steps are not stated; members move from normal to Silver and Gold levels as they join more activities.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://www.vamos-todos.com/Images/HomepageImages/backgroundSmaller.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-highlanders961-hiking",
+   "cat": "community",
+   "title": "Highlanders961 hiking community (loyalty ranks)",
+   "org": "Highlanders961",
+   "place": "Hikes across Lebanon (based in Tyre, Jal El Bahr)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Public hikes announced as events (e.g. Horch Ehden, 1 Nov 2026)",
+   "meet": "Announced per event",
+   "team": "Individual",
+   "tags": [
+    "hiking",
+    "sports"
+   ],
+   "sport": "other",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned",
+     "Age: Not stated",
+     "Team: Individual membership",
+     "Xtreme hikes need organiser approval based on fitness, experience and equipment"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "None mentioned; you earn points on paid hikes",
+     "ns"
+    ],
+    [
+     "Hike price",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Reserve a spot on a public hike on the official site.",
+    "Earn loyalty points per hike to climb ranks (Pathfinder to Elite) and unlock discounts."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@highlanders961.com",
+     "Published on the official site"
+    ],
+    [
+     "Phone",
+     "+961 70 575 510",
+     "Published on the official site"
+    ]
+   ],
+   "url": "https://www.highlanders961.com/loyalty-as.php",
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://highlanders961.com/uploads/page-visuals/og-cache/1e583026b951b65f6367d3847b38d0587e103d5883e7a051bc9bb5f566294df5.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-ieee-lebanon-student-branches",
+   "cat": "career",
+   "title": "IEEE student branches in Lebanon (IEEE Lebanon Section)",
+   "org": "IEEE Lebanon Section",
+   "place": "19 student branches: AUB, AUST, AUL, BAU (Beirut and Tripoli), USEK, IUL, LAU, LIU, Lebanese University (Hadath, Roumieh, Tripoli, Sciences), NDU, RHU, USJ, Balamand, Antonine, City University",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Branch activities through the academic year; section events (e.g. Raspberry Pi workshop Nov 2025, IEEE Day Oct 2026)",
+   "meet": "On your campus",
+   "team": "Individual",
+   "tags": [
+    "careers",
+    "research",
+    "hackathon"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: University students (IEEE student membership)",
+     "University: Join the branch at your own university (19 listed branches)",
+     "Nationality/residency: Not mentioned; Lebanon Section",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "IEEE student membership",
+     "Not stated on the section site",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Join IEEE as a student through the \"Join IEEE\" page of the Lebanon Section.",
+    "Contact your university's IEEE student branch to take part in its activities."
+   ],
+   "contact": [
+    [
+     "Contact form",
+     "https://r8.ieee.org/lebanon/contact-us/",
+     "Published on the official site"
+    ]
+   ],
+   "url": "https://r8.ieee.org/lebanon/about-ieee/communities/",
+   "confidence": "Medium",
+   "caveat": "Membership fees and branch meeting times are not stated on the section site. WIE groups also exist at AUB, NDU, RHU, BAU, Balamand and LAU.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-pmi-lebanon-chapter",
+   "cat": "career",
+   "title": "PMI Lebanon Chapter (project management community, monthly talks)",
+   "org": "Project Management Institute, Lebanon Chapter",
+   "place": "Beirut (talks e.g. at Annahar Building, Downtown)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 52,
+   "feeText": "$32/year PMI student membership + $20/year chapter fee",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Monthly talks, e.g. Thu 29 Oct 2026, 7:00 to 8:30 PM; yearly Professional Development Day",
+   "meet": "Annahar Building, Downtown, 5th floor (for the Oct 2026 talk)",
+   "team": "Individual",
+   "tags": [
+    "careers",
+    "consulting"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Students and professionals (student rate available)",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; Lebanon chapter",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "PMI membership (student)",
+     "$32 per year",
+     "info"
+    ],
+    [
+     "PMI membership (regular)",
+     "$129 per year",
+     "info"
+    ],
+    [
+     "Lebanon Chapter fee",
+     "$20 per year",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Become a PMI member on pmi.org (student rate available).",
+    "On the PMI form, select the Lebanon Chapter; you are then added to the chapter mailing list."
+   ],
+   "contact": [
+    [
+     "Email",
+     "president@pmilebanonchapter.org",
+     "Published on the official site"
+    ],
+    [
+     "Phone/WhatsApp",
+     "+961 71 191 148",
+     "Published on the official site"
+    ]
+   ],
+   "url": "https://pmilebanon.org/become-a-member/",
+   "confidence": "High",
+   "caveat": "Monthly talks may be open to non-members; check each event page.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://pmilebanon.org/public/og.png?1716384977",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-wikimedians-of-the-levant",
+   "cat": "community",
+   "title": "Wikimedians of the Levant (Wikipedia editors user group, incl. Lebanon)",
+   "org": "Wikimedians of the Levant User Group",
+   "place": "Online and in-person across Jordan, Lebanon, Palestine and Syria",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Not stated (volunteer group)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Projects and editing activities through the year (35 members in 2026)",
+   "meet": "Online",
+   "team": "Individual",
+   "tags": [
+    "volunteering",
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to Wikimedia contributors",
+     "University: Open to anyone",
+     "Nationality/residency: Covers Jordan, Lebanon, Palestine and Syria",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Read the Membership section on the group's Meta-Wiki page.",
+    "Join the mailing list wikimedia-levant@lists.wikimedia.org or email the group."
+   ],
+   "contact": [
+    [
+     "Email",
+     "wm-levant@wikimedia.org",
+     "Published on the Meta-Wiki page"
+    ]
+   ],
+   "url": "https://meta.wikimedia.org/wiki/Wikimedians_of_the_Levant_User_Group",
+   "confidence": "Medium",
+   "caveat": "Membership steps are not on the main page; the Lebanon in-person coordinator role ran March to June 2026.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Wikimedia-levant-logo-BGR-English.svg/1280px-Wikimedia-levant-logo-BGR-English.svg.png?utm_source=meta.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-green-southerners-volunteers",
+   "cat": "volunteer",
+   "title": "Green Southerners volunteer network (South Lebanon environment)",
+   "org": "Green Southerners Association",
+   "place": "South Lebanon (Tyre, border villages, Adloun coast)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Ongoing projects (e.g. olive grove recovery and nursery, Dec 2025; wildlife rescue)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "volunteering"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Not stated",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Fill in the \"Join us\" form on the official site (name, phone, email, residence, birth date, field, availability)."
+   ],
+   "contact": [
+    [
+     "Join form",
+     "https://greensoutherners.org/join-us",
+     "Published on the official site"
+    ]
+   ],
+   "url": "https://greensoutherners.org/join-us",
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://s3.eu-central-1.amazonaws.com/files.gs/1971/conversions/116130407_3298387593555238_7158289125968423614_n-large.webp",
+   "logo": "https://greensoutherners.org/favicon/apple-touch-icon.png",
    "imageChecked": "2026-10-23"
   },
   {
@@ -26611,7 +30361,7 @@
    "verified": "2026-10-23",
    "added": "2026-10-23",
    "source": "bulk-sports2",
-   "id": "ts-abu-dhabi-world-amateur-jj-2026",
+   "id": "ts-abu-dhabi-world-amateur-jj-2026-2",
    "sport": "martial-arts",
    "title": "Abu Dhabi World Amateur Jiu-Jitsu Championship 2026",
    "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
@@ -26652,11 +30402,11 @@
     "Open the AJP Tour events page and select the World Amateur Championship 2026.",
     "Register online with an AJP account."
    ],
-   "url": "https://ajptour.com/federation/1/events",
-   "caveat": "Only the AJP calendar listing could be opened; the event page (ajptour.com/en/event/1529) blocked access, so fee and entry rules are unverified.",
+   "url": "https://ajptour.com/en/event/1529",
+   "caveat": "Confirmed on the official AJP events calendar; the event page itself blocked automated access, so fee and entry rules are unverified.",
    "contact": [],
-   "image": "https://ajptour.com/pictures/t/1843208-gmyy/ajp.png",
-   "logo": "https://ajptour.com/build/webpack/img/favicon/ajp/apple-touch-icon.517f4ac87201fceee8ae..png",
+   "image": null,
+   "logo": null,
    "imageChecked": "2026-10-23"
   },
   {
@@ -26675,7 +30425,7 @@
    "verified": "2026-10-23",
    "added": "2026-10-23",
    "source": "bulk-sports2",
-   "id": "ts-ajp-world-nogi-istanbul-2026",
+   "id": "ts-ajp-world-nogi-istanbul-2026-2",
    "sport": "martial-arts",
    "title": "AJP World Jiu-Jitsu No-Gi Championship 2026 (Istanbul)",
    "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
@@ -26716,11 +30466,11 @@
     "Open the AJP Tour events page and select the No-Gi World Championship 2026.",
     "Register online with an AJP account."
    ],
-   "url": "https://ajptour.com/en/events-1/events-calendar-2026",
-   "caveat": "Only the AJP calendar listing could be opened; event page blocked access.",
+   "url": "https://ajptour.com/en/event/1488",
+   "caveat": "Confirmed on the official AJP events calendar; the event page itself blocked automated access, so fee and entry rules are unverified.",
    "contact": [],
-   "image": "https://ajptour.com/pictures/t/1843208-gmyy/ajp.png",
-   "logo": "https://ajptour.com/build/webpack/img/favicon/ajp/apple-touch-icon.517f4ac87201fceee8ae..png",
+   "image": null,
+   "logo": null,
    "imageChecked": "2026-10-23"
   },
   {
@@ -27153,6 +30903,565 @@
    "url": "https://oceanmanswim.com/races/vouliagmeni-greece-2027",
    "image": "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/1234c9a3-e533-4bd9-af9a-cc6beccad411",
    "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2027-01-15T00:00:00+04:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Low",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-ajp-abu-dhabi-international-2027",
+   "sport": "martial-arts",
+   "title": "AJP Tour Abu Dhabi International Jiu-Jitsu Championship 2027 (Gi)",
+   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
+   "place": "Mubadala Arena, Abu Dhabi, UAE",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "15-17 Jan 2027",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (AJP Tour events usually have belt and age divisions)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Gi and/or No-Gi Brazilian jiu-jitsu; registration through an AJP account"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the AJP event page and register online with an AJP account."
+   ],
+   "url": "https://ajptour.com/en/event/1574",
+   "caveat": "Listed on the official AJP Tour events calendar; the event page blocked automated access, so fee, divisions and deadline are unverified.",
+   "contact": [],
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2027-03-19T00:00:00+04:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Low",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-ajp-gulf-regional-dubai-2027",
+   "sport": "martial-arts",
+   "title": "AJP Tour Gulf Regional Jiu-Jitsu Championship 2027 (Gi), Dubai",
+   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
+   "place": "Dubai, UAE (venue to be confirmed)",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "19-21 Mar 2027",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (AJP Tour events usually have belt and age divisions)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Gi and/or No-Gi Brazilian jiu-jitsu; registration through an AJP account"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the AJP event page and register online with an AJP account."
+   ],
+   "url": "https://ajptour.com/en/event/1409",
+   "caveat": "Listed on the official AJP Tour events calendar; the event page blocked automated access, so fee, divisions and deadline are unverified.",
+   "contact": [],
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2027-04-23T00:00:00+03:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Low",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-ajp-middle-east-regional-doha-2027",
+   "sport": "martial-arts",
+   "title": "AJP Tour Middle East Regional Jiu-Jitsu Championship 2027 (Gi & No-Gi), Doha",
+   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
+   "place": "Aspire Ladies Sports Hall, Doha, Qatar",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "Fri 23 Apr 2027",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (AJP Tour events usually have belt and age divisions)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Gi and/or No-Gi Brazilian jiu-jitsu; registration through an AJP account"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the AJP event page and register online with an AJP account."
+   ],
+   "url": "https://ajptour.com/en/event/1587",
+   "caveat": "Listed on the official AJP Tour events calendar; the event page blocked automated access, so fee, divisions and deadline are unverified.",
+   "contact": [],
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2027-05-06T00:00:00+04:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Low",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-ajp-abu-dhabi-grand-slam-2027",
+   "sport": "martial-arts",
+   "title": "Abu Dhabi Grand Slam Jiu-Jitsu World Tour 2027, Abu Dhabi (Gi & No-Gi)",
+   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
+   "place": "Mubadala Arena, Abu Dhabi, UAE",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "6-9 May 2027",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (AJP Tour events usually have belt and age divisions)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Gi and/or No-Gi Brazilian jiu-jitsu; registration through an AJP account"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the AJP event page and register online with an AJP account."
+   ],
+   "url": "https://ajptour.com/en/event/1566",
+   "caveat": "Listed on the official AJP Tour events calendar; the event page blocked automated access, so fee, divisions and deadline are unverified.",
+   "contact": [],
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-12-28T00:00:00+00:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-hastings-congress-2026-27",
+   "sport": "chess",
+   "title": "100th Hastings International Chess Congress 2026/27",
+   "org": "Hastings International Chess Congress",
+   "place": "Horntye Park Sports Complex, Hastings, UK",
+   "feeUSD": null,
+   "feeText": "Not stated yet (\"How to Enter\" coming soon)",
+   "deadlineText": "Entry details not yet published",
+   "when": "28 Dec 2026 - 5 Jan 2027",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated for 2026/27 (past Masters editions were open to all)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Entry rules and fees not yet published"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ],
+    [
+     "UK visa",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check the official site; the \"How to Enter\" page is marked coming soon."
+   ],
+   "url": "https://hastingschess.com/",
+   "caveat": "Only dates and venue are confirmed; Lebanese players need a UK visa.",
+   "contact": [],
+   "image": null,
+   "logo": "https://hastingschess.com/wp-content/uploads//2019/07/cropped-bayeux-one-main-2-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2027-01-22T00:00:00+03:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Low",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-ajp-doha-international-2027",
+   "sport": "martial-arts",
+   "title": "AJP Tour Doha International Jiu-Jitsu Championship 2027 (Gi & No-Gi)",
+   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
+   "place": "Aspire Ladies Sports Hall, Doha, Qatar",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "Fri 22 Jan 2027",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (AJP Tour events usually have belt and age divisions)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Gi and No-Gi Brazilian jiu-jitsu; registration through an AJP account"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the AJP event page and register online with an AJP account."
+   ],
+   "url": "https://ajptour.com/en/event/1586",
+   "caveat": "Listed on the official AJP Tour events calendar; the event page blocked automated access, so fee, divisions and deadline are unverified.",
+   "contact": [],
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-11-14T06:45:00+04:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-world-triathlon-multisport-abu-dhabi-2026",
+   "sport": "other",
+   "title": "World Triathlon Multisport Championships Abu Dhabi 2026 (age-group duathlon, aquathlon, cross and long distance)",
+   "org": "World Triathlon",
+   "place": "Hudayriyat Island, Abu Dhabi, UAE",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Entry process and deadline not stated",
+   "when": "13-22 Nov 2026. Age-group: Sprint Duathlon 14 Nov; Standard Duathlon 15 Nov; Cross Triathlon 17 Nov; Cross Duathlon 19 Nov; Aquathlon 20 Nov; Long Distance Triathlon and Aquabike 22 Nov",
+   "difficulty": "World Championship age-group races (multisport)",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Age-group (amateur) athletes",
+     "University: Not restricted",
+     "Nationality/residency: Not stated; age-group world championship entries are often made through the national federation",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Entry route not stated on the athlete information page"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Read the athlete information page and the event brochure.",
+    "Ask the organisers how age-group athletes from Lebanon enter: info@abudhabi2026.triathlon.org."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@abudhabi2026.triathlon.org",
+     "Published on the official athlete information page"
+    ]
+   ],
+   "url": "https://triathlon.org/events/2026-world-triathlon-multisport-championships-abu-dhabi/athlete-information",
+   "caveat": "World Championship age-group slots may require nomination by the Lebanese triathlon federation.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2027-07-11T00:00:00+02:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-etape-du-tour-2027",
+   "sport": "cycling",
+   "title": "L'Etape du Tour de France 2027 (35th edition)",
+   "org": "ASO / L'Etape du Tour de France",
+   "place": "France (route on official site)",
+   "feeUSD": null,
+   "feeText": "Not stated on the news page",
+   "deadlineText": "General registration opens 2 Nov 2026, 14:00 CET (pre-registration via free Tour de France Club account); places usually sell out",
+   "when": "Sun 11 Jul 2027",
+   "difficulty": "A full Tour de France mountain stage for amateurs",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Amateur cyclists",
+     "University: Not restricted",
+     "Nationality/residency: International entry (no rule stated on the news page)",
+     "Age: Not stated on the news page",
+     "Team: Individual",
+     "Other: Medical certificate and age rules are in the regulations, not checked"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Create a free Tour de France Club account for pre-registration.",
+    "Register on the official site when general registration opens on 2 Nov 2026 at 14:00 CET."
+   ],
+   "url": "https://www.letapedutourdefrance.com/en/news/a-new-adventure-awaits-you-in-2027/191",
+   "caveat": "Fee, route and minimum age not on the news page. Schengen visa needed.",
+   "contact": [],
+   "image": "https://www.letapedutourdefrance.com/img/global/logo-og.png",
+   "logo": "https://www.letapedutourdefrance.com/apple-touch-icon.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "partial",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2027-01-15T00:00:00+08:00",
+   "meet": "Not stated",
+   "team": "National university team (selected)",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-fisu-winter-games-changchun-2027",
+   "sport": "ski",
+   "title": "FISU Winter World University Games 2027 (Changchun, China)",
+   "org": "FISU (International University Sports Federation)",
+   "place": "Changchun, Jilin, China",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Entries go through national university sports federations; Lebanon deadline not stated",
+   "when": "15-25 Jan 2027",
+   "difficulty": "Elite university level",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: University students selected by their national university sports federation",
+     "University: Any, via the national federation (in Lebanon, the Lebanese university sports federation)",
+     "Nationality/residency: Athletes represent their country; Lebanese participation not stated",
+     "Age: Not stated on the official page (national selection policies use birth years 1999-2009)",
+     "Team: Selected national team",
+     "Other: Must meet FISU student eligibility rules"
+    ]
+   },
+   "money": [
+    [
+     "Costs",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Ask your university sports office whether Lebanon will send skiers/winter athletes.",
+    "Selection is through the national university sports federation, not individual sign-up."
+   ],
+   "url": "https://changchun2027.fisu.net/",
+   "caveat": "Only dates and host city are on the official page; selection and costs depend on the Lebanese federation.",
+   "contact": [],
+   "image": null,
+   "logo": "https://fisu-events.com/app/uploads/sites/51/2026/04/cropped-Changchunmini-192x192.png",
    "imageChecked": "2026-10-23"
   }
  ]
