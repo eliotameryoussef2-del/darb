@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T14:09:37.678Z",
- "count": 528,
+ "updated": "2026-10-23T14:11:10.455Z",
+ "count": 529,
  "opportunities": [
   {
    "id": "hk-amazon-dev-2026",
@@ -35106,6 +35106,71 @@
    "caveat": "Confirmed via LAU's published FSUL fixture list; FSUL's own site was not found. Other universities' tryout dates not stated.",
    "image": null,
    "logo": "https://athletics.lau.edu.lb/wp-content/uploads/2026/10/athletics-favicon-300x300.jpg",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-sports",
+   "id": "tsp-antonine-university-team-tryouts",
+   "sport": "other",
+   "title": "Antonine University (UA) sports teams: tryouts each semester (basketball, football, futsal, volleyball, badminton, table tennis, track and field)",
+   "org": "Antonine University, Office of Athletics",
+   "place": "Antonine University campuses, Lebanon",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "deadlineText": "Rolling: tryouts in the first two weeks of each semester",
+   "when": "Tryouts during training sessions in the first two weeks of each semester; competitions run September to May",
+   "meet": "Team training sessions (contact the Office of Athletics)",
+   "team": "Team and individual sports",
+   "tags": [
+    "sports"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Antonine University students",
+     "University: Antonine University only",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Badminton, basketball, football, futsal, table tennis, track and field, volleyball",
+     "Other: Selection depends on team needs; selected players must attend all training sessions and matches"
+    ]
+   },
+   "money": [
+    [
+     "Participation",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Sports grants",
+     "See the university's Sports Grants page",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Email the Office of Athletics at athletics@ua.edu.lb to say you want to try out.",
+    "Attend the training-session tryouts in the first two weeks of the semester."
+   ],
+   "contact": [
+    [
+     "Email",
+     "athletics@ua.edu.lb",
+     "Published on the Sports Activities page"
+    ]
+   ],
+   "url": "https://ua.edu.lb/en/office-of-athletics/sports-activities",
+   "confidence": "High",
+   "caveat": "Exact Spring 2027 tryout dates not published.",
+   "image": "https://ua.edu.lb/images/ShareLogo.jpg",
+   "logo": null,
    "imageChecked": "2026-10-23"
   }
  ]
