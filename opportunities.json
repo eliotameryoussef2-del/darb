@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T13:40:03.152Z",
- "count": 492,
+ "updated": "2026-10-23T13:45:16.684Z",
+ "count": 505,
  "opportunities": [
   {
    "id": "hk-amazon-dev-2026",
@@ -2188,6 +2188,102 @@
    "source": "bulk-arts",
    "image": null,
    "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "fd-acad-ibro-neuroscience-training-grants-2027",
+   "cat": "research",
+   "title": "IBRO Neuroscience Training Grants (courses Jan-Aug 2027)",
+   "org": "International Brain Research Organization (IBRO)",
+   "place": "Any neuroscience training course worldwide",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free to apply",
+   "deadline": "2026-10-31T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "31 Oct 2026 (next round opens Apr 2027 for courses Jul-Dec 2027)",
+   "when": "For a structured training course starting between 1 Jan and 31 Aug 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: PhD students and early-career postdocs (within 5 years of starting first postdoc)",
+     "University: Any",
+     "Nationality/residency: Open to international applicants; amounts set by IBRO region (Africa, Pan-Europe, US/Canada, Asia-Pacific, Latin America); Lebanon is not named",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Course must be a structured education/skills program closely related to neuroscience; one reference from current supervisor; award conditional on a course acceptance letter; not for IBRO-Supported Schools (apply to the school directly)"
+    ]
+   },
+   "money": [
+    [
+     "Grant amount",
+     "Max by region: Africa $5,000; Pan-Europe $4,500; US/Canada $4,000; Asia-Pacific $3,000; Latin America $3,000",
+     "info"
+    ],
+    [
+     "Course fees",
+     "Course registration fees are covered within the cap",
+     "partial"
+    ],
+    [
+     "Flights/travel",
+     "Course-related travel covered within the cap",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Local expenses covered within the cap",
+     "partial"
+    ],
+    [
+     "Meals",
+     "Local expenses covered within the cap",
+     "partial"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Payment timing",
+     "80% two months before the course, 20% after completion and report",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Choose a neuroscience training course starting 1 Jan - 31 Aug 2027.",
+    "Create an account on the IBRO Grants Portal (ibro.smapply.org) and apply via the link on the program page by 31 Oct 2026.",
+    "Submit academic background, course description, impact statement and budget (fees, travel, local costs).",
+    "Have your supervisor submit a reference letter; later provide the course acceptance letter."
+   ],
+   "contact": [
+    [
+     "Form",
+     "https://ibro.org/grants/programs-contact-form/",
+     "Programs contact form published on the official page"
+    ]
+   ],
+   "url": "https://ibro.org/grant/neuroscience-training-grants/",
+   "confidence": "High",
+   "caveat": "Deadline is very soon (31 Oct 2026). The page does not say which IBRO region Lebanon belongs to, so the maximum amount for Lebanese applicants is unclear. PhD/postdoc level only. You must find and be accepted to a course yourself.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": "https://ibro.org/wp-content/uploads/2024/10/Neuroscience-Training-Grants-1.png",
+   "logo": "https://ibro.org/wp-content/themes/ibro/img/favicons/apple-touch-icon.png",
    "imageChecked": "2026-10-23"
   },
   {
@@ -5686,6 +5782,91 @@
    "imageChecked": "2026-10-23"
   },
   {
+   "id": "fd-acad-embo-practical-course-extracellular-vesicles-2027",
+   "cat": "research",
+   "title": "EMBO Practical Course: Extracellular vesicles – from biology to biomedical applications 2027",
+   "org": "EMBL / EMBO",
+   "place": "Heidelberg, Germany (EMBL Advanced Training Centre)",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 570,
+   "feeText": "€525 (academia / PhD student); €1,000 industry. Fee includes accommodation (twin room + breakfast), meals and shuttle",
+   "deadline": "2026-11-15T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "15 Nov 2026",
+   "when": "21-26 Feb 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: PhD students and postdocs entering or active in extracellular-vesicle research",
+     "University: Any",
+     "Nationality/residency: No nationality rule stated; open to applicants worldwide (travel grants for 'any participant')",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Limited to 24 participants; motivation letter required"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "€525 academia/PhD student, payable after acceptance (includes accommodation, meals, materials)",
+     "info"
+    ],
+    [
+     "Flights/travel",
+     "EMBO travel grant up to €500 covers airfare, train, bus, taxi, visa and/or registration fees",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Included in the fee (twin room with breakfast, ISG Hotel)",
+     "no"
+    ],
+    [
+     "Meals",
+     "Included in the fee",
+     "no"
+    ],
+    [
+     "Visa",
+     "Can be paid from the travel grant (within €500 cap); visa support letter provided",
+     "partial"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register through the 'Apply now' online system on the event page by 15 Nov 2026.",
+    "Submit your motivation letter via the link in the confirmation email/page and select any financial assistance.",
+    "Pay the fee only after acceptance."
+   ],
+   "contact": [
+    [
+     "Email",
+     "catherine.casas@embl.de",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/exo27-01/",
+   "confidence": "High",
+   "caveat": "Not free: the €525 fee still has to be paid; the travel grant (max €500, reimbursed against receipts) is the funded part.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": "https://www.embl.org/about/info/course-and-conference-office/wp-content/uploads/2021/05/EXO22-01_hero-banner_3000x1000px-scaled.jpg",
+   "logo": "https://assets.emblstatic.net/vf/v2.5.26/assets/embl-favicon/assets/apple-touch-icon.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "sc-ri-epfl-sv-srp-2027",
    "cat": "research",
    "title": "EPFL Life Sciences Summer Research Program 2027",
@@ -6048,6 +6229,101 @@
    "image": "https://unearthodox.org/wp-content/uploads/2026/09/Edges-of-Possibility-Banner-1200-x-628-px.webp",
    "logo": "https://i0.wp.com/unearthodox.org/wp-content/uploads/2022/11/image_2022-11-04_152732584.png?fit=189%2C192&#038;ssl=1",
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "fd-acad-wellcome-cancer-genomic-epidemiology-2027",
+   "cat": "research",
+   "title": "Cancer Genomic Epidemiology: Understanding Mutational Signatures of Cancer to Inform Prevention (course, 2027)",
+   "org": "Wellcome Connecting Science (Wellcome Sanger Institute) with WHO IARC",
+   "place": "Hinxton, Cambridge, UK (Wellcome Genome Campus)",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 1080,
+   "feeText": "£810 subsidised course fee, includes accommodation and all meals; bursaries up to 50% of the fee",
+   "deadline": "2026-11-16T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "16 Nov 2026",
+   "when": "15-18 Mar 2027 (residential)",
+   "meet": "Starts 10:00 GMT Mon 15 Mar, ends 16:00 GMT Thu 18 Mar 2027",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Scientists in genomics, epidemiology, clinical and public-health fields; early- and mid-career applicants welcomed",
+     "University: Any",
+     "Nationality/residency: Not stated (diverse geographic backgrounds encouraged; no nationality rule)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Supporting statement (PDF) from a scientific or clinical sponsor (e.g. supervisor) required; places awarded on merit"
+    ]
+   },
+   "money": [
+    [
+     "Course fee",
+     "£810 (subsidised), requested after acceptance",
+     "info"
+    ],
+    [
+     "Bursary",
+     "Limited merit-based bursaries of up to 50% off the course fee",
+     "partial"
+    ],
+    [
+     "Flights/travel",
+     "Not stated (no travel support mentioned)",
+     "ns"
+    ],
+    [
+     "Accommodation",
+     "Included in the course fee (onsite)",
+     "no"
+    ],
+    [
+     "Meals",
+     "All meals included in the course fee",
+     "no"
+    ],
+    [
+     "Visa",
+     "Not stated (support letter available for confirmed attendees)",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Click 'Apply' on the official page and complete the online application by 16 Nov 2026.",
+    "Explain how the course applies to your role/project and how you will share the knowledge.",
+    "Upload a PDF supporting statement from a scientific or clinical sponsor; request a bursary in the bursary section if needed (applicant and sponsor must justify it)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "courses@wellcomeconnectingscience.org",
+     "Application problems, published on the official page"
+    ],
+    [
+     "Email",
+     "events@sanger.ac.uk",
+     "General questions, published on the official page"
+    ]
+   ],
+   "url": "https://coursesandconferences.wellcomeconnectingscience.org/event/cancer-genomic-epidemiology-20270315/",
+   "confidence": "Medium",
+   "caveat": "Only partly funded: bursaries cover at most half of the £810 fee and travel is not covered. Aimed at working scientists/graduate researchers rather than undergraduates; Lebanese eligibility not explicitly stated.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": "https://coursesandconferences.wellcomeconnectingscience.org/wp-content/uploads/2026/08/sanger.png",
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "hk-green-shift-hacks",
@@ -7085,6 +7361,182 @@
    "imageChecked": "2026-10-23"
   },
   {
+   "id": "fd-acad-embo-practical-course-3d-cultures-2027",
+   "cat": "research",
+   "title": "EMBO Practical Course: 3D cultures – spheroids, organoids, and explants 2027",
+   "org": "EMBL / EMBO",
+   "place": "Heidelberg, Germany (EMBL Advanced Training Centre)",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 570,
+   "feeText": "€525 (academia / PhD student); €1,000 industry. Fee includes accommodation (twin room + breakfast), meals and shuttle",
+   "deadline": "2026-11-23T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "23 Nov 2026 (late applications not accepted)",
+   "when": "14-19 Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: PhD students and early-career postdocs",
+     "University: Any",
+     "Nationality/residency: No nationality rule stated; open to applicants worldwide (travel grants for 'any participant')",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Limited to 14 participants; motivation letter (max 2,000 characters) required; fee must be paid after acceptance even with a fee waiver"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "€525 academia/PhD student, payable after acceptance (includes accommodation, meals, materials)",
+     "info"
+    ],
+    [
+     "Flights/travel",
+     "EMBO travel grant up to €500 covers airfare, train, bus, taxi, visa and/or registration fees",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Included in the fee (twin room with breakfast, ISG Hotel); single room surcharge",
+     "no"
+    ],
+    [
+     "Meals",
+     "Included in the fee",
+     "no"
+    ],
+    [
+     "Visa",
+     "Can be paid from the travel grant (within €500 cap); visa support letter provided",
+     "partial"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Other grants",
+     "Childcare grants; accessibility grants up to €500; Boehringer Ingelheim Fonds travel grants for eligible biomedical researchers",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Register through the 'Apply now' online system on the event page by 23 Nov 2026.",
+    "Submit your motivation letter (max 2,000 characters) via the link in the confirmation email/page.",
+    "Select the financial assistance (travel grant etc.) you want while submitting the letter.",
+    "Results come about 2-3 weeks after the deadline; pay the fee only after acceptance."
+   ],
+   "contact": [
+    [
+     "Email",
+     "adela.graf@embl.de",
+     "Course and Conference Officer, published on the official page"
+    ]
+   ],
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/tdc27-01/",
+   "confidence": "High",
+   "caveat": "Not free: the €525 fee still has to be paid; the travel grant (max €500, reimbursed against receipts) is the funded part. Accommodation section on the page shows 2026 dates (likely a typo).",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": "https://www.embl.org/about/info/course-and-conference-office/wp-content/uploads/TDC27-01-scaled.jpg",
+   "logo": "https://assets.emblstatic.net/vf/v2.5.26/assets/embl-favicon/assets/apple-touch-icon.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "fd-acad-embo-practical-course-quantitative-proteomics-2027",
+   "cat": "research",
+   "title": "EMBO Practical Course: Quantitative proteomics – strategies and tools to probe biology 2027",
+   "org": "EMBL / EMBO",
+   "place": "Heidelberg, Germany (EMBL Advanced Training Centre)",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 545,
+   "feeText": "€500 (academia / PhD student); €1,000 industry. Fee includes accommodation (twin room + breakfast), meals and shuttle",
+   "deadline": "2026-11-23T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "23 Nov 2026",
+   "when": "7-12 Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Researchers (incl. PhD students) who know proteomics basics and want quantitative methods / bioinformatics experience",
+     "University: Any",
+     "Nationality/residency: No nationality rule stated; open to applicants worldwide (travel grants for 'any participant')",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Basic understanding of mass-spectrometry proteomics beneficial; limited to 24 participants; motivation letter (max 2,000 characters) required"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "€500 academia/PhD student, payable after acceptance (includes accommodation, meals, materials)",
+     "info"
+    ],
+    [
+     "Flights/travel",
+     "EMBO travel grant up to €500 covers airfare, train, bus, taxi, visa and/or registration fees",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Included in the fee (twin room with breakfast, ISG Hotel)",
+     "no"
+    ],
+    [
+     "Meals",
+     "Included in the fee",
+     "no"
+    ],
+    [
+     "Visa",
+     "Can be paid from the travel grant (within €500 cap); visa support letter provided",
+     "partial"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register through the 'Apply now' online system on the event page by 23 Nov 2026.",
+    "Submit your motivation letter and select any financial assistance.",
+    "Results about 3 weeks after the deadline; pay the fee only after acceptance."
+   ],
+   "contact": [
+    [
+     "Email",
+     "Aline.Schnieder@embl.de",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/qpr27-01/",
+   "confidence": "High",
+   "caveat": "Not free: the €500 fee still has to be paid; the travel grant (max €500, reimbursed against receipts) is the funded part. Accommodation section on the page shows 2026 dates (likely a typo).",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": "https://www.embl.org/about/info/course-and-conference-office/wp-content/uploads/QPR25-01_MS-Main-hero_banner_template_3000x1000-scaled.jpg",
+   "logo": "https://assets.emblstatic.net/vf/v2.5.26/assets/embl-favicon/assets/apple-touch-icon.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "ar-isc-2026",
    "cat": "community",
    "art": "music",
@@ -7908,6 +8360,97 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "fd-acad-embo-practical-course-microbial-metagenomics-2027",
+   "cat": "research",
+   "title": "EMBO Practical Course: Microbial metagenomics – a 360º approach 2027",
+   "org": "EMBL / EMBO",
+   "place": "Heidelberg, Germany (EMBL)",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 600,
+   "feeText": "€550 (academia / PhD student); €1,000 industry. Fee includes accommodation (twin room + breakfast), meals and shuttle",
+   "deadline": "2026-11-30T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "30 Nov 2026",
+   "when": "5-12 Apr 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Advanced PhD students and early postdocs doing or planning metagenomics research",
+     "University: Any",
+     "Nationality/residency: No nationality rule stated; open to applicants worldwide (travel grants for 'any participant')",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Limited to 20 participants; motivation letter (max 2,000 characters) required"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "€550 academia/PhD student, payable after acceptance (includes accommodation, meals, materials)",
+     "info"
+    ],
+    [
+     "Flights/travel",
+     "EMBO travel grant up to €500 covers airfare, train, bus, taxi, visa and/or registration fees",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Included in the fee (8 nights, twin room with breakfast, ISG Hotel)",
+     "no"
+    ],
+    [
+     "Meals",
+     "Included in the fee",
+     "no"
+    ],
+    [
+     "Visa",
+     "Can be paid from the travel grant (within €500 cap); visa support letter provided",
+     "partial"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Other grants",
+     "Childcare grants; accessibility grants up to €500; Boehringer Ingelheim Fonds travel grants for eligible biomedical researchers",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Register through the 'Apply now' online system on the event page by 30 Nov 2026.",
+    "Submit your motivation letter via the link in the confirmation email/page.",
+    "Indicate the financial assistance you want in the application.",
+    "Results by email about 3 weeks after the deadline; pay the fee only after acceptance."
+   ],
+   "contact": [
+    [
+     "Email",
+     "iva.gavran@embl.de",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.embl.org/about/info/course-and-conference-office/events/met27-01/",
+   "confidence": "High",
+   "caveat": "Not free: the €550 fee still has to be paid; the travel grant (max €500, reimbursed against receipts) is the funded part. Programme on the page shows some 2026 dates (likely a typo).",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": "https://www.embl.org/about/info/course-and-conference-office/wp-content/uploads/MET23-01_Herobanner3000x1000-scaled.jpg",
+   "logo": "https://assets.emblstatic.net/vf/v2.5.26/assets/embl-favicon/assets/apple-touch-icon.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
    "travel": false,
    "funded": "na",
    "feeUSD": 720,
@@ -8676,6 +9219,90 @@
    "image": "https://www.nhm.ac.uk/content/dam/nhm-events/EXH-WPY62/EXH-WPY62.jpg",
    "logo": null,
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "fd-acad-ictp-saifr-brain-dynamics-school-2027",
+   "cat": "research",
+   "title": "ICTP-SAIFR School on Brain Dynamics 2027",
+   "org": "ICTP South American Institute for Fundamental Research (ICTP-SAIFR)",
+   "place": "São Paulo, Brazil (IFT-UNESP)",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free (no registration fee)",
+   "deadline": "2026-12-03T23:59:00-03:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "3 Dec 2026",
+   "when": "15-26 Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Master's and PhD students (physics, mathematics, engineering, biological sciences) working or wanting to work in neuroscience; highly motivated final-year undergraduates and postdocs may also apply",
+     "University: Any",
+     "Nationality/residency: Not stated (no nationality rule; the school says it aims to train students from South America)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Poster presenters should submit an abstract and bring a printed banner (max 1 m x 1.5 m)"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "None",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Limited funds available for travel",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Provided by the institute for some participants (Hotel Intercity The Universe Paulista)",
+     "partial"
+    ],
+    [
+     "Meals",
+     "Not stated (limited funds for local expenses)",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and submit the online application on the ICTP-SAIFR system (sis.ictp-saifr.org) by 3 Dec 2026.",
+    "Optionally submit a poster abstract."
+   ],
+   "contact": [
+    [
+     "Email",
+     "secretary@ictp-saifr.org",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.ictp-saifr.org/sbd2027/",
+   "confidence": "Medium",
+   "caveat": "Focus is on South American students; the page sets no nationality rule but does not say how many grants go to applicants from outside the region. Travel support is limited and not guaranteed.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": "https://www.ictp-saifr.org/wp-content/themes/yoo_enterprise_wp/apple_touch_icon.png",
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "ar-fiba-photo-contest-2026",
@@ -10158,6 +10785,188 @@
    "logo": "https://static.wixstatic.com/media/1dddb9_0ed7c4d72fde41f09f4e897c8b030840%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/1dddb9_0ed7c4d72fde41f09f4e897c8b030840%7Emv2.png",
    "imageChecked": "2026-10-22",
    "caveat": "Nationality rules not stated on the admission requirements page."
+  },
+  {
+   "id": "fd-youth-faspe-2027-law-business-design",
+   "cat": "exchange",
+   "title": "FASPE Fellowships 2027: Law, Business, and Design & Technology (Germany & Poland)",
+   "org": "FASPE (Fellowships at Auschwitz for the Study of Professional Ethics)",
+   "place": "Berlin, Krakow and Oświęcim (Germany & Poland)",
+   "travel": true,
+   "funded": "full",
+   "feeUSD": 0,
+   "feeText": "Free (fully funded; no fees listed)",
+   "deadline": "2027-01-03T23:59:00-05:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "3 Jan 2027, 11:59 PM US Eastern (recommendation letters by 10 Jan 2027)",
+   "when": "28 May - 11 Jun 2027 (two weeks)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange",
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Graduate students and early-career professionals. Law: 2L/3L JD (or equivalent) students, or lawyers/trainees (no more senior than 6th-year associate; where law is undergraduate, completed legal education). Design & Technology: graduate students in design, architecture, planning, computer science, AI, statistics, electrical engineering or related, or graduates working in the field (generally up to 10 years' experience). Business: see the business programme page",
+     "University: Any",
+     "Nationality/residency: All eligible candidates may apply regardless of citizenship or residency (Lebanon eligible)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Online form, CV, transcripts, short essays and two recommendation letters via Submittable; fellows arrange their own visas (FASPE provides support documents)"
+    ]
+   },
+   "money": [
+    [
+     "Programme fee",
+     "None; FASPE says fellowships are fully funded",
+     "yes"
+    ],
+    [
+     "Flights",
+     "Round-trip economy airfare (FASPE covers travel from other points of origin to Berlin and the return)",
+     "yes"
+    ],
+    [
+     "Accommodation",
+     "Shared rooms in three-star hotels in Berlin, Krakow and Oświęcim",
+     "yes"
+    ],
+    [
+     "Meals",
+     "All group meals plus pocket money for other meals",
+     "yes"
+    ],
+    [
+     "Local transport",
+     "Ground transport in Germany and Poland, admission fees, materials",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Fellows arrange their own visas (support documents provided)",
+     "no"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Read the eligibility for your profession (Law, Business or Design & Technology) on the FASPE site.",
+    "Apply through the FASPE Submittable portal: online form, CV, transcripts and short essays by 3 Jan 2027.",
+    "Ask two recommenders to submit letters directly through Submittable by 10 Jan 2027."
+   ],
+   "contact": [
+    [
+     "Email",
+     "applications@faspe-ethics.org",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.faspe-ethics.org/how-to-apply/",
+   "confidence": "High",
+   "caveat": "Lebanese passport holders need a Schengen visa (self-arranged). Business-track eligibility details are on https://www.faspe-ethics.org/business/.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": "https://www.faspe-ethics.org/wp-content/uploads/2018/08/cropped-512_faspe-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "fd-youth-faspe-2027-medical-journalism-clergy",
+   "cat": "exchange",
+   "title": "FASPE Fellowships 2027: Medical, Journalism, and Clergy & Religious Leaders (Germany & Poland)",
+   "org": "FASPE (Fellowships at Auschwitz for the Study of Professional Ethics)",
+   "place": "Berlin, Krakow and Oświęcim (Germany & Poland)",
+   "travel": true,
+   "funded": "full",
+   "feeUSD": 0,
+   "feeText": "Free (fully funded; no fees listed)",
+   "deadline": "2027-01-03T23:59:00-05:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "3 Jan 2027, 11:59 PM US Eastern (recommendation letters by 10 Jan 2027)",
+   "when": "18 Jun - 2 Jul 2027 (two weeks)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange",
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Medical: enrolled in an MD/DO (or equivalent) programme with at least one clinical year completed before the fellowship, or in residency. Journalism: graduate students (any programme) with some journalistic experience planning to work as journalists, or graduates working as journalists (generally up to 10 years' experience). Clergy: see the clergy programme page",
+     "University: Any",
+     "Nationality/residency: All eligible candidates may apply regardless of citizenship or residency (Lebanon eligible)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Online form, CV, transcripts, short essays and two recommendation letters via Submittable; journalism applicants with published or aired work get preference"
+    ]
+   },
+   "money": [
+    [
+     "Programme fee",
+     "None; FASPE says fellowships are fully funded",
+     "yes"
+    ],
+    [
+     "Flights",
+     "Round-trip economy airfare (FASPE covers travel from other points of origin to Berlin and the return)",
+     "yes"
+    ],
+    [
+     "Accommodation",
+     "Shared rooms in three-star hotels in Berlin, Krakow and Oświęcim",
+     "yes"
+    ],
+    [
+     "Meals",
+     "All group meals plus pocket money for other meals",
+     "yes"
+    ],
+    [
+     "Local transport",
+     "Ground transport in Germany and Poland, admission fees, materials",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Fellows arrange their own visas (support documents provided)",
+     "no"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Read the eligibility for your profession (Medical, Journalism or Clergy) on the FASPE site.",
+    "Apply through the FASPE Submittable portal: online form, CV, transcripts and short essays by 3 Jan 2027.",
+    "Ask two recommenders to submit letters directly through Submittable by 10 Jan 2027."
+   ],
+   "contact": [
+    [
+     "Email",
+     "applications@faspe-ethics.org",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.faspe-ethics.org/journalism/",
+   "confidence": "High",
+   "caveat": "Lebanese passport holders need a Schengen visa (self-arranged). Medical track: https://www.faspe-ethics.org/medical/ ; clergy track: https://www.faspe-ethics.org/clergy/.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": "https://www.faspe-ethics.org/wp-content/uploads/2018/08/cropped-512_faspe-192x192.png",
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "ar-post-wave-illustration-prize-2027",
@@ -14391,6 +15200,88 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "fd-acad-ictp-saifr-eic-qcd-school-2027",
+   "cat": "research",
+   "title": "ICTP-SAIFR School: Electron-Ion Collider as a Probe of Quantum Chromodynamics 2027",
+   "org": "ICTP South American Institute for Fundamental Research (ICTP-SAIFR)",
+   "place": "São Paulo, Brazil (Instituto Principia)",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free (no registration fee)",
+   "deadline": "2027-02-19T23:59:00-03:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "19 Feb 2027",
+   "when": "School 17-19 May 2027 (followed by workshop 19-21 May 2027)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Graduate students, postdocs and other early-career scientists",
+     "University: Any",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "None",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Limited funds available for travel",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Not stated (limited funds for local expenses)",
+     "ns"
+    ],
+    [
+     "Meals",
+     "Not stated (limited funds for local expenses)",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and apply online through the ICTP-SAIFR application system (sis.ictp-saifr.org) by 19 Feb 2027."
+   ],
+   "contact": [
+    [
+     "Email",
+     "secretary@ictp-saifr.org",
+     "Published on ICTP-SAIFR event pages"
+    ]
+   ],
+   "url": "https://www.ictp-saifr.org/seic2027/",
+   "confidence": "Medium",
+   "caveat": "Nationality rules not stated; financial support is limited and not guaranteed. Graduate level (nuclear/particle physics).",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": "https://www.ictp-saifr.org/wp-content/themes/yoo_enterprise_wp/apple_touch_icon.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "sc-gov-turkiye-burslari-2027",
    "cat": "exchange",
    "title": "Türkiye Scholarships (Türkiye Bursları) 2027 – General Scholarship",
@@ -15318,6 +16209,102 @@
    "caveat": "Only for AUB FAS undergraduates."
   },
   {
+   "id": "fd-acad-ibro-world-congress-2027-travel-grants",
+   "cat": "research",
+   "title": "IBRO World Congress 2027 Travel Grants (Cape Town)",
+   "org": "International Brain Research Organization (IBRO)",
+   "place": "Cape Town, South Africa",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": null,
+   "feeText": "Not stated (congress registration is an eligible cost of the grant)",
+   "deadline": "2027-03-17T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Applications open 11 Jan 2027, close 17 Mar 2027",
+   "when": "IBRO World Congress 2027, 13-16 Sep 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: PhD neuroscience students and early-career postdocs (within 5 years of postdoc start)",
+     "University: Any",
+     "Nationality/residency: Open to applicants from anywhere in the world (Lebanon not excluded)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Must have submitted an abstract as first author to the IBRO World Congress 2027 (abstract ID required); at least one reference letter incl. current supervisor; cannot be combined with SfN/FENS travel grants for the Congress or other IBRO travel grants in the same year"
+    ]
+   },
+   "money": [
+    [
+     "Grant amount",
+     "Up to USD 2,500",
+     "info"
+    ],
+    [
+     "Registration fee",
+     "Eligible cost under the grant",
+     "partial"
+    ],
+    [
+     "Flights/travel",
+     "Travel to Cape Town is an eligible cost (within the USD 2,500 cap)",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Eligible cost (within the cap)",
+     "partial"
+    ],
+    [
+     "Meals",
+     "Eligible cost (within the cap)",
+     "partial"
+    ],
+    [
+     "Visa",
+     "Visa-related expenses are an eligible cost",
+     "partial"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Payment timing",
+     "Paid after the Congress on submission of the Certificate of Attendance",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Submit an abstract as first author to the IBRO World Congress 2027 and keep the abstract ID.",
+    "Between 11 Jan and 17 Mar 2027, open the program page and follow the link to the IBRO Grants Portal (ibro.smapply.org).",
+    "Provide academic background, abstract details, an impact statement and a budget breakdown (registration, travel, local expenses).",
+    "Ask your supervisor (and any other referee) to submit a reference letter through the portal."
+   ],
+   "contact": [
+    [
+     "Form",
+     "https://ibro.org/grants/programs-contact-form/",
+     "Programs contact form published on the official page"
+    ]
+   ],
+   "url": "https://ibro.org/grant/iwc-travel-grants/",
+   "confidence": "High",
+   "caveat": "Grant is paid after attendance (reimbursement), so travel costs must be advanced. For PhD students and postdocs, not undergraduates. Congress dates taken from IBRO's travel-grant listing.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": "https://ibro.org/wp-content/uploads/2026/10/unnamed.webp",
+   "logo": "https://ibro.org/wp-content/themes/ibro/img/favicons/apple-touch-icon.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "ar-ippawards-2027",
    "cat": "community",
    "art": "photography",
@@ -15454,6 +16441,88 @@
    "caveat": "Fees in euros; USD approx.",
    "image": "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/1234c9a3-e533-4bd9-af9a-cc6beccad411",
    "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "fd-acad-ictp-saifr-modest27-school",
+   "cat": "research",
+   "title": "MODEST-27 School: Modeling and Observing Dense Stellar Systems (ICTP-SAIFR)",
+   "org": "ICTP South American Institute for Fundamental Research (ICTP-SAIFR)",
+   "place": "São Paulo, Brazil (IFT-UNESP)",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free (no registration fee)",
+   "deadline": "2027-04-06T23:59:00-03:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "6 Apr 2027 (application form opening soon)",
+   "when": "5-9 Jul 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Primarily advanced undergraduate, Master's and PhD students",
+     "University: Any",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "None",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Limited funds available for travel",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Not stated (limited funds for local expenses)",
+     "ns"
+    ],
+    [
+     "Meals",
+     "Not stated (limited funds for local expenses)",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and apply through the online application form (opening soon) by 6 Apr 2027."
+   ],
+   "contact": [
+    [
+     "Email",
+     "secretary@ictp-saifr.org",
+     "Published on ICTP-SAIFR event pages"
+    ]
+   ],
+   "url": "https://www.ictp-saifr.org/modests2027/",
+   "confidence": "Medium",
+   "caveat": "Application form not yet open; nationality rules not stated; travel funds limited. Astrophysics topic; a follow-up MODEST-27 workshop runs 12-16 Jul 2027.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": "https://www.ictp-saifr.org/wp-content/themes/yoo_enterprise_wp/apple_touch_icon.png",
    "imageChecked": "2026-10-23"
   },
   {
@@ -23498,6 +24567,97 @@
    "image": null,
    "logo": null,
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "fd-acad-iahs-systa-young-hydrologists-travel",
+   "cat": "research",
+   "title": "IAHS SYSTA – Sivapalan Young Scientists Travel Awards (e.g. for IUGG 2027 Incheon)",
+   "org": "International Association of Hydrological Sciences (IAHS)",
+   "place": "IAHS events worldwide (e.g. IUGG General Assembly, Incheon, Korea, 16-22 Jul 2027)",
+   "travel": true,
+   "funded": "full",
+   "feeUSD": 0,
+   "feeText": "Free to apply; registration fee paid by IAHS for awardees",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: apply as early as possible and at least 6 months before the event (a fixed deadline in IAHS eNews takes precedence). For IUGG 2027 (16 Jul 2027) that means by mid-Jan 2027.",
+   "when": "Travel to a single IAHS event (meeting length)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Registered PhD students, or PhD completed less than 5 years ago (+1 year per child for parental leave)",
+     "University: Any",
+     "Nationality/residency: Must have grown up in and currently reside in a 'financially disadvantaged country' (60% lowest GDP per capita); Lebanon IS on the IAHS list",
+     "Age: Not stated (no age limit stated)",
+     "Team: Individual",
+     "Other: First author of an English paper in Hydrological Sciences Journal, PIAHS or another listed hydrology journal; must present at the meeting; no previous SYSTA for intercontinental travel"
+    ]
+   },
+   "money": [
+    [
+     "Award cap",
+     "Up to EUR 3,200 per person",
+     "info"
+    ],
+    [
+     "Flights/travel",
+     "Transport covered; IAHS books flights through its travel agent (within cap)",
+     "yes"
+    ],
+    [
+     "Accommodation",
+     "Covered; arranged by IAHS travel agent (within cap)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Limited subsistence",
+     "partial"
+    ],
+    [
+     "Visa",
+     "Visa fee covered if needed",
+     "yes"
+    ],
+    [
+     "Registration fee",
+     "Paid by IAHS directly to the organisers",
+     "yes"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Read the IAHS guidance on completing the SYSTA application form.",
+    "Fill in the SYSTA application form (PDF on the official page), in English.",
+    "Email the form plus a copy of your first-author paper to IAHS at least 6 months before the event.",
+    "Decision and award amount are emailed within about 6 weeks."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@iahs.co.uk",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://iahs.info/About-IAHS/SYSTA-Grants/",
+   "confidence": "Medium",
+   "caveat": "Only for hydrology PhD students/early-career researchers who already have a first-author paper in a listed journal. The SYSTA page does not name IUGG 2027 specifically; IUGG 2027 dates come from the official IUGG 2027 site (iugg2027korea.org, abstract/travel-grant submission 30 Oct 2026 - 16 Feb 2027). About 11-12 awards per year.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": "https://iahs.info/apple-icon-114x114.png",
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "hk-kiroween-2026",
