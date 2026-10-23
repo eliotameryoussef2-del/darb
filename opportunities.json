@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T13:19:12.266Z",
- "count": 486,
+ "updated": "2026-10-23T13:29:26.845Z",
+ "count": 492,
  "opportunities": [
   {
    "id": "hk-amazon-dev-2026",
@@ -20948,7 +20948,7 @@
     "careers"
    ],
    "elig": {
-    "status": "ok",
+    "status": "check",
     "lines": [
      "Level: Students",
      "University: Student-led group at LAU Byblos; whether non-LAU students can join is not stated",
@@ -20977,12 +20977,131 @@
    ],
    "url": "https://www.meetup.com/aws-sbg-at-lebanese-american-university-byblos-campus/",
    "confidence": "Low",
-   "caveat": "Last listed event was in November 2025.",
+   "caveat": "Last listed event was in November 2025. The official page does not spell out every eligibility rule; check with the group before joining.",
    "verified": "2026-10-23",
    "source": "bulk-clubs",
    "added": "2026-10-23",
    "club": true,
    "image": "https://secure.meetupstatic.com/photos/event/a/d/e/f/600_533984527.jpeg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-zahirr-boardgames",
+   "cat": "community",
+   "title": "Zahirr board-game nights",
+   "org": "Zahirr (board-game community)",
+   "place": "Beirut area (e.g. PUZZLES, Hazmieh) and online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free to join the group (Meetup shows no membership dues)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Regular board-game evenings, e.g. 16 Oct and 22 Oct 2026, 7:00 PM",
+   "meet": "Venue announced per event",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "art": "games",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to anyone interested",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; group is based in Lebanon",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free to join the group (Meetup shows no membership dues)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the group page on Meetup and click \"Join this group\" (free Meetup account needed).",
+    "RSVP to the next event listed on the page."
+   ],
+   "contact": [
+    [
+     "Message",
+     "Through the Meetup group page",
+     "Meetup group page"
+    ]
+   ],
+   "url": "https://www.meetup.com/zahirr/",
+   "confidence": "Medium",
+   "caveat": "Game nights may have a venue charge; not stated on the group page.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://secure.meetupstatic.com/photos/event/b/0/7/8/600_536265176.jpeg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-hello-i-am-in-the-city",
+   "cat": "community",
+   "title": "Hello, I am in the city (Beirut social meetups)",
+   "org": "Hello, I am in the city (Meetup group)",
+   "place": "Beirut (e.g. Stories, Verdun)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free to join the group (Meetup shows no membership dues)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Social evenings, coworking sessions and outings (several events in Oct 2026)",
+   "meet": "Venue announced per event",
+   "team": "Individual",
+   "tags": [
+    "hiking"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to anyone interested",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; group is based in Lebanon",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free to join the group (Meetup shows no membership dues)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the group page on Meetup and click \"Join this group\" (free Meetup account needed).",
+    "RSVP to the next event listed on the page."
+   ],
+   "contact": [
+    [
+     "Message",
+     "Through the Meetup group page",
+     "Meetup group page"
+    ]
+   ],
+   "url": "https://www.meetup.com/hello-i-am-in-the-city/",
+   "confidence": "Medium",
+   "caveat": "Small new group (about 25 members); events may involve café costs.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://secure.meetupstatic.com/photos/event/1/4/9/8/600_536585272.jpeg",
    "logo": null,
    "imageChecked": "2026-10-23"
   },
@@ -21733,7 +21852,7 @@
     "volunteering"
    ],
    "elig": {
-    "status": "ok",
+    "status": "check",
     "lines": [
      "Level: Not stated",
      "University: Open to anyone",
@@ -21767,6 +21886,254 @@
    "club": true,
    "image": "https://s3.eu-central-1.amazonaws.com/files.gs/1971/conversions/116130407_3298387593555238_7158289125968423614_n-large.webp",
    "logo": "https://greensoutherners.org/favicon/apple-touch-icon.png",
+   "imageChecked": "2026-10-23",
+   "caveat": "The official page does not spell out every eligibility rule; check with the group before joining."
+  },
+  {
+   "id": "cl-isaca-lebanon-chapter",
+   "cat": "career",
+   "title": "ISACA Lebanon Chapter (IT audit, security and governance community)",
+   "org": "ISACA Lebanon Chapter",
+   "place": "Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Chapter events and courses through the year (e.g. CISA preparation course, 9 Oct to 2 Nov 2026; co-hosted PMI Professional Development Day, 26 Sep 2026)",
+   "meet": "Announced per event on the chapter calendar",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (ISACA offers membership to students and professionals)",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; Lebanon chapter",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "ISACA / chapter membership",
+     "Not stated on the chapter page",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Join ISACA through isaca.org (Join page) and choose the Lebanon Chapter.",
+    "Use the \"Contact Chapter\" page for questions about chapter events."
+   ],
+   "contact": [
+    [
+     "Contact form",
+     "https://engage.isaca.org/lebanonchapter/about/aboutchapter/contactus",
+     "Published on the chapter site"
+    ]
+   ],
+   "url": "https://engage.isaca.org/lebanonchapter",
+   "confidence": "Medium",
+   "caveat": "Student eligibility and fees are not stated on the chapter page.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-llwb-members-pool",
+   "cat": "career",
+   "title": "LLWB Members Pool (Lebanese League for Women in Business)",
+   "org": "Lebanese League for Women in Business (LLWB)",
+   "place": "Beirut (Sin El Fil) with chapters in Beirut, North and Beqaa",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Ongoing network with chapter events and programs (General Assembly June 2026; RA'EDA women entrepreneurs program 2026)",
+   "meet": "Aramex Building, Floor 2, Sin El Fil (HQ); chapter events announced on the site",
+   "team": "Individual",
+   "tags": [
+    "startups",
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Professional women; men entrepreneurs and youth with startup ideas are also welcome",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; Lebanon-based",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register on the LLWB membership platform to join the Members Pool (llwb.org/new-llwb-registration/)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@llwb.org",
+     "Published on the official site"
+    ],
+    [
+     "Phone",
+     "+961 71 445 155",
+     "Published on the official site"
+    ]
+   ],
+   "url": "https://llwb.org/new-llwb-registration/",
+   "confidence": "Medium",
+   "caveat": "Membership categories and fees are not stated on the homepage.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-terre-liban-green-rangers",
+   "cat": "volunteer",
+   "title": "Green Rangers community (T.E.R.R.E. Liban environmental app)",
+   "org": "T.E.R.R.E. Liban",
+   "place": "Across Lebanon (via the Terre Liban app); office in Baabda",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free app",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Ongoing: report environmental violations and follow campaigns (posts through 2026)",
+   "meet": "Online / app",
+   "team": "Individual",
+   "tags": [
+    "volunteering"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; Lebanon-focused",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "App",
+     "Free download",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Download the Terre Liban app (iOS or Android) and join the Green Rangers community.",
+    "Use Green-Police in the app or on the site to report environmental violations."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@terreliban.org",
+     "Published on the official site"
+    ],
+    [
+     "Phone",
+     "+961 5 923 060",
+     "Published on the official site"
+    ]
+   ],
+   "url": "https://www.terreliban.org/",
+   "confidence": "Medium",
+   "caveat": "This is an app-based community; in-person volunteering opportunities are not described on the homepage.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": null,
+   "logo": "https://www.terreliban.org/wp-content/uploads/2024/04/cropped-terre-footer-192x192.jpg",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-agile-4-management-lebanon",
+   "cat": "career",
+   "title": "Agile 4 Management 101 Lebanon (Meetup group)",
+   "org": "Agile 4 Management 101 Lebanon",
+   "place": "Online and Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free to join the group (some past trainings were paid)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Occasional talks (latest listed: \"25 Years of Agile\", online, 25 Feb 2026)",
+   "meet": "Online",
+   "team": "Individual",
+   "tags": [
+    "careers",
+    "consulting"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Anyone interested in agile management",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free to join the group (some past trainings were paid)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the group page on Meetup and click \"Join this group\".",
+    "RSVP to the next event."
+   ],
+   "contact": [
+    [
+     "Message",
+     "Through the Meetup group page",
+     "Meetup group page"
+    ]
+   ],
+   "url": "https://www.meetup.com/meetup-agile-4-management-beyrouth/",
+   "confidence": "Low",
+   "caveat": "Only one 2026 event is listed; activity is irregular.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://secure.meetupstatic.com/photos/event/2/d/4/9/600_466571593.jpeg",
+   "logo": null,
    "imageChecked": "2026-10-23"
   },
   {
