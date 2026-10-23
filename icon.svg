@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Darb ("path"): a winding road with a road-marking centre line leading to a destination pin. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1c2028"/>
+      <stop offset="1" stop-color="#0a0c0f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.66" cy="0.24" r="0.5">
+      <stop offset="0" stop-color="#ffd23f" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#ffd23f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <rect width="512" height="512" fill="url(#glow)"/>
+  <!-- road -->
+  <path d="M118 430 C 112 318, 392 340, 372 236 C 356 152, 222 176, 238 118"
+        fill="none" stroke="#2d323c" stroke-width="70" stroke-linecap="round"/>
+  <path d="M118 430 C 112 318, 392 340, 372 236 C 356 152, 222 176, 238 118"
+        fill="none" stroke="#3a404b" stroke-width="70" stroke-linecap="round" stroke-dasharray="0 0" opacity="0.35"/>
+  <!-- centre line -->
+  <path d="M118 430 C 112 318, 392 340, 372 236 C 356 152, 222 176, 238 118"
+        fill="none" stroke="#ffd23f" stroke-width="13" stroke-linecap="round" stroke-dasharray="30 26"/>
+  <!-- destination pin -->
+  <g transform="translate(300 82)">
+    <path d="M0 74 C -10 54, -44 38, -44 2 A 44 44 0 0 1 44 2 C 44 38, 10 54, 0 74 Z" fill="#ffd23f"/>
+    <circle cx="0" cy="2" r="17" fill="#0c0e11"/>
+  </g>
+</svg>
