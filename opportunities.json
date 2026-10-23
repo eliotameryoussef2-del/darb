@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T13:18:18.759Z",
- "count": 476,
+ "updated": "2026-10-23T13:19:12.266Z",
+ "count": 486,
  "opportunities": [
   {
    "id": "hk-amazon-dev-2026",
@@ -15374,6 +15374,86 @@
    "source": "bulk-arts",
    "image": "https://media.base44.com/images/public/69fc850da313ea2e84386c60/d355f43f8_Crest-color.png/v1/fill/w_1200,h_630/d355f43f8_Crest-color.png",
    "logo": "https://media.base44.com/images/public/69fc850da313ea2e84386c60/593df5722_Crest-color.png?v=4",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": "2027-04-04T23:59:00+05:00",
+   "eventDate": "2027-04-09T06:30:00+05:00",
+   "meet": "Tourist Beach, Maafushi (start and finish); nearest airport Male (MLE)",
+   "team": "Individual; Oceanteams 3 x 500 m relay",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-oceanman-maldives-2027",
+   "sport": "swimming",
+   "title": "OCEANMAN Maldives 2027 (Maafushi open-water swim: 2 km, 5 km, 10 km)",
+   "org": "OCEANMAN",
+   "place": "Tourist Beach, Maafushi, Maldives",
+   "feeUSD": 82,
+   "feeText": "Now: EUR 70 (2 km), EUR 100 (5 km), EUR 140 (10 km) until 9 Jan 2027; rises to EUR 90/120/160",
+   "deadlineText": "Registration closes 4 Apr 2027, 23:59; prices rise on 9 Jan and 9 Feb 2027",
+   "when": "Fri 9 Apr 2027: Sprint 2 km 06:30, Oceanfins, Oceanteams. Sat 10 Apr: 10 km 06:30, 5 km 07:00",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to amateur open-water swimmers; choose a distance that fits your level",
+     "University: Not restricted",
+     "Nationality/residency: International mass-participation race; no nationality rule stated",
+     "Age: Minimum age not stated (separate Oceankids race exists)",
+     "Team: Individual; Oceanteams relay of 3",
+     "Other: Safety buoy mandatory; wetsuits NOT allowed"
+    ]
+   },
+   "money": [
+    [
+     "Sprint 2 km",
+     "EUR 70 (to 9 Jan 2027), then EUR 80, then EUR 90",
+     "info"
+    ],
+    [
+     "Half Oceanman 5 km",
+     "EUR 100, then EUR 110, then EUR 120",
+     "info"
+    ],
+    [
+     "Oceanman 10 km",
+     "EUR 140, then EUR 150, then EUR 160",
+     "info"
+    ],
+    [
+     "Included",
+     "Accident insurance, finisher medal, race bag (swim cap, T-shirt, timing chip), water safety and medical cover, feeding points",
+     "yes"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the race page and click \"Register\" (goes to app.rocky.global).",
+    "Register before 9 Jan 2027 for the lower price."
+   ],
+   "contact": [
+    [
+     "Email",
+     "maldives@oceanmanswim.com",
+     "Published on the official race page"
+    ]
+   ],
+   "url": "https://oceanmanswim.com/races/maafushi-maldives-2027",
+   "caveat": "Fees in euros; USD approx.",
+   "image": "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/1234c9a3-e533-4bd9-af9a-cc6beccad411",
+   "logo": null,
    "imageChecked": "2026-10-23"
   },
   {
@@ -31462,6 +31542,602 @@
    "contact": [],
    "image": null,
    "logo": "https://fisu-events.com/app/uploads/sites/51/2026/04/cropped-Changchunmini-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "deadline": null,
+   "eventDate": null,
+   "meet": "Charles Hostler Student Center, AUB lower campus",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-aub-chsc-membership",
+   "sport": "other",
+   "title": "AUB Charles Hostler Student Center: gym, 25 m pool, courts and track (AUB students)",
+   "org": "AUB Athletics / Charles Hostler Student Center",
+   "place": "AUB campus, Beirut, Lebanon",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Rolling: membership and reservations all year",
+   "when": "All year during operating hours (see the CHSC hours page)",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: AUB community (membership program)",
+     "University: AUB only (assumed; not stated on the page)",
+     "Nationality/residency: Not applicable (campus facility)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Facilities: fitness rooms, indoor 25 m pool, three multi-sport courts, two squash courts, six-lane track, Green Field"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply through the CHSC \"Memberships\" page on the AUB website.",
+    "Reserve courts and facilities in the AUB CHSC app (Google Play / App Store)."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "AUB ext. 3208-3217",
+     "Published on the official page"
+    ],
+    [
+     "Social",
+     "@AUBphoenix",
+     "Official page says to try social media first"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/SAO/sports/Pages/CHSC.aspx",
+   "caveat": "The page does not list fees, eligibility or class schedule.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "deadline": null,
+   "eventDate": null,
+   "meet": "Not stated",
+   "team": "University teams",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-usj-sports-teams",
+   "sport": "other",
+   "title": "USJ university sports teams and intra-USJ competitions (football, futsal, basketball, volleyball, handball, chess, tennis, swimming and more)",
+   "org": "USJ Sports Office (SSPORT)",
+   "place": "USJ campuses (Innovation and Sports Campus, Mar Roukoz; Science and Technology Campus), Lebanon",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Team tryouts are held at the start of each academic year (dates posted on the USJ and Sports Office websites); intra-USJ competitions run during the year",
+   "when": "Academic year 2026-27",
+   "difficulty": "From recreational intra-USJ competitions to selected varsity teams",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: USJ students",
+     "University: USJ only",
+     "Nationality/residency: Not applicable (university program)",
+     "Age: Not stated",
+     "Team: Team sports and individual sports",
+     "Other: Varsity places via tryouts; team members may apply for sports scholarships"
+    ]
+   },
+   "money": [
+    [
+     "Participation fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Sports scholarships",
+     "Team members can apply",
+     "partial"
+    ]
+   ],
+   "steps": [
+    "Check the USJ Sports Office announcements for tryout dates.",
+    "Contact the Sports Office to join a team or an intra-USJ competition."
+   ],
+   "contact": [
+    [
+     "Email",
+     "sports@usj.edu.lb",
+     "Published in the USJ catalogue"
+    ],
+    [
+     "Phone",
+     "+961 1 421 623",
+     "Published in the USJ catalogue"
+    ]
+   ],
+   "url": "https://www.usj.edu.lb/catalogues/25-26/en/1/Part%201-17.05-Sports%20Office%20(SSPORT).pdf",
+   "caveat": "2026-27 tryouts may already be over; ask the Sports Office about late entry and intra-USJ tournaments. Teams include athletics, badminton, basketball, Thai boxing, cheerleading, chess, football, futsal, handball, swimming, squash, tennis, table tennis, volleyball, water polo and taekwondo.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "deadline": null,
+   "eventDate": null,
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-loa-biking-gemmayze-beirut",
+   "sport": "cycling",
+   "title": "Biking in Gemmayze and Beirut (bike rental from $4/hour)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Gemmayzeh, Beirut, Lebanon",
+   "feeUSD": 4,
+   "feeText": "$4 (1 h), $6 (2 h), $8 (3 h), $12 (1 day)",
+   "deadlineText": "Rolling: book any time",
+   "when": "Not stated (on request)",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not restricted",
+     "Nationality/residency: Not restricted (activity in Lebanon)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Not stated"
+    ]
+   },
+   "money": [
+    [
+     "Bike rental",
+     "$4/h, $6/2 h, $8/3 h, $12/day",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Open the listing, choose a quantity and click \"Buy Now\".",
+    "Pay by transfer via Whish, OMT, Suyul or Neo, or message LOA on WhatsApp from the page."
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/biking-in-gemmayze-and-beirut/",
+   "caveat": "Bike rental only, not a guided group ride; pick-up point and hours not stated.",
+   "contact": [],
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/04/SnapInsta.to_624699618_18346131037230397_9048087650681960779_n.jpg",
+   "logo": "https://lebanonoutdooractivities.com/wp-content/uploads/2025/11/cropped-NEW-LOGO_page-0005-512x512-1-192x192.jpg",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "deadline": null,
+   "eventDate": null,
+   "meet": "Not stated",
+   "team": "Individual (with an APPI-certified pilot)",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-paragliding-skymasters-tandem",
+   "sport": "other",
+   "title": "Tandem paragliding flight over Lebanon (Paragliding Skymasters)",
+   "org": "Paragliding Skymasters",
+   "place": "Lebanon (take-off site not stated)",
+   "feeUSD": 120,
+   "feeText": "$120",
+   "deadlineText": "Rolling: flights 7 days a week, 10:00-18:00, book a time slot",
+   "when": "Daily 10:00-18:00 (weather permitting)",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: No experience needed (tandem with a certified pilot)",
+     "University: Not restricted",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Weight limits not stated"
+    ]
+   },
+   "money": [
+    [
+     "Tandem flight",
+     "$120",
+     "info"
+    ],
+    [
+     "What is included",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Buy a ticket on the Ticketing Box Office page.",
+    "Call or WhatsApp 71 909 077 to choose your flight time."
+   ],
+   "contact": [
+    [
+     "Phone/WhatsApp",
+     "+961 71 909 077",
+     "Published on the official ticket page for booking a time"
+    ]
+   ],
+   "url": "https://www.ticketingboxoffice.com/paragliding-skymasters-tickets/event/19531/en",
+   "caveat": "An adventure activity rather than a competition; take-off site and age/weight rules not stated.",
+   "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-19531-637913319660894727.jpeg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2027-06-05T11:00:00+01:00",
+   "meet": "Registration and expo at Sra da Rocha Beach; finish at Praia Nova; nearest airport Faro",
+   "team": "Individual; Oceanteams 3 x 500 m relay",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-oceanman-algarve-2027",
+   "sport": "swimming",
+   "title": "OCEANMAN Algarve, Portugal 2027 (open-water swim: 2 km, 5 km, 10 km)",
+   "org": "OCEANMAN",
+   "place": "Sra da Rocha Beach to Praia Nova, Algarve, Portugal",
+   "feeUSD": null,
+   "feeText": "Not stated on the race page",
+   "deadlineText": "Registration deadline not stated",
+   "when": "Sat 5 Jun 2027: Sprint 2 km, Oceanteams. Sun 6 Jun: 10 km 09:00, 5 km 10:30",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to amateur open-water swimmers; choose a distance that fits your level",
+     "University: Not restricted",
+     "Nationality/residency: International mass-participation race; no nationality rule stated",
+     "Age: Minimum age not stated (separate Oceankids race exists)",
+     "Team: Individual; Oceanteams relay of 3",
+     "Other: Safety buoy mandatory; wetsuit rule not stated on the page"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Included",
+     "Accident insurance, finisher medal, race bag (swim cap, T-shirt, timing chip), water safety and medical cover, feeding points",
+     "yes"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the race page and click \"Register\" (goes to app.rocky.global)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "portugal@oceanmanswim.com",
+     "Published on the official race page"
+    ]
+   ],
+   "url": "https://oceanmanswim.com/races/algarve-portugal-2027",
+   "caveat": "Schengen visa needed for Lebanese passport holders.",
+   "image": "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/1234c9a3-e533-4bd9-af9a-cc6beccad411",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2027-06-25T00:00:00+03:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Low",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-ajp-grand-slam-istanbul-2027",
+   "sport": "martial-arts",
+   "title": "Abu Dhabi Grand Slam Jiu-Jitsu World Tour 2027-28, Istanbul (Gi & No-Gi)",
+   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
+   "place": "Istanbul, Turkey (venue to be confirmed)",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "25-27 Jun 2027",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (AJP Tour events usually have belt and age divisions)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Brazilian jiu-jitsu; registration through an AJP account"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the AJP event page and register online with an AJP account."
+   ],
+   "url": "https://ajptour.com/en/event/1580",
+   "caveat": "Listed on the official AJP Tour events calendar; the event page blocked automated access, so fee, divisions and deadline are unverified.",
+   "contact": [],
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2027-09-03T00:00:00+04:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Low",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-ajp-asia-continental-2027",
+   "sport": "martial-arts",
+   "title": "AJP Tour Asia Continental Jiu-Jitsu Championship 2027 (Gi)",
+   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
+   "place": "Mubadala Arena, Abu Dhabi, UAE",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "3-5 Sep 2027 (No-Gi edition 11 Sep 2027)",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (AJP Tour events usually have belt and age divisions)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Brazilian jiu-jitsu; registration through an AJP account; continental championship, Lebanon is in Asia"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the AJP event page and register online with an AJP account."
+   ],
+   "url": "https://ajptour.com/en/event/1577",
+   "caveat": "Listed on the official AJP Tour events calendar; the event page blocked automated access, so fee, divisions and deadline are unverified.",
+   "contact": [],
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "deadline": null,
+   "eventDate": null,
+   "meet": "Not stated",
+   "team": "Individual or group",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-swim-with-ram-academy",
+   "sport": "swimming",
+   "title": "Swim With Ram Academy: swimming sessions from beginner to advanced (45 min)",
+   "org": "Swim With Ram (coach Rami Jdeidani)",
+   "place": "Various locations, Lebanon",
+   "feeUSD": 39,
+   "feeText": "$40 per session; packs of 4 ($155), 7 ($270), 10 ($390), plus ihjoz fees",
+   "deadlineText": "Rolling: book a session pack any time",
+   "when": "45-minute private or group sessions; times arranged with the coach",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: All levels, from beginners to advanced swimmers",
+     "University: Not restricted",
+     "Nationality/residency: Not restricted (in Lebanon)",
+     "Age: All ages (\"Learners of all ages can join\")",
+     "Team: Individual or group sessions",
+     "Other: Lifeguard trainings also offered"
+    ]
+   },
+   "money": [
+    [
+     "1 session",
+     "$40 + $2.21 fees",
+     "info"
+    ],
+    [
+     "4 sessions",
+     "$155 + $5.40 fees",
+     "info"
+    ],
+    [
+     "10 sessions",
+     "$390 + $11.10 fees",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Open the ihjoz page, click \"Get Tickets\" and pick a session pack.",
+    "Pay online (card, OMT, Whish) and arrange times with the coach."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 76 999 876",
+     "Published on the ihjoz page"
+    ],
+    [
+     "Email",
+     "info@swimwithram.site",
+     "Published on the ihjoz page"
+    ]
+   ],
+   "url": "https://ihjoz.com/events/7883",
+   "caveat": "Lessons rather than an event; pool locations and timetable not stated.",
+   "image": "https://images-ihjoz-com.s3.amazonaws.com/events/cover/7883/IMG_20210610_122539_760.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "deadline": null,
+   "eventDate": null,
+   "meet": "Not stated",
+   "team": "Individual or small group of the same level",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-skileb-ski-lessons-2026-27",
+   "sport": "ski",
+   "title": "Private ski and snowboard lessons at Mzaar and the Cedars, 2026-27 season",
+   "org": "SKILEB.com (Grey Matter Travel)",
+   "place": "Mzaar (Faraya) and The Cedars, Lebanon",
+   "feeUSD": 200,
+   "feeText": "From $200 per 3-hour session for 1 person (+$60 per extra skier, +$80 per extra snowboarder)",
+   "deadlineText": "Rolling during the ski season (book accommodation first, then email for lessons)",
+   "when": "Ski season (typically Dec-Apr). AM 09:00-12:00, PM 12:30-15:30, or full day 09:00-15:30",
+   "difficulty": "First-timers to advanced (carving and control)",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: First-timers, intermediate and advanced",
+     "University: Not restricted",
+     "Nationality/residency: Not restricted (in Lebanon)",
+     "Age: From about 5 years",
+     "Team: Individual or small group",
+     "Other: Lessons are added to an accommodation booking"
+    ]
+   },
+   "money": [
+    [
+     "Half-day ski lesson",
+     "$200 (1 person), +$60 each extra person",
+     "info"
+    ],
+    [
+     "Full-day ski lesson",
+     "$300 (1 person), +$100 each extra person",
+     "info"
+    ],
+    [
+     "Full-day snowboard lesson",
+     "$360 (1 person), +$120 each extra person",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Book your accommodation through SKILEB first.",
+    "Email SKILEB with lesson dates, duration and number of people; they add lessons to your booking."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@skileb.com",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.skileb.com/booking/ski-lessons/",
+   "caveat": "Expensive for one person; sharing a lesson in a small group lowers the cost. Requires booking accommodation via SKILEB.",
+   "image": null,
+   "logo": null,
    "imageChecked": "2026-10-23"
   }
  ]
