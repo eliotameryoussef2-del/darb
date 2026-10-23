@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T13:51:47.320Z",
- "count": 505,
+ "updated": "2026-10-23T14:08:17.913Z",
+ "count": 526,
  "opportunities": [
   {
    "id": "hk-amazon-dev-2026",
@@ -1413,6 +1413,65 @@
    "added": "2026-10-23",
    "image": "https://www.emotic.org/assets/a7950a1ee856dc87b7724033ddb09a87.png",
    "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": "2026-10-29T02:00:00+02:00",
+   "eventDate": "2026-10-30T00:00:00+02:00",
+   "meet": "Not stated",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-games",
+   "id": "tg-wca-alexandria-open-2026",
+   "sport": "other",
+   "title": "Alexandria Open 2026 (WCA Rubik's cube competition)",
+   "org": "WCA organisers (Youssef Farid Adly Farid and team)",
+   "place": "Sea Scouts Club, Alexandria, Egypt",
+   "feeUSD": 10,
+   "feeText": "EGP 500 base registration fee",
+   "deadlineText": "Registration closes 29 Oct 2026, 02:00 Beirut time (or when 50 spots fill)",
+   "when": "30-31 Oct 2026",
+   "team": "Individual",
+   "difficulty": "12 events incl. 3x3, 2x2-5x5, blindfolded, one-handed, Clock, Megaminx, Pyraminx, Skewb, Square-1, multi-blind",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all WCA competitors, beginners included",
+     "University: Not restricted",
+     "Nationality/residency: Not stated on the WCA listing",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "EGP 500",
+     "info"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Create a free WCA account (worldcubeassociation.org) and register on the competition page before the deadline.",
+    "Pay the fee as described on the page; newcomers bring an ID showing name, citizenship and date of birth."
+   ],
+   "contact": [],
+   "url": "https://www.worldcubeassociation.org/competitions/AlexandriaOpen2026",
+   "caveat": "Abroad (Egypt), very short notice; check visa rules for Lebanese passport holders. Fee read from the WCA competition data; confirm on the page.",
+   "image": "https://assets.worldcubeassociation.org/assets/8f2142c/assets/og-wca_logo-ff9de4960ef1c232f744f6396bac36c6c8066ea5cd1e97c1ff5db7fe4a855b06.png",
+   "logo": "https://assets.worldcubeassociation.org/assets/8f2142c/assets/apple-touch-icon-d4b911d7e66b43d564710f36fd5a906ecd030a900cc2bbdeba0b988b7ba2f8d7.png",
    "imageChecked": "2026-10-23"
   },
   {
@@ -4263,6 +4322,65 @@
    "imageChecked": "2026-10-23"
   },
   {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": "2026-11-08T23:59:00+02:00",
+   "eventDate": "2026-11-14T00:00:00+02:00",
+   "meet": "Not stated",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-games",
+   "id": "tg-wca-prechampionship-athens-2026",
+   "sport": "other",
+   "title": "Pre-Championship Athens 2026 (WCA cube competition)",
+   "org": "Christos Dimizas, Vasilis Theanidis (WCA organisers)",
+   "place": "Panellinios Club House, Athens, Greece",
+   "feeUSD": 27,
+   "feeText": "EUR 23 base registration fee",
+   "deadlineText": "Registration closes 8 Nov 2026, 23:59 Athens/Beirut time (or when 105 spots fill)",
+   "when": "14-15 Nov 2026",
+   "team": "Individual",
+   "difficulty": "Events: 3x3, 2x2, 4x4, one-handed, Megaminx, Pyraminx, Skewb, Square-1",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all WCA competitors, beginners included",
+     "University: Not restricted",
+     "Nationality/residency: Not stated on the WCA listing",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "EUR 23",
+     "info"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Create a free WCA account (worldcubeassociation.org) and register on the competition page before the deadline.",
+    "Pay the fee as described on the page; newcomers bring an ID showing name, citizenship and date of birth."
+   ],
+   "contact": [],
+   "url": "https://www.worldcubeassociation.org/competitions/PreChampionshipAthens2026",
+   "caveat": "Abroad (Greece): Schengen visa needed for Lebanese passport holders. Fee read from the WCA competition data; confirm on the page.",
+   "image": "https://assets.worldcubeassociation.org/assets/8f2142c/assets/og-wca_logo-ff9de4960ef1c232f744f6396bac36c6c8066ea5cd1e97c1ff5db7fe4a855b06.png",
+   "logo": "https://assets.worldcubeassociation.org/assets/8f2142c/assets/apple-touch-icon-d4b911d7e66b43d564710f36fd5a906ecd030a900cc2bbdeba0b988b7ba2f8d7.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "ar-galley-beggar-short-story-prize-2027",
    "cat": "community",
    "art": "writing",
@@ -4396,6 +4514,66 @@
    "image": null,
    "logo": "https://www.iise.org/images//apple-touch-icon-152x152.png",
    "imageChecked": "2026-10-22"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": "2026-11-09T19:00:00+02:00",
+   "eventDate": "2026-11-14T00:00:00+02:00",
+   "meet": "Not stated",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-games",
+   "id": "tg-wca-side-quests-istanbul-2026",
+   "sport": "other",
+   "title": "Side Quests Istanbul 2026 (WCA cube competition)",
+   "org": "Kutay Temel, Muhammed Volkan Güngör, Selim Büyükçolak (WCA organisers)",
+   "place": "Holly Sahne Cafe, Kartal, Istanbul, Turkey",
+   "feeUSD": 12,
+   "feeText": "TRY 500, paid in cash at the venue",
+   "deadlineText": "Registration closes 9 Nov 2026 (17:00 UTC) or when 50 spots fill",
+   "when": "Saturday 14 Nov 2026",
+   "team": "Individual",
+   "difficulty": "Side events only: 5x5, 6x6, 7x7, 3x3 blindfolded, fewest moves, Square-1, Megaminx, Clock (no 3x3)",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to everyone",
+     "University: Not restricted",
+     "Nationality/residency: Not restricted (open to everyone)",
+     "Age: No age limit",
+     "Team: Individual",
+     "Other: WCA account needed; bring your own puzzles; no Bluetooth cubes; max 1 guest"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "TRY 500 cash at venue, non-refundable",
+     "info"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Log in to a WCA account and register on the competition page.",
+    "Pay TRY 500 in cash at the venue on the day."
+   ],
+   "contact": [],
+   "url": "https://www.worldcubeassociation.org/competitions/SideQuestsIstanbul2026",
+   "caveat": "Abroad (Turkey); travel at your own cost. No WCA competitions are currently listed in Lebanon.",
+   "image": "https://assets.worldcubeassociation.org/assets/8f2142c/assets/og-wca_logo-ff9de4960ef1c232f744f6396bac36c6c8066ea5cd1e97c1ff5db7fe4a855b06.png",
+   "logo": "https://assets.worldcubeassociation.org/assets/8f2142c/assets/apple-touch-icon-d4b911d7e66b43d564710f36fd5a906ecd030a900cc2bbdeba0b988b7ba2f8d7.png",
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "hk-datanova-2026",
@@ -5390,6 +5568,65 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": "2026-11-15T02:00:00+02:00",
+   "eventDate": "2026-11-28T00:00:00+01:00",
+   "meet": "Not stated",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-games",
+   "id": "tg-wca-morocco-championship-2026",
+   "sport": "other",
+   "title": "Morocco Championship 2026 (WCA cube competition)",
+   "org": "Ayhan Sarier, Soufiane Lakhlifi (WCA organisers)",
+   "place": "École Belge de Rabat, Hay Riad, Rabat, Morocco",
+   "feeUSD": 16,
+   "feeText": "MAD 150 base registration fee",
+   "deadlineText": "Registration closes 15 Nov 2026 (00:00 UTC) or when 80 spots fill",
+   "when": "Saturday 28 Nov 2026",
+   "team": "Individual",
+   "difficulty": "Events: 3x3, 2x2-5x5, blindfolded, one-handed, Megaminx, Pyraminx, Skewb",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all WCA competitors, beginners included",
+     "University: Not restricted",
+     "Nationality/residency: Not stated; national title likely reserved for Moroccan citizens",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "MAD 150",
+     "info"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Create a free WCA account (worldcubeassociation.org) and register on the competition page before the deadline.",
+    "Pay the fee as described on the page; newcomers bring an ID showing name, citizenship and date of birth."
+   ],
+   "contact": [],
+   "url": "https://www.worldcubeassociation.org/competitions/MoroccoChampionship2026",
+   "caveat": "Abroad (Morocco); check visa rules for Lebanese passport holders. Fee read from the WCA competition data; confirm on the page.",
+   "image": "https://assets.worldcubeassociation.org/assets/8f2142c/assets/og-wca_logo-ff9de4960ef1c232f744f6396bac36c6c8066ea5cd1e97c1ff5db7fe4a855b06.png",
+   "logo": "https://assets.worldcubeassociation.org/assets/8f2142c/assets/apple-touch-icon-d4b911d7e66b43d564710f36fd5a906ecd030a900cc2bbdeba0b988b7ba2f8d7.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "hk-dsh-hacks-v2",
    "cat": "hackathon",
    "title": "DSH Hacks V2",
@@ -6323,6 +6560,77 @@
    "added": "2026-10-23",
    "image": null,
    "logo": "https://coursesandconferences.wellcomeconnectingscience.org/wp-content/uploads/2026/08/sanger.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": "2026-11-17T20:00:00+02:00",
+   "eventDate": "2026-11-21T00:00:00+02:00",
+   "meet": "Not stated",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-games",
+   "id": "tg-wca-cyprus-nationals-2026",
+   "sport": "other",
+   "title": "Cyprus Nationals 2026 (WCA Rubik's cube competition)",
+   "org": "WCA organisers (Michael Eleftheriades)",
+   "place": "EAC building, Amfipoleos 11, Nicosia, Cyprus",
+   "feeUSD": 35,
+   "feeText": "EUR 30 base registration fee",
+   "deadlineText": "Registration closes 17 Nov 2026, 20:00 Beirut time (or when 60 spots fill)",
+   "when": "21-22 Nov 2026",
+   "team": "Individual",
+   "difficulty": "Events: 3x3 to 7x7, 3x3 blindfolded, one-handed, Clock, Megaminx, Pyraminx, Skewb, Square-1",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all WCA competitors",
+     "University: Not restricted",
+     "Nationality/residency: Not stated; the page does not restrict entry to Cypriots (the national title may be limited to citizens)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Newcomers must bring ID showing name, citizenship and date of birth; no on-the-spot registration; limit 60 competitors"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "EUR 30 (paid by card via Stripe)",
+     "info"
+    ],
+    [
+     "Refund",
+     "50% if cancelled before the deadline",
+     "info"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Create or log in to a WCA account and register on the competition page.",
+    "Pay the EUR 30 fee online; registration is approved only after payment."
+   ],
+   "contact": [
+    [
+     "Email",
+     "meleftheriades@worldcubeassociation.org",
+     "Organiser contact published on the WCA page"
+    ]
+   ],
+   "url": "https://www.worldcubeassociation.org/competitions/CyprusNationals2026",
+   "caveat": "Abroad (Cyprus): Lebanese passport holders need a Cyprus visa. No WCA competitions are currently listed in Lebanon itself.",
+   "image": "https://assets.worldcubeassociation.org/assets/8f2142c/assets/og-wca_logo-ff9de4960ef1c232f744f6396bac36c6c8066ea5cd1e97c1ff5db7fe4a855b06.png",
+   "logo": "https://assets.worldcubeassociation.org/assets/8f2142c/assets/apple-touch-icon-d4b911d7e66b43d564710f36fd5a906ecd030a900cc2bbdeba0b988b7ba2f8d7.png",
    "imageChecked": "2026-10-23"
   },
   {
@@ -9503,6 +9811,65 @@
    "caveat": "Finalists must travel to the USA, so Lebanese passport holders need a US visa."
   },
   {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": "2026-12-06T23:59:00+02:00",
+   "eventDate": "2026-12-12T00:00:00+02:00",
+   "meet": "Not stated",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-games",
+   "id": "tg-wca-greek-championship-2026",
+   "sport": "other",
+   "title": "Greek Championship 2026 (WCA cube competition)",
+   "org": "Christos Dimizas, Vasilis Theanidis (WCA organisers)",
+   "place": "President Hotel, Kifisias 43, Athens, Greece",
+   "feeUSD": 37,
+   "feeText": "EUR 32 base registration fee",
+   "deadlineText": "Registration closes 6 Dec 2026, 23:59 Athens/Beirut time (or when 120 spots fill)",
+   "when": "12-13 Dec 2026",
+   "team": "Individual",
+   "difficulty": "All 16 events incl. 6x6, 7x7, 4BLD, 5BLD and multi-blind",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all WCA competitors, beginners included",
+     "University: Not restricted",
+     "Nationality/residency: Not stated; foreigners can usually compete but national titles go to Greek citizens",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "EUR 32",
+     "info"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Create a free WCA account (worldcubeassociation.org) and register on the competition page before the deadline.",
+    "Pay the fee as described on the page; newcomers bring an ID showing name, citizenship and date of birth."
+   ],
+   "contact": [],
+   "url": "https://www.worldcubeassociation.org/competitions/GreekChampionship2026",
+   "caveat": "Abroad (Greece): Schengen visa needed. Fee read from the WCA competition data; confirm on the page.",
+   "image": "https://assets.worldcubeassociation.org/assets/8f2142c/assets/og-wca_logo-ff9de4960ef1c232f744f6396bac36c6c8066ea5cd1e97c1ff5db7fe4a855b06.png",
+   "logo": "https://assets.worldcubeassociation.org/assets/8f2142c/assets/apple-touch-icon-d4b911d7e66b43d564710f36fd5a906ecd030a900cc2bbdeba0b988b7ba2f8d7.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
    "travel": true,
    "funded": "partial",
    "feeUSD": null,
@@ -11032,6 +11399,78 @@
    "source": "bulk-arts",
    "image": "https://postwavepublishing.com/wp-content/uploads/2026/09/PW_Promo_Slides_1560x430px_PW_Illustration_Prize_General_UK-scaled.jpg",
    "logo": "https://postwavepublishing.com/wp-content/uploads/2024/07/cropped-favicon-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "travel": false,
+   "funded": "na",
+   "rolling": false,
+   "eventDate": null,
+   "meet": "Not stated",
+   "id": "tac-liff-2027",
+   "cat": "community",
+   "art": "film",
+   "title": "Lebanese Independent Film Festival (LIFF) 2027 – call for films, scripts and photography",
+   "org": "Lebanese Independent Film Festival (LIFF)",
+   "place": "Beirut, Lebanon (Alba University listed as venue)",
+   "feeUSD": 6,
+   "feeText": "From €6 (local categories, early deadline) to €18-36 (international, Arab, script and photography categories)",
+   "deadline": "2027-01-04T23:59:00+02:00",
+   "deadlineText": "Early deadline 4 Jan 2027 (standard 3 May, late 7 Jun, extended 2 Aug 2027)",
+   "when": "Festival 3-12 Sep 2027; notification 9 Aug 2027",
+   "team": "Individual or production team",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Awards in local, international and Arab categories incl. Best Emerging Filmmaker and Photography Contest; cash prizes of €1,000 mentioned",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all filmmakers (not student-specific); Best Emerging Filmmaker award exists",
+     "University: Not required",
+     "Nationality/residency: Local (Lebanese) categories plus international, Arab and Lebanese Expat categories; Lebanese entrants eligible",
+     "Age: Not stated",
+     "Team: Not stated",
+     "Film must have Lebanese premiere status (not screened in Lebanon before) and must not have competed in other local competitions; HD/UHD/4K/6K"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee (local short, early)",
+     "€6",
+     "info"
+    ],
+    [
+     "Entry fee (photography contest, early)",
+     "€18",
+     "info"
+    ],
+    [
+     "Prizes",
+     "Cash prizes of €1,000 mentioned",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Open the LIFF submission listing (Festhome or FilmFreeway, linked from liffofficial.com).",
+    "Choose your category and submit before the early deadline (4 Jan 2027) for the lowest fee.",
+    "If selected, provide a Vimeo link, poster and screenshots and accept the download request."
+   ],
+   "contact": [
+    [
+     "Email",
+     "liffua@outlook.com",
+     "Published on the festival's Festhome listing"
+    ]
+   ],
+   "url": "https://filmmakers.festhome.com/en/festival/lebanese-independent-film-festival-liff",
+   "confidence": "Medium",
+   "caveat": "Details come from the festival's own Festhome submission listing; liffofficial.com still shows the 2026 edition. Venue for 2027 (Alba University) not yet confirmed on the festival website.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-academic",
+   "image": null,
+   "logo": "https://festhome.com/favicon.png",
    "imageChecked": "2026-10-23"
   },
   {
@@ -33665,6 +34104,877 @@
    "caveat": "Expensive for one person; sharing a lesson in a small group lowers the cost. Requires booking accommodation via SKILEB.",
    "image": null,
    "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "travel": false,
+   "funded": "na",
+   "rolling": false,
+   "eventDate": "2026-10-24T00:00:00+03:00",
+   "meet": "Not stated",
+   "id": "tac-lebanon-ctf-2026",
+   "cat": "hackathon",
+   "title": "Lebanon CTF 2026 (national capture-the-flag championship)",
+   "org": "Semicolon Security",
+   "place": "Beirut, Lebanon",
+   "feeUSD": null,
+   "feeText": "Seat purchase required (price not stated)",
+   "deadline": null,
+   "deadlineText": "Registration open while seats last; teams lock shortly before the final",
+   "when": "Final: 24 Oct 2026, in person in Beirut",
+   "team": "Teams of 1-4 (solo allowed)",
+   "tags": [
+    "hackathon"
+   ],
+   "prize": "$50,000 in prizes",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Student category = anyone still working on a bachelor's degree at a Lebanese university; Professional category = graduates, working professionals and self-taught players",
+     "University: Any Lebanese university (student category)",
+     "Nationality/residency: Not stated; student category requires enrolment at a Lebanese university",
+     "Age: Not stated",
+     "Team: 1 to 4 players; solo play allowed",
+     "Students must give university, major and current year; eligibility is verified with winning teams after the competition"
+    ]
+   },
+   "money": [
+    [
+     "Seat / ticket",
+     "Bought on the Lebanon CTF ticketing platform; price not stated",
+     "ns"
+    ],
+    [
+     "Prizes",
+     "$50,000",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Buy a seat on the Lebanon CTF ticketing platform (this puts your email on the registration list).",
+    "Create an account on register.lebanonctf.com with the same email.",
+    "Choose the Student or Professional category and form a team of 1-4 before teams lock."
+   ],
+   "contact": [],
+   "url": "https://register.lebanonctf.com/",
+   "confidence": "Medium",
+   "caveat": "Final is on 24 Oct 2026 — the day after verification; seats may already be sold out. Exact venue, start time and seat price are not stated on the public page (start time not stated).",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-academic",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-10-24T00:00:00+03:00",
+   "meet": "Not stated",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-games",
+   "id": "tg-batloun-chess-championship-2026",
+   "sport": "chess",
+   "title": "2nd Batloun Sports Club Chess Championship (rapid)",
+   "org": "Batloun Sports Club (organiser: Rabih Kamaleddine)",
+   "place": "Batloun Sports Club, Lebanon (exact venue not stated on the listing)",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Event on 24 Oct 2026; registration deadline not stated",
+   "when": "Saturday 24 Oct 2026 (start time not stated)",
+   "team": "Individual",
+   "difficulty": "Rapid, 7-round Swiss, 10 min + 3 s/move; not rated",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (open tournament listing; players of all ages and ratings entered)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated; entrants listed are Lebanese-federation players",
+     "Age: Not stated (entrants range from juniors to seniors)",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Prizes",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the chess-results.com page to see the tournament details, entrants and pairings.",
+    "Registration and fees are not published on the listing: contact the organiser or the hosting club before the event."
+   ],
+   "contact": [],
+   "url": "https://chess-results.com/tnr1519609.aspx?lan=1",
+   "caveat": "Only the chess-results listing is public: entry fee, start time, prizes and registration method are not stated. Lebanon is in summer time (UTC+03:00) until 25 Oct.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-10-25T00:00:00+02:00",
+   "meet": "Not stated",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-games",
+   "id": "tg-golf-blitz-chess-festival-2026",
+   "sport": "chess",
+   "title": "Golf Blitz Chess Festival",
+   "org": "Ali Kaafarani (organiser); tournament director Hussein Hammoud",
+   "place": "Golf Club Beirut, Lebanon",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Event on 25 Oct 2026; registration deadline not stated",
+   "when": "Sunday 25 Oct 2026 (start time not stated)",
+   "team": "Individual",
+   "difficulty": "Blitz, 7-round Swiss, 7 min + 3 s/move; registered with FIDE for blitz rating (event 507109)",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (open tournament listing; players of all ages and ratings entered)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated; entrants listed are Lebanese-federation players",
+     "Age: Not stated (entrants range from juniors to seniors)",
+     "Team: Individual",
+     "Other: Entrants are grouped as Open and age categories (U06 to U16)"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Prizes",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the chess-results.com page to see the tournament details, entrants and pairings.",
+    "Registration and fees are not published on the listing: contact the organiser or the hosting club before the event."
+   ],
+   "contact": [],
+   "url": "https://chess-results.com/tnr1524091.aspx?lan=1",
+   "caveat": "Only the chess-results listing is public: entry fee, start time, prizes and registration method are not stated.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-10-24T00:00:00+03:00",
+   "meet": "Not stated",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-games",
+   "id": "tg-lebanese-women-chess-championship-2026",
+   "sport": "chess",
+   "title": "19th Lebanese Women Classic Chess Championship 2026",
+   "org": "Lebanese chess federation event (organiser: Marc Anwar Farra)",
+   "place": "Keshmat Chess Center, Dekweneh, Lebanon",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Starts 24 Oct 2026; registration deadline not stated",
+   "when": "24 Oct - 3 Nov 2026, 9 rounds",
+   "team": "Individual",
+   "difficulty": "Classical, 9-round Swiss, 90 min + 30 s/move; FIDE rated (FIDE event 507113)",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Women players (national women's championship)",
+     "University: Not restricted",
+     "Nationality/residency: National championship of Lebanon; all listed entrants are LBN-federation players",
+     "Age: Not stated (average entrant age 16)",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Prizes",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the chess-results page for pairings, results and the entry list.",
+    "Entry is via the Lebanese chess federation / organiser; contact them to check whether late entries are still accepted."
+   ],
+   "contact": [],
+   "url": "https://chess-results.com/tnr1522809.aspx?lan=1",
+   "caveat": "Starts the day after verification; the entry list may already be closed. Good to follow as a spectator or for future editions.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-11-01T00:00:00+02:00",
+   "meet": "Not stated",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-games",
+   "id": "tg-ainab-rapid-chess-2026",
+   "sport": "chess",
+   "title": "Al-Naqla Al-Hasima Rapid Chess Tournament (Ainab)",
+   "org": "West Aley Development Forum (منتدى انماء غرب عاليه) with the Lebanese Chess Federation",
+   "place": "Ainab Public Hall, Aley district, Lebanon",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Event on 1 Nov 2026; registration deadline not stated",
+   "when": "Sunday 1 Nov 2026 (start time not stated)",
+   "team": "Individual",
+   "difficulty": "Rapid, 9-round Swiss, 10 min + 3 s/move; FIDE rated",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (open tournament listing; players of all ages and ratings entered)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated; entrants listed are Lebanese-federation players",
+     "Age: Not stated (entrants range from juniors to seniors)",
+     "Team: Individual",
+     "Other: Open, women and age categories (U8, U10, U12, U14, U16)"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Prizes",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the chess-results.com page to see the tournament details, entrants and pairings.",
+    "Registration and fees are not published on the listing: contact the organiser or the hosting club before the event."
+   ],
+   "contact": [],
+   "url": "https://chess-results.com/tnr1518864.aspx?lan=1",
+   "caveat": "Also registered with FIDE (event 506467) and announced by Al Jadeed on 23 Oct 2026; entry fee, start time, prizes and registration method are not published.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-12-19T00:00:00+02:00",
+   "meet": "Not stated",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-games",
+   "id": "tg-keshmat-winter-rapid-2026",
+   "sport": "chess",
+   "title": "Keshmat Winter Rapid 2026 (FIDE-rated rapid)",
+   "org": "Keshmat Chess Center (organiser: Marc Anwar Farra)",
+   "place": "Dekweneh, Lebanon (Keshmat Chess Center)",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Event on 19 Dec 2026; registration deadline not stated",
+   "when": "Saturday 19 Dec 2026 (one day; start time not stated)",
+   "team": "Individual",
+   "difficulty": "Rapid Swiss, 10 min + 3 s/move; FIDE rated (event 507110), up to 100 players",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (previous Keshmat rapids were open to all ratings)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Prizes",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check the FIDE listing for the confirmed date and arbiters.",
+    "Registration is not published online: contact the Keshmat Chess Center in Dekweneh to enter."
+   ],
+   "contact": [],
+   "url": "https://ratings.fide.com/tournament_information.phtml?event=507110",
+   "caveat": "Listed on the FIDE rating server only (registered 19 Oct 2026); venue name is inferred from the city and the organiser's earlier Keshmat events. Fee, prizes and sign-up method not published.",
+   "image": "https://directory.fide.com/img/fide_og_1200.png",
+   "logo": "https://ratings.fide.com/manifest/apple-touch-icon-iphone-60x60.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": false,
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-sports",
+   "id": "tsp-iame-lebanon-karting-r5-2026",
+   "sport": "other",
+   "title": "IAME Series Lebanon 2026 (Lebanese Karting Championship), Round 5",
+   "org": "Automobile et Touring Club du Liban (ATCL) / IAME Series Lebanon",
+   "place": "RPM Karting, Mtein, Lebanon",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-31T00:00:00+02:00",
+   "deadlineText": "Registration deadline not stated",
+   "when": "Sat 31 Oct 2026 (one-day race meeting; timetable linked on the event page)",
+   "meet": "RPM Karting track (anticlockwise layout), Mtein, Mcheikha Aintoura road to Zahleh",
+   "team": "Individual drivers (teams may enter drivers)",
+   "tags": [
+    "sports"
+   ],
+   "prize": "Not stated",
+   "difficulty": "Competition karting; own race kart meeting category engine/tyre rules",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Competition karting drivers (categories by age)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: X30 Mini 7-11; X30 Junior 11-15; X30 Senior 15+; X30 Super Shifter 15+",
+     "Team: Individual",
+     "Other: Category rules on weight (110-180 kg), engine (IAME Mini 60cc / X30 125cc / Super Shifter 175cc) and Komet tyres; licence field listed but not filled in"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Kart and equipment",
+     "Driver's own (not stated as provided)",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official event page and check the entry list, driver checklist and timetable.",
+    "Complete the sporting check / sign-on form and paddock reservation form linked on the page.",
+    "Contact the organiser (Chant Etyemezian) to confirm entry and licence requirements."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "Chant Etyemezian, +961 3 338884",
+     "Published on the event page"
+    ]
+   ],
+   "url": "https://iame-motorsport.com/iame-series-lebanon/round-5-2026",
+   "confidence": "High",
+   "caveat": "Entry fee, licence requirement and registration deadline not stated. One IAME page lists different round dates (venue calendar earlier showed 3 Oct / 1 Nov); the event page says 31 Oct 2026.",
+   "image": "https://www.iame-motorsport.com/img/iame-motorsports-group.svg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": false,
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-sports",
+   "id": "tsp-iame-lebanon-karting-r6-2026",
+   "sport": "other",
+   "title": "IAME Series Lebanon 2026 (Lebanese Karting Championship), Round 6",
+   "org": "Automobile et Touring Club du Liban (ATCL) / IAME Series Lebanon",
+   "place": "RPM Karting, Mtein, Lebanon",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-07T00:00:00+02:00",
+   "deadlineText": "Registration deadline not stated",
+   "when": "Sat 7 Nov 2026 (one-day race meeting; timetable linked on the event page)",
+   "meet": "RPM Karting track (anticlockwise layout), Mtein, Mcheikha Aintoura road to Zahleh",
+   "team": "Individual drivers (teams may enter drivers)",
+   "tags": [
+    "sports"
+   ],
+   "prize": "Not stated",
+   "difficulty": "Competition karting; own race kart meeting category engine/tyre rules",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Competition karting drivers (categories by age)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: X30 Mini 7-11; X30 Junior 11-15; X30 Senior 15+; X30 Super Shifter 15+",
+     "Team: Individual",
+     "Other: Category rules on weight, engine and Komet tyres; licence field listed but not filled in"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Kart and equipment",
+     "Driver's own (not stated as provided)",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official event page and check the entry list and timetable.",
+    "Contact the organiser to confirm entry, licence requirements and fees."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "Chant Etyemezian, +961 3 338884",
+     "Published on the event page"
+    ]
+   ],
+   "url": "https://iame-motorsport.com/iame-series-lebanon/round-6-2026",
+   "confidence": "High",
+   "caveat": "Entry fee, licence requirement and registration deadline not stated on the page.",
+   "image": "https://www.iame-motorsport.com/img/iame-motorsports-group.svg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-sports",
+   "id": "tsp-lau-varsity-tryouts",
+   "sport": "other",
+   "title": "LAU Athletics: varsity team tryouts and recreational sports (FSUL league teams)",
+   "org": "Lebanese American University (LAU) Athletics Department",
+   "place": "LAU Beirut and Byblos campuses, Lebanon",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "deadlineText": "Rolling: tryouts are held at the beginning of each semester or academic year",
+   "when": "Tryouts at the start of each semester (next: start of Spring 2027 semester); FSUL league fixtures run through the academic year",
+   "meet": "Announced by LAU email, social media and campus boards",
+   "team": "Team and individual sports",
+   "tags": [
+    "sports"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: All registered LAU students; recreational sports open to all skill levels including beginners",
+     "University: LAU students only",
+     "Nationality/residency: International students are welcome in varsity and recreational sports",
+     "Age: Not stated",
+     "Team: Varsity teams (basketball, football, futsal, volleyball, handball, tennis, table tennis, badminton, padel, swimming, track and field) and clubs (chess, martial arts, ultimate frisbee, taekwondo)",
+     "Other: Some teams require tryouts; others are open for general participation"
+    ]
+   },
+   "money": [
+    [
+     "Participation",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch for the tryout announcement by LAU email, social media and campus boards at the start of the semester.",
+    "Register using the details in the announcement and attend the tryout.",
+    "For questions contact LAU Athletics."
+   ],
+   "contact": [
+    [
+     "Email",
+     "athletics@lau.edu.lb",
+     "Published on the LAU Athletics site"
+    ],
+    [
+     "Phone/WhatsApp",
+     "76-744113",
+     "Published on the LAU Athletics site"
+    ]
+   ],
+   "url": "https://athletics.lau.edu.lb/faqs/",
+   "confidence": "High",
+   "caveat": "Exact Spring 2027 tryout dates not yet published.",
+   "image": null,
+   "logo": "https://athletics.lau.edu.lb/wp-content/uploads/2026/10/athletics-favicon-300x300.jpg",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-sports",
+   "id": "tsp-lebanon-rugby-league-player-registration",
+   "sport": "other",
+   "title": "Lebanese Rugby League Federation: player registration (Lebanon Rugby League, College, Women and Schools competitions)",
+   "org": "Lebanese Rugby League Federation (LRLF)",
+   "place": "Lebanon (office: Arez Center, Jal el Dib)",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "deadlineText": "Rolling player registration",
+   "when": "Ongoing; competitions include Lebanon Rugby League (2026 season ended late Sept), College Rugby League D1/D2, Women Rugby League and Schools Rugby League",
+   "meet": "Not stated",
+   "team": "Team sport (13-a-side rugby league)",
+   "tags": [
+    "sports"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: College Rugby League divisions exist; eligibility not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Join via clubs/teams",
+     "Other: Player registration via an online form linked on the federation site"
+    ]
+   },
+   "money": [
+    [
+     "Registration",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official site and use the Player Registration form under About.",
+    "Contact the federation via the Contact page for club placement and season dates."
+   ],
+   "contact": [],
+   "url": "https://lebanonrl.com/",
+   "confidence": "Medium",
+   "caveat": "Federation site gives no season dates or eligibility rules for 2026-27; College division page says it is 'currently undergoing developments'.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-sports",
+   "id": "tsp-loa-atv-akoura",
+   "sport": "other",
+   "title": "ATV off-road tour in Akoura (1 hour)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Akoura, Mount Lebanon",
+   "feeUSD": 60,
+   "feeText": "$60 per 1-hour tour",
+   "deadline": null,
+   "eventDate": null,
+   "deadlineText": "Book any time (no schedule published)",
+   "when": "1-hour guided ATV tour; dates on request",
+   "meet": "Akoura (map pin on the listing)",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "difficulty": "Off-road ATV riding",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all (no level stated)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Inclusions and licence requirements not published"
+    ]
+   },
+   "money": [
+    [
+     "Tour price",
+     "$60 (1 hour)",
+     "info"
+    ],
+    [
+     "Payment",
+     "Bank transfer via Whish, OMT, Suyul or Neo",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Open the listing, choose quantity and click Buy Now.",
+    "Pay by transfer via Whish, OMT, Suyul or Neo.",
+    "Confirm the time with LOA via the WhatsApp button or Contact page."
+   ],
+   "contact": [],
+   "url": "https://lebanonoutdooractivities.com/listing/atv-tour-in-akoura/",
+   "confidence": "Medium",
+   "caveat": "Activity rather than a competition; schedule, age and licence requirements not published.",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/04/470245415_3861639840740905_1371723576798900848_n.jpg",
+   "logo": "https://lebanonoutdooractivities.com/wp-content/uploads/2025/11/cropped-NEW-LOGO_page-0005-512x512-1-192x192.jpg",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-sports",
+   "id": "tsp-loa-atv-kfarmatta",
+   "sport": "other",
+   "title": "Guided ATV tour in Kfarmatta, Aley (70-200 min)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Kfarmatta, Aley, Lebanon",
+   "feeUSD": 50,
+   "feeText": "$50 (70 min, 1 rider) to $150 (200 min, 2 riders)",
+   "deadline": null,
+   "eventDate": null,
+   "deadlineText": "Book any time",
+   "when": "Guided tours of 70, 120 or 200 minutes; dates on request",
+   "meet": "Kfarmatta (map pin on the listing)",
+   "team": "1 or 2 riders per ATV",
+   "tags": [
+    "sports"
+   ],
+   "difficulty": "Off-road ATV on nature trails",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all; all tours guided",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: 16+ to ride alone",
+     "Team: 1 or 2 riders per ATV",
+     "Other: Safety gear included"
+    ]
+   },
+   "money": [
+    [
+     "70 min",
+     "$50 (1 rider) / $60 (2 riders)",
+     "info"
+    ],
+    [
+     "120 min",
+     "$80 / $100",
+     "info"
+    ],
+    [
+     "200 min",
+     "$120 / $150",
+     "info"
+    ],
+    [
+     "Safety gear",
+     "Included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the listing, choose the package and click Buy Now.",
+    "Pay by transfer via Whish, OMT, Suyul or Neo.",
+    "Confirm date and meeting point with LOA via WhatsApp or the Contact page."
+   ],
+   "contact": [],
+   "url": "https://lebanonoutdooractivities.com/listing/atv-tour-in-kfarmatta-aley/",
+   "confidence": "Medium",
+   "caveat": "Activity rather than a competition; meeting point and schedule not published.",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/04/SnapInsta.to_517942284_17910594234169021_3871588522417618928_n-500x500.jpg",
+   "logo": "https://lebanonoutdooractivities.com/wp-content/uploads/2025/11/cropped-NEW-LOGO_page-0005-512x512-1-192x192.jpg",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-sports",
+   "id": "tsp-loa-atv-kfardebian",
+   "sport": "other",
+   "title": "ATV ride in Kfardebian (1-3 hours)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Kfardebian, Keserwan, Lebanon",
+   "feeUSD": 80,
+   "feeText": "$80 (1 h), $150 (2 h), $220 (3 h)",
+   "deadline": null,
+   "eventDate": null,
+   "deadlineText": "Book any time",
+   "when": "1, 2 or 3-hour rides; dates on request",
+   "meet": "Kfardebian (map pin on the listing)",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "difficulty": "High-altitude mountain off-road",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Inclusions and requirements not listed"
+    ]
+   },
+   "money": [
+    [
+     "1 hour",
+     "$80",
+     "info"
+    ],
+    [
+     "2 hours",
+     "$150",
+     "info"
+    ],
+    [
+     "3 hours",
+     "$220",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Open the listing, choose duration and click Buy Now.",
+    "Pay by transfer via Whish, OMT, Suyul or Neo.",
+    "Confirm details with LOA via WhatsApp or the Contact page."
+   ],
+   "contact": [],
+   "url": "https://lebanonoutdooractivities.com/listing/atv-ride-in-kfardebian/",
+   "confidence": "Medium",
+   "caveat": "Activity rather than a competition; requirements and inclusions not published.",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/04/tyler-delgado-xi8Jmp84hn0-unsplash-317x500.jpg",
+   "logo": "https://lebanonoutdooractivities.com/wp-content/uploads/2025/11/cropped-NEW-LOGO_page-0005-512x512-1-192x192.jpg",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-sports",
+   "id": "tsp-loa-atv-qammouaa",
+   "sport": "other",
+   "title": "ATV tour in Qammouaa, Akkar (30-60 min)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Qammouaa, Fnaidek, Akkar, Lebanon",
+   "feeUSD": 15,
+   "feeText": "$15 (30 min, 1 rider) to $60 (60 min, 2 riders)",
+   "deadline": null,
+   "eventDate": null,
+   "deadlineText": "Book any time",
+   "when": "30 or 60-minute rides; dates on request",
+   "meet": "Qammouaa, Fnaidek (coordinates on the listing)",
+   "team": "1 or 2 riders",
+   "tags": [
+    "sports"
+   ],
+   "difficulty": "Mountain off-road",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: 1 or 2 riders",
+     "Other: Gear and rider requirements not published"
+    ]
+   },
+   "money": [
+    [
+     "30 min",
+     "$15 (1 rider) / $30 (2 riders)",
+     "info"
+    ],
+    [
+     "60 min",
+     "$30 (1 rider) / $60 (2 riders)",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Open the listing, choose duration and riders, click Buy Now.",
+    "Pay by transfer via Whish, OMT, Suyul or Neo.",
+    "Confirm details with LOA via WhatsApp or the Contact page."
+   ],
+   "contact": [],
+   "url": "https://lebanonoutdooractivities.com/listing/atv-tour-in-qammouaa-akkar/",
+   "confidence": "Medium",
+   "caveat": "Activity rather than a competition; gear, age and schedule not published.",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-09-at-09.50.52-1-667x500.jpeg",
+   "logo": "https://lebanonoutdooractivities.com/wp-content/uploads/2025/11/cropped-NEW-LOGO_page-0005-512x512-1-192x192.jpg",
    "imageChecked": "2026-10-23"
   }
  ]
