@@ -59,6 +59,15 @@ main{position:relative;min-height:0}
 .topbar{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;gap:4px;justify-content:center;padding:12px 8px 8px;background:linear-gradient(180deg,rgba(12,14,17,.85),rgba(12,14,17,0))}
 .tb{background:none;border:0;padding:6px 8px;font-weight:600;font-size:13.5px;white-space:nowrap;color:var(--mute);border-bottom:2px solid transparent}
 .tb.on{color:var(--fg);border-color:var(--accent)}
+#feedbar{flex-direction:column;align-items:stretch;gap:6px;padding:10px 0 14px}
+.tabsrow{display:flex;gap:2px;justify-content:center}
+.topicrow{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding:0 12px}
+.topicrow::-webkit-scrollbar{display:none}
+.tchip{flex:none;font-size:12.5px;font-weight:600;padding:5px 11px;border-radius:999px;background:rgba(29,33,40,.85);border:1px solid var(--line);color:var(--fg)}
+.tchip.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.ph-tag,.sample-tag{top:96px!important}
+.fit{display:flex;flex-direction:column;gap:5px;font-size:14px}
+.fit .g{color:var(--ok)}.fit .w{color:var(--warn)}.fit .b{color:var(--bad)}
 .endcard{display:grid;place-items:center;text-align:center;padding:32px}
 .endcard h2{font:800 22px/1.15 var(--display);margin:0 0 8px}
 .endcard p{color:var(--mute);max-width:30ch;margin:0 auto 14px}
@@ -155,6 +164,7 @@ select,.inp{background:var(--panel2);border:1px solid var(--line);border-radius:
 <div id="app">
   <main>
     <section class="view feed" id="v-feed" aria-label="Discover feed"></section>
+    <div class="topbar" id="feedbar"></div>
     <section class="view pad" id="v-search" hidden></section>
     <section class="view pad" id="v-saved" hidden></section>
     <section class="view pad" id="v-add" hidden></section>
@@ -178,10 +188,10 @@ const VERIFIED = "22 Oct 2026";
 let OPPS=[],UPDATED=null;
 
 const CATS={research:"Research",hackathon:"Hackathon",case:"Case competition",running:"Running",hiking:"Hiking",career:"Careers",startup:"Startups",exchange:"Exchange & scholarships",volunteer:"Volunteering",community:"Community"};
-const INTERESTS={consulting:"Consulting",finance:"Finance & VC",startups:"Startups",case:"Case comps",hackathon:"Hackathons",research:"Research",exchange:"Exchange & scholarships",careers:"Careers",running:"Running",hiking:"Hiking",volunteering:"Volunteering"};
+const INTERESTS={consulting:"Consulting",finance:"Finance & VC",startups:"Startups",case:"Case comps",hackathon:"Hackathons",research:"Research",exchange:"Exchange & scholarships",careers:"Careers",running:"Running",hiking:"Hiking",volunteering:"Volunteering",sports:"Sports (football, basketball…)",arts:"Arts & creative"};
 
 /* ---------- state ---------- */
-const DEF={saved:[],hidden:[],applied:[],drafts:0,profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
+const DEF={saved:[],hidden:[],applied:[],drafts:0,profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
 let S=JSON.parse(JSON.stringify(DEF));
 try{const raw=localStorage.getItem("darb-state");if(raw){const p=JSON.parse(raw);S={...S,...p,profile:{...S.profile,...(p.profile||{})}}}}catch(e){}
 function persist(){try{localStorage.setItem("darb-state",JSON.stringify(S))}catch(e){}}
@@ -203,8 +213,60 @@ function dlLabel(o){
 function fundLabel(o){return{full:["Flights + housing covered","ok"],partial:["Partly funded","warn"],none:["Self-funded travel","bad"],na:[null,null]}[o.funded]}
 function eligLabel(o){return{ok:["Appears eligible","ok"],check:["Check eligibility","warn"],no:["Not eligible","bad"]}[o.elig.status]}
 function feeLimit(){const m=S.profile.maxFee;return m==="any"?Infinity:Number(m)}
+/* ---------- personal fit: reads the labelled "Who can take part" lines against the user's profile ---------- */
+const UNI_RE={AUB:/\bAUB\b|American University of Beirut/i,LAU:/\bLAU\b|Lebanese American University/i,USJ:/\bUSJ\b|Saint[- ]Joseph/i,NDU:/\bNDU\b|Notre Dame University/i,USEK:/\bUSEK\b|Holy Spirit University/i,LU:/Lebanese University|Universit[ée] Libanaise/i,BAU:/\bBAU\b|Beirut Arab University/i,LIU:/\bLIU\b|Lebanese International University/i,UOB:/Balamand/i,AUST:/\bAUST\b/i};
+const UNIS=[["LAU","LAU"],["AUB","AUB"],["USJ","USJ"],["NDU","NDU"],["USEK","USEK"],["LU","Lebanese University"],["BAU","BAU"],["LIU","LIU"],["UOB","Balamand"],["AUST","AUST"],["other","Other"]];
+const LEVELS=[["hs","High school"],["ug1","Bachelor's, year 1"],["ug2","Bachelor's, year 2"],["ug3","Bachelor's, year 3"],["ug4","Bachelor's, year 4+"],["ms","Master's"],["phd","PhD"],["grad","Graduated / working"]];
+function eligLine(o,label){const l=o.elig.lines.find(x=>x.toLowerCase().startsWith(label));return l?l.slice(l.indexOf(":")+1).trim():""}
+function fitFor(o){
+  const p=S.profile,good=[],warn=[];let block=null;
+  if(!p.level)return{block,good,warn};
+  const lvl=eligLine(o,"level:"),uni=eligLine(o,"university:"),age=eligLine(o,"age:"),nat=eligLine(o,"nationality");
+  const ug=/^ug/.test(p.level),yr=ug?Number(p.level.slice(2)):0;
+  if(lvl&&!/not stated/i.test(lvl)){
+    const hsOnly=/high[- ]?school|secondary school/i.test(lvl)&&!/universit|undergrad|college/i.test(lvl);
+    const needsBA=/(complet|hold|holder|obtain|earned|finish)\w*\s+(of\s+)?(a\s+|an\s+|their\s+)?(bachelor|first degree|undergraduate degree)|bachelor'?s degree (by|before|prior)|graduates? only|postgraduate|master'?s (students?|level) only|phd (students?|candidates?) only/i.test(lvl);
+    const mentionsUG=/undergrad|bachelor'?s? students?|\bbachelors\b|any level|all levels|university students|open to (all|anyone|everyone)/i.test(lvl);
+    if(hsOnly&&p.level!=="hs")block="High-school students only";
+    else if(ug&&needsBA&&!mentionsUG)block="Needs a finished bachelor's";
+    else if(ug){
+      const m=lvl.match(/(\d)(?:st|nd|rd|th)[- ]year|year (\d)/i),min=m?Number(m[1]||m[2]):0;
+      if(min&&/or above|or higher|at least|minimum|and above|onwards|completed/i.test(lvl)&&yr<min)block=`From year ${min} of a bachelor's`;
+      else if(mentionsUG)good.push("Undergraduates accepted");
+    }
+    if(!block&&(p.level==="ms"||p.level==="phd")&&/undergrad(uate)?s? only/i.test(lvl))block="Undergraduates only";
+  }
+  if(!block&&uni&&!/not stated|any universit|all universit|open to all|anyone/i.test(uni)){
+    const hit=Object.entries(UNI_RE).filter(([,re])=>re.test(uni)).map(([k])=>k);
+    if(hit.length&&/only|exclusive|must be|enrolled at|students of|limited to|restricted/i.test(uni)){
+      if(p.uni&&!hit.includes(p.uni))block=`Only for ${hit.join("/")} students`;else if(hit.includes(p.uni))good.push(`Open to ${p.uni} students`);
+    }
+  }
+  if(!block&&p.age&&age&&!/not stated|no (age )?(limit|rule)|no strict|not strict/i.test(age)){
+    const a=Number(p.age);let min=0,max=99,m;
+    // \b keeps season years like "2025-26" from reading as an age range.
+    if((m=age.match(/\b(\d{2})\s*(?:–|-|to)\s*(\d{2})\b(?!\s*season)/))||(m=age.match(/between (\d{2}) and (\d{2})/i))){min=+m[1];max=+m[2]}
+    else{
+      if((m=age.match(/\b(\d{2})\s*\+|at least (\d{2})|(\d{2}) or (?:older|over|above)|minimum(?: age)?(?: of)? (\d{2})|must be over (\d{2})|aged over (\d{2})/i)))min=+m.slice(1).find(Boolean);
+      if((m=age.match(/under (\d{2})|up to (\d{2})|not older than (\d{2})|(\d{2}) or younger|maximum(?: age)?(?: of)? (\d{2})|below (\d{2})/i)))max=+m.slice(1).find(Boolean);
+    }
+    if(a<min||a>max)block=`Age limit ${min}${max<99?"–"+max:"+"}`;else if(min||max<99)good.push("Your age fits");
+  }
+  if(!block&&nat&&/lebanon|lebanese/i.test(nat)){
+    // Only an explicit statement counts; "Lebanon not named/listed" means it is NOT excluded.
+    const silent=/(lebanon|lebanese)[^.;]{0,20}not (named|mentioned|listed|excluded|on)|not (named|mentioned|listed)[^.;]{0,20}(lebanon|lebanese)/i.test(nat);
+    const excluded=!silent&&/(lebanon|lebanese)[^.;]{0,40}(is |are )?(excluded|not eligible|ineligible)|(excluded|not eligible|ineligible|except)[^.;]{0,60}\b(lebanon|lebanese)/i.test(nat);
+    if(excluded){if(p.nat==="lb")block="Lebanese applicants excluded"}
+    else if(silent)good.push("Lebanon isn't on the excluded list");
+    else if(/eligible|open to|includ|accept|welcome|listed/i.test(nat))good.push("Lebanese applicants eligible");
+  }
+  if(!block&&o.elig.status==="check")warn.push("Some rules are unclear on the official page");
+  return{block,good,warn};
+}
+
 function reachReason(o){
   const p=S.profile;
+  const fit=fitFor(o);if(fit.block)return fit.block;
   if(o.travel&&!p.travel)return"Needs travel abroad";
   if(o.travel&&p.fullyFunded&&o.funded!=="full")return"Travel not fully funded";
   if(o.feeUSD!==null&&o.feeUSD>feeLimit())return"Above your fee limit";
@@ -220,8 +282,26 @@ function score(o){
   if(!o.travel&&why.length<2)why.push("<b>In Lebanon or online</b>");
   return{s,why:why.slice(0,2),label:s>=55?"Strong match":s>=35?"Good match":"Possible match"};
 }
+/* ---------- topic filters (football only, startups only, ...) ---------- */
+const TOPICS=[["football","⚽ Football"],["basketball","🏀 Basketball"],["volleyball","🏐 Volleyball"],["padel","🎾 Padel & tennis"],["swimming","🏊 Swimming"],["cycling","🚴 Cycling"],["ski","⛷️ Ski"],["othersport","🥇 Other sports"],["arts","🎨 Arts & creative"],["hiking","🥾 Hiking"],["running","🏃 Running"],["hackathon","💻 Hackathons"],["startup","🚀 Startups"],["case","📊 Case comps"],["research","🔬 Research"],["scholarship","🎓 Scholarships & exchange"],["conference","🎤 Conferences & MUN"],["volunteer","🤝 Volunteering"],["career","💼 Careers"],["funded","✈️ Fully funded"]];
+const SPORT_RE={football:/football|soccer|futsal/i,basketball:/basketball/i,volleyball:/volleyball/i,padel:/padel|tennis/i,swimming:/swim/i,cycling:/cycl|\bbike\b/i,ski:/\bski(ing)?\b|snowboard/i};
+function topicsOf(o){
+  if(o._topics)return o._topics;
+  const t=new Set(),text=o.title+" "+o.org,sport=o.sport==="tennis"?"padel":o.sport;
+  if(sport)t.add(SPORT_RE[sport]?sport:"othersport");
+  for(const[k,re]of Object.entries(SPORT_RE))if(re.test(text))t.add(k);
+  if((o.tags||[]).includes("sports")&&![...t].some(k=>SPORT_RE[k]))t.add("othersport");
+  const byCat={hiking:"hiking",running:"running",hackathon:"hackathon",startup:"startup",case:"case",research:"research",exchange:"scholarship",volunteer:"volunteer",career:"career"};
+  if(byCat[o.cat])t.add(byCat[o.cat]);
+  if(o.source==="bulk-conferences"||/conference|summit|forum|\bmun\b|model united|debat|symposium|congress/i.test(o.title))t.add("conference");
+  if(o.funded==="full")t.add("funded");
+  if(o.art||(o.tags||[]).includes("arts")||/painting|drawing|\barts?\b|illustration|photograph|film festival|short film|music|song|dance|theat(er|re)|poetry|writing contest|essay contest|pottery|ceramic|craft/i.test(o.title))t.add("arts");
+  return(o._topics=t);
+}
 function feedItems(){
   let list=OPPS.filter(o=>!isClosed(o)&&!S.hidden.includes(o.id)&&o.elig.status!=="no");
+  const tp=S.profile.topics||[];
+  if(tp.length)list=list.filter(o=>tp.some(k=>topicsOf(o).has(k)));
   if(feedMode==="soon")list=list.filter(o=>{const d=daysLeft(o);return d!==null&&d>=0&&d<=45}).sort((a,b)=>daysLeft(a)-daysLeft(b));
   else if(feedMode==="local")list=list.filter(o=>!o.travel);
   else if(feedMode==="funded")list=list.filter(o=>o.funded==="full"||o.funded==="partial");
@@ -286,7 +366,14 @@ const IC={
 function renderFeed(){
   const items=feedItems();const el=$("#v-feed");
   const tabs=[["foryou","For you"],["soon","Closing soon"],["local","Local + online"],["funded","Funded"]];
-  let h=`<div class="topbar" role="tablist">${tabs.map(([k,l])=>`<button class="tb ${feedMode===k?"on":""}" data-mode="${k}" role="tab" aria-selected="${feedMode===k}">${l}</button>`).join("")}</div>`;
+  const tp=S.profile.topics||[];
+  // Topic chips that have no open items are left out so the row stays useful.
+  const live=OPPS.filter(o=>!isClosed(o)&&o.elig.status!=="no");
+  const chips=TOPICS.filter(([k])=>tp.includes(k)||live.some(o=>topicsOf(o).has(k)));
+  $("#feedbar").innerHTML=`<div class="tabsrow" role="tablist">${tabs.map(([k,l])=>`<button class="tb ${feedMode===k?"on":""}" data-mode="${k}" role="tab" aria-selected="${feedMode===k}">${l}</button>`).join("")}</div>
+   <div class="topicrow"><button class="tchip ${tp.length?"":"on"}" data-topic="all">All</button>${chips.map(([k,l])=>`<button class="tchip ${tp.includes(k)?"on":""}" data-topic="${k}" aria-pressed="${tp.includes(k)}">${l}</button>`).join("")}</div>`;
+  let h="";
+  if(!S.profile.level)h+=`<div class="slide endcard"><div><h2>Get matches made for you</h2><p>Tell us your year, university and age. We hide what you can't join and show why the rest fits.</p><button class="btn primary" data-goto="profile">Set up my profile</button></div></div>`;
   if(!items.length)h+=`<div class="slide endcard"><div><h2>Nothing here yet</h2><p>No open opportunities match this tab and your settings. Try another tab or relax a setting in Me.</p></div></div>`;
   items.forEach(o=>{
     const sc=score(o),[fl,fc]=fundLabel(o),[el_,ec]=eligLabel(o),rr=reachReason(o),d=daysLeft(o),soon=d!==null&&d>=0&&d<=10,pic=picture(o);
@@ -342,7 +429,10 @@ function openSheet(id){
      ${o.bring?`<dt>Bring</dt><dd>${o.bring}</dd>`:""}
    </dl></div>
    <div class="sec"><h3>Money: fees, prizes, funding</h3>${o.prize?`<p style="margin:0 0 8px;font-weight:600">🏆 ${o.prize}</p>`:""}<div class="money">${moneyRows}</div></div>
-   <div class="sec"><h3>Who can take part · <span class="st ${ec==="ok"?"yes":ec==="warn"?"partial":"no"}">${el_}</span></h3><ul class="el">${o.elig.lines.map(l=>`<li>${l}</li>`).join("")}</ul></div>
+   ${(()=>{const f=fitFor(o);if(!S.profile.level)return`<div class="sec"><h3>Fit for you</h3><p class="note" style="margin:0">Set up your profile in Me to see whether this fits your year, university and age.</p></div>`;
+     const rows=[...(f.block?[`<span class="b">✕ ${f.block}</span>`]:[]),...f.good.map(g=>`<span class="g">✓ ${g}</span>`),...f.warn.map(w=>`<span class="w">! ${w}</span>`)];
+     return`<div class="sec"><h3>Fit for you</h3><div class="fit">${rows.length?rows.join(""):'<span class="w">! No specific limits found. Check the rules below</span>'}</div></div>`})()}
+   <div class="sec"><h3>Who can take part ·<span class="st ${ec==="ok"?"yes":ec==="warn"?"partial":"no"}">${el_}</span></h3><ul class="el">${o.elig.lines.map(l=>`<li>${l}</li>`).join("")}</ul></div>
    <div class="sec"><h3>How to register</h3><ol class="steps">${o.steps.map(s=>`<li><span>${s}</span></li>`).join("")}</ol></div>
    <div class="sec"><h3>Contact</h3>${o.contact.length?o.contact.map(([t,v,n])=>`<div class="contact"><div><small>${t}</small><code>${v}</code>${n?`<small>${n}</small>`:""}</div><button class="btn" data-copy="${v}">Copy</button></div>`).join(""):`<p class="note" style="margin:0">The organiser publishes no direct contact. Use the official page below.</p>`}</div>
    <div class="sec"><h3>Source</h3><p class="note" style="margin:0">${o.sample?"Not applicable.":`Checked against the official page on ${fmtDate(o.verified)} · confidence: <b>${o.confidence}</b>.`} ${o.caveat||""} Always confirm on the official page before you pay or book travel.</p></div>
@@ -410,7 +500,18 @@ function renderAdd(){
 function renderProfile(){
   const p=S.profile;
   $("#v-profile").innerHTML=`<h1 class="h1">Me</h1><p class="sub">Your settings decide what reaches the main feed. Items that break a setting move to “Reach”, they don't vanish.</p>
-   <div class="lbl" style="margin-top:6px">Interests</div>
+   <div class="lbl" style="margin-top:6px">About you</div>
+   <p class="note" style="margin:4px 0 0">Used only to match you. It stays on this phone.</p>
+   <div class="field"><label for="p-level">Where you are in your studies</label>
+    <select id="p-level"><option value="">Choose…</option>${LEVELS.map(([v,l])=>`<option value="${v}" ${p.level===v?"selected":""}>${l}</option>`).join("")}</select></div>
+   <div class="field"><label for="p-uni">University</label>
+    <select id="p-uni"><option value="">Choose…</option>${UNIS.map(([v,l])=>`<option value="${v}" ${p.uni===v?"selected":""}>${l}</option>`).join("")}</select></div>
+   <div class="field"><label for="p-field">Field of study</label>
+    <select id="p-field"><option value="">Choose…</option>${["Engineering","Business & economics","Computer science & IT","Sciences","Health & medicine","Arts, design & architecture","Humanities & social sciences","Law","Other"].map(v=>`<option ${p.field===v?"selected":""}>${v}</option>`).join("")}</select></div>
+   <div class="field"><label for="p-age">Age</label><input id="p-age" class="inp" type="number" inputmode="numeric" min="14" max="80" placeholder="e.g. 20" value="${p.age||""}"></div>
+   <div class="field"><label for="p-nat">Passport</label>
+    <select id="p-nat">${[["lb","Lebanese"],["lb2","Lebanese + another passport"],["other","Other nationality, living in Lebanon"]].map(([v,l])=>`<option value="${v}" ${p.nat===v?"selected":""}>${l}</option>`).join("")}</select></div>
+   <div class="lbl" style="margin-top:18px">Interests</div>
    <div class="ichips" style="margin-top:8px">${Object.entries(INTERESTS).map(([k,l])=>`<button class="fchip ${p.interests.includes(k)?"on":""}" data-int="${k}" aria-pressed="${p.interests.includes(k)}">${l}</button>`).join("")}</div>
    <div style="margin-top:10px">
     <label class="toggle" for="p-travel"><span>I can travel abroad<small>Off = only Lebanon and online in your main feed</small></span><input id="p-travel" type="checkbox" class="sw" ${p.travel?"checked":""}></label>
@@ -427,6 +528,7 @@ function renderProfile(){
 let current="feed";
 function show(v){
   current=v;document.querySelectorAll(".view").forEach(s=>s.hidden=s.id!=="v-"+v);
+  $("#feedbar").hidden=v!=="feed";
   document.querySelectorAll(".tab").forEach(t=>t.classList.toggle("on",t.dataset.v===v));
   ({feed:renderFeed,search:renderSearch,saved:renderSaved,add:renderAdd,profile:renderProfile})[v]();
   closeSheet();
@@ -442,6 +544,11 @@ document.addEventListener("click",e=>{
   if(b.dataset.v)return show(b.dataset.v);
   if(b.dataset.goto)return show(b.dataset.goto);
   if(b.dataset.mode){feedMode=b.dataset.mode;renderFeed();$("#v-feed").scrollTop=0;return}
+  if(b.dataset.topic){
+    const k=b.dataset.topic,tp=S.profile.topics||(S.profile.topics=[]);
+    if(k==="all")tp.length=0;else toggleIn(tp,k);
+    persist();renderFeed();$("#v-feed").scrollTop=0;return;
+  }
   if(b.dataset.open&&!b.dataset.act)return openSheet(b.dataset.open);
   if(b.dataset.cat){searchCat=b.dataset.cat;return renderSearch()}
   if(b.dataset.int){toggleIn(S.profile.interests,b.dataset.int);persist();return renderProfile()}
@@ -456,8 +563,11 @@ document.addEventListener("click",e=>{
 });
 document.addEventListener("change",e=>{
   const p=S.profile,t=e.target;
-  if(t.id==="p-travel")p.travel=t.checked;else if(t.id==="p-funded")p.fullyFunded=t.checked;else if(t.id==="p-reach")p.reach=t.checked;else if(t.id==="p-fee")p.maxFee=t.value;else return;
+  if(t.id==="p-travel")p.travel=t.checked;else if(t.id==="p-funded")p.fullyFunded=t.checked;else if(t.id==="p-reach")p.reach=t.checked;else if(t.id==="p-fee")p.maxFee=t.value;
+  else if(["p-level","p-uni","p-field","p-nat","p-age"].includes(t.id))p[t.id.slice(2)]=t.value;
+  else return;
   persist();
+  if(t.id==="p-level"&&t.value)toast("Saved. Your feed now hides what you can't join");
 });
 $("#backdrop").addEventListener("click",closeSheet);
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeSheet()});

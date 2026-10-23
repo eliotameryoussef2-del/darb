@@ -1,66 +1,7 @@
 {
- "updated": "2026-10-22T09:30:06.824Z",
- "count": 351,
+ "updated": "2026-10-23T12:59:59.249Z",
+ "count": 350,
  "opportunities": [
-  {
-   "id": "hk-airwallex-agentic-banking",
-   "cat": "hackathon",
-   "title": "Agentic Banking Hackathon",
-   "org": "Airwallex · hosted on HackerEarth",
-   "place": "Online (Demo Day in San Francisco, remote optional)",
-   "travel": false,
-   "funded": "na",
-   "feeUSD": 0,
-   "feeText": "Free",
-   "deadline": "2026-10-23",
-   "eventDate": null,
-   "rolling": false,
-   "deadlineText": "Applications close 23 Oct 2026 (time not stated)",
-   "when": "Build from 25 Oct · submissions due 13 Nov · Demo Day 19 Nov 2026",
-   "team": "Solo or up to 4",
-   "tags": [
-    "hackathon"
-   ],
-   "prize": "$80,000 cash across 4 awards ($30,000 Founder's Choice) + Claude, AWS and Base44 credits",
-   "elig": {
-    "status": "ok",
-    "lines": [
-     "Level: Open to all; FAQ names \"Developers, designers, data scientists, and founders\" (not student-specific)",
-     "University: Not restricted (no university requirement)",
-     "Nationality/residency: Open \"anywhere in the world\"; no country exclusions listed; Lebanon not mentioned",
-     "Age: 18 and over",
-     "Team: Solo or \"a team of up to four\"",
-     "Other: Submission needs a demo, a video under five minutes and a repository link"
-    ]
-   },
-   "money": [
-    [
-     "Entry fee",
-     "Free",
-     "yes"
-    ],
-    [
-     "Prizes",
-     "$80,000 cash",
-     "info"
-    ]
-   ],
-   "steps": [
-    "Apply on the hackathon page before 23 Oct.",
-    "Build from 25 Oct.",
-    "Submit your project by 13 Nov."
-   ],
-   "contact": [],
-   "url": "https://airwallex.hackerearth.com/",
-   "confidence": "Medium",
-   "caveat": "Applications close 23 Oct — act fast. Full rules not reviewed.",
-   "verified": "2026-10-22",
-   "source": "bulk-hackathons",
-   "added": "2026-10-22",
-   "image": "https://cdn.prod.website-files.com/67767d919e878fb670aab52d/6abfef9232ade8d8fed0eac4_Screenshot%202026-10-02%20at%2010.50.29%E2%80%AFAM.png",
-   "logo": "https://cdn.prod.website-files.com/67767d919e878fb670aab52d/678ea1f9e61459bce7ab99b6_256x256.png",
-   "imageChecked": "2026-10-22"
-  },
   {
    "id": "lb-ndu-ghineh-sports-complex-design-competition-2026",
    "cat": "case",
