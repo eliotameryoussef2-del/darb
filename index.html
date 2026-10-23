@@ -523,7 +523,7 @@ function renderProfile(){
    <div class="field"><label for="p-fee">Most I'll pay to take part</label>
     <select id="p-fee">${[["0","Free only"],["25","Up to $25"],["50","Up to $50"],["100","Up to $100"],["any","Any amount"]].map(([v,l])=>`<option value="${v}" ${p.maxFee===v?"selected":""}>${l}</option>`).join("")}</select></div>
    <p class="note" style="margin-top:18px">No account needed. Your settings stay on this phone and are never sent anywhere.</p>
-   <div class="btnrow"><button class="btn" id="reset">Clear my settings</button></div>`;
+   <div class="btnrow"><button class="btn primary" id="saveprofile">Save and show my matches</button><button class="btn" id="reset">Clear my settings</button></div>`;
 }
 
 /* ---------- navigation & events ---------- */
@@ -556,6 +556,12 @@ document.addEventListener("click",e=>{
   if(b.dataset.int){toggleIn(S.profile.interests,b.dataset.int);persist();return renderProfile()}
   if(b.dataset.copy)return copy(b.dataset.copy);
   if(b.dataset.report)return toast("Thanks. Please also check the official page, as reports aren't sent yet");
+  if(b.id==="saveprofile"){
+    const age=$("#p-age");if(age)S.profile.age=age.value;
+    persist();show("feed");$("#v-feed").scrollTop=0;
+    const hidden=OPPS.filter(o=>!isClosed(o)&&fitFor(o).block).length;
+    return toast(S.profile.level?`Saved. Showing your matches (${hidden} you can't join moved to the end)`:"Saved. Pick your year of study to get personal matches");
+  }
   if(b.id==="reset"){S=JSON.parse(JSON.stringify(DEF));persist();renderProfile();return toast("Settings cleared")}
   const act=b.dataset.act,id=b.dataset.id;if(!act)return;
   if(act==="save"){const on=toggleIn(S.saved,id);persist();refreshRails(id);if($("#sheet").classList.contains("on"))openSheet(id);toast(on?"Saved to Deadlines":"Removed from saved")}
