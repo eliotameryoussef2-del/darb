@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T14:46:20.121Z",
- "count": 529,
+ "updated": "2026-10-23T14:53:02.572Z",
+ "count": 528,
  "opportunities": [
   {
    "id": "hk-amazon-dev-2026",
@@ -17992,74 +17992,6 @@
    "logo": null,
    "imageChecked": "2026-10-22",
    "caveat": "Only for LAU students."
-  },
-  {
-   "id": "samplehike",
-   "sample": true,
-   "cat": "hiking",
-   "title": "Sunday hike: example listing",
-   "org": "Example hiking club",
-   "place": "Mount Lebanon (example)",
-   "travel": false,
-   "funded": "na",
-   "feeUSD": 25,
-   "feeText": "$25 incl. bus (example)",
-   "deadline": null,
-   "deadlineText": "Example: book by Friday 6 PM",
-   "when": "Example: every Sunday",
-   "meet": "Example: 6:30 AM at a named meeting point, with a map pin · back around 5 PM",
-   "team": "Individual or group",
-   "tags": [
-    "hiking"
-   ],
-   "difficulty": "Example: moderate · 12 km · 600 m climb",
-   "bring": "Example: 2 L water, lunch, hiking shoes, ID",
-   "elig": {
-    "status": "ok",
-    "lines": [
-     "Example: ages 16+ (under 18 with a guardian)",
-     "Example: basic fitness needed"
-    ]
-   },
-   "money": [
-    [
-     "Fee",
-     "Example: $25 incl. bus and guide",
-     "info"
-    ],
-    [
-     "Payment",
-     "Example: Whish, OMT or cash on the bus",
-     "info"
-    ],
-    [
-     "Lunch",
-     "Example: not included",
-     "no"
-    ]
-   ],
-   "steps": [
-    "Example: send your name on WhatsApp to the number below.",
-    "Example: pay through Whish and send a screenshot.",
-    "Example: get a confirmation message with the exact meeting pin."
-   ],
-   "contact": [
-    [
-     "WhatsApp",
-     "+961 XX XXX XXX",
-     "Example only. Real listings show the organiser's published number"
-    ],
-    [
-     "Instagram",
-     "@exampleclub",
-     "Example only"
-    ]
-   ],
-   "url": "",
-   "confidence": "Not a real event",
-   "verified": "2026-10-22",
-   "source": "sample",
-   "added": "2026-10-22"
   },
   {
    "id": "lau-omnicom-day-human-side-of-ai-2026",

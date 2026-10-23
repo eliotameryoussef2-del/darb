@@ -375,7 +375,7 @@ function renderFeed(){
   $("#feedbar").innerHTML=`<div class="tabsrow" role="tablist">${tabs.map(([k,l])=>`<button class="tb ${feedMode===k?"on":""}" data-mode="${k}" role="tab" aria-selected="${feedMode===k}">${l}</button>`).join("")}</div>
    <div class="topicrow"><button class="tchip ${tp.length?"":"on"}" data-topic="all">All</button>${chips.map(([k,l])=>`<button class="tchip ${tp.includes(k)?"on":""}" data-topic="${k}" aria-pressed="${tp.includes(k)}">${l}</button>`).join("")}</div>`;
   let h="";
-  if(!S.profile.level)h+=`<div class="slide endcard"><div><h2>Get matches made for you</h2><p>Tell us your year, university and age. We hide what you can't join and show why the rest fits.</p><button class="btn primary" data-goto="profile">Set up my profile</button></div></div>`;
+  if(!S.profile.level)h+=`<div class="slide endcard"><div><h2>Get matches made for you</h2><p>Optional, no account needed. Tell us your year, university and age, and we hide what you can't join.</p><button class="btn primary" data-goto="profile">Set up my profile</button></div></div>`;
   if(!items.length)h+=`<div class="slide endcard"><div><h2>Nothing here yet</h2><p>No open opportunities match this tab and your settings. Try another tab or relax a setting in Me.</p></div></div>`;
   items.forEach(o=>{
     const sc=score(o),[fl,fc]=fundLabel(o),[el_,ec]=eligLabel(o),rr=reachReason(o),d=daysLeft(o),soon=d!==null&&d>=0&&d<=10,pic=picture(o);
@@ -471,7 +471,7 @@ function renderSaved(){
   const sortD=(a,b)=>(daysLeft(a)??9999)-(daysLeft(b)??9999);
   const saved=S.saved.map(byId).filter(o=>o&&!S.applied.includes(o.id)).sort(sortD);
   const applied=S.applied.map(byId).filter(Boolean).sort(sortD);
-  $("#v-saved").innerHTML=`<h1 class="h1">Deadlines</h1><p class="sub">Saved items sorted by closing date. In the full app you get reminders 7 days and 2 days before each deadline.</p>
+  $("#v-saved").innerHTML=`<h1 class="h1">Deadlines</h1><p class="sub">Saved items sorted by closing date, soonest first.</p>
    <div class="group"><h3>Saved · ${saved.length}</h3><div class="list">${saved.length?saved.map(o=>rowHTML(o,isClosed(o)?'<div class="m" style="color:var(--bad)">Closed</div>':"")).join(""):`<div class="empty">Tap Save on any card in Discover and it appears here.</div>`}</div></div>
    <div class="group"><h3>Applied · ${applied.length}</h3><div class="list">${applied.length?applied.map(o=>rowHTML(o,'<div class="m" style="color:var(--ok)">Applied · waiting for a result</div>')).join(""):`<div class="empty">Mark “I applied” to track your applications.</div>`}</div></div>`;
 }
@@ -492,9 +492,9 @@ function renderAdd(){
      <div class="field"><label for="f-contact">Contact / how to register</label><input id="f-contact" class="inp" placeholder="e.g. WhatsApp number on the flyer"></div>
      <div class="field"><label class="toggle" for="f-own" style="border:0;padding:4px 0"><span>I'm the organiser<small>Organiser listings get a verified badge and view stats</small></span><input id="f-own" type="checkbox" class="sw"></label></div>
      <div class="btnrow"><button class="btn primary" type="submit">Send for review</button></div>
-     <p class="note">Prototype: nothing leaves your phone. In the full app the AI fills these fields from the flyer automatically.</p>
+     <p class="note">Sending flyers to the Darb team is not switched on yet, so for now your draft stays on this phone.</p>
    </form>`;
-  $("#flyer").addEventListener("change",e=>{const f=e.target.files[0];if(!f)return;const u=URL.createObjectURL(f);$("#pv").innerHTML=`<div class="preview"><img src="${u}" alt="Your flyer preview"></div><p class="note">Flyer attached. The full app would now pre-fill the form below.</p>`});
+  $("#flyer").addEventListener("change",e=>{const f=e.target.files[0];if(!f)return;const u=URL.createObjectURL(f);$("#pv").innerHTML=`<div class="preview"><img src="${u}" alt="Your flyer preview"></div><p class="note">Flyer attached. Fill in what you can below.</p>`});
   $("#af").addEventListener("submit",e=>{e.preventDefault();S.drafts++;persist();e.target.reset();$("#pv").innerHTML="";toast("Saved as a draft on this device. Nothing was sent")});
 }
 
@@ -522,8 +522,8 @@ function renderProfile(){
    </div>
    <div class="field"><label for="p-fee">Most I'll pay to take part</label>
     <select id="p-fee">${[["0","Free only"],["25","Up to $25"],["50","Up to $50"],["100","Up to $100"],["any","Any amount"]].map(([v,l])=>`<option value="${v}" ${p.maxFee===v?"selected":""}>${l}</option>`).join("")}</select></div>
-   <p class="note" style="margin-top:18px">Your settings stay on this device. The full app also asks about availability (semester or breaks), study year and passport, each optional and with a reason shown.</p>
-   <div class="btnrow"><button class="btn" id="reset">Reset demo</button></div>`;
+   <p class="note" style="margin-top:18px">No account needed. Your settings stay on this phone and are never sent anywhere.</p>
+   <div class="btnrow"><button class="btn" id="reset">Clear my settings</button></div>`;
 }
 
 /* ---------- navigation & events ---------- */
@@ -555,10 +555,10 @@ document.addEventListener("click",e=>{
   if(b.dataset.cat){searchCat=b.dataset.cat;return renderSearch()}
   if(b.dataset.int){toggleIn(S.profile.interests,b.dataset.int);persist();return renderProfile()}
   if(b.dataset.copy)return copy(b.dataset.copy);
-  if(b.dataset.report)return toast("Report noted. In the full app a curator re-checks within 48 h");
-  if(b.id==="reset"){S=JSON.parse(JSON.stringify(DEF));persist();renderProfile();return toast("Demo reset")}
+  if(b.dataset.report)return toast("Thanks. Please also check the official page, as reports aren't sent yet");
+  if(b.id==="reset"){S=JSON.parse(JSON.stringify(DEF));persist();renderProfile();return toast("Settings cleared")}
   const act=b.dataset.act,id=b.dataset.id;if(!act)return;
-  if(act==="save"){const on=toggleIn(S.saved,id);persist();refreshRails(id);if($("#sheet").classList.contains("on"))openSheet(id);toast(on?"Saved. You'll be reminded before the deadline":"Removed from saved")}
+  if(act==="save"){const on=toggleIn(S.saved,id);persist();refreshRails(id);if($("#sheet").classList.contains("on"))openSheet(id);toast(on?"Saved to Deadlines":"Removed from saved")}
   if(act==="applied"){const on=toggleIn(S.applied,id);if(on&&!S.saved.includes(id))S.saved.push(id);persist();refreshRails(id);toast(on?"Marked as applied. Good luck!":"Unmarked")}
   if(act==="share"){const o=byId(id);copy(o.url?`${o.title}: ${o.url}`:o.title)}
   if(act==="hide"){S.hidden.push(id);persist();const y=$("#v-feed").scrollTop;renderFeed();$("#v-feed").scrollTop=y;toast("Hidden. You'll see fewer like this",()=>{S.hidden=S.hidden.filter(x=>x!==id);persist();renderFeed()})}
