@@ -1,62 +1,7 @@
 {
- "updated": "2026-10-23T12:59:59.249Z",
- "count": 350,
+ "updated": "2026-10-23T13:09:39.559Z",
+ "count": 410,
  "opportunities": [
-  {
-   "id": "lb-ndu-ghineh-sports-complex-design-competition-2026",
-   "cat": "case",
-   "title": "Architectural Design Competition: Ghineh Sports and Cultural Complex",
-   "org": "NDU Faculty of Architecture, Art and Design, Municipality of Ghineh and Farid Reaidy Architectural Company",
-   "place": "Ghineh (site), NDU Zouk Mosbeh",
-   "travel": false,
-   "funded": "na",
-   "feeUSD": null,
-   "feeText": "Not stated",
-   "deadline": "2026-10-23T16:00:00+03:00",
-   "eventDate": null,
-   "rolling": false,
-   "deadlineText": "Team registration 23 Oct 2026, 4:00 PM; submissions 15 Jan 2027, 4:00 PM",
-   "when": "Competition 9 Oct-15 Dec 2026; final boards due 15 Jan 2027",
-   "meet": "Not stated",
-   "team": "Teams of up to 3",
-   "tags": [
-    "case",
-    "careers"
-   ],
-   "elig": {
-    "status": "check",
-    "lines": [
-     "Level: Students \"enrolled in the Department of Architecture at FAAD during the Fall 2026 semester\"",
-     "University: NDU (Notre Dame University-Louaize) students only",
-     "Nationality/residency: Not stated",
-     "Age: Not stated",
-     "Team: Teams of up to three students",
-     "Other: Field: architecture; register by 23 October 2026, 4:00 pm"
-    ]
-   },
-   "money": [
-    [
-     "Participation fee",
-     "Not stated",
-     "ns"
-    ]
-   ],
-   "steps": [
-    "Register your team through the Microsoft Forms link on the official page by 23 Oct 2026, 4:00 PM.",
-    "Submit three A1 design boards by 15 Jan 2027, 4:00 PM."
-   ],
-   "contact": [],
-   "url": "https://www.ndu.edu.lb/news-events/events/academic-events/architectural-design-competition-sports-complex-ghineh",
-   "confidence": "High",
-   "verified": "2026-10-22",
-   "source": "bulk-lebanon",
-   "added": "2026-10-22",
-   "prize": "USD 1,000 / 500 / 250 for the top three",
-   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
-   "logo": null,
-   "imageChecked": "2026-10-22",
-   "caveat": "Only for NDU architecture students; other universities' students cannot enter."
-  },
   {
    "id": "hk-amazon-dev-2026",
    "cat": "hackathon",
@@ -758,13 +703,8 @@
    "elig": {
     "status": "ok",
     "lines": [
-     "Level: \"Undergraduate and graduate students\" submit abstracts",
-     "University: Students \"from various Lebanese psychology departments / programs\" (AUB, USJ, USEK, Balamand \"among others\")",
-     "Nationality/residency: No nationality rule stated; national event aimed at students of Lebanese universities",
-     "Age: Not stated",
-     "Team: Pitch competition: \"You can apply individually; you do not need to have a team\" (students are matched into groups)",
-     "Other: Conference language is English; abstracts max 300 words and must include ethics committee approval numbers",
-     "Other: Pitch competition says \"students from all disciplines are welcome\" but also \"invites psychology students\""
+     "Undergraduate and graduate students across Lebanon",
+     "AI and Mental Health Pitch Competition open to students from all disciplines"
     ]
    },
    "money": [
@@ -785,6 +725,88 @@
    "image": null,
    "logo": null,
    "imageChecked": "2026-10-22"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": false,
+   "deadline": "2026-10-26T18:00:00+02:00",
+   "eventDate": "2026-11-01T07:00:00+02:00",
+   "meet": "ATCL, Jounieh, 07:00",
+   "team": "Individual, or relay of 2 (men, women, mixed)",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-atcl-aquathlon-2026",
+   "sport": "swimming",
+   "title": "ATCL Aquathlon Challenge 2026 (8th edition)",
+   "org": "ATCL (Automobile et Touring Club du Liban)",
+   "place": "ATCL, Jounieh, Lebanon",
+   "feeUSD": 40,
+   "feeText": "$40 + $2.21 booking fees (individual 19+); $60 + fees per relay team of 2",
+   "deadlineText": "Registration closes Mon 26 Oct 2026, 18:00 Beirut time",
+   "when": "Sun 1 Nov 2026, race start 07:00",
+   "difficulty": "Adults: 3.3 km sea swim (ATCL to Aquamarina) + 10 km run back to ATCL; 1h45 cut-off on the swim",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all adults (age groups 19-29, 30-39, 40-49, 50-59, 60+), plus kids categories",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated",
+     "Age: 19+ for the adult race (19-29 group = born 1997-2007); under-12 and 12-18 kids races are shorter",
+     "Team: Individual or 2-person relay (relays 19+)",
+     "Other: Swimmers who miss the 1h45 swim cut-off are disqualified and taken out of the water"
+    ]
+   },
+   "money": [
+    [
+     "Individual 19+",
+     "$40 + $2.21 fees",
+     "info"
+    ],
+    [
+     "Relay (2 people) 19+",
+     "$60 + $2.76 fees",
+     "info"
+    ],
+    [
+     "Kids (U12 / 12-18)",
+     "$35 + $2.07 fees",
+     "info"
+    ],
+    [
+     "What the fee includes",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the ihjoz event page and click \"Get Tickets\".",
+    "Choose your category (individual, relay or kids) and read the ticket conditions.",
+    "Log in or sign up on ihjoz with email or mobile and pay (card, OMT, Whish, LibanPost) before 26 Oct, 18:00."
+   ],
+   "contact": [
+    [
+     "Email",
+     "sports@atcl.org",
+     "Published on the ihjoz event page"
+    ],
+    [
+     "Phone",
+     "+961 3 954 609",
+     "Published on the ihjoz event page"
+    ]
+   ],
+   "url": "https://ihjoz.com/events/9266",
+   "caveat": "Swim-and-run (aquathlon) race. What the entry fee includes is not stated.",
+   "image": "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9266/ATCL_Aquathlon_for_Ihjoz.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "hk-build-with-ai-basics",
@@ -1076,6 +1098,171 @@
    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/605/103/datas/large.png",
    "logo": null,
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "fd-salto-action-for-inclusion-granada-2026",
+   "cat": "community",
+   "title": "Action for Inclusion: Applying Inclusive Tools in Youth Work (Erasmus+ Training Course)",
+   "org": "Las Niñas del Tul (via SALTO European Training Calendar)",
+   "place": "Pinos Genil (Granada), Spain",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free (no participation fee)",
+   "deadline": "2026-10-27T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "27 Oct 2026 (24h UTC); selection 28 Oct 2026",
+   "when": "19-26 Nov 2026",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange",
+    "volunteering"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Youth workers, youth leaders, youth project managers",
+     "University: Not applicable (open to anyone matching the profile)",
+     "Nationality/residency: Erasmus+ Youth Programme countries and Partner Countries Neighbouring the EU; Lebanon is listed as eligible",
+     "Age: Not stated",
+     "Team: Individual (22 participants)",
+     "Other: Working language English"
+    ]
+   },
+   "money": [
+    [
+     "Participation fee",
+     "No participation fee",
+     "yes"
+    ],
+    [
+     "Accommodation",
+     "Organised and covered by host",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Covered by host",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Reimbursed up to Erasmus+ distance band (e.g. EUR 395 for 2,000-2,999 km)",
+     "partial"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the SALTO page and click Apply now!",
+    "Fill in the SALTO online application form before 27 Oct 2026."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+34 614 09 48 44 (Victor)",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.salto-youth.net/tools/european-training-calendar/training/action-for-inclusion-applying-inclusive-tools-in-youth-work.15445/",
+   "confidence": "High",
+   "caveat": "Aimed at youth workers/leaders; students active in youth NGOs fit best. Beirut-Granada is roughly the 3,000-3,999 km band (EUR 580) by the Erasmus+ calculator; confirm with organiser.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": "2026-10-28T23:59:00+04:00",
+   "eventDate": "2026-11-07T08:00:00+04:00",
+   "meet": "Al Mamzar Beach Park (start and finish)",
+   "team": "Individual; Oceanteams 3 x 500 m relay",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-oceanman-dubai-2026",
+   "sport": "swimming",
+   "title": "OCEANMAN Dubai 2026 (open-water swim: 2 km, 5 km, 10 km)",
+   "org": "OCEANMAN",
+   "place": "Al Mamzar Beach Park, Dubai, UAE",
+   "feeUSD": 93,
+   "feeText": "EUR 80 (2 km), EUR 95 (5 km), EUR 120 (10 km) at the final rate",
+   "deadlineText": "Registration closes 28 Oct 2026, 23:59",
+   "when": "Sat 7 Nov 2026: Sprint 2 km 08:00, Oceanteams 11:00. Sun 8 Nov: 10 km 08:00, 5 km 09:00",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to amateur open-water swimmers; choose a distance that fits your level",
+     "University: Not restricted",
+     "Nationality/residency: International mass-participation race; no nationality rule stated",
+     "Age: Minimum age not stated (separate Oceankids race exists)",
+     "Team: Individual; Oceanteams relay of 3",
+     "Other: Safety buoy mandatory; wetsuits NOT allowed"
+    ]
+   },
+   "money": [
+    [
+     "Sprint 2 km",
+     "EUR 80",
+     "info"
+    ],
+    [
+     "Half Oceanman 5 km",
+     "EUR 95",
+     "info"
+    ],
+    [
+     "Oceanman 10 km",
+     "EUR 120",
+     "info"
+    ],
+    [
+     "Oceanteams 3 x 500 m",
+     "EUR 40",
+     "info"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the race page and click \"Register\" (goes to app.rocky.global).",
+    "Choose your distance and pay before 28 Oct, 23:59."
+   ],
+   "contact": [
+    [
+     "Email",
+     "dubai@oceanmanswim.com",
+     "Published on the official race page"
+    ]
+   ],
+   "url": "https://oceanmanswim.com/races/dubai-2026",
+   "caveat": "Fees in euros; USD approx. Inclusions are not listed on the Dubai page.",
+   "image": "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/1234c9a3-e533-4bd9-af9a-cc6beccad411",
+   "logo": null,
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "iaeste-ch-2027-3-architecture",
@@ -1976,6 +2163,91 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "fd-salto-mental-health-youth-work-brussels-2027",
+   "cat": "community",
+   "title": "Mental Health in Youth Work Training Course (Brussels)",
+   "org": "Bureau International Jeunesse (Erasmus+ National Agency, Belgium FR)",
+   "place": "Brussels, Belgium",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": "2026-10-31T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "31 Oct 2026 (24h UTC); selection 20 Nov 2026",
+   "when": "22-26 Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange",
+    "volunteering"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Youth workers who work directly with young people",
+     "University: Not applicable",
+     "Nationality/residency: Erasmus+ Youth countries, Eastern Partnership, Southern Mediterranean and Western Balkans; Lebanon is in the Southern Mediterranean group",
+     "Age: Not stated",
+     "Team: Individual (24 participants)",
+     "Other: Working language English"
+    ]
+   },
+   "money": [
+    [
+     "Participation fee",
+     "Free",
+     "yes"
+    ],
+    [
+     "Accommodation",
+     "Covered at the venue",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Covered at the venue",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "\"To be covered by your Sending National Agency\"",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the SALTO page and click Apply now!",
+    "Complete the online application before 31 Oct 2026."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+32 (0)2 210 52 29 (Gaëlle Le Breton)",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.salto-youth.net/tools/european-training-calendar/training/mental-health-in-youth-work-training-course.15390/",
+   "confidence": "Medium",
+   "caveat": "Travel is to be covered by a sending National Agency; Lebanon has no Erasmus+ National Agency, so travel support for Lebanese applicants is unclear. Ask the organiser.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "hk-zindi-bias-bounty",
    "cat": "hackathon",
    "title": "Bias Bounty Mapping Equity Challenge",
@@ -2819,6 +3091,91 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "fd-ictp-spring-college-complex-systems-2027",
+   "cat": "research",
+   "title": "ICTP Spring College in the Physics of Complex Systems 2027",
+   "org": "Abdus Salam International Centre for Theoretical Physics (ICTP)",
+   "place": "Trieste, Italy",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free (no registration fee)",
+   "deadline": "2026-11-01T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "1 Nov 2026",
+   "when": "15 Feb - 12 Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Qualified Master's and PhD students and young researchers",
+     "University: Any",
+     "Nationality/residency: Open internationally; grant priority to participants from developing countries (Lebanon not excluded)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Supervisor recommendation letter required; poster abstract encouraged"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "None",
+     "yes"
+    ],
+    [
+     "Grants",
+     "Limited number of grants to support attendance, priority to developing countries",
+     "partial"
+    ],
+    [
+     "Flights/travel",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Accommodation",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply through the ICTP e-applications portal (Apply here on the event page).",
+    "Ask your supervisor to send a recommendation letter.",
+    "Optionally submit a poster abstract using ICTP templates."
+   ],
+   "contact": [
+    [
+     "Email",
+     "smr4338@ictp.it",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://indico.ictp.it/event/11412",
+   "confidence": "Medium",
+   "caveat": "Grant contents (travel/accommodation) not detailed on the page; for Master's/PhD level.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "sc-ri-mpi-cs-internships-2027",
    "cat": "research",
    "title": "Max Planck CS Research Internships, Summer 2027 (MPI-INF, MPI-SWS, MPI-SP)",
@@ -3374,6 +3731,301 @@
    "image": "https://institutfrancais-liban.com/wp-content/uploads/2026/06/Entete-event-site-960-x-400-px.png",
    "logo": null,
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "ar-ifl-villa-al-qamar-2027",
+   "cat": "community",
+   "art": "other",
+   "title": "Villa Al Qamar 2027 artist residencies (open call)",
+   "org": "Institut français du Liban",
+   "place": "Deir El Qamar, Lebanon",
+   "travel": true,
+   "funded": "full",
+   "feeUSD": 0,
+   "feeText": "Free to apply",
+   "deadline": "2026-11-03T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "3 Nov 2026 (closing time not stated on the page)",
+   "when": "Residencies of 1–2 months between April and December 2027",
+   "meet": "Not stated",
+   "team": "Solo (French artist) or Franco-Lebanese duo",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Professional artists, authors and writers of any discipline",
+     "University: Not applicable",
+     "Nationality/residency: Applicants must hold French nationality or reside in France; in a duo the partner must hold Lebanese nationality",
+     "Age: No age limit",
+     "Team: Solo or Franco-Lebanese duo",
+     "CV, portfolio and clear project required"
+    ]
+   },
+   "money": [
+    [
+     "Stipend",
+     "€1,100 per month",
+     "yes"
+    ],
+    [
+     "Per diem",
+     "€25 per day",
+     "yes"
+    ],
+    [
+     "Production grant",
+     "Up to €750",
+     "yes"
+    ],
+    [
+     "Housing and workspace",
+     "Covered",
+     "yes"
+    ],
+    [
+     "International transport",
+     "Covered, plus a rental vehicle",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Find a French (or France-resident) artist partner – Lebanese artists can only apply as the partner in a duo.",
+    "Apply on the WIIN.IO platform with project, CV and portfolio before 3 Nov 2026."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 420 200",
+     "Institut français du Liban, published on the page"
+    ]
+   ],
+   "url": "https://institutfrancais-liban.com/evenement/villa-al-qamar-appel-a-candidatures-2027/",
+   "confidence": "High",
+   "caveat": "Aimed at professional artists; Lebanese can join only as the partner of a French/France-resident artist.",
+   "verified": "2026-10-23",
+   "source": "bulk-arts",
+   "added": "2026-10-23",
+   "image": "https://institutfrancais-liban.com/wp-content/uploads/2026/06/Entete-event-site-960-x-400-px.png",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-clip-studio-contest-49",
+   "cat": "community",
+   "art": "drawing",
+   "title": "49th International Illustration Contest – 'Spooky Creatures'",
+   "org": "CELSYS (CLIP STUDIO PAINT)",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": "2026-11-04T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "4 Nov 2026, 23:59 UTC (5 Nov 01:59 Beirut time)",
+   "when": "15 Oct – 4 Nov 2026; winners early Dec 2026",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Grand prize US$2,000 + Clip Studio Paint EX code; 2nd $500; 3rd–5th $200; 6th–10th $100",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all, beginners and professionals",
+     "University: Any",
+     "Nationality/residency: No nationality or region rule stated – Lebanon not excluded",
+     "Age: Not stated",
+     "Team: Individual",
+     "Original work on the theme; any tools (Clip Studio not required); generative AI prohibited; no fan art or existing characters"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Free",
+     "yes"
+    ],
+    [
+     "Grand prize",
+     "US$2,000",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Draw an original 'spooky creature' (digital or traditional).",
+    "Post it publicly with #cspcontest49 on X, on Instagram (mention @clipstudioofficial), or in the contest Facebook group, before 4 Nov 2026 23:59 UTC."
+   ],
+   "contact": [],
+   "url": "https://www.clipstudio.net/en/cspcontest49/",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://www.clipstudio.net/view/promotion/cspcontest49/img/ogp.jpg",
+   "logo": "https://www.clipstudio.net/view/img/common/logo/icon/apple-touch-icon.png?0006",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "fd-salto-esc-mentoring-tot-paris-2027",
+   "cat": "community",
+   "title": "Strengthening Mentoring in the European Solidarity Corps: Training of Trainers and Multipliers",
+   "org": "Agence Erasmus+ France Jeunesse et Sport with ESC Resource Centre (SALTO)",
+   "place": "Paris, France",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": null,
+   "feeText": "Varies by country (set by National Agency)",
+   "deadline": "2026-11-04T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "4 Nov 2026 (24h UTC); selection 4 Dec 2026",
+   "when": "8-13 Feb 2027 (online onboarding 15 Jan 2027)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "volunteering",
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Trainers, facilitators, mentors, tutors and project coordinators involved in the European Solidarity Corps",
+     "University: Not applicable",
+     "Nationality/residency: Erasmus+ Youth countries and Partner Countries Neighbouring the EU; Lebanon is listed",
+     "Age: Not stated",
+     "Team: Individual (25 participants)",
+     "Other: Must be able to communicate in English"
+    ]
+   },
+   "money": [
+    [
+     "Participation fee",
+     "Varies from country to country",
+     "ns"
+    ],
+    [
+     "Accommodation",
+     "Covered by host",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Covered by host",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Contact your NA/SALTO to know if travel is supported",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the SALTO page and click Apply now!",
+    "Submit the online application before 4 Nov 2026."
+   ],
+   "contact": [
+    [
+     "Contact person",
+     "Graziana Lucarelli",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.salto-youth.net/tools/european-training-calendar/training/strengthening-mentoring-in-the-european-solidarity-corps-training-of-trainers-and-multipliers.15355/",
+   "confidence": "Medium",
+   "caveat": "For experienced ESC mentors/trainers, not general students. Travel support for Lebanon (no National Agency) unclear.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-galley-beggar-short-story-prize-2027",
+   "cat": "community",
+   "art": "writing",
+   "title": "Galley Beggar Press Short Story Prize 2026/27",
+   "org": "Galley Beggar Press",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 14,
+   "feeText": "£11 per story; 200 free entries on request",
+   "deadline": "2026-11-08T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "8 Nov 2026, midnight UK time (02:00 Beirut, 9 Nov)",
+   "when": "Entries until 8 Nov 2026; winner announced 29 Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Winner £3,000; 3 shortlisted £200 + publication; 10 longlisted £50 vouchers + book subscription",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all writers",
+     "University: Any",
+     "Nationality/residency: Not stated on the prize info page",
+     "Age: Not stated",
+     "Team: Individual",
+     "Unpublished short story, max 6,000 words"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "£11 per story",
+     "info"
+    ],
+    [
+     "Free entry",
+     "200 free places, first come first served",
+     "yes"
+    ],
+    [
+     "Winner",
+     "£3,000",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Email info@galleybeggar.co.uk to request a free entry if you need one (no explanation needed).",
+    "Submit your story (max 6,000 words) on the prize entry page before midnight UK time on 8 Nov 2026."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@galleybeggar.co.uk",
+     "Published on the prize page"
+    ]
+   ],
+   "url": "https://www.galleybeggar.co.uk/short-story-prize-full-info",
+   "confidence": "High",
+   "caveat": "Nationality rule is in the terms page, which we did not open.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "cf-c-iise-annual-2027",
@@ -3951,6 +4603,91 @@
    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/555/650/datas/large.png",
    "logo": null,
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "fd-salto-youthwork-digital-forum-antalya-2026",
+   "cat": "community",
+   "title": "Youth@Work Digital Competences Forum 2026 (3rd Edition)",
+   "org": "Turkish National Agency for Erasmus+ and European Solidarity Corps",
+   "place": "Antalya, Türkiye",
+   "travel": true,
+   "funded": "full",
+   "feeUSD": 0,
+   "feeText": "Free for Partner Country participants",
+   "deadline": "2026-11-11T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "11 Nov 2026 (24h UTC); selection 16 Nov 2026",
+   "when": "1-5 Dec 2026",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange",
+    "volunteering"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Youth workers, trainers, youth project managers, policy makers, coaches and youth researchers; educators and Erasmus+/ESC project managers welcome",
+     "University: Not applicable",
+     "Nationality/residency: Erasmus+ countries, Eastern Partnership, Southern Mediterranean, Western Balkans; Lebanon is in the Southern Mediterranean group",
+     "Age: Not stated",
+     "Team: Individual (80 participants)",
+     "Other: Working language English; no advanced AI expertise needed"
+    ]
+   },
+   "money": [
+    [
+     "Participation fee",
+     "None for Partner Country participants",
+     "yes"
+    ],
+    [
+     "Accommodation",
+     "Covered by the hosting NA (single rooms)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Covered by the hosting NA",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Turkish NA reimburses travel for partner-country participants",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the SALTO page and click Apply now!",
+    "Submit the online application before 11 Nov 2026; selected participants receive travel details."
+   ],
+   "contact": [
+    [
+     "Contact person",
+     "Musab Alperen Şafak",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.salto-youth.net/tools/european-training-calendar/training/youth-work-digital-competences-forum-2026-3rd-edition.15466/",
+   "confidence": "High",
+   "caveat": "Travel reimbursement amount/cap not stated; details sent to selected participants.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
   },
   {
    "travel": true,
@@ -4656,6 +5393,89 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "fd-ictp-ccg-academic-writing-residency-2027",
+   "cat": "research",
+   "title": "ICTP-CCG Academic Writing Residency for Global South Scholars 2027",
+   "org": "ICTP and Climate Compatible Growth (CCG)",
+   "place": "Trieste, Italy",
+   "travel": true,
+   "funded": "full",
+   "feeUSD": 0,
+   "feeText": "Free (no registration fee)",
+   "deadline": "2026-11-15T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "15 Nov 2026",
+   "when": "1-19 Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Researchers from developing countries with a completed draft research paper (career level not stated)",
+     "University: Must be affiliated with a university or research institution in an ODA-eligible country",
+     "Nationality/residency: Nationals of ODA-eligible countries only, priority to LDCs; Lebanon is ODA-eligible",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Completed draft paper (all analysis finished); alignment with a CCG research community (energy/climate-compatible growth)"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "None",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Round-trip airfare (for selected grantees)",
+     "yes"
+    ],
+    [
+     "Accommodation",
+     "ICTP guesthouse",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily subsistence allowance",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Open-access fee",
+     "Optional support with approval",
+     "partial"
+    ]
+   ],
+   "steps": [
+    "Apply via https://e-applications.ictp.it/applicant/login/4340 before 15 Nov 2026 with your draft paper."
+   ],
+   "contact": [
+    [
+     "Email",
+     "smr4340@ictp.it",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://indico.ictp.it/event/11414",
+   "confidence": "High",
+   "caveat": "Grants are limited; best suited to graduate researchers with a finished draft paper. Page links to a CCG call described as subject to funding.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "sc-ri-epfl-sv-srp-2027",
    "cat": "research",
    "title": "EPFL Life Sciences Summer Research Program 2027",
@@ -4724,6 +5544,176 @@
    "image": "https://www.epfl.ch/schools/sv/wp-content/uploads/2019/01/SRP_SV.jpg",
    "logo": "https://www.epfl.ch/schools/sv/wp-content/themes/wp-theme-2018/assets/favicons/android-chrome-512x512.png",
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "fd-salto-global-solvers-accelerator-2027",
+   "cat": "community",
+   "title": "Global Solvers Accelerator 2027 (Melton Foundation)",
+   "org": "Melton Foundation",
+   "place": "Online + in-person Co-Lab in Germany",
+   "travel": true,
+   "funded": "full",
+   "feeUSD": 900,
+   "feeText": "USD 900 programme fee if selected; 20/50/80% need-based scholarships",
+   "deadline": "2026-11-15T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "15 Nov 2026 (24h UTC); selection 16 Dec 2026",
+   "when": "Online 1 Apr-30 Nov 2027; in-person Co-Lab 3-10 Jul 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "startups",
+    "volunteering"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Changemakers already running or co-leading a social, economic or environmental SDG project (activists, social entrepreneurs, community organisers)",
+     "University: Not applicable",
+     "Nationality/residency: Erasmus+ countries, Partner Countries Neighbouring the EU and other countries worldwide; Lebanon is listed",
+     "Age: 20-35",
+     "Team: Individual (15-20 participants)",
+     "Other: Working language English"
+    ]
+   },
+   "money": [
+    [
+     "Programme fee",
+     "USD 900 (only if selected); 20%, 50% or 80% scholarships on proven need",
+     "info"
+    ],
+    [
+     "Flights/travel",
+     "Travel costs fully covered by GSA",
+     "yes"
+    ],
+    [
+     "Accommodation",
+     "Covered in Germany",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Covered in Germany",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the SALTO page and click Apply now!",
+    "Complete the application form (request a scholarship there if needed) by 15 Nov 2026."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+49 1522 1372076 (Su Wai Phyoe)",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.salto-youth.net/tools/european-training-calendar/training/global-solvers-accelerator-gsa-2027.15353/",
+   "confidence": "High",
+   "caveat": "Travel, accommodation and meals for the Germany Co-Lab are covered, but a USD 900 programme fee applies (partly waivable).",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "fd-cimpa-statistical-inference-learning-methods",
+   "cat": "research",
+   "title": "CIMPA Research School: From Statistical Inference to Learning Methods",
+   "org": "CIMPA (Centre International de Mathématiques Pures et Appliquées)",
+   "place": "Abomey, Benin",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free (no registration fee)",
+   "deadline": "2026-11-15T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "15 Nov 2026",
+   "when": "15-26 Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (introductory and advanced courses)",
+     "University: Any",
+     "Nationality/residency: Mainly for students and researchers from developing countries (IMU definition); only developing-country participants can receive funding. Lebanon not named on the page",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Must be able to work in English; CV with coursework, cover letter and 1-2 referees"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "None",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Support for developing-country participants; requests above EUR 1,000 only in exceptional cases; partial funding possible",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Provided for participants from outside the host location",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Meals and coffee breaks for hosted participants",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Create an account on applications.cimpa.info.",
+    "Choose the option 'developing country outside the host country needing funding' and enter your travel cost estimate.",
+    "Upload CV, cover letter and referee emails before the deadline."
+   ],
+   "contact": [
+    [
+     "Email",
+     "christian.paroissin@univ-pau.fr",
+     "External organiser, published on the official page"
+    ]
+   ],
+   "url": "https://www.cimpa.info/en/ecoles/statistical-inference-learning-methods",
+   "confidence": "Medium",
+   "caveat": "Funding may be partial; confirm Lebanon is on the IMU developing-countries list. Advanced mathematics level.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
   },
   {
    "travel": false,
@@ -5713,6 +6703,176 @@
    "logo": null,
    "imageChecked": "2026-10-22",
    "caveat": "Only for AUB economics seniors and graduate students."
+  },
+  {
+   "id": "fd-ripe-fellowship-94-95-2027",
+   "cat": "career",
+   "title": "RIPE Fellowship 2027 (RIPE 94 Vilnius / RIPE 95 Madrid)",
+   "org": "RIPE NCC",
+   "place": "Vilnius, Lithuania (24-28 May 2027) or Madrid, Spain (15-19 Nov 2027)",
+   "travel": true,
+   "funded": "full",
+   "feeUSD": 0,
+   "feeText": "Free (meeting ticket included)",
+   "deadline": "2026-11-23T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "23 Nov 2026, 23:59 UTC+1",
+   "when": "RIPE 94: 24-28 May 2027; RIPE 95: 15-19 Nov 2027 (choose one)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to students and professionals studying or working in Internet technical coordination/operations (network engineering, routing, measurements, Internet governance, NOG/IXP work)",
+     "University: Any",
+     "Nationality/residency: Must live in the RIPE NCC service region (Europe, Middle East and parts of Central Asia); Lebanon is in this region",
+     "Age: 18+",
+     "Team: Individual",
+     "Other: Must complete the RIPE 101 online course and pass its quiz; not for people working solely in general IT or software development"
+    ]
+   },
+   "money": [
+    [
+     "Meeting ticket",
+     "Free",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Covered",
+     "yes"
+    ],
+    [
+     "Accommodation",
+     "Covered",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Lunch with coach on day 1; otherwise not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "May not be fully covered where no local Schengen visa centre exists",
+     "partial"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Create a RIPE NCC Access account.",
+    "Complete the RIPE 101 course and pass the quiz.",
+    "Use the invitation email link to submit the application on Hypha (choose RIPE 94 or 95 and a learning track) before 23 Nov 2026."
+   ],
+   "contact": [
+    [
+     "Email",
+     "fellowship@ripe.net",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.ripe.net/community/community-initiatives/ripe-fellowship/",
+   "confidence": "High",
+   "caveat": "RIPE NCC notes applicants from high-travel-risk areas or countries where reimbursements cannot be processed may need to pay part of visa/travel costs.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": "https://www.ripe.net/static/images/logo.png",
+   "logo": "https://www.ripe.net/static/favicons/apple-touch-icon.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "fd-salto-tic-tac-rome-2027",
+   "cat": "community",
+   "title": "TIC TAC: Training Course & Partnership Building Activity on Mobility of Youth Workers",
+   "org": "Italian National Agency (Erasmus+ Youth)",
+   "place": "Rome, Italy",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": null,
+   "feeText": "Varies by country",
+   "deadline": "2026-11-25T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "25 Nov 2026 (24h UTC); selection 10 Dec 2026",
+   "when": "25-31 Jan 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange",
+    "volunteering"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Voluntary/professional youth workers, youth leaders, trainers, project managers with prior international experience",
+     "University: Not applicable",
+     "Nationality/residency: Erasmus+ Youth countries and Partner Countries Neighbouring the EU; Lebanon is listed",
+     "Age: 18+",
+     "Team: Individual (25-30 participants)",
+     "Other: Needs an organisation's support; English required"
+    ]
+   },
+   "money": [
+    [
+     "Participation fee",
+     "Varies from country to country",
+     "ns"
+    ],
+    [
+     "Accommodation",
+     "Covered by Italian NA",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Covered by Italian NA",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Contact your NA/SALTO to know if travel is supported",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the SALTO page and click Apply now!",
+    "Submit the application before 25 Nov 2026."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+39 06 3759 1201 (Luca Pignocco)",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.salto-youth.net/tools/european-training-calendar/training/tic-tac-training-course-partnership-building-activity-mobility-of-youth-workers.15443/",
+   "confidence": "Medium",
+   "caveat": "Travel support for Lebanese participants is not confirmed; Lebanon has no Erasmus+ NA.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "hk-sony-wpa-student-2027",
@@ -6896,6 +8056,65 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "ar-fiba-photo-contest-2026",
+   "cat": "community",
+   "art": "photography",
+   "title": "FIBA Photo Contest 2026 (10th edition)",
+   "org": "FIBA Foundation",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2026-12-04T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "4 Dec 2026 (time not stated)",
+   "when": "30 Sep – 4 Dec 2026; winners mid-December",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "prize": "CHF 2,000 of photo equipment per category winner; overall winner gets a 5-day photographer experience at the FIBA Basketball World Cup Qatar 2027",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Professionals and amateurs",
+     "University: Any",
+     "Nationality/residency: 'Photographers from around the world' – Lebanon eligible",
+     "Age: Not stated",
+     "Team: Individual",
+     "Basketball photos in three categories: Elite, Community, Vintage Basketball"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Category prize",
+     "CHF 2,000 photo equipment",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Choose a category (Elite, Community or Vintage Basketball).",
+    "Submit your photos at site.picter.com/fiba-photo-contest-2026 before 4 Dec 2026."
+   ],
+   "contact": [],
+   "url": "https://about.fiba.basketball/en/news/the-fiba-photo-contest-returns-for-its-landmark-10th-edition",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "cf-c-aaai-27-student-scholar-volunteer",
    "cat": "research",
    "title": "AAAI-27 Student Scholar Volunteer Program (travel support)",
@@ -6918,13 +8137,10 @@
    "elig": {
     "status": "ok",
     "lines": [
-     "Level: \"Full-time undergraduate or graduate students at colleges and universities\"",
-     "University: Any college or university",
-     "Nationality/residency: No nationality or country requirement stated; local students not needing travel help may also apply",
-     "Age: Not stated",
-     "Team: Individual",
-     "Other: \"AAAI membership is required for eligibility\"; must have submitted paper(s) to AAAI-27; letter(s) of recommendation from the faculty advisor",
-     "Other: Repeat applicants must have met previous volunteer and reporting requirements"
+     "Full-time undergraduate or graduate students",
+     "Current AAAI members",
+     "Must have submitted paper(s) to AAAI-27 and provide faculty advisor recommendation letter(s)",
+     "No country restriction mentioned"
     ]
    },
    "money": [
@@ -7234,6 +8450,72 @@
    "image": "https://zindi-public-release.s3.eu-west-2.amazonaws.com/uploads/competition/image/768/thumb_fd87d3b5-5766-40b3-acce-85ade99894f2.png",
    "logo": "https://zindi-app.lon1.digitaloceanspaces.com/static-site/production/apple-touch-icon.png",
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "ar-bpoty-2027",
+   "cat": "community",
+   "art": "photography",
+   "title": "Bird Photographer of the Year 2027 (BPOTY 12) – adult and Young competitions",
+   "org": "Bird Photographer of the Year",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Young (17 and under): free. Adults: £35 for 25 entry credits (£40 from 8 Dec 2026)",
+   "deadline": "2026-12-13T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "13 Dec 2026 (time not stated on the page)",
+   "when": "Entries open now until 13 Dec 2026; winners announced Sept 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Overall winner: £3,000 and the title Bird Photographer of the Year",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (adult competition 18+, Young competition 17 and under)",
+     "University: Any",
+     "Nationality/residency: No nationality or residency rule in the competition rules – Lebanon not excluded",
+     "Age: Adults 18+ on 13 Dec 2026; Young BPOTY 17 or under",
+     "Team: Individual",
+     "Bird photos; images 2000px long edge, max 2MB for entry"
+    ]
+   },
+   "money": [
+    [
+     "Adult entry",
+     "£35 for 25 images (£40 from 8 Dec)",
+     "info"
+    ],
+    [
+     "Young entry",
+     "Free (max 10 images)",
+     "yes"
+    ],
+    [
+     "Top prize",
+     "£3,000",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Create an account at contest.birdpoty.com.",
+    "Adults buy entry credits (1 image = 1 credit); young entrants enter free.",
+    "Upload images (2000px, max 2MB) before 13 Dec 2026; they lock automatically at the deadline."
+   ],
+   "contact": [],
+   "url": "https://www.birdpoty.com/",
+   "confidence": "High",
+   "caveat": "Exact closing time not stated; enter by 12 Dec to be safe.",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "sc-uni-epfl-excellence-2027",
@@ -8093,6 +9375,137 @@
    "logo": "https://master-international-law-erasmusmundus.eu/wp-content/uploads/2022/07/cropped-icon-1-192x192.png",
    "imageChecked": "2026-10-22",
    "caveat": "Final-year students cannot get the EMJM scholarship; nationality rules not stated."
+  },
+  {
+   "id": "ar-sony-wpa-youth-2027",
+   "cat": "community",
+   "art": "photography",
+   "title": "Sony World Photography Awards 2027 – Youth Competition",
+   "org": "World Photography Organisation",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": "2027-01-05T16:00:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "5 Jan 2027, 16:00 GMT (18:00 Beirut time)",
+   "when": "Entries open now until 5 Jan 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Youth winner: Sony Digital Imaging equipment, flights and accommodation to the London awards ceremony, trophy; book and exhibition inclusion",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all aged 19 and under (fits first-year university students)",
+     "University: Any (no university requirement)",
+     "Nationality/residency: 'All members of the public aged 19 and under'; no nationality restriction stated, Lebanon not excluded",
+     "Age: 19 and under on the closing date (under 16 needs parental consent)",
+     "Team: Individual",
+     "Up to three single images taken in 2026, JPEG sRGB 1–5MB; images must relate to the competition theme"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Free",
+     "yes"
+    ],
+    [
+     "Winner trip to London",
+     "Flights and accommodation included for the overall winner",
+     "info"
+    ],
+    [
+     "UK visa",
+     "Arranged by the winner",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the Youth competition page and click 'Enter competition'.",
+    "Register on users.worldphoto.org under your real name.",
+    "Upload up to three images taken in 2026 before 5 Jan 2027."
+   ],
+   "contact": [],
+   "url": "https://www.worldphoto.org/sony-world-photography-awards/youth",
+   "confidence": "High",
+   "caveat": "Theme is named on the website, not in the summary we read.",
+   "verified": "2026-10-23",
+   "source": "bulk-arts",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-sony-wpa-open-2027",
+   "cat": "community",
+   "art": "photography",
+   "title": "Sony World Photography Awards 2027 – Open Competition (single images)",
+   "org": "World Photography Organisation",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free for up to 3 images (extra image bundles paid)",
+   "deadline": "2027-01-05T16:00:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "5 Jan 2027, 16:00 GMT (18:00 Beirut time)",
+   "when": "Entries open now until 5 Jan 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Overall winner: US$5,000, Sony equipment, flights and accommodation to London ceremony; category winners get trophy, book and exhibition inclusion",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (amateurs and professionals)",
+     "University: Any",
+     "Nationality/residency: Open to 'all members of the public'; no nationality restriction stated, Lebanon not excluded",
+     "Age: No minimum (under 16 needs parental consent)",
+     "Team: Individual",
+     "Images taken in 2026; 10 categories (Animal Portraits, Architecture, Creative, Landscape, Lifestyle, Motion, Natural World & Wildlife, Portraiture, Street, Travel); no AI-generated images"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Free for up to 3 images",
+     "yes"
+    ],
+    [
+     "Extra images",
+     "Paid bundles",
+     "info"
+    ],
+    [
+     "Top prize",
+     "US$5,000",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Open the Open competition page and click Enter.",
+    "Create a World Photography Organisation account.",
+    "Upload up to three free single images in the categories before 5 Jan 2027."
+   ],
+   "contact": [],
+   "url": "https://www.worldphoto.org/sony-world-photography-awards/open",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "source": "bulk-arts",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "sc-emjm-cybersure-2027",
@@ -9238,6 +10651,65 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "ar-guernsey-poems-on-the-move-2027",
+   "cat": "community",
+   "art": "writing",
+   "title": "Guernsey International Poetry Competition 2027 (Poems on the Move)",
+   "org": "Poems on the Move",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 6.5,
+   "feeText": "Open: £5 per poem or 3 for £12; Young People's (11–17): free",
+   "deadline": "2027-01-15T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "15 Jan 2027 (time not stated)",
+   "when": "Entries open until 15 Jan 2027; winners notified by 15 Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Open: £1,000 / £500 / £250; winning poems displayed on Guernsey buses and at the airport",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all poets",
+     "University: Any",
+     "Nationality/residency: Open Poetry category is open to poets worldwide – Lebanon eligible",
+     "Age: Open category any age; Young People's category 11–17",
+     "Team: Individual",
+     "Short poems of no more than 14 lines, no theme, in English"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "£5 per poem / 3 for £12",
+     "info"
+    ],
+    [
+     "1st prize",
+     "£1,000",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Read the rules on poemsonthemove.com.",
+    "Enter online at poemsonthemove.com/enter and pay per poem before 15 Jan 2027."
+   ],
+   "contact": [],
+   "url": "https://www.poemsonthemove.com/",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "travel": false,
    "funded": "na",
    "feeUSD": null,
@@ -9714,6 +11186,96 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "fd-cimpa-geometry-and-dynamics",
+   "cat": "research",
+   "title": "CIMPA Research School: Geometry and Dynamics",
+   "org": "CIMPA (Centre International de Mathématiques Pures et Appliquées)",
+   "place": "Algiers (Sidi Abdallah), Algeria",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free (no registration fee)",
+   "deadline": "2027-01-23T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "23 Jan 2027",
+   "when": "23 May - 3 Jun 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Master's and doctoral students",
+     "University: Any",
+     "Nationality/residency: Mainly for students and researchers from developing countries (IMU definition); only developing-country participants can receive funding. Lebanon not named on the page",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Must be able to work in English; CV with coursework, cover letter and 1-2 referees"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "None",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Support for developing-country participants; requests above EUR 1,000 only in exceptional cases; partial funding possible",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Provided for participants from outside the host location",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Meals and coffee breaks for hosted participants",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Create an account on applications.cimpa.info.",
+    "Choose the option 'developing country outside the host country needing funding' and enter your travel cost estimate.",
+    "Upload CV, cover letter and referee emails before the deadline."
+   ],
+   "contact": [
+    [
+     "Email",
+     "vincent.pecastaing@univ-cotedazur.fr",
+     "External organiser, published on the official page"
+    ],
+    [
+     "Email",
+     "rezki.chemlal@nhsm.edu.dz",
+     "Local organiser, published on the official page"
+    ]
+   ],
+   "url": "https://www.cimpa.info/en/ecoles/geometry-and-dynamics",
+   "confidence": "Medium",
+   "caveat": "Funding may be partial; confirm Lebanon is on the IMU developing-countries list. Advanced mathematics level.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "sc-ri-perimeter-psi-masters-2027",
    "cat": "exchange",
    "title": "Perimeter Scholars International (PSI) Master's in Theoretical Physics 2027–28",
@@ -10136,6 +11698,91 @@
    "caveat": "Nationality, English and final-year rules not stated on the official eligibility page."
   },
   {
+   "id": "fd-cimpa-mathematical-modeling-and-machine-learni",
+   "cat": "research",
+   "title": "CIMPA Research School: Mathematical Modeling and Machine Learning for Biomedicine and Public Health",
+   "org": "CIMPA (Centre International de Mathématiques Pures et Appliquées)",
+   "place": "Kathmandu, Nepal",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free (no registration fee)",
+   "deadline": "2027-01-31T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "31 Jan 2027",
+   "when": "31 May - 9 Jun 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (intensive, includes advanced courses)",
+     "University: Any",
+     "Nationality/residency: Mainly for students and researchers from developing countries (IMU definition); only developing-country participants can receive funding. Lebanon not named on the page",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Must be able to work in English; CV with coursework, cover letter and 1-2 referees"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "None",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Support for developing-country participants; requests above EUR 1,000 only in exceptional cases; partial funding possible",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Provided for participants from outside the host location",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Meals and coffee breaks for hosted participants",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Create an account on applications.cimpa.info.",
+    "Choose the option 'developing country outside the host country needing funding' and enter your travel cost estimate.",
+    "Upload CV, cover letter and referee emails before the deadline."
+   ],
+   "contact": [
+    [
+     "Email",
+     "melanie.prague@gmail.com",
+     "External organiser, published on the official page"
+    ]
+   ],
+   "url": "https://www.cimpa.info/en/ecoles/mathematical-modeling-and-machine-learning-biomedicine-and-public-health",
+   "confidence": "Medium",
+   "caveat": "Funding may be partial; confirm Lebanon is on the IMU developing-countries list. Advanced mathematics level.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "sc-ri-amgen-utokyo-2027",
    "cat": "research",
    "title": "Amgen Scholars Program at the University of Tokyo 2027",
@@ -10488,6 +12135,131 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "ar-keats-shelley-poetry-prize-2027",
+   "cat": "community",
+   "art": "writing",
+   "title": "Keats-Shelley Poetry Prize 2026-27 (theme: Oceans)",
+   "org": "Keats-Shelley Memorial Association",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 13,
+   "feeText": "£10 per poem",
+   "deadline": "2027-02-01T10:00:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "1 Feb 2027, 10:00 GMT (12:00 Beirut time)",
+   "when": "Open since 17 Sep 2026 until 1 Feb 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "prize": "£1,000 winner; two highly commended £500; publication in The Keats-Shelley Review",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all",
+     "University: Any",
+     "Nationality/residency: 'From anywhere in the world' – Lebanon eligible",
+     "Age: 18 and over",
+     "Team: Individual",
+     "Poem in English, max 30 lines on one A4 page, unpublished, no AI; judged anonymously"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "£10 per poem",
+     "info"
+    ],
+    [
+     "Prize",
+     "£1,000",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Write a poem on the theme 'Oceans' (max 30 lines).",
+    "Submit via the online entry form on keats-shelley.org (one form per poem, no name on the file) before 1 Feb 2027."
+   ],
+   "contact": [],
+   "url": "https://keats-shelley.org/prize/keats-shelley-poetry-prize/",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://keats-shelley.org/wp-content/uploads/2026/09/topright.png",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-keats-shelley-essay-prize-2027",
+   "cat": "community",
+   "art": "writing",
+   "title": "Keats-Shelley Essay Prize 2026-27",
+   "org": "Keats-Shelley Memorial Association",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": "2027-02-01T10:00:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "1 Feb 2027, 10:00 GMT (12:00 Beirut time)",
+   "when": "Open since 17 Sep 2026 until 1 Feb 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts",
+    "research"
+   ],
+   "prize": "£1,000 winner; two highly commended £500; publication in The Keats-Shelley Review",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all",
+     "University: Any",
+     "Nationality/residency: 'From anywhere in the world' – Lebanon eligible",
+     "Age: 18 and over",
+     "Team: Individual",
+     "Essay up to 3,000 words in English on any aspect of the Romantics' writing or lives; original, unpublished, no AI"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Free",
+     "yes"
+    ],
+    [
+     "Prize",
+     "£1,000",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Write an essay (max 3,000 words) on the Romantics.",
+    "Submit via the online entry form on keats-shelley.org before 1 Feb 2027, without your name on the file."
+   ],
+   "contact": [
+    [
+     "Email",
+     "prize@keats-shelley.org",
+     "Published (obfuscated) on the prize page"
+    ]
+   ],
+   "url": "https://keats-shelley.org/prize/keats-shelley-essay-prize/",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://keats-shelley.org/wp-content/uploads/2026/09/topleft.png",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "sc-uni-hbku-2027",
    "cat": "exchange",
    "title": "Hamad Bin Khalifa University (HBKU) Graduate Admission & International Scholarship 2027",
@@ -10795,6 +12567,90 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "fd-salto-environmental-leadership-tortosa-2027",
+   "cat": "community",
+   "title": "Environmental Leadership (Erasmus+ Training Course)",
+   "org": "Fundació Obre't Ebre",
+   "place": "Jesús-Tortosa (Catalonia), Spain",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free (no participation fee)",
+   "deadline": "2027-02-04T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "4 Feb 2027 (24h UTC); selection 18 Feb 2027",
+   "when": "18-24 Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "volunteering",
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Youth workers, youth leaders, leaders ready to lead a future Youth Exchange",
+     "University: Not applicable",
+     "Nationality/residency: Erasmus+ Youth countries and Partner Countries Neighbouring the EU; Lebanon is listed",
+     "Age: Not stated",
+     "Team: Individual (20 participants)",
+     "Other: Working language English; online interview for selected applicants"
+    ]
+   },
+   "money": [
+    [
+     "Participation fee",
+     "No participation fee",
+     "yes"
+    ],
+    [
+     "Accommodation",
+     "Provided (youth hostel, shared room)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Provided",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Reimbursed after receipts up to the Erasmus+ maximum for your country",
+     "partial"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the SALTO page and apply via the online form.",
+    "Selected applicants have an online interview."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+34 657 288 485 (Susana Ibáñez)",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.salto-youth.net/tools/european-training-calendar/training/environmental-leadership.15152/",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "sc-emjm-radmep-2027",
    "cat": "exchange",
    "title": "RADMEP – Erasmus Mundus Master in Radiation and its Effects on MicroElectronics and Photonics Technologies 2027",
@@ -10877,16 +12733,12 @@
     "research"
    ],
    "elig": {
-    "status": "check",
+    "status": "ok",
     "lines": [
-     "Level: undergraduate/pre-master (enrolled in a bachelor's or master's, no master's degree yet), PhD students, or postdocs within 5 years of the PhD",
-     "University: Not stated",
-     "Nationality/residency: Not stated",
-     "Age: Not stated",
-     "Team: Individual application",
-     "Field: 'Students of mathematics and computer science (or closely related fields)'",
-     "'A young researcher can participate in the Heidelberg Laureate Forum only once at each academic level'",
-     "Documents: CV, motivational statement, recommendation letter from a professor sent directly, diplomas with English translations"
+     "Mathematics and computer science (or closely related) students and researchers",
+     "Undergraduate/pre-master's students without a master's degree, PhD students, or postdocs within 5 years of PhD",
+     "No nationality requirement listed",
+     "Each person may attend once per academic level"
     ]
    },
    "money": [
@@ -11626,6 +13478,91 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "id": "fd-cimpa-modelisation-mathematiques-et-intelligen",
+   "cat": "research",
+   "title": "CIMPA Research School: Modélisation mathématique et intelligence artificielle au service des sciences de la santé et de l'environnement",
+   "org": "CIMPA (Centre International de Mathématiques Pures et Appliquées)",
+   "place": "Casablanca, Morocco",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free (no registration fee)",
+   "deadline": "2027-03-05T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "5 Mar 2027",
+   "when": "5-16 Jul 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: PhD students and young researchers",
+     "University: Any",
+     "Nationality/residency: Mainly for students and researchers from developing countries (IMU definition); only developing-country participants can receive funding. Lebanon not named on the page",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Must be able to work in French; CV with coursework, cover letter and 1-2 referees"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "None",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Support for developing-country participants; requests above EUR 1,000 only in exceptional cases; partial funding possible",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Provided for participants from outside the host location",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Meals and coffee breaks for hosted participants",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Create an account on applications.cimpa.info.",
+    "Choose the option 'developing country outside the host country needing funding' and enter your travel cost estimate.",
+    "Upload CV, cover letter and referee emails before the deadline."
+   ],
+   "contact": [
+    [
+     "Email",
+     "mohamed.boutayeb@univ-lorraine.fr",
+     "External organiser, published on the official page"
+    ]
+   ],
+   "url": "https://www.cimpa.info/en/ecoles/modelisation-mathematiques-et-intelligence-artificielle-au-service-des-sciences-de-la-sante",
+   "confidence": "Medium",
+   "caveat": "Funding may be partial; confirm Lebanon is on the IMU developing-countries list. Advanced mathematics level.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "cf-a-mun-paris-2027",
    "cat": "community",
    "title": "MUN Paris 2027",
@@ -11765,6 +13702,65 @@
    "logo": null,
    "imageChecked": "2026-10-22",
    "caveat": "Only for AUB FAS undergraduates."
+  },
+  {
+   "id": "ar-ippawards-2027",
+   "cat": "community",
+   "art": "photography",
+   "title": "iPhone Photography Awards 2027 (20th IPPAWARDS)",
+   "org": "IPPAWARDS",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 9.5,
+   "feeText": "$9.50 per photo (bundles from $15.50 for 3 to $150.50 for 50)",
+   "deadline": "2027-03-31T23:59:00-07:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "31 Mar 2027 (time zone not stated)",
+   "when": "Entries open until 31 Mar 2027; winners 16–20 weeks later",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "prize": "Gold bar to 1st in each of 12 categories; platinum bars 2nd–3rd; overall Photographer of the Year",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all",
+     "University: Any",
+     "Nationality/residency: Open worldwide – Lebanon eligible",
+     "Age: Not stated",
+     "Team: Individual",
+     "Photos taken on iPhone or iPad, not previously published (personal social posts OK); no desktop editing like Photoshop, iOS apps allowed"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "$9.50 per photo; bundles available",
+     "info"
+    ],
+    [
+     "Prizes",
+     "Gold/platinum bars per category",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Open the IPPAWARDS entry page and choose a bundle.",
+    "Upload iPhone/iPad photos in the 12 categories before 31 Mar 2027."
+   ],
+   "contact": [],
+   "url": "https://www.ippawards.com/enter",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-arts",
+   "image": "https://media.base44.com/images/public/69fc850da313ea2e84386c60/d355f43f8_Crest-color.png/v1/fill/w_1200,h_630/d355f43f8_Crest-color.png",
+   "logo": "https://media.base44.com/images/public/69fc850da313ea2e84386c60/593df5722_Crest-color.png?v=4",
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "oist",
@@ -11919,6 +13915,86 @@
    "imageChecked": "2026-10-22"
   },
   {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": "2027-04-18T23:59:00+03:00",
+   "eventDate": "2027-04-24T09:00:00+03:00",
+   "meet": "Ayia Napa Marina (start and finish)",
+   "team": "Individual; Oceanteams 3 x 500 m relay",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-oceanman-cyprus-2027",
+   "sport": "swimming",
+   "title": "OCEANMAN Ayia Napa, Cyprus 2027 (open-water swim: 2 km, 5 km, 10 km)",
+   "org": "OCEANMAN",
+   "place": "Ayia Napa Marina, Cyprus",
+   "feeUSD": 47,
+   "feeText": "From EUR 40 (2 km) / EUR 60 (5 km) / EUR 80 (10 km) until 12 Nov 2026; prices rise in steps to 18 Apr 2027",
+   "deadlineText": "Registration opens 8 Nov 2026; closes 18 Apr 2027, 23:59 (cheapest until 12 Nov 2026)",
+   "when": "Sat 24 Apr 2027: Sprint 2 km 09:00, Oceanteams 10:30. Sun 25 Apr: 10 km 07:30, 5 km 08:30",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to amateur open-water swimmers; choose a distance that fits your level",
+     "University: Not restricted",
+     "Nationality/residency: International mass-participation race; no nationality rule stated",
+     "Age: Minimum age not stated (separate Oceankids race exists)",
+     "Team: Individual; Oceanteams relay of 3",
+     "Other: Safety buoy mandatory; wetsuits allowed"
+    ]
+   },
+   "money": [
+    [
+     "Sprint 2 km",
+     "EUR 40 (to 12 Nov) rising to EUR 90",
+     "info"
+    ],
+    [
+     "Half Oceanman 5 km",
+     "EUR 60 rising to EUR 120",
+     "info"
+    ],
+    [
+     "Oceanman 10 km",
+     "EUR 80 rising to EUR 160",
+     "info"
+    ],
+    [
+     "Included",
+     "Accident insurance, finisher medal, race bag (swim cap, T-shirt, timing chip), water safety and medical cover, feeding points",
+     "yes"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the race page and click \"Register\" (goes to app.rocky.global).",
+    "Register from 8 Nov 2026 for the lowest price."
+   ],
+   "contact": [
+    [
+     "Email",
+     "cyprus@oceanmanswim.com",
+     "Published on the official race page"
+    ]
+   ],
+   "url": "https://oceanmanswim.com/races/ayia-napa-cyprus-2027",
+   "caveat": "Sprint pricing on the registration page is slightly inconsistent; confirm at checkout.",
+   "image": "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/1234c9a3-e533-4bd9-af9a-cc6beccad411",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
    "id": "lb-aub-cames-hani-salaam-research-fund-2027",
    "cat": "research",
    "title": "Hani Salaam Research Fund (CAMES MA thesis research)",
@@ -12030,6 +14106,96 @@
    "logo": null,
    "imageChecked": "2026-10-22",
    "caveat": "Only for AUB FAS juniors and seniors."
+  },
+  {
+   "id": "fd-cimpa-statistical-analysis-functional-data-mod",
+   "cat": "research",
+   "title": "CIMPA Research School: Statistical Analysis of Functional Data: Modeling and Applications to Environment and Health",
+   "org": "CIMPA (Centre International de Mathématiques Pures et Appliquées)",
+   "place": "Bizerte, Tunisia",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 0,
+   "feeText": "Free (no registration fee)",
+   "deadline": "2027-07-08T23:59:00+00:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "8 Jul 2027",
+   "when": "8-20 Nov 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (introductory and advanced courses)",
+     "University: Any",
+     "Nationality/residency: Mainly for students and researchers from developing countries (IMU definition); only developing-country participants can receive funding. Lebanon not named on the page",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Must be able to work in English; CV with coursework, cover letter and 1-2 referees"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "None",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Support for developing-country participants; requests above EUR 1,000 only in exceptional cases; partial funding possible",
+     "partial"
+    ],
+    [
+     "Accommodation",
+     "Provided for participants from outside the host location",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Meals and coffee breaks for hosted participants",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Create an account on applications.cimpa.info.",
+    "Choose the option 'developing country outside the host country needing funding' and enter your travel cost estimate.",
+    "Upload CV, cover letter and referee emails before the deadline."
+   ],
+   "contact": [
+    [
+     "Email",
+     "Jean-Francois.Dupuy@insa-rennes.fr",
+     "External organiser, published on the official page"
+    ],
+    [
+     "Email",
+     "abderrazek.karoui@fsb.ucar.tn",
+     "Local organiser, published on the official page"
+    ]
+   ],
+   "url": "https://www.cimpa.info/en/ecoles/statistical-analysis-functional-data-modeling-and-applications-environment-and-health",
+   "confidence": "Medium",
+   "caveat": "Funding may be partial; confirm Lebanon is on the IMU developing-countries list. Advanced mathematics level.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "cf-b-afs-youth-assembly-geneva-2027",
@@ -12886,6 +15052,281 @@
    "image": "https://www.vamos-todos.com/Images/HomepageImages/backgroundSmaller.jpg",
    "logo": null,
    "imageChecked": "2026-10-22"
+  },
+  {
+   "id": "ar-ifl-club-lecture-2026",
+   "cat": "community",
+   "art": "writing",
+   "title": "Club de lecture de la médiathèque (monthly French book club)",
+   "org": "Institut français du Liban",
+   "place": "Médiathèque de l'Institut français du Liban, Rue de Damas, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free (entrée libre)",
+   "deadline": null,
+   "eventDate": "2026-10-27T16:30:00+02:00",
+   "rolling": false,
+   "deadlineText": "No registration stated – just come",
+   "when": "Last Tuesday of the month, 16:30 (1–2 hours): 27 Oct 2026 (Habibi Beyrouth, Manal Salamé) and 24 Nov 2026 (Rue de Phénicie, Lamia Ziadé)",
+   "meet": "16:30 at the médiathèque",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all",
+     "University: Any",
+     "Nationality/residency: Open to the public in Beirut",
+     "Age: Not stated",
+     "Team: Individual",
+     "Discussion of French-language novels; facilitator says you may join whether or not you have read the book"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Free",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Go to the Institut français médiathèque on the date at 16:30."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "01 420 257",
+     "Médiathèque de Beyrouth, published on the event page"
+    ],
+    [
+     "WhatsApp",
+     "70 559 824",
+     "Published on the event page"
+    ]
+   ],
+   "url": "https://institutfrancais-liban.com/evenement/mardi-27-octobre-16h30/",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "source": "bulk-arts",
+   "added": "2026-10-23",
+   "image": "https://institutfrancais-liban.com/wp-content/uploads/2026/10/b8YX9E9LrAtqfy2f1pQTdHTmBIIuj5u20L87GY7w3tGuXvMAYoGUCQ-cover-full-205x300.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-fabrica-handbuilding-glazing",
+   "cat": "community",
+   "art": "crafts",
+   "title": "Handbuilding & Glazing Techniques (weekly ceramics class)",
+   "org": "Fabrica Design Platform",
+   "place": "Dar Khawla Building, Chehade Street, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Weekly class – contact the studio to join",
+   "when": "Weekly sessions: Mon 18:00–21:00, Tue 09:00–12:00, Wed 18:00–21:00 (e.g. 26–28 Oct 2026)",
+   "meet": "At the studio",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Beginner-friendly – no prior experience required",
+     "University: Any",
+     "Nationality/residency: Open to the public in Beirut",
+     "Age: Not stated",
+     "Team: Individual",
+     "Studio glazes and tools provided"
+    ]
+   },
+   "money": [
+    [
+     "Class fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Glazes and tools",
+     "Provided",
+     "yes"
+    ],
+    [
+     "Clay and firing",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Contact Fabrica by email or WhatsApp to ask about price and book a place."
+   ],
+   "contact": [
+    [
+     "Email",
+     "connect@fabricadesignplatform.com",
+     "Published on the class page"
+    ],
+    [
+     "Phone/WhatsApp",
+     "+961 76 90 76 91",
+     "Published on the class page"
+    ]
+   ],
+   "url": "https://fabricadesignplatform.com/event/handbuilding-glazing-techniques-2-2/2026-10-26/",
+   "confidence": "Medium",
+   "caveat": "Price and number of sessions not stated.",
+   "verified": "2026-10-23",
+   "source": "bulk-arts",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": "https://fabricadesignplatform.com/wp-content/uploads/2023/10/cropped-logoarabic-01-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-fabrica-beginners-sculpture",
+   "cat": "community",
+   "art": "crafts",
+   "title": "Beginners' Sculpture Ceramic Art (weekly class)",
+   "org": "Fabrica Design Platform",
+   "place": "Dar Khawla Building, Chehade Street, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Weekly class – contact the studio to join",
+   "when": "Wednesdays 12:00–15:00 (e.g. 28 Oct 2026)",
+   "meet": "At the studio",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Beginner – no prior experience required",
+     "University: Any",
+     "Nationality/residency: Open to the public in Beirut",
+     "Age: Not stated",
+     "Team: Individual",
+     "All tools provided"
+    ]
+   },
+   "money": [
+    [
+     "Class fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Tools",
+     "Provided",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Contact Fabrica by email or WhatsApp to ask about price and book a place."
+   ],
+   "contact": [
+    [
+     "Email",
+     "connect@fabricadesignplatform.com",
+     "Published on the class page"
+    ],
+    [
+     "Phone/WhatsApp",
+     "+961 76 90 76 91",
+     "Published on the class page"
+    ]
+   ],
+   "url": "https://fabricadesignplatform.com/event/beginners-sculpture-ceramic-art/2026-10-28/",
+   "confidence": "Medium",
+   "caveat": "Price not stated.",
+   "verified": "2026-10-23",
+   "source": "bulk-arts",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": "https://fabricadesignplatform.com/wp-content/uploads/2023/10/cropped-logoarabic-01-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "ar-fabrica-ceramic-painting-underglazes",
+   "cat": "community",
+   "art": "painting",
+   "title": "Ceramic Painting & Illustration with Underglazes (weekly class)",
+   "org": "Fabrica Design Platform",
+   "place": "Dar Khawla Building, Chehade Street, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Weekly class – contact the studio to join",
+   "when": "Thursdays 09:00–12:00 (e.g. 29 Oct 2026)",
+   "meet": "At the studio",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all levels",
+     "University: Any",
+     "Nationality/residency: Open to the public in Beirut",
+     "Age: Not stated",
+     "Team: Individual",
+     "All tools provided"
+    ]
+   },
+   "money": [
+    [
+     "Class fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Tools",
+     "Provided",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Contact Fabrica by email or WhatsApp to ask about price and book a place."
+   ],
+   "contact": [
+    [
+     "Email",
+     "connect@fabricadesignplatform.com",
+     "Published on the class page"
+    ],
+    [
+     "Phone/WhatsApp",
+     "+961 76 90 76 91",
+     "Published on the class page"
+    ]
+   ],
+   "url": "https://fabricadesignplatform.com/event/ceramic-painting-illustration-with-underglazes/2026-10-29/",
+   "confidence": "Medium",
+   "caveat": "Price not stated.",
+   "verified": "2026-10-23",
+   "source": "bulk-arts",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": "https://fabricadesignplatform.com/wp-content/uploads/2023/10/cropped-logoarabic-01-192x192.png",
+   "imageChecked": "2026-10-23"
   },
   {
    "travel": false,
@@ -14636,6 +17077,867 @@
    "logo": null,
    "imageChecked": "2026-10-22",
    "caveat": "Full-time job for graduates, not current students."
+  },
+  {
+   "id": "cl-toastmasters-speakers-leaders-aub",
+   "cat": "career",
+   "title": "Speakers & Leaders Toastmasters Club (AUB)",
+   "org": "Toastmasters International (District 105)",
+   "place": "American University of Beirut, Bliss Street, Hamra, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 72,
+   "feeText": "Toastmasters International dues $72 per 6 months + one-time $25 new member fee (club fees, if any, not stated)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Every Tuesday, 6:15 to 8:00 PM",
+   "meet": "American University of Beirut, Hamra (online attendance also allowed)",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (adults)",
+     "University: Open to anyone; not limited to one university",
+     "Nationality/residency: Not mentioned; club is based in Lebanon",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Toastmasters dues",
+     "$72 per six months (prorated when joining mid-period)",
+     "info"
+    ],
+    [
+     "New member fee",
+     "$25 one-time",
+     "info"
+    ],
+    [
+     "Club fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the club page on toastmasters.org and contact the club by its listed email or phone.",
+    "Visit a meeting as a guest, then ask the club officers to sign you up as a member."
+   ],
+   "contact": [
+    [
+     "Email",
+     "aubtoastmasters@gmail.com",
+     "Toastmasters club directory"
+    ],
+    [
+     "Phone",
+     "+961 81 727 070",
+     "Toastmasters club directory"
+    ]
+   ],
+   "url": "https://www.toastmasters.org/Find-a-Club/00640930-00640930",
+   "confidence": "High",
+   "caveat": "Meeting details come from the Toastmasters International club directory; confirm the current schedule with the club before your first visit.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://ccdn.toastmasters.org/medias/images/global/toastmasterslogo2x.png",
+   "logo": "https://www.toastmasters.org/Content/images/ToastmastersLogo192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-toastmasters-loudspeakers-zouk",
+   "cat": "career",
+   "title": "Loudspeakers Toastmasters Club (Zouk Mikael)",
+   "org": "Toastmasters International",
+   "place": "Zouk Mikael Municipality Theater, Kesserwan",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 72,
+   "feeText": "Toastmasters International dues $72 per 6 months + one-time $25 new member fee (club fees, if any, not stated)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Every Wednesday, 7:45 PM",
+   "meet": "Zouk Mikael Municipality Theater (online attendance also allowed)",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (adults)",
+     "University: Open to anyone; not limited to one university",
+     "Nationality/residency: Not mentioned; club is based in Lebanon",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Toastmasters dues",
+     "$72 per six months (prorated when joining mid-period)",
+     "info"
+    ],
+    [
+     "New member fee",
+     "$25 one-time",
+     "info"
+    ],
+    [
+     "Club fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the club page on toastmasters.org and contact the club by its listed email or phone.",
+    "Visit a meeting as a guest, then ask the club officers to sign you up as a member."
+   ],
+   "contact": [
+    [
+     "Email",
+     "loudspeakerslb@gmail.com",
+     "Toastmasters club directory"
+    ],
+    [
+     "Phone",
+     "+961 71 717 525",
+     "Toastmasters club directory"
+    ]
+   ],
+   "url": "https://www.toastmasters.org/Find-a-Club/01218973-loudspeakers",
+   "confidence": "High",
+   "caveat": "Meeting details come from the Toastmasters International club directory; confirm the current schedule with the club before your first visit.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://ccdn.toastmasters.org/medias/images/global/toastmasterslogo2x.png",
+   "logo": "https://www.toastmasters.org/Content/images/ToastmastersLogo192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-toastmasters-pro-toast-bdd",
+   "cat": "career",
+   "title": "Pro-Toast Toastmasters Club (Beirut Digital District)",
+   "org": "Toastmasters International",
+   "place": "Beirut Digital District, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 72,
+   "feeText": "Toastmasters International dues $72 per 6 months + one-time $25 new member fee (club fees, if any, not stated)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Every Thursday, 7:00 PM",
+   "meet": "Beirut Digital District (BDD)",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (adults)",
+     "University: Open to anyone; not limited to one university",
+     "Nationality/residency: Not mentioned; club is based in Lebanon",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Toastmasters dues",
+     "$72 per six months (prorated when joining mid-period)",
+     "info"
+    ],
+    [
+     "New member fee",
+     "$25 one-time",
+     "info"
+    ],
+    [
+     "Club fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the club page on toastmasters.org and contact the club by its listed email or phone.",
+    "Visit a meeting as a guest, then ask the club officers to sign you up as a member."
+   ],
+   "contact": [
+    [
+     "Email",
+     "protoastclub.leb@gmail.com",
+     "Toastmasters club directory"
+    ],
+    [
+     "Phone",
+     "+961 76 661 878",
+     "Toastmasters club directory"
+    ]
+   ],
+   "url": "https://www.toastmasters.org/Find-a-Club/01436618",
+   "confidence": "High",
+   "caveat": "Meeting details come from the Toastmasters International club directory; confirm the current schedule with the club before your first visit.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://ccdn.toastmasters.org/medias/images/global/toastmasterslogo2x.png",
+   "logo": "https://www.toastmasters.org/Content/images/ToastmastersLogo192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-toastmasters-dhad-arabic",
+   "cat": "career",
+   "title": "Dhad Toastmasters Club (Beirut)",
+   "org": "Toastmasters International",
+   "place": "Beirut Digital District, Bechara El-Khoury Street, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 72,
+   "feeText": "Toastmasters International dues $72 per 6 months + one-time $25 new member fee (club fees, if any, not stated)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Every Monday, 6:30 PM",
+   "meet": "Beirut Digital District, Bechara El-Khoury Street",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (adults)",
+     "University: Open to anyone; not limited to one university",
+     "Nationality/residency: Not mentioned; club is based in Lebanon",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Toastmasters dues",
+     "$72 per six months (prorated when joining mid-period)",
+     "info"
+    ],
+    [
+     "New member fee",
+     "$25 one-time",
+     "info"
+    ],
+    [
+     "Club fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the club page on toastmasters.org and contact the club by its listed email or phone.",
+    "Visit a meeting as a guest, then ask the club officers to sign you up as a member."
+   ],
+   "contact": [
+    [
+     "Email",
+     "dhadtoastmasters@gmail.com",
+     "Toastmasters club directory"
+    ],
+    [
+     "Phone",
+     "+961 70 294 952",
+     "Toastmasters club directory"
+    ],
+    [
+     "Website",
+     "https://dhad.club",
+     "Toastmasters club directory"
+    ]
+   ],
+   "url": "https://www.toastmasters.org/Find-a-Club/07137381",
+   "confidence": "High",
+   "caveat": "Meeting details come from the Toastmasters International club directory. The club name (ضاد) suggests Arabic-language meetings, but the language is not stated; confirm with the club.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://ccdn.toastmasters.org/medias/images/global/toastmasterslogo2x.png",
+   "logo": "https://www.toastmasters.org/Content/images/ToastmastersLogo192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-toastmasters-maharat-beirut",
+   "cat": "career",
+   "title": "Maharat Toastmasters Club (Cola, Beirut)",
+   "org": "Toastmasters International",
+   "place": "Irshad Islah Mariam Building, Cola, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 72,
+   "feeText": "Toastmasters International dues $72 per 6 months + one-time $25 new member fee (club fees, if any, not stated)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Every Thursday, 6:00 PM",
+   "meet": "Irshad Islah Mariam Building, Cola",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (adults)",
+     "University: Open to anyone; not limited to one university",
+     "Nationality/residency: Not mentioned; club is based in Lebanon",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Toastmasters dues",
+     "$72 per six months (prorated when joining mid-period)",
+     "info"
+    ],
+    [
+     "New member fee",
+     "$25 one-time",
+     "info"
+    ],
+    [
+     "Club fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the club page on toastmasters.org and contact the club by its listed email or phone.",
+    "Visit a meeting as a guest, then ask the club officers to sign you up as a member."
+   ],
+   "contact": [
+    [
+     "Email",
+     "mharat.lb@gmail.com",
+     "Toastmasters club directory"
+    ],
+    [
+     "Phone",
+     "+961 78 861 782",
+     "Toastmasters club directory"
+    ]
+   ],
+   "url": "https://www.toastmasters.org/Find-a-Club/28677447",
+   "confidence": "High",
+   "caveat": "Meeting details come from the Toastmasters International club directory; confirm the current schedule with the club before your first visit.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://ccdn.toastmasters.org/medias/images/global/toastmasterslogo2x.png",
+   "logo": "https://www.toastmasters.org/Content/images/ToastmastersLogo192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-bma-neighborhood-runs",
+   "cat": "community",
+   "title": "Neighborhood Runs (free volunteer-led runs and walks)",
+   "org": "Beirut Marathon Association",
+   "place": "Many areas: Ashrafieh, Hamra, Hazmieh, Dahyeh, Mar Mikhael, Jounieh, Jbeil, Tripoli, Tyre, Saida/Nabatieh, Zalka and more",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "About 2 to 3 runs a week, morning or evening depending on the team leader",
+   "meet": "Set by each neighborhood team leader after you register",
+   "team": "Individual",
+   "tags": [
+    "running",
+    "sports"
+   ],
+   "sport": "other",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; runs are held across Lebanon",
+     "Age: Adults confirm they are over 18; under-18s need a parent or guardian to register them",
+     "Team: Individual membership",
+     "Must be in good health and medically able to take part (the page advises seeing a doctor first)",
+     "Distances from 1 km to 5 km"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Fill in the online registration form on the official page (gender, year of birth, neighborhood).",
+    "Accept the terms and submit; choose \"Other\" if your area is not listed, or ask the Association to help start a group."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@beirutmarathon.org",
+     "Published on the official page"
+    ],
+    [
+     "Phone",
+     "+961 1 659 262",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://beirutmarathon.org/rakdetelhay.php",
+   "confidence": "Medium",
+   "caveat": "The page does not list fixed days or times for each neighborhood; these are set by the team leaders.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-jci-beirut",
+   "cat": "career",
+   "title": "JCI Beirut (Junior Chamber International)",
+   "org": "JCI Lebanon",
+   "place": "Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Not stated",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers",
+    "volunteering"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Young people / young professionals",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; Lebanon chapter",
+     "Age: Typically 18 to 40",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Contact JCI Lebanon through its website or email.",
+    "Take part in projects and trainings, then become a member (as described on the JCI Lebanon site)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "lebanon@jci.cc",
+     "Published on the JCI Lebanon site"
+    ]
+   ],
+   "url": "https://jcilebanon.odoo.com/about-us",
+   "confidence": "Medium",
+   "caveat": "Membership fees and meeting schedule are not stated on the site. Founding Lebanese chapter (2006); 2026 board listed on the site.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://jcilebanon.odoo.com/web/image/899-6e43cc99/WhatsApp%20Image%202024-09-17%20at%2011.19.18_9c7a8703.webp",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-jci-beqaa",
+   "cat": "career",
+   "title": "JCI Beqaa (Junior Chamber International)",
+   "org": "JCI Lebanon",
+   "place": "Beqaa, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Not stated",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers",
+    "volunteering"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Young people / young professionals",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned; Lebanon chapter",
+     "Age: Typically 18 to 40",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Contact JCI Lebanon through its website or email.",
+    "Take part in projects and trainings, then become a member (as described on the JCI Lebanon site)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "lebanon@jci.cc",
+     "Published on the JCI Lebanon site"
+    ]
+   ],
+   "url": "https://jcilebanon.odoo.com/about-us",
+   "confidence": "Medium",
+   "caveat": "Membership fees and meeting schedule are not stated on the site. Chapter founded 2018; 2026 board listed on the site.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://jcilebanon.odoo.com/web/image/899-6e43cc99/WhatsApp%20Image%202024-09-17%20at%2011.19.18_9c7a8703.webp",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-jci-aub",
+   "cat": "career",
+   "title": "JCI AUB (campus chapter of Junior Chamber International)",
+   "org": "JCI Lebanon",
+   "place": "American University of Beirut, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Not stated",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers",
+    "startups"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Students",
+     "University: American University of Beirut students (campus chapter)",
+     "Nationality/residency: Not mentioned",
+     "Age: Typically 18 to 40",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Contact JCI Lebanon through its website or email to reach the AUB chapter."
+   ],
+   "contact": [
+    [
+     "Email",
+     "lebanon@jci.cc",
+     "Published on the JCI Lebanon site"
+    ]
+   ],
+   "url": "https://jcilebanon.odoo.com/about-us",
+   "confidence": "Medium",
+   "caveat": "Membership fees and meeting schedule are not stated. Campus chapter that joined JCI in 2024; 2026 board listed on the site.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://jcilebanon.odoo.com/web/image/899-6e43cc99/WhatsApp%20Image%202024-09-17%20at%2011.19.18_9c7a8703.webp",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-gdg-coast-lebanon",
+   "cat": "community",
+   "title": "GDG Coast Lebanon (Google Developer Group)",
+   "org": "Google Developer Groups",
+   "place": "Beirut and online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free (events are free)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Regular meetups; monthly online community check-ins in 2026",
+   "meet": "Announced per event on the chapter page",
+   "team": "Individual",
+   "tags": [
+    "hackathon",
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to anyone interested in tech",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free (events are free)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the chapter page and join the group (log in to the GDG site).",
+    "Register for each free event through its event link."
+   ],
+   "contact": [
+    [
+     "Contact form",
+     "On the chapter page",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://gdg.community.dev/gdg-coast-lebanon/",
+   "confidence": "High",
+   "caveat": "No upcoming event was listed on 23 Oct 2026; recent events ran July and August 2026 (including Game Zanga 2026).",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/chapter_banners/2Asset%2019%403x_Ufk44UW.png",
+   "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_192,q_auto:good,w_192/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_Favicon_y29LtMy.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-gdg-north-lebanon",
+   "cat": "community",
+   "title": "GDG North Lebanon (Google Developer Group, Tripoli)",
+   "org": "Google Developer Groups",
+   "place": "Tripoli and online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free (events are free)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Regular meetups; DevFest held 17 Oct 2026; monthly online check-ins",
+   "meet": "Announced per event on the chapter page",
+   "team": "Individual",
+   "tags": [
+    "hackathon",
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to everyone",
+     "University: Open to anyone",
+     "Nationality/residency: Not mentioned",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free (events are free)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the chapter page and join the group (log in to the GDG site).",
+    "Register for each free event through its event link."
+   ],
+   "contact": [
+    [
+     "Contact form",
+     "On the chapter page",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://gdg.community.dev/gdg-north-lebanon/",
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/chapter_banners/Artboard%201%20copy%2020.png",
+   "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_192,q_auto:good,w_192/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_Favicon_y29LtMy.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-gdg-on-campus-aub",
+   "cat": "community",
+   "title": "GDG on Campus AUB (Google Developer Group student chapter)",
+   "org": "Google Developer Groups on Campus",
+   "place": "American University of Beirut, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free (events have free registration)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Workshops during the semester (e.g. Jan, Feb and Apr 2026 sessions)",
+   "meet": "Announced per event on the chapter page",
+   "team": "Individual",
+   "tags": [
+    "hackathon",
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Students (beginners welcome)",
+     "University: Described as a community of AUB students",
+     "Nationality/residency: Not mentioned",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free (events have free registration)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the chapter page and join the group (log in to the GDG site).",
+    "Register for each free event through its event link."
+   ],
+   "contact": [
+    [
+     "Contact form",
+     "On the chapter page",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://gdg.community.dev/gdg-on-campus-american-university-of-beirut-beirut-lebanon/",
+   "confidence": "Medium",
+   "caveat": "No upcoming event was listed on 23 Oct 2026; the latest listed event was 18 Apr 2026. Whether non-AUB students can join is not stated.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/chapter_banners/square_logo_BcNv1OX.png",
+   "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_192,q_auto:good,w_192/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_Favicon_y29LtMy.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "cl-gdg-on-campus-lebanese-university",
+   "cat": "community",
+   "title": "GDG on Campus Lebanese University (Hadath)",
+   "org": "Google Developer Groups on Campus",
+   "place": "Lebanese University, Hadath",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free (events have free registration)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time",
+   "when": "Workshops and tech days during the semester (e.g. Tech Day, 28 Feb 2026)",
+   "meet": "Announced per event on the chapter page",
+   "team": "Individual",
+   "tags": [
+    "hackathon",
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Students (beginners welcome)",
+     "University: Described as a community of Lebanese University students",
+     "Nationality/residency: Not mentioned",
+     "Age: Not stated",
+     "Team: Individual membership"
+    ]
+   },
+   "money": [
+    [
+     "Membership fee",
+     "Free (events have free registration)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the chapter page and join the group (log in to the GDG site).",
+    "Register for each free event through its event link."
+   ],
+   "contact": [
+    [
+     "Contact form",
+     "On the chapter page",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://gdg.community.dev/gdg-on-campus-lebanese-university-hadath-lebanon/",
+   "confidence": "Medium",
+   "caveat": "No upcoming event was listed on 23 Oct 2026; the latest listed events were in Feb 2026.",
+   "verified": "2026-10-23",
+   "source": "bulk-clubs",
+   "added": "2026-10-23",
+   "club": true,
+   "image": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-goog/chapter_banners/blob_M23nDom",
+   "logo": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_192,q_auto:good,w_192/v1/gcs/platform-data-goog/contentbuilder/GDG_Bevy_Favicon_y29LtMy.png",
+   "imageChecked": "2026-10-23"
   },
   {
    "id": "cf-a-nmun-ny-2027",
@@ -16666,12 +19968,7 @@
    "elig": {
     "status": "ok",
     "lines": [
-     "Level: Open to all: 'Global Hack Week is a 100% free event for anyone, anywhere!'; beginners and experienced hackers welcome",
-     "University: Any",
-     "Nationality/residency: 'anyone, anywhere'; Lebanon not excluded",
-     "Age: Not stated on the public pages",
-     "Team: Not stated",
-     "Other: Free; MLH Code of Conduct applies"
+     "\"100% free event for anyone, anywhere\""
     ]
    },
    "money": [
@@ -16932,12 +20229,7 @@
    "elig": {
     "status": "ok",
     "lines": [
-     "Level: Open to all: for 'a professional, researcher, academic, student, business or community leader, or simply individuals interested'",
-     "University: Any; no university restriction stated",
-     "Nationality/residency: No rule stated; open event at LAU Beirut",
-     "Age: Not stated",
-     "Team: Individual",
-     "Other: RSVP through the online form"
+     "Relevant to professionals, researchers, academics, students, business and community leaders and interested individuals"
     ]
    },
    "money": [
@@ -17036,12 +20328,7 @@
    "elig": {
     "status": "check",
     "lines": [
-     "Level: Not stated",
-     "University: Not stated",
-     "Nationality/residency: Not stated (online webinar)",
-     "Age: Not stated",
-     "Team: Individual",
-     "Other: No registration listed; join via the Webex link"
+     "Audience not stated"
     ]
    },
    "money": [
@@ -19366,12 +22653,9 @@
    "elig": {
     "status": "ok",
     "lines": [
-     "Level: 'primarily of Doctoral students or exceptional Master students, as well as academics and practitioners'",
-     "University: Any",
-     "Nationality/residency: 'from all around the world, with a focus on the Mediterranean area'; no nationality rule",
-     "Age: Not stated",
-     "Team: Individual",
-     "Other: 'Preferred attendees have a technical background, and some prior understanding and practical experience of machine learning'; selected 'on the basis of merit' via a public call; scholarships offered to support diversity"
+     "Doctoral students, exceptional master's students, academics and practitioners worldwide, with a focus on the Mediterranean area",
+     "Technical background and some practical ML experience preferred",
+     "Merit-based selection"
     ]
    },
    "money": [
@@ -21620,13 +24904,7 @@
    "elig": {
     "status": "ok",
     "lines": [
-     "Level: Open to anyone who books (public paid trip; no student or membership requirement stated)",
-     "University: Any",
-     "Nationality/residency: No rule stated; day trip in Lebanon",
-     "Age: Not stated",
-     "Team: Individual booking (until the bus is full)",
-     "Other: 'Suitable to everyone with good shape'; 12 km loop, ~365 m gain; $30 all inclusive (trail medic included)",
-     "Other: Wear sports or hiking clothes and hiking shoes; bring water (1.5L+), snacks, jacket, ID and insurance card (if available)"
+     "Open to the public"
     ]
    },
    "money": [
@@ -21900,13 +25178,7 @@
    "elig": {
     "status": "ok",
     "lines": [
-     "Level: Open to anyone who books (public paid trip; no student or membership requirement stated)",
-     "University: Any",
-     "Nationality/residency: No rule stated; day trip in Lebanon",
-     "Age: Not stated",
-     "Team: Individual booking (until the bus is full)",
-     "Other: Snowshoeing; difficulty not stated; $35 incl. transport, breakfast and guides",
-     "Other: Wear sports or hiking clothes and hiking shoes; bring water (1.5L+), snacks, jacket, ID and insurance card (if available)"
+     "Open to the public"
     ]
    },
    "money": [
@@ -22818,6 +26090,1070 @@
    "image": "https://www.adnocabudhabimarathon.com/wp-content/uploads/2025/05/marathon-banner-scaled-1.webp",
    "logo": "https://www.adnocabudhabimarathon.com/wp-content/uploads/2025/05/cropped-favicon-192x192.png",
    "imageChecked": "2026-10-22"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "deadline": null,
+   "eventDate": null,
+   "meet": "Beirut: WKSC multipurpose room / Joseph G. Jabbra Gymnasium. Byblos: Reformer Pilates studio and outdoor courts",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-lau-recreation-fitness-fall-2026",
+   "sport": "other",
+   "title": "LAU Recreation & Fitness: free play, classes, tennis court and Pilates booking (Fall 2026)",
+   "org": "LAU Athletics",
+   "place": "LAU Beirut and Byblos campuses, Lebanon",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Rolling: weekly schedule during Fall 2026",
+   "when": "Mon-Fri during the semester. Beirut gyms 07:00-20:00; Beirut indoor court free play Tue, Thu, Fri 13:00-15:00; Byblos outdoor courts 08:00-20:00; classes mostly start 16:30",
+   "bring": "Sportswear and sports shoes; a towel (mandatory in the gym); goggles and swim cap for the pool",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: LAU community (students, staff, faculty)",
+     "University: LAU only (tennis booking uses your LAU email and ID)",
+     "Nationality/residency: Not applicable (campus facility)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Some slots are staff-only (16:30-17:30), some pool sessions are women-only, tennis court is varsity-only Mon and Thu 17:00-19:00"
+    ]
+   },
+   "money": [
+    [
+     "Fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the LAU Recreation & Fitness schedule page.",
+    "For Byblos Reformer Pilates: reserve online with your name, LAU email and phone (each week opens the Friday before at 16:00; 6 reformers per class).",
+    "For the Beirut tennis court: book online 6 hours to 7 days ahead (30 min to 2 h), then check in with Athletics staff at Jabbra Gymnasium."
+   ],
+   "contact": [
+    [
+     "Email",
+     "athletics@lau.edu.lb",
+     "Published on LAU Athletics site"
+    ],
+    [
+     "Phone/WhatsApp",
+     "76 744 113",
+     "Published on LAU Athletics site"
+    ]
+   ],
+   "url": "https://lauathletics.netlify.app/",
+   "caveat": "The live class list did not load when checked; times above are the general rules shown on the schedule page. LAU students only.",
+   "image": "https://lauathletics.netlify.app/assets/img/social-card.jpg",
+   "logo": "https://lauathletics.netlify.app/apple-touch-icon.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2027-02-07T00:00:00+04:00",
+   "meet": "Not stated",
+   "team": "Individual or teams (Aster BIG 5 series)",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-spinneys-dubai-92-2027",
+   "sport": "cycling",
+   "title": "Spinneys Dubai 92 Cycle Challenge 2027 (17th edition)",
+   "org": "Spinneys Dubai 92 Cycle Challenge with Dubai Sports Council",
+   "place": "Expo City Dubai, UAE",
+   "feeUSD": null,
+   "feeText": "Not stated (early-bird pricing advertised)",
+   "deadlineText": "Registration open now; deadline not stated",
+   "when": "Main 92 km ride: Sun 7 Feb 2027. Build-up rides of 35 km and 45 km earlier in the season (dates not stated)",
+   "difficulty": "92 km road ride; UCI Gran Fondo World Championships 2027 qualifier",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Amateur cyclists (mass-participation gran fondo)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated; no nationality rule shown",
+     "Age: Not stated",
+     "Team: Individual, or team in the Aster BIG 5 series",
+     "Other: Own road bike and helmet expected (not detailed on page)"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights to Dubai",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the official registration page at cyclechallenge.ae/registration.",
+    "Choose the main event or the Aster BIG 5 series and register online."
+   ],
+   "contact": [
+    [
+     "Email",
+     "Info@cyclechallenge.ae",
+     "Published on the official site"
+    ]
+   ],
+   "url": "https://www.cyclechallenge.ae/",
+   "caveat": "Fees, age limits and build-up ride dates were not shown on the pages that loaded. One page section still says 7 Feb 2026 but the headline date is 7 Feb 2027.",
+   "image": null,
+   "logo": "https://www.cyclechallenge.ae/images/spinneys-cylce-logo-green.svg",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-12-20T07:00:00+04:00",
+   "meet": "Start: Hazza Bin Zayed Stadium, Al Ain. Finish: Sheikh Zayed Festival, Abu Dhabi",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-gran-fondo-abu-dhabi-2026",
+   "sport": "cycling",
+   "title": "AD Ports Group Gran Fondo Abu Dhabi 2026 (154 km, Al Ain to Abu Dhabi)",
+   "org": "UCI Gran Fondo World Series / Abu Dhabi Gran Fondo",
+   "place": "Al Ain to Abu Dhabi, UAE",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "Sun 20 Dec 2026, start 07:00",
+   "difficulty": "154 km point-to-point, mainly flat and fast, 423 m climbing; UCI Gran Fondo World Championships 2027 qualifier",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Amateur road cyclists",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Long-distance road race; good fitness needed"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the event page and follow the link to abudhabigranfondo.ae to register."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@abudhabigranfondo.ae",
+     "Published on the UCI Gran Fondo World Series page"
+    ]
+   ],
+   "url": "https://ucigranfondoworldseries.com/en/abu-dhabi-gran-fondo/",
+   "caveat": "Fee, age rules and deadline not listed on the series page; the event website did not load.",
+   "image": "https://ucigranfondoworldseries.com/wp-content/uploads/sites/186/2026/10/G.F-333-1024x683.jpg",
+   "logo": "https://ucigranfondoworldseries.com/wp-content/uploads/sites/186/2023/04/cropped-favicon-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-11-06T00:00:00+03:00",
+   "meet": "Time trial: Kadriye (Belek). Road race: in front of Land of Legends Theme Park",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-granfondo-antalya-2026",
+   "sport": "cycling",
+   "title": "Granfondo Antalya 2026 (time trial, 73 km and 105 km)",
+   "org": "UCI Gran Fondo World Series / Granfondo Antalya",
+   "place": "Antalya (Belek), Turkey",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "Fri 6 - Sun 8 Nov 2026 (time trial and road race)",
+   "difficulty": "Time trial about 23 km; road race 73 km or 105 km",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Amateur cyclists",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: 105 km qualifies men 19-59 and women 19-49; 73 km qualifies men 60+ and women 50+ for UCI Worlds",
+     "Team: Individual",
+     "Other: Not stated"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the event page and follow the link to ucigfantalya.com to register."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@ucigfantalya.com",
+     "Published on the UCI Gran Fondo World Series page"
+    ]
+   ],
+   "url": "https://ucigranfondoworldseries.com/en/granfondo-antalya-2026/",
+   "caveat": "Fee and registration deadline not listed; registration may close soon.",
+   "image": "https://ucigranfondoworldseries.com/wp-content/uploads/sites/186/2024/11/IMG-20241117-WA0027-scaled.jpg",
+   "logo": "https://ucigranfondoworldseries.com/wp-content/uploads/sites/186/2023/04/cropped-favicon-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-11-01T00:00:00+02:00",
+   "meet": "Start/finish in front of Club Hotel Casino Loutraki (race formalities there too)",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-gran-fondo-greece-2026",
+   "sport": "cycling",
+   "title": "UCI Gran Fondo Greece 2026 (Loutraki, 113.9 km)",
+   "org": "Kyvernitis Travel / UCI Gran Fondo World Series",
+   "place": "Loutraki, Greece",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "Sun 1 Nov 2026",
+   "difficulty": "113.9 km with 1,360 m climbing",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Amateur cyclists",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Not stated"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Register on the organiser page: kyvernitis.gr/sports-and-events/uci-gran-fondo-greece-2026/"
+   ],
+   "contact": [
+    [
+     "Email",
+     "sports-events@kyvernitis.gr",
+     "Published on the UCI Gran Fondo World Series page"
+    ]
+   ],
+   "url": "https://ucigranfondoworldseries.com/en/loutraki-2026/",
+   "caveat": "Very close date; registration may already be closed. Fee not listed.",
+   "image": "https://ucigranfondoworldseries.com/wp-content/uploads/sites/186/2025/08/1-1.jpg",
+   "logo": "https://ucigranfondoworldseries.com/wp-content/uploads/sites/186/2023/04/cropped-favicon-192x192.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2027-03-17T00:00:00+00:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-reykjavik-open-2027",
+   "sport": "chess",
+   "title": "Reykjavik Open 2027 (9-round Swiss)",
+   "org": "Icelandic Chess Federation / Reykjavik Open",
+   "place": "Harpa Concert Hall, Reykjavik, Iceland",
+   "feeUSD": 160,
+   "feeText": "EUR 140-400 by rating (unrated EUR 400); 25-50% off for players born 2007 or later",
+   "deadlineText": "Registration open now; no deadline stated, field capped at about 400 players",
+   "when": "17-23 Mar 2027",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all players (rated and unrated)",
+     "University: Not restricted",
+     "Nationality/residency: International open; no nationality rule stated",
+     "Age: Not restricted; born 2007-2010 pay 75%, born 2011+ pay 50%",
+     "Team: Individual",
+     "Other: Fee depends on FIDE rating on payment day; registration valid only after payment; 75% refund up to 10 days before"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee (unrated)",
+     "EUR 400 (EUR 300 if born 2007-2010)",
+     "info"
+    ],
+    [
+     "Entry fee (1800-1999)",
+     "EUR 260",
+     "info"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Fill in the online registration form linked on the official site.",
+    "Pay the entry fee online (fee set by your rating on the payment day)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "reykjavikopenchess@gmail.com",
+     "Published on the official site"
+    ]
+   ],
+   "url": "https://www.reykjavikopen.com/info/payments/",
+   "prize": "Prize list not yet published for 2027",
+   "caveat": "Fees in euros; USD figure is approximate for a 2000-2149 rated player.",
+   "image": null,
+   "logo": "https://www.reykjavikopen.com/wp-content/uploads/2021/08/2021_60.jpg",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-12-12T00:00:00+01:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-sunway-sitges-2026",
+   "sport": "chess",
+   "title": "Sunway Sitges International Chess Festival 2026",
+   "org": "Sunway Sitges Chess Festival",
+   "place": "Hotel Sunway Playa Golf & Spa, Sitges (Barcelona), Spain",
+   "feeUSD": 100,
+   "feeText": "EUR 89 adults (free if staying 10+ nights at the official hotel)",
+   "deadlineText": "Registration open now; deadline not stated",
+   "when": "12-22 Dec 2026",
+   "prize": "More than EUR 25,000 in prizes",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open; Group A all ratings, Group B for lower-rated players",
+     "University: Not restricted",
+     "Nationality/residency: International open; no nationality rule stated",
+     "Age: Not restricted (U16, U12 and veteran rates)",
+     "Team: Individual",
+     "Other: Night blitz side events EUR 20 each"
+    ]
+   },
+   "money": [
+    [
+     "Entry (adult, not staying at hotel)",
+     "EUR 89",
+     "info"
+    ],
+    [
+     "Entry if staying 10+ nights at official hotel",
+     "Free",
+     "yes"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the official site and use the \"Register now\" form.",
+    "Pay the registration fee (or book the official hotel for free entry)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@sunwaychessfestival.com",
+     "Published on the official site"
+    ],
+    [
+     "Phone",
+     "+34 93 811 34 10",
+     "Published on the official site"
+    ]
+   ],
+   "url": "https://www.sunwaychessfestival.com/?idioma=en",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-11-09T00:00:00+04:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Low",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-abu-dhabi-world-amateur-jj-2026",
+   "sport": "martial-arts",
+   "title": "Abu Dhabi World Amateur Jiu-Jitsu Championship 2026",
+   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
+   "place": "Mubadala Arena, Abu Dhabi, UAE",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "9-10 Nov 2026",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Amateur jiu-jitsu athletes",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated (see AJP divisions)",
+     "Team: Individual",
+     "Other: Entry rules (belt, ranking, registration via AJP account) not visible on the page that loaded"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the AJP Tour events page and select the World Amateur Championship 2026.",
+    "Register online with an AJP account."
+   ],
+   "url": "https://ajptour.com/federation/1/events",
+   "caveat": "Only the AJP calendar listing could be opened; the event page (ajptour.com/en/event/1529) blocked access, so fee and entry rules are unverified.",
+   "contact": [],
+   "image": "https://ajptour.com/pictures/t/1843208-gmyy/ajp.png",
+   "logo": "https://ajptour.com/build/webpack/img/favicon/ajp/apple-touch-icon.517f4ac87201fceee8ae..png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-12-04T00:00:00+03:00",
+   "meet": "Basaksehir Genclik ve Spor Ilce Mudurlugu Tesisleri, Istanbul",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Low",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-ajp-world-nogi-istanbul-2026",
+   "sport": "martial-arts",
+   "title": "AJP World Jiu-Jitsu No-Gi Championship 2026 (Istanbul)",
+   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
+   "place": "Istanbul, Turkey",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "4-6 Dec 2026",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: No-Gi grappling"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the AJP Tour events page and select the No-Gi World Championship 2026.",
+    "Register online with an AJP account."
+   ],
+   "url": "https://ajptour.com/en/events-1/events-calendar-2026",
+   "caveat": "Only the AJP calendar listing could be opened; event page blocked access.",
+   "contact": [],
+   "image": "https://ajptour.com/pictures/t/1843208-gmyy/ajp.png",
+   "logo": "https://ajptour.com/build/webpack/img/favicon/ajp/apple-touch-icon.517f4ac87201fceee8ae..png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "running",
+   "travel": false,
+   "funded": "na",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-11-08T07:00:00+02:00",
+   "meet": "Martyrs' Square, Beirut. Bib pick-up 4-6 Nov, 10:00-17:00, SCLUB Boutique Gym, Tabaris 812 Bldg, 1st floor, Charles Malek Ave, Achrafieh",
+   "team": "Individual (10 km, 2 km) or relay team (Student Relay / Business Relay)",
+   "tags": [
+    "running"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-lets-run-for-my-beirut-10k-2026",
+   "sport": "other",
+   "title": "LIA Assurex Let's Run for My Beirut 10K 2026 (6th edition), incl. Student Relay",
+   "org": "Let's Run (with SCLUB)",
+   "place": "Martyrs' Square, Beirut, Lebanon",
+   "feeUSD": 18,
+   "feeText": "10 km $33; 10 km Student/Business Relay $45 per team; 2 km Fun Run $18 (plus ihjoz fees)",
+   "deadlineText": "Registration deadline not stated; race on Sun 8 Nov 2026",
+   "when": "Sun 8 Nov 2026. 10 km and relays start 07:00 (line-up 06:45); 2 km Fun Run 09:00",
+   "difficulty": "10 km road race or 2 km fun run",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all; a dedicated 10 km Student Relay category exists",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated",
+     "Age: 10 km age categories start at 16-17; no minimum stated for the 2 km fun run",
+     "Team: Individual or relay team (team size not stated)",
+     "Other: Not stated"
+    ]
+   },
+   "money": [
+    [
+     "10 km race",
+     "$30 + $3 LAF ($33) + $2.01 fees",
+     "info"
+    ],
+    [
+     "10 km Student Relay",
+     "$42 + $3 LAF ($45) + $2.35 fees",
+     "info"
+    ],
+    [
+     "2 km Fun Run",
+     "$15 + $3 LAF ($18) + $1.60 fees",
+     "info"
+    ],
+    [
+     "What the fee includes",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the ihjoz event page, click \"Get Tickets\" and pick your race and category.",
+    "Pay online by card, or pay within 24 hours at Cash United, OMT, LibanPost, Whish or SCLUB.",
+    "Collect your bib on 4, 5 or 6 Nov at SCLUB, Achrafieh."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 71 007 372",
+     "Published on the ihjoz event page"
+    ],
+    [
+     "Email",
+     "letsrun10krace@gmail.com",
+     "Published on the ihjoz event page"
+    ],
+    [
+     "Email",
+     "info@sclub.com.lb",
+     "Published on the ihjoz event page"
+    ]
+   ],
+   "url": "https://ihjoz.com/events/9221",
+   "caveat": "Running race (new: not a Beirut Marathon Association event). Relay team size not stated.",
+   "image": "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9221/NinexLiaassurex_lLets_run_ihjozbanner_Sep_16_please.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "deadline": null,
+   "eventDate": null,
+   "meet": "07:30 departure from Beirut or Jounieh area; 08:30 gear at Snow Eagle ski shop; 09:00 ski pass at the resort",
+   "team": "Individual or group (cheaper per person in groups of 5+)",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-skileb-mzaar-day-trip-2026-27",
+   "sport": "ski",
+   "title": "One-Day Ski Trip to Mzaar (Faraya) with transport and gear rental, 2026-27 season",
+   "org": "SKILEB.com (Grey Matter Travel)",
+   "place": "Mzaar Kfardebian, Lebanon (pick-up Beirut/Jounieh)",
+   "feeUSD": 50,
+   "feeText": "$50-$140 per person depending on group size, plus ski pass ($45 weekdays, $70 weekends)",
+   "deadlineText": "Rolling during the ski season; book online at least 2 days ahead (booking opens when the season starts)",
+   "when": "Daily during the ski season (typically Dec-Apr; not open yet as of 23 Oct 2026). 07:30 departure, 16:30 return pick-up",
+   "difficulty": "All levels (Mzaar has about 80 km of slopes); lessons can be added",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: All levels, beginners can add a lesson",
+     "University: Not restricted",
+     "Nationality/residency: Not restricted (trip in Lebanon)",
+     "Age: Not stated",
+     "Team: Individual or group",
+     "Other: Prepayment required; $20 cancellation fee"
+    ]
+   },
+   "money": [
+    [
+     "Transfers + ski/snowboard rental",
+     "$140 (1 person), $80 (2), $60 (3-4), $50 (5+) per person",
+     "info"
+    ],
+    [
+     "Ski pass",
+     "$45 weekdays / $70 weekends and holidays (not included)",
+     "info"
+    ],
+    [
+     "Clothes hire (optional)",
+     "$50 per person",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Open the trip page on skileb.com once the season opens.",
+    "Book online at least 2 days in advance and prepay.",
+    "The reservations centre reconfirms by phone or email."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@skileb.com",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.skileb.com/ski-lebanon/one-day-ski-trip/",
+   "caveat": "Season start depends on snow; the page says booking is not yet open.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "deadline": null,
+   "eventDate": null,
+   "meet": "07:30 departure from Beirut or Jounieh area; 08:30 gear at Mike Sport ski shop; 09:00 ski pass at the resort counter",
+   "team": "Individual or group (cheaper per person in groups of 4)",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-skileb-zaarour-day-trip-2026-27",
+   "sport": "ski",
+   "title": "One-Day Ski Trip to Zaarour Club with transport, gear and ski pass, 2026-27 season",
+   "org": "SKILEB.com (Grey Matter Travel)",
+   "place": "Zaarour Club, Lebanon (pick-up Beirut/Jounieh)",
+   "feeUSD": 68,
+   "feeText": "$68-$158 weekdays, $89-$179 weekends per person (ski pass included)",
+   "deadlineText": "Rolling during the ski season; book at least 1 day ahead (booking opens when the season starts)",
+   "when": "Daily during the ski season (not open yet as of 23 Oct 2026). 07:30 departure, 16:00 return pick-up",
+   "difficulty": "Chairlifts for all levels",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: All levels",
+     "University: Not restricted",
+     "Nationality/residency: Not restricted (trip in Lebanon)",
+     "Age: Not stated",
+     "Team: Individual or group",
+     "Other: Prepayment required; $20 cancellation fee"
+    ]
+   },
+   "money": [
+    [
+     "Weekday (transfers, gear, ski pass)",
+     "$158 (1), $98 (2), $78 (3), $68 (4) per person",
+     "info"
+    ],
+    [
+     "Weekend/holiday",
+     "$179 (1), $119 (2), $99 (3), $89 (4) per person",
+     "info"
+    ],
+    [
+     "Clothes hire (optional)",
+     "$25 per person",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Open the trip page on skileb.com once the season opens.",
+    "Book online or call +961 70 103 222 at least one day ahead and prepay."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@skileb.com",
+     "Published on the official page"
+    ],
+    [
+     "Phone",
+     "+961 70 103 222",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.skileb.com/ski-lebanon/one-day-ski-trip-zaarour/",
+   "caveat": "Season start depends on snow; the page says booking is not yet open.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "deadline": null,
+   "eventDate": null,
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-loa-mountain-biking-akoura",
+   "sport": "cycling",
+   "title": "Mountain Biking in Akoura (2-hour bike rental)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Akoura (Aaqoura), Lebanon",
+   "feeUSD": 20,
+   "feeText": "$20 for 2 hours bike rental",
+   "deadlineText": "Rolling: book any time",
+   "when": "Not stated (on request)",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not restricted",
+     "Nationality/residency: Not restricted (activity in Lebanon)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Not stated"
+    ]
+   },
+   "money": [
+    [
+     "Bike rental (2 h)",
+     "$20",
+     "info"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the listing, choose a quantity and click \"Buy Now\".",
+    "Pay by transfer via Whish, OMT, Suyul or Neo, or message LOA on WhatsApp from the page."
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/mountain-biking-in-akoura/",
+   "caveat": "Bike rental only; no set date, route, level or guide stated.",
+   "contact": [],
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/04/Screenshot_16.png",
+   "logo": "https://lebanonoutdooractivities.com/wp-content/uploads/2025/11/cropped-NEW-LOGO_page-0005-512x512-1-192x192.jpg",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-11-07T09:00:00+02:00",
+   "meet": "Ayia Napa Marina; registration and expo 12:00-18:00, race briefing 18:00 the day before",
+   "team": "Individual; Oceanteams 3 x 500 m relay",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Medium",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-oceanman-ayia-napa-2026",
+   "sport": "swimming",
+   "title": "OCEANMAN Ayia Napa, Cyprus 2026 (open-water swim)",
+   "org": "OCEANMAN",
+   "place": "Ayia Napa Marina, Cyprus",
+   "feeUSD": null,
+   "feeText": "Not stated on the race page",
+   "deadlineText": "Registration deadline not stated",
+   "when": "Sat 7 Nov 2026: Sprint 2 km 09:00, Oceanteams 10:30. Sun 8 Nov: 10 km 07:30, 5 km 08:30",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to amateur open-water swimmers; choose a distance that fits your level",
+     "University: Not restricted",
+     "Nationality/residency: International mass-participation race; no nationality rule stated",
+     "Age: Minimum age not stated (separate Oceankids race exists)",
+     "Team: Individual; Oceanteams relay of 3",
+     "Other: Safety buoy mandatory; wetsuits allowed"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Included",
+     "Accident insurance, finisher medal, race bag (swim cap, T-shirt, timing chip), water safety and medical cover, feeding points",
+     "yes"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the race page and click \"Register\" (goes to rockthesport.com).",
+    "Choose your distance and pay."
+   ],
+   "contact": [
+    [
+     "Email",
+     "cyprus@oceanmanswim.com",
+     "Published on the official race page"
+    ]
+   ],
+   "url": "https://oceanmanswim.com/races/ayia-napa-cyprus",
+   "caveat": "The page technical table marks some shorter distances as \"NO\"; confirm which distances run.",
+   "image": "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/1234c9a3-e533-4bd9-af9a-cc6beccad411",
+   "logo": null,
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2027-06-19T09:30:00+03:00",
+   "meet": "Vouliagmeni Beach (start and finish)",
+   "team": "Individual; Oceanteams relay of 3",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "High",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-oceanman-vouliagmeni-2027",
+   "sport": "swimming",
+   "title": "OCEANMAN Vouliagmeni, Greece 2027 (open-water swim)",
+   "org": "OCEANMAN",
+   "place": "Vouliagmeni Beach (Athens), Greece",
+   "feeUSD": null,
+   "feeText": "Not stated on the race page",
+   "deadlineText": "Registration deadline not stated",
+   "when": "Sat 19 Jun 2027: Sprint 2 km 09:30, Oceanfins 1.5 km, Oceanteams 3 x 750 m. Sun 20 Jun: 10 km 09:00, 5 km 10:40",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to amateur open-water swimmers; choose a distance that fits your level",
+     "University: Not restricted",
+     "Nationality/residency: International mass-participation race; no nationality rule stated",
+     "Age: Minimum age not stated (separate Oceankids race exists)",
+     "Team: Individual; Oceanteams relay of 3",
+     "Other: Safety buoy mandatory; wetsuits NOT allowed"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Included",
+     "Accident insurance, finisher medal, race bag (swim cap, T-shirt, timing chip), water safety and medical cover, feeding points, medal engraving",
+     "yes"
+    ],
+    [
+     "Flights / accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the race page and click \"Register\" (goes to app.rocky.global)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "greece@oceanmanswim.com",
+     "Published on the official race page"
+    ]
+   ],
+   "url": "https://oceanmanswim.com/races/vouliagmeni-greece-2027",
+   "image": "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/1234c9a3-e533-4bd9-af9a-cc6beccad411",
+   "logo": null,
+   "imageChecked": "2026-10-23"
   }
  ]
 }
