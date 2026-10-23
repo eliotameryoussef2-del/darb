@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T14:08:17.913Z",
- "count": 526,
+ "updated": "2026-10-23T14:09:37.678Z",
+ "count": 528,
  "opportunities": [
   {
    "id": "hk-amazon-dev-2026",
@@ -34975,6 +34975,137 @@
    "caveat": "Activity rather than a competition; gear, age and schedule not published.",
    "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/04/WhatsApp-Image-2026-04-09-at-09.50.52-1-667x500.jpeg",
    "logo": "https://lebanonoutdooractivities.com/wp-content/uploads/2025/11/cropped-NEW-LOGO_page-0005-512x512-1-192x192.jpg",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-sports",
+   "id": "tsp-padelhive-lebanon-tournaments",
+   "sport": "padel",
+   "title": "PadelHive: padel tournaments, open matches and ELO rankings at partner clubs across Lebanon",
+   "org": "PadelHive (PadelHiveLB)",
+   "place": "Partner padel clubs across Lebanon",
+   "feeUSD": null,
+   "feeText": "Varies by tournament (not stated on the official page)",
+   "deadline": null,
+   "eventDate": null,
+   "deadlineText": "Rolling: clubs post tournaments in the app",
+   "when": "Ongoing; clubs run tournaments through the PadelHive club portal",
+   "meet": "At the hosting partner club",
+   "team": "Pairs (padel doubles)",
+   "tags": [
+    "sports"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Players matched by level/category (ELO rankings)",
+     "University: Not restricted",
+     "Nationality/residency: Not stated (service area: Lebanon)",
+     "Age: Not stated",
+     "Team: Doubles pairs",
+     "Other: Free app on iOS and Android; account needed to register"
+    ]
+   },
+   "money": [
+    [
+     "Tournament entry",
+     "Not stated (set per tournament)",
+     "ns"
+    ],
+    [
+     "App",
+     "Free on iOS and Android",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Install the PadelHive app (iOS/Android) or open padelhivelb.com.",
+    "Browse tournaments and pick one matching your category.",
+    "Register your team in the app and pay as instructed by the organiser."
+   ],
+   "contact": [
+    [
+     "Email",
+     "support@padelhivelb.com",
+     "Published on the official site"
+    ],
+    [
+     "Phone/WhatsApp",
+     "+961 76 393 947",
+     "Published on the official site"
+    ]
+   ],
+   "url": "https://padelhivelb.com/",
+   "confidence": "Medium",
+   "caveat": "The tournament list loads only inside the app/site, so specific upcoming tournaments, dates and fees could not be read; check the app.",
+   "image": "https://padelhivelb.com/assets/images/icons/FULL-LOGO-1200X630-16.jpg",
+   "logo": "https://padelhivelb.com/assets/images/icons/ICON-180X180.png",
+   "imageChecked": "2026-10-23"
+  },
+  {
+   "cat": "community",
+   "travel": false,
+   "funded": "na",
+   "rolling": true,
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-tournaments-sports",
+   "id": "tsp-fsul-university-championships-2026-27",
+   "sport": "other",
+   "title": "FSUL inter-university championships 2026-27 (futsal, football, basketball, volleyball, handball, badminton, squash, swimming)",
+   "org": "Fédération Sportive Universitaire Libanaise (FSUL), via member universities",
+   "place": "University and club courts across Lebanon",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "deadlineText": "Join through your university's athletics department / team tryouts",
+   "when": "Season under way: e.g. LAU fixtures listed from 24 Oct to 3 Dec 2026 (badminton meet, men's and women's futsal, volleyball, handball, basketball, football); continues into 2027",
+   "meet": "Venues per fixture (e.g. USJ Mansourieh, Byblos Court, BAU, AUB, UOB, Sadaka Court)",
+   "team": "University teams (men's and women's divisions) and individual meets",
+   "tags": [
+    "sports"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: University students on their university's team",
+     "University: Students of FSUL member universities (e.g. LAU, AUB, USJ, NDU, BAU, UA, UOB, AUST, USEK)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Team sports and individual meets",
+     "Other: Selection through each university's tryouts"
+    ]
+   },
+   "money": [
+    [
+     "Participation",
+     "Not stated (through university)",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Contact your university's athletics/sports office and ask about tryouts for the FSUL team.",
+    "Attend the tryout and, if selected, train and compete in the FSUL fixtures."
+   ],
+   "contact": [
+    [
+     "Email",
+     "athletics@lau.edu.lb",
+     "LAU Athletics (for LAU students), published on the schedule site"
+    ]
+   ],
+   "url": "https://athletics.lau.edu.lb/schedules/",
+   "confidence": "Medium",
+   "caveat": "Confirmed via LAU's published FSUL fixture list; FSUL's own site was not found. Other universities' tryout dates not stated.",
+   "image": null,
+   "logo": "https://athletics.lau.edu.lb/wp-content/uploads/2026/10/athletics-favicon-300x300.jpg",
    "imageChecked": "2026-10-23"
   }
  ]
