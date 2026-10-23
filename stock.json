@@ -1,0 +1,247 @@
+{
+ "football": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg/1280px-Football_in_Bloomington%2C_Indiana%2C_1995.jpg",
+   "page": "https://en.wikipedia.org/wiki/Association_football",
+   "title": "Association football"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/2018-10-18_Futsal_%28Boys_Bronze_medal_match%29_at_2018_Summer_Youth_Olympics_by_Sandro_Halank%E2%80%930035.jpg/1280px-2018-10-18_Futsal_%28Boys_Bronze_medal_match%29_at_2018_Summer_Youth_Olympics_by_Sandro_Halank%E2%80%930035.jpg",
+   "page": "https://en.wikipedia.org/wiki/Futsal",
+   "title": "Futsal"
+  }
+ ],
+ "basketball": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg/1280px-USA_vs._China_Mens_Basketball_-_Beijing_2008_Olympic_Games_%282751923597%29.jpg",
+   "page": "https://en.wikipedia.org/wiki/Basketball",
+   "title": "Basketball"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Game_3_of_the_2006_NBA_Finals.jpg/1280px-Game_3_of_the_2006_NBA_Finals.jpg",
+   "page": "https://en.wikipedia.org/wiki/Basketball_court",
+   "title": "Basketball court"
+  }
+ ],
+ "volleyball": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg/1280px-Brasil_vence_a_Fran%C3%A7a_no_v%C3%B4lei_masculino_1037987-15.08.2016_ffz-6369.jpg",
+   "page": "https://en.wikipedia.org/wiki/Volleyball",
+   "title": "Volleyball"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/ECSC_East_Coast_Surfing_Championships_Beach_Volleyball_women_open_finals_Pregowska_pro_FIVB.jpg",
+   "page": "https://en.wikipedia.org/wiki/Beach_volleyball",
+   "title": "Beach volleyball"
+  }
+ ],
+ "handball": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/SAP_Arena_Handball_ausverkauft.jpg/1280px-SAP_Arena_Handball_ausverkauft.jpg",
+   "page": "https://en.wikipedia.org/wiki/Handball",
+   "title": "Handball"
+  }
+ ],
+ "tennis": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/2013_Australian_Open_-_Guillaume_Rufin.jpg/1280px-2013_Australian_Open_-_Guillaume_Rufin.jpg",
+   "page": "https://en.wikipedia.org/wiki/Tennis",
+   "title": "Tennis"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Sanchez-Casal_Paddle_Tennis_Game.jpg/1280px-Sanchez-Casal_Paddle_Tennis_Game.jpg",
+   "page": "https://en.wikipedia.org/wiki/Padel",
+   "title": "Padel"
+  }
+ ],
+ "ski": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Montagnes_Faraya.jpg/1280px-Montagnes_Faraya.jpg",
+   "page": "https://en.wikipedia.org/wiki/Mzaar_Kfardebian",
+   "title": "Mzaar Kfardebian"
+  }
+ ],
+ "swim": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/40._Schwimmzonen-_und_Mastersmeeting_Enns_2017_100m_Brust_Herren_USC_Traun-9897.jpg/1280px-40._Schwimmzonen-_und_Mastersmeeting_Enns_2017_100m_Brust_Herren_USC_Traun-9897.jpg",
+   "page": "https://en.wikipedia.org/wiki/Swimming",
+   "title": "Swimming"
+  }
+ ],
+ "cycling": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Cycliste_%C3%A0_place_d%27Italie-Paris_crop.jpg/1280px-Cycliste_%C3%A0_place_d%27Italie-Paris_crop.jpg",
+   "page": "https://en.wikipedia.org/wiki/Cycling",
+   "title": "Cycling"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/20220424_Liege_Bastogne_Liege117_edited_by_PetarM.jpg/1280px-20220424_Liege_Bastogne_Liege117_edited_by_PetarM.jpg",
+   "page": "https://en.wikipedia.org/wiki/Road_cycling",
+   "title": "Road cycling"
+  }
+ ],
+ "hiking": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Hiking_to_the_Ice_Lakes._San_Juan_National_Forest%2C_Colorado.jpg/1280px-Hiking_to_the_Ice_Lakes._San_Juan_National_Forest%2C_Colorado.jpg",
+   "page": "https://en.wikipedia.org/wiki/Hiking",
+   "title": "Hiking"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Trekking_in_the_Lebanon_Mountains.jpg/1280px-Trekking_in_the_Lebanon_Mountains.jpg",
+   "page": "https://en.wikipedia.org/wiki/Lebanon_Mountain_Trail",
+   "title": "Lebanon Mountain Trail"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Qadisha_Valley%2C_Aerial_View_From_Qannoubine_Monastery.jpg/1280px-Qadisha_Valley%2C_Aerial_View_From_Qannoubine_Monastery.jpg",
+   "page": "https://en.wikipedia.org/wiki/Kadisha_Valley",
+   "title": "Kadisha Valley"
+  }
+ ],
+ "running": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/BSK_CSOB_MARATON046_%2833791445325%29.jpg/1280px-BSK_CSOB_MARATON046_%2833791445325%29.jpg",
+   "page": "https://en.wikipedia.org/wiki/Marathon",
+   "title": "Marathon"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/BMW_Dallas_Marathon.jpg",
+   "page": "https://en.wikipedia.org/wiki/Half_marathon",
+   "title": "Half marathon"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Beirut_Marathon_Runners_106th_Bn_%288189635611%29_%282%29.jpg",
+   "page": "https://en.wikipedia.org/wiki/Beirut_Marathon",
+   "title": "Beirut Marathon"
+  }
+ ],
+ "hackathon": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Wikimedia_Hackathon_Prague_2019_-_Group_Photo_-_CLK.png/1280px-Wikimedia_Hackathon_Prague_2019_-_Group_Photo_-_CLK.png",
+   "page": "https://en.wikipedia.org/wiki/Hackathon",
+   "title": "Hackathon"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/DEF_CON_17_CTF_competition.jpg/1280px-DEF_CON_17_CTF_competition.jpg",
+   "page": "https://en.wikipedia.org/wiki/Capture_the_flag_(cybersecurity)",
+   "title": "Capture the flag (cybersecurity)"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/PIA23792-1600x1200%281%29.jpg/1280px-PIA23792-1600x1200%281%29.jpg",
+   "page": "https://en.wikipedia.org/wiki/Data_science",
+   "title": "Data science"
+  }
+ ],
+ "photo": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Photographer_Photographing_Nevada_Mountains.jpg/1280px-Photographer_Photographing_Nevada_Mountains.jpg",
+   "page": "https://en.wikipedia.org/wiki/Photography",
+   "title": "Photography"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Wildlife_photography.jpg/1280px-Wildlife_photography.jpg",
+   "page": "https://en.wikipedia.org/wiki/Wildlife_photography",
+   "title": "Wildlife photography"
+  }
+ ],
+ "research": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/At_Manchester_2023_2023_006.jpg/1280px-At_Manchester_2023_2023_006.jpg",
+   "page": "https://en.wikipedia.org/wiki/Laboratory",
+   "title": "Laboratory"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Ukrainian_microscope_%28cropped%29.jpg/1280px-Ukrainian_microscope_%28cropped%29.jpg",
+   "page": "https://en.wikipedia.org/wiki/Microscope",
+   "title": "Microscope"
+  }
+ ],
+ "exchange": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Columbia_University%2C_NYC_%28June_2014%29_-_09.JPG/1280px-Columbia_University%2C_NYC_%28June_2014%29_-_09.JPG",
+   "page": "https://en.wikipedia.org/wiki/University",
+   "title": "University"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Joseph_Ram%C3%A9e_Union_College_USA.jpg",
+   "page": "https://en.wikipedia.org/wiki/Campus",
+   "title": "Campus"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/SanDiegoCityCollegeLearningResource_-_bookshelf.jpg",
+   "page": "https://en.wikipedia.org/wiki/Library",
+   "title": "Library"
+  },
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Line_of_young_people_at_a_commencement_ceremony.jpg",
+   "page": "https://en.wikipedia.org/wiki/Graduation",
+   "title": "Graduation"
+  }
+ ],
+ "career": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/JOb_Fair.jpg/1280px-JOb_Fair.jpg",
+   "page": "https://en.wikipedia.org/wiki/Job_fair",
+   "title": "Job fair"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/West_side_of_Manhattan_from_Hudson_Commons_%2895103p%29.jpg/1280px-West_side_of_Manhattan_from_Hudson_Commons_%2895103p%29.jpg",
+   "page": "https://en.wikipedia.org/wiki/Office",
+   "title": "Office"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Job_interview.jpg/1280px-Job_interview.jpg",
+   "page": "https://en.wikipedia.org/wiki/Job_interview",
+   "title": "Job interview"
+  }
+ ],
+ "startup": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Coworking_space_S2M_Utrecht%2C_the_Netherlands.jpg/1280px-Coworking_space_S2M_Utrecht%2C_the_Netherlands.jpg",
+   "page": "https://en.wikipedia.org/wiki/Coworking",
+   "title": "Coworking"
+  }
+ ],
+ "case": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Frank_Schulenburg_giving_a_presentation_at_Wikimania_2011.jpg/1280px-Frank_Schulenburg_giving_a_presentation_at_Wikimania_2011.jpg",
+   "page": "https://en.wikipedia.org/wiki/Presentation",
+   "title": "Presentation"
+  }
+ ],
+ "volunteer": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Vilnius_Marathon_2015_volunteers_by_Augustas_Didzgalvis.jpg/1280px-Vilnius_Marathon_2015_volunteers_by_Augustas_Didzgalvis.jpg",
+   "page": "https://en.wikipedia.org/wiki/Volunteering",
+   "title": "Volunteering"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Op%C3%A9rations_nettoyage_de_plage.jpg/1280px-Op%C3%A9rations_nettoyage_de_plage.jpg",
+   "page": "https://en.wikipedia.org/wiki/Beach_cleaning",
+   "title": "Beach cleaning"
+  }
+ ],
+ "community": [
+  {
+   "src": "https://upload.wikimedia.org/wikipedia/commons/b/b3/JMUN_UNSC.jpg",
+   "page": "https://en.wikipedia.org/wiki/Model_United_Nations",
+   "title": "Model United Nations"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/LAR-Konferanse_06_Foto_Lars-Andreas_Kvisle_-_forsamling_5.jpg/1280px-LAR-Konferanse_06_Foto_Lars-Andreas_Kvisle_-_forsamling_5.jpg",
+   "page": "https://en.wikipedia.org/wiki/Academic_conference",
+   "title": "Academic conference"
+  }
+ ],
+ "beirut": [
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Platinum_Tower_-_Beirut_by_Nabil_Gholam_Architects.tif/lossy-page1-1280px-Platinum_Tower_-_Beirut_by_Nabil_Gholam_Architects.tif.jpg",
+   "page": "https://en.wikipedia.org/wiki/Beirut",
+   "title": "Beirut"
+  },
+  {
+   "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Byblos_Libanon_2003.JPG/1280px-Byblos_Libanon_2003.JPG",
+   "page": "https://en.wikipedia.org/wiki/Byblos",
+   "title": "Byblos"
+  }
+ ]
+}
