@@ -1,7 +1,279 @@
 {
- "updated": "2026-10-24T12:49:11.632Z",
- "count": 2371,
+ "updated": "2026-10-24T13:35:03.863Z",
+ "count": 2377,
  "opportunities": [
+  {
+   "id": "hk-airwallex-agentic-banking",
+   "cat": "hackathon",
+   "title": "Agentic Banking Hackathon",
+   "org": "Airwallex · hosted on HackerEarth",
+   "place": "Online (Demo Day in San Francisco, remote optional)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": "2026-10-23",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Applications close 23 Oct 2026 (time not stated)",
+   "when": "Build from 25 Oct · submissions due 13 Nov · Demo Day 19 Nov 2026",
+   "team": "Solo or up to 4",
+   "tags": [
+    "hackathon"
+   ],
+   "prize": "$80,000 cash across 4 awards ($30,000 Founder's Choice) + Claude, AWS and Base44 credits",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all; FAQ names \"Developers, designers, data scientists, and founders\" (not student-specific)",
+     "University: Not restricted (no university requirement)",
+     "Nationality/residency: Open \"anywhere in the world\"; no country exclusions listed; Lebanon not mentioned",
+     "Age: 18 and over",
+     "Team: Solo or \"a team of up to four\"",
+     "Other: Submission needs a demo, a video under five minutes and a repository link"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Free",
+     "yes"
+    ],
+    [
+     "Prizes",
+     "$80,000 cash",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Apply on the hackathon page before 23 Oct.",
+    "Build from 25 Oct.",
+    "Submit your project by 13 Nov."
+   ],
+   "contact": [],
+   "url": "https://airwallex.hackerearth.com/",
+   "confidence": "Medium",
+   "caveat": "Applications close 23 Oct — act fast. Full rules not reviewed.",
+   "verified": "2026-10-22",
+   "source": "bulk-hackathons",
+   "added": "2026-10-22"
+  },
+  {
+   "id": "lb-ndu-ghineh-sports-complex-design-competition-2026",
+   "cat": "case",
+   "title": "Architectural Design Competition: Ghineh Sports and Cultural Complex",
+   "org": "NDU Faculty of Architecture, Art and Design, Municipality of Ghineh and Farid Reaidy Architectural Company",
+   "place": "Ghineh (site), NDU Zouk Mosbeh",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2026-10-23T16:00:00+03:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Team registration 23 Oct 2026, 4:00 PM; submissions 15 Jan 2027, 4:00 PM",
+   "when": "Competition 9 Oct-15 Dec 2026; final boards due 15 Jan 2027",
+   "meet": "Not stated",
+   "team": "Teams of up to 3",
+   "tags": [
+    "case",
+    "careers"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Students \"enrolled in the Department of Architecture at FAAD during the Fall 2026 semester\"",
+     "University: NDU (Notre Dame University-Louaize) students only",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Teams of up to three students",
+     "Other: Field: architecture; register by 23 October 2026, 4:00 pm"
+    ]
+   },
+   "money": [
+    [
+     "Participation fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register your team through the Microsoft Forms link on the official page by 23 Oct 2026, 4:00 PM.",
+    "Submit three A1 design boards by 15 Jan 2027, 4:00 PM."
+   ],
+   "contact": [],
+   "url": "https://www.ndu.edu.lb/news-events/events/academic-events/architectural-design-competition-sports-complex-ghineh",
+   "confidence": "High",
+   "verified": "2026-10-22",
+   "source": "bulk-lebanon",
+   "added": "2026-10-22",
+   "prize": "USD 1,000 / 500 / 250 for the top three",
+   "caveat": "Only for NDU architecture students; other universities' students cannot enter."
+  },
+  {
+   "id": "hk-amazon-dev-2026",
+   "cat": "hackathon",
+   "title": "Build, Ship, Shape: Amazon Developer Hackathon",
+   "org": "Amazon · run on Devpost",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": "2026-10-23T12:00:00-07:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "23 Oct 2026, 22:00 Beirut time (23 Oct, 12:00 PT)",
+   "when": "Submissions 31 Aug – 23 Oct 2026",
+   "team": "Solo, team or organisation",
+   "tags": [
+    "hackathon"
+   ],
+   "prize": "$138,000 in cash across Fire TV, Alexa+ and other tracks · $25,000 top track prize",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (individuals, teams and organizations); not student-specific",
+     "University: Not restricted",
+     "Nationality/residency: Not open to residents of places where US or local law prohibits entry, \"including, but not limited to, Brazil, Quebec, Russia, Crimea, Cuba, Iran, and North Korea\" and OFAC comprehensively sanctioned countries; Lebanon is not named",
+     "Age: At least the age of majority where you live",
+     "Team: Individuals, teams or organizations",
+     "Other: Not stated"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Free",
+     "yes"
+    ],
+    [
+     "Prizes",
+     "$138,000 pool",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Open the Devpost page and click \"Join hackathon\".",
+    "Build your project during the submission period.",
+    "Submit your project page (and any required demo video/repo) on Devpost before the deadline."
+   ],
+   "contact": [],
+   "url": "https://amazonappdev2026.devpost.com/rules",
+   "confidence": "High",
+   "caveat": "Closes 23 Oct — very little time left.",
+   "verified": "2026-10-22",
+   "source": "bulk-hackathons",
+   "added": "2026-10-22"
+  },
+  {
+   "id": "lb-usj-du-humanitarian-crises-2026",
+   "cat": "career",
+   "title": "University Diploma: Humanitarian Crises, Solidarity and International Cooperation (full scholarships)",
+   "org": "USJ School of Social Work (ESTS)",
+   "place": "Université Saint-Joseph de Beyrouth",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2026-10-23T23:59:00+03:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "23 Oct 2026 (early applications encouraged)",
+   "when": "Programme listed 5 Nov 2026-30 Jun 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers",
+    "volunteering"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: For \"Professionals currently working for a local or international organization\" in humanitarian action, development or social work, and Master's students (social work, political science, humanities, management, etc.)",
+     "University: Not restricted (bachelor's degree required, certified by the awarding university)",
+     "Nationality/residency: Full scholarships for the \"MENA Region\"; foreigners submit a passport copy; Lebanon-based applicants eligible",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Fluency in Arabic; basic English; 1 to 7 years of professional experience in the humanitarian or development sector (internships count)",
+     "Other: Documents: photo, civil status record/ID, Baccalaureate certificate, certified bachelor's degree, CV, motivation letter"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Full scholarships offered (call for scholarship applications)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Read the admission requirements in the PDF on the official page.",
+    "Apply by 23 Oct 2026 following the PDF procedure."
+   ],
+   "contact": [],
+   "url": "https://usj.edu.lb/en/upcoming_events/humanitarian-crises",
+   "confidence": "Medium",
+   "verified": "2026-10-22",
+   "source": "bulk-lebanon",
+   "added": "2026-10-22",
+   "caveat": "Aimed at professionals and Master's students with 1-7 years' sector experience; not for undergraduates."
+  },
+  {
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2026-10-23T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Qualifying-round application deadline Fri 23 Oct 2026",
+   "when": "Qualifying round Nov 2026; Championship 7–12 Feb 2027 at Babeș-Bolyai University",
+   "meet": "Not stated",
+   "team": "4 undergraduates + faculty coach(es), chosen by the school",
+   "tags": [
+    "case",
+    "consulting"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Undergraduate students (\"Teams of four undergraduate students compete on behalf of their respective universities\")",
+     "University: Only NIBS member institutions; one team per school",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Four students plus a faculty coach or coaches",
+     "Other: Official Rules PDF and Guide for Competing Schools apply"
+    ]
+   },
+   "money": [
+    [
+     "Fees",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Travel",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check whether your university is a NIBS member.",
+    "Your school's coach registers the team for the qualifying round."
+   ],
+   "contact": [],
+   "confidence": "High",
+   "id": "bz-nibs-case-2027",
+   "cat": "case",
+   "title": "NIBS International Case Competition 2027",
+   "org": "Network of International Business Schools (NIBS)",
+   "place": "Qualifying round at home university; Championship in Cluj-Napoca, Romania",
+   "url": "https://www.nibsweb.org/competitions/case-competition/",
+   "caveat": "Your university must be a NIBS member and select the team.",
+   "verified": "2026-10-22",
+   "added": "2026-10-22",
+   "source": "bulk-business"
+  },
   {
    "id": "hk-taskforge",
    "cat": "hackathon",
@@ -159029,6 +159301,66 @@
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
    "logo": null
+  },
+  {
+   "id": "portfolio-night-beirut-2026",
+   "cat": "career",
+   "title": "Portfolio Night 2026 - Beirut",
+   "org": "The One Club for Creativity · hosted by IAA Lebanon",
+   "place": "Annahar News Café, Annahar Building, Downtown Beirut, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-23T15:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "Not stated (event on 23 Oct 2026)",
+   "when": "Friday 23 Oct 2026, 3:00-7:00 pm",
+   "meet": "Annahar News Café, Annahar Building, Downtown Beirut",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "prize": "IAA Lebanon selects one All-Star for a virtual boot camp in early 2027; the winning All-Star team wins a trip to New York for The One Club's Creative Week 2027.",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: 'The event is open to senior students and fresh grads'",
+     "University: 'from major Lebanese universities'",
+     "Nationality/residency: Not stated (event in Beirut for Lebanese university students)",
+     "Age: Not stated",
+     "Team: Not stated",
+     "Field: graphic design, art direction, copywriting"
+    ]
+   },
+   "money": [
+    [
+     "Ticket",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official Beirut event page.",
+    "Use the Get Tickets link (Eventbrite) to register."
+   ],
+   "contact": [],
+   "url": "https://portfolionight.com/beirut-af-2026/",
+   "confidence": "High",
+   "caveat": "Event is tomorrow (23 Oct); ticket price and registration cutoff not stated on the official page.",
+   "verified": "2026-10-22",
+   "source": "allevents-beirut",
+   "added": "2026-10-22",
+   "image": "https://portfolionight.com/wp-content/uploads/2026/07/PN26-Logo-OG-1200x627.jpg",
+   "logo": "https://portfolionight.com/wp-content/uploads/2024/01/cropped-The_One_Club_for_Creativity-logo_black-6-192x192.png",
+   "imageChecked": "2026-10-22",
+   "gallery": [
+    "https://portfolionight.com/wp-content/uploads/2026/07/Beirut.jpg",
+    "https://portfolionight.com/wp-content/uploads/2026/08/LEBANON-NEGATIVE-RGB-scaled.jpg",
+    "https://portfolionight.com/wp-content/uploads/2026/08/LEBANON-NEGATIVE-RGB-2048x2048.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   }
  ]
 }
