@@ -497,7 +497,7 @@ function topicsOf(o){
   // Organised trips: abroad (Jordan, Turkey…) or inside Lebanon. Races and conferences abroad are not "trips".
   const trip=(o.tags||[]).some(x=>/^(travel|trips?)$/.test(x))||/\b(trip|getaway|excursion|wine tour|day tour|boat tour|horseback tour|city tour|guided tour)\b/i.test(o.title);
   if(trip)t.add(o.travel?"travel":"trips");
-  if((o.tags||[]).includes("church-event")||/\b(church|parish|paroisse|diocese|archdiocese|eparchy|patriarchate|monastery|convent|mosque|waqf)\b/i.test(o.org)||/\b(saint|st\.?|mar|saydet|sayydet) [a-z]+ (feast|festival|fest|night)|\bfeast of (saint|st|our lady)|\b(saint )?barbara\b|christmas (village|market|fair|bazaar|concert)|\bkermesse\b/i.test(o.title))t.add("religious");
+  if((o.tags||[]).includes("church-event")||/\b(church|parish|paroisse|diocese|archdiocese|eparchy|patriarchate|monastery|convent|mosque|waqf|mouvement apostolique|apostolic movement|fursan|fersen|knights of the virgin|jeunesse [ée]tudiante chr[ée]tienne|l[ée]gion de marie|legion of mary|scouts? catholiques|catholic scouts|youth of (the )?church|catechism)\b|\bMAM\b|\bJEC\b|فرسان|الحركة الرسولية/i.test(o.org+" "+o.title)||/\b(saint|st\.?|mar|saydet|sayydet) [a-z]+ (feast|festival|fest|night)|\bfeast of (saint|st|our lady)|\b(saint )?barbara\b|christmas (village|market|fair|bazaar|concert)|\bkermesse\b/i.test(o.title))t.add("religious");
   if(o.club)t.add("clubs");
   if(o.movie||o.show)t.add("movies");
   if(o.visit)t.add("museums");
