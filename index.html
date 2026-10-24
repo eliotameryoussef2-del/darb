@@ -118,6 +118,9 @@ main{position:relative;min-height:0}
 .biglogo.ph{font-size:26px}
 .sheet.full .search{margin:0}
 .rail{gap:10px}
+.acct{display:flex;justify-content:space-between;align-items:center;gap:12px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:12px;margin:4px 0 14px}
+.acct span{display:flex;flex-direction:column;gap:3px;min-width:0}
+.acct small{color:var(--mute);font-size:12.5px}
 .clist{display:flex;flex-direction:column;gap:10px;margin-bottom:10px}
 .cm{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
 .cm small{color:var(--mute);font-size:11.5px}
@@ -259,6 +262,7 @@ select,.inp{background:var(--panel2);border:1px solid var(--line);border-radius:
   <div class="toast" id="toast" role="status"></div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
 <script>
 const VERIFIED = "22 Oct 2026";
 // Real opportunities checked on official pages on 22 Oct 2026 (except where noted). One SAMPLE item shows the hike layout.
@@ -274,8 +278,8 @@ const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff
 let S=JSON.parse(JSON.stringify(DEF));
 try{const raw=localStorage.getItem("darb-state");if(raw){const p=JSON.parse(raw);S={...S,...p,profile:{...S.profile,...(p.profile||{})}}}}catch(e){}
 S.filters={...DEF.filters,...(S.filters||{})};
-function persist(){try{localStorage.setItem("darb-state",JSON.stringify(S))}catch(e){}}
-let feedMode="foryou",searchQ="",searchCat="all";
+function persist(){try{localStorage.setItem("darb-state",JSON.stringify(S))}catch(e){}if(typeof pushState==="function")pushState()}
+let feedMode="community",searchQ="",searchCat="all";
 // New seed on every load so For You and Community don't open on the same posts each time.
 let SESSION_SEED=Math.floor(Math.random()*1e9);
 /* ---------- shared data (Supabase): likes, comments, flyers. The key below is the public one, safe in the page. ---------- */
@@ -283,11 +287,59 @@ const SUPA={url:"https://bgmxxtlkgvfcfzureeur.supabase.co",key:"sb_publishable_C
 if(!S.device){S.device=(crypto.randomUUID?crypto.randomUUID():String(Math.random()).slice(2)+Date.now());persist()}
 let LIKES={},CCOUNT={};
 async function supa(p,opts={}){
-  const r=await fetch(SUPA.url+p,{...opts,headers:{apikey:SUPA.key,"content-type":"application/json",...(opts.headers||{})}});
+  const r=await fetch(SUPA.url+p,{...opts,headers:{apikey:SUPA.key,"content-type":"application/json",...(TOKEN?{authorization:"Bearer "+TOKEN}:{}),...(opts.headers||{})}});
   if(!r.ok)throw new Error(r.status+" "+await r.text());
   return r.status===204||r.headers.get("content-length")==="0"?null:r.json().catch(()=>null);
 }
 const escHTML=t=>String(t).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+/* ---------- accounts: email sign-in, sync of saves/follows/profile across phones ---------- */
+// var (not let): persist() can run before this point during startup, when no one is signed in yet.
+var USER=null,TOKEN=null,pushTimer=null;
+const sb=window.supabase?window.supabase.createClient(SUPA.url,SUPA.key,{auth:{persistSession:true,detectSessionInUrl:true,flowType:"implicit"}}):null;
+const SYNC_KEYS=["saved","applied","hidden","follow","likes","profile","filters","aff","seen"];
+function needAuth(why){if(USER)return false;openSignIn(why);return true}
+function openSignIn(why){
+  showSheet(`<div class="grip"></div><h2>Sign in to Darb</h2><p class="note" style="margin:0 0 14px">Sign in to ${escHTML(why||"use all features")}. Scrolling Community stays free without an account.</p>
+   <div class="field"><label for="si-email">Email</label><input id="si-email" class="inp" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com"></div>
+   <div class="btnrow"><button class="btn primary" data-sendlink="1">Email me a sign-in link</button></div>
+   <p class="note" id="si-msg">We'll email you a link. Tap it and you're signed in, with no password needed.</p>`);
+  setTimeout(()=>{const i=$("#si-email");if(i)i.focus()},300);
+}
+async function sendLink(){
+  const email=($("#si-email").value||"").trim();
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email))return toast("Enter a valid email");
+  if(!sb)return toast("Sign-in isn't available right now. Check your connection");
+  const btn=$("[data-sendlink]");btn.disabled=true;btn.textContent="Sending…";
+  const {error}=await sb.auth.signInWithOtp({email,options:{emailRedirectTo:location.origin+location.pathname,shouldCreateUser:true}});
+  btn.disabled=false;btn.textContent="Email me a sign-in link";
+  $("#si-msg").innerHTML=error?(/rate|limit|seconds/i.test(error.message)?"Too many sign-in emails right now. Please try again in a little while.":"Couldn't send: "+escHTML(error.message)):"✓ Check your inbox (and spam) for an email from Supabase and tap the link. It opens Darb signed in.";
+}
+// Merge the account's saved state with this phone's, then keep them in sync.
+async function pullState(){
+  try{
+    const rows=await supa("/rest/v1/user_state?select=state&user_id=eq."+USER.id);
+    const remote=(rows&&rows[0]&&rows[0].state)||{};
+    for(const k of ["saved","applied","hidden","follow","likes"])S[k]=[...new Set([...(remote[k]||[]),...(S[k]||[])])];
+    if(remote.profile)S.profile={...S.profile,...remote.profile};
+    if(remote.filters)S.filters={...DEF.filters,...remote.filters};
+    S.aff={...(remote.aff||{}),...S.aff};S.seen={...(remote.seen||{}),...S.seen};
+    try{localStorage.setItem("darb-state",JSON.stringify(S))}catch(e){}
+    pushState(true);
+  }catch(e){}
+}
+function pushState(now){
+  if(!USER)return;clearTimeout(pushTimer);
+  pushTimer=setTimeout(()=>{const state=Object.fromEntries(SYNC_KEYS.map(k=>[k,S[k]]));
+    supa("/rest/v1/user_state",{method:"POST",headers:{prefer:"resolution=merge-duplicates,return=minimal"},body:JSON.stringify({user_id:USER.id,state,updated_at:new Date().toISOString()})}).catch(()=>{})},now?0:1500);
+}
+if(sb)sb.auth.onAuthStateChange(async(ev,session)=>{
+  const was=!!USER;USER=session?session.user:null;TOKEN=session?session.access_token:null;
+  if(USER&&!was){await pullState();if(ev==="SIGNED_IN"){closeSheet();toast("Signed in. Welcome to Darb!");feedMode="foryou"}}
+  if(!USER&&was&&feedMode!=="community")feedMode="community";
+  if(OPPS.length){if(current==="feed")renderFeed();else if(current==="profile")renderProfile();else if(current==="saved")renderSaved()}
+  if(location.hash.includes("access_token"))history.replaceState(null,"",location.pathname);
+});
+
 async function loadCounts(){
   try{const[l,c]=await Promise.all([supa("/rest/v1/rpc/like_counts",{method:"POST",body:"{}"}),supa("/rest/v1/rpc/comment_counts",{method:"POST",body:"{}"})]);
     LIKES=Object.fromEntries((l||[]).map(x=>[x.opp_id,+x.n]));CCOUNT=Object.fromEntries((c||[]).map(x=>[x.opp_id,+x.n]));
@@ -739,7 +791,7 @@ function openSheet(id){
    <div class="sec"><h3>How to register</h3><ol class="steps">${o.steps.map(s=>`<li><span>${s}</span></li>`).join("")}</ol></div>
    <div class="sec"><h3>Contact</h3>${o.contact.length?o.contact.map(([t,v,n])=>`<div class="contact"><div><small>${t}</small><code>${v}</code>${n?`<small>${n}</small>`:""}</div><button class="btn" data-copy="${v}">Copy</button></div>`).join(""):`<p class="note" style="margin:0">The organiser publishes no direct contact. Use the official page below.</p>`}</div>
    <div class="sec" id="cmts"><h3>Comments</h3><div class="clist" data-cfor="${o.id}"><p class="note">Loading comments…</p></div>
-     <div class="cform"><input id="c-name" class="inp" maxlength="40" placeholder="Your name (optional)"><textarea id="c-body" class="inp" maxlength="600" rows="2" placeholder="Ask a question or share a tip…"></textarea><button class="btn primary" data-cpost="${o.id}">Post</button></div></div>
+     ${USER?"":`<button class="btn" data-signin="comment">Sign in to comment</button>`}<div class="cform" ${USER?"":"hidden"}><input id="c-name" class="inp" maxlength="40" placeholder="Your name (optional)"><textarea id="c-body" class="inp" maxlength="600" rows="2" placeholder="Ask a question or share a tip…"></textarea><button class="btn primary" data-cpost="${o.id}">Post</button></div></div>
    <div class="sec"><h3>Source</h3><p class="note" style="margin:0">${o.sample?"Not applicable.":`Checked against the official page on ${fmtDate(o.verified)} · confidence: <b>${o.confidence}</b>.`}${picture(o).tag?` Picture: ${picture(o).tag.replace(/^Swipe for \d+ photos · /,"")}.`:""} ${o.caveat||""} Always confirm on the official page before you pay or book travel.</p></div>
    <div class="btnrow">
      ${o.url?`<a class="btn primary" href="${o.url}" target="_blank" rel="noopener">Open official page ↗</a>`:""}
@@ -974,7 +1026,8 @@ function renderAdd(){
 /* ---------- profile ---------- */
 function renderProfile(){
   const p=S.profile;
-  $("#v-profile").innerHTML=`<h1 class="h1">Me</h1><p class="sub">Your settings decide what reaches the main feed. Items that break a setting move to “Reach”, they don't vanish.</p>
+  $("#v-profile").innerHTML=`<h1 class="h1">Me</h1>
+   <div class="acct">${USER?`<span>Signed in as <b>${escHTML(USER.email||USER.phone||"you")}</b><small>Your saves, follows and profile sync across your phones.</small></span><button class="btn" data-signout="1">Sign out</button>`:`<span><b>Not signed in</b><small>Sign in to like, comment, save and get your For You feed.</small></span><button class="btn primary" data-signin="use all features">Sign in</button>`}</div><p class="sub">Your settings decide what reaches the main feed. Items that break a setting move to “Reach”, they don't vanish.</p>
    <div class="lbl" style="margin-top:6px">About you</div>
    <p class="note" style="margin:4px 0 0">Used only to match you. It stays on this phone.</p>
    <div class="field"><label for="p-level">Where you are in your studies</label>
@@ -1041,7 +1094,7 @@ document.addEventListener("click",e=>{
   if(b.dataset.fapply){closeSheet();renderFeed();$("#v-feed").scrollTop=0;return}
   if(b.dataset.fclear){S.filters=JSON.parse(JSON.stringify(DEF.filters));persist();closeSheet();renderFeed();$("#v-feed").scrollTop=0;return toast("Filters cleared")}
   if(b.dataset.org)return openOrg(b.dataset.org);
-  if(b.dataset.follow){
+  if(b.dataset.follow){if(needAuth("follow organisers"))return;
     const k=b.dataset.follow,on=toggleIn(S.follow,k);S.aff["org:"+k]=(S.aff["org:"+k]||0)+(on?5:-5);persist();
     if($("#sheet").classList.contains("on")&&$("#sheet .orghead"))openOrg(k);
     else if($("#sheet").classList.contains("on")&&$("#dir-q")){const y=$("#sheet").scrollTop;openDirectory();$("#sheet").scrollTop=y}
@@ -1049,7 +1102,10 @@ document.addEventListener("click",e=>{
     return toast(on?"Following. Their posts appear in Following":"Unfollowed");
   }
   if(b.dataset.goto)return show(b.dataset.goto);
-  if(b.dataset.mode){feedMode=b.dataset.mode;renderFeed();$("#v-feed").scrollTop=0;return}
+  if(b.dataset.mode){if(b.dataset.mode!=="community"&&needAuth(b.dataset.mode==="foryou"?"see your personal For You feed":"follow organisers"))return;feedMode=b.dataset.mode;renderFeed();$("#v-feed").scrollTop=0;return}
+  if(b.dataset.signin)return openSignIn(b.dataset.signin);
+  if(b.dataset.sendlink)return sendLink();
+  if(b.dataset.signout){sb&&sb.auth.signOut();return toast("Signed out")}
   if(b.dataset.topic){
     const k=b.dataset.topic,tp=S.profile.topics||(S.profile.topics=[]);
     if(k==="all")tp.length=0;else toggleIn(tp,k);
@@ -1063,7 +1119,7 @@ document.addEventListener("click",e=>{
   if(b.dataset.rsend){const o=byId(b.dataset.rsend),t=($("#r-body").value||"").trim();if(!t)return toast("Write what's wrong first");
     b.disabled=true;supa("/rest/v1/submissions",{method:"POST",headers:{prefer:"return=minimal"},body:JSON.stringify({title:("Correction: "+o.title).slice(0,200),link:(o.url||"").slice(0,500),contact:t.slice(0,200),device:S.device})})
       .then(()=>{b.parentNode.innerHTML='<p class="note">✓ Report sent. We\'ll check it against the official page.</p>'}).catch(()=>{b.disabled=false;toast("Couldn't send. Check your connection")});return}
-  if(b.dataset.cpost){const id=b.dataset.cpost,body=($("#c-body").value||"").trim(),name=($("#c-name").value||"").trim();if(!body)return toast("Write a comment first");
+  if(b.dataset.cpost){if(needAuth("comment"))return;const id=b.dataset.cpost,body=($("#c-body").value||"").trim(),name=($("#c-name").value||"").trim();if(!body)return toast("Write a comment first");
     b.disabled=true;S.cname=name;persist();
     supa("/rest/v1/comments",{method:"POST",headers:{prefer:"return=minimal"},body:JSON.stringify({opp_id:id,name:name||null,body,device:S.device})})
       .then(()=>{$("#c-body").value="";CCOUNT[id]=(CCOUNT[id]||0)+1;refreshRails(id);loadComments(id);toast("Comment posted")}).catch(()=>toast("Couldn't post. Check your connection")).finally(()=>{b.disabled=false});return}
@@ -1075,6 +1131,7 @@ document.addEventListener("click",e=>{
   }
   if(b.id==="reset"){S=JSON.parse(JSON.stringify(DEF));persist();renderProfile();return toast("Settings cleared")}
   const act=b.dataset.act,id=b.dataset.id;if(!act)return;
+  if(act!=="share"&&act!=="hide"&&act!=="comments"&&needAuth({like:"like",save:"save opportunities",applied:"track your applications"}[act]||"do this"))return;
   const o=byId(id);
   if(act==="like"){const on=toggleIn(S.likes,id);bump(o,on?2:-2);persist();LIKES[id]=Math.max(0,(LIKES[id]||0)+(on?1:-1));refreshRails(id);
     supa("/rest/v1/rpc/toggle_like",{method:"POST",body:JSON.stringify({p_opp:id,p_device:S.device})}).then(n=>{LIKES[id]=+n;refreshRails(id)}).catch(()=>{})}
