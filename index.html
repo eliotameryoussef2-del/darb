@@ -65,7 +65,8 @@ main{position:relative;min-height:0}
 .topicrow::-webkit-scrollbar{display:none}
 .tchip{flex:none;font-size:12.5px;font-weight:600;padding:5px 11px;border-radius:999px;background:rgba(29,33,40,.85);border:1px solid var(--line);color:var(--fg)}
 .tchip.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
-.ph-tag,.sample-tag{top:96px!important}
+.ph-tag,.sample-tag{top:60px!important}
+.feed.withtopics .ph-tag{top:96px!important}
 .fit{display:flex;flex-direction:column;gap:5px;font-size:14px}
 .fit .g{color:var(--ok)}.fit .w{color:var(--warn)}.fit .b{color:var(--bad)}
 /* TikTok-style tab row with refresh (left) and filters (right) */
@@ -396,7 +397,7 @@ function passFilters(o){
   if(f.eligOnly&&(o.elig.status!=="ok"||fitFor(o).block))return false;
   return true;
 }
-function activeFilters(){const f=S.filters;return(f.when!=="any")+f.where.length+!!f.region+f.money.length+(f.fee!=="any"||f.feeMin!=="")+f.eligOnly+(f.sort!=="best")}
+function activeFilters(){const f=S.filters;return(S.profile.topics||[]).length+(f.when!=="any")+f.where.length+!!f.region+f.money.length+(f.fee!=="any"||f.feeMin!=="")+f.eligOnly+(f.sort!=="best")}
 
 /* ---------- For You: learns from what you watch, save, like and skip ---------- */
 const jitter=id=>(hash(id+SESSION_SEED)%1000)/1000;
@@ -487,11 +488,11 @@ function renderFeed(){
   const tabs=[["following","Following"],["community","Community"],["foryou","For You"]];
   const nf=activeFilters();
   const tp=S.profile.topics||[];
-  // Topic chips that have no open items are left out so the row stays useful.
-  const live=OPPS.filter(o=>!isClosed(o)&&o.elig.status!=="no");
-  const chips=TOPICS.filter(([k])=>tp.includes(k)||live.some(o=>topicsOf(o).has(k)));
+  // Only the categories you picked (in Filters → Category) show here, each with ✕ to remove it.
+  const chips=TOPICS.filter(([k])=>tp.includes(k));
+  el.classList.toggle("withtopics",chips.length>0);
   $("#feedbar").innerHTML=`<div class="tabsrow" role="tablist"><button class="tbx left" data-reload="1" aria-label="Refresh">${IC.refresh}</button>${tabs.map(([k,l])=>`<button class="tb ${feedMode===k?"on":""}" data-mode="${k}" role="tab" aria-selected="${feedMode===k}">${l}</button>`).join("")}<button class="tbx right ${nf?"on":""}" data-filters="1" aria-label="Filters">${IC.filter}${nf?`<b>${nf}</b>`:""}</button></div>
-   <div class="topicrow"><button class="tchip ${tp.length?"":"on"}" data-topic="all">All</button>${chips.map(([k,l])=>`<button class="tchip ${tp.includes(k)?"on":""}" data-topic="${k}" aria-pressed="${tp.includes(k)}">${l}</button>`).join("")}</div>`;
+   ${chips.length?`<div class="topicrow">${chips.map(([k,l])=>`<button class="tchip on" data-topic="${k}" aria-label="Remove ${l}">${l} ✕</button>`).join("")}${chips.length>1?'<button class="tchip" data-topic="all">Clear</button>':""}</div>`:""}`;
   let h="";
   if(!S.profile.level)h+=`<div class="slide endcard"><div><h2>Get matches made for you</h2><p>Optional, no account needed. Tell us your year, university and age, and we hide what you can't join.</p><button class="btn primary" data-goto="profile">Set up my profile</button></div></div>`;
   if(feedMode==="following"&&!S.follow.length)h+=`<div class="slide endcard"><div style="width:100%;max-width:340px"><h2>Follow organisers</h2><p>Their new competitions, events and programmes will show up here.</p><div class="list" style="text-align:left">${topOrgs(12).map(orgRow).join("")}</div></div></div>`;
@@ -666,8 +667,8 @@ function openFilters(){
       <div class="flabel">Sort by</div>`+Object.entries(SORTS).map(([k,l])=>opt(`data-fset="sort:${k}"`,f.sort===k,l)).join("");
   }else{
     const row=(page,label,val)=>`<button class="frow" data-fpage="${page}"><span><b>${label}</b><small>${val}</small></span><em>Change</em></button>`;
-    // Categories (Football, Tournaments…) live only as chips on the feed, not here.
-    body=head("Filters")+row("location","Location",sum.location)+
+    // Categories (Football, Tournaments…) are chosen here; the feed only shows the active ones.
+    body=head("Filters")+row("category","Category",sum.category)+row("location","Location",sum.location)+
       `<div class="frow static"><span><b>Fee (USD)</b></span><div class="minmax"><input id="f-min" class="inp" type="number" inputmode="numeric" min="0" placeholder="Min" value="${f.feeMin}"><input id="f-max" class="inp" type="number" inputmode="numeric" min="0" placeholder="Max" value="${f.fee==="any"?"":f.fee}"></div></div>`+
       row("deadline","Deadline",sum.deadline)+row("money","Funding & prizes",sum.money)+row("more","More details",sum.more);
   }
