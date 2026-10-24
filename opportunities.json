@@ -1,180 +1,7 @@
 {
- "updated": "2026-10-23T14:54:03.020Z",
- "count": 528,
+ "updated": "2026-10-24T08:22:26.054Z",
+ "count": 526,
  "opportunities": [
-  {
-   "id": "hk-amazon-dev-2026",
-   "cat": "hackathon",
-   "title": "Build, Ship, Shape: Amazon Developer Hackathon",
-   "org": "Amazon · run on Devpost",
-   "place": "Online",
-   "travel": false,
-   "funded": "na",
-   "feeUSD": 0,
-   "feeText": "Free",
-   "deadline": "2026-10-23T12:00:00-07:00",
-   "eventDate": null,
-   "rolling": false,
-   "deadlineText": "23 Oct 2026, 22:00 Beirut time (23 Oct, 12:00 PT)",
-   "when": "Submissions 31 Aug – 23 Oct 2026",
-   "team": "Solo, team or organisation",
-   "tags": [
-    "hackathon"
-   ],
-   "prize": "$138,000 in cash across Fire TV, Alexa+ and other tracks · $25,000 top track prize",
-   "elig": {
-    "status": "ok",
-    "lines": [
-     "Level: Open to all (individuals, teams and organizations); not student-specific",
-     "University: Not restricted",
-     "Nationality/residency: Not open to residents of places where US or local law prohibits entry, \"including, but not limited to, Brazil, Quebec, Russia, Crimea, Cuba, Iran, and North Korea\" and OFAC comprehensively sanctioned countries; Lebanon is not named",
-     "Age: At least the age of majority where you live",
-     "Team: Individuals, teams or organizations",
-     "Other: Not stated"
-    ]
-   },
-   "money": [
-    [
-     "Entry fee",
-     "Free",
-     "yes"
-    ],
-    [
-     "Prizes",
-     "$138,000 pool",
-     "info"
-    ]
-   ],
-   "steps": [
-    "Open the Devpost page and click \"Join hackathon\".",
-    "Build your project during the submission period.",
-    "Submit your project page (and any required demo video/repo) on Devpost before the deadline."
-   ],
-   "contact": [],
-   "url": "https://amazonappdev2026.devpost.com/rules",
-   "confidence": "High",
-   "caveat": "Closes 23 Oct — very little time left.",
-   "verified": "2026-10-22",
-   "source": "bulk-hackathons",
-   "added": "2026-10-22",
-   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/173/047/datas/large.png",
-   "logo": null,
-   "imageChecked": "2026-10-22"
-  },
-  {
-   "id": "lb-usj-du-humanitarian-crises-2026",
-   "cat": "career",
-   "title": "University Diploma: Humanitarian Crises, Solidarity and International Cooperation (full scholarships)",
-   "org": "USJ School of Social Work (ESTS)",
-   "place": "Université Saint-Joseph de Beyrouth",
-   "travel": false,
-   "funded": "na",
-   "feeUSD": null,
-   "feeText": "Not stated",
-   "deadline": "2026-10-23T23:59:00+03:00",
-   "eventDate": null,
-   "rolling": false,
-   "deadlineText": "23 Oct 2026 (early applications encouraged)",
-   "when": "Programme listed 5 Nov 2026-30 Jun 2027",
-   "meet": "Not stated",
-   "team": "Individual",
-   "tags": [
-    "careers",
-    "volunteering"
-   ],
-   "elig": {
-    "status": "check",
-    "lines": [
-     "Level: For \"Professionals currently working for a local or international organization\" in humanitarian action, development or social work, and Master's students (social work, political science, humanities, management, etc.)",
-     "University: Not restricted (bachelor's degree required, certified by the awarding university)",
-     "Nationality/residency: Full scholarships for the \"MENA Region\"; foreigners submit a passport copy; Lebanon-based applicants eligible",
-     "Age: Not stated",
-     "Team: Individual",
-     "Other: Fluency in Arabic; basic English; 1 to 7 years of professional experience in the humanitarian or development sector (internships count)",
-     "Other: Documents: photo, civil status record/ID, Baccalaureate certificate, certified bachelor's degree, CV, motivation letter"
-    ]
-   },
-   "money": [
-    [
-     "Tuition",
-     "Full scholarships offered (call for scholarship applications)",
-     "yes"
-    ]
-   ],
-   "steps": [
-    "Read the admission requirements in the PDF on the official page.",
-    "Apply by 23 Oct 2026 following the PDF procedure."
-   ],
-   "contact": [],
-   "url": "https://usj.edu.lb/en/upcoming_events/humanitarian-crises",
-   "confidence": "Medium",
-   "verified": "2026-10-22",
-   "source": "bulk-lebanon",
-   "added": "2026-10-22",
-   "caveat": "Aimed at professionals and Master's students with 1-7 years' sector experience; not for undergraduates.",
-   "image": null,
-   "logo": null,
-   "imageChecked": "2026-10-22"
-  },
-  {
-   "travel": true,
-   "funded": "partial",
-   "feeUSD": null,
-   "feeText": "Not stated",
-   "deadline": "2026-10-23T23:59:00+02:00",
-   "eventDate": null,
-   "rolling": false,
-   "deadlineText": "Qualifying-round application deadline Fri 23 Oct 2026",
-   "when": "Qualifying round Nov 2026; Championship 7–12 Feb 2027 at Babeș-Bolyai University",
-   "meet": "Not stated",
-   "team": "4 undergraduates + faculty coach(es), chosen by the school",
-   "tags": [
-    "case",
-    "consulting"
-   ],
-   "elig": {
-    "status": "check",
-    "lines": [
-     "Level: Undergraduate students (\"Teams of four undergraduate students compete on behalf of their respective universities\")",
-     "University: Only NIBS member institutions; one team per school",
-     "Nationality/residency: Not stated",
-     "Age: Not stated",
-     "Team: Four students plus a faculty coach or coaches",
-     "Other: Official Rules PDF and Guide for Competing Schools apply"
-    ]
-   },
-   "money": [
-    [
-     "Fees",
-     "Not stated",
-     "ns"
-    ],
-    [
-     "Travel",
-     "Not stated",
-     "ns"
-    ]
-   ],
-   "steps": [
-    "Check whether your university is a NIBS member.",
-    "Your school's coach registers the team for the qualifying round."
-   ],
-   "contact": [],
-   "confidence": "High",
-   "id": "bz-nibs-case-2027",
-   "cat": "case",
-   "title": "NIBS International Case Competition 2027",
-   "org": "Network of International Business Schools (NIBS)",
-   "place": "Qualifying round at home university; Championship in Cluj-Napoca, Romania",
-   "url": "https://www.nibsweb.org/competitions/case-competition/",
-   "caveat": "Your university must be a NIBS member and select the team.",
-   "verified": "2026-10-22",
-   "added": "2026-10-22",
-   "source": "bulk-business",
-   "image": "https://www.nibsweb.org/wp-content/uploads/2016/04/New-NIBS-Logo.jpg",
-   "logo": "https://www.nibsweb.org/wp-content/uploads/2016/04/NIBS-Logo.jpg",
-   "imageChecked": "2026-10-22"
-  },
   {
    "id": "hk-taskforge",
    "cat": "hackathon",
@@ -35104,6 +34931,76 @@
    "image": "https://ua.edu.lb/images/ShareLogo.jpg",
    "logo": null,
    "imageChecked": "2026-10-23"
+  },
+  {
+   "id": "nawaya-cisco-digital-employment-readiness",
+   "cat": "career",
+   "title": "Digital Employment Readiness Program (WhatsApp-based job-readiness training)",
+   "org": "The Nawaya Network, powered by Cisco",
+   "place": "Online (WhatsApp chatbot), for residents of Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "No deadline stated; registration through the WhatsApp chatbot, access given within 24 hours after review",
+   "when": "Self-paced; six interactive modules (total duration not stated); certificate on completing the Final Module",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (aimed at youth; covers CVs, LinkedIn, interviews, job search, workplace communication and offer negotiation)",
+     "University: Not stated",
+     "Nationality/residency: \"Of any nationality\"; must \"Reside anywhere across Lebanon\" (Lebanese eligible)",
+     "Age: \"Aged 18 to 33 years old\"",
+     "Team: Individual",
+     "Other: \"Able to read and write in English\"; \"Able to commit to completing the training\""
+    ]
+   },
+   "money": [
+    [
+     "Participation fee",
+     "Free",
+     "yes"
+    ],
+    [
+     "Certificate",
+     "Issued on completing the Final Module",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the WhatsApp chatbot linked on the official page and text \"ehp\".",
+    "Complete the introduction and the registration form in the chat.",
+    "Wait for review; access is provided within 24 hours."
+   ],
+   "contact": [
+    [
+     "WhatsApp chatbot",
+     "https://wa.me/19388000087?text=ehp",
+     "Published on the official page for registration"
+    ],
+    [
+     "Website",
+     "https://nawaya.org/contact/",
+     "General Nawaya contact page"
+    ]
+   ],
+   "url": "https://nawaya.org/derp/",
+   "confidence": "Medium",
+   "caveat": "The page does not state whether enrolment is currently open or give dates; a cohort of 160 completed in 2026 (Nawaya post of 12 Oct 2026). Education level and university not stated.",
+   "verified": "2026-10-24",
+   "source": "nawaya-feed",
+   "added": "2026-10-24",
+   "image": "https://nawaya.org/wp-content/uploads/2026/06/Cisco_Foundation_RGB_Sky_Blue.png",
+   "logo": "https://nawaya.org/wp-content/uploads/2021/12/cropped-Nawaya-Logo-192x192.png",
+   "imageChecked": "2026-10-24"
   }
  ]
 }
