@@ -118,6 +118,12 @@ main{position:relative;min-height:0}
 .biglogo.ph{font-size:26px}
 .sheet.full .search{margin:0}
 .rail{gap:10px}
+.clist{display:flex;flex-direction:column;gap:10px;margin-bottom:10px}
+.cm{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.cm small{color:var(--mute);font-size:11.5px}
+.cm p{margin:4px 0 0;font-size:14px;white-space:pre-wrap;word-break:break-word}
+.cform{display:flex;flex-direction:column;gap:8px;margin-top:6px}
+.cform textarea{resize:vertical;font:inherit}
 .rb.liked .ic{background:#ff4d6d;border-color:#ff4d6d;color:#fff}
 /* OLX-style full-screen filters */
 .sheet.full{max-height:100%;height:100%;border-radius:0;border-top:0;padding:0;background:var(--ink);display:flex;flex-direction:column}
@@ -272,6 +278,22 @@ function persist(){try{localStorage.setItem("darb-state",JSON.stringify(S))}catc
 let feedMode="foryou",searchQ="",searchCat="all";
 // New seed on every load so For You and Community don't open on the same posts each time.
 let SESSION_SEED=Math.floor(Math.random()*1e9);
+/* ---------- shared data (Supabase): likes, comments, flyers. The key below is the public one, safe in the page. ---------- */
+const SUPA={url:"https://bgmxxtlkgvfcfzureeur.supabase.co",key:"sb_publishable_C9vZGSdLcPHlWbFjOl50BQ_xtP4JtFM"};
+if(!S.device){S.device=(crypto.randomUUID?crypto.randomUUID():String(Math.random()).slice(2)+Date.now());persist()}
+let LIKES={},CCOUNT={};
+async function supa(p,opts={}){
+  const r=await fetch(SUPA.url+p,{...opts,headers:{apikey:SUPA.key,"content-type":"application/json",...(opts.headers||{})}});
+  if(!r.ok)throw new Error(r.status+" "+await r.text());
+  return r.status===204||r.headers.get("content-length")==="0"?null:r.json().catch(()=>null);
+}
+const escHTML=t=>String(t).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+async function loadCounts(){
+  try{const[l,c]=await Promise.all([supa("/rest/v1/rpc/like_counts",{method:"POST",body:"{}"}),supa("/rest/v1/rpc/comment_counts",{method:"POST",body:"{}"})]);
+    LIKES=Object.fromEntries((l||[]).map(x=>[x.opp_id,+x.n]));CCOUNT=Object.fromEntries((c||[]).map(x=>[x.opp_id,+x.n]));
+    document.querySelectorAll(".slide[data-id] .rail").forEach(r=>{const o=byId(r.parentNode.dataset.id);if(o)r.innerHTML=railBtns(o)});
+  }catch(e){}
+}
 
 /* ---------- helpers ---------- */
 const $=s=>document.querySelector(s);
@@ -595,6 +617,7 @@ const IC={
  heart:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-9.2-8.6C1.2 8.2 3 4.5 6.6 4.5c2.1 0 3.5 1.2 5.4 3.3 1.9-2.1 3.3-3.3 5.4-3.3 3.6 0 5.4 3.7 3.8 6.9C19 15.6 12 20 12 20z"/></svg>',
  heartOn:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 20s-7-4.4-9.2-8.6C1.2 8.2 3 4.5 6.6 4.5c2.1 0 3.5 1.2 5.4 3.3 1.9-2.1 3.3-3.3 5.4-3.3 3.6 0 5.4 3.7 3.8 6.9C19 15.6 12 20 12 20z"/></svg>',
  filter:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M7 12h10M10 18h4"/></svg>',
+ comment:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>',
  refresh:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 5v6h-6"/></svg>'
 };
 
@@ -681,7 +704,8 @@ function observeViews(){
 }
 function railBtns(o){
   const sv=S.saved.includes(o.id),ap=S.applied.includes(o.id),lk=S.likes.includes(o.id);
-  return`<button class="rb ${lk?"liked":""}" data-act="like" data-id="${o.id}" aria-pressed="${lk}"><span class="ic">${lk?IC.heartOn:IC.heart}</span>${lk?"Liked":"Like"}</button>
+  return`<button class="rb ${lk?"liked":""}" data-act="like" data-id="${o.id}" aria-pressed="${lk}"><span class="ic">${lk?IC.heartOn:IC.heart}</span>${LIKES[o.id]||(lk?"Liked":"Like")}</button>
+  <button class="rb" data-act="comments" data-id="${o.id}"><span class="ic">${IC.comment}</span>${CCOUNT[o.id]||"Comment"}</button>
   <button class="rb ${sv?"on":""}" data-act="save" data-id="${o.id}" aria-pressed="${sv}"><span class="ic">${sv?IC.saveOn:IC.save}</span>${sv?"Saved":"Save"}</button>
   <button class="rb" data-act="hide" data-id="${o.id}"><span class="ic">${IC.no}</span>Not for me</button>
   <button class="rb" data-act="share" data-id="${o.id}"><span class="ic">${IC.share}</span>Share</button>
@@ -714,13 +738,22 @@ function openSheet(id){
    <div class="sec"><h3>Who can take part ·<span class="st ${ec==="ok"?"yes":ec==="warn"?"partial":"no"}">${el_}</span></h3><ul class="el">${o.elig.lines.map(l=>`<li>${l}</li>`).join("")}</ul></div>
    <div class="sec"><h3>How to register</h3><ol class="steps">${o.steps.map(s=>`<li><span>${s}</span></li>`).join("")}</ol></div>
    <div class="sec"><h3>Contact</h3>${o.contact.length?o.contact.map(([t,v,n])=>`<div class="contact"><div><small>${t}</small><code>${v}</code>${n?`<small>${n}</small>`:""}</div><button class="btn" data-copy="${v}">Copy</button></div>`).join(""):`<p class="note" style="margin:0">The organiser publishes no direct contact. Use the official page below.</p>`}</div>
-   <div class="sec"><h3>Source</h3><p class="note" style="margin:0">${o.sample?"Not applicable.":`Checked against the official page on ${fmtDate(o.verified)} · confidence: <b>${o.confidence}</b>.`}${picture(o).tag?` Picture: ${picture(o).tag.replace(/^Swipe for d+ photos · /,"")}.`:""} ${o.caveat||""} Always confirm on the official page before you pay or book travel.</p></div>
+   <div class="sec" id="cmts"><h3>Comments</h3><div class="clist" data-cfor="${o.id}"><p class="note">Loading comments…</p></div>
+     <div class="cform"><input id="c-name" class="inp" maxlength="40" placeholder="Your name (optional)"><textarea id="c-body" class="inp" maxlength="600" rows="2" placeholder="Ask a question or share a tip…"></textarea><button class="btn primary" data-cpost="${o.id}">Post</button></div></div>
+   <div class="sec"><h3>Source</h3><p class="note" style="margin:0">${o.sample?"Not applicable.":`Checked against the official page on ${fmtDate(o.verified)} · confidence: <b>${o.confidence}</b>.`}${picture(o).tag?` Picture: ${picture(o).tag.replace(/^Swipe for \d+ photos · /,"")}.`:""} ${o.caveat||""} Always confirm on the official page before you pay or book travel.</p></div>
    <div class="btnrow">
      ${o.url?`<a class="btn primary" href="${o.url}" target="_blank" rel="noopener">Open official page ↗</a>`:""}
      <button class="btn" data-act="save" data-id="${o.id}">${S.saved.includes(o.id)?"Saved ✓":"Save + remind me"}</button>
      <button class="btn" data-report="${o.id}">Report a mistake</button>
    </div>`;
   $("#sheet").classList.add("on");$("#backdrop").classList.add("on");$("#sheet").scrollTop=0;
+  loadComments(id);if(S.cname){const n=$("#c-name");if(n)n.value=S.cname}
+}
+async function loadComments(id){
+  const box=document.querySelector('[data-cfor="'+id+'"]');if(!box)return;
+  try{const rows=await supa("/rest/v1/comments?select=name,body,created_at&opp_id=eq."+encodeURIComponent(id)+"&order=created_at.asc&limit=100");
+    box.innerHTML=rows.length?rows.map(c=>'<div class="cm"><b>'+escHTML(c.name||"Someone")+'</b> <small>'+fmtDate(c.created_at)+'</small><p>'+escHTML(c.body)+'</p></div>').join(""):'<p class="note">No comments yet. Be the first to ask or share a tip.</p>';
+  }catch(e){box.innerHTML='<p class="note">Comments couldn\'t load. Check your connection.</p>'}
 }
 function closeSheet(){$("#sheet").classList.remove("on","full");$("#backdrop").classList.remove("on");filterPage=null}
 function showSheet(html){$("#sheet").innerHTML=html;$("#sheet").classList.remove("full");$("#sheet").classList.add("on");$("#backdrop").classList.add("on");$("#sheet").scrollTop=0}
@@ -900,6 +933,7 @@ async function enableReminders(){
 }
 
 /* ---------- add a flyer ---------- */
+let flyerFile=null;
 function renderAdd(){
   const v=$("#v-add");if(v.dataset.built)return;v.dataset.built=1;
   v.innerHTML=`<h1 class="h1">Add a flyer</h1><p class="sub">Saw something on Instagram, TikTok, a WhatsApp group or a notice board? Share it and everyone gets it.</p>
@@ -915,10 +949,26 @@ function renderAdd(){
      <div class="field"><label for="f-contact">Contact / how to register</label><input id="f-contact" class="inp" placeholder="e.g. WhatsApp number on the flyer"></div>
      <div class="field"><label class="toggle" for="f-own" style="border:0;padding:4px 0"><span>I'm the organiser<small>Organiser listings get a verified badge and view stats</small></span><input id="f-own" type="checkbox" class="sw"></label></div>
      <div class="btnrow"><button class="btn primary" type="submit">Send for review</button></div>
-     <p class="note">Sending flyers to the Darb team is not switched on yet, so for now your draft stays on this phone.</p>
+     <p class="note">We check every submission against the organiser before it goes live. Flyers are private until then.</p>
    </form>`;
-  $("#flyer").addEventListener("change",e=>{const f=e.target.files[0];if(!f)return;const u=URL.createObjectURL(f);$("#pv").innerHTML=`<div class="preview"><img src="${u}" alt="Your flyer preview"></div><p class="note">Flyer attached. Fill in what you can below.</p>`});
-  $("#af").addEventListener("submit",e=>{e.preventDefault();S.drafts++;persist();e.target.reset();$("#pv").innerHTML="";toast("Saved as a draft on this device. Nothing was sent")});
+  $("#flyer").addEventListener("change",e=>{const f=e.target.files[0];if(!f)return;flyerFile=f;const u=URL.createObjectURL(f);$("#pv").innerHTML=`<div class="preview"><img src="${u}" alt="Your flyer preview"></div><p class="note">Flyer attached. Fill in what you can below.</p>`});
+  $("#af").addEventListener("submit",async e=>{
+    e.preventDefault();const v=id=>($(id).value||"").trim(),btn=e.target.querySelector("[type=submit]");
+    if(!v("#f-title")&&!flyerFile)return toast("Add a flyer or say what it is");
+    btn.disabled=true;btn.textContent="Sending…";
+    try{
+      let image_path=null;
+      if(flyerFile){
+        const ext=(flyerFile.name.split(".").pop()||"jpg").toLowerCase().replace(/[^a-z]/g,"").slice(0,4)||"jpg";
+        image_path=S.device+"/"+Date.now()+"."+ext;
+        const r=await fetch(SUPA.url+"/storage/v1/object/flyers/"+image_path,{method:"POST",headers:{apikey:SUPA.key,"content-type":flyerFile.type||"image/jpeg"},body:flyerFile});
+        if(!r.ok)throw new Error("upload "+r.status);
+      }
+      await supa("/rest/v1/submissions",{method:"POST",headers:{prefer:"return=minimal"},body:JSON.stringify({title:(v("#f-title")||"Flyer (see image)").slice(0,200),link:v("#f-link").slice(0,500)||null,when_text:v("#f-when").slice(0,200)||null,fee:v("#f-fee").slice(0,200)||null,contact:v("#f-contact").slice(0,200)||null,is_organiser:$("#f-own").checked,image_path,device:S.device})});
+      e.target.reset();$("#pv").innerHTML="";flyerFile=null;toast("Sent! We'll check it and publish it soon");
+    }catch(err){toast("Couldn't send. Check your connection and try again")}
+    finally{btn.disabled=false;btn.textContent="Send for review"}
+  });
 }
 
 /* ---------- profile ---------- */
@@ -1009,7 +1059,14 @@ document.addEventListener("click",e=>{
   if(b.dataset.cat){searchCat=b.dataset.cat;return renderSearch()}
   if(b.dataset.int){toggleIn(S.profile.interests,b.dataset.int);persist();return renderProfile()}
   if(b.dataset.copy)return copy(b.dataset.copy);
-  if(b.dataset.report)return toast("Thanks. Please also check the official page, as reports aren't sent yet");
+  if(b.dataset.report){const o=byId(b.dataset.report);const box=document.createElement("div");box.className="cform";box.innerHTML='<textarea id="r-body" class="inp" maxlength="200" rows="2" placeholder="What is wrong? (e.g. the deadline is 5 Dec, the fee is $20)"></textarea><button class="btn primary" data-rsend="'+o.id+'">Send report</button>';b.replaceWith(box);$("#r-body").focus();return}
+  if(b.dataset.rsend){const o=byId(b.dataset.rsend),t=($("#r-body").value||"").trim();if(!t)return toast("Write what's wrong first");
+    b.disabled=true;supa("/rest/v1/submissions",{method:"POST",headers:{prefer:"return=minimal"},body:JSON.stringify({title:("Correction: "+o.title).slice(0,200),link:(o.url||"").slice(0,500),contact:t.slice(0,200),device:S.device})})
+      .then(()=>{b.parentNode.innerHTML='<p class="note">✓ Report sent. We\'ll check it against the official page.</p>'}).catch(()=>{b.disabled=false;toast("Couldn't send. Check your connection")});return}
+  if(b.dataset.cpost){const id=b.dataset.cpost,body=($("#c-body").value||"").trim(),name=($("#c-name").value||"").trim();if(!body)return toast("Write a comment first");
+    b.disabled=true;S.cname=name;persist();
+    supa("/rest/v1/comments",{method:"POST",headers:{prefer:"return=minimal"},body:JSON.stringify({opp_id:id,name:name||null,body,device:S.device})})
+      .then(()=>{$("#c-body").value="";CCOUNT[id]=(CCOUNT[id]||0)+1;refreshRails(id);loadComments(id);toast("Comment posted")}).catch(()=>toast("Couldn't post. Check your connection")).finally(()=>{b.disabled=false});return}
   if(b.id==="saveprofile"){
     const age=$("#p-age");if(age)S.profile.age=age.value;
     persist();show("feed");$("#v-feed").scrollTop=0;
@@ -1019,7 +1076,9 @@ document.addEventListener("click",e=>{
   if(b.id==="reset"){S=JSON.parse(JSON.stringify(DEF));persist();renderProfile();return toast("Settings cleared")}
   const act=b.dataset.act,id=b.dataset.id;if(!act)return;
   const o=byId(id);
-  if(act==="like"){const on=toggleIn(S.likes,id);bump(o,on?2:-2);persist();refreshRails(id)}
+  if(act==="like"){const on=toggleIn(S.likes,id);bump(o,on?2:-2);persist();LIKES[id]=Math.max(0,(LIKES[id]||0)+(on?1:-1));refreshRails(id);
+    supa("/rest/v1/rpc/toggle_like",{method:"POST",body:JSON.stringify({p_opp:id,p_device:S.device})}).then(n=>{LIKES[id]=+n;refreshRails(id)}).catch(()=>{})}
+  if(act==="comments"){openSheet(id);setTimeout(()=>{const c=$("#cmts");if(c)c.scrollIntoView({behavior:"smooth"})},300)}
   if(act==="save"){const on=toggleIn(S.saved,id);bump(o,on?3:-3);persist();refreshRails(id);syncReminders();if($("#sheet").classList.contains("on"))openSheet(id);toast(on?"Saved to Deadlines":"Removed from saved")}
   if(act==="applied"){const on=toggleIn(S.applied,id);if(on&&!S.saved.includes(id))S.saved.push(id);bump(o,on?4:-4);persist();refreshRails(id);toast(on?"Marked as applied. Good luck!":"Unmarked")}
   if(act==="share"){bump(o,2);persist();shareOpp(o)}
@@ -1056,7 +1115,7 @@ async function loadData(manual){
     if(!DIRECTORY.length)try{const x=await fetch("directory.json");if(x.ok)DIRECTORY=(await x.json()).orgs||[]}catch(e){}
     if(!Object.keys(STOCK).length)try{const s=await fetch("stock.json");if(s.ok)STOCK=await s.json()}catch(e){}
     if(current==="feed"||!before){show("feed");$("#v-feed").scrollTop=0}
-    syncReminders();
+    syncReminders();loadCounts();
     if(manual)toast(`Refreshed · ${OPPS.filter(o=>!isClosed(o)).length} open · updated ${fmtDate(UPDATED)}`);
     const id=decodeURIComponent(location.hash.slice(1));if(!before&&id&&byId(id))openSheet(id);
   }catch(e){
