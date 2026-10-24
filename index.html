@@ -68,6 +68,42 @@ main{position:relative;min-height:0}
 .ph-tag,.sample-tag{top:96px!important}
 .fit{display:flex;flex-direction:column;gap:5px;font-size:14px}
 .fit .g{color:var(--ok)}.fit .w{color:var(--warn)}.fit .b{color:var(--bad)}
+/* TikTok-style tab row with refresh (left) and filters (right) */
+.tabsrow{position:relative;padding:0 46px}
+.tbx{position:absolute;top:0;width:36px;height:34px;display:grid;place-items:center;background:none;border:0;color:var(--fg);padding:0}
+.tbx svg{width:22px;height:22px}
+.tbx.left{left:6px}.tbx.right{right:6px}
+.tbx b{position:absolute;top:0;right:0;min-width:16px;height:16px;border-radius:8px;background:var(--accent);color:var(--accent-ink);font:700 10px/16px var(--body)}
+.tbx.on{color:var(--accent)}
+/* photos: swipe sideways */
+.shade,.ph-tag{pointer-events:none}
+.gal{position:absolute;inset:0;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain}
+.gal::-webkit-scrollbar{display:none}
+.gal img{flex:0 0 100%;width:100%;height:100%;object-fit:cover;scroll-snap-align:center;max-width:none}
+.dots{position:absolute;left:0;right:0;top:calc(66% - 46px);display:flex;justify-content:center;gap:5px;z-index:3;pointer-events:none}
+.dots i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.45)}
+.dots i.on{background:#fff;width:16px;border-radius:3px}
+/* organiser line on cards and sheets */
+.orgbtn{display:flex;align-items:center;gap:0;background:none;border:0;padding:0;color:var(--mute);font-size:13.5px;text-align:left;cursor:pointer;max-width:100%}
+.orgbtn span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fol{font-style:normal;font-size:11.5px;font-weight:700;margin-left:8px;padding:2px 7px;border-radius:999px;border:1px solid var(--line);color:var(--fg);flex:none}
+.fol.add{background:var(--fg);color:var(--ink);border-color:var(--fg)}
+.cta{display:flex;gap:8px;flex-wrap:wrap;margin-top:2px}
+.cta .details-btn{margin-top:0}
+.reg-btn{background:var(--accent);color:var(--accent-ink);border-radius:999px;padding:9px 16px;font-weight:700;font-size:14px;text-decoration:none}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.actions .btn{text-decoration:none;color:var(--fg)}
+.actions .btn.primary{color:var(--accent-ink)}
+.orghead{display:flex;gap:14px;align-items:center}
+.biglogo{width:64px;height:64px;border-radius:16px;background:#fff;object-fit:contain;flex:none}
+.orgrow{grid-template-columns:1fr auto;padding:8px 10px}
+.orglink{display:flex;align-items:center;gap:10px;background:none;border:0;padding:0;color:var(--fg);text-align:left;min-width:0}
+.orglink span{display:flex;flex-direction:column;min-width:0}
+.orglink b{font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.orglink small{color:var(--mute);font-size:12px}
+.orglink .logo{width:34px;height:34px}
+.rail{gap:10px}
+.rb.liked .ic{background:#ff4d6d;border-color:#ff4d6d;color:#fff}
 .endcard{display:grid;place-items:center;text-align:center;padding:32px}
 .endcard h2{font:800 22px/1.15 var(--display);margin:0 0 8px}
 .endcard p{color:var(--mute);max-width:30ch;margin:0 auto 14px}
@@ -191,11 +227,14 @@ const CATS={research:"Research",hackathon:"Hackathon",case:"Case competition",ru
 const INTERESTS={consulting:"Consulting",finance:"Finance & VC",startups:"Startups",case:"Case comps",hackathon:"Hackathons",research:"Research",exchange:"Exchange & scholarships",careers:"Careers",running:"Running",hiking:"Hiking",volunteering:"Volunteering",sports:"Sports (football, basketball…)",arts:"Arts & creative"};
 
 /* ---------- state ---------- */
-const DEF={saved:[],hidden:[],applied:[],drafts:0,profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
+const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{when:"any",where:[],money:[],fee:"any",eligOnly:false,sort:"best"},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
 let S=JSON.parse(JSON.stringify(DEF));
 try{const raw=localStorage.getItem("darb-state");if(raw){const p=JSON.parse(raw);S={...S,...p,profile:{...S.profile,...(p.profile||{})}}}}catch(e){}
+S.filters={...DEF.filters,...(S.filters||{})};
 function persist(){try{localStorage.setItem("darb-state",JSON.stringify(S))}catch(e){}}
 let feedMode="foryou",searchQ="",searchCat="all";
+// New seed on every load so For You and Community don't open on the same posts each time.
+let SESSION_SEED=Math.floor(Math.random()*1e9);
 
 /* ---------- helpers ---------- */
 const $=s=>document.querySelector(s);
@@ -300,14 +339,50 @@ function topicsOf(o){
   if(o.art||(o.tags||[]).includes("arts")||/painting|drawing|\barts?\b|illustration|photograph|film festival|short film|music|song|dance|theat(er|re)|poetry|writing contest|essay contest|pottery|ceramic|craft/i.test(o.title))t.add("arts");
   return(o._topics=t);
 }
+/* ---------- organisers (profiles you can follow) ---------- */
+function orgName(o){return o.org.split(" · ")[0].trim()}
+function orgKey(o){return orgName(o).toLowerCase()}
+function topOrgs(n){
+  const m=new Map();
+  for(const o of OPPS)if(!isClosed(o)){const k=orgKey(o),e=m.get(k)||{key:k,name:orgName(o),logo:null,count:0};e.count++;if(!e.logo&&o.logo)e.logo=o.logo;m.set(k,e)}
+  return[...m.values()].sort((a,b)=>b.count-a.count).slice(0,n);
+}
+
+/* ---------- filters (OLX-style panel) ---------- */
+function whereOf(o){if(!o.travel&&/online|virtual|remote/i.test(o.place))return"online";return o.travel?"abroad":"lebanon"}
+function passFilters(o){
+  const f=S.filters,d=daysLeft(o);
+  if(f.when==="7"&&!(d!==null&&d>=0&&d<=7))return false;
+  if(f.when==="30"&&!(d!==null&&d>=0&&d<=30))return false;
+  if(f.when==="rolling"&&!o.rolling)return false;
+  if(f.where.length&&!f.where.includes(whereOf(o)))return false;
+  if(f.money.length&&!f.money.some(m=>m==="full"?o.funded==="full":m==="partial"?o.funded==="partial":m==="free"?o.feeUSD===0:m==="prize"?!!o.prize:false))return false;
+  if(f.fee!=="any"&&o.feeUSD!==null&&o.feeUSD>Number(f.fee))return false;
+  if(f.eligOnly&&(o.elig.status!=="ok"||fitFor(o).block))return false;
+  return true;
+}
+function activeFilters(){const f=S.filters;return(f.when!=="any")+f.where.length+f.money.length+(f.fee!=="any")+f.eligOnly+(f.sort!=="best")}
+
+/* ---------- For You: learns from what you watch, save, like and skip ---------- */
+const jitter=id=>(hash(id+SESSION_SEED)%1000)/1000;
+function affinity(o){let a=S.aff["org:"+orgKey(o)]||0;for(const t of topicsOf(o))a+=S.aff[t]||0;return Math.max(-30,Math.min(30,a))}
+function rankForYou(o){
+  const seen=Math.min(S.seen[o.id]||0,3),fresh=o.added&&Date.now()-new Date(o.added)<3*DAY?8:0;
+  return score(o).s+affinity(o)*1.5-seen*10+fresh+jitter(o.id)*18;
+}
+function bump(o,w){for(const t of topicsOf(o))S.aff[t]=(S.aff[t]||0)+w;const k="org:"+orgKey(o);S.aff[k]=(S.aff[k]||0)+w/2}
+
 function feedItems(){
   let list=OPPS.filter(o=>!isClosed(o)&&!S.hidden.includes(o.id)&&o.elig.status!=="no");
   const tp=S.profile.topics||[];
   if(tp.length)list=list.filter(o=>tp.some(k=>topicsOf(o).has(k)));
-  if(feedMode==="soon")list=list.filter(o=>{const d=daysLeft(o);return d!==null&&d>=0&&d<=45}).sort((a,b)=>daysLeft(a)-daysLeft(b));
-  else if(feedMode==="local")list=list.filter(o=>!o.travel);
-  else if(feedMode==="funded")list=list.filter(o=>o.funded==="full"||o.funded==="partial");
-  else list=list.sort((a,b)=>score(b).s-score(a).s);
+  list=list.filter(passFilters);
+  if(feedMode==="following")list=list.filter(o=>S.follow.includes(orgKey(o)));
+  const sort=S.filters.sort;
+  if(sort==="soon")list.sort((a,b)=>(daysLeft(a)??9999)-(daysLeft(b)??9999));
+  else if(sort==="new")list.sort((a,b)=>String(b.added||"").localeCompare(String(a.added||""))||jitter(a.id)-jitter(b.id));
+  else if(feedMode==="foryou"){const r=new Map(list.map(o=>[o.id,rankForYou(o)]));list.sort((a,b)=>r.get(b.id)-r.get(a.id))}
+  else list.sort((a,b)=>jitter(a.id)-jitter(b.id));
   const main=list.filter(o=>!reachReason(o)),reach=list.filter(o=>reachReason(o));
   return S.profile.reach?main.concat(reach):main;
 }
@@ -344,9 +419,12 @@ function stockFor(o){
   const list=STOCK[topic]||[];
   return list.length?list[hash(o.id)%list.length]:null;
 }
-function picture(o){
+function picture(o,full){
   // Generated art always sits underneath, so a broken image just reveals it.
   const fail=`this.remove();var t=document.querySelector('[data-tag=&quot;${o.id}&quot;]');if(t)t.textContent='No flyer yet'`;
+  // Several organiser photos: swipe left/right through them (feed cards only).
+  const gal=[...new Set([o.image,...(o.gallery||[])].filter(Boolean))];
+  if(full&&gal.length>1)return{html:`<div class="gal" data-gal="${o.id}">${gal.map(src=>`<img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`).join("")}</div><div class="dots" data-dots="${o.id}">${gal.map((_,i)=>`<i class="${i?"":"on"}"></i>`).join("")}</div>`,tag:`Swipe for ${gal.length} photos · organiser's site`};
   if(o.image)return{html:`<img class="photo" src="${esc(o.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="${fail}">`,tag:"Image from organiser's site"};
   const s=stockFor(o);
   if(s)return{html:`<img class="photo" src="${esc(s.src)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="${fail}">`,tag:"Illustrative photo · Wikimedia Commons"};
@@ -361,24 +439,30 @@ const IC={
  saveOn:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
  no:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M6 6l12 12"/></svg>',
  share:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12v7a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-7M12 3v13M7 8l5-5 5 5"/></svg>',
- applied:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5 9-10"/></svg>'
+ applied:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12l5 5 9-10"/></svg>',
+ heart:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-9.2-8.6C1.2 8.2 3 4.5 6.6 4.5c2.1 0 3.5 1.2 5.4 3.3 1.9-2.1 3.3-3.3 5.4-3.3 3.6 0 5.4 3.7 3.8 6.9C19 15.6 12 20 12 20z"/></svg>',
+ heartOn:'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 20s-7-4.4-9.2-8.6C1.2 8.2 3 4.5 6.6 4.5c2.1 0 3.5 1.2 5.4 3.3 1.9-2.1 3.3-3.3 5.4-3.3 3.6 0 5.4 3.7 3.8 6.9C19 15.6 12 20 12 20z"/></svg>',
+ filter:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M7 12h10M10 18h4"/></svg>',
+ refresh:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 11a8 8 0 1 0-2.3 5.7M20 5v6h-6"/></svg>'
 };
 
 /* ---------- feed ---------- */
 function renderFeed(){
   const items=feedItems();const el=$("#v-feed");
-  const tabs=[["foryou","For you"],["soon","Closing soon"],["local","Local + online"],["funded","Funded"]];
+  const tabs=[["following","Following"],["community","Community"],["foryou","For You"]];
+  const nf=activeFilters();
   const tp=S.profile.topics||[];
   // Topic chips that have no open items are left out so the row stays useful.
   const live=OPPS.filter(o=>!isClosed(o)&&o.elig.status!=="no");
   const chips=TOPICS.filter(([k])=>tp.includes(k)||live.some(o=>topicsOf(o).has(k)));
-  $("#feedbar").innerHTML=`<div class="tabsrow" role="tablist">${tabs.map(([k,l])=>`<button class="tb ${feedMode===k?"on":""}" data-mode="${k}" role="tab" aria-selected="${feedMode===k}">${l}</button>`).join("")}</div>
+  $("#feedbar").innerHTML=`<div class="tabsrow" role="tablist"><button class="tbx left" data-reload="1" aria-label="Refresh">${IC.refresh}</button>${tabs.map(([k,l])=>`<button class="tb ${feedMode===k?"on":""}" data-mode="${k}" role="tab" aria-selected="${feedMode===k}">${l}</button>`).join("")}<button class="tbx right ${nf?"on":""}" data-filters="1" aria-label="Filters">${IC.filter}${nf?`<b>${nf}</b>`:""}</button></div>
    <div class="topicrow"><button class="tchip ${tp.length?"":"on"}" data-topic="all">All</button>${chips.map(([k,l])=>`<button class="tchip ${tp.includes(k)?"on":""}" data-topic="${k}" aria-pressed="${tp.includes(k)}">${l}</button>`).join("")}</div>`;
   let h="";
   if(!S.profile.level)h+=`<div class="slide endcard"><div><h2>Get matches made for you</h2><p>Optional, no account needed. Tell us your year, university and age, and we hide what you can't join.</p><button class="btn primary" data-goto="profile">Set up my profile</button></div></div>`;
-  if(!items.length)h+=`<div class="slide endcard"><div><h2>Nothing here yet</h2><p>No open opportunities match this tab and your settings. Try another tab or relax a setting in Me.</p></div></div>`;
+  if(feedMode==="following"&&!S.follow.length)h+=`<div class="slide endcard"><div style="width:100%;max-width:340px"><h2>Follow organisers</h2><p>Their new competitions, events and programmes will show up here.</p><div class="list" style="text-align:left">${topOrgs(12).map(orgRow).join("")}</div></div></div>`;
+  else if(!items.length)h+=`<div class="slide endcard"><div><h2>Nothing here yet</h2><p>No open opportunities match this tab and your filters. Try another tab or clear some filters.</p>${nf?'<button class="btn primary" data-fclear="1">Clear filters</button>':""}</div></div>`;
   items.forEach(o=>{
-    const sc=score(o),[fl,fc]=fundLabel(o),[el_,ec]=eligLabel(o),rr=reachReason(o),d=daysLeft(o),soon=d!==null&&d>=0&&d<=10,pic=picture(o);
+    const sc=score(o),[fl,fc]=fundLabel(o),[el_,ec]=eligLabel(o),rr=reachReason(o),d=daysLeft(o),soon=d!==null&&d>=0&&d<=10,pic=picture(o,true),fol=S.follow.includes(orgKey(o));
     h+=`<article class="slide" data-id="${o.id}">
       <div class="art">${art(o)}${pic.html}</div><div class="shade"></div>
       <span class="ph-tag" data-tag="${o.id}">${pic.tag}</span>
@@ -386,7 +470,7 @@ function renderFeed(){
       <div class="info">
         <span class="cat">${CATS[o.cat]}</span>
         <h2 class="title">${o.title}</h2>
-        <div class="org">${logoImg(o)}${o.org}</div>
+        <button class="org orgbtn" data-org="${esc(orgKey(o))}">${logoImg(o)}<span>${o.org}</span>${fol?'<em class="fol">Following</em>':'<em class="fol add">+ Follow</em>'}</button>
         <div class="chips">
           <span class="chip ${soon?"hot":""}">${dlLabel(o)}</span>
           <span class="chip">${o.place.split(" (")[0]}</span>
@@ -396,17 +480,36 @@ function renderFeed(){
           <span class="chip ${ec}">${el_}</span>
         </div>
         <div class="why">${rr?`<b>Reach:</b> ${rr.toLowerCase()} · `:`<b>${sc.label}</b> · `}${sc.why.join(" · ")}</div>
-        <button class="details-btn" data-open="${o.id}">Details & how to apply</button>
+        <div class="cta"><button class="details-btn" data-open="${o.id}">Details</button>${o.url?`<a class="reg-btn" href="${esc(o.url)}" target="_blank" rel="noopener" data-reg="${o.id}">Register / apply ↗</a>`:""}</div>
       </div>
       <div class="rail">${railBtns(o)}</div>
     </article>`;
   });
   if(items.length)h+=`<div class="slide endcard"><div><h2>You're all caught up</h2><p>Last updated ${UPDATED?fmtDate(UPDATED):"recently"}. New opportunities are checked and added every day. Saved items and reminders are under Deadlines.</p><button class="btn primary" data-goto="add">Know one we missed? Add a flyer</button></div></div>`;
   el.innerHTML=h;
+  observeViews();
+}
+function orgRow(g){
+  const f=S.follow.includes(g.key);
+  return`<div class="row orgrow"><button class="orglink" data-org="${esc(g.key)}">${g.logo?`<img class="logo" src="${esc(g.logo)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<span><b>${g.name}</b><small>${g.count} open</small></span></button><button class="btn ${f?"":"primary"}" data-follow="${esc(g.key)}">${f?"Following":"Follow"}</button></div>`;
+}
+
+/* ---------- watch tracking for For You (time on each card, skips) ---------- */
+let io,curView=null,curStart=0;
+function endView(){
+  if(!curView)return;const o=byId(curView),ms=Date.now()-curStart;
+  if(o){S.seen[curView]=(S.seen[curView]||0)+1;if(ms>5000)bump(o,1);else if(ms<1500)bump(o,-.3);persist()}
+  curView=null;
+}
+function observeViews(){
+  if(io)io.disconnect();if(!("IntersectionObserver"in window))return;
+  io=new IntersectionObserver(es=>{for(const e of es)if(e.isIntersecting&&e.intersectionRatio>=.6&&e.target.dataset.id!==curView){endView();curView=e.target.dataset.id;curStart=Date.now()}},{root:$("#v-feed"),threshold:[.6]});
+  document.querySelectorAll(".slide[data-id]").forEach(s=>io.observe(s));
 }
 function railBtns(o){
-  const sv=S.saved.includes(o.id),ap=S.applied.includes(o.id);
-  return`<button class="rb ${sv?"on":""}" data-act="save" data-id="${o.id}" aria-pressed="${sv}"><span class="ic">${sv?IC.saveOn:IC.save}</span>${sv?"Saved":"Save"}</button>
+  const sv=S.saved.includes(o.id),ap=S.applied.includes(o.id),lk=S.likes.includes(o.id);
+  return`<button class="rb ${lk?"liked":""}" data-act="like" data-id="${o.id}" aria-pressed="${lk}"><span class="ic">${lk?IC.heartOn:IC.heart}</span>${lk?"Liked":"Like"}</button>
+  <button class="rb ${sv?"on":""}" data-act="save" data-id="${o.id}" aria-pressed="${sv}"><span class="ic">${sv?IC.saveOn:IC.save}</span>${sv?"Saved":"Save"}</button>
   <button class="rb" data-act="hide" data-id="${o.id}"><span class="ic">${IC.no}</span>Not for me</button>
   <button class="rb" data-act="share" data-id="${o.id}"><span class="ic">${IC.share}</span>Share</button>
   <button class="rb ${ap?"on":""}" data-act="applied" data-id="${o.id}" aria-pressed="${ap}"><span class="ic">${IC.applied}</span>${ap?"Applied":"I applied"}</button>`;
@@ -420,7 +523,8 @@ function openSheet(id){
   $("#sheet").innerHTML=`<div class="grip"></div>
    ${o.sample?'<div class="warnbox"><b>Sample layout, not a real event.</b> It shows the fields a hike or club activity will carry: meeting time and place, fee, what to bring and contact.</div>':""}
    <span class="cat" style="display:inline-block;margin-top:${o.sample?12:0}px">${CATS[o.cat]}</span>
-   <h2>${o.title}</h2><div class="org">${o.org}</div>
+   <h2>${o.title}</h2><button class="org orgbtn" data-org="${esc(orgKey(o))}">${logoImg(o)}<span>${o.org}</span><em class="fol ${S.follow.includes(orgKey(o))?"":"add"}">${S.follow.includes(orgKey(o))?"Following":"+ Follow"}</em></button>
+   ${regActions(o)}
    <div class="sec"><h3>When & where</h3><dl class="kv">
      <dt>Deadline</dt><dd><b>${dlLabel(o)}</b> · ${o.deadlineText}</dd>
      <dt>Dates</dt><dd>${o.when}</dd>
@@ -446,6 +550,63 @@ function openSheet(id){
   $("#sheet").classList.add("on");$("#backdrop").classList.add("on");$("#sheet").scrollTop=0;
 }
 function closeSheet(){$("#sheet").classList.remove("on");$("#backdrop").classList.remove("on")}
+function showSheet(html){$("#sheet").innerHTML=html;$("#sheet").classList.add("on");$("#backdrop").classList.add("on");$("#sheet").scrollTop=0}
+
+/* ---------- register directly: website, email, WhatsApp, call ---------- */
+function contactLinks(o){
+  const msg=encodeURIComponent(`Hi, I'd like to register for "${o.title}" (found on Darb).`),out=[];
+  for(const[type,val]of o.contact||[]){
+    const v=String(val).trim(),email=v.match(/[\w.+-]+@[\w-]+(\.[\w-]+)+/);
+    if(email){out.push(["✉️ Email",`mailto:${email[0]}?subject=${encodeURIComponent("Registration: "+o.title)}&body=${msg}`]);continue}
+    const digits=v.replace(/\D/g,"");
+    if(/whatsapp|phone|mobile|tel|call|hotline/i.test(type)&&digits.length>=7&&!/x{2}/i.test(v)){
+      // Lebanese numbers are often written locally (03 123 456); WhatsApp needs the country code.
+      let n=digits;if(/^0/.test(n))n="961"+n.slice(1);else if(n.length<=8)n="961"+n;
+      if(/whatsapp|mobile|phone/i.test(type))out.push(["💬 WhatsApp",`https://wa.me/${n}?text=${msg}`]);
+      out.push(["📞 Call",`tel:+${n}`]);continue;
+    }
+    if(!/@|\s/.test(v)&&/^(https?:\/\/)?[\w-]+(\.[\w-]+)+(\/\S*)?$/i.test(v))out.push([`🔗 ${type}`,/^https?:/i.test(v)?v:"https://"+v]);
+  }
+  return out;
+}
+function regActions(o){
+  const l=contactLinks(o);if(o.url)l.unshift(["Register / apply ↗",o.url]);
+  if(!l.length)return"";
+  return`<div class="actions">${l.map(([t,h],i)=>`<a class="btn ${i===0?"primary":""}" href="${esc(h)}" ${/^https?:/.test(h)?'target="_blank" rel="noopener"':""} data-reg="${o.id}">${t}</a>`).join("")}</div>`;
+}
+
+/* ---------- organiser profile ---------- */
+function openOrg(key){
+  const all=OPPS.filter(o=>orgKey(o)===key),items=all.filter(o=>!isClosed(o));
+  const o0=all.find(o=>o.logo)||all[0];if(!o0)return;
+  const f=S.follow.includes(key);let site="";try{site=new URL(o0.url).origin}catch(e){}
+  showSheet(`<div class="grip"></div>
+   <div class="orghead">${o0.logo?`<img class="biglogo" src="${esc(o0.logo)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<div><h2>${orgName(o0)}</h2><div class="org">${items.length} open ${items.length===1?"opportunity":"opportunities"} on Darb</div></div></div>
+   <div class="btnrow"><button class="btn ${f?"":"primary"}" data-follow="${esc(key)}">${f?"Following ✓":"+ Follow"}</button>${site?`<a class="btn" href="${esc(site)}" target="_blank" rel="noopener">Website ↗</a>`:""}</div>
+   <div class="list" style="margin-top:14px">${items.map(o=>rowHTML(o)).join("")||'<div class="empty">Nothing open right now. Follow to see their next one.</div>'}</div>`);
+}
+
+/* ---------- filter panel ---------- */
+function openFilters(){
+  const f=S.filters,n=feedItems().length;
+  const one=(k,v,l)=>`<button class="fchip ${f[k]===v?"on":""}" data-fset="${k}:${v}">${l}</button>`;
+  const many=(k,v,l)=>`<button class="fchip ${f[k].includes(v)?"on":""}" data-ftog="${k}:${v}">${l}</button>`;
+  showSheet(`<div class="grip"></div><h2>Filters</h2>
+   <div class="sec"><h3>Deadline</h3><div class="ichips">${one("when","any","Any time")}${one("when","7","Closing in 7 days")}${one("when","30","Closing in 30 days")}${one("when","rolling","Apply any time")}</div></div>
+   <div class="sec"><h3>Where</h3><div class="ichips">${many("where","lebanon","In Lebanon")}${many("where","online","Online")}${many("where","abroad","Abroad")}</div></div>
+   <div class="sec"><h3>Money</h3><div class="ichips">${many("money","full","Fully funded")}${many("money","partial","Partly funded")}${many("money","free","Free to join")}${many("money","prize","Has a prize")}</div></div>
+   <div class="sec"><h3>Most I'll pay</h3><div class="ichips">${one("fee","any","Any")}${one("fee","0","Free only")}${one("fee","25","Up to $25")}${one("fee","50","Up to $50")}${one("fee","100","Up to $100")}</div></div>
+   <div class="sec"><h3>Eligibility</h3><label class="toggle" for="f-elig" style="border:0;padding:0"><span>Only ones I'm clearly eligible for<small>Hides “Check eligibility” items</small></span><input id="f-elig" type="checkbox" class="sw" ${f.eligOnly?"checked":""}></label></div>
+   <div class="sec"><h3>Sort by</h3><div class="ichips">${one("sort","best","Best for me")}${one("sort","soon","Closing soonest")}${one("sort","new","Newest")}</div></div>
+   <div class="btnrow"><button class="btn primary" data-fapply="1">Show ${n} results</button><button class="btn" data-fclear="1">Clear all</button></div>`);
+}
+
+/* ---------- share (opens the phone's share menu: WhatsApp, Instagram, …) ---------- */
+async function shareOpp(o){
+  const link=location.origin+location.pathname+"#"+o.id,text=`${o.title} (${orgName(o)}). Found on Darb`;
+  try{if(navigator.share){await navigator.share({title:o.title,text,url:link});return}}catch(e){if(e.name==="AbortError")return}
+  copy(`${text}: ${link}`);
+}
 
 /* ---------- search ---------- */
 function rowHTML(o,extra=""){
@@ -456,14 +617,16 @@ function renderSearch(){
   const v=$("#v-search");
   if(!v.dataset.built){
     v.innerHTML=`<h1 class="h1">Search</h1><p class="sub">Compare opportunities side by side. Closed ones are removed automatically.</p>
-    <input id="q" class="search" type="search" placeholder="Try “funded”, “Beirut”, “case”…" aria-label="Search opportunities">
+    <input id="q" class="search" type="search" placeholder="Try “funded”, “Beirut”, “LAU”, “chess”…" aria-label="Search opportunities and organisers">
     <div class="filters" id="cf"></div><div class="list" id="sl"></div>`;
     v.dataset.built=1;
     $("#q").addEventListener("input",e=>{searchQ=e.target.value.toLowerCase();renderSearch()});
   }
   $("#cf").innerHTML=[["all","All"],...Object.entries(CATS)].map(([k,l])=>`<button class="fchip ${searchCat===k?"on":""}" data-cat="${k}">${l}</button>`).join("");
   const list=OPPS.filter(o=>!isClosed(o)).filter(o=>searchCat==="all"||o.cat===searchCat).filter(o=>!searchQ||[o.title,o.org,o.place,o.feeText,CATS[o.cat],o.funded==="full"?"funded":"",o.prize||""].join(" ").toLowerCase().includes(searchQ));
-  $("#sl").innerHTML=list.length?list.map(o=>rowHTML(o)).join(""):`<div class="empty">No open opportunities match. Try a broader word.</div>`;
+  const orgs=searchQ?topOrgs(999).filter(g=>g.name.toLowerCase().includes(searchQ)).slice(0,5):[];
+  $("#sl").innerHTML=(orgs.length?`<div class="group" style="margin-top:4px"><h3>Organisers</h3><div class="list">${orgs.map(orgRow).join("")}</div></div><div class="group"><h3>Opportunities</h3></div>`:"")+
+    (list.length?list.map(o=>rowHTML(o)).join(""):`<div class="empty">No open opportunities match. Try a broader word.</div>`);
 }
 
 /* ---------- saved / deadlines ---------- */
@@ -542,8 +705,23 @@ function refreshRails(id){document.querySelectorAll(`.slide[data-id="${id}"] .ra
 async function copy(text){try{await navigator.clipboard.writeText(text);toast("Copied")}catch(e){toast("Copy blocked. Press and hold the text to copy it")}}
 
 document.addEventListener("click",e=>{
+  const reg=e.target.closest("a[data-reg]");
+  if(reg){const o=byId(reg.dataset.reg);if(o){bump(o,4);persist()}return}
   const b=e.target.closest("button,[data-open]");if(!b)return;
   if(b.dataset.v)return show(b.dataset.v);
+  if(b.dataset.reload)return loadData(true);
+  if(b.dataset.filters)return openFilters();
+  if(b.dataset.fset){const[k,v]=b.dataset.fset.split(":");S.filters[k]=v;persist();return openFilters()}
+  if(b.dataset.ftog){const[k,v]=b.dataset.ftog.split(":");toggleIn(S.filters[k],v);persist();return openFilters()}
+  if(b.dataset.fapply){closeSheet();renderFeed();$("#v-feed").scrollTop=0;return}
+  if(b.dataset.fclear){S.filters=JSON.parse(JSON.stringify(DEF.filters));persist();closeSheet();renderFeed();$("#v-feed").scrollTop=0;return toast("Filters cleared")}
+  if(b.dataset.org)return openOrg(b.dataset.org);
+  if(b.dataset.follow){
+    const k=b.dataset.follow,on=toggleIn(S.follow,k);S.aff["org:"+k]=(S.aff["org:"+k]||0)+(on?5:-5);persist();
+    if($("#sheet").classList.contains("on")&&$("#sheet .orghead"))openOrg(k);
+    if(current==="feed")renderFeed();else if(current==="search")renderSearch();
+    return toast(on?"Following. Their posts appear in Following":"Unfollowed");
+  }
   if(b.dataset.goto)return show(b.dataset.goto);
   if(b.dataset.mode){feedMode=b.dataset.mode;renderFeed();$("#v-feed").scrollTop=0;return}
   if(b.dataset.topic){
@@ -551,7 +729,7 @@ document.addEventListener("click",e=>{
     if(k==="all")tp.length=0;else toggleIn(tp,k);
     persist();renderFeed();$("#v-feed").scrollTop=0;return;
   }
-  if(b.dataset.open&&!b.dataset.act)return openSheet(b.dataset.open);
+  if(b.dataset.open&&!b.dataset.act){const o=byId(b.dataset.open);if(o){bump(o,1.5);persist()}return openSheet(b.dataset.open)}
   if(b.dataset.cat){searchCat=b.dataset.cat;return renderSearch()}
   if(b.dataset.int){toggleIn(S.profile.interests,b.dataset.int);persist();return renderProfile()}
   if(b.dataset.copy)return copy(b.dataset.copy);
@@ -564,13 +742,16 @@ document.addEventListener("click",e=>{
   }
   if(b.id==="reset"){S=JSON.parse(JSON.stringify(DEF));persist();renderProfile();return toast("Settings cleared")}
   const act=b.dataset.act,id=b.dataset.id;if(!act)return;
-  if(act==="save"){const on=toggleIn(S.saved,id);persist();refreshRails(id);if($("#sheet").classList.contains("on"))openSheet(id);toast(on?"Saved to Deadlines":"Removed from saved")}
-  if(act==="applied"){const on=toggleIn(S.applied,id);if(on&&!S.saved.includes(id))S.saved.push(id);persist();refreshRails(id);toast(on?"Marked as applied. Good luck!":"Unmarked")}
-  if(act==="share"){const o=byId(id);copy(o.url?`${o.title}: ${o.url}`:o.title)}
-  if(act==="hide"){S.hidden.push(id);persist();const y=$("#v-feed").scrollTop;renderFeed();$("#v-feed").scrollTop=y;toast("Hidden. You'll see fewer like this",()=>{S.hidden=S.hidden.filter(x=>x!==id);persist();renderFeed()})}
+  const o=byId(id);
+  if(act==="like"){const on=toggleIn(S.likes,id);bump(o,on?2:-2);persist();refreshRails(id)}
+  if(act==="save"){const on=toggleIn(S.saved,id);bump(o,on?3:-3);persist();refreshRails(id);if($("#sheet").classList.contains("on"))openSheet(id);toast(on?"Saved to Deadlines":"Removed from saved")}
+  if(act==="applied"){const on=toggleIn(S.applied,id);if(on&&!S.saved.includes(id))S.saved.push(id);bump(o,on?4:-4);persist();refreshRails(id);toast(on?"Marked as applied. Good luck!":"Unmarked")}
+  if(act==="share"){bump(o,2);persist();shareOpp(o)}
+  if(act==="hide"){S.hidden.push(id);bump(o,-6);persist();const y=$("#v-feed").scrollTop;renderFeed();$("#v-feed").scrollTop=y;toast("Hidden. You'll see fewer like this",()=>{S.hidden=S.hidden.filter(x=>x!==id);persist();renderFeed()})}
 });
 document.addEventListener("change",e=>{
   const p=S.profile,t=e.target;
+  if(t.id==="f-elig"){S.filters.eligOnly=t.checked;persist();return openFilters()}
   if(t.id==="p-travel")p.travel=t.checked;else if(t.id==="p-funded")p.fullyFunded=t.checked;else if(t.id==="p-reach")p.reach=t.checked;else if(t.id==="p-fee")p.maxFee=t.value;
   else if(["p-level","p-uni","p-field","p-nat","p-age"].includes(t.id))p[t.id.slice(2)]=t.value;
   else return;
@@ -581,11 +762,30 @@ $("#backdrop").addEventListener("click",closeSheet);
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeSheet()});
 function fmtDate(d){if(!d)return VERIFIED;const x=new Date(d);return isNaN(x)?d:x.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"})}
 // Opportunities live in opportunities.json, refreshed by the daily updater.
-fetch("opportunities.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(async d=>{
-  OPPS=d.opportunities||[];UPDATED=d.updated;
-  try{const r=await fetch("stock.json");if(r.ok)STOCK=await r.json()}catch(e){}
-  show("feed");
-}).catch(()=>{$("#v-feed").innerHTML=`<div class="slide endcard"><div><h2>Couldn't load opportunities</h2><p>Check your connection and reopen the app.</p></div></div>`});
+let lastLoad=0;
+async function loadData(manual){
+  try{
+    const r=await fetch("opportunities.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(r.status);
+    const d=await r.json(),before=OPPS.length;
+    OPPS=d.opportunities||[];UPDATED=d.updated;lastLoad=Date.now();SESSION_SEED=Math.floor(Math.random()*1e9);
+    if(!Object.keys(STOCK).length)try{const s=await fetch("stock.json");if(s.ok)STOCK=await s.json()}catch(e){}
+    if(current==="feed"||!before){show("feed");$("#v-feed").scrollTop=0}
+    if(manual)toast(`Refreshed · ${OPPS.filter(o=>!isClosed(o)).length} open · updated ${fmtDate(UPDATED)}`);
+    const id=decodeURIComponent(location.hash.slice(1));if(!before&&id&&byId(id))openSheet(id);
+  }catch(e){
+    if(!OPPS.length)$("#v-feed").innerHTML=`<div class="slide endcard"><div><h2>Couldn't load opportunities</h2><p>Check your connection and try again.</p><button class="btn primary" data-reload="1">Try again</button></div></div>`;
+    else if(manual)toast("No connection. Showing what you already have");
+  }
+}
+// Coming back to the app after a while reloads the list and reshuffles the feed.
+document.addEventListener("visibilitychange",()=>{if(document.hidden)endView();else if(Date.now()-lastLoad>10*60*1000)loadData()});
+// Photo dots follow the swipe position.
+document.addEventListener("scroll",e=>{
+  const g=e.target.closest&&e.target.closest(".gal");if(!g)return;
+  const i=Math.round(g.scrollLeft/g.clientWidth),dots=document.querySelector(`[data-dots="${g.dataset.gal}"]`);
+  if(dots)[...dots.children].forEach((d,k)=>d.classList.toggle("on",k===i));
+},true);
+loadData();
 </script>
 
 <script>if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});</script>
