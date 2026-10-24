@@ -34,6 +34,10 @@ main{position:relative;min-height:0}
 .logo{width:26px;height:26px;border-radius:7px;object-fit:contain;background:#fff;flex:none;vertical-align:middle;margin-right:7px}
 .thumb{position:relative}
 .thumb .photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.thumb .logotile{inset:8px;padding:4px;border-radius:6px}
+.art .base.soft{filter:blur(14px) saturate(1.2);transform:scale(1.15)}
+.logotile{position:absolute;inset:16% 18% 34%;background:#fff;border-radius:22px;display:grid;place-items:center;padding:22px;box-shadow:0 12px 40px rgba(0,0,0,.35)}
+.logotile img{max-width:100%;max-height:100%;object-fit:contain}
 /* category-tinted fade: the picture stays bright on top, text sits on the category colour below */
 .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.42) 0%,rgba(0,0,0,0) 13%,rgba(0,0,0,0) 40%,color-mix(in srgb,var(--cb,#11141c) 72%,transparent) 56%,color-mix(in srgb,var(--cb,#11141c) 94%,transparent) 68%,var(--cb,#11141c) 84%)}
 .info .title,.info .org{text-shadow:0 1px 12px rgba(0,0,0,.6)}
@@ -512,26 +516,9 @@ function moreLikeThis(shown){
   return spread(pool.sort((a,b)=>r.get(b.id)-r.get(a.id))).slice(0,80);
 }
 
-/* ---------- generated placeholder art (one motif per category) ---------- */
+/* ---------- small helpers for stable per-item choices ---------- */
 function hash(s){let h=7;for(const c of s)h=(h*31+c.charCodeAt(0))>>>0;return h}
 function rnd(seed){let x=seed||1;return()=>{x^=x<<13;x>>>=0;x^=x>>17;x^=x<<5;x>>>=0;return x/4294967296}}
-function art(o){
-  const r=rnd(hash(o.id));const W=400,H=520;let g="";
-  const P={research:["#0d3a39","#5fd3bf","#a6f0e2"],hackathon:["#191d48","#8fa2ff","#c9d2ff"],case:["#3b290b","#f2b84b","#ffe3a3"],running:["#561a10","#ff8a5c","#ffc7a8"],hiking:["#10301d","#55b979","#bfe8c9"],career:["#1b2939","#7fa8d4","#d2e3f5"],startup:["#3a0f2f","#ff6fa8","#ffc2da"],exchange:["#0d2848","#6fb7ff","#cfe6ff"],volunteer:["#3a240c","#ffb35c","#ffe0b8"],community:["#26203d","#b59cff","#e3d9ff"]}[o.cat];
-  const [bg,c1,c2]=P;
-  switch(o.cat){
-    case"research":for(let i=1;i<9;i++)g+=`<circle cx="${250+r()*30}" cy="${210+r()*30}" r="${i*32}" fill="none" stroke="${c1}" stroke-opacity="${.75-i*.07}" stroke-width="${1+r()*2}"/>`;for(let i=0;i<14;i++){const a=r()*6.28,R=40+r()*230;g+=`<circle cx="${260+Math.cos(a)*R}" cy="${220+Math.sin(a)*R}" r="${2+r()*5}" fill="${c2}"/>`}break;
-    case"hackathon":for(let x=0;x<=W;x+=28)g+=`<path d="M${x} 0V${H}" stroke="${c1}" stroke-opacity=".16"/>`;for(let y=0;y<=H;y+=28)g+=`<path d="M0 ${y}H${W}" stroke="${c1}" stroke-opacity=".16"/>`;g+=`<text x="200" y="300" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="190" font-weight="500" fill="${c1}">{ }</text>`;for(let i=0;i<10;i++)g+=`<rect x="${Math.floor(r()*14)*28}" y="${Math.floor(r()*18)*28}" width="28" height="28" fill="${c2}" fill-opacity="${.15+r()*.35}"/>`;break;
-    case"case":for(let i=0;i<7;i++){const h=60+i*38+r()*30;g+=`<rect x="${30+i*52}" y="${400-h}" width="36" height="${h}" rx="3" fill="${i===6?c2:c1}" fill-opacity="${.45+i*.08}"/>`}g+=`<path d="M20 400H380" stroke="${c2}" stroke-width="2"/>`;break;
-    case"running":for(let i=0;i<8;i++)g+=`<path d="M-40 ${120+i*42} C 120 ${40+i*42}, 260 ${300+i*30}, 460 ${180+i*40}" fill="none" stroke="${i%2?c1:c2}" stroke-width="${6-i*.4}" stroke-opacity="${.9-i*.08}"/>`;break;
-    case"hiking":g+=`<circle cx="${280+r()*60}" cy="120" r="46" fill="${c2}" fill-opacity=".9"/>`;[[.35,260],[.6,300],[.9,350]].forEach(([op,base],k)=>{let d=`M0 ${H} L0 ${base}`;for(let x=0;x<=W;x+=50)d+=` L${x} ${base-40-r()*120+(k*30)}`;d+=` L${W} ${base} L${W} ${H}Z`;g+=`<path d="${d}" fill="${c1}" fill-opacity="${op}"/>`});break;
-    case"career":for(let i=0;i<5;i++)g+=`<rect x="${70+i*18}" y="${90+i*44}" width="230" height="140" rx="14" fill="${i===4?c2:c1}" fill-opacity="${.18+i*.16}"/>`;break;
-    case"startup":{let d="M20 420";const pts=[];for(let i=1;i<=8;i++){const x=20+i*45,y=420-i*38-r()*40;pts.push([x,y]);d+=` L${x} ${y}`}g+=`<path d="${d}" fill="none" stroke="${c1}" stroke-width="5" stroke-linejoin="round"/>`;pts.forEach(([x,y],i)=>g+=`<circle cx="${x}" cy="${y}" r="${i===7?11:6}" fill="${i===7?c2:c1}"/>`);break}
-    case"exchange":g+=`<circle cx="200" cy="230" r="170" fill="none" stroke="${c1}" stroke-width="3"/>`;for(let i=1;i<5;i++)g+=`<ellipse cx="200" cy="230" rx="${170*i/5}" ry="170" fill="none" stroke="${c1}" stroke-opacity=".6"/>`;for(let i=1;i<5;i++)g+=`<path d="M${200-Math.sqrt(170*170-(i*34)**2)} ${230-i*34}H${200+Math.sqrt(170*170-(i*34)**2)}M${200-Math.sqrt(170*170-(i*34)**2)} ${230+i*34}H${200+Math.sqrt(170*170-(i*34)**2)}" stroke="${c1}" stroke-opacity=".5"/>`;g+=`<path d="M60 380 Q 200 ${80+r()*40} 360 120" fill="none" stroke="${c2}" stroke-width="3" stroke-dasharray="8 8"/>`;break;
-    default:for(let i=0;i<6;i++)g+=`<circle cx="${110+(i%3)*90+r()*20}" cy="${170+Math.floor(i/3)*110+r()*20}" r="${70+r()*20}" fill="${i%2?c1:c2}" fill-opacity=".38"/>`;
-  }
-  return`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><rect width="${W}" height="${H}" fill="${bg}"/>${g}</svg>`;
-}
 
 /* ---------- pictures: organiser's own image > topic photo > generated art ---------- */
 let STOCK={};
@@ -544,17 +531,17 @@ function stockFor(o){
   const list=STOCK[topic]||[];
   return list.length?list[hash(o.id)%list.length]:null;
 }
+// Only real images: the event's own photos/flyer, else the organiser's logo, else a real photo of the activity.
+// A real topic photo always sits underneath, so a broken image falls back to a photo, never to drawn art.
 function picture(o,full){
-  // Generated art always sits underneath, so a broken image just reveals it.
-  const fail=`this.remove();var t=document.querySelector('[data-tag=&quot;${o.id}&quot;]');if(t)t.textContent='No flyer yet'`;
-  // Several organiser photos: swipe left/right through them (feed cards only).
+  const s=stockFor(o),img=(src,cls="photo",extra="")=>`<img class="${cls}" src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" ${extra}>`;
+  const base=s?img(s.src,"photo base","onerror=\"this.remove()\""):"";
   const gal=[...new Set([o.image,...(o.gallery||[])].filter(Boolean))];
-  if(full&&gal.length>1)return{html:`<div class="gal" data-gal="${o.id}">${gal.map(src=>`<img src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`).join("")}</div><div class="dots" data-dots="${o.id}">${gal.map((_,i)=>`<i class="${i?"":"on"}"></i>`).join("")}</div>`,tag:`Swipe for ${gal.length} photos · organiser's site`};
-  if(o.image)return{html:`<img class="photo" src="${esc(o.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="${fail}">`,tag:"Image from organiser's site"};
-  const s=stockFor(o);
-  if(s)return{html:`<img class="photo" src="${esc(s.src)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="${fail}">`,tag:"Illustrative photo · Wikimedia Commons"};
-  if(o.logo)return{html:`<img class="photo contain" src="${esc(o.logo)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="${fail}">`,tag:"Organiser logo · no flyer yet"};
-  return{html:"",tag:"No flyer yet"};
+  if(full&&gal.length>1)return{html:base+`<div class="gal" data-gal="${o.id}">${gal.map(src=>img(src,"","onerror=\"this.remove()\"")).join("")}</div><div class="dots" data-dots="${o.id}">${gal.map((_,i)=>`<i class="${i?"":"on"}"></i>`).join("")}</div>`,tag:`Swipe for ${gal.length} photos · organiser's site`};
+  if(o.image)return{html:base+img(o.image,"photo","onerror=\"this.remove()\""),tag:"Photo from the organiser"};
+  if(o.logo)return{html:(s?img(s.src,"photo base soft","onerror=\"this.remove()\""):"")+`<div class="logotile"><img src="${esc(o.logo)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></div>`,tag:"Organiser logo"};
+  if(s)return{html:base,tag:"Photo of the activity · Wikimedia Commons"};
+  return{html:"",tag:""};
 }
 const logoImg=o=>o.logo?`<img class="logo" src="${esc(o.logo)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:"";
 
@@ -595,8 +582,8 @@ function renderFeed(){
     if(i===items.length&&extra.length)h+=`<div class="slide endcard"><div><h2>That's all ${items.length} for your filters</h2><p>Keep scrolling for the closest things you might like.</p><button class="btn" data-fclear="1">Clear filters</button></div></div>`;
     const sc=score(o),[fl,fc]=fundLabel(o),[el_,ec]=eligLabel(o),rr=reachReason(o),d=daysLeft(o),soon=d!==null&&d>=0&&d<=10,pic=picture(o,true),fol=isFollowed(o);
     h+=`<article class="slide" data-id="${o.id}" style="--cb:${CAT_COLOR[o.cat][0]};--cc:${CAT_COLOR[o.cat][1]}">
-      <div class="art">${art(o)}${pic.html}</div><div class="shade"></div>
-      <span class="ph-tag" data-tag="${o.id}">${pic.tag}</span>
+      <div class="art">${pic.html}</div><div class="shade"></div>
+      ${pic.tag?`<span class="ph-tag" data-tag="${o.id}">${pic.tag}</span>`:""}
       ${o.sample?'<span class="sample-tag">Sample layout</span>':""}
       <div class="info">
         <span class="cat">${CATS[o.cat]}</span>
@@ -803,7 +790,7 @@ async function shareOpp(o){
 /* ---------- search ---------- */
 function rowHTML(o,extra=""){
   const d=daysLeft(o),soon=d!==null&&d>=0&&d<=10;
-  return`<button class="row" data-open="${o.id}"><div class="thumb">${art(o)}${picture(o).html}</div><div style="min-width:0"><div class="t">${o.title}${o.sample?" · sample":""}</div><div class="m">${CATS[o.cat]} · ${o.place.split(" (")[0]} · ${o.feeText}</div>${extra}</div><div class="dl ${soon?"soon":""}">${dlLabel(o)}</div></button>`;
+  return`<button class="row" data-open="${o.id}"><div class="thumb" style="background:${CAT_COLOR[o.cat][0]}">${picture(o).html}</div><div style="min-width:0"><div class="t">${o.title}${o.sample?" · sample":""}</div><div class="m">${CATS[o.cat]} · ${o.place.split(" (")[0]} · ${o.feeText}</div>${extra}</div><div class="dl ${soon?"soon":""}">${dlLabel(o)}</div></button>`;
 }
 function renderSearch(){
   const v=$("#v-search");
