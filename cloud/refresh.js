@@ -11,9 +11,12 @@ execFileSync("node", [path.join(__dirname, "jobs.js")], { stdio: "inherit" });
 const now = Date.now(), DAY = 864e5;
 const d = JSON.parse(fs.readFileSync(DATA, "utf8"));
 const before = d.opportunities.length;
-d.opportunities = d.opportunities.filter(o =>
-  o.deadline ? new Date(o.deadline).getTime() >= now :
-  o.eventDate ? new Date(o.eventDate).getTime() + DAY >= now : true);
+// Same rule as updater/validate.js: jobs go when they close; other items stay 60 days after they end.
+d.opportunities = d.opportunities.filter(o => {
+  if (o.job) return o.deadline ? new Date(o.deadline).getTime() >= now : true;
+  const ends = [o.deadline, o.eventDate, o.eventEnd].filter(Boolean).map(x => new Date(x).getTime());
+  return !ends.length || Math.max(...ends) + 60 * DAY >= now;
+});
 d.updated = new Date().toISOString();
 d.count = d.opportunities.length;
 fs.writeFileSync(DATA, JSON.stringify(d, null, 1));
