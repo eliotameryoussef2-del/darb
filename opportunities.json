@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T10:08:05.462Z",
- "count": 1998,
+ "updated": "2026-10-24T10:15:29.424Z",
+ "count": 2029,
  "opportunities": [
   {
    "id": "hk-taskforge",
@@ -1106,6 +1106,72 @@
    "gallery": [
     "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/005/376/756/datas/full_width.png"
    ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-fhs-ai-healthcare-workshop-2026",
+   "cat": "community",
+   "title": "Workshop: Lead the AI Transition in Healthcare (2-day executive workshop)",
+   "org": "AUB Faculty of Health Sciences",
+   "place": "Multipurpose Room 3, Halim and Aida Daniel ACC Building, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Fee stated on the workshop page (not on the calendar)",
+   "deadline": "2026-10-27T23:59:00+03:00",
+   "eventDate": "2026-11-13T09:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "Apply by Tue 27 Oct 2026",
+   "when": "13 Nov 2026 (9 AM–4 PM) and 14 Nov 2026 (9 AM–3 PM)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Healthcare executives, managers, physicians, quality and informatics staff; emerging professionals and fresh graduates with a relevant interest",
+     "University: Open (not limited to AUB)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "No coding, data science or engineering background required; certificate of participation"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Fee stated on the workshop page (not on the calendar)",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Use the \"Register here\" link on the official page before 27 Oct 2026."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Celine Abou Nader",
+     "Published on the official page"
+    ],
+    [
+     "Email",
+     "ca115@aub.edu.lb",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/fhs/Events/Pages/Details.aspx?ItemId=280",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Fee is on the linked workshop page, which was not checked.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -85849,73 +85915,6 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "cp-aub-musicales-baabdath-2026",
-   "cat": "community",
-   "title": "Les Musicales de Baabdath: Tribute to American & Armenian Composers (Hayk Melikian, piano)",
-   "org": "Les Musicales de Baabdath with AUB Zaki Nassif Program for Music and the Embassy of Armenia",
-   "place": "Assembly Hall, AUB",
-   "travel": false,
-   "funded": "na",
-   "feeUSD": 0,
-   "feeText": "Free admission",
-   "deadline": null,
-   "eventDate": "2026-11-21T20:30:00+02:00",
-   "rolling": false,
-   "deadlineText": "No deadline stated; event date 2026-11-21",
-   "when": "21 Nov 2026, 8:30 PM (doors 8:00 PM)",
-   "meet": "Not stated",
-   "team": "Individual",
-   "tags": [
-    "arts"
-   ],
-   "elig": {
-    "status": "ok",
-    "lines": [
-     "Level: Open to all",
-     "University: Open to everyone",
-     "Nationality/residency: Not stated (public concert)",
-     "Age: Not stated",
-     "Team: Individual",
-     "No tickets or reservations; first come, first served; latecomers not admitted"
-    ]
-   },
-   "money": [
-    [
-     "Entry / registration fee",
-     "Free admission",
-     "yes"
-    ]
-   ],
-   "steps": [
-    "No registration: arrive from 8:00 PM; seats are first come, first served."
-   ],
-   "contact": [
-    [
-     "Email",
-     "info@lesmusicales.org",
-     "Published on the AUB events calendar"
-    ],
-    [
-     "Phone",
-     "+961 76 680 340",
-     "Published on the AUB events calendar"
-    ]
-   ],
-   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7565",
-   "confidence": "High",
-   "campus": true,
-   "verified": "2026-10-24",
-   "source": "bulk-campus",
-   "added": "2026-10-24",
-   "image": null,
-   "logo": null,
-   "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
-   ],
-   "galleryChecked": "2026-10-24"
-  },
-  {
    "id": "cp-aub-under-christmas-tree-2026",
    "cat": "community",
    "title": "Under the Christmas Tree market (3rd edition)",
@@ -86812,6 +86811,1877 @@
    "imageChecked": "2026-10-24",
    "gallery": [
     "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/The-power-of-connection-news_164704759.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-fhs-tawleh-w-shamsiyeh-2026",
+   "cat": "community",
+   "title": "Tawleh w Shamsiyeh: Are You Curious to Know? (public health pop-ups across campus)",
+   "org": "AUB Faculty of Health Sciences",
+   "place": "Across AUB campus: FAFS Courtyard (9 Nov), OSB facing CMS (10 Nov), West Hall (11 Nov), Main Gate (12 Nov)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-09T11:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-09",
+   "when": "9–12 Nov 2026, daytime pop-ups",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (on-campus pop-ups with games and challenges)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Find the pop-up at the listed campus spot on each day and take on a challenge."
+   ],
+   "contact": [
+    [
+     "Email",
+     "fhs@aub.edu.lb",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/fhs/Events/Pages/Details.aspx?ItemId=284",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "prize": "Collect Public Health stamps and win prizes",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-gamh-mental-health-conference-2026",
+   "cat": "community",
+   "title": "3rd Global Advances in Mental Health (GAMH): Adjusting the Lens – Special Populations in Focus",
+   "org": "AUB Faculty of Medicine – Health Professions Development Center (HPDC)",
+   "place": "Multipurpose Rooms 1–3, Halim and Aida Daniel Academic and Clinical Center, AUBMC",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-19T08:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-19",
+   "when": "19–21 Nov 2026",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Clinicians, researchers and allied health professionals",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "See the syllabus and registration on the official CME page."
+   ],
+   "contact": [
+    [
+     "Email",
+     "hpdc@aub.edu.lb",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/fm/CME/Events/Pages/Details.aspx?ItemId=323",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Professional medical conference; fees and student access not shown in the calendar extract.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-pediatrics-update-symposium-2027",
+   "cat": "community",
+   "title": "13th Annual Pediatrics Update Symposium",
+   "org": "AUBMC Department of Pediatrics and Adolescent Medicine (HPDC)",
+   "place": "Issam Fares Hall, AUBMC",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2027-01-29T09:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2027-01-29",
+   "when": "29–30 Jan 2027 (per the calendar entry)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Pediatricians, family and emergency doctors, nurses and other child-health professionals",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Detailed programme \"coming soon\"; check the official page."
+   ],
+   "contact": [
+    [
+     "Email",
+     "hpdc@aub.edu.lb",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/fm/CME/Events/Pages/Details.aspx?ItemId=301",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "The calendar lists 29–30 Jan 2027, but the description text still mentions 17–18 April 2026; confirm the date with HPDC.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-circl-find-right-problem-2026",
+   "cat": "community",
+   "title": "CIRCL Workshop: Find the Right Problem (uncovering people’s hidden needs)",
+   "org": "CIRCL, AUB Maroun Semaan Faculty of Engineering and Architecture",
+   "place": "Bechtel Design Hall (BDH), near Spill Café, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-27T12:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-27",
+   "when": "27 Oct 2026, 12:00–2:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: All majors welcome; no design background or previous workshops needed",
+     "University: Not stated (AUB workshop series)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Use the registration link on the official page."
+   ],
+   "contact": [
+    [
+     "Email",
+     "circl@aub.edu.lb",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/msfea/Events/Pages/Details.aspx?ItemId=674",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-food-commons-lecture-2026",
+   "cat": "community",
+   "title": "Guest Lecture: Food Commons as Social Food Infrastructure (Roxana Maria Triboi)",
+   "org": "AUB Maroun Semaan Faculty of Engineering and Architecture",
+   "place": "Online (Webex)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-27T12:30:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-27",
+   "when": "27 Oct 2026, 12:30–1:30 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (online guest lecture)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Karim Bacha",
+     "Published on the official page"
+    ],
+    [
+     "Email",
+     "kb49@aub.edu.lb",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/msfea/Events/Pages/Details.aspx?ItemId=672",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-polymers-seminar-2026",
+   "cat": "community",
+   "title": "MSFEA Seminar: Polymers (Dr. Elie Mahfoud, INDEVCO)",
+   "org": "AUB Maroun Semaan Faculty of Engineering and Architecture",
+   "place": "ARCH 106, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-11T17:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-11",
+   "when": "11 Nov 2026, 5:00–6:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research",
+    "careers"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Theresa Honein",
+     "Published on the official page"
+    ],
+    [
+     "Email",
+     "th72@aub.edu.lb",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/msfea/Events/Pages/Details.aspx?ItemId=659",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lau-career-fair-2027",
+   "cat": "career",
+   "title": "LAU Career Fair (spring)",
+   "org": "LAU Career Guidance / Office of Student Development and Enrollment",
+   "place": "LAU Byblos campus (2026 edition combined Beirut and Byblos; transport from Beirut provided)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated for students (employers pay $650 + VAT)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually spring (2025: 26–28 Mar; 2026: 15 Apr, 10 AM–3 PM) — 2027 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: LAU students and graduates",
+     "University: LAU",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Students",
+     "Not stated (no student fee mentioned)",
+     "ns"
+    ],
+    [
+     "Employer booth (one day)",
+     "$650 + VAT; NGO discount",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Watch the LAU Career Fair page for 2027 dates."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 786 456",
+     "Published on the official page"
+    ],
+    [
+     "Email",
+     "caroline.fawaz@lau.edu.lb",
+     "Published on the official page (Beirut)"
+    ],
+    [
+     "Email",
+     "rana.slaiby@lau.edu.lb",
+     "Published on the official page (Byblos)"
+    ]
+   ],
+   "url": "https://www.lau.edu.lb/employers/fair.php",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-usj-connect-career-summit-2027",
+   "cat": "career",
+   "title": "USJ Connect Career Summit (job fair)",
+   "org": "Université Saint-Joseph de Beyrouth – Career and Placement Office (SIP)",
+   "place": "2026 edition: AVA Venue, Achrafieh, Beirut (free transport from USJ campuses)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "2026 edition: 16 Feb 2026 (100+ companies, 200+ internships and jobs) — 2027 edition not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: USJ students and alumni (as described)",
+     "University: USJ",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch the USJ Connect page for the next edition; the Career Fair Plus app lists companies on the day."
+   ],
+   "contact": [],
+   "url": "https://www.usj.edu.lb/news.php?id=17721",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Formal entry rules are not stated in the article; earlier editions were held in November (2025) and February (2025, 2026).",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lau-education-stem-day-2027",
+   "cat": "community",
+   "title": "LAU Education STEM Day: Where Curiosity Meets Creativity (ages 6–18)",
+   "org": "LAU Department of Psychology and Education with STEM with Ahlam",
+   "place": "Irwin Theatre, LAU Beirut campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 15,
+   "feeText": "$15 per student in 2026 (snacks and materials; paid via OMT)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "2026 edition: Sat 31 Jan 2026, 8:30 AM–1:00 PM — 2027 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Elementary, middle and high school students aged 6–18",
+     "University: Schools / individual students (any)",
+     "Nationality/residency: Not stated",
+     "Age: 6–18",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "$15 per student in 2026 (snacks and materials; paid via OMT)",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Watch the LAU events calendar for the 2027 edition; in 2026 registration was by online form, closing about a week before."
+   ],
+   "contact": [
+    [
+     "Email",
+     "education.program@lau.edu.lb",
+     "Published on the official page (2026 edition)"
+    ]
+   ],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20260102_education-stem-day-where-curiosi",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Link is the 2026 edition; not described as annual.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lau-educational-open-day-2027",
+   "cat": "community",
+   "title": "LAU Educational Open Day (for teachers and education professionals)",
+   "org": "LAU with Antoine",
+   "place": "AKSOB, LAU Beirut campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "2026 edition: 7 Feb 2026, 8:30 AM–2:30 PM — 2027 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Education professionals at all levels",
+     "University: Open (not limited to LAU)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch the LAU events calendar for the 2027 edition; in 2026 registration was online via Antoine."
+   ],
+   "contact": [
+    [
+     "Email",
+     "prospection@antoineonline.com",
+     "Published on the official page (2026 edition)"
+    ],
+    [
+     "Phone",
+     "01 697 310 ext. 116",
+     "Published on the official page (2026 edition)"
+    ]
+   ],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20260202_educational-open-day-2026",
+   "confidence": "Low",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Link is the 2026 edition; not described as annual.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lau-high-school-math-contest-2027",
+   "cat": "community",
+   "title": "LAU annual High School Mathematics Contest (Grades 11–12)",
+   "org": "LAU Department of Computer Science & Mathematics and LAU Math Club",
+   "place": "Gezairi Building, LAU Beirut campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually April in two stages (2026: 5 and 26 Apr; registration closed 31 Mar) — 2027 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Teams of 3–4 in stage one (max two teams per school)",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Grade 11 and Grade 12 students",
+     "University: Schools (any)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Teams of 3–4; up to two teams per school"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Free",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "The school registers its team(s) through the online form before the deadline (2026: 31 Mar, 10:00 AM)."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20260401_high-school-mathematics-contest",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "prize": "Scholarships for future LAU Math majors: 30% (1st), 20% (2nd), 10% (3rd) (2026)",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lau-hacks-2027",
+   "cat": "hackathon",
+   "title": "LAU Hacks (one-day hackathon)",
+   "org": "LAU Engine with the LAU School of Medicine and School of Engineering",
+   "place": "Chagoury Auditorium, LAU Byblos campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "2026 edition: 16 Apr 2026, 9:00 AM–6:00 PM — 2027 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Not stated",
+   "tags": [
+    "hackathon",
+    "startups"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Students of all majors",
+     "University: Students from any university",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Not stated"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch the LAU events calendar; in 2026 registration was at engine.lau.edu.lb/apply."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20260327_lau-hacks",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "prize": "AI credits and other prizes; winners pitch in a Shark Tank-style setting (2026)",
+   "caveat": "Link is the 2026 edition; not described as annual.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lau-creative-writing-competition-2027",
+   "cat": "community",
+   "title": "LAU Annual Creative Writing Competition (15th edition expected)",
+   "org": "LAU Department of English and Creative Arts",
+   "place": "LAU (submissions by email); award ceremony at Irwin Hall, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually March–April submissions, May ceremony (2026: 12 Mar–7 Apr; ceremony 20 May) — 2027 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: LAU undergraduates, graduates and alumni",
+     "University: LAU only",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "2026 brief: one personal narrative of 1,000–1,500 words on a set theme"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch for the new theme; in 2026 entries were emailed to creativewritingcomp@lau.edu.lb."
+   ],
+   "contact": [
+    [
+     "Email",
+     "creativewritingcomp@lau.edu.lb",
+     "Published on the official page (2026 edition)"
+    ]
+   ],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20260312_14th-annual-creative-writing-com",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "prize": "Monetary prizes and certificates",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lau-capstone-innovation-fair-2027",
+   "cat": "community",
+   "title": "LAU Capstone Innovation Fair (computer science projects)",
+   "org": "LAU Department of Computer Science and Mathematics",
+   "place": "Irwin Hall, LAU Beirut campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "2026 edition: 13 May 2026, 1:00–5:00 PM — 2027 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research",
+    "careers"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (students present projects; visitors invited)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Dr. Mohamed Watfa",
+     "Published on the official page (2026 edition)"
+    ],
+    [
+     "Email",
+     "mohamed.watfa@lau.edu.lb",
+     "Published on the official page (2026 edition)"
+    ]
+   ],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20260402_capstone-innovation-fair-2026",
+   "confidence": "Low",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lau-engineering-scholarship-competition-2027",
+   "cat": "community",
+   "title": "LAU School of Engineering annual Scholarship Awards Competition (Grade 12)",
+   "org": "LAU School of Engineering",
+   "place": "LAU Byblos campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually late March (2026 edition on 28 Mar was cancelled) — 2027 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Grade 12 students in Lebanon",
+     "University: Applicants to an LAU engineering programme",
+     "Nationality/residency: Students in Lebanon",
+     "Age: Not stated",
+     "Team: Individual",
+     "Must submit an application to an LAU engineering programme"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply to an LAU engineering programme.",
+    "Register through the form on the calendar page before the deadline (2026: 18 Mar)."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20260220_lau-engineering-scholarship-awar-4",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "prize": "Scholarships of 10–20%, combinable with other LAU scholarships up to 70% of tuition (2026)",
+   "caveat": "The 2026 edition was cancelled; 2027 edition not yet announced.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lau-synopsys-olympiad-2027",
+   "cat": "community",
+   "title": "Synopsys Microelectronics Olympiad (Lebanon stage at LAU)",
+   "org": "LAU School of Engineering with Synopsys",
+   "place": "Chagoury Health Sciences Auditorium, LAU Byblos campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually early June (2026: 3 Jun, 9:30 AM–1:00 PM; register by 25 May) — 2027 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research",
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: University students",
+     "University: Universities across Lebanon",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual (exam)",
+     "Exam on IC design and test, semiconductor devices, EDA maths and algorithms"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register through the online form on the calendar page before the deadline.",
+    "Sit the one-hour exam on the day."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20260519_synopsys-microelectronics-olympi",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "prize": "2026: $2,000 / $1,000 / $500; winner sponsored to the international final at Synopsys Armenia; possible internships or jobs",
+   "caveat": "LAU hosted it for the third year in 2026; 2027 edition not announced.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-rhu-breast-cancer-event-2026",
+   "cat": "community",
+   "title": "RHU Breast Cancer Awareness Event",
+   "org": "Rafik Hariri University – Student Affairs Office",
+   "place": "RHU campus (courts and Main Theater), Meshref",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-27T08:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-27",
+   "when": "27 Oct 2026, 8:00 AM–4:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "volunteering"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check the official RHU events page or contact RHU (rhu.edu.lb/contact) for details."
+   ],
+   "contact": [],
+   "url": "https://www.rhu.edu.lb/media-room/events/breast-cancer-event-sao-campus-courts-main-theater",
+   "confidence": "Low",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Bare calendar listing: no description, audience, fee or registration details on the official page.",
+   "image": "https://www.rhu.edu.lb/images/ShareLogo.JPG",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-rhu-ai-engineering-roadmap-2026",
+   "cat": "community",
+   "title": "AI Engineering: Modern Roadmap (career talk)",
+   "org": "Rafik Hariri University – CO-OP office",
+   "place": "RHU (listed as \"MEA\")",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-27T11:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-27",
+   "when": "27 Oct 2026, 11:00 AM–12:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check the official RHU events page or contact RHU (rhu.edu.lb/contact) for details."
+   ],
+   "contact": [],
+   "url": "https://www.rhu.edu.lb/media-room/events/ai-engineering-modern-roadmapco-op-mea",
+   "confidence": "Low",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Bare calendar listing: no description, audience, fee or registration details on the official page.",
+   "image": "https://www.rhu.edu.lb/images/ShareLogo.JPG",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-rhu-cv-writing-workshop-2026",
+   "cat": "career",
+   "title": "CV Writing Workshop",
+   "org": "Rafik Hariri University",
+   "place": "RHU (listed as \"MEA\")",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-29T11:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-29",
+   "when": "29 Oct 2026, 11:00 AM–12:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check the official RHU events page or contact RHU (rhu.edu.lb/contact) for details."
+   ],
+   "contact": [],
+   "url": "https://www.rhu.edu.lb/media-room/events/cv-writing-workshop-mea",
+   "confidence": "Low",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Bare calendar listing: no description, audience, fee or registration details on the official page.",
+   "image": "https://www.rhu.edu.lb/images/ShareLogo.JPG",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-rhu-athletic-day-2027",
+   "cat": "community",
+   "title": "RHU Athletic Day",
+   "org": "Rafik Hariri University – Student Affairs Office",
+   "place": "RHU campus, Meshref",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2027-04-06T08:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2027-04-06",
+   "when": "6 Apr 2027, 8:00 AM–4:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check the official RHU events page or contact RHU (rhu.edu.lb/contact) for details."
+   ],
+   "contact": [],
+   "url": "https://www.rhu.edu.lb/media-room/events/athletic-day-sao-campus",
+   "confidence": "Low",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Bare calendar listing: no description, audience, fee or registration details on the official page.",
+   "image": "https://www.rhu.edu.lb/images/ShareLogo.JPG",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-rhu-physics-day-2027",
+   "cat": "community",
+   "title": "RHU Physics Day",
+   "org": "Rafik Hariri University – College of Arts and Sciences",
+   "place": "RHU campus, Meshref",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2027-04-15T08:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2027-04-15",
+   "when": "15 Apr 2027, 8:00 AM–4:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check the official RHU events page or contact RHU (rhu.edu.lb/contact) for details."
+   ],
+   "contact": [],
+   "url": "https://www.rhu.edu.lb/media-room/events/physics-day-cas-campus",
+   "confidence": "Low",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Bare calendar listing: no description, audience, fee or registration details on the official page.",
+   "image": "https://www.rhu.edu.lb/images/ShareLogo.JPG",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-rhu-adobe-championship-2027",
+   "cat": "community",
+   "title": "RHU Adobe Championship",
+   "org": "Rafik Hariri University – College of Arts and Sciences",
+   "place": "RHU (listed as \"MEA\")",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2027-04-17T08:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2027-04-17",
+   "when": "17 Apr 2027, 8:00 AM–3:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check the official RHU events page or contact RHU (rhu.edu.lb/contact) for details."
+   ],
+   "contact": [],
+   "url": "https://www.rhu.edu.lb/media-room/events/adobe-championship-cas-mea",
+   "confidence": "Low",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Bare calendar listing: no description, audience, fee or registration details on the official page.",
+   "image": "https://www.rhu.edu.lb/images/ShareLogo.JPG",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-stem-week-2026",
+   "cat": "community",
+   "title": "AUB STEM Week (STEM Fair open to the community, STEM Challenge, museum tours)",
+   "org": "American University of Beirut – all faculties",
+   "place": "AUB campus, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually early November (2025: 5–7 Nov) — 2026 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Community and school students (2025 STEM Fair \"open to the community\"; middle-school fair restricted to registered schools)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch the AUB events calendar for the 2026-27 edition; schools register in advance for the middle-school STEM Fair."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Dr. Rihab Nasr",
+     "Published on the AUB events calendar (previous edition)"
+    ],
+    [
+     "Email",
+     "rn03@aub.edu.lb",
+     "Published on the AUB events calendar (previous edition)"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=6802",
+   "confidence": "Low",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Link is the 2025 edition; a 2026 edition has not yet appeared on the calendar.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-choir-christmas-concert-2026",
+   "cat": "community",
+   "title": "AUB Choir Christmas Concert and Tree Lighting",
+   "org": "AUB Office of Events / AUB Choir",
+   "place": "Assembly Hall, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free entrance (2025)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually mid-December (2025: 15 and 16 Dec, 7:00 PM) — 2026 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: All are welcome",
+     "University: Open to everyone",
+     "Nationality/residency: Not stated (public concert)",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Free entrance (2025)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "No registration in 2025: free entrance, then carols and the tree lighting after the concert."
+   ],
+   "contact": [
+    [
+     "Email",
+     "events@aub.edu.lb",
+     "Published on the AUB events calendar (previous edition)"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7078",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-classical-music-club-recital-2026",
+   "cat": "community",
+   "title": "AUB Classical Music Club Recital (fall recital)",
+   "org": "AUB Classical Music Club",
+   "place": "Assembly Hall, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually mid-November (2025: 14th Classical Recital, 13 Nov, 7:30 PM) — 2026 date not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open invitation (\"Dear all\")",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Sarah Al Mallah (2025 organiser)",
+     "Published on the AUB events calendar (previous edition)"
+    ],
+    [
+     "Email",
+     "sia46@mail.aub.edu",
+     "Published on the AUB events calendar (previous edition)"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7031",
+   "confidence": "Low",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-fit-a-thon-2027",
+   "cat": "community",
+   "title": "AUB Fit-A-Thon",
+   "org": "AUB Health and Wellness Center",
+   "place": "West Hall, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "2026 edition: 25 Feb 2026, 10:00 AM–12:30 PM — 2027 date not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Email",
+     "wellness@aub.edu.lb",
+     "Published on the AUB events calendar (previous edition)"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7252",
+   "confidence": "Low",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Calendar entry has no description.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-chemcarnival-2027",
+   "cat": "community",
+   "title": "AUB ChemCarnival (chemistry outreach carnival for young people)",
+   "org": "AUB Department of Chemistry – TrEd team",
+   "place": "Durafourd student parking next to OSB, AUB (accessible from outside campus)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually late May (2026: 7th edition, Sat 23 May from 5:30 PM) — 2027 date not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public, especially children and young people",
+     "University: Open to everyone",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch the ChemCarnival page and AUB events calendar for the 2027 date."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Bilal Kaafarani",
+     "Published on the AUB events calendar (previous edition)"
+    ],
+    [
+     "Email",
+     "bk06@aub.edu.lb",
+     "Published on the AUB events calendar (previous edition)"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/ChemCarnival/Pages/default.aspx",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Described by AUB as the largest STEM event in Lebanon and the region; fee not stated.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/chemcarnival/wideImagesRotator/chemfestival26.jpg",
+    "https://www.aub.edu.lb/chemcarnival/wideImagesRotator/8-LavaCrush2-1.jpg",
+    "https://www.aub.edu.lb/chemcarnival/wideImagesRotator/8-LavaCrush2-4.jpg",
+    "https://www.aub.edu.lb/chemcarnival/wideImagesRotator/7-LavaCrush1-1.jpg",
+    "https://www.aub.edu.lb/chemcarnival/wideImagesRotator/4-Cloud-1.jpg",
+    "https://www.aub.edu.lb/chemcarnival/wideImagesRotator/img-1.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-anthropology-day-unessay-2027",
+   "cat": "community",
+   "title": "Anthropology Day Lebanon – UnEssay Competition (Grades 10–11)",
+   "org": "AUB Department of Sociology, Anthropology and Media Studies",
+   "place": "Online submission; ceremony at AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "2026 edition: submissions 19 Feb – 8 Mar 2026, ceremony 27 Mar — 2027 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research",
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Grade 10 and 11 students",
+     "University: Schools across Lebanon",
+     "Nationality/residency: Students in Lebanon",
+     "Age: Not stated",
+     "Team: Individual",
+     "Creative anthropological project (photo series, short film, artwork, comic, podcast, etc.) on the year’s theme"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch the official page for the 2027 theme; upload your project before the deadline."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Karin Takkouche",
+     "Published on the AUB events calendar (previous edition)"
+    ],
+    [
+     "Email",
+     "kt03@aub.edu.lb",
+     "Published on the AUB events calendar (previous edition)"
+    ]
+   ],
+   "url": "https://aub.edu.lb/fas/soam/Pages/Anthropology-Day-Lebanon-2026-Competition.aspx",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "prize": "Awards for winners; shortlisted students attend the ceremony",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-usek-icaih-2026",
+   "cat": "community",
+   "title": "ICAIH 2026: International Conference on Artificial Intelligence in Higher Education",
+   "org": "Holy Spirit University of Kaslik (USEK)",
+   "place": "USEK campus, Kaslik",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-05T09:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-05",
+   "when": "5–6 Nov 2026",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (academic conference with a call for papers)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register through the \"Register Now\" link on the conference site."
+   ],
+   "contact": [],
+   "url": "https://www.usek.edu.lb/icaih2026",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Academic conference; fees, student rates and eligibility not shown on the main page.",
+   "image": "https://www.usek.edu.lb/ContentFiles/61659Image1.jpg?v=202606221631",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-usek-maronite-liturgy-symposium-2026",
+   "cat": "community",
+   "title": "Symposium: A Jubilee Celebrating a Milestone in Maronite Liturgy",
+   "org": "USEK Institute of Liturgy, Faculty of Arts and Sciences",
+   "place": "John Paul II Amphitheater, USEK, Kaslik",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-03T10:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-03",
+   "when": "Tue 3 Nov 2026, 10:00 AM–12:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (academic and ecclesiastical communities)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "(+961) 9 600 000",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.usek.edu.lb/news/symposium-a-jubilee-celebrating-a-milestone-in-maronite-liturgy",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": "https://www.usek.edu.lb/ContentFiles/61968Image.jpg?v=202610191201",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lu-educational-research-conference-2026",
+   "cat": "community",
+   "title": "Conference: The Future of Educational Research in Lebanon – Challenges and Opportunities (مستقبل البحث التربوي في لبنان)",
+   "org": "Lebanese University – Center for Educational Studies and Research, Faculty of Education",
+   "place": "Deanship of the Faculty of Education, Tahwitat Furn el-Chebbak, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-30T09:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-30",
+   "when": "Fri 30 Oct 2026 (annual international conference)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (academic conference)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "See the programme linked on the official page."
+   ],
+   "contact": [],
+   "url": "https://ul.edu.lb/ar/node/6912",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Page in Arabic; start time, fee and registration not stated.",
+   "image": "https://ul.edu.lb/sites/default/files/2026-10/20261013-ULFPe-ConAn-WebsiteNewsCover.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://ul.edu.lb/themes/lebaneseuni/img/SDG.png"
    ],
    "galleryChecked": "2026-10-24"
   },
