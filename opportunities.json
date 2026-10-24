@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T14:49:31.570Z",
- "count": 2692,
+ "updated": "2026-10-24T15:08:57.955Z",
+ "count": 2704,
  "opportunities": [
   {
    "id": "hk-airwallex-agentic-banking",
@@ -13827,6 +13827,81 @@
     "https://ashkalalwan.org/uploads/1792496205-PHOTO-2026-10-20-14-37-14.jpg"
    ],
    "galleryChecked": "2026-10-24"
+  },
+  {
+   "travel": false,
+   "funded": "na",
+   "rolling": false,
+   "team": "Individual",
+   "verified": "2026-10-24",
+   "added": "2026-10-24",
+   "source": "bulk-sports",
+   "confidence": "High",
+   "id": "sp-bma-beirut-marathon-2026",
+   "cat": "running",
+   "title": "Beirut Marathon 2026 (marathon 42.2 km and half marathon)",
+   "org": "Beirut Marathon Association",
+   "place": "Central Beirut, Lebanon",
+   "feeUSD": 50,
+   "feeText": "Marathon $50 (2 Sep–10 Nov), $65 (11–20 Nov); half marathon $20–$30",
+   "deadline": "2026-11-20T23:59:00+02:00",
+   "eventDate": "2026-11-29T06:20:00+02:00",
+   "deadlineText": "Registration closes 20 Nov 2026",
+   "when": "Sun 29 Nov 2026, marathon and half start at about 6:20 AM (check the official schedule)",
+   "meet": "Start in central Beirut (see the official course map)",
+   "tags": [
+    "running"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: open to the public (no student requirement)",
+     "University: not required",
+     "Nationality/residency: no nationality rule stated; race held in Beirut",
+     "Age: minimum age per distance is set in the official race rules (not stated on the registration page)",
+     "Team: individual race",
+     "Fitness: a printed heart screening test is required to collect your bib"
+    ]
+   },
+   "money": [
+    [
+     "Marathon entry",
+     "$50 until 10 Nov, $65 from 11 to 20 Nov",
+     "info"
+    ],
+    [
+     "Half marathon entry",
+     "$20–$30 depending on date",
+     "info"
+    ],
+    [
+     "Included",
+     "Bib and timing tag, finisher shirt and medal, goody bag, finish certificate",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Register online on beirutmarathon.org before 20 Nov 2026",
+    "Bring a printed heart screening test to collect your bib (required)",
+    "Collect your bib at the race expo before race day"
+   ],
+   "contact": [
+    [
+     "WhatsApp/Mobile",
+     "+961 70 898 151 (Mon-Fri 9:00-17:00)",
+     "Published for registration help"
+    ],
+    [
+     "Email",
+     "registration@beirutmarathon.org",
+     "Published for registration help"
+    ]
+   ],
+   "url": "https://beirutmarathon.org/registration.php",
+   "caveat": "Prices from the official registration page; confirm the start time on the official schedule.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24"
   },
   {
    "id": "hk-launchpad-hacks",
@@ -90750,8 +90825,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-carrot-lead-product-",
@@ -90868,8 +90943,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-stockx-category-mana",
@@ -90927,8 +91002,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-gusto-inc-payment-op",
@@ -90986,8 +91061,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-cribl-customer-succe",
@@ -91045,8 +91120,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-beyondtrust-associat",
@@ -91104,8 +91179,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-oportun-sr-data-anal",
@@ -91163,8 +91238,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-oportun-senior-softw",
@@ -91517,8 +91592,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-checkr-strategic-acc",
@@ -91635,8 +91710,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-discord-qa-devops-en",
@@ -91694,8 +91769,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-discord-engineering-",
@@ -91753,8 +91828,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-storyblok-partner-ma",
@@ -91930,8 +92005,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-beyondtrust-enterpri",
@@ -91989,8 +92064,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-cadence-health-bilin",
@@ -92048,8 +92123,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-ping-identity-channe",
@@ -92107,8 +92182,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-pinterest-integrated",
@@ -92166,8 +92241,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-pinterest-brand-part",
@@ -92225,8 +92300,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-cadence-health-bilin",
@@ -92284,8 +92359,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-t-maxx-international",
@@ -92343,8 +92418,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://we-work-remotely.imgix.net/logos/0171/6621/logo.gif?ixlib=rails-4.0.0&fit=fill&w=200&h=200&bg=FFFFFF&pad=5"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-prospex-crm-senior-s",
@@ -92402,8 +92477,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://we-work-remotely.imgix.net/logos/0171/6634/logo.gif?ixlib=rails-4.0.0&fit=fill&w=200&h=200&bg=FFFFFF&pad=5"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-bullfinch-recruitmen",
@@ -92461,8 +92536,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-division50-sales-dev",
@@ -92579,8 +92654,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-mercury-creative-dir",
@@ -92638,8 +92713,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "job-ww-https-weworkremotely-com-remote-jobs-roblox-law-enforceme",
@@ -92697,8 +92772,8 @@
    "source": "jobs-feed",
    "imageChecked": "2026-10-24",
    "galleryChecked": "2026-10-24",
-   "logo": null,
-   "image": null
+   "logo": "https://weworkremotely.com/android-icon-192x192.png",
+   "image": "https://weworkremotely.com/assets/wwr-social-99bb25ef1fffe3494daa93d911e2dc4594c8fe59e7692e284cc7a22585470174.png"
   },
   {
    "id": "portfolio-night-beirut-2026",
@@ -92910,7 +92985,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "paintball",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI3MTY0Mzk0N2Q5OTkzNzBiLTYyMDE5NTc2XzIwNDUzOTIxNTU1ODcyNjNfNzE2OTkzMzA1ODY0NzI2MTE4NF9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/71643947d999370b-62019576_2045392155587263_7169933058647261184_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -92984,7 +93059,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "paintball",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxYTdhODNjMTRjYmNlNjFjLTY5NjU3MTIwXzMwMjM2OTIwNjQzNzAzOTZfNTA5NDA4ODcwNDkzNTMyOTc5Ml9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/1a7a83c14cbce61c-69657120_3023692064370396_5094088704935329792_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -93053,7 +93128,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "paintball",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIzNmM3NDg0ZTkwOTZlMjAxLTI4NDExNDEzOV82OTkwMjE2MjQ2NDMzMTRfNzk4MTg4NDI0MzYwMTIxMjc0OF9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/36c7484e9096e201-284114139_699021624643314_7981884243601212748_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -93122,7 +93197,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "paintball",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2YmEyMDJiZjYwOWMzMTY5LWZ1biZsZWlzdXJlLnN2ZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/3311b27f1dcc8ce6-14595619_10154666079443288_4177899163273393762_n.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -93211,7 +93286,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "paintball",
-   "image": null,
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/3d23a36c56837ccc-IMG_1370-scaled.jpg",
    "logo": "https://xtrem-paintball.com/wp-content/uploads/2023/02/cropped-cropped-fav-2-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -93290,7 +93365,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "karting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIwOTVkOGNlNjhkNDViZjIwLTI3OTExNzk5N18yNjg0OTAzOTA0OTg2NTI0XzI3NTg2MDQ3NTgwMDc1MjE1X24uanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/095d8ce68d45bf20-279117997_2684903904986524_27586047580075215_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -93364,7 +93439,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "karting",
-   "image": "https://i.vimeocdn.com/video/1672805141-1603c2a1358eb40ea99d6632372a06106173e57d3a8dadd8de601d806a72aeb7-d_1920x1080?r=pad",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/f0c2dca984f80fec-218027389_3880753185380030_4002970456732519862_n.jpg",
    "logo": "https://img1.wsimg.com/isteam/ip/55296652-932e-4a9c-844b-091ee4f574c4/GT-karting-club-logo-1.png/:/rs=w:180,h:180,m",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -93439,7 +93514,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "karting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2NDBlODU5N2JiNjY3ZTBkLTYyMTc4MzUxXzY4NDA4NDkzODY4OTk2MV80MjY0MTkxMjg2OTMzNzE2OTkyX24uanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/640e8597bb667e0d-62178351_684084938689961_4264191286933716992_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -93509,7 +93584,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "karting",
-   "image": null,
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/041a37e3a05f80da-12359853_1638419073075715_4175617471073327450_n.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -93576,7 +93651,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "karting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiNzE5N2ZjMGI0NTM4NDRkLTExMDMxMjI4N18xMzg0NjY1MTExNzI5MDc0XzI4MTY1MTIzMTYxMzgxMTkyX24uanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/b7197fc0b453844d-110312287_1384665111729074_28165123161381192_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -93651,7 +93726,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "karting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTc4YjE0Y2UzNDkwMDA2LTEyMTE5MTQ3NF8zMzY2MjY5Nzc2NzkxNjI2XzQ5OTc4MTQ3OTU4ODI3NzA4NDVfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/fe78b14ce3490006-121191474_3366269776791626_4997814795882770845_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -93732,7 +93807,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "karting",
-   "image": null,
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/4ea930e0d2c8685d-128142156_1463107523888201_5190963070864687126_n.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -93803,7 +93878,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "karting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxNzQwMDFhNTQ4OWRlMGY0LTY2NTA0M18zODIwMTYwODg1NDAzMTRfNjUwMTk5MDg0X28uanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/174001a5489de0f4-665043_382016088540314_650199084_o.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -93946,7 +94021,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "karting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjMmJkNWFjMzVkMzAyZGUwLTE5NDE3OTk4MV8zOTE3NDc5Njg1MDI4NzUxXzc2OTY3ODE5ODI0NDMyMDY5NjZfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/c2bd5ac35d302de0-194179981_3917479685028751_7696781982443206966_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -94015,7 +94090,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "laser tag",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1MDczMDFjZGEzMThmY2RjLWZ1biZsZWlzdXJlLnN2ZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/c6fcd1d60a9bdd4c-guilbert_extreme_tactical_laser_tag_arena.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -94100,7 +94175,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "laser tag",
-   "image": null,
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/e32983c61d2a6a70-256402583_1593728050961464_2794932693784943601_n.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -94162,7 +94237,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "laser tag",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1MGZjNmY3YmMwYjJlOTcwLWZkZTVkZGZhYzg4YjZhZDQzNjEzYTczOWYxZDdlNjY1LmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/50fc6f7bc0b2e970-fde5ddfac88b6ad43613a739f1d7e665.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -94231,7 +94306,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "laser tag",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI3MzliODA4NWUyYjY0M2EwLTczMGQ0MTg5MDc5Mzc4YTMzMzg5MWJjN2EwY2RlZjVhLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/739b8085e2b643a0-730d4189079378a333891bc7a0cdef5a.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -94304,7 +94379,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "escape room",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI3NTkyNjM1MTg2ZDhlZTI0LTE1MjY3NTU2XzEyNjQ4MDAxMzAyNTA1MjVfODYxNzY4OTYyMzg0NzE0NTA3MV9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/7592635186d8ee24-15267556_1264800130250525_8617689623847145071_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -94377,7 +94452,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "escape room",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJlZDdlNzFmMGEzMDYyMmU0LTI3ODk0OTU2Ml8yMjExMzE3NDIyMzU3MDMzXzEzNjAzNDE2NDQzMjAyOTMyNzhfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/ed7e71f0a30622e4-278949562_2211317422357033_1360341644320293278_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -94450,7 +94525,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "escape room",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI0Mzg0YzI3MTFjNjYwZGVkLTI2OTc2ODIzMl8zNzQ1OTg2Mjk4OTU5MTA4XzE3MjA2Njg1ODUxOTA3MTg1MzNfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/4384c2711c660ded-269768232_3745986298959108_1720668585190718533_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -94518,7 +94593,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "escape room",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjZTFjNzMyNGZjMWExZjA4LTEwOTc4OTM5NV8xNjU1OTM3NDM3OTA3OTc4XzY1NzQzMjMxMzI1NDc2MzM3NzFfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/ce1c7324fc1a1f08-109789395_1655937437907978_6574323132547633771_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -94591,7 +94666,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "escape room",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5YzdiYWFmMWQyMzE0OTY3LTgzMDMxNDk1XzI0ODgyMjgwMzE0NDA3OTNfNjA5NDc2ODYxNjkyNDc3NDQwX24uanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/9c7baaf1d2314967-83031495_2488228031440793_609476861692477440_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -94659,7 +94734,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "escape room",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiZTNjOTA1ODA1ZjEwZWNhLTI4MDY3MTY5MV8xOTc1NTE3OTkyNjUxMjIyXzU3OTMyODA2ODExODc0MTE0NDNfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/be3c905805f10eca-280671691_1975517992651222_5793280681187411443_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -94732,7 +94807,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "escape room",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4MTg2NzViYWUxYjFlMzk3LTg3MDg0MzU0XzUzNDEwNjAzNzIzODY4MF8yNjAzOTE5NTY3ODI2NzE0NjI0X24uanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/818675bae1b1e397-87084354_534106037238680_2603919567826714624_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -94806,7 +94881,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "escape room",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI3YTBiY2VjNDEwNzJiYzM3LTIxNzg1NjY5Ml85MzgxOTk4OTAwODA3NThfNTA0OTQ3NjU4NTk0NzY1ODQzM19uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/7a0bcec41072bc37-217856692_938199890080758_5049476585947658433_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -94874,7 +94949,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "escape room",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiZmRiM2FmYjU1YzBjZDlhLVNjcmVlblNob3QyMDIyLTA1LTE3YXQxMi4xMy4wMVBNLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/bfdb3afb55c0cd9a-ScreenShot2022-05-17at12.13.01PM.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -95008,7 +95083,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "trampoline",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjNGM0NTVlMjE3MDAyMGVjLWJlaXJ1dF9ib3VuY2UtMi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/c4c455e2170020ec-beirut_bounce-2.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -95088,7 +95163,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "karting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJhMzZlZWExZDQ4NjE2ZGQxLTIwMjItMDYtMjIuanBlZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/a36eea1d48616dd1-2022-06-22.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -95163,7 +95238,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "cycling",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI0MGU4NzJiOTFiZWYwMzFhLTE3NDQ1Mjc4NV8xMDk2MDY3MzEyNjYzNjBfMTAzNTg5MDczMzY0Nzc5MTYxOF9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/40e872b91bef031a-174452785_109606731266360_1035890733647791618_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -95238,7 +95313,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "cycling",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJlMjc4YzM1ZjJlZWZiNDcyLTEwMzEyNDQ1N18zNjUyNjM4NzcxNDQ5MjI1XzUxMjcwMDYwNDc3NjQ1NzM1NDBfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/e278c35f2eefb472-103124457_3652638771449225_5127006047764573540_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -95312,7 +95387,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "cycling",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1NjY4MzY4OWQ4Mjk4N2RjLUxlYmFub25fYnlfQmlrZV8wMzEuanBlZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/56683689d82987dc-Lebanon_by_Bike_031.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -95382,7 +95457,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "cycling",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJhY2FjMzI0YzNkMDAzMmIzLTM2NjIzNjc5XzE3NTE0ODMzODE1NjgyODdfNzEzOTgxOTcyNDM4MDA0NTMxMl9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/acac324c3d0032b3-36623679_1751483381568287_7139819724380045312_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -95451,7 +95526,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "cycling",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI3YTM5YmY2NzkyYzQ5M2ViLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xMcOgMTIuMDguMjUucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/7a39bf6792c493eb-Captured’écran2022-10-11à12.08.25.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -95521,7 +95596,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "cycling",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI0YWRhZThmYzk0OWIwZTIzLTEwNTg2NTgzOF8yNzA3NTE3MDQ5NDkyMjkyXzU5OTk3OTEyMzk1NzYxMTQ5NzNfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/4adae8fc949b0e23-105865838_2707517049492292_5999791239576114973_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -95596,7 +95671,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "cycling",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1YmRiOTU5NjYxMDU3MDBhLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xMcOgMTYuMjguMDkucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5bdb95966105700a-Captured’écran2022-10-11à16.28.09.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -95670,7 +95745,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "ATV",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJkMWE1NjMwYWVhZDViNTA0LTMxMDc5MTk5MV82MDI3OTgwMTgyNDIyODBfMzEwNjYzOTYzNjk4OTI4MjkzX24uanBlZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/d1a5630aead5b504-310791991_602798018242280_310663963698928293_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -95739,7 +95814,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "ATV",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjNjg4NzM4Zjk1YTY3MWRhLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xM8OgMTAuMjIuMjEucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/c688738f95a671da-Captured’écran2022-10-13à10.22.21.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -95803,7 +95878,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "ATV",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI0ZjNhYzk4NTY5YTZkN2YzLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xMcOgMDkuMjguMDMucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/4f3ac98569a6d7f3-Captured’écran2022-10-11à09.28.03.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -95867,7 +95942,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "ATV",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxZjJmMWU3OTIzNjRmZmQ3LUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xMcOgMDkuNTcuMjgucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/1f2f1e792364ffd7-Captured’écran2022-10-11à09.57.28.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -95952,7 +96027,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "ATV",
-   "image": "https://helmetson.odoo.com/web/image/product.product/107013/image_512?unique=db4ce27",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/10c92cf265ff7e7b-Captured’écran2022-10-07à16.17.02.png",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -96039,7 +96114,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "ATV",
-   "image": null,
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/ce21a089406185b5-Captured’écran2022-10-07à15.56.05.png",
    "logo": "https://proxridingclub.com/wp-content/uploads/2020/09/fav.png",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -96111,7 +96186,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "ATV",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5Y2RiYWM5Y2E4YjBhZDk3LTc1MzkyNjkwXzk3Mjc1MTc0NjM5NTEzOV83NTk2NDEwMzkxODc4NDM0ODE2X24uanBlZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/9cdbac9ca8b0ad97-75392690_972751746395139_7596410391878434816_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -96186,7 +96261,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "diving",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJlYTI0NGZhNDA0NGVhYTBiLTIxMjMxODI0XzE1MDk0MDM5NDI0NzE2ODNfNDk2MjUyNjIwMTQ5MzMwNDQyNl9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/ea244fa4044eaa0b-21231824_1509403942471683_4962526201493304426_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -96256,7 +96331,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "diving",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIwM2UxODM1NDBmYThiYTI2LTE1MDg0NjYzOF8yOTY4MjgwNDgwMDYwMTgwXzExNzYxNzk4MjU3Mjg1NTcxMF9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/03e183540fa8ba26-150846638_2968280480060180_117617982572855710_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -96331,7 +96406,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "diving",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4NzkxNGU1MmViNDI1ZTBhLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xMcOgMTMuNTYuNDYucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/87914e52eb425e0a-Captured’écran2022-10-11à13.56.46.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -96406,7 +96481,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "diving",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJkZDFkYmVkZGVkMmFlYWY2LUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xMcOgMTQuMjkuMTUucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/dd1dbedded2aeaf6-Captured’écran2022-10-11à14.29.15.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -96481,7 +96556,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "diving",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1ODZlZTZmYzk0NjA2YmVlLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xMcOgMTUuMzUuMDUucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/586ee6fc94606bee-Captured’écran2022-10-11à15.35.05.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -96566,7 +96641,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "diving",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJhMDdlNGMwNGY5NzY0OTBlLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xMsOgMDkuMzMuMTgucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/a07e4c04f976490e-Captured’écran2022-10-12à09.33.18.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -96651,7 +96726,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "diving",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJlMjViMGQzODZjYjI1YTBkLTI1MTcyNl8xOTY5MTc4MDM2ODcwODJfNDg4NjM0Nl9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/e25b0d386cb25a0d-251726_196917803687082_4886346_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -96731,7 +96806,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "diving",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2N2MwMGYxNGM2MDNiZTYzLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xMcOgMTYuMDIuNDcucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/67c00f14c603be63-Captured'écran2022-10-11à16.02.47.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -96806,7 +96881,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "diving",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyZWI5YjgyYTc5YjZlNWUwLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xMsOgMTAuMDcuMzEucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/2eb9b82a79b6e5e0-Captured’écran2022-10-12à10.07.31.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -96881,7 +96956,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "diving",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiMTFjNzk0ZmQ0Y2Y3ODg0LUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xM8OgMTMuNDYuNDMucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/b11c794fd4cf7884-Captured'écran2022-10-13à13.46.43.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -96956,7 +97031,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "diving",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiYjBlZDJlMTU4ZTY3Yzc2LTI4ODYyMTU4MF8xNzMyMzgyNjYwNDQ5MTk1XzEwMTc1Nzc1ODIwMTIyODI2NTZfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/bb0ed2e158e67c76-288621580_1732382660449195_1017577582012282656_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -97030,7 +97105,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "freediving",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1MjA2NDU0ZTIzNGU4ZTM3LUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xMcOgMTUuNDEuNTQucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5206454e234e8e37-Captured’écran2022-10-11à15.41.54.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -97099,7 +97174,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "waterski",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiZDU3YWFjMTI5ZGU5MjU5LUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0wN8OgMTQuMTEuNDUucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/bd57aac129de9259-Captured’écran2022-10-07à14.11.45.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -97168,7 +97243,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "surf",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyMTE1MWJkMzk5YzdjMmI4LTQ0ZWE2NWQ0OTc2Mzk2ODktMTU4ODU2NjI2XzM3NzkzMDI2OTg3OTA0NjBfNzQ5ODg3NzM5NTU5NzM0NjcyOF9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/21151bd399c7c2b8-44ea65d497639689-158856626_3779302698790460_7498877395597346728_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -97242,7 +97317,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "sailing",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2NTZlOWU5Y2Y2NjkyYWViLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0wN8OgMTIuNTcuMTUucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/656e9e9cf6692aeb-Captured’écran2022-10-07à12.57.15.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -97326,7 +97401,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "kitesurf",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIwZjAyZmEyYmNhYzI3MTQ4LUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0wN8OgMTMuMzEuNTYucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/0f02fa2bcac27148-Captured’écran2022-10-07à13.31.56.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -97400,7 +97475,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "surf",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyZmQ1NTIzMWM0YjA2OGFhLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0wN8OgMTEuNDIuMzUucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/2fd55231c4b068aa-Captured’écran2022-10-07à11.42.35.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -97469,7 +97544,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "surf",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2OTU3N2ExZGUwN2M4NDFmLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0wN8OgMTIuMDkuNDUucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/69577a1de07c841f-Captured'écran2022-10-07à12.09.45.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -97549,7 +97624,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "kayak",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyZmMzNGU0ZTMyMTlhOGEzLTI4OTYxNzM3NF8zMjc4NTUxOTk5MDU1NDU4Xzg5MTM0NDI5ODg2MzUzMTE1NTZfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/2fc34e4e3219a8a3-289617374_3278551999055458_8913442988635311556_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -97623,7 +97698,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "horse riding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJlYmViZjE2MzJmZmU0ZWNjLXA0MS5wbmciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/ebebf1632ffe4ecc-p41.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -97703,7 +97778,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "horse riding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI0M2FhMzIwNzE3OTliODI0LTI2OTAzNDgxN180ODk0MzIwMDgwNjI2NTExXzM4NzEzMDIwMTE5OTE0NzkxMTZfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/43aa32071799b824-269034817_4894320080626511_3871302011991479116_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -97777,7 +97852,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "horse riding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiZTI3MWZiMTM1MzRjMWRiLTI0NDY0Njk4MV8yNDI3MzY3NTY0MDYzODQxXzY5NTc1NDA5MTI3NTUzNzgwNF9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/be271fb13534c1db-244646981_2427367564063841_695754091275537804_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -97851,7 +97926,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "horse riding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyZjc0MGQwNWUyNTc5MWNhLTcwODQzMDM5XzI0NDI2Nzk5ODI2NzUzODRfMjExNTg1NTk4MTI3ODY1ODU2X24uanBlZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/2f740d05e25791ca-70843039_2442679982675384_211585598127865856_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -97920,7 +97995,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "horse riding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5MDQzMTlmOGIxNGFmNGUwLTI5OTgyODQzXzM5MDM0NzM5MTM3NjQ3Ml82NDgyMjg0MzE5NjY4MjAwODc5X28uanBlZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/904319f8b14af4e0-29982843_390347391376472_6482284319668200879_o.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -97995,7 +98070,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "horse riding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI3NTBlM2YwYzc1M2FiZjg0LTMwNjc2MDE0MV82MDY2ODk2NzQ0ODM2NDVfMjI4MDEyNDcwOTY3NjU1NTc1M19uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/750e3f0c753abf84-306760141_606689674483645_2280124709676555753_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -98064,7 +98139,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "horse riding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIwZGVkNmFhMjA5NWM4NTEwLTMwNTgwNTk2N181MDU5OTQ0OTQ4NzA2MDJfODQxMjUzMTE1NzY4MDM1NjIxOV9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/0ded6aa2095c8510-305805967_505994494870602_8412531157680356219_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -98138,7 +98213,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "horse riding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJhMDY3MGVmMWIyMzgwOWRlLTEzMTkxOTczM18zODY5OTgzMzg5NjgxMTM4XzUxMDQxNjQxMzIwMDI5NjQwNTJfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/a0670ef1b23809de-131919733_3869983389681138_5104164132002964052_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -98212,7 +98287,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "horse riding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1Y2U5NzExYzI5NWRkYjViLTMwMTc3NzUxOF80OTM1OTM2Mzk0NDExMjBfNjMzMzc3ODQwNDkzOTA0OTM5M19uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5ce9711c295ddb5b-301777518_493593639441120_6333778404939049393_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -98286,7 +98361,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "horse riding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2NTI2NGJkMDlmNzE5NGIxLTM2OTMwOTcwXzE4NDMxNjY2NTkxMTA4MThfNTM3NTc1NDIzMjE2NTA0MDEyOF9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/65264bd09f7194b1-36930970_1843166659110818_5375754232165040128_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -98360,7 +98435,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "horse riding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI0ZWU5OTlhZWI4MDhhMjQ1LUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xMsOgMTEuNDIuMzkucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/4ee999aeb808a245-Captured’écran2022-10-12à11.42.39.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -98434,7 +98509,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "horse riding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIzODBkYTdlMjg5YmE0MDRjLTExMTEwOTAxXzgyOTczMzkzMDQyOTU4Ml81NjcyNzcyOTAwNzA5NTAxOTU2X28uanBlZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/380da7e289ba404c-11110901_829733930429582_5672772900709501956_o.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -98508,7 +98583,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "horse riding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4ZDEzZmU5ZmQ2NDllYjVlLTMwNTc2NTE5OV81OTQ2NTQ4ODg3ODg0MDJfMTI1OTQxMDAzOTI4OTA0ODUzNl9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/8d13fe9fd649eb5e-305765199_594654888788402_1259410039289048536_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -98578,7 +98653,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "climbing",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5MmIwMDI0ODcwYTMzODg3LUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0wNsOgMTIuMTAuNTEucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/92b0024870a33887-Captured’écran2022-10-06à12.10.51.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -98653,7 +98728,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "climbing",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4NjhlZTQ2MTEyNjM5YmViLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0wNsOgMTEuNTguMzgucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/868ee46112639beb-Captured’écran2022-10-06à11.58.38.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -98803,7 +98878,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "climbing",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1MjJmNzI4ZGNhOGMxNTI3LTMxNDY0ODcyOF8zNTIyMDM2NDU4MDMyMzAzXzExODY5MTMxMTA0NDgyNzAyMjRfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/522f728dca8c1527-314648728_3522036458032303_1186913110448270224_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -98888,7 +98963,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "climbing",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIwYTlmMDJhMjVjZGUzNjA4LTI0LmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/0a9f02a25cde3608-24.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -98972,7 +99047,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "paragliding",
-   "image": null,
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/4081b5806587f5b8-Captured’écran2022-10-05à15.27.36.png",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -99044,7 +99119,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "paragliding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiZWY5MDhiNjA1ZDNjZTk3LUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xMcOgMTAuNTguNTMucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/bef908b605d3ce97-Captured’écran2022-10-11à10.58.53.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -99118,7 +99193,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "paragliding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1ZjVkMGY5YzJkN2RiNTQ3LTI4MTY2NjEyNV80MTQzNDk2MDA2OTUyMTlfMTk4ODg1ODIwMzIyMDM2ODg2OV9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5f5d0f9c2d7db547-281666125_414349600695219_1988858203220368869_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -99197,7 +99272,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "paragliding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJkNTQ3ZDA0MzIyODg5NzkxLTQtQ29weS5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/d547d04322889791-4-Copy.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -99277,7 +99352,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "paragliding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjMzY4OGJkNDU0MmJjMzQ0LTE5MTI1NzMxM18zNzQyNDk4NDE5MjEwMzQ1XzE0MjMwNzgyNzIwMjAyNzQ2NDFfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/c3688bd4542bc344-191257313_3742498419210345_1423078272020274641_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -99341,7 +99416,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "paragliding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIzYWU1Y2ZiYjUyYjE5OTIzLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0wNcOgMTUuNDYuMTYucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/3ae5cfbb52b19923-Captured’écran2022-10-05à15.46.16.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -99410,7 +99485,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "paragliding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxYTU2YmZkNWQ0MzQzNjEzLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0wNcOgMTQuMDYuNDEucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/1a56bfd5d4343613-Captured’écran2022-10-05à14.06.41.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -99484,7 +99559,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "paragliding",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI0ZDFjMTBmMTE0MDZkYzA3LTMwOTIyODQzMl8zMzI3MTYzMDUwODg4NjU5XzIxNzYwMjM3MjA1MTQzNzEyMzBfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/4d1c10f11406dc07-309228432_3327163050888659_2176023720514371230_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -99549,7 +99624,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "rafting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2Nzk4Mjg2MzBjOGMxZjhhLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0wNcOgMTEuMTkuMTIucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/679828630c8c1f8a-Captured’écran2022-10-05à11.19.12.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -99619,7 +99694,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "rafting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJhZGQ2MTgzYmViYjM2ZWVmLTMxNTc0OV8yNDc2Mzg0MjE5NDU1ODFfMTExMzc3MzY4Nl9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/add6183bebb36eef-315749_247638421945581_1113773686_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -99694,7 +99769,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "rafting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmYTc0YWQ4NmZiNDJhZDVjLTMwMTEzODk3Nl82MDc4MDk1Mjc3MTE3NTRfNTU0NzQ1OTQ4MDQ1NTQ1MTk4Ml9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/fa74ad86fb42ad5c-301138976_607809527711754_5547459480455451982_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -99759,7 +99834,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "rafting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyZjdkM2JhNzg3MDEyNDY1LTM3ODEyODkwXzIxMDQ3Nzc0Mzk3OTMzMzRfODkyMTczOTQxMjgyNDM5MTY4X24uanBlZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/2f7d3ba787012465-37812890_2104777439793334_892173941282439168_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -99844,7 +99919,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "rafting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyODhjYTcyZmU0YjM2NzdjLTY5NjM0OTg2XzI0ODg1Njc5MDgwMjk4ODlfMzUyNTUxMTMyMDY2NzQyMjcyMF9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/288ca72fe4b3677c-69634986_2488567908029889_3525511320667422720_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -99909,7 +99984,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "rafting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI0OGE4Yzg5MWYyYWZiNTA2LTEzNjU4OTkzXzkyNjAwODA1NzU0NTY5OF82MzA5MDYwOTI5ODI4NzE3MDU4X24uanBlZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/48a8c891f2afb506-13658993_926008057545698_6309060929828717058_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -99984,7 +100059,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "rafting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5MzY4NTE4YjM2OTA1ZWE2LTE4MzE1Mzk3Nl85NDY1MDY4NjkyMjYyODNfMzc2NDU1NTYwNDkxODYxOTgxMV9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/9368518b36905ea6-183153976_946506869226283_3764555604918619811_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -100059,7 +100134,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "hiking",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIwMTc3YjliNzc1Zjg5MDEzLTIwMTAwOTIyN18xNTkyOTg3NzU3NTY0ODI5XzI5MzA2OTk0NjE5MzQ5MzYxNjlfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/0177b9b775f89013-201009227_1592987757564829_2930699461934936169_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -100140,7 +100215,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "caving",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI0Y2E0ZGYwMTVmMDM2YmY1LUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMC0xM8OgMDkuMTguMzIucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/4ca4df015f036bf5-Captured’écran2022-10-13à09.18.32.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -100215,7 +100290,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyMzNkYmM3NWM2ZTVmZDNhLUJhdHJvdW5XaW5lczIuanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/233dbc75c6e5fd3a-BatrounWines2.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -100292,7 +100367,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIzZjM2M2NmMDFiZTFkMTFjLWNiX2JlaXJ1dF9jaGF0ZWF1YmVsbGV2dWVfcGdfZmluYWwuanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/3f363cf01be1d11c-cb_beirut_chateaubellevue_pg_final.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -100367,7 +100442,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIzNDkyOWEyNzk0NTIxMjAwLUNoYXRlYXUtU3QtVGhvbWFzLXZpbmVzLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/34929a2794521200-Chateau-St-Thomas-vines.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -100442,7 +100517,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxYjI3ODA3NmE0MTY1ZWYwLU1VU0FSLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/1b278076a4165ef0-MUSAR.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -100517,7 +100592,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyMzZjZDU3Njk2YzJiY2JlLTgwNDMxMjUxXzI5ODE5OTc3NTg0OTg1OTRfMTIwNjU0NzI4MDg1MzcyOTI4X24uanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/236cd57696c2bcbe-80431251_2981997758498594_120654728085372928_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -100594,7 +100669,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://levinsept.com/wp-content/uploads/2024/01/visit-us-banner-picture-e1705689458720.jpg",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/e75efb5669b027bd-Septwineryphoto.jpg",
    "logo": "https://levinsept.com/wp-content/uploads/2019/10/cropped-LOGO-192x192.jpg",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -100747,7 +100822,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxN2JmNDg0Y2Y0NzBlMTJhLUJPVFJZUy5wbmciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/17bf484cf470e12a-BOTRYS.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -100822,7 +100897,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "arak tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJkMjA4NjgxZjgzNWIzNWQ1LXVubmFtZWQuanBlZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/d208681f835b35d5-unnamed.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -100897,7 +100972,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxYTAyMWUzMzJkMGU1NzE2LW1hcnN5YXMxLTEuanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/1a021e332d0e5716-marsyas1-1.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -100972,7 +101047,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJkYWY4NTExYzdjMjY5ZTAyLTE3Njc5NDI5Ml8yMjk3OTQ2Njk3MDAzNzE1XzY4ODg4NDMwOTY1MTE3MDI0NTZfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/daf8511c7c269e02-176794292_2297946697003715_6888843096511702456_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -101047,7 +101122,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIzODgzODY5NjMwOTJiMmU0LTExOTgyNzM4MV82NTAzOTA1NzU2MTYxMjhfODc1MTg3MDE1NjgwMDQ0ODM4M19uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/388386963092b2e4-119827381_650390575616128_8751870156800448383_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -101123,7 +101198,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "arak tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjYmI3Zjk0OWViY2Q3MGI1LTI4NDEzNDgzOV80NDE1MDgxODEzMDc2NTFfMTcyNDQyOTMwMTUzMjQzMjEzNF9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/cbb7f949ebcd70b5-284134839_441508181307651_1724429301532432134_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -101199,7 +101274,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cavekouroum.com/wp-content/uploads/2024/02/discovery-light-1.webp",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/217ac7ac1e2e398d-183700778_3932371980182224_3274065393006784847_n.jpg",
    "logo": "https://cavekouroum.com/wp-content/uploads/2024/04/cave-kouroum-favivon-300x300.png",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -101279,7 +101354,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmYmI4NzEwN2UxMDgyODAzLTE2NzExNTc0Ml8zOTU5ODM3Mjc0MDkzNTM0XzM1MDM2NzY3NDI2OTA5OTk5NTdfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/fbb87107e1082803-167115742_3959837274093534_3503676742690999957_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -101355,7 +101430,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": null,
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/7d9611fe40578cfd-RedGrapeHarvest.JPG",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -101494,7 +101569,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI3ZWE5Nzc5MDUwYjMxNGVlLTI3Mjk5MDQwN180OTkxNTM1MzM3NTUxNTY3XzU4ODI0MDU0MDYzODQxNzQzNjJfbigxKS5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/7ea9779050b314ee-272990407_4991535337551567_5882405406384174362_n(1).jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -101569,7 +101644,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjY2UyMmYwZGZlY2VmYTIyLVNBTkNUVVMucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/cce22f0dfecefa22-SANCTUS.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -101639,7 +101714,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJhMWI0NjM4ZDA3N2VmYWE5LTEyMDA0MjU1OV85MTU4NjAwMDU2MDY4MDdfMzAxNDQ1ODI1OTMxNzg0NzE5NF9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/a1b4638d077efaa9-120042559_915860005606807_3014458259317847194_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -101714,7 +101789,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4NjJjZmQ1YmJiM2YwN2RlLTI3MDI5Nzk2MV8yOTY1MzYyMjc3MTI2NzkxXzgyNTU1NTY5NjAxNzkwOTc1NzFfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/862cfd5bbb3f07de-270297961_2965362277126791_8255556960179097571_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -101785,7 +101860,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "gin tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4ZGQ1MjY5YWVmZDdlZjdmLVNjcmVlblNob3QyMDI0LTA2LTEwYXQ1LjE4LjA5UE0ucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/8dd5269aefd7ef7f-ScreenShot2024-06-10at5.18.09PM.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -101860,7 +101935,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": null,
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/7cff1302c474e8ef-240104596_2966755820203297_6702605288656312734_n.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -102017,7 +102092,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": null,
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/8655ccd962072a79-aley-district-inside-the-chateau-cana-winery.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -102093,7 +102168,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiMTI5NjZmNjIyMzYzYWJkLTg3MDQyMTIzXzI2MjY5NjUzNzQwODI5NzBfNjAyMjUyODE0NzQ3NDM1MDA4MF9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/b12966f622363abd-87042123_2626965374082970_6022528147474350080_n.jpg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -102168,7 +102243,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxZDI3ZjBkMzJiYmY2M2Q3LUxlc1ZpZ25lc2R1TWFyamVwaG90by5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/1d27f0d32bbf63d7-LesVignesduMarjephoto.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -102243,7 +102318,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "chocolate making",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4NzdhMjBlZGJlMDM1Y2IxLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0wOS0wNcOgMTUuMDEuMzQucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/877a20edbe035cb1-Captured’écran2022-09-05à15.01.34.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -102313,7 +102388,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "wine tasting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJhYjdjZGUzYmY3NjFiMDgzLTI3MzAzNTA2MF80OTc2NTg5NTU1NzM0ODM3Xzc3OTYxNjE4OTUwNzc0NDY3Mjdfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/ab7cde3bf761b083-273035060_4976589555734837_7796161895077446727_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -102384,7 +102459,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "cooking",
-   "image": null,
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/c1e28225ed3696f6-Captured’écran2022-09-05à13.58.32.png",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -102451,7 +102526,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "arts and crafts",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiNzlmZmM0OGQ0NWNmMTljLTI3MzU2MzI4MV80ODE5OTcxNzY4MDg1NjgzXzgzNjU5MDM2NDU4ODk1Nzc5ODRfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/b79ffc48d45cf19c-273563281_4819971768085683_8365903645889577984_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -102521,7 +102596,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "painting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5MmI4ZmI0YTYyOTg2MGQxLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0wOS0wN8OgMDkuMzQuMDIucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/92b8fb4a629860d1-Captured’écran2022-09-07à09.34.02.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -102591,7 +102666,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "painting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyZDM3ZDE2ZGQxZDZmZWMwLTU1N2ZkNjVjODM3OTJlZGMtMTY2NTc3MzY1XzM3MzMyMDIwNjAwNjYyNDZfMzA4MjgxNDc4NDc5NjQwMjA5OF9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/2d37d16dd1d6fec0-557fd65c83792edc-166577365_3733202060066246_3082814784796402098_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -102660,7 +102735,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "painting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJhOGRmOTYwMDVlZjcyNmQyLTg2MzYzNzI0XzI5MzYxMDg0MDMxMDgzMzdfNjc2NTUwMzc4NTQxMTI4MDg5Nl9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/a8df96005ef726d2-86363724_2936108403108337_6765503785411280896_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -102736,7 +102811,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "flower arranging",
-   "image": null,
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/e5c8e7fb6ac7bdb1-196363666_2956071124654295_28507226810161239_n.jpeg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -102812,7 +102887,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "baking",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1ZWI2MTFmOGMzNTdkMTIxLTY2NDc4MjM4XzIxMjQwNDU1MTEwNTYxMzhfMzI3NTgwMzYwNTcwNTE2Mjc1Ml9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5eb611f8c357d121-66478238_2124045511056138_3275803605705162752_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -102882,7 +102957,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "arts and crafts",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJhYWYwMjM0MTRiNjE5ZTU2LUNhcHR1cmVk4oCZw6ljcmFuMjAyNC0wMy0yNcOgMTEuMDYuMzMucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/aaf023414b619e56-Captured’écran2024-03-25à11.06.33.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -102951,7 +103026,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "arts and crafts",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJlNDY1NDM1NzBhNTA3OTcwLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0wOS0wN8OgMDkuNTguMDQucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/e46543570a507970-Captured’écran2022-09-07à09.58.04.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -103021,7 +103096,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "painting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIzMjNlYjRlYzRhZDBiYmYwLTE2MzQxMzMxN18xNTI5NjU2OTkzOTA5NTY0XzcxOTQ2NTIxNjIzMDQwNDI0MDRfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/323eb4ec4ad0bbf0-163413317_1529656993909564_7194652162304042404_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -103096,7 +103171,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "painting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1NTlkZDMyMzMyM2Y1M2MzLTEyMjgwODk5N18zNTc2MjcxNzQ1Nzk4MDYzXzEwOTI5MDQ0NTM5OTM0OTA5NjRfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/559dd323323f53c3-122808997_3576271745798063_1092904453993490964_n.jpeg",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -103160,7 +103235,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "painting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4ZDRlYzEzMTc0NWU1NDhhLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMS0wMcOgMTAuNTUuMzEucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/8d4ec131745e548a-Captured’écran2022-11-01à10.55.31.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -103236,7 +103311,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "painting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJkZTZkZDU4ZTFmZjI5MTcwLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0wOS0wN8OgMTEuMDcuMDMucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/de6dd58e1ff29170-Captured’écran2022-09-07à11.07.03.png",
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -124584,7 +124659,7 @@
    "verified": "2026-10-22",
    "source": "bulk-conferences",
    "added": "2026-10-22",
-   "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sCLoVfqjOcTR9kXFm_sJMEpi4hOX2MNQ6w61i9dbe5R8ZWF7esl21-IL3qyCOeQAIrPck0usbmNPeTaZ1Hp7ZIj35BqMjexPhTsFpuU_iKw83bMtE1QNIqufmA02toTjg51bLoOWTF38wDMIQY4Kcg8Xjib1Q2VnGSWwbZYi6gupb88A0vzVXqlfd0hzo=w16383",
+   "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vAyNaB55ZcnkOT8q6altwEnZ8-uMiiPBT8-WsCCQOjxPHVgFZ0xMsMJsdgBqmxFYbJeQPidTClrq3r20TOrDNVhqFUoyoqWWTpjJwJNWdIOWy4TB2ZOHlLdG0tcVaDXxwSzra3UOgX5fXG_AubBJ914IRbxpK3TsSHbdMoC3dafruBPL0E8EecFWDzupM=w16383",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -125207,7 +125282,7 @@
    "verified": "2026-10-22",
    "source": "bulk-conferences",
    "added": "2026-10-22",
-   "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tQdgkmLz8OxY_iK0sYEaVavF3IYYZHtGm9D9R6texu_9UMrJw5PtDPNxmY5w-oAAipQW9R0hpvfGnS9AOfcvx1b_O5zkujFlzCsCDAPn3Wm73p4TH1Re4XtxjCU1fZmn2FxSgbBJFitpd57UMvclmU9KGkiPRzoLi-Q64L1tlfrA4bEca0iHyxt0HLxXk=w16383",
+   "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sa9fc3Ra8Tf6QBKFiNPcvc2muOqJ_bvQEBuhkZH1UAyFlPPZNUKzpdrrzX1LrGkXS_6y40LBsbTG90vH0Pzk_8F1jTAa5q01XTTlLXomyvCHl78JpLZzWVFDuVebfC7hRWs_doklevZEbWqaOGNyUR0cX_OPO4BWqadpdiHt9Pa7NvA7jFKpXeH6ZyRhs=w16383",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -136584,6 +136659,663 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "ev-lebanese-cinema-week-2026",
+   "cat": "community",
+   "art": "film",
+   "title": "Lebanese Cinema Week 2026 – free screenings of restored Lebanese films in 9 venues (2nd edition)",
+   "org": "Ministry of Culture and Cinémathèque Libanaise",
+   "place": "Beirut (Metropolis Cinema, National Library, Sursock Museum), Fraike (Oakura), Barouk (Farmville), Saida (Ishbilia Theatre, Maarouf Saad Center), Amioun (CLAC), Tripoli (Marsah)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": null,
+   "eventDate": "2026-10-26T18:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No registration deadline (public event)",
+   "when": "Mon 26 – Fri 30 Oct 2026, evening screenings (6:00–8:00 pm starts depending on venue)",
+   "meet": "Beirut (Metropolis Cinema, National Library, Sursock Museum), Fraike (Oakura), Barouk (Farmville), Saida (Ishbilia Theatre, Maarouf Saad Center), Amioun (CLAC), Tripoli (Marsah)",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "eventEnd": "2026-10-30T22:00:00+02:00",
+   "summary": "Free nationwide screenings: Jocelyne Saab's The Razor's Edge (1985), Ghassan Salhab's Beyrouth Fantôme (1998), The Lebanese Rocket Society (2012), Ahmad Ghossein's All This Victory (2019) and Ely Dagher's The Sea Ahead (2021).",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; held in Lebanon",
+     "Age: Not stated",
+     "Team: Individual attendance"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Free of charge to the public",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Pick a screening from the day-by-day programme (Beirut.com lists all times and venues).",
+    "Go to the venue before the start time; entry is free."
+   ],
+   "contact": [],
+   "url": "https://www.beirut.com/en/784375/lebanese-cinema-week-is-back-have-you-seen-the-full-program/",
+   "image": "https://www.beirut.com/wp-content/uploads/2024/12/metropolis-cinema-lebanon.jpg",
+   "confidence": "Medium",
+   "caveat": "Programme taken from Beirut.com (21 Oct 2026); no official Ministry of Culture page was found. Seat reservation rules not stated.",
+   "verified": "2026-10-24",
+   "source": "bulk-events-now",
+   "added": "2026-10-24",
+   "festival": true,
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ev-horeca-lebanon-2026",
+   "cat": "career",
+   "title": "HORECA Lebanon 2026 – hospitality and food-service trade show (30th edition)",
+   "org": "Hospitality Services",
+   "place": "Seaside Arena, Beirut Waterfront",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated (visitor e-badge registration)",
+   "deadline": null,
+   "eventDate": "2026-11-10T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "Register for an e-badge before visiting",
+   "when": "Tue 10 – Fri 13 Nov 2026 (postponed from April)",
+   "meet": "Seaside Arena, Beirut Waterfront",
+   "team": "Open attendance",
+   "tags": [
+    "careers"
+   ],
+   "eventEnd": "2026-11-13T20:00:00+02:00",
+   "summary": "400+ exhibitors on 13,000 sqm, daily talks, Salon Culinaire, junior chef, barista, latte art and bartender competitions.",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Hospitality and food-service professionals (trade show)",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; held in Lebanon",
+     "Age: Not stated",
+     "Team: Individual attendance"
+    ]
+   },
+   "money": [
+    [
+     "Visitor badge",
+     "Register online for an e-badge; price not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register on the HORECA Lebanon website to get your visitor e-badge.",
+    "Bring the e-badge to the Seaside Arena during show days."
+   ],
+   "contact": [],
+   "url": "https://www.horecashow.com/horeca-lebanon/home",
+   "image": "https://www.horecashow.com/ContentFiles/549BannerImage.png?w=1200&h=630&mode=crop",
+   "confidence": "High",
+   "caveat": "Aimed at professionals (one listing calls it trade-only); whether students or the general public can enter is not stated on the official page. Daily opening hours not checked.",
+   "verified": "2026-10-24",
+   "source": "bulk-events-now",
+   "added": "2026-10-24",
+   "logo": "https://www.horecashow.com/images/favicon.ico",
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ev-dream-park-halloween-2026",
+   "cat": "community",
+   "art": "kids",
+   "show": true,
+   "title": "Halloween at Dream Park – witches, magic shows and parades for kids (two Sundays)",
+   "org": "Dream Park",
+   "place": "Dream Park, Jeita Road, Zouk Mosbeh",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 5,
+   "feeText": "$5 per child (rides and food extra)",
+   "deadline": null,
+   "eventDate": "2026-10-25T15:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No registration deadline (public event)",
+   "when": "Sun 25 Oct and Sun 1 Nov 2026, 3:00–6:00 pm",
+   "meet": "Dream Park, Jeita Road, Zouk Mosbeh",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "eventEnd": "2026-11-01T18:00:00+02:00",
+   "summary": "Witches, magic shows, clowns, jugglers, stilt walkers, Halloween parades and a live DJ; costumes encouraged.",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; held in Lebanon",
+     "Age: Kids and families (free under 1 year)",
+     "Team: Individual attendance"
+    ]
+   },
+   "money": [
+    [
+     "Entry per child",
+     "$5",
+     "info"
+    ],
+    [
+     "Toddlers under 1",
+     "Free",
+     "yes"
+    ],
+    [
+     "Rides and food",
+     "Not included; prices not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Buy tickets at the park entrance; no advance reservation needed."
+   ],
+   "contact": [],
+   "url": "https://platinumlist.net/guide/dream-park-halloween-event-beirut/",
+   "image": "https://platinumlist.net/guide/wp-content/uploads/2026/10/Pumpkin-Headed-Carnival-Performer.jpg",
+   "confidence": "Medium",
+   "caveat": "Details from the Platinumlist guide (22 Oct 2026); Dream Park's own announcement was not checked.",
+   "verified": "2026-10-24",
+   "source": "bulk-events-now",
+   "added": "2026-10-24",
+   "logo": null,
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ev-hocus-pocus-2-tilt33",
+   "cat": "community",
+   "art": "music",
+   "show": true,
+   "title": "Hocus Pocus Chapter II – Halloween rock and metal night (Dusk, SaneSirens, Failure to See)",
+   "org": "Tilt 33",
+   "place": "Tilt 33, Hamra, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-30T20:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No registration deadline (public event)",
+   "when": "Fri 30 Oct 2026; doors 8:00 pm",
+   "meet": "Tilt 33, Hamra, Beirut",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "summary": "Three Lebanese bands plus a best-costume competition, make-up, tattoos and merch.",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; held in Lebanon",
+     "Age: Not stated",
+     "Team: Individual attendance"
+    ]
+   },
+   "money": [
+    [
+     "Ticket",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check the Platinumlist guide and the venue for tickets."
+   ],
+   "contact": [],
+   "url": "https://platinumlist.net/guide/hocus-pocus-chapter-halloween-rock-night-in-beirut-this-october/",
+   "image": "https://platinumlist.net/guide/wp-content/uploads/2026/10/Sane-Sirens.jpg",
+   "confidence": "Medium",
+   "caveat": "Ticket price and seller not stated in the guide.",
+   "verified": "2026-10-24",
+   "source": "bulk-events-now",
+   "added": "2026-10-24",
+   "logo": null,
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ev-centro-beauty-exhibition-2026",
+   "cat": "community",
+   "art": "other",
+   "title": "Centro Beauty Exhibition 2026 (2nd edition) – beauty brands, consultations and giveaways",
+   "org": "Centro Mall",
+   "place": "Ground floor, Centro Mall, Jnah, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free for Centro Loyalty Card holders (card is free)",
+   "deadline": null,
+   "eventDate": "2026-10-23T13:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No registration deadline (public event)",
+   "when": "Fri 23 – Sun 25 Oct 2026, daily 1:00–9:00 pm",
+   "meet": "Ground floor, Centro Mall, Jnah, Beirut",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "eventEnd": "2026-10-25T21:00:00+02:00",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; held in Lebanon",
+     "Age: Not stated",
+     "Team: Individual attendance"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Free with a Centro Loyalty Card; the card is free (text CENTROBEAUTY2026 to 03 092 444)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Get a free Centro Loyalty Card by texting CENTROBEAUTY2026 to 03 092 444.",
+    "Visit the ground floor of Centro Mall during opening hours."
+   ],
+   "contact": [
+    [
+     "SMS",
+     "03 092 444",
+     "Published in the guide for the free loyalty card"
+    ]
+   ],
+   "url": "https://platinumlist.net/guide/centro-beauty-exhibition-beirut/",
+   "image": "https://platinumlist.net/guide/wp-content/uploads/2026/10/girl-makeup-by-Confi-Cosmetics.jpg",
+   "confidence": "Medium",
+   "verified": "2026-10-24",
+   "source": "bulk-events-now",
+   "added": "2026-10-24",
+   "logo": null,
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ev-sesobel-golden-jubilee-gala",
+   "cat": "community",
+   "art": "other",
+   "title": "SESOBEL Golden Jubilee gala dinner (50 years) at Casino du Liban",
+   "org": "SESOBEL",
+   "place": "Casino du Liban, Jounieh",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-03T20:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No registration deadline (public event)",
+   "when": "Tue 3 Nov 2026 (time not stated)",
+   "meet": "Casino du Liban, Jounieh",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "summary": "Fundraising gala for SESOBEL's 50th anniversary, supporting children with disabilities in Lebanon.",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; held in Lebanon",
+     "Age: Not stated",
+     "Team: Individual attendance"
+    ]
+   },
+   "money": [
+    [
+     "Gala ticket",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Buy tickets by phone, WhatsApp, email or Whish (Sesobel, Gala Dinner)."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "09 235 435",
+     "Published for ticket sales"
+    ],
+    [
+     "WhatsApp",
+     "81 535 476",
+     "Published for ticket sales"
+    ],
+    [
+     "Email",
+     "sf-activities@sesobel.org",
+     "Published for ticket sales"
+    ]
+   ],
+   "url": "https://agendaculturel.com/articles/sesobel-jubile-dor-au-casino-du-liban-diner-de-gala-3-novembre-2026",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvODNiYTcxOTdlMDY2NmY3Mzk5ODkyNWZkMDFjNGEyZmUzMjM5OTc3OTYxZWE1YzdkLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjEyODAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sInNoYXJwZW4iOnRydWV9fQ==",
+   "confidence": "Medium",
+   "caveat": "From an Agenda Culturel article (15 Oct 2026); start time and ticket price not stated. The eventDate time is a placeholder for the evening.",
+   "verified": "2026-10-24",
+   "source": "bulk-events-now",
+   "added": "2026-10-24",
+   "logo": "https://agendaculturel.com/apple-touch-icon.png",
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ev-frat-tint-lobby-halloween",
+   "cat": "community",
+   "art": "music",
+   "show": true,
+   "title": "FRAT at Tint Lobby – Halloween edition (KADE)",
+   "org": "Tint Lobby",
+   "place": "Tint Lobby, Zouk Mosbeh",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-30T21:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "Reserve before the night (subject to availability)",
+   "when": "Fri 30 Oct 2026, 9:00 pm – 3:00 am",
+   "meet": "Tint Lobby, Zouk Mosbeh",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; held in Lebanon",
+     "Age: 19+",
+     "Team: Individual attendance"
+    ]
+   },
+   "money": [
+    [
+     "Ticket",
+     "Not stated on the listing",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the event page on AS Ticketing Hub and tap \"Reserve on WhatsApp\", or use the organiser contact shown."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "76 636 360",
+     "Published on the listing for lounge reservations"
+    ],
+    [
+     "WhatsApp",
+     "+961 76 123 923",
+     "AS Ticketing Hub reservations line, shown on the event page"
+    ]
+   ],
+   "url": "https://ticketing.as.com.lb/events/frat-at-tint-lobby-haloween-edition",
+   "image": "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2FtVGL3RkEpF1VuHvIvjMJ%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=21fe517d-d204-433f-afb0-f9a0bd5bc089",
+   "confidence": "High",
+   "caveat": "Ticket price not shown on the AS Ticketing Hub listing.",
+   "verified": "2026-10-24",
+   "source": "bulk-events-now",
+   "added": "2026-10-24",
+   "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ev-flip-phone-era-halloween",
+   "cat": "community",
+   "art": "music",
+   "show": true,
+   "title": "Flip Phone Era: Back to School – Halloween party (school-uniform theme)",
+   "org": "Flip Phone Era",
+   "place": "Lobby, The Ballroom Blitz, Karantina",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-30T22:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "Reserve before the night (subject to availability)",
+   "when": "Fri 30 Oct 2026, 10:00 pm – 4:00 am",
+   "meet": "Lobby, The Ballroom Blitz, Karantina",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; held in Lebanon",
+     "Age: Not stated",
+     "Team: Individual attendance"
+    ]
+   },
+   "money": [
+    [
+     "Ticket",
+     "Not stated on the listing",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the event page on AS Ticketing Hub and tap \"Reserve on WhatsApp\", or use the organiser contact shown."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 76 123 923",
+     "AS Ticketing Hub reservations line, shown on the event page"
+    ]
+   ],
+   "url": "https://ticketing.as.com.lb/events/flip-phone-era-back-to-school",
+   "image": "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2F4ZJlKFSC15TSrmJcY4rq%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=0c470700-e32c-474f-8f10-238c3e5723de",
+   "confidence": "High",
+   "caveat": "Ticket price not shown on the AS Ticketing Hub listing.",
+   "verified": "2026-10-24",
+   "source": "bulk-events-now",
+   "added": "2026-10-24",
+   "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ev-after-hours-sousol-halloween",
+   "cat": "community",
+   "art": "music",
+   "show": true,
+   "title": "After Hours: Halloween Edition at Sousol Badaro",
+   "org": "Sousol",
+   "place": "Sousol, Badaro, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-31T21:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "Reserve before the night (subject to availability)",
+   "when": "Sat 31 Oct 2026, 9:00 pm till late (Mikel, Theodore, Rayhad; +1 drink)",
+   "meet": "Sousol, Badaro, Beirut",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; held in Lebanon",
+     "Age: Not stated",
+     "Team: Individual attendance"
+    ]
+   },
+   "money": [
+    [
+     "Ticket",
+     "Not stated on the listing",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the event page on AS Ticketing Hub and tap \"Reserve on WhatsApp\", or use the organiser contact shown."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 70 322 409",
+     "Published on the listing for tables and info"
+    ],
+    [
+     "WhatsApp",
+     "+961 76 123 923",
+     "AS Ticketing Hub reservations line, shown on the event page"
+    ]
+   ],
+   "url": "https://ticketing.as.com.lb/events/after-hours",
+   "image": "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2FvwXbcAQwmoFhufZjoaQK%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=d19a2aa8-2241-4c02-9246-1b3a46b03028",
+   "confidence": "High",
+   "caveat": "Ticket price not shown on the AS Ticketing Hub listing.",
+   "verified": "2026-10-24",
+   "source": "bulk-events-now",
+   "added": "2026-10-24",
+   "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ev-se7er-se7er-ked-halloween",
+   "cat": "community",
+   "art": "music",
+   "show": true,
+   "title": "Se7er Se7er – Club Heshik Beshik Halloween edition (Mini Studio nostalgia)",
+   "org": "Club Heshik Beshik",
+   "place": "KED Beirut, Jisr El Wati",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-24T22:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "Reserve before the night (subject to availability)",
+   "when": "Sat 24 Oct 2026, 10:00 pm – 4:00 am (Magz, Mr. Sychotic, Lary W)",
+   "meet": "KED Beirut, Jisr El Wati",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; held in Lebanon",
+     "Age: Not stated",
+     "Team: Individual attendance"
+    ]
+   },
+   "money": [
+    [
+     "Ticket",
+     "Not stated on the listing",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the event page on AS Ticketing Hub and tap \"Reserve on WhatsApp\", or use the organiser contact shown."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 76 123 923",
+     "AS Ticketing Hub reservations line, shown on the event page"
+    ]
+   ],
+   "url": "https://ticketing.as.com.lb/events/se7er-se7er-chb-halloween-edition",
+   "image": "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2FaxlG8S7BRrHvzh65Nj4f%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=797d4246-4aab-42c2-91ee-0ff567b03a67",
+   "confidence": "High",
+   "caveat": "Ticket price not shown on the AS Ticketing Hub listing.",
+   "verified": "2026-10-24",
+   "source": "bulk-events-now",
+   "added": "2026-10-24",
+   "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ev-nations-festival-beirut-2026",
+   "cat": "community",
+   "art": "other",
+   "title": "Nations Festival in Beirut | مهرجان الأمم في بيروت (Nations Day Festival)",
+   "org": "Nations Day Festival (@nationsday_festival)",
+   "place": "Beirut (venue not confirmed on public pages)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No registration mentioned",
+   "when": "Reported as happening in late October 2026; exact dates and hours not confirmed on any public page",
+   "meet": "Beirut (venue not confirmed on public pages)",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "summary": "Annual festival where countries present their culture, food and crafts at national stands. The owner's screenshot shows about 15 countries (India among them) and tags Lebanon's Ministry of Tourism and Ministry of Foreign Affairs; not independently confirmed. Past editions (organised by the Beirut Golden Awards association) were held at Zaitunay Bay, Beirut Souks and Samir Kassir Garden.",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; held in Lebanon",
+     "Age: Not stated",
+     "Team: Individual attendance"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check the festival's Instagram (@nationsday_festival) for this year's dates, venue and hours before going."
+   ],
+   "contact": [],
+   "url": "https://www.instagram.com/nationsday_festival/",
+   "confidence": "Medium",
+   "caveat": "Only lead: an owner-supplied TikTok/Instagram post. No news, ministry or listing page confirmed the 2026 dates, venue, hours, fee or organiser. A 23 Oct 2026 news agenda (almarsad.co) mentions a separate \"Nations Day\" (يوم الأمم) hosted by several embassies at the Yunus Emre Turkish Cultural Center in Beirut, without dates. Previous editions: 9th edition in Samir Kassir Garden, Beirut (Polish embassy post, Nov 2025), 2021 in Downtown (29 Oct), 2022 at Beirut Souks.",
+   "verified": "2026-10-24",
+   "source": "bulk-events-now",
+   "added": "2026-10-24",
+   "festival": true,
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24"
+  },
+  {
    "id": "ex-mcat-2027-lebanon",
    "cat": "exchange",
    "title": "MCAT 2027 – test dates in Lebanon (Jan–Jun 2027)",
@@ -137864,7 +138596,7 @@
    "source": "bulk-festivals",
    "added": "2026-10-24",
    "festival": true,
-   "image": null,
+   "image": "https://today.lorientlejour.com/assets/images/english-social-share-image.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -139355,7 +140087,7 @@
    "source": "bulk-festivals",
    "added": "2026-10-24",
    "festival": true,
-   "image": null,
+   "image": "https://s.lorientlejour.com/storage/attachments/1474/127a2080-9683-49c4-b938-117c00d2e666_970339.jpg/r/800/127a2080-9683-49c4-b938-117c00d2e666_970339.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -156616,7 +157348,7 @@
    "verified": "2026-10-22",
    "source": "bulk-scholarships",
    "added": "2026-10-22",
-   "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t-wAwsh8RyklFfAdXxejm8CRMcLgkEwHtPwVIU81XkW6x5DmFqemImMN8ihGlvA15RGxHlrux7vB9qJnQpSlwm8cReRlPsiIGZofYxHNtNd_pymWBDdNf4L87mSWJ_cm0CWZPGDuyAwXlES5AKMh1y4mL9W3c-gI6Y3vGTvoeqObPJwMvXWcBwesWMEik=w16383",
+   "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sB6_41dPHB9-GlKaNS4S29VRBadsC2G7Jaa2RpZt2rx-JAkF8mbXwkzFxCpyOCJ_3vUtnYU6nn57Lg4el2R7BNu_SEsWDhcHTzeCm08opZCJwj4yy-HBK6G9dMV53_l7Rx1aJ8PVmANGgbyh9-GOJ4rSXhJilDVwOSTSGLiR8505NIHuLKaGN_Lgrp2fs=w16383",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
@@ -170928,7 +171660,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/4627/aqaba-jordan",
-   "image": "https://kms.nakhal.com/Images/675x352xo/AQABA1261008033709250~.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/aqaba%20main2261008033653487~.jpg",
    "confidence": "Medium",
    "caveat": "Nakhal's detail page shows only a starting price; the room-type price table and inclusions list are not shown, so confirm what the price covers (flights, hotel category, meals) when booking.",
    "verified": "2026-10-24",
@@ -171031,7 +171763,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/1663/sharm-el-sheikh-packages",
-   "image": "https://kms.nakhal.com/Images/675x352xo/sharm copy250424015827230~.png",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/sharm%20main%201251111012154602~.jpg",
    "confidence": "Medium",
    "caveat": "Nakhal's detail page shows only a starting price; the room-type price table and inclusions list are not shown, so confirm what the price covers (flights, hotel category, meals) when booking. Page also mentions a family offer (4+ nights) and a honeymoon offer (bride flies free, 7+ nights).",
    "verified": "2026-10-24",
@@ -171133,7 +171865,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/4480/tbilisi-christmas-new-year-escorted-tour",
-   "image": "https://kms.nakhal.com/Images/675x352xo/tbilisi 2251027112818586~.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/tbilisis-old-town-and-the-bridge-of-peace-in-winter251027010530858~.jpg",
    "confidence": "High",
    "caveat": "Services taken from the day-by-day itinerary; no formal inclusions list or room-type prices on the page.",
    "verified": "2026-10-24",
@@ -171424,7 +172156,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/1852/istanbul-short-break",
-   "image": "https://kms.nakhal.com/Images/675x352xo/181011020008493~Untitled-3.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/istanbul%201250110080726890~.jpg",
    "confidence": "Medium",
    "caveat": "Nakhal's detail page shows only a starting price; the room-type price table and inclusions list are not shown, so confirm what the price covers (flights, hotel category, meals) when booking.",
    "verified": "2026-10-24",
@@ -171521,7 +172253,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/108/srilanka-7-nights",
-   "image": "https://kms.nakhal.com/Images/675x352xo/sri lanka250411035855481~.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/sri%20lanka%20main250411040053548~.jpg",
    "confidence": "Medium",
    "caveat": "Nakhal's detail page shows only a starting price; the room-type price table and inclusions list are not shown, so confirm what the price covers (flights, hotel category, meals) when booking.",
    "verified": "2026-10-24",
@@ -171623,7 +172355,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/4565/spanish-super-cup-final-in-istanbul",
-   "image": "https://kms.nakhal.com/Images/675x352xo/stadium260822094713483~.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/spanish%20cup%20pic260905124600600~.jpg",
    "confidence": "High",
    "verified": "2026-10-24",
    "source": "bulk-travel",
@@ -171719,7 +172451,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/4615/celine-dion-concert-in-paris",
-   "image": "https://kms.nakhal.com/Images/675x352xo/celine 1 copy260416124655448_261001025451630~.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/CELINE%201261001025350536~.jpg",
    "confidence": "High",
    "caveat": "Concert ticket is NOT included; buy separately.",
    "verified": "2026-10-24",
@@ -171919,7 +172651,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/91/club-med-tignes",
-   "image": "https://kms.nakhal.com/Images/675x352xo/TIGC_L222_004 copy260825011124966~.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/tignes%20main%20pic220910115157417~.jpg",
    "confidence": "High",
    "caveat": "Page does not say whether the weekly price is per person; confirm with Nakhal. Ski pass not listed among inclusions.",
    "verified": "2026-10-24",
@@ -172022,7 +172754,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/92/club-med-val-d-isère",
-   "image": "https://kms.nakhal.com/Images/675x352xo/Val d'Isère copy240423012515747~.png",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/val%20main240423013505007~.png",
    "confidence": "High",
    "caveat": "Page does not say whether the weekly price is per person; confirm with Nakhal.",
    "verified": "2026-10-24",
@@ -172214,7 +172946,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/4539/armenia-and-georgia",
-   "image": "https://kms.nakhal.com/Images/675x352xo/tbilisi main260430124707095~.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/yerevan%20main%20one260430125542347~.jpg",
    "confidence": "Medium",
    "caveat": "Flights are described in the itinerary but the page has no inclusions list confirming they are in the price. Departure is in 5 days.",
    "verified": "2026-10-24",
@@ -172311,7 +173043,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/1795/georgia-and-armenia-new-year",
-   "image": "https://kms.nakhal.com/Images/675x352xo/Georgia-bigstock-tbilisi-panorama-cit-239202601211103040224346~.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/armenia%201261012104109756~.jpg",
    "confidence": "Medium",
    "caveat": "No inclusions list on page; flight inclusion inferred from highlights.",
    "verified": "2026-10-24",
@@ -172413,7 +173145,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/72/highlights-tour-jordan",
-   "image": "https://kms.nakhal.com/Images/675x352xo/161017124038403~jordan.JPG",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/161017124027489~jordan%20main%20pic.jpg",
    "confidence": "Medium",
    "caveat": "Land tour starting/ending at Amman airport; flight from Beirut not stated as included.",
    "verified": "2026-10-24",
@@ -172510,7 +173242,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/4561/damascus-maaloula-crac-des-chevaliers-homs",
-   "image": "https://kms.nakhal.com/Images/675x352xo/homs260725094645448~.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/Maaloula260725093855769~.jpg",
    "confidence": "Medium",
    "caveat": "No inclusions list; check current travel advice and entry requirements for Syria before booking.",
    "verified": "2026-10-24",
@@ -172607,7 +173339,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/4123/santa-s-village-lapland",
-   "image": "https://kms.nakhal.com/Images/675x352xo/Untitled-6220608024849408~.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/SANTA%201250924093847193~.jpg",
    "confidence": "Medium",
    "caveat": "Flights to Rovaniemi and Schengen visa not stated. Day-2 activity not available for infants 0-3.",
    "verified": "2026-10-24",
@@ -172704,7 +173436,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/84/maldives",
-   "image": "https://kms.nakhal.com/Images/675x352xo/161019101531320~Maldives_Hotels.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/161019101522375~baros-maldives.jpg",
    "confidence": "Medium",
    "caveat": "Nakhal's detail page shows only a starting price; the room-type price table and inclusions list are not shown, so confirm what the price covers (flights, hotel category, meals) when booking.",
    "verified": "2026-10-24",
@@ -172801,7 +173533,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/115/phuket-and-bangkok",
-   "image": "https://kms.nakhal.com/Images/675x352xo/161024034824271~bangkok 3.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/161024034709068~phuket%20-%20main.jpg",
    "confidence": "Medium",
    "caveat": "Nakhal's detail page shows only a starting price; the room-type price table and inclusions list are not shown, so confirm what the price covers (flights, hotel category, meals) when booking.",
    "verified": "2026-10-24",
@@ -172898,7 +173630,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/packages/4569/madrid-andalusia-christmas-new-year",
-   "image": "https://kms.nakhal.com/Images/675x352xo/madrid main (2)260821013946669~.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/Package/MADRID%20WINTER%20MAIN260821013959763~.jpg",
    "confidence": "Medium",
    "caveat": "USD figure is an approximate conversion of EUR 1,385. Inclusions not listed.",
    "verified": "2026-10-24",
@@ -172995,7 +173727,7 @@
     ]
    ],
    "url": "https://www.nakhal.com/Lebanon/daily-tours",
-   "image": "https://kms.nakhal.com/Images/320x464xo/Untitled-23220606122849764~.jpg",
+   "image": "https://kms.nakhal.com/Content/uploads/CorporatePage/170215105959285~metaLogo.jpg",
    "confidence": "Medium",
    "caveat": "Six different day tours on one page, all listed at $110; the Baalbeck tour's inclusions omit lunch despite its title. Confirm whether price is per person.",
    "verified": "2026-10-24",
@@ -175172,7 +175904,7 @@
     ]
    ],
    "url": "https://concordtravel.com.lb/pages/packagedetails/273/new-year-in-malaysia",
-   "image": "https://concordtravel.com.lb/assets/images/albums/Kuala-Lumpur.webp",
+   "image": "https://concordtravel.com.lb/assets/images/pagess/travel-plane.jpg",
    "confidence": "High",
    "caveat": "Page does not say whether $1790 is per person or which room type; subject to availability.",
    "verified": "2026-10-24",
@@ -175283,7 +176015,7 @@
     ]
    ],
    "url": "https://concordtravel.com.lb/pages/packagedetails/274/cairo-package",
-   "image": "https://concordtravel.com.lb/assets/images/albums/cairo-luxor-aswan-concord-travel.webp",
+   "image": "https://concordtravel.com.lb/assets/images/pagess/travel-plane.jpg",
    "confidence": "Medium",
    "caveat": "Page does not state the year; its duration field says 5 days/4 nights while the description says 4 days/3 nights.",
    "verified": "2026-10-24",
@@ -175394,7 +176126,7 @@
     ]
    ],
    "url": "https://concordtravel.com.lb/pages/packagedetails/282/istanbul-travel-package",
-   "image": "https://concordtravel.com.lb/assets/images/albums/istanbul-packages.webp",
+   "image": "https://concordtravel.com.lb/assets/images/pagess/travel-plane.jpg",
    "confidence": "Medium",
    "caveat": "Price conflict on page ($299 header vs $410 in description); year not stated.",
    "verified": "2026-10-24",
@@ -175505,7 +176237,7 @@
     ]
    ],
    "url": "https://concordtravel.com.lb/pages/packagedetails/280/athens-package",
-   "image": "https://concordtravel.com.lb/assets/images/albums/athens-package.webp",
+   "image": "https://concordtravel.com.lb/assets/images/pagess/travel-plane.jpg",
    "confidence": "Medium",
    "caveat": "Page date field says \"july 2026\" while the description says \"Available in November\"; price $365 vs $385. Confirm with Concord.",
    "verified": "2026-10-24",
