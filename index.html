@@ -362,7 +362,7 @@ function score(o){
 }
 /* ---------- topic filters (football only, startups only, ...) ---------- */
 const TOPICS=[["tournament","🏆 Tournaments"],["football","⚽ Football"],["basketball","🏀 Basketball"],["volleyball","🏐 Volleyball"],["padel","🎾 Padel & tennis"],["swimming","🏊 Swimming"],["cycling","🚴 Cycling"],["ski","⛷️ Ski"],["chess","♟️ Chess"],["water","🤿 Diving & water sports"],["riding","🐎 Horse riding"],["dance","💃 Dance"],["music","🎵 Music"],["movies","🎬 Movies & shows"],["museums","🏛️ Museums & places"],["festivals","🎉 Festivals"],["esports","🎮 Esports"],["othersport","🥇 Other sports"],["clubs","👥 Clubs & communities"],["arts","🎨 Arts & creative"],["hiking","🥾 Hiking"],["running","🏃 Running"],["hackathon","💻 Hackathons"],["startup","🚀 Startups"],["case","📊 Case comps"],["research","🔬 Research"],["scholarship","🎓 Scholarships & exchange"],["conference","🎤 Conferences & MUN"],["volunteer","🤝 Volunteering"],["career","💼 Careers"],["funded","✈️ Fully funded"]];
-const SPORT_RE={football:/football|soccer|futsal/i,basketball:/basketball/i,volleyball:/volleyball/i,padel:/padel|tennis/i,swimming:/swim/i,cycling:/cycl|\bbike\b/i,ski:/\bski(ing)?\b|snowboard/i,chess:/chess/i,water:/scuba|diving|freediv|snorkel|sailing|kite ?surf|windsurf|surf|kayak|paddle ?board|sup|yacht|rowing/i,riding:/horse|equestrian|riding club/i,dance:/dance|salsa|dabke|ballet|hip-?hop|tango/i,music:/music|concert|orchestra|choir|guitar|piano|oud|conservatoire|philharmonic/i,esports:/e-?sports|\bgaming\b|\bfifa\b|ea fc|valorant|league of legends|\blan party/i};
+const SPORT_RE={football:/football|soccer|futsal/i,basketball:/basketball/i,volleyball:/volleyball/i,padel:/padel|tennis/i,swimming:/swim/i,cycling:/cycl|\bbike\b/i,ski:/\bski(ing)?\b|snowboard/i,chess:/chess/i,water:/scuba|diving|freediv|snorkel|sailing|kite ?surf|windsurf|surf|kayak|paddle ?board|\bsup\b|yacht|rowing/i,riding:/horse|equestrian|riding club/i,dance:/dance|salsa|dabke|ballet|hip-?hop|tango/i,music:/music|concert|orchestra|choir|guitar|piano|oud|conservatoire|philharmonic/i,esports:/e-?sports|\bgaming\b|\bfifa\b|ea fc|valorant|league of legends|\blan party/i};
 function topicsOf(o){
   if(o._topics)return o._topics;
   const t=new Set(),text=o.title+" "+o.org,sport=o.sport==="tennis"?"padel":o.sport;
@@ -504,8 +504,8 @@ const DEGREES={bachelor:"Bachelor's",master:"Master's",phd:"PhD"};
 function degreeOf(o){
   if(o.degree)return o.degree;
   const t=o.title+" "+eligLine(o,"level:");
-  if(/ph.?d|doctora/i.test(o.title))return"phd";
-  if(/master|msc|ma|mba|graduate program/i.test(o.title))return"master";
+  if(/\bph.?d|doctora/i.test(o.title))return"phd";
+  if(/master|\bmsc\b|\bma\b|\bmba\b|graduate program/i.test(o.title))return"master";
   if(/bachelor|undergrad/i.test(t))return"bachelor";
   return"";
 }
@@ -519,15 +519,15 @@ function typesOf(o){
   if(o.cat==="hiking"||/hike|hiking|trek|\btour\b|trip|excursion|outing|atv|paraglid|ski day/i.test(x))t.add("trip");
   if(o.cat==="research"||o.cat==="exchange"||/scholarship|fellowship|exchange|internship|residency|accelerator|incubat|programme|program\b|erasmus|grant/i.test(x))t.add("program");
   if(o.cat==="career"&&/engineer|analyst|job|position|graduate|intern|hiring|vacanc|referent|officer|role/i.test(x)||/\bjob\b|vacanc/i.test(x))t.add("job");
-  if(o.source==="bulk-aid"||/scholarship|financial aid|bursar|tuition|stipend|grant|student loan|fee waiver|fellowship/i.test(o.title))t.add("aid");
-  if(o.source==="bulk-internships"||/intern(ship)?s?|traineeship|summer analyst|co-?op/i.test(o.title))t.add("intern");
+  if(o.source==="bulk-aid"||/scholarship|financial aid|bursar|tuition|stipend|\bgrant|student loan|fee waiver|fellowship/i.test(o.title))t.add("aid");
+  if(o.source==="bulk-internships"||/\bintern(ship)?s?\b|traineeship|summer analyst|co-?op\b/i.test(o.title))t.add("intern");
   if(o.job)t.add(o.intern?"intern":"job");
-  if(o.exam||/(sat|act|gre|gmat|mcat|lsat|toefl|ielts|delf|dalf|cfa|acca|pmp)|entrance exam|admission|application deadline/i.test(o.title))t.add("exam");
+  if(o.exam||/\b(sat|act|gre|gmat|mcat|lsat|toefl|ielts|delf|dalf|cfa|acca|pmp)\b|entrance exam|admission|application deadline/i.test(o.title))t.add("exam");
   if(o.admission)t.add("admission");
   if(o.visit)t.add("place");
   if(o.class)t.add("class");
   if(o.show||o.movie||/circus|concert|theat(re|er) play|stand-?up|comedy night|musical|screening|premiere|now showing/i.test(o.title))t.add("show");
-  if(o.festival||/festival|mahrajan|christmas (village|market)|eid|feast|carnival/i.test(o.title))t.add("festival");
+  if(o.festival||/festival|mahrajan|christmas (village|market)|\beid\b|feast|carnival/i.test(o.title))t.add("festival");
   if(o.club)t.add("club");
   if(o.cat==="volunteer"||/volunteer/i.test(x))t.add("volunteer");
   if(!t.size)t.add(o.cat==="career"?"event":o.cat==="startup"?"program":"event");
