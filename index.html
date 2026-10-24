@@ -398,8 +398,8 @@ function allOrgs(){
   for(const o of OPPS)if(!isClosed(o)){const k=orgKey(o),e=m.get(k)||{key:k,name:orgName(o),logo:null,count:0,group:null,website:null};e.count++;if(!e.logo&&o.logo)e.logo=o.logo;m.set(k,e)}
   for(const d of DIRECTORY){
     const re=dirRe(d),hit=[...m.values()].find(e=>e.key===d.name.toLowerCase()||re.test(e.name));
-    if(hit){hit.group=d.group;hit.website=hit.website||d.website;hit.dir=d}
-    else m.set(d.name.toLowerCase(),{key:d.name.toLowerCase(),name:d.name,logo:null,count:0,group:d.group,website:d.website,dir:d});
+    if(hit){hit.group=d.group;hit.website=hit.website||d.website;hit.logo=hit.logo||d.logo||null;hit.dir=d}
+    else m.set(d.name.toLowerCase(),{key:d.name.toLowerCase(),name:d.name,logo:d.logo||null,count:0,group:d.group,website:d.website,dir:d});
   }
   for(const e of m.values())e.group=e.group||guessGroup(e.name);
   return(_orgs=[...m.values()].sort((a,b)=>b.count-a.count||a.name.localeCompare(b.name)));
@@ -716,7 +716,7 @@ function openOrg(key){
 }
 
 /* ---------- organisers directory: browse, search and follow anyone ---------- */
-const GROUPS={university:"🎓 Universities",company:"🏢 Companies",ngo:"🤝 NGOs",international:"🌍 International & embassies",club:"👥 Clubs & federations"};
+const GROUPS={university:"🎓 Universities",company:"🏢 Companies",ngo:"🤝 NGOs",international:"🌍 International & embassies",club:"👥 Clubs & federations",government:"🏛️ Government"};
 let dirGroup="",dirQ="";
 function openDirectory(){
   const list=allOrgs().filter(g=>(!dirGroup||g.group===dirGroup)&&(!dirQ||(g.name+" "+(g.dir&&g.dir.short||"")).toLowerCase().includes(dirQ)));
