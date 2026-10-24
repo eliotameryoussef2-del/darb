@@ -280,6 +280,7 @@ const DAY=864e5;
 function daysLeft(o){const t=o.deadline||o.eventDate;if(!t)return null;return Math.ceil((new Date(t)-Date.now())/DAY)}
 function isClosed(o){const d=o.deadline?daysLeft(o):(o.eventDate?Math.ceil((new Date(o.eventDate)-Date.now())/DAY)+5:null);return d!==null&&d<0}
 function dlLabel(o){
+  if(o.place)return"See opening hours";
   if(o.rolling)return"Rolling";
   const d=daysLeft(o);
   if(d===null)return o.sample?"Example":"Deadline TBC";
@@ -486,7 +487,7 @@ const MAKE=["hackathon","startup","case","tournament"];
 const FAMILY={};for(const g of[SPORTS,STUDY,MAKE,["arts","clubs","volunteer"]])for(const k of g)FAMILY[k]=[...new Set([...(FAMILY[k]||[]),...g])];
 
 /* ---------- type: competition, class/training, event, trip, programme, job, club, volunteering ---------- */
-const TYPES={competition:"🏆 Competitions",class:"📚 Classes & training",event:"🎤 Events & conferences",trip:"🥾 Trips & outings",aid:"💰 Scholarships & financial aid",program:"🎓 Programmes & scholarships",intern:"🧑‍💻 Internships",job:"💼 Jobs",club:"👥 Clubs & communities",volunteer:"🤝 Volunteering"};
+const TYPES={competition:"🏆 Competitions",class:"📚 Classes & training",event:"🎤 Events & conferences",trip:"🥾 Trips & outings",aid:"💰 Scholarships & financial aid",program:"🎓 Programmes & scholarships",intern:"🧑‍💻 Internships",job:"💼 Jobs",club:"👥 Clubs & communities",volunteer:"🤝 Volunteering",place:"🏛️ Places to visit"};
 function typesOf(o){
   if(o._types)return o._types;
   const t=new Set(),x=o.title+" "+(o.when||"");
@@ -499,6 +500,7 @@ function typesOf(o){
   if(o.cat==="career"&&/engineer|analyst|job|position|graduate|intern|hiring|vacanc|referent|officer|role/i.test(x)||/\bjob\b|vacanc/i.test(x))t.add("job");
   if(o.source==="bulk-aid"||/scholarship|financial aid|bursar|tuition|stipend|grant|student loan|fee waiver|fellowship/i.test(o.title))t.add("aid");
   if(o.source==="bulk-internships"||/intern(ship)?s?|traineeship|summer analyst|co-?op/i.test(o.title))t.add("intern");
+  if(o.place)t.add("place");
   if(o.club)t.add("club");
   if(o.cat==="volunteer"||/volunteer/i.test(x))t.add("volunteer");
   if(!t.size)t.add(o.cat==="career"?"event":o.cat==="startup"?"program":"event");
@@ -656,7 +658,7 @@ function openSheet(id){
    ${regActions(o)}
    <div class="sec"><h3>When & where</h3><dl class="kv">
      <dt>Deadline</dt><dd><b>${dlLabel(o)}</b> · ${o.deadlineText}</dd>
-     <dt>Dates</dt><dd>${o.when}</dd>
+     <dt>${o.place?"Opening hours":"Dates"}</dt><dd>${o.when}</dd>
      ${o.meet?`<dt>Meeting</dt><dd>${o.meet}</dd>`:""}
      <dt>Location</dt><dd>${o.place}</dd>
      <dt>Format</dt><dd>${o.team}</dd>
