@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T10:29:21.599Z",
- "count": 2140,
+ "updated": "2026-10-24T10:40:45.509Z",
+ "count": 2161,
  "opportunities": [
   {
    "id": "hk-taskforge",
@@ -94718,6 +94718,1636 @@
    "url": "https://lebvolley.com/train/",
    "confidence": "Medium",
    "caveat": "Listed on the LebVolley volleyball portal; the academy has no own website. Schedules and fees not published.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-club-central-jounieh",
+   "cat": "community",
+   "title": "Club Central Jounieh (Al-Markaziyya) – basketball and volleyball training plus multi-sport memberships",
+   "org": "Club Central Jounieh / Collège Central Jounieh",
+   "place": "Jounieh, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Basketball and volleyball class days/hours: TBD on the official page (other classes e.g. fitness Tue/Thu/Fri 6:30–7:30 PM)",
+   "meet": "CCJ Arena, Club Central, Fouad Chehab Street, Jounieh",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "basketball",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: All ages and skill levels; competitive club",
+     "University: Not applicable (open club)",
+     "Nationality/residency: Not stated",
+     "Age: Under-18 and over-18 registration",
+     "Team: Basketball and volleyball squads",
+     "Competitions: Club's senior basketball team plays in the Lebanese Basketball League; members compete 'at all levels'",
+     "Season: Not stated",
+     "Also: futsal, swimming, squash, judo, taekwondo, gymnastics, dance and more on site"
+    ]
+   },
+   "money": [
+    [
+     "Membership",
+     "Categories 1–5 (with or without pool & spa); prices not shown on the page",
+     "ns"
+    ],
+    [
+     "Basketball / volleyball class price",
+     "TBD (official page)",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Fill the contact form on the club site (choose age bracket and activity, e.g. Basketball or Volleyball).",
+    "Or call / WhatsApp the club."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 81 841 212",
+     "Official site (also WhatsApp)"
+    ],
+    [
+     "Phone",
+     "09 638999 / 09 910100",
+     "Official site"
+    ],
+    [
+     "Email",
+     "clubcentral@ccj.edu.lb",
+     "Official site"
+    ]
+   ],
+   "url": "https://clubccj.com/about-us/services/",
+   "confidence": "Medium",
+   "caveat": "Basketball and volleyball days, hours and prices are listed as TBD.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": "https://clubccj.com/wp-content/uploads/2025/09/cc-320x320.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://clubccj.com/wp-content/uploads/2025/10/ttt-scaled-e1761297171766.png",
+    "https://clubccj.com/wp-content/uploads/2025/09/dance-640x480.jpg",
+    "https://clubccj.com/wp-content/uploads/2017/10/history_inner_09.jpg",
+    "https://clubccj.com/wp-content/uploads/2017/10/history_inner_11.jpg",
+    "https://clubccj.com/wp-content/uploads/2017/10/inner_swimmer.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-atcl-swimming",
+   "cat": "community",
+   "title": "ATCL swimming: club team training and members' swimming lessons (Olympic pool, Kaslik/Jounieh)",
+   "org": "Automobile et Touring Club du Liban (ATCL)",
+   "place": "Jounieh (Kaslik), Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Club team trains 8:00–9:30 AM; lessons 10:00 AM–1:00 PM – weekends in June, Tue–Fri 1 Jul–20 Sep",
+   "meet": "ATCL Olympic pool (50 m x 24 m, 8 lanes) and heated 25 m pool",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "swimming",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Beginners to confirmed swimmers; separate club team",
+     "University: Not applicable",
+     "Nationality/residency: Not stated; lessons are for registered ATCL members",
+     "Age: Over 4 years for lessons",
+     "Team: Groups of max 7 for lessons; club swim team",
+     "Competitions: Club swimmers enter the Lebanese swimming championship qualifications and inter-member galas",
+     "Season: Lessons 1 June – 20 September; heated pool open year round 7 AM–9 PM"
+    ]
+   },
+   "money": [
+    [
+     "Lesson tickets",
+     "Sold in books of 8 (price not shown)",
+     "ns"
+    ],
+    [
+     "ATCL membership",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Be an ATCL member.",
+    "Register with the cashier and buy lesson tickets (books of 8).",
+    "Arrive before the session with your ticket."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 9 640 220",
+     "ATCL official contact page"
+    ],
+    [
+     "Email",
+     "info@atcl.org",
+     "ATCL official contact page"
+    ]
+   ],
+   "url": "https://atcl.org/category/sports/natation/",
+   "confidence": "Medium",
+   "caveat": "Members-only club; next lesson season starts June 2027. Fees not published.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://atcl.org/wp-content/uploads/2025/04/Amy-Adjusted.png",
+    "https://atcl.org/wp-content/uploads/2025/04/Farid-adjusted.png",
+    "https://atcl.org/wp-content/uploads/2024/07/Insta-post-1-800x445.jpg",
+    "https://atcl.org/wp-content/uploads/2024/06/ATCL-Swimming-A4-1-1-800x445.jpg",
+    "https://atcl.org/wp-content/uploads/2022/11/IMG-20221017-WA0054-800x445.jpg",
+    "https://atcl.org/wp-content/uploads/2019/08/F67CF0A3-286B-4C59-A229-E907BF7F7E60-800x445.jpeg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-proswim-competitive-team",
+   "cat": "community",
+   "title": "ProSwim Competitive Team – 6 sessions a week, national and international meets",
+   "org": "ProSwim Swimming Academy",
+   "place": "Beirut, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "6 times a week on school days; twice a day, 6 days a week during long holidays",
+   "meet": "Locations listed: Dunes Aquatic Center (Verdun, Olympic indoor pool), Club A, Champs Fitness Club, Power Rack (Antelias), Radisson Martinez (Ain Mraysseh)",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "swimming",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Competitive – swimmers who completed all ProSwim levels",
+     "University: Not applicable",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Swim team",
+     "Competitions: Competes nationally and internationally; boot camps with the head coach (Mohamad Sakr)",
+     "Season: Year round",
+     "Support: nutritionist, dryland trainers, physiotherapist, yoga"
+    ]
+   },
+   "money": [
+    [
+     "Monthly fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Kit",
+     "ProSwim cap and swimsuit required",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Progress through ProSwim levels (placement test by age and ability), or contact the academy for assessment."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 76 969 094",
+     "Proswim support centre (8 AM–8 PM), official site"
+    ],
+    [
+     "Phone",
+     "+961 78 969 094",
+     "Proswim support centre"
+    ],
+    [
+     "Phone",
+     "+961 3 969 094",
+     "Proswim support centre"
+    ]
+   ],
+   "url": "https://www.proswim-lb.com/WebsiteLevels.aspx?Page=CompetitiveTeam",
+   "confidence": "Medium",
+   "caveat": "Site footer dated 2020; confirm current locations by phone.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-proswim-learn-to-swim",
+   "cat": "community",
+   "title": "ProSwim learn-to-swim levels (aqua baby from 3 months, kids' group classes, adults, ladies-only, special needs)",
+   "org": "ProSwim Swimming Academy",
+   "place": "Beirut, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Semester-based group classes; times not published",
+   "meet": "Dunes Aquatic Center Verdun and other ProSwim locations",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "swimming",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Beginner, intermediate and advanced group levels; adults' learn-to-swim",
+     "University: Not applicable",
+     "Nationality/residency: Not stated",
+     "Age: From 3 months (aqua baby); beginners' groups typically 4–5; adults",
+     "Team: Group or private classes",
+     "Competitions: Pathway to the ProSwim Competitive Team",
+     "Season: Semesters; graduation after each semester"
+    ]
+   },
+   "money": [
+    [
+     "Class fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Kit",
+     "ProSwim cap and swimsuit required",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call the support centre; the swimmer is tested and placed in a level."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 76 969 094",
+     "Proswim support centre (8 AM–8 PM), official site"
+    ],
+    [
+     "Phone",
+     "+961 78 969 094",
+     "Proswim support centre"
+    ],
+    [
+     "Phone",
+     "+961 3 969 094",
+     "Proswim support centre"
+    ]
+   ],
+   "url": "https://www.proswim-lb.com/WebsiteClasses.aspx?Page=Group_Classes",
+   "confidence": "Medium",
+   "caveat": "Site footer dated 2020.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-private-club-tennis",
+   "cat": "community",
+   "title": "The Private Club – year-round indoor tennis (3 courts), coaches and pick-up basketball/volleyball, City Rama Dekwaneh",
+   "org": "The Private Club",
+   "place": "Dekwaneh (City Rama), Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Club hours Mon–Fri 8:00–22:00, Sat 8:00–20:00, Sun 9:00–18:00 (pool hours)",
+   "meet": "City Rama, Dekwaneh (next to Sin El Fil)",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "tennis",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: All levels; members and coaching",
+     "University: Not applicable",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual / partner play; pick-up team games",
+     "Competitions: Not stated",
+     "Season: Year round (indoor, air-conditioned courts)"
+    ]
+   },
+   "money": [
+    [
+     "Membership",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Renewal",
+     "10% renewal discount advertised",
+     "info"
+    ],
+    [
+     "Coaching",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Use 'Join Now' / register on the site or call reception on 01 513 514."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 513 514",
+     "Official site"
+    ],
+    [
+     "Email",
+     "info@theprivateclub.net",
+     "Official site"
+    ]
+   ],
+   "url": "https://www.theprivateclub.net/service/courts/",
+   "confidence": "Medium",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": "https://www.theprivateclub.net/wp-content/uploads/The-Cosmopolitan-Hotel-Beirut-Tennis-Court.jpg",
+   "logo": "https://www.theprivateclub.net/wp-content/uploads/cropped-The-Private-Club-Shield-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.theprivateclub.net/wp-content/uploads/Tennis-Court.jpeg",
+    "https://www.theprivateclub.net/wp-content/uploads/Volley-Court.jpg",
+    "https://www.theprivateclub.net/wp-content/uploads/BasketBall-Court-Diagonale.jpg",
+    "https://www.theprivateclub.net/wp-content/uploads/Pool.jpg",
+    "https://www.theprivateclub.net/wp-content/uploads/Zumba-Event.jpg",
+    "https://www.theprivateclub.net/wp-content/uploads/Events-1024x682.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-lsa-competitive-squads",
+   "cat": "community",
+   "title": "Lebanese Swim Academy squads: Poussin, Avenir, Espoir and LSA Team (selection) – Mtayleb",
+   "org": "Lebanese Swim Academy (LSA)",
+   "place": "Mtayleb, Metn, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Poussin I-II (6–9) & Avenir I (8–10): Mon/Wed/Fri 4:45 PM; Avenir II & Espoir (10+): Mon/Wed/Fri 5:30 PM + Sat 10:00 AM; LSA Team: Mon/Wed/Fri 6:30 PM, Tue/Thu 4:30 PM, Sat 8:00 AM",
+   "meet": "Mtayleb Country Club, Mtayleb, Metn",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "swimming",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Progressive squads from Poussin to Espoir; LSA Team by selection (competitive)",
+     "University: Not applicable",
+     "Nationality/residency: Not stated",
+     "Age: Poussin 6–9, Avenir 8–10, Espoir 10+; LSA Team by selection",
+     "Team: Swim squads",
+     "Competitions: LSA swimmers have raced the Lebanese short-course National Championship and meets abroad (e.g. Emirates Swimming Cup) per the academy's events page",
+     "Season: Not stated",
+     "Session length: 45 minutes (FAQ)"
+    ]
+   },
+   "money": [
+    [
+     "Monthly / term fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Registration",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register via the online form on lsa-lb.com/register, call or email; the academy contacts you."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 3 967 778",
+     "Official site"
+    ],
+    [
+     "Email",
+     "info@lsa-lb.com",
+     "Official site"
+    ]
+   ],
+   "url": "https://lsa-lb.com/classes",
+   "confidence": "High",
+   "caveat": "Fees not published. LSA private lessons and Masters are listed separately in Darb.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-mabarrat-sports-academy",
+   "cat": "community",
+   "title": "Al Mabarrat Sports Academy (MSA) – youth football, ages 5–17, Airport Road",
+   "org": "Al-Mabarrat Charitable Association",
+   "place": "Beirut (Airport Road), Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "3 sessions/week, 1.5 h each; winter usually Fri/Sat (sometimes Sun), summer Mon/Wed/Thu",
+   "meet": "Al Mabarrat Stadium, Airport Road (beside Al-Kawthar High School)",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "football",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Youth players, grouped by age; matches against other academies",
+     "University: Not applicable",
+     "Nationality/residency: Not stated",
+     "Age: 5 to 17",
+     "Team: Age groups of max 14 players per coach",
+     "Competitions: Friendly matches against academies and clubs; camps",
+     "Season: Year round (winter and summer schedules)",
+     "Support: educational specialist, nutritionist, injury insurance"
+    ]
+   },
+   "money": [
+    [
+     "Subscription fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Orphans",
+     "Free subscription for talented orphan students of Al-Mabarrat (as reported)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Contact the academy by email or phone; registration is open all year (summer and winter)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "Mabarraclub@mabarrat.org.lb",
+     "Reported on the Al-Mabarrat academy page"
+    ],
+    [
+     "Phone",
+     "71855080",
+     "Reported on the Al-Mabarrat academy page"
+    ]
+   ],
+   "url": "https://newpub.mabarrat.org.lb/en/?p=42023",
+   "confidence": "Low",
+   "caveat": "The official page text dates from the academy's 2018 launch (birth-year groups 2002–2012); confirm the current schedule by phone.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": "https://newpub.mabarrat.org.lb/wp-content/uploads/2025/09/119938064_972975403212833_8472109838487062122_n.jpg",
+   "logo": "https://newpub.mabarrat.org.lb/wp-content/uploads/2025/09/Al-Mabarrat-Association-1.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://newpub.mabarrat.org.lb/wp-content/uploads/2025/09/IMG_7176-scaled-3.jpg",
+    "https://newpub.mabarrat.org.lb/wp-content/uploads/2025/09/IMG_7326-scaled-3.jpg",
+    "https://newpub.mabarrat.org.lb/wp-content/uploads/2025/09/IMG_6444-scaled-3.jpg",
+    "https://newpub.mabarrat.org.lb/wp-content/uploads/2025/09/3S9A8737.jpg",
+    "https://newpub.mabarrat.org.lb/wp-content/uploads/2025/09/3S9A8618.jpg",
+    "https://newpub.mabarrat.org.lb/wp-content/uploads/2025/09/IMG_6451-scaled-3.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-golf-club-lebanon-tennis",
+   "cat": "community",
+   "title": "Golf Club of Lebanon – members' tennis (7 lit courts: 5 clay, 2 hard), instructors, pool and kids' mini-football",
+   "org": "Golf Club of Lebanon",
+   "place": "Bir Hassan / Ouzai, Beirut, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Courts lit for night play; club hours not stated",
+   "meet": "Golf Club of Lebanon, Bir Hassan, Ouzai, next to Henry Chehab Barracks",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "tennis",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Members of all levels; tennis instructors available",
+     "University: Not applicable",
+     "Nationality/residency: Regular membership for Lebanese residing in Lebanon; overseas (Lebanese abroad, 60 days/year); foreign nationals with Lebanese residency; diplomatic",
+     "Age: Family membership covers dependents up to 25 if enrolled in school",
+     "Team: Individual; kids' mini-football with coaches",
+     "Competitions: Courts have hosted Davis Cup and ITF tournaments",
+     "Season: Year round",
+     "Admission: sponsorship by 2 members + interview with the Membership Committee"
+    ]
+   },
+   "money": [
+    [
+     "Initiation fee",
+     "One-time; amount not shown (waived for foreign-national and diplomatic memberships)",
+     "ns"
+    ],
+    [
+     "Annual dues",
+     "Required; amount not shown",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Fill the 'Become a Member' form on the memberships page; the team contacts you.",
+    "Get sponsored by 2 current members and attend an interview."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 826 335",
+     "Official contacts page"
+    ],
+    [
+     "Mobile",
+     "+961 3 609 412",
+     "Official contacts page"
+    ]
+   ],
+   "url": "https://golfcluboflebanon.com/sports/",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": "https://golfcluboflebanon.com/wp-content/uploads/2024/04/cropped-favicon-192x192.jpg",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://golfcluboflebanon.com/wp-content/uploads/2024/03/18922345759347088.jpg",
+    "https://golfcluboflebanon.com/wp-content/uploads/2024/03/79046714492142200.jpg",
+    "https://golfcluboflebanon.com/wp-content/uploads/2024/03/42231497075408696.jpg",
+    "https://golfcluboflebanon.com/wp-content/uploads/2024/03/52672795951366424.jpg",
+    "https://golfcluboflebanon.com/wp-content/uploads/2024/04/Snooker-1.jpg",
+    "https://golfcluboflebanon.com/wp-content/uploads/2024/03/37430339446291328.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-bau-sports-academy",
+   "cat": "community",
+   "title": "BAU Sports Academy – affordable community coaching for ages 5–17 (football, basketball, volleyball and more)",
+   "org": "Beirut Arab University",
+   "place": "Beirut, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Regular practices and tournaments; schedule not published",
+   "meet": "BAU sports halls and fields",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "football",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Community children, mostly from neighbouring schools; not limited to BAU students",
+     "University: Open to non-BAU children",
+     "Nationality/residency: Not stated",
+     "Age: 5 to 17",
+     "Team: Squads per sport",
+     "Competitions: Tournaments (not specified)",
+     "Season: Not stated",
+     "Sports: basketball, football, volleyball, Muay Thai, table tennis, chess"
+    ]
+   },
+   "money": [
+    [
+     "Fee",
+     "'Reasonably priced' / affordable (amount not stated)",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Contact BAU (sports department) to ask about academy registration – the page gives no sign-up steps."
+   ],
+   "contact": [],
+   "url": "https://www.bau.edu.lb/SDG/3-3-3",
+   "confidence": "Low",
+   "caveat": "Described on BAU's sustainability (SDG 3.3.3) page; no dedicated sign-up page, fees or schedule found.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": "https://www.bau.edu.lb/Content/img/fb-social.png",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-aub-athletics-varsity",
+   "cat": "community",
+   "title": "AUB Athletics varsity teams (FSUL and international championships; tennis team trains Mon/Tue/Thu 5–7 PM)",
+   "org": "American University of Beirut – University Sports",
+   "place": "Beirut (Hamra), Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Varsity tennis: Mon, Tue, Thu 5–7 PM during the academic year; other teams not published",
+   "meet": "Charles Hostler Student Center, Nadim Khalaf Tennis Courts, Greenfield",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "other",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Competitive student-athletes; also recreational and developmental programmes",
+     "University: AUB students only",
+     "Nationality/residency: Not stated",
+     "Age: University students",
+     "Team: Varsity teams",
+     "Competitions: FSUL (Lebanese university sports federation) and international championships; full and partial athletic scholarships",
+     "Season: Academic year"
+    ]
+   },
+   "money": [
+    [
+     "Fee for AUB students",
+     "CHSC facilities free with valid student ID",
+     "yes"
+    ],
+    [
+     "Athletic scholarships",
+     "Full and partial scholarships offered (see AUB Athletics pages)",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Contact AUB University Sports (ext. 3208) or the coaches for tryouts."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "AUB ext. 3208",
+     "Published on the AUB Athletics page"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/SAO/sports/Pages/default.aspx",
+   "confidence": "Medium",
+   "caveat": "Team list and tryout dates not published on the page.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/SAO/sports/SportsWideRotators/sports-16.png",
+    "https://www.aub.edu.lb/SAO/sports/SportsWideRotators/sports-14.png",
+    "https://www.aub.edu.lb/SAO/sports/SportsWideRotators/sports-18.png",
+    "https://www.aub.edu.lb/SAO/sports/SportsWideRotators/sports-25.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-usek-sports-club",
+   "cat": "community",
+   "title": "USEK Sports Club – futsal, basketball, tennis, table tennis, volleyball and swimming for USEK students",
+   "org": "Holy Spirit University of Kaslik (USEK)",
+   "place": "Kaslik, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Not stated",
+   "meet": "USEK campus; pool and basketball/volleyball court at the Central Club of Jounieh (per USEK sports department)",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "other",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Students; university teams mentored by trainers",
+     "University: USEK students only",
+     "Nationality/residency: Not stated",
+     "Age: University students",
+     "Team: University teams",
+     "Competitions: Not stated",
+     "Season: Academic year"
+    ]
+   },
+   "money": [
+    [
+     "Fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Contact the USEK sports department / student affairs to join a team."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 9 600 000",
+     "USEK main line (official site)"
+    ]
+   ],
+   "url": "https://usek.edu.lb/news/launch-of-the-usek-sports-club",
+   "confidence": "Low",
+   "caveat": "Launch announcement from 2023-2024; no schedule or contact for the club itself.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": "https://www.usek.edu.lb/ContentFiles/60207Image.jpg?v=202308202015",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-bfa-branch-furn-el-chebbak",
+   "cat": "community",
+   "title": "BFA Furn El Chebbak (HQ, Elite Center & BFAtheGym) branch – youth football for boys and girls from age 4 (season Sep–Jun)",
+   "org": "Beirut Football Academy",
+   "place": "Furn El Chebbak, Beirut, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Season Sep–Jun; 2x, 3x or 4x training per week; days/times set per age group (shared after sign-up)",
+   "meet": "BFA Field, Furn El Chebbak – full-size floodlit pitch, BFAtheGym (S&C open to athletes of any sport); head coach Elie Haber",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "football",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Beginners (First Touch, 4–8) to academy level (9–15); selected players to the Elite Center",
+     "University: Not applicable (club academy)",
+     "Nationality/residency: Not stated",
+     "Age: From 4 (birth years 2007–2022)",
+     "Team: Age-group teams, boys and girls",
+     "Competitions: BFA cups and leagues, local matches; selected teams travel to international tournaments",
+     "Season: September to June; summer camps July–August",
+     "Notes: Elite Center for selected players; girls' U13–U19 teams train here"
+    ]
+   },
+   "money": [
+    [
+     "Season fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Kit",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Fill the 'Join the season' form choosing this branch, or WhatsApp the branch line.",
+    "Meet the head coach and attend a first session to be placed in a group."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 71 664 950",
+     "Branch line on the official BFA site"
+    ],
+    [
+     "Email",
+     "info@bfa-lebanon.com",
+     "Official site"
+    ]
+   ],
+   "url": "https://www.bfa-lebanon.com/branches",
+   "confidence": "High",
+   "caveat": "Fees not published.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": "https://www.bfa-lebanon.com/assets/og/branches.jpg",
+   "logo": "https://www.bfa-lebanon.com/apple-touch-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.bfa-lebanon.com/assets/photos/18775-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18764-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18771-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18855-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18854-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/20686-1200.webp"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-bfa-branch-hazmieh",
+   "cat": "community",
+   "title": "BFA Hazmieh branch – youth football for boys and girls from age 4 (season Sep–Jun)",
+   "org": "Beirut Football Academy",
+   "place": "Hazmieh, Baabda, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Season Sep–Jun; 2x, 3x or 4x training per week; days/times set per age group (shared after sign-up)",
+   "meet": "BFA branch, Hazmieh – indoor and outdoor pitches; head coach Anthony Mattar",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "football",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Beginners (First Touch, 4–8) to academy level (9–15); selected players to the Elite Center",
+     "University: Not applicable (club academy)",
+     "Nationality/residency: Not stated",
+     "Age: From 4 (birth years 2007–2022)",
+     "Team: Age-group teams, boys and girls",
+     "Competitions: BFA cups and leagues, local matches; selected teams travel to international tournaments",
+     "Season: September to June; summer camps July–August",
+     "Notes: Programs for ages 4 to 18; girls' age-group teams"
+    ]
+   },
+   "money": [
+    [
+     "Season fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Kit",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Fill the 'Join the season' form choosing this branch, or WhatsApp the branch line.",
+    "Meet the head coach and attend a first session to be placed in a group."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 76 873 708",
+     "Branch line on the official BFA site"
+    ],
+    [
+     "Email",
+     "info@bfa-lebanon.com",
+     "Official site"
+    ]
+   ],
+   "url": "https://www.bfa-lebanon.com/branches",
+   "confidence": "High",
+   "caveat": "Fees not published.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": "https://www.bfa-lebanon.com/assets/og/branches.jpg",
+   "logo": "https://www.bfa-lebanon.com/apple-touch-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.bfa-lebanon.com/assets/photos/18775-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18764-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18771-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18855-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18854-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/20686-1200.webp"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-bfa-branch-sen-el-fil",
+   "cat": "community",
+   "title": "BFA Sen El Fil branch – youth football for boys and girls from age 4 (season Sep–Jun)",
+   "org": "Beirut Football Academy",
+   "place": "Sin El Fil, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Season Sep–Jun; 2x, 3x or 4x training per week; days/times set per age group (shared after sign-up)",
+   "meet": "Municipality Field, Sen El Fil – synthetic turf; head coach Joseph Dagher",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "football",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Beginners (First Touch, 4–8) to academy level (9–15); selected players to the Elite Center",
+     "University: Not applicable (club academy)",
+     "Nationality/residency: Not stated",
+     "Age: From 4 (birth years 2007–2022)",
+     "Team: Age-group teams, boys and girls",
+     "Competitions: BFA cups and leagues, local matches; selected teams travel to international tournaments",
+     "Season: September to June; summer camps July–August",
+     "Notes: Girls' age-group teams also train here"
+    ]
+   },
+   "money": [
+    [
+     "Season fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Kit",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Fill the 'Join the season' form choosing this branch, or WhatsApp the branch line.",
+    "Meet the head coach and attend a first session to be placed in a group."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 70 282 326",
+     "Branch line on the official BFA site"
+    ],
+    [
+     "Email",
+     "info@bfa-lebanon.com",
+     "Official site"
+    ]
+   ],
+   "url": "https://www.bfa-lebanon.com/branches",
+   "confidence": "High",
+   "caveat": "Fees not published.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": "https://www.bfa-lebanon.com/assets/og/branches.jpg",
+   "logo": "https://www.bfa-lebanon.com/apple-touch-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.bfa-lebanon.com/assets/photos/18775-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18764-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18771-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18855-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18854-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/20686-1200.webp"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-bfa-branch-mansourieh",
+   "cat": "community",
+   "title": "BFA Mansourieh branch – youth football for boys and girls from age 4 (season Sep–Jun)",
+   "org": "Beirut Football Academy",
+   "place": "Mansourieh, Metn, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Season Sep–Jun; 2x, 3x or 4x training per week; days/times set per age group (shared after sign-up)",
+   "meet": "Champions Field, Mansourieh (serving Beit el Chaar, Monteverde); head coach Majd El Masry",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "football",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Beginners (First Touch, 4–8) to academy level (9–15); selected players to the Elite Center",
+     "University: Not applicable (club academy)",
+     "Nationality/residency: Not stated",
+     "Age: From 4 (birth years 2007–2022)",
+     "Team: Age-group teams, boys and girls",
+     "Competitions: BFA cups and leagues, local matches; selected teams travel to international tournaments",
+     "Season: September to June; summer camps July–August"
+    ]
+   },
+   "money": [
+    [
+     "Season fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Kit",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Fill the 'Join the season' form choosing this branch, or WhatsApp the branch line.",
+    "Meet the head coach and attend a first session to be placed in a group."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 3 044 762",
+     "Branch line on the official BFA site"
+    ],
+    [
+     "Email",
+     "info@bfa-lebanon.com",
+     "Official site"
+    ]
+   ],
+   "url": "https://www.bfa-lebanon.com/branches",
+   "confidence": "High",
+   "caveat": "Fees not published.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": "https://www.bfa-lebanon.com/assets/og/branches.jpg",
+   "logo": "https://www.bfa-lebanon.com/apple-touch-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.bfa-lebanon.com/assets/photos/18775-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18764-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18771-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18855-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18854-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/20686-1200.webp"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-bfa-branch-beit-mery",
+   "cat": "community",
+   "title": "BFA Beit Mery branch – youth football for boys and girls from age 4 (season Sep–Jun)",
+   "org": "Beirut Football Academy",
+   "place": "Beit Mery, Metn, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Season Sep–Jun; 2x, 3x or 4x training per week; days/times set per age group (shared after sign-up)",
+   "meet": "Club Sportif des Frères, Beit Mery; head coach Ray El Chaar",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "football",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Beginners (First Touch, 4–8) to academy level (9–15); selected players to the Elite Center",
+     "University: Not applicable (club academy)",
+     "Nationality/residency: Not stated",
+     "Age: From 4 (birth years 2007–2022)",
+     "Team: Age-group teams, boys and girls",
+     "Competitions: BFA cups and leagues, local matches; selected teams travel to international tournaments",
+     "Season: September to June; summer camps July–August",
+     "Notes: Serves Broummana, Beit Mery and surroundings"
+    ]
+   },
+   "money": [
+    [
+     "Season fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Kit",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Fill the 'Join the season' form choosing this branch, or WhatsApp the branch line.",
+    "Meet the head coach and attend a first session to be placed in a group."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 71 970 999",
+     "Branch line on the official BFA site"
+    ],
+    [
+     "Email",
+     "info@bfa-lebanon.com",
+     "Official site"
+    ]
+   ],
+   "url": "https://www.bfa-lebanon.com/branches",
+   "confidence": "High",
+   "caveat": "Fees not published.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": "https://www.bfa-lebanon.com/assets/og/branches.jpg",
+   "logo": "https://www.bfa-lebanon.com/apple-touch-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.bfa-lebanon.com/assets/photos/18775-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18764-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18771-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18855-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18854-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/20686-1200.webp"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-bfa-branch-haddath",
+   "cat": "community",
+   "title": "BFA Haddath branch – youth football for boys and girls from age 4 (season Sep–Jun)",
+   "org": "Beirut Football Academy",
+   "place": "Hadath, Baabda, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Season Sep–Jun; 2x, 3x or 4x training per week; days/times set per age group (shared after sign-up)",
+   "meet": "Ballerz Arena, Haddath; head coach Hassan El Anan",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "football",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Beginners (First Touch, 4–8) to academy level (9–15); selected players to the Elite Center",
+     "University: Not applicable (club academy)",
+     "Nationality/residency: Not stated",
+     "Age: From 4 (birth years 2007–2022)",
+     "Team: Age-group teams, boys and girls",
+     "Competitions: BFA cups and leagues, local matches; selected teams travel to international tournaments",
+     "Season: September to June; summer camps July–August",
+     "Notes: Serves Haddath, Laylake and the southern suburbs"
+    ]
+   },
+   "money": [
+    [
+     "Season fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Kit",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Fill the 'Join the season' form choosing this branch, or WhatsApp the branch line.",
+    "Meet the head coach and attend a first session to be placed in a group."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 76 371 322",
+     "Branch line on the official BFA site"
+    ],
+    [
+     "Email",
+     "info@bfa-lebanon.com",
+     "Official site"
+    ]
+   ],
+   "url": "https://www.bfa-lebanon.com/branches",
+   "confidence": "High",
+   "caveat": "Fees not published.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": "https://www.bfa-lebanon.com/assets/og/branches.jpg",
+   "logo": "https://www.bfa-lebanon.com/apple-touch-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.bfa-lebanon.com/assets/photos/18775-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18764-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18771-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18855-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18854-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/20686-1200.webp"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-bfa-branch-kfarshima",
+   "cat": "community",
+   "title": "BFA Kfarshima branch – youth football for boys and girls from age 4 (season Sep–Jun)",
+   "org": "Beirut Football Academy",
+   "place": "Kfarshima, Baabda, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Season Sep–Jun; 2x, 3x or 4x training per week; days/times set per age group (shared after sign-up)",
+   "meet": "Kidz Village, Kfarshima; head coach Neyif Harb",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "football",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Beginners (First Touch, 4–8) to academy level (9–15); selected players to the Elite Center",
+     "University: Not applicable (club academy)",
+     "Nationality/residency: Not stated",
+     "Age: From 4 (birth years 2007–2022)",
+     "Team: Age-group teams, boys and girls",
+     "Competitions: BFA cups and leagues, local matches; selected teams travel to international tournaments",
+     "Season: September to June; summer camps July–August",
+     "Notes: Serves Kfarshima and Choueifat, boys and girls"
+    ]
+   },
+   "money": [
+    [
+     "Season fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Kit",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Fill the 'Join the season' form choosing this branch, or WhatsApp the branch line.",
+    "Meet the head coach and attend a first session to be placed in a group."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 3 064 806",
+     "Branch line on the official BFA site"
+    ],
+    [
+     "Email",
+     "info@bfa-lebanon.com",
+     "Official site"
+    ]
+   ],
+   "url": "https://www.bfa-lebanon.com/branches",
+   "confidence": "High",
+   "caveat": "Fees not published.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": "https://www.bfa-lebanon.com/assets/og/branches.jpg",
+   "logo": "https://www.bfa-lebanon.com/apple-touch-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.bfa-lebanon.com/assets/photos/18775-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18764-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18771-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18855-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/18854-1200.webp",
+    "https://www.bfa-lebanon.com/assets/photos/20686-1200.webp"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-balamand-varsity",
+   "cat": "community",
+   "title": "University of Balamand varsity teams – volleyball, football, futsal, basketball, track & field, tennis, swimming, handball and more",
+   "org": "University of Balamand – Office of Athletics, Wellness and Recreation",
+   "place": "Koura (Balamand), Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Training schedules set by each coach; tryouts at the beginning of each semester",
+   "meet": "Hariri Gymnasium, Philip Saliba Field and outdoor tennis courts of the athletic complex",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "other",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Students; all may train with varsity teams, key players selected at tryouts",
+     "University: University of Balamand registered students only",
+     "Nationality/residency: Not stated",
+     "Age: University students",
+     "Team: Varsity teams – volleyball (M/W), soccer (M), futsal (M/W), basketball (M/W), track & field (M/W), tennis (M/W), table tennis (M/W), swimming (M/W), badminton (M/W), handball (M), rugby (M)",
+     "Competitions: University tournaments and FSUL rules apply; possible international team travel",
+     "Season: Academic year (fall and spring semesters)",
+     "Other: medical and academic eligibility; athletic scholarships described in the handbook"
+    ]
+   },
+   "money": [
+    [
+     "Athletic scholarship",
+     "Available (see Student-Athlete Handbook)",
+     "info"
+    ],
+    [
+     "Team fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Submit a Varsity Team Application Form (one per sport) to the coach at the start of the semester – online at forms.balamand.edu.lb/VarsityTeam/.",
+    "Pass the medical/academic eligibility check and tryouts."
+   ],
+   "contact": [
+    [
+     "Email",
+     "athletics@balamand.edu.lb",
+     "Student-Athlete Handbook 2025-2026"
+    ],
+    [
+     "Phone",
+     "UOB ext. 1717 / 1711",
+     "Student-Athlete Handbook 2025-2026"
+    ]
+   ],
+   "url": "http://www.balamand.edu.lb/CurrentStudents/CampusLife/Documents/Athletics/StudentAthleteHandbook.pdf",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-lebanese-university-teams",
+   "cat": "community",
+   "title": "Lebanese University (LU) sports teams – football, mini-football, basketball, volleyball (men); basketball and futsal (women); athletics and tennis",
+   "org": "Lebanese University – Sports Activities Department",
+   "place": "Hadath, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Team selection tests before the university championships; schedules not published",
+   "meet": "Sports complex, Rafik Hariri University Campus, Hadath",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "other",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Students; teams formed through selection tests",
+     "University: Lebanese University students only",
+     "Nationality/residency: Not stated",
+     "Age: University students",
+     "Team: University teams",
+     "Competitions: Lebanese university championships (Lebanese University Sports Federation programme of 19 sports); internal faculty mini-football tournaments",
+     "Season: Academic year (championships started 20 Jan in 2025)"
+    ]
+   },
+   "money": [
+    [
+     "Fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Contact the LU Sports Activities Department in your branch to join selection tests."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 612830",
+     "LU main line (official site)"
+    ]
+   ],
+   "url": "https://ul.edu.lb/en/lebanese-university-teams-complete-new-phase-preparatory-tests-lebanese-championships",
+   "confidence": "Medium",
+   "caveat": "Based on a January 2025 LU news item; current test dates not published.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": "https://ul.edu.lb/sites/default/files/2025-01/20250120-ULSAD-SpAc-WebsiteNewsCover.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://ul.edu.lb/themes/lebaneseuni/img/SDG.png",
+    "https://www.ul.edu.lb/sites/default/files/styles/280x183/public/2026-10/20261021-LU-Me-ProfBadran-WebsiteNewsCover.jpg?itok=9VY9hR_D",
+    "https://ul.edu.lb/sites/default/files/styles/280x183/public/2026-10/20261021-LU-Int-ProfBadran-VDL-WebsiteNewsCover.jpg?itok=Mg-grfQq",
+    "https://ul.edu.lb/sites/default/files/styles/280x183/public/2026-10/20261021-LU-HoCe-ProfBadran-WebsiteNewsCover.jpg?itok=-DsCuEmW",
+    "https://ul.edu.lb/sites/default/files/styles/280x183/public/2026-10/20261021-ULFS-Alumni-GhenwaKataya-WebsiteNewsCover.jpg?itok=pPG_tGcP",
+    "https://ul.edu.lb/sites/default/files/styles/280x183/public/2026-10/20261020-ULFE-Br2-StIn-WebsiteNewsCover.jpg?itok=_-B1i3TG"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-lebanon-rugby-league-clubs",
+   "cat": "community",
+   "title": "Lebanon Rugby League clubs – domestic championship (Immortals, Jounieh, Wolves, Tripoli, Lycans), college, schools and women's competitions",
+   "org": "Lebanese Rugby League Federation",
+   "place": "Lebanon (federation office: Jal el Dib)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Championship November to April (Grand Final) per the federation page",
+   "meet": "Venues not stated (friendlies held at Champville)",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "other",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open – club, college, schools and women's competitions",
+     "University: College Rugby League D1/D2 for universities",
+     "Nationality/residency: Not stated",
+     "Age: Schools leagues (Mount Lebanon, North, National) for school students; senior club league",
+     "Team: Rugby league clubs",
+     "Competitions: Lebanon Rugby League, College Rugby League D1 & D2, Schools Rugby League, Women Rugby League (in development)",
+     "Season: November to April"
+    ]
+   },
+   "money": [
+    [
+     "Club fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Registration",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Fill the federation's online Player Registration form (linked on lebanonrl.com).",
+    "Or contact the federation via its contact page."
+   ],
+   "contact": [
+    [
+     "Address",
+     "Arez Center, 11th floor, Route 51M, Jal el Dib",
+     "Federation site"
+    ],
+    [
+     "Web",
+     "https://lebanonrl.com/Contact",
+     "Federation contact page"
+    ]
+   ],
+   "url": "https://lebanonrl.com/competitions/lebanon-rugby-league",
+   "confidence": "Medium",
+   "caveat": "Club contacts and training times not published; the page also shows a September 2026 Grand Final, inconsistent with the April listing.",
    "verified": "2026-10-24",
    "source": "bulk-clubs-sports",
    "added": "2026-10-24",
