@@ -652,8 +652,7 @@ const jitter=id=>(hash(id+SESSION_SEED)%1000)/1000;
 function affinity(o){let a=S.aff["org:"+orgKey(o)]||0;for(const t of topicsOf(o))a+=S.aff[t]||0;return Math.max(-30,Math.min(30,a))}
 function rankForYou(o){
   const seen=Math.min(S.seen[o.id]||0,3),fresh=o.added&&Date.now()-new Date(o.added)<3*DAY?8:0;
-  const ss=seasonState(o);
-  return score(o).s+affinity(o)*1.5-seen*10+fresh+jitter(o.id)*18+(ss?(ss.in?12:-25):0);
+  return score(o).s+affinity(o)*1.5-seen*10+fresh+jitter(o.id)*18;
 }
 function bump(o,w){for(const t of topicsOf(o))S.aff[t]=(S.aff[t]||0)+w;const k="org:"+orgKey(o);S.aff[k]=(S.aff[k]||0)+w/2}
 
@@ -662,7 +661,8 @@ function feedItems(){
   // Ended events stay (registration closed, happening now, or over with their photos), except jobs,
   // and except when you sort or filter by deadline, where only open ones make sense.
   const showEnded=f0.ended!==false&&!strict&&f0.when==="any"&&!(f0.dlMode&&f0.dlDate);
-  let list=OPPS.filter(o=>(!isClosed(o)||(showEnded&&!o.job))&&!S.hidden.includes(o.id)&&o.elig.status!=="no");
+  // Ski resorts, beaches and other seasonal places join the feed when their season starts.
+  let list=OPPS.filter(o=>(!isClosed(o)||(showEnded&&!o.job))&&!S.hidden.includes(o.id)&&o.elig.status!=="no"&&!(seasonState(o)&&!seasonState(o).in));
   const tp=S.profile.topics||[];
   if(tp.length)list=list.filter(o=>tp.some(k=>topicsOf(o).has(k)));
   list=list.filter(passFilters);
@@ -676,7 +676,6 @@ function feedItems(){
   const main=list.filter(o=>!reachReason(o)),reach=list.filter(o=>reachReason(o));
   let out=S.profile.reach?main.concat(reach):main;
   // Jobs outnumber everything else; unless you filter for jobs/internships, show at most one job per 5 cards.
-  if(!strict&&!(S.profile.topics||[]).some(k=>k==="ski"||k==="beaches")){const off=out.filter(o=>{const ss=seasonState(o);return ss&&!ss.in});if(off.length)out=out.filter(o=>!off.includes(o)).concat(off)}
   // Ended events come one every 6 cards, after the open ones around them.
   if(showEnded){const ended=out.filter(isClosed),open=out.filter(o=>!isClosed(o)),mix=[];
     open.forEach((o,i)=>{mix.push(o);if(i%5===4&&ended.length)mix.push(ended.shift())});out=mix.concat(ended)}
