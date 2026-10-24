@@ -666,7 +666,8 @@ function openFilters(){
       <div class="flabel">Sort by</div>`+Object.entries(SORTS).map(([k,l])=>opt(`data-fset="sort:${k}"`,f.sort===k,l)).join("");
   }else{
     const row=(page,label,val)=>`<button class="frow" data-fpage="${page}"><span><b>${label}</b><small>${val}</small></span><em>Change</em></button>`;
-    body=head("Filters")+row("category","Category",sum.category)+row("location","Location",sum.location)+
+    // Categories (Football, Tournaments…) live only as chips on the feed, not here.
+    body=head("Filters")+row("location","Location",sum.location)+
       `<div class="frow static"><span><b>Fee (USD)</b></span><div class="minmax"><input id="f-min" class="inp" type="number" inputmode="numeric" min="0" placeholder="Min" value="${f.feeMin}"><input id="f-max" class="inp" type="number" inputmode="numeric" min="0" placeholder="Max" value="${f.fee==="any"?"":f.fee}"></div></div>`+
       row("deadline","Deadline",sum.deadline)+row("money","Funding & prizes",sum.money)+row("more","More details",sum.more);
   }
