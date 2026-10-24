@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T10:40:45.509Z",
- "count": 2161,
+ "updated": "2026-10-24T10:42:14.957Z",
+ "count": 2191,
  "opportunities": [
   {
    "id": "hk-taskforge",
@@ -593,11 +593,7 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "verified": "2026-10-22",
-   "source": "bulk-lebanon",
-   "added": "2026-10-22",
-   "rolling": false,
-   "id": "cf-d-lau-psychology-research-day-2026",
+   "id": "lb-lau-psychology-research-day-2026",
    "cat": "research",
    "title": "Lamia Sabbah Ali-Ahmad National Psychology Research Day 2026 (and AI & Mental Health Pitch Competition)",
    "org": "LAU Department of Psychology and Education",
@@ -608,6 +604,7 @@
    "feeText": "Not stated",
    "deadline": "2026-10-26",
    "eventDate": "2026-11-21T08:30:00+02:00",
+   "rolling": false,
    "deadlineText": "Pitch competition proposals: 26 Oct 2026 (abstract deadline 13 Sep already passed); attendance registration open",
    "when": "Sat 21 Nov 2026, 8:30 AM-4:00 PM",
    "meet": "8:30 AM registration, LAU Beirut campus",
@@ -615,7 +612,6 @@
    "tags": [
     "research"
    ],
-   "prize": "Awards ceremony at 3:30 PM",
    "elig": {
     "status": "ok",
     "lines": [
@@ -637,7 +633,10 @@
    "contact": [],
    "url": "https://soas.lau.edu.lb/conferences/the-lamia-sabbah-ali-ahmed-national-psychology-research-day-2026.php",
    "confidence": "High",
-   "caveat": "Abstract submissions closed on 13 Sep 2026; only the pitch track and attendance remain open.",
+   "verified": "2026-10-22",
+   "source": "bulk-lebanon",
+   "added": "2026-10-22",
+   "prize": "Awards ceremony at 3:30 PM",
    "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
@@ -795,6 +794,80 @@
    "gallery": [
     "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9266/event_cover_3x_ATCL_Aquathlon_for_Ihjoz.jpg"
    ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "verified": "2026-10-22",
+   "source": "bulk-conferences",
+   "added": "2026-10-22",
+   "rolling": false,
+   "id": "cf-d-lau-psychology-research-day-2026",
+   "cat": "research",
+   "title": "Lamia Sabbah Ali-Ahmad National Psychology Research Day 2026",
+   "org": "LAU Department of Psychology and Education",
+   "place": "LAU Beirut campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "No fee mentioned",
+   "deadline": "2026-10-26T23:59:00+03:00",
+   "eventDate": "2026-11-21T08:30:00+02:00",
+   "deadlineText": "Research pitch proposals due 26 Oct 2026 (abstract deadline 13 Sep has passed; attendance registration still open)",
+   "when": "Sat 21 Nov 2026, 8:30-16:00. Theme: Resilience, Healing, and Human Growth",
+   "meet": "Registration 8:30 at LAU Beirut",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "prize": "Cash prizes for best oral and best poster; best pitch wins a small seed fund with LAU faculty mentorship",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: \"Undergraduate and graduate students\" submit abstracts",
+     "University: Students \"from various Lebanese psychology departments / programs\" (AUB, USJ, USEK, Balamand \"among others\")",
+     "Nationality/residency: No nationality rule stated; national event aimed at students of Lebanese universities",
+     "Age: Not stated",
+     "Team: Pitch competition: \"You can apply individually; you do not need to have a team\" (students are matched into groups)",
+     "Other: Conference language is English; abstracts max 300 words and must include ethics committee approval numbers",
+     "Other: Pitch competition says \"students from all disciplines are welcome\" but also \"invites psychology students\""
+    ]
+   },
+   "money": [
+    [
+     "Participation",
+     "No fee mentioned",
+     "ns"
+    ],
+    [
+     "Best oral / poster",
+     "Monetary prize (amount not stated)",
+     "info"
+    ],
+    [
+     "Best pitch",
+     "Small seed fund",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Read the official conference page.",
+    "Submit a research pitch proposal via the pitch Google Form by 26 Oct 2026, or just register to attend via the attendance form.",
+    "Attend on 21 Nov at LAU Beirut."
+   ],
+   "contact": [
+    [
+     "Co-organisers",
+     "Dr. Sahar Obeid and Dr. Pia Tohme",
+     "Named on the official page"
+    ]
+   ],
+   "url": "https://soas.lau.edu.lb/conferences/the-lamia-sabbah-ali-ahmed-national-psychology-research-day-2026.php",
+   "confidence": "High",
+   "caveat": "Abstract submissions closed on 13 Sep 2026; only the pitch track and attendance remain open.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -3834,6 +3907,63 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "ex-aub-fall-2027-early-merit",
+   "cat": "exchange",
+   "title": "AUB undergraduate admission Fall 2027 – Early Merit round",
+   "org": "American University of Beirut",
+   "place": "Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2026-10-31T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "31 Oct 2026",
+   "when": "Opened 1 Jul 2026; latest SAT considered Oct 2026; decision by end of Dec 2026",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Freshman and sophomore applicants (school students)",
+     "University: Not applicable (applying to AUB)",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: SAT considered up to the stated latest sitting; English proficiency required"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and apply online."
+   ],
+   "contact": [],
+   "url": "https://www.aub.edu.lb/admissions/Pages/deadlines.aspx",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "caveat": "Merit scholarships/financial aid listed separately.",
+   "degree": "bachelor",
+   "admission": true,
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "ex-aub-spring-2027-freshman",
    "cat": "exchange",
    "title": "AUB Spring 2026-27 regular freshman admission",
@@ -5168,6 +5298,65 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "ex-lau-fall-2027-phase1",
+   "cat": "exchange",
+   "title": "LAU undergraduate admission Fall 2027 – Phase I",
+   "org": "Lebanese American University",
+   "place": "Beirut / Byblos",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 60,
+   "feeText": "$60 application fee",
+   "deadline": "2026-11-01T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "1 Nov 2026",
+   "when": "Complete file incl. Grade 10–11 grades; SAT taken no later than Oct 2026",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (freshman/sophomore)",
+     "University: Not applicable",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Grades 10–11 transcripts, SAT I scores, English proficiency (SAT EBRW, TOEFL, IELTS, LAU EEE, ACT Writing or Duolingo)"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "$60 (card, OMT or BLOM Bank)",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Submit the LAU online application or Common App and pay $60.",
+    "Activate your LAU Portal account (credentials emailed within 3–10 working days).",
+    "Upload documents and track your decision in the Portal."
+   ],
+   "contact": [],
+   "url": "https://www.lau.edu.lb/apply/freshman.php",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "caveat": "LAU's deadlines page lists the Phase II SAT cut-off as Dec 2026; the freshman page says Oct 2026 for Phase I.",
+   "degree": "bachelor",
+   "admission": true,
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "lr-acss-sgp-cycle-11-2026",
    "cat": "research",
    "title": "ACSS Small Grants Program Cycle 11: Constantine Zurayk - Nation, Identity, and History",
@@ -5570,7 +5759,7 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "ex-lau-fall-2027-phase1",
+   "id": "ul-lau-undergraduate-fall-2027",
    "cat": "exchange",
    "title": "LAU — Undergraduate admission (Spring & Fall 2027)",
    "org": "Lebanese American University (LAU)",
@@ -5589,7 +5778,6 @@
    "tags": [
     "exchange"
    ],
-   "exam": true,
    "elig": {
     "status": "ok",
     "lines": [
@@ -5669,12 +5857,11 @@
    ],
    "url": "https://www.lau.edu.lb/apply/freshman.php",
    "confidence": "High",
+   "degree": "bachelor",
+   "admission": true,
    "verified": "2026-10-24",
    "source": "bulk-uni-lb",
    "added": "2026-10-24",
-   "caveat": "LAU's deadlines page lists the Phase II SAT cut-off as Dec 2026; the freshman page says Oct 2026 for Phase I.",
-   "degree": "bachelor",
-   "admission": true,
    "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
@@ -7252,6 +7439,67 @@
     "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvNTUyNGI0NmJkYzI0ZjgzZjlmOTkxN2FmMDY1MThlZmVlYmI1OGQ0YmIxOTA4Mjg2LmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjE5MjAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sInNoYXJwZW4iOnRydWV9fQ==",
     "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvYThmMzMzNjVmYTM3YjY1NDVkOWQyMTU0Y2FlYTY0OTE0MmNjZDgyY2MwZTM4NzczLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwic2hhcnBlbiI6dHJ1ZX19"
    ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ex-aub-en-nov-2026",
+   "cat": "exchange",
+   "title": "AUB English test (AUB-EN) – 5–6 Nov 2026",
+   "org": "AUB Testing Center",
+   "place": "Dr. Samer Kamil Al-Rayyes Hall (Nicely 500), AUB, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "$50",
+   "deadline": "2026-11-04T23:59:00+02:00",
+   "eventDate": "2026-11-05",
+   "rolling": false,
+   "deadlineText": "Registration 2–4 Nov 2026",
+   "when": "Thu 5 Nov or Fri 6 Nov 2026, 9:00–13:00. Next: 10–11 Dec 2026 (registration 7–9 Dec)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: AUB applicants (students already registered at AUB cannot sit)",
+     "University: Not applicable",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Original photo ID, HB pencil, pen, eraser"
+    ]
+   },
+   "money": [
+    [
+     "AUB-EN exam fee",
+     "$50",
+     "info"
+    ],
+    [
+     "Writing Placement Test (WT)",
+     "$25",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Register online via join.aub.edu.lb during the registration dates.",
+    "Pay $50; registration cannot be moved or refunded.",
+    "Bring original photo ID on exam day; results within 9 working days."
+   ],
+   "contact": [],
+   "url": "https://www.aub.edu.lb/TestingCenter/Pages/On-line-Registration.aspx",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -10230,6 +10478,87 @@
    "source": "bulk-lb-leisure",
    "added": "2026-10-24",
    "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ex-act-dec-2026",
+   "cat": "exchange",
+   "title": "ACT (international) – 11–12 Dec 2026",
+   "org": "ACT",
+   "place": "International ACT test centres (check MyACT for a Lebanon centre)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 188.5,
+   "feeText": "$188.50 (base, non-US)",
+   "deadline": "2026-11-13T23:59:00+02:00",
+   "eventDate": "2026-12-11",
+   "rolling": false,
+   "deadlineText": "Registration deadline 13 Nov 2026; late deadline 27 Nov 2026 (late fee $42). Time zone not stated.",
+   "when": "Test 11–12 Dec 2026. Other international dates: 11–12 Dec 2026, 12–13 Feb 2027, 2–3 Apr 2027, 11–12 Jun 2027, 9–10 Jul 2027.",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all (mainly high-school students)",
+     "University: Not applicable",
+     "Nationality/residency: International (non-US) registration; Lebanon not mentioned on the dates page",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "The ACT (English, math, reading)",
+     "$188.50",
+     "info"
+    ],
+    [
+     "With Science",
+     "$198.50",
+     "info"
+    ],
+    [
+     "With Writing",
+     "$213.50",
+     "info"
+    ],
+    [
+     "With Science and Writing",
+     "$223.50",
+     "info"
+    ],
+    [
+     "Late registration",
+     "$42",
+     "info"
+    ],
+    [
+     "Test date/centre change",
+     "$49",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Create a MyACT account on global.act.org.",
+    "Pick an international test date and an available test centre.",
+    "Pay the non-US fee by card and print your admission ticket."
+   ],
+   "contact": [],
+   "url": "https://global.act.org/content/global/en/products-and-services/the-act-non-us/registration.html",
+   "confidence": "Medium",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "caveat": "The ACT pages did not confirm a test centre in Lebanon; check centre availability in MyACT before relying on this date.",
+   "image": "https://www.act.org/content/dam/act/unsecured/Images/facebook-og-homepage-image.png",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -15755,7 +16084,7 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "ex-lau-fall-2027-phase2",
+   "id": "ex-lau-spring-2027-ug",
    "cat": "exchange",
    "title": "LAU undergraduate admission Spring 2027",
    "org": "Lebanese American University",
@@ -15797,6 +16126,59 @@
     "Submit the LAU online application or Common App and pay $60.",
     "Activate your LAU Portal account (credentials emailed within 3–10 working days).",
     "Upload documents and track your decision in the Portal."
+   ],
+   "contact": [],
+   "url": "https://www.lau.edu.lb/apply/deadlines.php",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ex-lau-spring-2027-grad",
+   "cat": "exchange",
+   "title": "LAU graduate admission Spring 2027 (and Graduate Assistantship)",
+   "org": "Lebanese American University",
+   "place": "Beirut / Byblos",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2026-11-30T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "30 Nov 2026",
+   "when": "Spring 2027 entry",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Bachelor's degree holders",
+     "University: Any",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and apply online."
    ],
    "contact": [],
    "url": "https://www.lau.edu.lb/apply/deadlines.php",
@@ -15923,7 +16305,7 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "ex-haigazian-spring-2027-ug",
+   "id": "ul-haigazian-graduate-2027",
    "cat": "exchange",
    "title": "Haigazian University — Master's admission (Spring & Fall 2027)",
    "org": "Haigazian University",
@@ -15942,7 +16324,6 @@
    "tags": [
     "exchange"
    ],
-   "exam": true,
    "elig": {
     "status": "check",
     "lines": [
@@ -16010,6 +16391,8 @@
    ],
    "url": "https://www.haigazian.edu.lb/admissions/",
    "confidence": "Medium",
+   "degree": "master",
+   "admission": true,
    "verified": "2026-10-24",
    "source": "bulk-uni-lb",
    "added": "2026-10-24",
@@ -16018,9 +16401,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
-   "degree": "master",
-   "admission": true
+   "galleryChecked": "2026-10-24"
   },
   {
    "travel": true,
@@ -18358,6 +18739,82 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "cf-c-aaai-27-student-scholar-volunteer",
+   "cat": "research",
+   "title": "AAAI-27 Student Scholar and Volunteer Program",
+   "org": "Association for the Advancement of Artificial Intelligence (AAAI)",
+   "place": "Montreal, Canada",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": null,
+   "feeText": "AAAI membership required (fee not stated on the page); complimentary technical registration for selected volunteers",
+   "deadline": "2026-12-04T23:59:00-05:00",
+   "eventDate": "2027-02-16",
+   "rolling": false,
+   "deadlineText": "Application window 30 Nov 2026 00:01 ET to 4 Dec 2026 23:59 ET",
+   "when": "AAAI-27, 16-23 Feb 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research",
+    "volunteering"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: \"Full-time undergraduate or graduate students at colleges and universities\"",
+     "University: Any college or university",
+     "Nationality/residency: No nationality or country requirement stated; local students not needing travel help may also apply",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: \"AAAI membership is required for eligibility\"; must have submitted paper(s) to AAAI-27; letter(s) of recommendation from the faculty advisor",
+     "Other: Repeat applicants must have met previous volunteer and reporting requirements"
+    ]
+   },
+   "money": [
+    [
+     "Travel",
+     "Partial travel support",
+     "partial"
+    ],
+    [
+     "Registration",
+     "Limited complimentary technical registrations for volunteers",
+     "partial"
+    ],
+    [
+     "Hotel",
+     "Not mentioned",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Become an AAAI member and have a paper submitted to AAAI-27.",
+    "Apply between 30 Nov and 4 Dec 2026 with a faculty recommendation letter.",
+    "Do not register for the conference before you hear back."
+   ],
+   "contact": [
+    [
+     "Email",
+     "scholars@aaai.org",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://aaai.org/conference/aaai/aaai-27/student-scholar-volunteer-program/",
+   "confidence": "High",
+   "caveat": "Only for students who submitted a paper to AAAI-27; priority to accepted papers when funds are limited. Canadian visa needed.",
+   "verified": "2026-10-22",
+   "source": "bulk-conferences",
+   "added": "2026-10-22",
+   "image": "https://aaai.org/wp-content/uploads/2026/03/AAAI-Logo-Mark-White.png",
+   "logo": "https://aaai.org/wp-content/uploads/2022/12/cropped-white-logo-192x192.png",
+   "imageChecked": "2026-10-22",
+   "gallery": [
+    "https://aaai.org/wp-content/uploads/2026/03/AAAI-27-PalaisDesCongresDeMontreal-2000x1333-1.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "cat": "career",
    "feeUSD": 0,
    "feeText": "Free",
@@ -18431,7 +18888,7 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "cf-c-aaai-27-student-scholar-volunteer",
+   "id": "sc-ri-aaai27-student-scholar-volunteer",
    "cat": "research",
    "title": "AAAI-27 Student Scholar Volunteer Program (travel support)",
    "org": "Association for the Advancement of Artificial Intelligence (AAAI)",
@@ -18445,7 +18902,6 @@
    "rolling": false,
    "deadlineText": "Window 30 Nov – 4 Dec 2026, 23:59 ET",
    "when": "AAAI-27 conference, 16–23 Feb 2027",
-   "meet": "Not stated",
    "team": "Individual",
    "tags": [
     "research"
@@ -18490,13 +18946,12 @@
    ],
    "url": "https://aaai.org/conference/aaai/aaai-27/student-scholar-volunteer-program/",
    "confidence": "High",
-   "caveat": "Only for students who submitted a paper to AAAI-27; priority to accepted papers when funds are limited. Canadian visa needed.",
    "verified": "2026-10-22",
    "source": "bulk-scholarships",
    "added": "2026-10-22",
    "image": "https://aaai.org/wp-content/uploads/2026/03/AAAI-Logo-Mark-White.png",
    "logo": "https://aaai.org/wp-content/uploads/2022/12/cropped-white-logo-192x192.png",
-   "imageChecked": "2026-10-22",
+   "imageChecked": "2026-10-24",
    "gallery": [
     "https://aaai.org/wp-content/uploads/2026/03/AAAI-27-PalaisDesCongresDeMontreal-2000x1333-1.jpg"
    ],
@@ -19016,7 +19471,7 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "ex-aub-en-nov-2026",
+   "id": "ex-aub-en-dec-2026",
    "cat": "exchange",
    "title": "AUB English test (AUB-EN) – 10–11 Dec 2026",
    "org": "AUB Testing Center",
@@ -19071,6 +19526,180 @@
    "source": "bulk-exams",
    "added": "2026-10-24",
    "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ex-haigazian-spring-2027-ug",
+   "cat": "exchange",
+   "title": "Haigazian University undergraduate admission – Spring",
+   "org": "Haigazian University",
+   "place": "Beirut (Kantari)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2026-12-09T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "9 Dec (graduate programs: 30 Nov)",
+   "when": "Spring semester entry; Fall deadline 1 Apr",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers; graduate applicants for MA/MBA",
+     "University: Not applicable",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: English test (Institutional TOEFL, iBT, SAT or IELTS)"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and apply online."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admissions@haigazian.edu.lb",
+     "Admissions Office"
+    ],
+    [
+     "Phone",
+     "+961 1 349 230/1",
+     "Admissions Office"
+    ],
+    [
+     "Mobile",
+     "81 877 100",
+     "Admissions Office"
+    ]
+   ],
+   "url": "https://www.haigazian.edu.lb/admissions/",
+   "confidence": "Medium",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "caveat": "The admissions page gives day/month without a year; assumed to apply to the 2026-27 cycle.",
+   "image": "https://www.haigazian.edu.lb/wp-content/uploads/2022/05/AdmissionMain-scaled.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24",
+   "degree": "master",
+   "admission": true
+  },
+  {
+   "id": "ul-haigazian-undergraduate-2027",
+   "cat": "exchange",
+   "title": "Haigazian University — Undergraduate admission (Spring & Fall 2027)",
+   "org": "Haigazian University",
+   "place": "Beirut (Kantari/Hamra), Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 30,
+   "feeText": "Application fee: USD 30 (non-refundable)",
+   "deadline": "2026-12-09T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Spring: 9 Dec (undergraduate). Fall: 1 Apr. (Years not printed on the page.)",
+   "when": "Spring 2027 and Fall 2027 intakes; admission based on academic record, character recommendation and entrance exam results.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated on the admissions page (international students have a separate page)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Academic record, character recommendation and entrance exam results",
+     "Admission is Regular or Probationary; enrol within two semesters of acceptance"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 335 per credit (undergraduate); 2026-27 special subsidy of 10% on undergraduate tuition",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 30 (non-refundable)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Financial aid for new students: apply by 30 Nov (Spring) / 30 Apr (academic year)",
+     "partial"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Submit the online application.",
+    "Send all required documents to the Admissions Office.",
+    "Sit the entrance exam if required.",
+    "Receive the decision letter by email."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admissions@haigazian.edu.lb",
+     "Admissions Office"
+    ],
+    [
+     "Phone",
+     "+961 1 349 230",
+     "Admissions Office (ext. 1)"
+    ],
+    [
+     "Mobile",
+     "81 877 100",
+     "Admissions Office"
+    ]
+   ],
+   "url": "https://www.haigazian.edu.lb/admissions/",
+   "confidence": "Medium",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Deadlines are listed without years; confirm the 2026-27 cycle with the Admissions Office.",
+   "image": "https://www.haigazian.edu.lb/wp-content/uploads/2022/05/AdmissionMain-scaled.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -20071,6 +20700,73 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "ex-usj-2027-early-period",
+   "cat": "exchange",
+   "title": "USJ admission 2027-28 – early period (incl. Medicine & Dentistry entrance exam)",
+   "org": "Université Saint-Joseph de Beyrouth",
+   "place": "Beirut (exams at Campus des sciences médicales, rue de Damas)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 150,
+   "feeText": "$150 file fee",
+   "deadline": "2026-12-17T15:30:00+02:00",
+   "eventDate": "2027-01-08",
+   "rolling": false,
+   "deadlineText": "File submission 19 Oct – 17 Dec 2026",
+   "when": "FM/FMD entrance exams: chemistry, maths, culture 8 Jan 2027; physics, biology 9 Jan 2027. Results end Jan / mid-Feb 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Secondary-school students (Grade 10–11 grades for the early period)",
+     "University: Not applicable",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: FM, FMD and FP candidates may sit the entrance exam at most twice"
+    ]
+   },
+   "money": [
+    [
+     "Application fee (all 3 periods)",
+     "$150 (non-refundable)",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Apply online at admission.usj.edu.lb or at a USJ reception office (CSH, CFDSS, CST, CLN, CLS, CZB).",
+    "Choose up to 9 programmes in order of priority and attach documents.",
+    "Pay the $150 file fee."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 421 000",
+     "USJ"
+    ],
+    [
+     "Email",
+     "info@usj.edu.lb",
+     "USJ"
+    ]
+   ],
+   "url": "https://www.usj.edu.lb/admission/",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "ul-usj-undergraduate-2027",
    "cat": "exchange",
    "title": "USJ — Undergraduate (1st cycle) admission 2027-28",
@@ -20341,7 +21037,77 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "ex-balamand-entrance-exams-2026-27",
+   "id": "ex-balamand-spring-2027",
+   "cat": "exchange",
+   "title": "University of Balamand admission – Spring 2026-27 (regular)",
+   "org": "University of Balamand",
+   "place": "Lebanon (UOB campuses)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2026-12-18T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "18 Dec 2026",
+   "when": "Spring semester 2026-27 entry",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (Lebanese Baccalaureate, IB, IGCSE, French Bac or equivalent)",
+     "University: Not applicable",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: SAT required for most majors (exemptions listed); Language Aptitude Tests"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and apply online."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@balamand.edu.lb",
+     "General inquiries"
+    ],
+    [
+     "Email",
+     "orientation@balamand.edu.lb",
+     "Orientation (live chat 14:00–16:00 Mon–Fri)"
+    ]
+   ],
+   "url": "https://www.balamand.edu.lb/ProspectiveStudents/Pages/UndergraduateAdmissions.aspx",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.balamand.edu.lb/ProspectiveStudents/PublishingImages/FOMApps.jpg",
+    "https://www.balamand.edu.lb/Style%20Library/responsive/images/cover_prospective.jpg",
+    "https://www.balamand.edu.lb/ProspectiveStudents/PublishingImages/Banner/Prospective-Students.jpg",
+    "https://www.balamand.edu.lb/Style%20Library/responsive/images/aboutpic.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-balamand-undergraduate-2027",
    "cat": "exchange",
    "title": "University of Balamand — Undergraduate admission (Spring & Fall 2027)",
    "org": "University of Balamand (UOB)",
@@ -20360,7 +21126,6 @@
    "tags": [
     "exchange"
    ],
-   "exam": true,
    "elig": {
     "status": "check",
     "lines": [
@@ -20427,6 +21192,8 @@
    ],
    "url": "https://balamand.edu.lb/ProspectiveStudents/Pages/UndergraduateAdmissions.aspx",
    "confidence": "High",
+   "degree": "bachelor",
+   "admission": true,
    "verified": "2026-10-24",
    "source": "bulk-uni-lb",
    "added": "2026-10-24",
@@ -20435,14 +21202,12 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.balamand.edu.lb/ProspectiveStudents/PublishingImages/FOMApps.jpg",
-    "https://www.balamand.edu.lb/Style%20Library/responsive/images/cover_prospective.jpg",
-    "https://www.balamand.edu.lb/ProspectiveStudents/PublishingImages/Banner/Prospective-Students.jpg",
-    "https://www.balamand.edu.lb/Style%20Library/responsive/images/aboutpic.jpg"
+    "https://balamand.edu.lb/ProspectiveStudents/PublishingImages/FOMApps.jpg",
+    "https://balamand.edu.lb/Style%20Library/responsive/images/cover_prospective.jpg",
+    "https://balamand.edu.lb/ProspectiveStudents/PublishingImages/Banner/Prospective-Students.jpg",
+    "https://balamand.edu.lb/Style%20Library/responsive/images/aboutpic.jpg"
    ],
-   "galleryChecked": "2026-10-24",
-   "degree": "bachelor",
-   "admission": true
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "et-marwan-khoury-casino-2026",
@@ -20676,7 +21441,61 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "ex-aub-fall-2027-early-merit",
+   "id": "ex-aub-fall-2027-regular",
+   "cat": "exchange",
+   "title": "AUB undergraduate admission Fall 2027 – Regular round",
+   "org": "American University of Beirut",
+   "place": "Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2026-12-20T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "20 Dec 2026",
+   "when": "Opens 1 Nov 2026; latest SAT considered Dec 2026; decision by end of Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Freshman and sophomore applicants",
+     "University: Not applicable (applying to AUB)",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: SAT considered up to the stated latest sitting; English proficiency required"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and apply online."
+   ],
+   "contact": [],
+   "url": "https://www.aub.edu.lb/admissions/Pages/deadlines.aspx",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-aub-undergraduate-fall-2027",
    "cat": "exchange",
    "title": "AUB — Undergraduate admission (Fall 2027)",
    "org": "American University of Beirut (AUB)",
@@ -20695,7 +21514,6 @@
    "tags": [
     "exchange"
    ],
-   "exam": true,
    "elig": {
     "status": "ok",
     "lines": [
@@ -20763,12 +21581,11 @@
    ],
    "url": "https://www.aub.edu.lb/admissions/Pages/deadlines.aspx",
    "confidence": "High",
+   "degree": "bachelor",
+   "admission": true,
    "verified": "2026-10-24",
    "source": "bulk-uni-lb",
    "added": "2026-10-24",
-   "caveat": "Merit scholarships/financial aid listed separately.",
-   "degree": "bachelor",
-   "admission": true,
    "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
@@ -25029,6 +25846,62 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "ex-lau-fall-2027-phase2",
+   "cat": "exchange",
+   "title": "LAU undergraduate admission Fall 2027 – Phase II",
+   "org": "Lebanese American University",
+   "place": "Beirut / Byblos",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 60,
+   "feeText": "$60 application fee",
+   "deadline": "2027-01-15T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "15 Jan 2027",
+   "when": "Complete file incl. Grade 10–11 grades; SAT taken no later than Dec 2026",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (freshman/sophomore)",
+     "University: Not applicable",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Grades 10–11 transcripts, SAT I scores, English proficiency (SAT EBRW, TOEFL, IELTS, LAU EEE, ACT Writing or Duolingo)"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "$60 (card, OMT or BLOM Bank)",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Submit the LAU online application or Common App and pay $60.",
+    "Activate your LAU Portal account (credentials emailed within 3–10 working days).",
+    "Upload documents and track your decision in the Portal."
+   ],
+   "contact": [],
+   "url": "https://www.lau.edu.lb/apply/deadlines.php",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "lr-oib-internship-2027",
    "cat": "research",
    "title": "Orient-Institut Beirut Internships (May-September 2027 starts)",
@@ -26639,6 +27512,68 @@
    "gallery": [
     "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
     "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/dsc05329_123810_174110802.jpg?w=1920"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ex-ndu-fall-2027-early",
+   "cat": "exchange",
+   "title": "NDU admission Fall 2027 – Early Admission",
+   "org": "Notre Dame University–Louaize (NDU)",
+   "place": "NDU Zouk Mosbeh (main), Shouf and North Lebanon campuses",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2027-01-22T12:00:00+02:00",
+   "eventDate": "2027-01-30",
+   "rolling": false,
+   "deadlineText": "22 Jan 2027, noon (window opens 7 Dec 2026)",
+   "when": "Exam 30 Jan 2027; decision 1 Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers and transfer students",
+     "University: Not applicable",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Without SAT/IELTS/TOEFL scores you must sit the NDU English Entrance Test and Math Aptitude Test"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and apply online."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admission@ndu.edu.lb",
+     "NDU Admissions"
+    ]
+   ],
+   "url": "https://www.ndu.edu.lb/admissions/important-dates",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/dsc06888_123448_174428113.jpg?w=1920"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -29059,6 +29994,90 @@
   {
    "id": "cf-b-heidelberg-laureate-forum-2027",
    "cat": "research",
+   "title": "14th Heidelberg Laureate Forum 2027 (Young Researchers in Mathematics and Computer Science)",
+   "org": "Heidelberg Laureate Forum Foundation (HLFF); reviewers appointed by ACM, DNVA and IMU",
+   "place": "Heidelberg, Germany",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": null,
+   "feeText": "No participation fee mentioned in the official FAQ",
+   "deadline": "2027-02-11T23:59:00+01:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Application window 11 Nov 2026 - 11 Feb 2027, 11:59 pm Berlin time (CET); notification end of April 2027",
+   "when": "12-17 Sep 2027 (hotel 11-18 Sep)",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: undergraduate/pre-master (enrolled in a bachelor's or master's, no master's degree yet), PhD students, or postdocs within 5 years of the PhD",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual application",
+     "Field: 'Students of mathematics and computer science (or closely related fields)'",
+     "'A young researcher can participate in the Heidelberg Laureate Forum only once at each academic level'",
+     "Documents: CV, motivational statement, recommendation letter from a professor sent directly, diplomas with English translations"
+    ]
+   },
+   "money": [
+    [
+     "Hotel",
+     "Single room with breakfast, 11-18 Sep 2027, booked and paid by HLFF",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Provided throughout the HLF week",
+     "yes"
+    ],
+    [
+     "Flights",
+     "Not automatically covered; HLFF travel grant (travel and visa costs) if your university/national agency refuses, rejection letter required",
+     "partial"
+    ],
+    [
+     "Airport shuttle",
+     "Frankfurt airport shuttle on 11 and 18 Sep",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Reimbursable via the HLFF travel grant",
+     "partial"
+    ]
+   ],
+   "steps": [
+    "Prepare a CV, motivational statement and awards list (PhD/postdoc: thesis summary, transcripts, publications); add English translations of diplomas.",
+    "Enter a professor or supervisor as referee; they submit the letter directly.",
+    "Apply on the HLF application site between 11 Nov 2026 and 11 Feb 2027.",
+    "If accepted (end of April), register, book a visa appointment immediately and apply for the travel grant (3 May-23 Jun 2027) if needed."
+   ],
+   "contact": [
+    [
+     "Email",
+     "yr@heidelberg-laureate-forum.org",
+     "Published in the Young Researchers FAQ"
+    ]
+   ],
+   "url": "https://www.heidelberg-laureate-forum.org/young-researchers/faq/",
+   "confidence": "High",
+   "caveat": "Nationality not stated in the official FAQ.",
+   "verified": "2026-10-22",
+   "added": "2026-10-22",
+   "source": "bulk-conferences",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc-ri-hlf-2027",
+   "cat": "research",
    "title": "14th Heidelberg Laureate Forum 2027 (Young Researchers)",
    "org": "Heidelberg Laureate Forum Foundation",
    "place": "Heidelberg, Germany",
@@ -29124,10 +30143,9 @@
    ],
    "url": "https://www.heidelberg-laureate-forum.org/young-researchers/faq/",
    "confidence": "High",
-   "caveat": "Nationality not stated in the official FAQ.",
    "verified": "2026-10-22",
-   "added": "2026-10-22",
    "source": "bulk-scholarships",
+   "added": "2026-10-22",
    "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
@@ -29782,6 +30800,74 @@
     "https://www.mun-italia.it/wp-content/uploads/2022/05/mavi.png",
     "https://www.mun-italia.it/wp-content/uploads/2022/05/dominziana.png",
     "https://www.mun-italia.it/wp-content/uploads/2022/05/diploma.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ex-bau-fall-2027-round1",
+   "cat": "exchange",
+   "title": "BAU Fall 2027-28 undergraduate admission – First Admission Exam (all majors)",
+   "org": "Beirut Arab University",
+   "place": "BAU campuses, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "$50 application fee",
+   "deadline": "2027-02-24T23:59:00+02:00",
+   "eventDate": "2027-02-27",
+   "rolling": false,
+   "deadlineText": "24 Feb 2027 (applications open 16 Nov 2026)",
+   "when": "Exam Sat 27 Feb 2027; includes Medicine, Dentistry and Pharmacy",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Holders of Lebanese Secondary Certificate or official equivalent",
+     "University: Not applicable",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Admission exam for the chosen programme; English placement test or approved score (SAT, TOEFL iBT)"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "$50 (non-refundable)",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Apply online through the BAU portal or submit the paper form to Admissions.",
+    "Pay the $50 fee.",
+    "Sit the admission exam."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admission@bau.edu.lb",
+     "BAU Admissions Office"
+    ]
+   ],
+   "url": "https://www.bau.edu.lb/Admissions/ProspectiveStudents",
+   "confidence": "Medium",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "caveat": "BAU academic calendar gives slightly different dates (first-round exams in March 2027, applications from 11 Dec 2026); confirm with Admissions.",
+   "image": "https://www.bau.edu.lb/Content/img/fb-social.png",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.bau.edu.lb/BAUUpload/BAU-Library/images/Admission/students/PROSPECTIVE.jpg",
+    "https://www.bau.edu.lb/BAUUpload/BAU-Library/images/Admission/d1.jpg",
+    "https://www.bau.edu.lb/BAUUpload/BAU-Library/images/Admission/d2.jpg",
+    "https://www.bau.edu.lb/BAUUpload/BAU-Library/images/Admission/d3.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -31382,6 +32468,68 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "ex-ndu-fall-2027-regular1",
+   "cat": "exchange",
+   "title": "NDU admission Fall 2027 – Regular Admission I",
+   "org": "Notre Dame University–Louaize (NDU)",
+   "place": "NDU Zouk Mosbeh (main), Shouf and North Lebanon campuses",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2027-03-16T12:00:00+02:00",
+   "eventDate": "2027-03-20",
+   "rolling": false,
+   "deadlineText": "16 Mar 2027, noon",
+   "when": "Exam 20 Mar 2027; decision 12 Apr 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers and transfer students",
+     "University: Not applicable",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Without SAT/IELTS/TOEFL scores you must sit the NDU English Entrance Test and Math Aptitude Test"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and apply online."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admission@ndu.edu.lb",
+     "NDU Admissions"
+    ]
+   ],
+   "url": "https://www.ndu.edu.lb/admissions/important-dates",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/dsc06888_123448_174428113.jpg?w=1920"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "fd-acad-ibro-world-congress-2027-travel-grants",
    "cat": "research",
    "title": "IBRO World Congress 2027 Travel Grants (Cape Town)",
@@ -31544,7 +32692,7 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "ex-lau-spring-2027-grad",
+   "id": "ex-lau-fall-2027-grad",
    "cat": "exchange",
    "title": "LAU graduate admission Fall 2027",
    "org": "Lebanese American University",
@@ -31992,6 +33140,77 @@
    "gallery": [
     "https://www.aus.edu/sites/default/files/styles/optimized_640/public/steps_to_apply-min.jpg?itok=UJtL9PCM"
    ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ex-haigazian-fall-2027",
+   "cat": "exchange",
+   "title": "Haigazian University admission – Fall 2027",
+   "org": "Haigazian University",
+   "place": "Beirut (Kantari)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2027-04-01T23:59:00+03:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "1 Apr",
+   "when": "Fall semester entry",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers and graduate applicants",
+     "University: Not applicable",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Freshman needs SAT 950 / ACT 17 (science) or SAT 870 / ACT 15 (arts)"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and apply online."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admissions@haigazian.edu.lb",
+     "Admissions Office"
+    ],
+    [
+     "Phone",
+     "+961 1 349 230/1",
+     "Admissions Office"
+    ],
+    [
+     "Mobile",
+     "81 877 100",
+     "Admissions Office"
+    ]
+   ],
+   "url": "https://www.haigazian.edu.lb/admissions/",
+   "confidence": "Medium",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "caveat": "Page gives no year and other Haigazian pages mention 30 Mar or 31 May; confirm with Admissions.",
+   "image": "https://www.haigazian.edu.lb/wp-content/uploads/2022/05/AdmissionMain-scaled.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -32820,6 +34039,90 @@
   {
    "id": "aid-life-scholarship-lebanon-ug-2027",
    "cat": "exchange",
+   "title": "LIFE Scholarship Programme – Fall 2027 (undergraduates at universities in Lebanon)",
+   "org": "LIFE – Lebanese International Finance Executives",
+   "place": "Lebanon (partner universities)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": "2027-04-30T23:59:00+03:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "30 Apr 2027 (applications for Fall 2027 are open now)",
+   "when": "Academic year 2027-28; renewable support with mentoring and LIFE Academy training",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange",
+    "finance",
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Undergraduate (undergraduate applications are accepted for universities within Lebanon only)",
+     "University: LIFE partner universities in Lebanon: AUB, ESA Business School, USEK (Holy Spirit University of Kaslik), LAU, NDU, USJ, University of Balamand, Université Antonine",
+     "Nationality/residency: Must be Lebanese or of Lebanese descent",
+     "Age: Not stated",
+     "Team: Individual",
+     "Field: Economics, Business Administration (excluding Marketing), Engineering, Technology, or Law (full list of eligible programmes on the LIFE site)",
+     "Need: Demonstrable financial need",
+     "Academic record: Excellent, at or above the 80th percentile, and must be maintained",
+     "Drive and ambition to be the next leader in your field"
+    ]
+   },
+   "money": [
+    [
+     "Scholarship (studying in Lebanon)",
+     "Up to $6,000 per year",
+     "yes"
+    ],
+    [
+     "Mentoring by a LIFE member",
+     "Included",
+     "yes"
+    ],
+    [
+     "LIFE Academy training",
+     "Included",
+     "yes"
+    ],
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check that your programme and university are on LIFE's eligible list.",
+    "Apply online on the LIFE website; incomplete applications are not considered and submitted applications cannot be edited.",
+    "If shortlisted, attend an initial screening interview.",
+    "Attend a second interview with a LIFE member.",
+    "Decisions are notified by mid-July."
+   ],
+   "contact": [
+    [
+     "Email",
+     "scholarships@lifelebanon.com",
+     "Published on the LIFE scholarship page for enquiries"
+    ]
+   ],
+   "url": "https://lifelebanon.com/scholarship/life",
+   "confidence": "High",
+   "caveat": "The page states 'Applications for Fall 2027 are now open. The deadline to apply is April 30th, 2027.' Older third-party listings quote lower amounts; the figures here are from the official page.",
+   "verified": "2026-10-24",
+   "added": "2026-10-24",
+   "source": "bulk-aid",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "aid-life-scholarship-abroad-grad-2027",
+   "cat": "exchange",
    "title": "LIFE Scholarship Programme – Fall 2027 (graduate study abroad)",
    "org": "LIFE – Lebanese International Finance Executives",
    "place": "Abroad (partner universities in UK, France, USA, Canada, Switzerland, Spain, Australia)",
@@ -32889,7 +34192,6 @@
    ],
    "url": "https://lifelebanon.com/scholarship/life",
    "confidence": "High",
-   "caveat": "The page states 'Applications for Fall 2027 are now open. The deadline to apply is April 30th, 2027.' Older third-party listings quote lower amounts; the figures here are from the official page.",
    "verified": "2026-10-24",
    "added": "2026-10-24",
    "source": "bulk-aid",
@@ -33152,7 +34454,7 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "ex-act-dec-2026",
+   "id": "ex-act-jun-2027",
    "cat": "exchange",
    "title": "ACT (international) – 11–12 Jun 2027",
    "org": "ACT",
@@ -33626,7 +34928,7 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "ex-ndu-fall-2027-early",
+   "id": "ex-ndu-fall-2027-regular2",
    "cat": "exchange",
    "title": "NDU admission Fall 2027 – Regular Admission II",
    "org": "Notre Dame University–Louaize (NDU)",
@@ -33841,7 +35143,7 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "ex-usj-2027-early-period",
+   "id": "ex-usj-2027-regular-period",
    "cat": "exchange",
    "title": "USJ admission 2027-28 – regular period (incl. Pharmacy entrance exam)",
    "org": "Université Saint-Joseph de Beyrouth",
@@ -34893,7 +36195,7 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "ex-bau-fall-2027-round1",
+   "id": "ex-bau-fall-2027-round2",
    "cat": "exchange",
    "title": "BAU Fall 2027-28 undergraduate admission – Second Admission Exam",
    "org": "Beirut Arab University",
@@ -35872,149 +37174,6 @@
     "https://www.vamos-todos.com/Images/Activities/04-Rafting.jpg",
     "https://www.vamos-todos.com/Images/Activities/05-DayOnTheBeach.jpg",
     "https://www.vamos-todos.com/Images/Activities/06-Snowshoeing.jpg"
-   ],
-   "galleryChecked": "2026-10-24"
-  },
-  {
-   "cat": "community",
-   "travel": true,
-   "funded": "none",
-   "rolling": false,
-   "deadline": null,
-   "eventDate": "2026-11-09T00:00:00+04:00",
-   "meet": "Not stated",
-   "team": "Individual",
-   "tags": [
-    "sports"
-   ],
-   "confidence": "Low",
-   "verified": "2026-10-23",
-   "added": "2026-10-23",
-   "source": "bulk-sports2",
-   "id": "ts-abu-dhabi-world-amateur-jj-2026",
-   "sport": "martial-arts",
-   "title": "Abu Dhabi World Amateur Jiu-Jitsu Championship 2026",
-   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
-   "place": "Mubadala Arena, Abu Dhabi, UAE",
-   "feeUSD": null,
-   "feeText": "Not stated",
-   "deadlineText": "Registration deadline not stated",
-   "when": "9-10 Nov 2026",
-   "elig": {
-    "status": "check",
-    "lines": [
-     "Level: Amateur jiu-jitsu athletes",
-     "University: Not restricted",
-     "Nationality/residency: Not stated",
-     "Age: Not stated (see AJP divisions)",
-     "Team: Individual",
-     "Other: Entry rules (belt, ranking, registration via AJP account) not visible on the page that loaded"
-    ]
-   },
-   "money": [
-    [
-     "Entry fee",
-     "Not stated",
-     "ns"
-    ],
-    [
-     "Flights",
-     "Not covered",
-     "no"
-    ],
-    [
-     "Accommodation",
-     "Not covered",
-     "no"
-    ]
-   ],
-   "steps": [
-    "Open the AJP Tour events page and select the World Amateur Championship 2026.",
-    "Register online with an AJP account."
-   ],
-   "url": "https://ajptour.com/federation/1/events",
-   "caveat": "Only the AJP calendar listing could be opened; the event page (ajptour.com/en/event/1529) blocked access, so fee and entry rules are unverified.",
-   "contact": [],
-   "image": "https://ajptour.com/pictures/t/1843208-gmyy/ajp.png",
-   "logo": "https://ajptour.com/build/webpack/img/favicon/ajp/apple-touch-icon.517f4ac87201fceee8ae..png",
-   "imageChecked": "2026-10-23",
-   "gallery": [
-    "https://ajptour.com/pictures/t/547516-3pic/ajp.png",
-    "https://ajptour.com/build/webpack/img/ajp/sponsors/ajpacademy.b755cc90b894f353c73f..png",
-    "https://ajptour.com/pictures/t/2315143-u16u/ajp-tour-targu-mures-international-jiu-jitsu-championship-2026-gi-no-gi.png",
-    "https://ajptour.com/pictures/t/2315144-n67x/ajp-tour-south-africa-national-jiu-jitsu-championship-2026-gi-no-gi.png",
-    "https://ajptour.com/pictures/t/2315142-wypx/ajp-tour-saint-petersburg-international-jiu-jitsu-championship-2026-gi-no-gi.png",
-    "https://ajptour.com/pictures/t/2302789-n3pt/abu-dhabi-world-amateur-jiu-jitsu-championship-2026.jpg"
-   ],
-   "galleryChecked": "2026-10-24"
-  },
-  {
-   "cat": "community",
-   "travel": true,
-   "funded": "none",
-   "rolling": false,
-   "deadline": null,
-   "eventDate": "2026-12-04T00:00:00+03:00",
-   "meet": "Basaksehir Genclik ve Spor Ilce Mudurlugu Tesisleri, Istanbul",
-   "team": "Individual",
-   "tags": [
-    "sports"
-   ],
-   "confidence": "Low",
-   "verified": "2026-10-23",
-   "added": "2026-10-23",
-   "source": "bulk-sports2",
-   "id": "ts-ajp-world-nogi-istanbul-2026",
-   "sport": "martial-arts",
-   "title": "AJP World Jiu-Jitsu No-Gi Championship 2026 (Istanbul)",
-   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
-   "place": "Istanbul, Turkey",
-   "feeUSD": null,
-   "feeText": "Not stated",
-   "deadlineText": "Registration deadline not stated",
-   "when": "4-6 Dec 2026",
-   "elig": {
-    "status": "check",
-    "lines": [
-     "Level: Not stated",
-     "University: Not restricted",
-     "Nationality/residency: Not stated",
-     "Age: Not stated",
-     "Team: Individual",
-     "Other: No-Gi grappling"
-    ]
-   },
-   "money": [
-    [
-     "Entry fee",
-     "Not stated",
-     "ns"
-    ],
-    [
-     "Flights",
-     "Not covered",
-     "no"
-    ],
-    [
-     "Accommodation",
-     "Not covered",
-     "no"
-    ]
-   ],
-   "steps": [
-    "Open the AJP Tour events page and select the No-Gi World Championship 2026.",
-    "Register online with an AJP account."
-   ],
-   "url": "https://ajptour.com/en/events-1/events-calendar-2026",
-   "caveat": "Only the AJP calendar listing could be opened; event page blocked access.",
-   "contact": [],
-   "image": "https://ajptour.com/pictures/t/1843208-gmyy/ajp.png",
-   "logo": "https://ajptour.com/build/webpack/img/favicon/ajp/apple-touch-icon.517f4ac87201fceee8ae..png",
-   "imageChecked": "2026-10-23",
-   "gallery": [
-    "https://ajptour.com/pictures/t/547516-3pic/ajp.png",
-    "https://ajptour.com/build/webpack/img/ajp/sponsors/ajpacademy.b755cc90b894f353c73f..png",
-    "https://ajptour.com/pictures/t/1790720-kzu1/1-events-calendar-2026-2025.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -95292,87 +96451,6 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "sc2-golf-club-lebanon-tennis",
-   "cat": "community",
-   "title": "Golf Club of Lebanon – members' tennis (7 lit courts: 5 clay, 2 hard), instructors, pool and kids' mini-football",
-   "org": "Golf Club of Lebanon",
-   "place": "Bir Hassan / Ouzai, Beirut, Lebanon",
-   "travel": false,
-   "funded": "na",
-   "feeUSD": null,
-   "feeText": "Not stated",
-   "deadline": null,
-   "eventDate": null,
-   "rolling": true,
-   "deadlineText": "Rolling: join any time (season-based)",
-   "when": "Courts lit for night play; club hours not stated",
-   "meet": "Golf Club of Lebanon, Bir Hassan, Ouzai, next to Henry Chehab Barracks",
-   "team": "Team",
-   "tags": [
-    "sports"
-   ],
-   "sport": "tennis",
-   "club": true,
-   "elig": {
-    "status": "check",
-    "lines": [
-     "Level: Members of all levels; tennis instructors available",
-     "University: Not applicable",
-     "Nationality/residency: Regular membership for Lebanese residing in Lebanon; overseas (Lebanese abroad, 60 days/year); foreign nationals with Lebanese residency; diplomatic",
-     "Age: Family membership covers dependents up to 25 if enrolled in school",
-     "Team: Individual; kids' mini-football with coaches",
-     "Competitions: Courts have hosted Davis Cup and ITF tournaments",
-     "Season: Year round",
-     "Admission: sponsorship by 2 members + interview with the Membership Committee"
-    ]
-   },
-   "money": [
-    [
-     "Initiation fee",
-     "One-time; amount not shown (waived for foreign-national and diplomatic memberships)",
-     "ns"
-    ],
-    [
-     "Annual dues",
-     "Required; amount not shown",
-     "ns"
-    ]
-   ],
-   "steps": [
-    "Fill the 'Become a Member' form on the memberships page; the team contacts you.",
-    "Get sponsored by 2 current members and attend an interview."
-   ],
-   "contact": [
-    [
-     "Phone",
-     "+961 1 826 335",
-     "Official contacts page"
-    ],
-    [
-     "Mobile",
-     "+961 3 609 412",
-     "Official contacts page"
-    ]
-   ],
-   "url": "https://golfcluboflebanon.com/sports/",
-   "confidence": "High",
-   "verified": "2026-10-24",
-   "source": "bulk-clubs-sports",
-   "added": "2026-10-24",
-   "image": null,
-   "logo": "https://golfcluboflebanon.com/wp-content/uploads/2024/04/cropped-favicon-192x192.jpg",
-   "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://golfcluboflebanon.com/wp-content/uploads/2024/03/18922345759347088.jpg",
-    "https://golfcluboflebanon.com/wp-content/uploads/2024/03/79046714492142200.jpg",
-    "https://golfcluboflebanon.com/wp-content/uploads/2024/03/42231497075408696.jpg",
-    "https://golfcluboflebanon.com/wp-content/uploads/2024/03/52672795951366424.jpg",
-    "https://golfcluboflebanon.com/wp-content/uploads/2024/04/Snooker-1.jpg",
-    "https://golfcluboflebanon.com/wp-content/uploads/2024/03/37430339446291328.jpg"
-   ],
-   "galleryChecked": "2026-10-24"
-  },
-  {
    "id": "sc2-bau-sports-academy",
    "cat": "community",
    "title": "BAU Sports Academy – affordable community coaching for ages 5–17 (football, basketball, volleyball and more)",
@@ -96352,6 +97430,131 @@
    "source": "bulk-clubs-sports",
    "added": "2026-10-24",
    "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-hariri-sports-complex-saida",
+   "cat": "community",
+   "title": "Hariri Sports Complex (HFClub) Saida – year-round team-sport training: basketball, volleyball, football, tennis",
+   "org": "Hariri Foundation / Mojammaa Hariri Sports Club",
+   "place": "Saida, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "Year-round and seasonal training (incl. for national tournaments) and summer camps; times not published",
+   "meet": "Hariri Sports Complex, Saida – indoor and outdoor courts and fields",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "other",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Community, especially children and youth; all ages",
+     "University: Not applicable",
+     "Nationality/residency: Not stated (aims at social integration of people from diverse backgrounds)",
+     "Age: All ages; focus on children and youth",
+     "Team: Team sports",
+     "Competitions: Hosts national and local sports clubs, including Mojammaa Hariri Sports Club; training for national tournaments",
+     "Season: Year round plus summer camps"
+    ]
+   },
+   "money": [
+    [
+     "Fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call the complex to ask about club training and registration."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 7 725 285",
+     "Hariri Foundation centre page"
+    ],
+    [
+     "Email",
+     "info@hariri-foundation.org",
+     "Hariri Foundation (general)"
+    ]
+   ],
+   "url": "https://hariri-foundation.org/programs/hariri-sports-complex/",
+   "confidence": "Medium",
+   "caveat": "Venue/centre page; specific team schedules, sports academies and fees are not published.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": "https://hariri-foundation.org/wp-content/uploads/2024/05/Book-Icon-23-300x300.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "sc2-homenetmen-lebanon-basketball",
+   "cat": "community",
+   "title": "Homenetmen Lebanon basketball 2026-27 – branch, age-group and academy teams (Beirut boys & Antelias girls in Category A)",
+   "org": "Homenetmen Lebanon",
+   "place": "Beirut / Antelias, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling: join any time (season-based)",
+   "when": "2026-27 season; trials for branch teams, age-group teams and academies already under way",
+   "meet": "Not stated (Homenetmen branches, e.g. Beirut and Antelias)",
+   "team": "Team",
+   "tags": [
+    "sports"
+   ],
+   "sport": "basketball",
+   "club": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Branch and age-group teams, academies; Category A representative teams",
+     "University: Not applicable",
+     "Nationality/residency: Not stated (foreign players allowed per Lebanese Basketball Federation rules for Category A)",
+     "Age: Not stated",
+     "Team: Basketball teams (boys and girls)",
+     "Competitions: Lebanon Category A basketball championship (boys: Beirut branch; girls: Antelias branch); Navasart sports games organised for the first time",
+     "Season: 2026-2027"
+    ]
+   },
+   "money": [
+    [
+     "Fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Contact your local Homenetmen branch about trials – the announcement gives no registration details."
+   ],
+   "contact": [],
+   "url": "https://homenetmen.org/hyw/news/announcement-lebanon-sports-2026-2027/520",
+   "confidence": "Low",
+   "caveat": "Announcement in Western Armenian on the Homenetmen central site; no contacts, ages or fees published.",
+   "verified": "2026-10-24",
+   "source": "bulk-clubs-sports",
+   "added": "2026-10-24",
+   "image": "https://homenetmen.org/upload/news/header/2026/09/facebook-1572204201606942-padded.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -99618,6 +100821,78 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "cf-c-m2l-2027",
+   "cat": "research",
+   "title": "Mediterranean Machine Learning Summer School (M2L) 2027",
+   "org": "M2L School",
+   "place": "Barcelona, Spain",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2027-08-30",
+   "rolling": false,
+   "deadlineText": "Application deadline not yet published",
+   "when": "30 Aug - 3 Sep 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: 'primarily of Doctoral students or exceptional Master students, as well as academics and practitioners'",
+     "University: Any",
+     "Nationality/residency: 'from all around the world, with a focus on the Mediterranean area'; no nationality rule",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: 'Preferred attendees have a technical background, and some prior understanding and practical experience of machine learning'; selected 'on the basis of merit' via a public call; scholarships offered to support diversity"
+    ]
+   },
+   "money": [
+    [
+     "Fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Scholarships",
+     "School says it promotes diversity through scholarships (details not stated)",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch the official site for the 2027 call for applications.",
+    "Apply online when the public call opens."
+   ],
+   "contact": [],
+   "url": "https://www.m2lschool.org/",
+   "confidence": "Medium",
+   "caveat": "Deadline and fees not yet published; past calls closed around late February.",
+   "verified": "2026-10-22",
+   "source": "bulk-conferences",
+   "added": "2026-10-22",
+   "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sqb-MhTtG06CpFWcpJkBl3-xAj3fUjAperGt9hoQsCJyfj2o9k1urhxNa3HCj8hsRHfCgFpFvmHpczgsq_1uMKKB4C9y_pV-IziNmeIfUl1Uvew6KgZCYn_FX_Dko9X56-zwvuMEr8bVaxOLpdwVwJ3Iph85_NQx67usyzp7hUA1vOLo-UNGPTu8YDoTw=w16383",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sdvSycTG6D6Z2AJXXRTgK_hhvLrMcRNmJUsIre6EWpDOKQRdh5g8mHB4K3RVVyt5wc6TCOBuWNYQzq_8IHKfr2Eq9RhOE5TbVlBEEUJgq8qLP8w52BdE9ZpN7dYI69nVdrfdtBLv6GayjjYU1pPZ-h9ejGtAjWEjZ065OrApM1kXNKAhwAGVLuAe82E20=w16383",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v-pJqYxDhogM1uqdUjvzP1ooitmWNjhwzW030NKpTZHQoakKFuy3-BHQhAzeJGEZxQpb64ezQw8tZUdWSHtH99qGREZZqbZPtXIO6o6GHmV6rQ2vJ_rjLA8NU52I-gMrusX7kGOUIHxywY-OrWosyTc4KqwPKeq9OOfzs6R50wgvISZcAsIiZ3HZn378cLesU50bIsWBmmi08fvHU=w1280",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vOpMcyTNyD0HrcwQ3tA3PYN4qbRezfba7pRGj9YwMxYspB7K8IIzcQ2BpuAc2y1g2HPvq-SgJyioIjLGi_mtbVwQYO-roueOrAAbFF035YZMFs4X49s-3aU_FjQ8UEaDqoMgAySlen9utTF2dUsbVEhmEzyAJ3eRtXH1DFVUruoBFwNnnAn_CVYlFvrGo-KoiwuytyUneKk7g_=w1280",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tYV5hJVgbRtbJNH0SvYobIcCJHa8e0uQSeXb1EgYAMZ3AyuBconNm94GtiYK6nzjMBvWtrmBxlG1_7JgUETi06SFxaXfQye3lbglbQzWO_N17OxtyfrQUrnnOV1TyoAPOuXwJOYpS5M4u6cGO73N1T5-PdnVDYaxURAdBikNDKm1Ktd_GzkG_pdNM6h231x_Zs2jBfD809BrkZCeYgP9Mh3cTWRW8Ci6_cc5bVGIA=w1280",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sM2_KKkJRW6EjIdusKYIxfgYQjPtk-XkNH4kKK2ik8yPjoLlNh2Np30NWQNRGV1_PTBRQMIHeiQR3nPpXTN0jto1TwYz7ATFZCWyNpqON7ZixETWTWRz_IrvrbYk43LMd97DO5_9gw5_6kVElYZ6F6fT7jfUJ_zFPhCoapWSrDEaR60Gt5zv8yCEd4y9w=w1280",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sAMv8mx9KMm7bNGswOn9szbcR1QYFoazyApLZks9KxcALzp-Eie211xESq00Rrp6saXoB6bFVmYJrw439LGFXq-_0AgqEUUTUPDHLSlCLkHC_hcxbcms6ibvcg7KiZ1RwC01ERtokZifMBLus6lovsimBDCfMD-pQC5cM8-n6R-1oNp1Q-bQGwVYvlrGg=w1280"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "cf-c-sigcse-ts-2027-student-volunteers",
    "cat": "community",
    "title": "SIGCSE TS 2027 Student Volunteers",
@@ -100267,6 +101542,61 @@
     "https://cdn.prod.website-files.com/69554112f09d4a3da335320a/696e3534cd9e6910aaf5d5b6_SEF-Speakers---Web-263.png",
     "https://cdn.prod.website-files.com/69554112f09d4a3da335320a/696e2e3ba5f159a9dc26fd33_SEF-Speakers---Web-237.png"
    ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "verified": "2026-10-22",
+   "source": "bulk-conferences",
+   "added": "2026-10-22",
+   "rolling": false,
+   "id": "cf-d-lau-fao-food-waste-amr-webinar-2026",
+   "cat": "research",
+   "title": "Wasted Food, Rising Resistance: Food Loss and Antimicrobial Resistance (webinar)",
+   "org": "LAU Department of Nutrition and Food Science with FAO Lebanon",
+   "place": "Online (Webex)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": null,
+   "eventDate": "2026-11-20T10:00:00+02:00",
+   "deadlineText": "No registration listed; join via the Webex link on the event page",
+   "when": "Fri 20 Nov 2026, 10:00-11:00 Beirut time",
+   "meet": "Webex link on the official page",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated (online webinar)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: No registration listed; join via the Webex link"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Free (online)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the event page on 20 Nov.",
+    "Join through the Webex link at 10:00."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20261103_in-observance-of-world-antimicro",
+   "confidence": "High",
+   "caveat": "Audience not stated; part of LAU's School of Arts and Sciences seminar series.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -104904,6 +106234,74 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "et-forever-pop-philokalia-casino-2026",
+   "cat": "community",
+   "art": "music",
+   "show": true,
+   "title": "Forever Pop – Philokalia Youth Choir",
+   "org": "Casino du Liban",
+   "place": "Casino du Liban Theatre, Maameltein, Jounieh",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 15,
+   "feeText": "$15–$35",
+   "deadline": null,
+   "eventDate": "2026-11-28T19:30:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline; buy tickets before the show (subject to availability)",
+   "when": "Sat 28 Nov 2026, 19:30",
+   "meet": "Casino du Liban Theatre, Maameltein, Jounieh",
+   "team": "Individual tickets",
+   "tags": [
+    "arts"
+   ],
+   "summary": "Youth choir concert of pop songs.",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public (ticketed event)",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; held in Lebanon",
+     "Age: Not stated",
+     "Team: Individual tickets"
+    ]
+   },
+   "money": [
+    [
+     "Balcon",
+     "$15 / $25",
+     "info"
+    ],
+    [
+     "Salle",
+     "$35",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Book on ticketingboxoffice.com (seat map) or at Virgin Megastores / Ticketing Box Office points of sale."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 217810",
+     "Ticketing Box Office"
+    ]
+   ],
+   "url": "https://www.ticketingboxoffice.com/forever-pop-tickets/event/23370/en",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-entertainment",
+   "added": "2026-10-24",
+   "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23370-639278450496004360.png",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639278449388402078.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "et-avengers-doomsday-lebam-concert-2026",
    "cat": "community",
    "art": "film",
@@ -106920,6 +108318,150 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "ex-balamand-entrance-exams-2026-27",
+   "cat": "exchange",
+   "title": "University of Balamand entrance & language exams 2026-27",
+   "org": "University of Balamand",
+   "place": "University of Balamand (Koura main campus)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-12-04",
+   "rolling": false,
+   "deadlineText": "Register via the UOB admissions process before each date (registration deadlines not stated)",
+   "when": "Exam dates: 4 Dec 2026; 8 Jan, 5 Mar, 9 Jul, 6 Aug 2027. French placement test can be taken on these dates",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (Lebanese Baccalaureate, IB, IGCSE, French Bac or equivalent)",
+     "University: Not applicable",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: SAT required for most majors (exemptions listed); Language Aptitude Tests"
+    ]
+   },
+   "money": [
+    [
+     "Exam fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and apply online."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@balamand.edu.lb",
+     "General inquiries"
+    ],
+    [
+     "Email",
+     "orientation@balamand.edu.lb",
+     "Orientation (live chat 14:00–16:00 Mon–Fri)"
+    ]
+   ],
+   "url": "https://www.balamand.edu.lb/ProspectiveStudents/Pages/UndergraduateAdmissions.aspx",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "caveat": "Nationality rules not stated on the admissions page.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.balamand.edu.lb/ProspectiveStudents/PublishingImages/FOMApps.jpg",
+    "https://www.balamand.edu.lb/Style%20Library/responsive/images/cover_prospective.jpg",
+    "https://www.balamand.edu.lb/ProspectiveStudents/PublishingImages/Banner/Prospective-Students.jpg",
+    "https://www.balamand.edu.lb/Style%20Library/responsive/images/aboutpic.jpg"
+   ],
+   "galleryChecked": "2026-10-24",
+   "degree": "bachelor",
+   "admission": true
+  },
+  {
+   "id": "ex-balamand-fall-2027-early",
+   "cat": "exchange",
+   "title": "University of Balamand admission – Fall 2027-28 early admission",
+   "org": "University of Balamand",
+   "place": "Lebanon (UOB campuses)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Mid-January 2027 (exact day not stated)",
+   "when": "Decisions mid-February 2027; regular deadline end of July 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (Lebanese Baccalaureate, IB, IGCSE, French Bac or equivalent)",
+     "University: Not applicable",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: SAT required for most majors (exemptions listed); Language Aptitude Tests"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and apply online."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@balamand.edu.lb",
+     "General inquiries"
+    ],
+    [
+     "Email",
+     "orientation@balamand.edu.lb",
+     "Orientation (live chat 14:00–16:00 Mon–Fri)"
+    ]
+   ],
+   "url": "https://www.balamand.edu.lb/ProspectiveStudents/Pages/UndergraduateAdmissions.aspx",
+   "confidence": "Medium",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "caveat": "Page says \"Mid – January, 2027\" without an exact day; apply well before mid-January.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.balamand.edu.lb/ProspectiveStudents/PublishingImages/FOMApps.jpg",
+    "https://www.balamand.edu.lb/Style%20Library/responsive/images/cover_prospective.jpg",
+    "https://www.balamand.edu.lb/ProspectiveStudents/PublishingImages/Banner/Prospective-Students.jpg",
+    "https://www.balamand.edu.lb/Style%20Library/responsive/images/aboutpic.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "ex-liu-admission",
    "cat": "exchange",
    "title": "Lebanese International University (LIU) undergraduate admission & entrance exams",
@@ -108373,6 +109915,61 @@
   },
   {
    "id": "fe-eid-al-saydeh-faraya-faqra-2027",
+   "cat": "community",
+   "title": "Eid al-Saydeh (Assumption, 15 Aug) celebrations in Faraya and Faqra",
+   "org": "Local parishes and municipalities of Faraya and Kfardebian (Faqra)",
+   "place": "Faraya and Faqra (Kfardebian), Kesrouan",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2027-08-15T00:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No registration deadline (public event)",
+   "when": "Sun 15 Aug 2027 (feast day, fixed date); celebrations usually run over the weekend and sometimes the week before",
+   "meet": "Not stated",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to everyone (public festival)",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; open to the public in Lebanon",
+     "Age: Not stated",
+     "Team: Come alone or with friends and family"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch the organiser's announcements nearer the time for the confirmed dates and programme.",
+    "Go to the venue during the festival; no registration is mentioned."
+   ],
+   "contact": [],
+   "url": "https://today.lorientlejour.com/article/1473730/lebanon-celebrates-the-assumption-blending-traditions-and-festivities.html",
+   "confidence": "Medium",
+   "caveat": "Feast date is fixed by tradition; programme, performers and any fees for 2027 not announced yet. Details from L'Orient Today's 15 Aug 2025 report.",
+   "verified": "2026-10-24",
+   "source": "bulk-festivals",
+   "added": "2026-10-24",
+   "festival": true,
+   "image": "https://today.lorientlejour.com/assets/images/english-social-share-image.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "fe-eid-al-saydeh-jezzine-2027",
    "cat": "community",
    "title": "Eid al-Saydeh (Assumption) festivities in Jezzine",
    "org": "Municipality of Jezzine",
@@ -110776,6 +112373,63 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "hk-mlh-ghw-builders-nov",
+   "cat": "hackathon",
+   "title": "MLH Global Hack Week: Builders Week",
+   "org": "Major League Hacking",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": null,
+   "eventDate": "2026-11-06",
+   "rolling": false,
+   "deadlineText": "Event 6 – 12 Nov 2026",
+   "when": "6 – 12 Nov 2026 · beginner-friendly workshops and challenges on Discord",
+   "team": "Individual",
+   "tags": [
+    "hackathon"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all: 'Global Hack Week is a 100% free event for anyone, anywhere!'; beginners and experienced hackers welcome",
+     "University: Any",
+     "Nationality/residency: 'anyone, anywhere'; Lebanon not excluded",
+     "Age: Not stated on the public pages",
+     "Team: Not stated",
+     "Other: Free; MLH Code of Conduct applies"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Free",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Register on the Global Hack Week site.",
+    "Join the Discord and take part in daily challenges and sessions."
+   ],
+   "contact": [],
+   "url": "https://ghw.mlh.com/",
+   "confidence": "Medium",
+   "verified": "2026-10-22",
+   "source": "bulk-hackathons",
+   "added": "2026-10-22",
+   "image": "https://framerusercontent.com/assets/yBReNVRODd4LJLVJP2iUlLQymGA.png",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://framerusercontent.com/images/v6XbHlq6LvjRvt20q6ukQes1Ao.png?width=3876&height=3876",
+    "https://framerusercontent.com/images/18AdZuYRU5s3vBbNHJL2dyqfbW8.png?width=512&height=512",
+    "https://framerusercontent.com/images/i0n70gkI5ecToRfnr245GjIX6I.png?width=739&height=556"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "hk-hacklu-ctf-2026",
    "cat": "hackathon",
    "title": "Hack.lu CTF 2026",
@@ -110961,7 +112615,7 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "hk-mlh-ghw-builders-nov",
+   "id": "hk-mlh-ghw-opensource-dec",
    "cat": "hackathon",
    "title": "MLH Global Hack Week: Open Source Week",
    "org": "Major League Hacking",
@@ -115941,10 +117595,8 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "et-forever-pop-philokalia-casino-2026",
+   "id": "ll-tbo-forever-pop-philokalia",
    "cat": "community",
-   "art": "music",
-   "show": true,
    "title": "Forever Pop - Philokalia Youth Choir at Casino du Liban",
    "org": "Philokalia Youth Choir / Casino du Liban",
    "place": "Casino du Liban (Theatre POP), Jounieh",
@@ -115962,7 +117614,6 @@
    "tags": [
     "arts"
    ],
-   "summary": "Youth choir concert of pop songs.",
    "elig": {
     "status": "ok",
     "lines": [
@@ -119805,11 +121456,7 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "verified": "2026-10-22",
-   "source": "bulk-lebanon",
-   "added": "2026-10-22",
-   "rolling": false,
-   "id": "cf-d-lau-fao-food-waste-amr-webinar-2026",
+   "id": "lb-lau-fao-amr-food-waste-webinar-2026",
    "cat": "research",
    "title": "Wasted Food, Rising Resistance: food loss, waste and antimicrobial resistance (webinar)",
    "org": "LAU Department of Nutrition and Food Science and FAO Lebanon",
@@ -119820,6 +121467,7 @@
    "feeText": "Not stated",
    "deadline": null,
    "eventDate": "2026-11-20T10:00:00+02:00",
+   "rolling": false,
    "deadlineText": "No registration listed",
    "when": "Fri 20 Nov 2026, 10:00-11:00 AM",
    "meet": "Webex: lau.webex.com/hussein.hassan",
@@ -119846,7 +121494,9 @@
    "contact": [],
    "url": "https://eventscal.lau.edu.lb/event.php?evt=20261103_in-observance-of-world-antimicro",
    "confidence": "Medium",
-   "caveat": "Audience not stated; part of LAU's School of Arts and Sciences seminar series.",
+   "verified": "2026-10-22",
+   "source": "bulk-lebanon",
+   "added": "2026-10-22",
    "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
@@ -126039,7 +127689,7 @@
    "galleryChecked": "2026-10-24"
   },
   {
-   "id": "cf-c-m2l-2027",
+   "id": "sc-ri-m2l-2027",
    "cat": "exchange",
    "title": "Mediterranean Machine Learning (M2L) Summer School 2027",
    "org": "M2L School",
@@ -126053,7 +127703,6 @@
    "rolling": false,
    "deadlineText": "Public call planned; deadline not yet announced",
    "when": "30 Aug – 3 Sep 2027",
-   "meet": "Not stated",
    "team": "Individual",
    "tags": [
     "research"
@@ -126098,16 +127747,16 @@
    "verified": "2026-10-22",
    "source": "bulk-scholarships",
    "added": "2026-10-22",
-   "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sqb-MhTtG06CpFWcpJkBl3-xAj3fUjAperGt9hoQsCJyfj2o9k1urhxNa3HCj8hsRHfCgFpFvmHpczgsq_1uMKKB4C9y_pV-IziNmeIfUl1Uvew6KgZCYn_FX_Dko9X56-zwvuMEr8bVaxOLpdwVwJ3Iph85_NQx67usyzp7hUA1vOLo-UNGPTu8YDoTw=w16383",
+   "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v-v2S8H7TwK_Jw8XHmJQOr0J0vdC-YMhLqD1EQtMyA7lf8Knxz_f4aiq1Lja3mn8c8I9zG37jfZsvcvhh6ctnL5WMyKMvx67zKdAkdAZ2u9jRvD7x4nO7jXdxAcct4GcO_X4JEy7oUzXM6kHuVjsgwoRKraI9NW6pfwoW1KsiBRWeX0WEyz0o0zEYxvmA=w16383",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sdvSycTG6D6Z2AJXXRTgK_hhvLrMcRNmJUsIre6EWpDOKQRdh5g8mHB4K3RVVyt5wc6TCOBuWNYQzq_8IHKfr2Eq9RhOE5TbVlBEEUJgq8qLP8w52BdE9ZpN7dYI69nVdrfdtBLv6GayjjYU1pPZ-h9ejGtAjWEjZ065OrApM1kXNKAhwAGVLuAe82E20=w16383",
-    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v-pJqYxDhogM1uqdUjvzP1ooitmWNjhwzW030NKpTZHQoakKFuy3-BHQhAzeJGEZxQpb64ezQw8tZUdWSHtH99qGREZZqbZPtXIO6o6GHmV6rQ2vJ_rjLA8NU52I-gMrusX7kGOUIHxywY-OrWosyTc4KqwPKeq9OOfzs6R50wgvISZcAsIiZ3HZn378cLesU50bIsWBmmi08fvHU=w1280",
-    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vOpMcyTNyD0HrcwQ3tA3PYN4qbRezfba7pRGj9YwMxYspB7K8IIzcQ2BpuAc2y1g2HPvq-SgJyioIjLGi_mtbVwQYO-roueOrAAbFF035YZMFs4X49s-3aU_FjQ8UEaDqoMgAySlen9utTF2dUsbVEhmEzyAJ3eRtXH1DFVUruoBFwNnnAn_CVYlFvrGo-KoiwuytyUneKk7g_=w1280",
-    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tYV5hJVgbRtbJNH0SvYobIcCJHa8e0uQSeXb1EgYAMZ3AyuBconNm94GtiYK6nzjMBvWtrmBxlG1_7JgUETi06SFxaXfQye3lbglbQzWO_N17OxtyfrQUrnnOV1TyoAPOuXwJOYpS5M4u6cGO73N1T5-PdnVDYaxURAdBikNDKm1Ktd_GzkG_pdNM6h231x_Zs2jBfD809BrkZCeYgP9Mh3cTWRW8Ci6_cc5bVGIA=w1280",
-    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sM2_KKkJRW6EjIdusKYIxfgYQjPtk-XkNH4kKK2ik8yPjoLlNh2Np30NWQNRGV1_PTBRQMIHeiQR3nPpXTN0jto1TwYz7ATFZCWyNpqON7ZixETWTWRz_IrvrbYk43LMd97DO5_9gw5_6kVElYZ6F6fT7jfUJ_zFPhCoapWSrDEaR60Gt5zv8yCEd4y9w=w1280",
-    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sAMv8mx9KMm7bNGswOn9szbcR1QYFoazyApLZks9KxcALzp-Eie211xESq00Rrp6saXoB6bFVmYJrw439LGFXq-_0AgqEUUTUPDHLSlCLkHC_hcxbcms6ibvcg7KiZ1RwC01ERtokZifMBLus6lovsimBDCfMD-pQC5cM8-n6R-1oNp1Q-bQGwVYvlrGg=w1280"
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vqpjXdQpp602RRi2OdZBffFovnODRu_qEPoCXsp57d0cGgDxRem4aH7cHjNqSm6JupUjFd0yNsDDnJcJqeTXFsBhy0iYwvwQUsLbcVgVPbGXXVx3sdC3O49uEqTlpaoi7BhxqRyolHWdkssjljRyl1e3MyTSLIlzQmCg_KzOM8DWyUi12uIqZWeLvxo_w=w16383",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tX3HV6-6mYrPcw_yDmagqWNU97OEq7Kgg2p717Be8gGILXRcn0fCCIjyv3m-jq3qlDMySUmK1DzznXNmJNTesdfP2ZctrdznuBswGkHP8IVdZCWjI6QRG3GaDsOWaTSOREfD_gyfDIW25LCDafGYlK2yrcUlwTCfbvm5-9I5rF3ojj806H85NE8OMTB_1VW6r2APKAMImw7F6dNEE=w1280",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72twp0VXdmvIeMdQ_mETdLJHcv9DugB47XXM24DF4aOfZahteS62Oc70o-9rbaRRseFkiQZbvA5dD5ywImocWqa9PENGMNu2gt2CjYp7xEcY3AsDhiBrewBqT4Khvf4cL0B0jFbRgOGDLXQ3dmyizxFq8pgWZrpEIxJBKEZ59uAp6flpeSeAgmO9zhbzBucn5Sb4F96q9dnftd1F=w1280",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sW74Jog--zkwKWAs5F-Z1TI2vrRElgLpxajCWyLvptczQhSC6H9ty2xcYiVqzntgBA61bET49NBejKpMcoo3rgDi8FOhncTMM9AmPZnUbpboc7rATNbcGjQIHAOUZKfra4RQJPDBv3CMfgSl7rev_px5xINsQ_kTKffYFm0AcsmVG8lJe9SgGsiPlJokWVqtH9GA028fPF5l2O35hBN3cXtWew3dt53UNoo2GFNnI=w1280",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72v-HddIO_vsh9gWJhE9iayKDBtjb1gSrLBJFjq6om0rIkQFcJAUEQwdo6nm6wU-6j75OCsO7XI3u2uY_fqb4Qtk0I6qTxNSdcmtIkKgfUf-JLrr1rsO06Ij19gZNWkrW1Smor9iBYUgzo7L_K4_xmgvYF8tOArigAuhkigBDb04QoIE2btIOYw1wKxFbvU=w1280",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tJWLiBaImNMl0vSTPe8y82TKKBK5NFhACfqO-vlqLFwe7xBVYLYAUigDR_oqS5BZjB1S4m3oOjkqjllns9fyNDlCLAaWjCE7xBGx373thngmW-SQZfYq-ggO8Nb0wGr4jqsDqFeeBxz8XgYbZAbtlRtoUWNna8SGY5kRUxyB5rwYfDq2GmB30VUIs1E1U=w1280"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -128469,6 +130118,78 @@
    "confidence": "High",
    "id": "sp-loa-qannoubine-2026-11-21",
    "cat": "hiking",
+   "title": "Wadi Qannoubine Hike (Hawqa to Mar Lichaa)",
+   "org": "Lebanon Outdoor Activities (LOA Team)",
+   "place": "Wadi Qannoubine, Lebanon",
+   "feeUSD": 30,
+   "feeText": "$30",
+   "eventDate": "2026-11-21T07:00:00+02:00",
+   "deadlineText": "Until the bus is full",
+   "when": "Sat 21 Nov 2026 (also Sat 19 Dec 2026)",
+   "meet": "Pickups: Bikfaya (Pierre Gemayel Statue) 07:00, Sin El Fil (Rachidi Home) 08:00, Furn El Chebbak (Sagesse University) 08:05, Mar Mikhael Al Naher (Total) 08:15, Zalka (Fahed Supermarket) 08:20, Antelias (Demco Towers) 08:30, Zouk (Jesr El Akhdar) 08:40, Jbeil (Wooden Bakery) 09:00",
+   "tags": [
+    "hiking"
+   ],
+   "difficulty": "12 km loop, +365 m / -465 m, walking ~4 h; terrain 6/10; suitable for anyone in good shape",
+   "bring": "Not stated",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to anyone who books (public paid trip; no student or membership requirement stated)",
+     "University: Any",
+     "Nationality/residency: No rule stated; day trip in Lebanon",
+     "Age: Not stated",
+     "Team: Individual booking (until the bus is full)",
+     "Other: 'Suitable to everyone with good shape'; 12 km loop, ~365 m gain; $30 all inclusive (trail medic included)",
+     "Other: Wear sports or hiking clothes and hiking shoes; bring water (1.5L+), snacks, jacket, ID and insurance card (if available)"
+    ]
+   },
+   "money": [
+    [
+     "Fee",
+     "$30 incl. pullman transport, breakfast (thyme mankoushe), water, coffee, professional guides, trail medic, photos & videos",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Open the listing on the LOA site, choose quantity and click Buy Now, or message LOA on WhatsApp.",
+    "Pay by transfer (Whish, OMT, Suyul or Neo) as stated by LOA."
+   ],
+   "contact": [
+    [
+     "Phone/WhatsApp",
+     "+961 3 599579",
+     "Published on LOA Contact Us page"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on LOA Contact Us page"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/wadi-qannoubine-hike-hawqa-to-mar-lichaa/",
+   "deadline": null,
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/05/our-lady-of-qannoubin-monastery-3118-2021-04-17-607b264743ff7-749x500.jpg",
+   "logo": "https://lebanonoutdooractivities.com/wp-content/uploads/2025/11/cropped-NEW-LOGO_page-0005-512x512-1-192x192.jpg",
+   "imageChecked": "2026-10-22",
+   "gallery": [
+    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/05/our-lady-of-qannoubin-monastery-3118-2021-04-17-607b264743ff7.jpg",
+    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/05/our-lady-of-qannoubin-monastery-3118-2021-04-17-607b264743ff7-800x500.jpg",
+    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/07/481273032_1043388787826864_389289468373523724_n-400x300.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "travel": false,
+   "funded": "na",
+   "rolling": false,
+   "team": "Individual",
+   "verified": "2026-10-22",
+   "added": "2026-10-22",
+   "source": "bulk-sports",
+   "confidence": "High",
+   "id": "sp-loa-qannoubine-2026-12-19",
+   "cat": "hiking",
    "title": "Wadi Qannoubine Hike (Hawqa to Mar Lichaa) - December",
    "org": "Lebanon Outdoor Activities (LOA Team)",
    "place": "Wadi Qannoubine, Lebanon",
@@ -128516,7 +130237,7 @@
    "deadline": null,
    "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/05/our-lady-of-qannoubin-monastery-3118-2021-04-17-607b264743ff7-749x500.jpg",
    "logo": "https://lebanonoutdooractivities.com/wp-content/uploads/2025/11/cropped-NEW-LOGO_page-0005-512x512-1-192x192.jpg",
-   "imageChecked": "2026-10-22",
+   "imageChecked": "2026-10-24",
    "gallery": [
     "https://lebanonoutdooractivities.com/wp-content/uploads/2026/05/our-lady-of-qannoubin-monastery-3118-2021-04-17-607b264743ff7.jpg",
     "https://lebanonoutdooractivities.com/wp-content/uploads/2026/05/our-lady-of-qannoubin-monastery-3118-2021-04-17-607b264743ff7-800x500.jpg",
@@ -128775,6 +130496,81 @@
    ],
    "deadlineText": "Until the bus is full",
    "id": "sp-loa-arz-el-rab-snowshoe-2027-01-03",
+   "title": "Arz el Rab - Bcharre Snowshoeing",
+   "place": "Cedars of God (Arz el Rab), Bcharre, Lebanon",
+   "feeUSD": 35,
+   "feeText": "$35",
+   "eventDate": "2027-01-03T00:00:00+02:00",
+   "when": "Sun 3 Jan 2027 (also 7 Feb 2027)",
+   "meet": "Not stated on the listing",
+   "difficulty": "Not stated",
+   "bring": "Hat, water (1.5 L+), snacks, jacket, ID, insurance card if available; sports/hiking clothes and shoes",
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to anyone who books (public paid trip; no student or membership requirement stated)",
+     "University: Any",
+     "Nationality/residency: No rule stated; day trip in Lebanon",
+     "Age: Not stated",
+     "Team: Individual booking (until the bus is full)",
+     "Other: Snowshoeing; difficulty not stated; $35 incl. transport, breakfast and guides",
+     "Other: Wear sports or hiking clothes and hiking shoes; bring water (1.5L+), snacks, jacket, ID and insurance card (if available)"
+    ]
+   },
+   "money": [
+    [
+     "Fee",
+     "$35 incl. transport, breakfast, entrance fees (if any), water, coffee, professional guides, photos/videos",
+     "info"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/arz-el-rab-bcharre-snowshoeing/",
+   "caveat": "Meeting time/point and difficulty not listed; snow-dependent.",
+   "deadline": null,
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/493323155_1232771205516371_1697185473146803583_n-400x500.jpg",
+   "logo": "https://lebanonoutdooractivities.com/wp-content/uploads/2025/11/cropped-NEW-LOGO_page-0005-512x512-1-192x192.jpg",
+   "imageChecked": "2026-10-22",
+   "gallery": [
+    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/493323155_1232771205516371_1697185473146803583_n.jpg",
+    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/493323155_1232771205516371_1697185473146803583_n-800x500.jpg",
+    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/04/46475490Master-400x300.jpg",
+    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/02/SnapInsta.to_473624624_611816951222658_8257015656764954237_n-400x300.jpg",
+    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/488643931_1212416834218475_2085644131138701039_n-400x300.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "travel": false,
+   "funded": "na",
+   "rolling": false,
+   "team": "Individual",
+   "verified": "2026-10-22",
+   "added": "2026-10-22",
+   "source": "bulk-sports",
+   "confidence": "Medium",
+   "cat": "hiking",
+   "org": "Lebanon Outdoor Activities (LOA Team)",
+   "tags": [
+    "hiking"
+   ],
+   "contact": [
+    [
+     "Phone/WhatsApp",
+     "+961 3 599579",
+     "Published on LOA Contact Us page"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on LOA Contact Us page"
+    ]
+   ],
+   "steps": [
+    "Open the listing on the LOA site and book (Buy Now), or message LOA on WhatsApp.",
+    "Pay by transfer (Whish, OMT, Suyul or Neo) as stated by LOA."
+   ],
+   "deadlineText": "Until the bus is full",
+   "id": "sp-loa-arz-el-rab-snowshoe-2027-02-07",
    "title": "Arz el Rab - Bcharre Snowshoeing (February)",
    "place": "Cedars of God (Arz el Rab), Bcharre, Lebanon",
    "feeUSD": 35,
@@ -128802,7 +130598,7 @@
    "deadline": null,
    "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/493323155_1232771205516371_1697185473146803583_n-400x500.jpg",
    "logo": "https://lebanonoutdooractivities.com/wp-content/uploads/2025/11/cropped-NEW-LOGO_page-0005-512x512-1-192x192.jpg",
-   "imageChecked": "2026-10-22",
+   "imageChecked": "2026-10-24",
    "gallery": [
     "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/493323155_1232771205516371_1697185473146803583_n.jpg",
     "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/493323155_1232771205516371_1697185473146803583_n-800x500.jpg",
@@ -130302,6 +132098,149 @@
    "imageChecked": "2026-10-24",
    "gallery": [
     "https://www.sunwaychessfestival.com/imagenes/perfil/5819369.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-11-09T00:00:00+04:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Low",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-abu-dhabi-world-amateur-jj-2026",
+   "sport": "martial-arts",
+   "title": "Abu Dhabi World Amateur Jiu-Jitsu Championship 2026",
+   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
+   "place": "Mubadala Arena, Abu Dhabi, UAE",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "9-10 Nov 2026",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Amateur jiu-jitsu athletes",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated (see AJP divisions)",
+     "Team: Individual",
+     "Other: Entry rules (belt, ranking, registration via AJP account) not visible on the page that loaded"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the AJP Tour events page and select the World Amateur Championship 2026.",
+    "Register online with an AJP account."
+   ],
+   "url": "https://ajptour.com/en/event/1529",
+   "caveat": "Confirmed on the official AJP events calendar; the event page itself blocked automated access, so fee and entry rules are unverified.",
+   "contact": [],
+   "image": "https://ajptour.com/pictures/t/1843208-gmyy/ajp.png",
+   "logo": "https://ajptour.com/build/webpack/img/favicon/ajp/apple-touch-icon.517f4ac87201fceee8ae..png",
+   "imageChecked": "2026-10-23",
+   "gallery": [
+    "https://ajptour.com/pictures/t/547516-3pic/ajp.png",
+    "https://ajptour.com/build/webpack/img/ajp/sponsors/ajpacademy.b755cc90b894f353c73f..png",
+    "https://ajptour.com/pictures/t/2315143-u16u/ajp-tour-targu-mures-international-jiu-jitsu-championship-2026-gi-no-gi.png",
+    "https://ajptour.com/pictures/t/2315144-n67x/ajp-tour-south-africa-national-jiu-jitsu-championship-2026-gi-no-gi.png",
+    "https://ajptour.com/pictures/t/2315142-wypx/ajp-tour-saint-petersburg-international-jiu-jitsu-championship-2026-gi-no-gi.png",
+    "https://ajptour.com/pictures/t/2302789-n3pt/abu-dhabi-world-amateur-jiu-jitsu-championship-2026.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "cat": "community",
+   "travel": true,
+   "funded": "none",
+   "rolling": false,
+   "deadline": null,
+   "eventDate": "2026-12-04T00:00:00+03:00",
+   "meet": "Basaksehir Genclik ve Spor Ilce Mudurlugu Tesisleri, Istanbul",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "confidence": "Low",
+   "verified": "2026-10-23",
+   "added": "2026-10-23",
+   "source": "bulk-sports2",
+   "id": "ts-ajp-world-nogi-istanbul-2026",
+   "sport": "martial-arts",
+   "title": "AJP World Jiu-Jitsu No-Gi Championship 2026 (Istanbul)",
+   "org": "Abu Dhabi Jiu-Jitsu Pro (AJP Tour)",
+   "place": "Istanbul, Turkey",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadlineText": "Registration deadline not stated",
+   "when": "4-6 Dec 2026",
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not restricted",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: No-Gi grappling"
+    ]
+   },
+   "money": [
+    [
+     "Entry fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not covered",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Open the AJP Tour events page and select the No-Gi World Championship 2026.",
+    "Register online with an AJP account."
+   ],
+   "url": "https://ajptour.com/en/event/1488",
+   "caveat": "Confirmed on the official AJP events calendar; the event page itself blocked automated access, so fee and entry rules are unverified.",
+   "contact": [],
+   "image": "https://ajptour.com/pictures/t/1843208-gmyy/ajp.png",
+   "logo": "https://ajptour.com/build/webpack/img/favicon/ajp/apple-touch-icon.517f4ac87201fceee8ae..png",
+   "imageChecked": "2026-10-23",
+   "gallery": [
+    "https://ajptour.com/pictures/t/547516-3pic/ajp.png",
+    "https://ajptour.com/build/webpack/img/ajp/sponsors/ajpacademy.b755cc90b894f353c73f..png",
+    "https://ajptour.com/pictures/t/1790720-kzu1/1-events-calendar-2026-2025.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -142912,6 +144851,106 @@
   },
   {
    "id": "ul-meu-undergraduate-2027",
+   "cat": "exchange",
+   "title": "Middle East University (MEU) — Undergraduate admission (2026-27 / Fall 2027)",
+   "org": "Middle East University (MEU)",
+   "place": "Sabtieh, Jdeideh (Metn), Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 65,
+   "feeText": "Application fee: USD 65",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated on the apply page (see MEU Academic Calendar 2026-2027)",
+   "when": "Not stated",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese and international applicants (foreign students pay a USD 2,500 advance deposit; residency permit fee USD 450)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Lebanese Bac holders: Grades 10–12 transcripts, certified Bac results, English test (TOEFL, Duolingo or IELTS)",
+     "Freshman: SAT 870 Arts / 950 Science plus Ministry permission to enrol",
+     "International Bac/diploma holders: authenticated and equalised transcripts"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 265 per credit (2026–27) + registration USD 265 per semester and other fees; payable in LBP at the day's rate",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 65",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "English placement exam: whatever Amideast charges",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Complete the online application form (including motivation letter).",
+    "Submit the required documents.",
+    "Pay the USD 65 fee and email the receipt to businessoffice@meu.edu.lb."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admissions@meu.edu.lb",
+     "Admissions"
+    ],
+    [
+     "Phone",
+     "+961 1 685 800",
+     "Admissions"
+    ],
+    [
+     "WhatsApp",
+     "+961 70 389 672",
+     "Admissions"
+    ]
+   ],
+   "url": "https://meu.edu.lb/apply/",
+   "confidence": "Medium",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-meu-masters-2027",
    "cat": "exchange",
    "title": "Middle East University (MEU) — Master's admission (2026-27 / Fall 2027)",
    "org": "Middle East University (MEU)",
