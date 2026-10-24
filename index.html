@@ -264,7 +264,7 @@ const CATS={research:"Research",hackathon:"Hackathon",case:"Case competition",ru
 const INTERESTS={consulting:"Consulting",finance:"Finance & VC",startups:"Startups",case:"Case comps",hackathon:"Hackathons",research:"Research",exchange:"Exchange & scholarships",careers:"Careers",running:"Running",hiking:"Hiking",volunteering:"Volunteering",sports:"Sports (football, basketball…)",arts:"Arts & creative"};
 
 /* ---------- state ---------- */
-const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{types:[],when:"any",where:[],region:"",money:[],fee:"any",feeMin:"",eligOnly:false,sort:"best"},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
+const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{types:[],degree:[],when:"any",where:[],region:"",money:[],fee:"any",feeMin:"",eligOnly:false,sort:"best"},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
 let S=JSON.parse(JSON.stringify(DEF));
 try{const raw=localStorage.getItem("darb-state");if(raw){const p=JSON.parse(raw);S={...S,...p,profile:{...S.profile,...(p.profile||{})}}}}catch(e){}
 S.filters={...DEF.filters,...(S.filters||{})};
@@ -433,6 +433,7 @@ const regionOf=o=>whereOf(o)==="lebanon"?(REGIONS.find(([,,re])=>re.test(o.place
 function passFilters(o){
   const f=S.filters,d=daysLeft(o);
   if(f.types.length&&!f.types.some(t=>typesOf(o).has(t)))return false;
+  if(f.degree.length&&!f.degree.includes(degreeOf(o)))return false;
   if(f.region&&regionOf(o)!==f.region)return false;
   if(f.feeMin!==""&&(o.feeUSD===null||o.feeUSD<Number(f.feeMin)))return false;
   if(f.when==="7"&&!(d!==null&&d>=0&&d<=7))return false;
@@ -444,7 +445,7 @@ function passFilters(o){
   if(f.eligOnly&&(o.elig.status!=="ok"||fitFor(o).block))return false;
   return true;
 }
-function activeFilters(){const f=S.filters;return(S.profile.topics||[]).length+f.types.length+(f.when!=="any")+f.where.length+!!f.region+f.money.length+(f.fee!=="any"||f.feeMin!=="")+f.eligOnly+(f.sort!=="best")}
+function activeFilters(){const f=S.filters;return(S.profile.topics||[]).length+f.types.length+f.degree.length+(f.when!=="any")+f.where.length+!!f.region+f.money.length+(f.fee!=="any"||f.feeMin!=="")+f.eligOnly+(f.sort!=="best")}
 
 /* ---------- For You: learns from what you watch, save, like and skip ---------- */
 const jitter=id=>(hash(id+SESSION_SEED)%1000)/1000;
@@ -497,7 +498,17 @@ const MAKE=["hackathon","startup","case","tournament"];
 const FAMILY={};for(const g of[SPORTS,STUDY,MAKE,["arts","clubs","volunteer"]])for(const k of g)FAMILY[k]=[...new Set([...(FAMILY[k]||[]),...g])];
 
 /* ---------- type: competition, class/training, event, trip, programme, job, club, volunteering ---------- */
-const TYPES={competition:"🏆 Competitions",class:"📚 Classes & training",event:"🎤 Events & conferences",trip:"🥾 Trips & outings",aid:"💰 Scholarships & financial aid",program:"🎓 Programmes & scholarships",intern:"🧑‍💻 Internships",job:"💼 Jobs",club:"👥 Clubs & communities",volunteer:"🤝 Volunteering",place:"🏛️ Places to visit",festival:"🎉 Festivals & celebrations",show:"🎬 Shows, movies & concerts",exam:"📝 Exams & admissions"};
+const TYPES={competition:"🏆 Competitions",class:"📚 Classes & training",event:"🎤 Events & conferences",trip:"🥾 Trips & outings",aid:"💰 Scholarships & financial aid",program:"🎓 Programmes & scholarships",intern:"🧑‍💻 Internships",job:"💼 Jobs",club:"👥 Clubs & communities",volunteer:"🤝 Volunteering",place:"🏛️ Places to visit",festival:"🎉 Festivals & celebrations",show:"🎬 Shows, movies & concerts",exam:"📝 Exams & admissions",admission:"🎓 University admissions"};
+// Degree level for admissions, scholarships and programmes: from the item or its title.
+const DEGREES={bachelor:"Bachelor's",master:"Master's",phd:"PhD"};
+function degreeOf(o){
+  if(o.degree)return o.degree;
+  const t=o.title+" "+eligLine(o,"level:");
+  if(/ph.?d|doctora/i.test(o.title))return"phd";
+  if(/master|msc|ma|mba|graduate program/i.test(o.title))return"master";
+  if(/bachelor|undergrad/i.test(t))return"bachelor";
+  return"";
+}
 function typesOf(o){
   if(o._types)return o._types;
   const t=new Set(),x=o.title+" "+(o.when||"");
@@ -512,6 +523,7 @@ function typesOf(o){
   if(o.source==="bulk-internships"||/intern(ship)?s?|traineeship|summer analyst|co-?op/i.test(o.title))t.add("intern");
   if(o.job)t.add(o.intern?"intern":"job");
   if(o.exam||/(sat|act|gre|gmat|mcat|lsat|toefl|ielts|delf|dalf|cfa|acca|pmp)|entrance exam|admission|application deadline/i.test(o.title))t.add("exam");
+  if(o.admission)t.add("admission");
   if(o.visit)t.add("place");
   if(o.class)t.add("class");
   if(o.show||o.movie||/circus|concert|theat(re|er) play|stand-?up|comedy night|musical|screening|premiere|now showing/i.test(o.title))t.add("show");
@@ -813,7 +825,8 @@ function openFilters(){
     // Categories (Football, Tournaments…) are chosen here; the feed only shows the active ones.
     // Where it happens: one tap on the main page; "Change" opens the full list with Lebanese regions.
     const wq=(v,l)=>`<button class="fchip ${v==="all"?(!f.where.length&&!f.region?"on":""):(f.where.includes(v)&&!f.region?"on":"")}" data-floc="${v==="all"?"all":"w:"+v}">${l}</button>`;
-    body=head("Filters")+row("type","Type",sum.type)+row("category","Category",sum.category)+
+    body=head("Filters")+row("type","Type",sum.type)+
+      `<div class="frow static"><span><b>Degree level</b></span><div class="ichips">${Object.entries(DEGREES).map(([k,l])=>`<button class="fchip ${f.degree.includes(k)?"on":""}" data-ftog="degree:${k}">${l}</button>`).join("")}</div></div>`+row("category","Category",sum.category)+
       `<div class="frow static"><span style="flex-direction:row;justify-content:space-between;align-items:center"><b>Where</b><button class="flink" data-fpage="location" style="margin:0">Regions in Lebanon ›</button></span><div class="ichips">${wq("all","Anywhere")}${wq("lebanon","🇱🇧 In Lebanon")}${wq("online","💻 Online")}${wq("abroad","✈️ Outside Lebanon")}</div>${f.region?`<small>Region: ${REGIONS.find(r=>r[0]===f.region)[1]}</small>`:""}</div>`+
       `<div class="frow static"><span><b>Fee (USD)</b></span><div class="minmax"><input id="f-min" class="inp" type="number" inputmode="numeric" min="0" placeholder="Min" value="${f.feeMin}"><input id="f-max" class="inp" type="number" inputmode="numeric" min="0" placeholder="Max" value="${f.fee==="any"?"":f.fee}"></div></div>`+
       row("deadline","Deadline",sum.deadline)+row("money","Funding & prizes",sum.money)+row("more","More details",sum.more);
