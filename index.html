@@ -466,7 +466,13 @@ function feedItems(){
   else if(feedMode==="foryou"){const r=new Map(list.map(o=>[o.id,rankForYou(o)]));list.sort((a,b)=>r.get(b.id)-r.get(a.id))}
   else list.sort((a,b)=>jitter(a.id)-jitter(b.id));
   const main=list.filter(o=>!reachReason(o)),reach=list.filter(o=>reachReason(o));
-  const out=S.profile.reach?main.concat(reach):main;
+  let out=S.profile.reach?main.concat(reach):main;
+  // Jobs outnumber everything else; unless you filter for jobs/internships, show at most one job per 5 cards.
+  if(!S.filters.types.some(t=>t==="job"||t==="intern")&&feedMode!=="following"){
+    const jobs=out.filter(o=>o.job),rest=out.filter(o=>!o.job),mix=[];
+    rest.forEach((o,i)=>{mix.push(o);if(i%4===3&&jobs.length)mix.push(jobs.shift())});
+    out=mix.concat(jobs);
+  }
   return sort==="soon"?out:spread(out);
 }
 // Keep variants of the same thing apart (e.g. Sony photo awards' 3 categories, several Murex jobs):
@@ -490,7 +496,7 @@ const MAKE=["hackathon","startup","case","tournament"];
 const FAMILY={};for(const g of[SPORTS,STUDY,MAKE,["arts","clubs","volunteer"]])for(const k of g)FAMILY[k]=[...new Set([...(FAMILY[k]||[]),...g])];
 
 /* ---------- type: competition, class/training, event, trip, programme, job, club, volunteering ---------- */
-const TYPES={competition:"🏆 Competitions",class:"📚 Classes & training",event:"🎤 Events & conferences",trip:"🥾 Trips & outings",aid:"💰 Scholarships & financial aid",program:"🎓 Programmes & scholarships",intern:"🧑‍💻 Internships",job:"💼 Jobs",club:"👥 Clubs & communities",volunteer:"🤝 Volunteering",place:"🏛️ Places to visit",festival:"🎉 Festivals & celebrations",show:"🎬 Shows, movies & concerts"};
+const TYPES={competition:"🏆 Competitions",class:"📚 Classes & training",event:"🎤 Events & conferences",trip:"🥾 Trips & outings",aid:"💰 Scholarships & financial aid",program:"🎓 Programmes & scholarships",intern:"🧑‍💻 Internships",job:"💼 Jobs",club:"👥 Clubs & communities",volunteer:"🤝 Volunteering",place:"🏛️ Places to visit",festival:"🎉 Festivals & celebrations",show:"🎬 Shows, movies & concerts",exam:"📝 Exams & admissions"};
 function typesOf(o){
   if(o._types)return o._types;
   const t=new Set(),x=o.title+" "+(o.when||"");
@@ -503,6 +509,8 @@ function typesOf(o){
   if(o.cat==="career"&&/engineer|analyst|job|position|graduate|intern|hiring|vacanc|referent|officer|role/i.test(x)||/\bjob\b|vacanc/i.test(x))t.add("job");
   if(o.source==="bulk-aid"||/scholarship|financial aid|bursar|tuition|stipend|grant|student loan|fee waiver|fellowship/i.test(o.title))t.add("aid");
   if(o.source==="bulk-internships"||/intern(ship)?s?|traineeship|summer analyst|co-?op/i.test(o.title))t.add("intern");
+  if(o.job)t.add(o.intern?"intern":"job");
+  if(o.exam||/(sat|act|gre|gmat|mcat|lsat|toefl|ielts|delf|dalf|cfa|acca|pmp)|entrance exam|admission|application deadline/i.test(o.title))t.add("exam");
   if(o.place)t.add("place");
   if(o.class)t.add("class");
   if(o.show||o.movie||/circus|concert|theat(re|er) play|stand-?up|comedy night|musical|screening|premiere|now showing/i.test(o.title))t.add("show");
