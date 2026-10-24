@@ -411,7 +411,6 @@ const AR_PATTERNS=[
   [/^That's all (\d+) for your filters$/,(m,n)=>`هذه كل النتائج (${n}) حسب الفلاتر`],[/^(\d+) views?$/,(m,n)=>`${n} مشاهدة`],
   [/^Refreshed · (\d+) open · updated (.+)$/,(m,n,d)=>`تم التحديث · ${n} متاح · آخر تحديث ${arDate(d)}`],
   [new RegExp("^"+DATE_RE+"$"),(m,d)=>arDate(d)],[new RegExp("^Register by "+DATE_RE+"$"),(m,d)=>`التسجيل قبل ${arDate(d)}`],
-  [/^Season opens (.+)$/,(m,d)=>`يبدأ الموسم ${arDate(d)}`],
   [/^Before (.+)$/,(m,d)=>`قبل ${arDate(d)}`],[/^After (.+)$/,(m,d)=>`بعد ${arDate(d)}`],
 ];
 const EMOJI_LEAD=/^((?:\p{Extended_Pictographic}|\p{Regional_Indicator})[️‍\p{Extended_Pictographic}\p{Regional_Indicator}]*\s*)([\s\S]*)$/u;
@@ -450,18 +449,12 @@ const $=s=>document.querySelector(s);
 const byId=id=>OPPS.find(o=>o.id===id);
 const DAY=864e5;
 function daysLeft(o){const t=o.deadline||o.eventDate;if(!t)return null;return Math.ceil((new Date(t)-Date.now())/DAY)}
-// Seasonal places (ski resorts, beaches): {from:"12-15",to:"04-10"}; the season may wrap the new year.
-function seasonState(o){
-  if(!o.season||!o.season.from||!o.season.to)return null;
-  const now=new Date(),md=(now.getMonth()+1)*100+now.getDate(),n=x=>+x.replace("-",""),a=n(o.season.from),b=n(o.season.to);
-  const inS=a<=b?md>=a&&md<=b:md>=a||md<=b;
-  if(inS)return{in:true};
-  const [m,d]=o.season.from.split("-").map(Number);let y=now.getFullYear();if(md>a)y++;
-  return{in:false,opens:new Date(y,m-1,d)};
-}
+// Seasonal places (ski resorts, beaches) appear only once their owners announce the season:
+// the daily update sets seasonOpen:true (with the announced dates and prices) and false when they close.
+const seasonHidden=o=>!!o.season&&!o.seasonOpen;
 function isClosed(o){const d=o.deadline?daysLeft(o):(o.eventDate?Math.ceil((new Date(o.eventDate)-Date.now())/DAY)+5:null);return d!==null&&d<0}
 function dlLabel(o){
-  if(o.visit){const ss=seasonState(o);if(ss)return ss.in?"Open · in season":"Season opens "+fmtDate(ss.opens);return"See opening hours"}
+  if(o.visit){if(o.season)return o.seasonOpen?"Open · in season":"Season not announced yet";return"See opening hours"}
   if(isClosed(o)){const e=o.eventEnd||o.eventDate,de=e?Math.ceil((new Date(e)-Date.now())/DAY):null;
     if(de!==null&&de>0)return"Registration closed";if(de!==null&&de>=-1)return"Happening now";return"Ended "+fmtDate(e||o.deadline)}
   if(o.job&&!o.deadline)return"Hiring now";
@@ -661,8 +654,8 @@ function feedItems(){
   // Ended events stay (registration closed, happening now, or over with their photos), except jobs,
   // and except when you sort or filter by deadline, where only open ones make sense.
   const showEnded=f0.ended!==false&&!strict&&f0.when==="any"&&!(f0.dlMode&&f0.dlDate);
-  // Ski resorts, beaches and other seasonal places join the feed when their season starts.
-  let list=OPPS.filter(o=>(!isClosed(o)||(showEnded&&!o.job))&&!S.hidden.includes(o.id)&&o.elig.status!=="no"&&!(seasonState(o)&&!seasonState(o).in));
+  // Ski resorts, beaches and other seasonal places join the feed once their owners announce the season.
+  let list=OPPS.filter(o=>(!isClosed(o)||(showEnded&&!o.job))&&!S.hidden.includes(o.id)&&o.elig.status!=="no"&&!seasonHidden(o));
   const tp=S.profile.topics||[];
   if(tp.length)list=list.filter(o=>tp.some(k=>topicsOf(o).has(k)));
   list=list.filter(passFilters);
