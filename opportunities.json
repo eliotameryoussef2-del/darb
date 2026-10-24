@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T09:56:26.638Z",
- "count": 1845,
+ "updated": "2026-10-24T09:56:40.529Z",
+ "count": 1859,
  "opportunities": [
   {
    "id": "hk-taskforge",
@@ -4906,6 +4906,64 @@
    "imageChecked": "2026-10-24",
    "gallery": [],
    "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "lr-oib-heirs-of-suyuti-cfp-2026",
+   "cat": "research",
+   "title": "Call for Contributions: edited volume 'Heirs of Suyūṭī' (Beiruter Texte und Studien series)",
+   "org": "Orient-Institut Beirut (OIB) - Beiruter Texte und Studien (BTS) series",
+   "place": "Orient-Institut Beirut publication series (submission by email/online)",
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2026-11-01T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Abstracts due 1 Nov 2026",
+   "when": "Edited volume; schedule in the linked call PDF",
+   "meet": "",
+   "team": "Not stated",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Not stated",
+     "Topic: the intellectual heirs and legacy of al-Suyūṭī (Islamic and Arabic studies)"
+    ]
+   },
+   "money": [
+    [
+     "Fees",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Honorarium",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the OIB call page and download the full call PDF (hosted at FAU Erlangen) for abstract length and submission address.",
+    "Submit your abstract by 1 Nov 2026."
+   ],
+   "contact": [],
+   "url": "https://www.orient-institut.org/support/calls-grants/call-for-contributions-edited-volume-in-the-beiruter-texte-und-studien-series-heirs-of-suyuti-deadline-for-abstracts-1-november-2026.html",
+   "confidence": "Low",
+   "caveat": "An academic call for papers, not aimed specifically at students; eligibility, abstract length and submission method are only in the linked PDF, which could not be opened.",
+   "verified": "2026-10-24",
+   "added": "2026-10-24",
+   "source": "bulk-lb-research",
+   "travel": false,
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24"
   },
   {
    "id": "lb-aub-casar-archival-research-2026",
@@ -14723,6 +14781,96 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "ul-usek-undergraduate-2027",
+   "cat": "exchange",
+   "title": "USEK — Undergraduate admission (2026-27 round)",
+   "org": "Holy Spirit University of Kaslik (USEK)",
+   "place": "Kaslik, Jounieh, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Application fee not stated",
+   "deadline": "2026-12-01T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Online application deactivated on Tuesday 1 Dec 2026 (current round; the page does not say which intake)",
+   "when": "Regular admission exams (all programmes except Engineering): 25 Nov and 14 Dec 2026. Engineering competitive entrance exam: 11 Nov 2026. Or present a valid SAT score instead of the entrance test.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Online admission form plus USEK entrance test or valid SAT score",
+     "English proficiency exemptions include SAT Reading & Writing 550/800 or IELTS 6/9",
+     "Lebanese Baccalaureate or equivalent"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 160–445 per credit (e.g. Business USD 375, Engineering up to USD 445, Medicine USD 440, Nursing USD 300) + registration fee USD 200 and operational fee USD 400 per semester; paid in cash USD",
+     "info"
+    ],
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Tuition discounts via the Financial Aid Office for students facing financial difficulties",
+     "partial"
+    ],
+    [
+     "Merit scholarships",
+     "Admission with Scholarship (Early Admission) and Upgraded Scholarship (SAT ≥ 1350; school ranking by end of June)",
+     "partial"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Choose your programme on usek.edu.lb.",
+    "Complete the online admission form and pick an entrance-test date (or submit SAT scores).",
+    "Sit the entrance test on campus.",
+    "Confirm admission and pay the first instalment."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 9 600 000",
+     "USEK main line"
+    ]
+   ],
+   "url": "https://www.usek.edu.lb/en/admission/for-undergraduate-studies/calendar-of-admission-tests?parent=1",
+   "confidence": "Medium",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Page does not state the intake (Spring 2027 vs Fall 2027) for these test dates; nationality rules not stated.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24"
+  },
+  {
    "id": "sc-emjm-mundus-mapp-2027",
    "cat": "exchange",
    "title": "Mundus MAPP – Erasmus Mundus Master's in Public Policy 2027–2029",
@@ -15297,6 +15445,97 @@
     "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/dsc06888_123448_174428113.jpg?w=1920"
    ],
    "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-ndu-undergraduate-2027",
+   "cat": "exchange",
+   "title": "NDU — Undergraduate admission (Spring & Fall 2027)",
+   "org": "Notre Dame University–Louaize (NDU)",
+   "place": "Zouk Mosbeh, Lebanon (plus North Lebanon and Shouf campuses)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 30,
+   "feeText": "Application fee: USD 30",
+   "deadline": "2026-12-02T12:00:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Spring 2027: 1 Oct – 2 Dec 2026 (12:00). Fall 2027: Early 22 Jan 2027; Regular I 16 Mar 2027; Regular II 1 Jun 2027; Regular III 20 Jul 2027 (all at noon).",
+   "when": "Spring 2027: entrance exams 5 Dec 2026, decisions 18 Dec 2026. Fall 2027: Early exams 30 Jan 2027 (decisions 1 Mar); Regular I exams 20 Mar (decisions 12 Apr); Regular II exams 4 Jun (decisions 28 Jun); Regular III exams 23 Jul (decisions 23 Aug 2027).",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese and international applicants (internationals submit passport and valid residence permit)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Sophomore: Lebanese Baccalaureate Part II or equivalent; composite = 55% S1–S2 averages + 45% SAT Math or NDU Math Aptitude Test",
+     "Freshman: SAT required (min 870 Arts, 950 Science) and Ministry-certified Freshman Authorization",
+     "English: NDU EET, TOEFL, SAT EBRW or IELTS (EET 60 / TOEFL 91 / IELTS 6.5 for direct ENL 213)",
+     "Applicants without SAT take the NDU English Entrance Test and Math Aptitude Test"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 380–470 per credit (Engineering 470, Architecture/Computer Science 440, Business 395, others 380) + Technology & Student Services fee USD 500 per semester; payable in full in cash USD",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 30",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "USD 30 for one entrance test, USD 50 for two",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Financial aid application Spring 2027: 1 Oct – 4 Dec 2026 (Financial Aid Upon Admission, up to 40%)",
+     "partial"
+    ],
+    [
+     "Merit scholarships",
+     "Early Admission Scholarship 20% (Fall 2027); Official Baccalaureate Scholarship 40% or 60% of tuition based on results",
+     "partial"
+    ],
+    [
+     "Work-study",
+     "Work-Study Grant (Spring 2027 application online)",
+     "partial"
+    ]
+   ],
+   "steps": [
+    "Choose your category (Sophomore, Freshman, Transfer, Second-Degree, Teaching Diploma).",
+    "Apply on the SIS iApply portal (sis.ndu.edu.lb/iApply).",
+    "Upload documents for your category and pay the USD 30 fee.",
+    "Sit the NDU entrance tests or submit SAT/TOEFL/IELTS scores.",
+    "Check your faculty's specific requirements."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admission@ndu.edu.lb",
+     "Office of Admissions"
+    ]
+   ],
+   "url": "https://www.ndu.edu.lb/admissions/important-dates",
+   "confidence": "High",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24"
   },
   {
    "id": "ll-ex-kulturnest-thresholds",
@@ -17365,6 +17604,209 @@
    "imageChecked": "2026-10-22",
    "gallery": [],
    "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-usj-undergraduate-2027",
+   "cat": "exchange",
+   "title": "USJ — Undergraduate (1st cycle) admission 2027-28",
+   "org": "Université Saint-Joseph de Beyrouth (USJ)",
+   "place": "Beirut (Rue de Damas, Mansourieh, Monnot), Saida, Zahle, Tripoli (Ras Maska)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 150,
+   "feeText": "Application fee: USD 150 (non-refundable; paid once for all 3 admission periods and the second semester of 2027-28)",
+   "deadline": "2026-12-17T15:30:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Early period (période anticipée): 19 Oct – 17 Dec 2026. Regular: 1 Feb – 18 Jun 2027. Late: 19 Jun – 20 Aug 2027. Second semester: 1 Dec 2027 – 12 Jan 2028.",
+   "when": "Early period results end of January 2027 (programmes without entrance tests). Regular period results in waves (end April, mid-June, mid-July 2027). Late period results 4 Aug and 27 Aug 2027. Lebanese Baccalaureate 2027 holders confirm by 13 Aug 2027.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese and foreign applicants (foreigners submit passport); Lebanese Baccalaureate or equivalent certified by the Lebanese Ministry of Education",
+     "Age: Not stated",
+     "Team: Individual",
+     "French-taught programmes: category \"A\" on the French Placement Test (TALF); DELF/DALF B2+ exempts",
+     "English-taught programmes: category \"B\" on the English Placement Test (TALA), or TOEFL iBT 80 / paper 548, or IELTS 6.5",
+     "Grade 10 and 11 transcripts (early period); Grades 10–12 for regular/late periods",
+     "Some programmes have entrance tests (see the 2027-28 test calendar)"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Application fee",
+     "USD 150 (non-refundable; paid once for all 3 admission periods and the second semester of 2027-28)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated (covered by file fee as far as stated)",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Social financial aid: submit the Dossier social étudiant by 16 Jan 2027 (early period), 16 Jun / 16 Jul 2027 (regular), 30 Aug 2027 (late)",
+     "partial"
+    ],
+    [
+     "Merit scholarships",
+     "Magis L scholarship file (deadlines in the 2027-28 admission dossier); excellence scholarships per USJ Aides financières page",
+     "partial"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply online at admission.usj.edu.lb or at the nearest USJ reception office (CSH, CFDSS, CST, CLN, CLS, CZB), 10:00–15:30; coming in person is preferred.",
+    "Fill in the 1st-cycle admission form and rank up to 9 programmes by priority.",
+    "Attach the required documents (ID/civil status record, Grade 10–11 transcripts and certified summary, Baccalaureate if already obtained).",
+    "Pay the USD 150 file fee (once for all 2027-28 periods).",
+    "Sit entrance tests if your programme requires them; results arrive by SMS and email.",
+    "Confirm and pay the confirmation slip within the stated delay."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 421 000",
+     "USJ switchboard"
+    ],
+    [
+     "Email",
+     "info@usj.edu.lb",
+     "General enquiries"
+    ],
+    [
+     "Email",
+     "admission@usj.edu.lb",
+     "Directorate of Admissions"
+    ]
+   ],
+   "url": "https://www.usj.edu.lb/admission/",
+   "confidence": "High",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-usj-medicine-dentistry-2027",
+   "cat": "exchange",
+   "title": "USJ — Medicine & Dental Medicine entrance exam (FM-FMD, 2027-28)",
+   "org": "Université Saint-Joseph de Beyrouth (USJ) – Faculties of Medicine and Dental Medicine",
+   "place": "Beirut (Campus des sciences médicales, Rue de Damas)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 150,
+   "feeText": "Application fee: USD 150 (USJ admission file fee, once per year)",
+   "deadline": "2026-12-17T15:30:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Apply in the early period: 19 Oct – 17 Dec 2026",
+   "when": "Entrance exams: Chemistry, Maths and Culture on 8 Jan 2027; Physics and Biology on 9 Jan 2027 (Campus des sciences médicales). Results mid-February 2027; confirm within 7 days. Pharmacy (FP) exams: 1–2 Jul 2027 (regular period).",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese and foreign applicants; Lebanese Baccalaureate or certified equivalent",
+     "Age: Not stated",
+     "Team: Individual",
+     "Written entrance exams in chemistry, maths, culture, physics and biology",
+     "Candidates for FM, FMD and FP may sit the entrance exam at most twice",
+     "French placement test (TALF) level \"A\" before registration"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Application fee",
+     "USD 150 (USJ admission file fee, once per year)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Dossier social étudiant deadline 16 Jan 2027 (early period, programmes with entrance tests)",
+     "partial"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply online at admission.usj.edu.lb or at the nearest USJ reception office (CSH, CFDSS, CST, CLN, CLS, CZB), 10:00–15:30; coming in person is preferred.",
+    "Fill in the 1st-cycle admission form and rank up to 9 programmes by priority.",
+    "Attach the required documents (ID/civil status record, Grade 10–11 transcripts and certified summary, Baccalaureate if already obtained).",
+    "Pay the USD 150 file fee (once for all 2027-28 periods).",
+    "Sit entrance tests if your programme requires them; results arrive by SMS and email.",
+    "Confirm and pay the confirmation slip within the stated delay."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 421 000",
+     "USJ switchboard"
+    ],
+    [
+     "Email",
+     "info@usj.edu.lb",
+     "General enquiries"
+    ],
+    [
+     "Email",
+     "admission@usj.edu.lb",
+     "Directorate of Admissions"
+    ]
+   ],
+   "url": "https://www.usj.edu.lb/admission/",
+   "confidence": "High",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24"
   },
   {
    "travel": false,
@@ -21311,6 +21753,94 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "ul-bau-graduate-spring-2027",
+   "cat": "exchange",
+   "title": "BAU — Master's & PhD admission (Spring 2027)",
+   "org": "Beirut Arab University (BAU) – Graduate Studies",
+   "place": "Beirut, Debbieh, Tripoli (Lebanon)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "Application fee: USD 50 (non-refundable)",
+   "deadline": "2027-01-15T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Applications 19 Oct 2026 – Fri 15 Jan 2027",
+   "when": "Spring semester 2026-27 intake. (Fall 2026-27 graduate window was 7 Apr – 31 Jul 2026.)",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Bachelor's holders (master's) or master's holders (PhD)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "English (non-BAU graduates): BAU English exam 60%, TOEFL iBT 68 / paper 520, or IELTS 5.5; Human Sciences and Law also accept BAU French exam 60% or DALF C1",
+     "Minimum cumulative GPA per faculty policy (lower GPA may get conditional admission)"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated on the page (see BAU Graduate Studies tuition PDF)",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 50 (non-refundable)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply online via the BAU graduate portal (ssb8en.bau.edu.lb).",
+    "Pay the USD 50 fee.",
+    "Submit English test results if not a BAU graduate."
+   ],
+   "contact": [
+    [
+     "Email",
+     "gradstudies@bau.edu.lb",
+     "Graduate Studies Office"
+    ]
+   ],
+   "url": "https://bau.edu.lb/Admissions/GraduateStudents",
+   "confidence": "High",
+   "degree": "master",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Nationality/residency rules not stated on the official page.",
+   "image": "https://www.bau.edu.lb/Content/img/fb-social.png",
+   "logo": null,
+   "imageChecked": "2026-10-24"
+  },
+  {
    "id": "fd-iau-ga-2027-grants",
    "cat": "research",
    "title": "IAU General Assembly 2027 Grants (Rome)",
@@ -25040,6 +25570,182 @@
     "https://www.mun-italia.it/wp-content/uploads/2022/05/diploma.png"
    ],
    "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-bau-undergraduate-2027",
+   "cat": "exchange",
+   "title": "BAU — Undergraduate admission (Spring & Fall 2027)",
+   "org": "Beirut Arab University (BAU)",
+   "place": "Beirut, Debbieh, Tripoli, Bekaa (Lebanon)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "Application fee: USD 50 (non-refundable)",
+   "deadline": "2027-02-24T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Fall 2027-28 first admission exam: apply 16 Nov 2026 – 24 Feb 2027. Second exam (not Medicine/Dentistry/Pharmacy): apply 4 May – 5 Aug 2027. Spring 2026-27: applications open from 19 Oct 2026 (deadline not stated).",
+   "when": "Spring 2027 exam: Wed 27 Jan 2027. Fall 2027 first admission exam: Sat 27 Feb 2027. Second admission exam: 10 Aug 2027.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese and non-Lebanese applicants; non-Lebanese secondary certificates need equivalence from the Lebanese Ministry of Education and Higher Education",
+     "Age: Not stated",
+     "Team: Individual",
+     "Lebanese Baccalaureate stream rules: GS/LS/SE may apply to all sophomore majors (SE needs extra courses for some); LH to Law, Business, Health Sciences, Psychology, Mass Communication, Design, Education",
+     "English minimums: TOEFL iBT 68 / paper 520, IELTS 5.5, SAT R&W 480, or BAU English exam 60%",
+     "Faculty exams: Engineering MCQ (thinking skills, maths, physics, chemistry); health faculties MCQ + interview; Architecture/Design portfolio and oral exam"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Application fee",
+     "USD 50 (non-refundable)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "BAU advertises \"up to 35% financial aid on your tuition fees\" for applicants",
+     "partial"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Create an application on the BAU online portal (ssb8en.bau.edu.lb).",
+    "Pay the USD 50 application fee.",
+    "Upload civil status record (Lebanese) or ID/passport (non-Lebanese) and school documents.",
+    "Sit the admission exam for your faculty on the scheduled date."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admission@bau.edu.lb",
+     "Undergraduate admissions"
+    ]
+   ],
+   "url": "https://www.bau.edu.lb/Admissions/ProspectiveStudents",
+   "confidence": "High",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "image": "https://www.bau.edu.lb/Content/img/fb-social.png",
+   "logo": null,
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-bau-medicine-health-2027",
+   "cat": "exchange",
+   "title": "BAU — Medicine, Dentistry & Pharmacy admission exam (Fall 2027)",
+   "org": "Beirut Arab University (BAU)",
+   "place": "Beirut / Debbieh, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "Application fee: USD 50 (non-refundable)",
+   "deadline": "2027-02-24T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Apply 16 Nov 2026 – 24 Feb 2027 (only the first admission exam is open to Medicine, Dentistry and Pharmacy)",
+   "when": "Admission exam Sat 27 Feb 2027: MCQ in Thinking Skills, Biology, Chemistry and Physics (Medicine: 90 questions, plus multiple mini-interviews; Dentistry and Pharmacy: plus interview).",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese and non-Lebanese applicants; non-Lebanese secondary certificates need equivalence from the Lebanese Ministry of Education and Higher Education",
+     "Age: Not stated",
+     "Team: Individual",
+     "Must pass the BAU English exam with no more than one intensive English course",
+     "Lebanese Baccalaureate GS/LS (SE holders need extra courses)"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Application fee",
+     "USD 50 (non-refundable)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply on the BAU portal and pay USD 50.",
+    "Sit the MCQ admission exam on 27 Feb 2027.",
+    "Attend the interview / multiple mini-interviews if shortlisted."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admission@bau.edu.lb",
+     "Undergraduate admissions"
+    ]
+   ],
+   "url": "https://www.bau.edu.lb/Admissions/ProspectiveStudents",
+   "confidence": "High",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "image": "https://www.bau.edu.lb/Content/img/fb-social.png",
+   "logo": null,
+   "imageChecked": "2026-10-24"
   },
   {
    "id": "ex-lsat-apr-2027",
@@ -118933,6 +119639,539 @@
    "imageChecked": "2026-10-24",
    "gallery": [],
    "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-usj-masters-2027",
+   "cat": "exchange",
+   "title": "USJ — Master's (2nd cycle) admission 2027-28",
+   "org": "Université Saint-Joseph de Beyrouth (USJ)",
+   "place": "Beirut and regional campuses",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Application fee not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated centrally; depends on the faculty",
+   "when": "2027-28 academic year; early admission period opened 19 Oct 2026 for all programmes.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Bachelor's degree holders (bachelor's required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated (conditions depend on prior degrees and the faculty)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Admission conditions depend on your previous degrees and the faculty",
+     "French or English proficiency rules of USJ apply"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Find your master programme on usj.edu.lb.",
+    "Submit the online 2nd-cycle application form linked from the USJ admission page.",
+    "Follow the faculty's instructions for documents and interviews."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 421 000",
+     "USJ switchboard"
+    ],
+    [
+     "Email",
+     "info@usj.edu.lb",
+     "General enquiries"
+    ],
+    [
+     "Email",
+     "admission@usj.edu.lb",
+     "Directorate of Admissions"
+    ]
+   ],
+   "url": "https://www.usj.edu.lb/admission/",
+   "confidence": "Medium",
+   "degree": "master",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Deadlines, fees and tuition for master's programmes are set per faculty and not published on the central admission page.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-ndu-graduate-2027",
+   "cat": "exchange",
+   "title": "NDU — Master's admission (Spring & Fall 2027)",
+   "org": "Notre Dame University–Louaize (NDU)",
+   "place": "Zouk Mosbeh, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 30,
+   "feeText": "Application fee: USD 30",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated separately for graduate programmes (NDU's general Spring 2027 window is 1 Oct – 2 Dec 2026; Fall 2027 window 7 Dec 2026 – 20 Jul 2027)",
+   "when": "Spring 2027 and Fall 2027 intakes.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Bachelor's degree holders (bachelor's required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Bachelor's degree; graduate admission GPA per university policy"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 590–765 per credit (Engineering 765, Architecture/Computer Science 670, Business 635, others 590; remedial 520); payable in cash USD",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 30",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "USD 30 (one test)",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "NDU graduates: 25% graduate tuition reduction if enrolling within two consecutive regular semesters after the bachelor's",
+     "partial"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply through the SIS iApply portal.",
+    "Pay the USD 30 fee and submit documents.",
+    "Contact admission@ndu.edu.lb for programme requirements."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admission@ndu.edu.lb",
+     "Office of Admissions"
+    ]
+   ],
+   "url": "https://www.ndu.edu.lb/admissions/graduate-tuition-reduction",
+   "confidence": "Medium",
+   "degree": "master",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Graduate-specific deadlines and nationality rules not published; confirm with the Office of Admissions.",
+   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-usek-masters-2027",
+   "cat": "exchange",
+   "title": "USEK — Master's admission (2027)",
+   "org": "Holy Spirit University of Kaslik (USEK)",
+   "place": "Kaslik, Jounieh, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 30,
+   "feeText": "Application fee: USD 30 (non-refundable; partner banks, OMT/BOB Finance or online)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated on the graduate admission page (see USEK \"Dates and deadlines\")",
+   "when": "Admission results sent by email in July; certified documents due within 1 month of semester start.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Bachelor's degree holders (bachelor's required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Bachelor's degree or equivalent with ministry equivalence if required",
+     "English: SAT or IELTS/TOEFL/Duolingo, or USEK entrance exam",
+     "Possible written exam or oral interview; no retakes for graduate applicants"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 309–600 per credit (e.g. Business Administration USD 500, Engineering USD 480, Computer Science USD 485, Law USD 325) + registration USD 200 and operational USD 400 per semester; cash USD",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 30 (non-refundable; partner banks, OMT/BOB Finance or online)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Tuition discounts via the Financial Aid Office for students facing financial difficulties",
+     "partial"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Submit the online application and upload documents.",
+    "Choose programme(s), admission type and exam date if required.",
+    "Pay the USD 30 fee.",
+    "Sit the entrance exam/interview.",
+    "Confirm admission after results (July) and register."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 9 600 000",
+     "USEK main line"
+    ]
+   ],
+   "url": "https://usek.edu.lb/en/admission/for-graduate-studies",
+   "confidence": "Medium",
+   "degree": "master",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Nationality/residency rules not stated on the official page.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-lu-bachelor-2027",
+   "cat": "exchange",
+   "title": "Lebanese University (LU) — Bachelor admission & entrance exams 2027-28",
+   "org": "Lebanese University (LU)",
+   "place": "Branches across Lebanon (Hadath, Fanar, Tripoli, Saida, Zahle, Nabatieh, etc.)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Application fee not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not announced yet. Each faculty publishes its own calendar; for 2026-27 the Faculty of Information took applications 22 Jun – 30 Jul and 1–10 Sep 2026, with the exam on 15 Sep 2026.",
+   "when": "Faculty-specific entrance exams usually announced in early summer (June) for the following academic year; some faculties admit on file.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese and foreign applicants (foreigners present passport or residency)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Lebanese Baccalaureate or certified equivalent (or nomination document / school transcript before results)",
+     "Faculty entrance exams (e.g. general knowledge, mathematics) where required",
+     "Individual civil status record or passport/residency"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated (LU is the public university; registration fees set by decision each year)",
+     "info"
+    ],
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance exam fee",
+     "Faculty-specific; e.g. LBP 1,000,000 at LibanPost for the Faculty of Information entrance exam (2026-27)",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "LASeR scholarship covers LU registration fees for some students (separate call)",
+     "partial"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch your faculty's announcements on ul.edu.lb (Exams & CEE section) from June 2027.",
+    "Submit the application at the faculty during the stated days with the required documents.",
+    "Pay the entrance-exam fee at LibanPost if required.",
+    "Sit the entrance exam with your exam card and ID."
+   ],
+   "contact": [],
+   "url": "https://ul.edu.lb/en/date-entrance-exam-bachelors-degree-faculty-information-academic-year-2026%E2%80%932027",
+   "confidence": "Medium",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "2027-28 calendars not yet published; figures shown are from the 2026-27 cycle as an example.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-lu-masters-2027",
+   "cat": "exchange",
+   "title": "Lebanese University (LU) — Master's (M1/M2) admission 2027-28",
+   "org": "Lebanese University (LU)",
+   "place": "Branches across Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Application fee not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not announced yet; each faculty publishes its own master calls (for 2026-27 they were published in summer/autumn 2026)",
+   "when": "Faculty-level calls with entrance exams or file review, typically for the next academic year.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Bachelor's degree holders (bachelor's required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated centrally",
+     "Age: Not stated",
+     "Team: Individual",
+     "Bachelor's (licence) in a relevant field; faculty-specific exams or file review"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Follow your faculty's announcements on ul.edu.lb.",
+    "Apply within the faculty's window with the listed documents.",
+    "Sit the entrance exam or interview if required."
+   ],
+   "contact": [],
+   "url": "https://ul.edu.lb/en/colleges-faculties-homepage",
+   "confidence": "Low",
+   "degree": "master",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "No central master admission calendar or fee published for 2027-28.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-lu-doctorate-2027",
+   "cat": "exchange",
+   "title": "Lebanese University (LU) — Doctoral schools admission 2027-28",
+   "org": "Lebanese University (LU) – Doctoral Schools (Science & Technology; Literature, Humanities & Social Sciences; Law, Political, Administrative & Economic Sciences)",
+   "place": "Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Application fee not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not announced yet. For 2026-27 the Literature/Humanities doctoral school took paper applications 8–28 Jan 2026; the EDST half-PhD scholarship call closed 15 Jul 2026.",
+   "when": "Calls are published by each doctoral school.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Master's degree holders (master's required, unless stated otherwise)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated centrally",
+     "Age: Not stated",
+     "Team: Individual",
+     "Research master (M2R) or equivalent",
+     "EDST half-PhD scholarship (2026 call): M2R within the last 3 years, under 35, half-scholarship from a partner university"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check your doctoral school page on ul.edu.lb for the 2027-28 call.",
+    "Submit the application file within the window."
+   ],
+   "contact": [
+    [
+     "Email",
+     "edst@ul.edu.lb",
+     "Doctoral School of Science & Technology"
+    ],
+    [
+     "Phone",
+     "01-489320",
+     "Doctoral School of Literature, Humanities & Social Sciences"
+    ]
+   ],
+   "url": "https://ul.edu.lb/en/colleges-faculties-details/263/Doctoral-School-of-Science-&-Technology",
+   "confidence": "Low",
+   "degree": "phd",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "2027-28 doctoral calls not yet published; past-cycle dates given for orientation only.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24"
   },
   {
    "id": "vo-lebanese-red-cross-ems-volunteer",
