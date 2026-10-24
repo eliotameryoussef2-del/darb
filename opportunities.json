@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T09:57:03.331Z",
- "count": 1865,
+ "updated": "2026-10-24T10:05:31.861Z",
+ "count": 1925,
  "opportunities": [
   {
    "id": "hk-taskforge",
@@ -2476,6 +2476,74 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "cp-aub-social-protection-conference-2026",
+   "cat": "community",
+   "title": "Social Protection in Times of Crisis: Gender and Persistent Inequalities in the WANA Region (conference)",
+   "org": "Asfari Institute (AUB) with ANND, Arab Reform Initiative, Institut des Finances Basil Fuleihan, FES Lebanon and LOWER",
+   "place": "Bayoud Lecture Hall (AGRI 102), Faculty of Agricultural and Food Sciences, AUB, and online via Zoom",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "$100; $50 for students",
+   "deadline": "2026-10-30T23:59:00+03:00",
+   "eventDate": "2026-11-13T13:30:00+02:00",
+   "rolling": false,
+   "deadlineText": "Register by 30 Oct 2026",
+   "when": "13–15 Nov 2026",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Policymakers, civil society, academics, UN agencies and development partners; reduced student rate",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "$100",
+     "info"
+    ],
+    [
+     "Student rate",
+     "$50",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Complete the registration form linked on the official page.",
+    "Within one week you receive a payment link and instructions."
+   ],
+   "contact": [
+    [
+     "Email",
+     "asfariinstituteinfo@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7539",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Academic/policy conference; open-attendance rules beyond paying the fee are not stated.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "aid-ndu-work-study-grant-spring-2027",
    "cat": "exchange",
    "title": "NDU Work-Study Grant (WSG) – Spring 2027 (up to 60% of tuition)",
@@ -2714,6 +2782,102 @@
    "gallery": [
     "https://cedarmiles.mea.com.lb/azure/files/ContentFiles/2413Image1.jpg"
    ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-usek-phd-spring-2027",
+   "cat": "exchange",
+   "title": "USEK — PhD admission (Spring 2027, comprehensive exams)",
+   "org": "Holy Spirit University of Kaslik (USEK) – Doctoral College",
+   "place": "Kaslik, Jounieh, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Application fee not stated",
+   "deadline": "2026-10-30T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Fri 30 Oct 2026 (Spring 2026-27 Comps Exams application)",
+   "when": "First comprehensive exam: Wed 2 Dec 2026.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Master's degree holders (master's required, unless stated otherwise)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese and foreign applicants (foreigners submit passport copy); degrees need Ministry equivalence",
+     "Age: Not stated",
+     "Team: Individual",
+     "Master's degree or Ministry-approved equivalent in an approved discipline",
+     "Choose a Doctoral College thesis proposal or submit an individual proposal (iPTP)",
+     "Two recommendation letters from non-supervisor faculty, 400–500-word motivation letter, CV, master's dissertation, evidence of research"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 500–600 per credit (Arts & Sciences, Law, Theology USD 500; PhD Business Administration and Medicine USD 600); DBA EUR 29,000 full programme; + USD 200 registration and USD 400 operational fee per semester",
+     "info"
+    ],
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check eligibility and choose a thesis proposal.",
+    "Prepare all documents electronically.",
+    "Submit the Online Postgraduate Admission Application.",
+    "Optionally book a one-on-one meeting with the doctoral recruitment coordinator."
+   ],
+   "contact": [
+    [
+     "Email",
+     "codoc@usek.edu.lb",
+     "Doctoral College"
+    ],
+    [
+     "Phone",
+     "+961 9 600 000",
+     "USEK"
+    ]
+   ],
+   "url": "https://usek.edu.lb/en/admission/for-doctoral-studies",
+   "confidence": "High",
+   "degree": "phd",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -14292,6 +14456,106 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "ex-haigazian-spring-2027-ug",
+   "cat": "exchange",
+   "title": "Haigazian University — Master's admission (Spring & Fall 2027)",
+   "org": "Haigazian University",
+   "place": "Beirut, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 40,
+   "feeText": "Application fee: USD 40 (non-refundable)",
+   "deadline": "2026-11-30T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Spring: 30 Nov (graduate). Fall: 1 Apr. (Years not printed on the page.)",
+   "when": "Spring 2027 and Fall 2027 intakes.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Bachelor's degree holders (bachelor's required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Bachelor's degree; programme-specific requirements on the Graduate Admissions pages"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 455 per credit (graduate); 2026-27 special subsidy of 5% on graduate tuition",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 40 (non-refundable)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Financial aid for new students: apply by 30 Nov (Spring) / 30 Apr (academic year)",
+     "partial"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Submit the online graduate application.",
+    "Send the required documents to the Admissions Office.",
+    "Receive the decision letter by email."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admissions@haigazian.edu.lb",
+     "Admissions Office"
+    ],
+    [
+     "Phone",
+     "+961 1 349 230",
+     "Admissions Office (ext. 1)"
+    ],
+    [
+     "Mobile",
+     "81 877 100",
+     "Admissions Office"
+    ]
+   ],
+   "url": "https://www.haigazian.edu.lb/admissions/",
+   "confidence": "Medium",
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Deadlines are listed without years; confirm with the Admissions Office.",
+   "image": "https://www.haigazian.edu.lb/wp-content/uploads/2022/05/AdmissionMain-scaled.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24",
+   "degree": "master",
+   "admission": true
+  },
+  {
    "travel": true,
    "funded": "partial",
    "feeUSD": null,
@@ -15696,6 +15960,215 @@
     "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvNTUyNGI0NmJkYzI0ZjgzZjlmOTkxN2FmMDY1MThlZmVlYmI1OGQ0YmIxOTA4Mjg2LmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjE5MjAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sInNoYXJwZW4iOnRydWV9fQ==",
     "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvYThmMzMzNjVmYTM3YjY1NDVkOWQyMTU0Y2FlYTY0OTE0MmNjZDgyY2MwZTM4NzczLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwic2hhcnBlbiI6dHJ1ZX19"
    ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-antonine-undergraduate-2027",
+   "cat": "exchange",
+   "title": "Antonine University — Undergraduate admission (Spring & Fall 2027)",
+   "org": "Antonine University (UA)",
+   "place": "Hadat–Baabda, Zahle, Mejdlaya–Zgharta (Lebanon)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 70,
+   "feeText": "Application fee: USD 70",
+   "deadline": "2026-12-02T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Spring 2027 Session 1 and Fall 2027 Early Session: 2 Dec 2026. Further Fall 2027 sessions until 7 Sep 2027.",
+   "when": "Spring 2027: Session 1 apply by 2 Dec 2026 (exam 7 Dec, results 22 Dec); Session 2 apply by 19 Jan 2027 (exam 21 Jan). Fall 2027: Early Session 1 apply by 2 Dec 2026 (exam 5 Dec, results 18 Dec); Session 2 by 24 Feb 2027 (exam 27 Feb); Session 3 by 12 May (exam 14 May); Session 4 by 9 Jul (exam 14 Jul); Session 5 by 16 Aug (exam 18 Aug); Session 6 by 7 Sep 2027 (exam 9 Sep).",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Entrance exam per session; Lebanese Baccalaureate or equivalent"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 75–275 per credit (2026–27; e.g. Engineering USD 245–275) + registration fee USD 270 per semester; NSSF LBP 8,500,000 per year if applicable",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 70",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "USD 50",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Merit, Baccalaureate and social-aid tuition reductions (see UA scholarships)",
+     "partial"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply online via the UA admissions \"Apply\" page before the session deadline.",
+    "Pay the USD 70 application fee and USD 50 exam fee.",
+    "Sit the entrance exam on the session date.",
+    "Register after results (registration fee USD 270)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admissions@ua.edu.lb",
+     "Hadat–Baabda campus"
+    ],
+    [
+     "Phone",
+     "+961 5 927000 ext. 1140–1145",
+     "Hadat–Baabda"
+    ],
+    [
+     "Email",
+     "admissions.zahle@ua.edu.lb",
+     "Zahle campus"
+    ],
+    [
+     "Email",
+     "admissions.mejdlaya@ua.edu.lb",
+     "Mejdlaya–Zgharta campus"
+    ]
+   ],
+   "url": "https://www.ua.edu.lb/en/office-of-orientation-and-admissions/important-dates",
+   "confidence": "High",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Nationality rules not stated on the dates page.",
+   "image": "https://ua.edu.lb/images/ShareLogo.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-antonine-masters-2027",
+   "cat": "exchange",
+   "title": "Antonine University — Master's admission (Spring & Fall 2027)",
+   "org": "Antonine University (UA)",
+   "place": "Hadat–Baabda, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 70,
+   "feeText": "Application fee: USD 70",
+   "deadline": "2026-12-02T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Same session calendar as undergraduate (page does not separate levels): first deadline 2 Dec 2026; last Fall 2027 session 7 Sep 2027.",
+   "when": "Spring 2027: Session 1 apply by 2 Dec 2026 (exam 7 Dec, results 22 Dec); Session 2 apply by 19 Jan 2027 (exam 21 Jan). Fall 2027: Early Session 1 apply by 2 Dec 2026 (exam 5 Dec, results 18 Dec); Session 2 by 24 Feb 2027 (exam 27 Feb); Session 3 by 12 May (exam 14 May); Session 4 by 9 Jul (exam 14 Jul); Session 5 by 16 Aug (exam 18 Aug); Session 6 by 7 Sep 2027 (exam 9 Sep). Graduate Open House: 18 Jun 2027 (Hadat–Baabda).",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Bachelor's degree holders (bachelor's required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Bachelor's degree; graduate entrance exams per programme"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 90–265 per credit (2026–27; e.g. MS Business Administration USD 230, MS Nursing USD 235, MA Sports Sciences USD 265)",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 70",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "USD 50",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply online via the UA admissions page.",
+    "Pay the USD 70 fee and USD 50 exam fee.",
+    "Sit the entrance exam/interview."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admissions@ua.edu.lb",
+     "Hadat–Baabda campus"
+    ],
+    [
+     "Phone",
+     "+961 5 927000 ext. 1140–1145",
+     "Hadat–Baabda"
+    ],
+    [
+     "Email",
+     "admissions.zahle@ua.edu.lb",
+     "Zahle campus"
+    ],
+    [
+     "Email",
+     "admissions.mejdlaya@ua.edu.lb",
+     "Mejdlaya–Zgharta campus"
+    ]
+   ],
+   "url": "https://www.ua.edu.lb/en/graduate/tuition-fees",
+   "confidence": "Medium",
+   "degree": "master",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "The dates page does not say explicitly that sessions apply to graduate programmes.",
+   "image": "https://ua.edu.lb/images/ShareLogo.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -17977,6 +18450,110 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "ex-balamand-entrance-exams-2026-27",
+   "cat": "exchange",
+   "title": "University of Balamand — Undergraduate admission (Spring & Fall 2027)",
+   "org": "University of Balamand (UOB)",
+   "place": "Balamand (Koura), Dekouaneh/Sin El Fil (ALBA), Souk El Gharb and other campuses, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 55,
+   "feeText": "Application fee: USD 55 (non-refundable)",
+   "deadline": "2026-12-18T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Spring 2026-27 regular admission: 18 Dec 2026. Fall 2027-28 early admission: mid-January 2027 (decisions mid-February). Fall 2027-28 regular admission: end of July 2027.",
+   "when": "Entrance and language exam dates: 4 Dec 2026, 8 Jan 2027, 5 Mar 2027, 9 Jul 2027, 6 Aug 2027.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated on the admissions page",
+     "Age: Not stated",
+     "Team: Individual",
+     "Admission formula: 50% SAT (EBRW + Math) + 50% Grade 10–11 averages; SAT required for Lebanese Bac/IB/IGCSE/French Bac holders (exceptions for some majors)",
+     "SAT exemption with 16/20 or 88/100 average in Grades 10–11 (Language Aptitude Tests still required)",
+     "Freshman: SAT 870 Arts / 950 Sciences (or ACT 15/17) and Ministry Equivalence Committee permission",
+     "English: TOEFL iBT 71, IELTS 6, Duolingo 110, SAT EBRW 520 or UOB EPT 63; French-taught majors take the French placement test"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 255–535 plus LBP 2,165,000–3,910,000 per credit (2026–27, by faculty; e.g. Freshman/Arts USD 435 + LBP 3,290,000). Partly payable in LBP; cash at the Cashier's Office.",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 55 (non-refundable)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "English language test USD 45; French language test USD 25; interview USD 35",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Financial aid and grants based on academic excellence and social situation",
+     "partial"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply online at sisweb.balamand.edu.lb.",
+    "Pay the USD 55 application fee.",
+    "Submit SAT scores and Grade 10–11 transcripts, or sit the entrance/language exams.",
+    "Receive the admission decision; submit Grade 12 results before registration."
+   ],
+   "contact": [
+    [
+     "Email",
+     "orientation@balamand.edu.lb",
+     "Orientation team (live chat Mon–Fri 14:00–16:00)"
+    ],
+    [
+     "Email",
+     "info@balamand.edu.lb",
+     "General enquiries"
+    ]
+   ],
+   "url": "https://balamand.edu.lb/ProspectiveStudents/Pages/UndergraduateAdmissions.aspx",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Nationality rules not stated on the admissions page.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.balamand.edu.lb/ProspectiveStudents/PublishingImages/FOMApps.jpg",
+    "https://www.balamand.edu.lb/Style%20Library/responsive/images/cover_prospective.jpg",
+    "https://www.balamand.edu.lb/ProspectiveStudents/PublishingImages/Banner/Prospective-Students.jpg",
+    "https://www.balamand.edu.lb/Style%20Library/responsive/images/aboutpic.jpg"
+   ],
+   "galleryChecked": "2026-10-24",
+   "degree": "bachelor",
+   "admission": true
+  },
+  {
    "id": "et-marwan-khoury-casino-2026",
    "cat": "community",
    "art": "music",
@@ -18644,6 +19221,174 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "ul-rhu-undergraduate-2027",
+   "cat": "exchange",
+   "title": "RHU — Undergraduate admission (Spring & Fall 2027)",
+   "org": "Rafik Hariri University (RHU)",
+   "place": "Mechref, Damour, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 30,
+   "feeText": "Application fee: USD 30 (non-refundable; Finance Office or BankMed)",
+   "deadline": "2026-12-25T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Spring: 25 Dec. Fall: early admission 31 May; final deadline 25 Aug. (Years not printed on the page.)",
+   "when": "Decisions usually within four weeks of a complete file.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: RHU admits students \"irrespective of their national origin\"; non-Lebanese submit passport copy and residence permit or ID",
+     "Age: Not stated",
+     "Team: Individual",
+     "At least 12 years of schooling and proof of English competency",
+     "English: RHU English Entrance Exam 380, TOEFL iBT 80, IELTS 6.5 or SAT R&W 530 (else Intensive English Program)",
+     "Freshman: SAT 870 Arts / 950 Sciences or ACT 15/17 (SAT code 4438)",
+     "Lebanese Baccalaureate track rules per college (Engineering: GS/LS/SE)"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Per credit, partly in LBP (2026–27): e.g. Business LBP 4,000,000 + USD 176; Engineering LBP 5,800,000 + USD 268; Freshman LBP 4,000,000 + USD 173",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 30 (non-refundable; Finance Office or BankMed)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply online or in person at the Admissions Office (Block E, Mechref).",
+    "Pay the USD 30 application fee.",
+    "Submit documents and English/SAT scores or sit the RHU English exam.",
+    "Receive the decision within about four weeks."
+   ],
+   "contact": [],
+   "url": "https://www.rhu.edu.lb/prospective-students/before-applying",
+   "confidence": "Medium",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Deadlines listed without years; confirm current cycle with RHU Admissions.",
+   "image": "https://www.rhu.edu.lb/images/ShareLogo.JPG",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-rhu-graduate-2027",
+   "cat": "exchange",
+   "title": "RHU — Master's admission (Spring & Fall 2027)",
+   "org": "Rafik Hariri University (RHU)",
+   "place": "Mechref, Damour, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Application fee not stated",
+   "deadline": "2026-12-25T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Spring: 25 Dec. Fall: 25 Aug. (Years not printed on the page.)",
+   "when": "Spring and Fall intakes.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Bachelor's degree holders (bachelor's required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: RHU admits students \"irrespective of their national origin\"",
+     "Age: Not stated",
+     "Team: Individual",
+     "Bachelor's degree; graduate requirements not listed on the page"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Per credit, partly in LBP (2026–27): Business LBP 5,300,000 + USD 226; Engineering LBP 8,100,000 + USD 295",
+     "info"
+    ],
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply via the Graduate Online Application (gradapp.rafikhaririuniversity.org) or in person at the Admissions Office."
+   ],
+   "contact": [],
+   "url": "https://www.rhu.edu.lb/prospective-students/before-applying",
+   "confidence": "Medium",
+   "degree": "master",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Graduate application fee and requirements not stated; deadlines listed without years.",
+   "image": "https://www.rhu.edu.lb/images/ShareLogo.JPG",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "et-zizanie-a-noel-les-bouffons-2026",
    "cat": "community",
    "art": "kids",
@@ -19077,6 +19822,209 @@
    "imageChecked": "2026-10-24",
    "gallery": [
     "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/dsc05329_123810_174110802.jpg?w=1920"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-aut-undergraduate-2027",
+   "cat": "exchange",
+   "title": "AUT — Undergraduate admission (Spring & Fall 2027)",
+   "org": "American University of Technology (AUT)",
+   "place": "Halat (Byblos highway), Ras Masqa (North), Halba (Akkar)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "Application fee: USD 50 (non-refundable; covers placement exams)",
+   "deadline": "2026-12-31T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Spring: end of December. Fall: early admission mid-May, regular end of August. Summer: mid-June.",
+   "when": "Financial aid applications due 15 Jan (Spring) and 15 Sep (Fall).",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese residents and international applicants",
+     "Age: Not stated",
+     "Team: Individual",
+     "Sophomore: Lebanese General Secondary Certificate or equivalent + AUT English Placement Test",
+     "Freshman: non-Lebanese school-leaving certificate, SAT scores and exemption from the Lebanese programme"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 220 per credit (2024–25 table; current rates not published)",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 50 (non-refundable; covers placement exams)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Included in the application fee",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Financial aid: apply by 15 Jan (Spring) / 15 Sep (Fall)",
+     "partial"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply online and pay the USD 50 fee.",
+    "Submit certified transcripts for the last three school years.",
+    "Sit the AUT English Placement Test."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 76 808 001",
+     "Main campus (Halat)"
+    ],
+    [
+     "Phone",
+     "+961 6 418 503",
+     "North campus"
+    ],
+    [
+     "Phone",
+     "+961 3 462 330",
+     "Akkar campus"
+    ]
+   ],
+   "url": "https://www.aut.edu/admissions",
+   "confidence": "Medium",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Deadlines given without years; tuition shown is the 2024-25 table.",
+   "image": "https://www.aut.edu/wp-content/uploads/2023/04/Admission.png",
+   "logo": "https://www.aut.edu/wp-content/uploads/2024/02/cropped-Favicon-192x192.jpg",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aut.edu/wp-content/uploads/2023/08/Financial-Aid.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-aut-masters-2027",
+   "cat": "exchange",
+   "title": "AUT — Master's admission (Spring & Fall 2027)",
+   "org": "American University of Technology (AUT)",
+   "place": "Halat (Byblos highway), Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "Application fee: USD 50 (non-refundable)",
+   "deadline": "2026-12-31T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Spring: end of December. Fall: end of August.",
+   "when": "Not stated",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Bachelor's degree holders (bachelor's required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese residents and international applicants",
+     "Age: Not stated",
+     "Team: Individual",
+     "University degree with minimum GPA 2.7",
+     "Two recommendation letters and updated CV"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 315 per credit (2024–25 table)",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 50 (non-refundable)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply online and pay the USD 50 fee.",
+    "Submit transcripts, two recommendation letters and CV."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 76 808 001",
+     "Main campus (Halat)"
+    ],
+    [
+     "Phone",
+     "+961 6 418 503",
+     "North campus"
+    ],
+    [
+     "Phone",
+     "+961 3 462 330",
+     "Akkar campus"
+    ]
+   ],
+   "url": "https://www.aut.edu/admissions",
+   "confidence": "Medium",
+   "degree": "master",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Deadlines given without years; tuition shown is the 2024-25 table.",
+   "image": "https://www.aut.edu/wp-content/uploads/2023/04/Admission.png",
+   "logo": "https://www.aut.edu/wp-content/uploads/2024/02/cropped-Favicon-192x192.jpg",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aut.edu/wp-content/uploads/2023/08/Financial-Aid.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -25252,6 +26200,82 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "cp-ndu-youth-business-challenge-2027",
+   "cat": "community",
+   "title": "Youth Business Challenge: Innovate for Impact (school students)",
+   "org": "NDU Faculty of Business Administration and Economics (FBAE), Shouf Campus",
+   "place": "Conference Room, NDU Shouf Campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2027-02-15T23:59:00+02:00",
+   "eventDate": "2027-02-19T09:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "Registration closes 15 Feb 2027",
+   "when": "Workshop 19 Feb 2027; project submission by 30 Mar 2027 (midnight, by email); presentations 2 Apr 2027",
+   "meet": "Not stated",
+   "team": "Teams of up to 3",
+   "tags": [
+    "startups",
+    "case"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Grade 11 and 12 students, and BT2 and BT students",
+     "University: School students (any school)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Teams of up to 3"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register via the link on the official page before 15 Feb 2027.",
+    "Attend the workshop on 19 Feb 2027.",
+    "Email your project by 30 Mar 2027.",
+    "Present on 2 Apr 2027."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Dr. Talie Kassamany",
+     "Published on the official page"
+    ],
+    [
+     "Email",
+     "tkassamany@ndu.edu.lb",
+     "Published on the official page"
+    ],
+    [
+     "Phone",
+     "25 511 202/4, ext. 4132",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.ndu.edu.lb/news-events/events/academic-events/youth-business-challenge-innovate-for-impact",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "prize": "Scholarships at FBAE, NDU Shouf Campus: 60% (1st team), 40% (2nd), 20% (3rd)",
+   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/Youth-business-Challenge-banner_132257013.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "ar-cannes-la-cinef-2027",
    "cat": "community",
    "art": "film",
@@ -27298,6 +28322,101 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "ul-lau-pharmd-fall-2027",
+   "cat": "exchange",
+   "title": "LAU — Doctor of Pharmacy (PharmD) admission (Fall 2027)",
+   "org": "Lebanese American University (LAU) – School of Pharmacy",
+   "place": "Byblos, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 60,
+   "feeText": "Application fee: USD 60 (LAU graduate application)",
+   "deadline": "2027-03-31T23:59:00+03:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "31 Mar 2027 (LAU graduate admission deadline for Fall 2027)",
+   "when": "Fall 2027 intake.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Holders of a Bachelor's degree in Pharmacy from an ACPE-accredited institution",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese and international applicants; bachelor's needs Lebanese Ministry equivalency",
+     "Age: Not stated",
+     "Team: Individual",
+     "English: TOEFL iBT 90, IELTS 7, LAU EEE 123 or Duolingo 125",
+     "Official transcripts, two recommendations, CV"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 30,555 per year (PharmD, 2026–27, \"fresh\" USD)",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 60 (LAU graduate application)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Graduate Assistantship / Graduate Research Scholarship deadline 31 Mar 2027",
+     "partial"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Submit the LAU online graduate application and pay USD 60.",
+    "Activate your Portal.",
+    "Upload documents and English scores."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admissions.byblos@lau.edu.lb",
+     "Byblos campus admissions"
+    ],
+    [
+     "Phone",
+     "+961 9 547254",
+     "Byblos campus"
+    ]
+   ],
+   "url": "https://www.lau.edu.lb/apply/graduate.php",
+   "confidence": "Medium",
+   "degree": "master",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "PharmD-specific deadline not separately published; the general LAU Fall 2027 graduate deadline is used.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "ar-ippawards-2027",
    "cat": "community",
    "art": "photography",
@@ -27355,77 +28474,6 @@
    "image": "https://media.base44.com/images/public/69fc850da313ea2e84386c60/d355f43f8_Crest-color.png/v1/fill/w_1200,h_630/d355f43f8_Crest-color.png",
    "logo": "https://media.base44.com/images/public/69fc850da313ea2e84386c60/593df5722_Crest-color.png?v=4",
    "imageChecked": "2026-10-23",
-   "gallery": [],
-   "galleryChecked": "2026-10-24"
-  },
-  {
-   "id": "ex-haigazian-spring-2027-ug",
-   "cat": "exchange",
-   "title": "Haigazian University admission – Fall 2027",
-   "org": "Haigazian University",
-   "place": "Beirut (Kantari)",
-   "travel": false,
-   "funded": "na",
-   "feeUSD": null,
-   "feeText": "Not stated",
-   "deadline": "2027-04-01T23:59:00+03:00",
-   "eventDate": null,
-   "rolling": false,
-   "deadlineText": "1 Apr",
-   "when": "Fall semester entry",
-   "meet": "Not stated",
-   "team": "Individual",
-   "tags": [
-    "exchange"
-   ],
-   "exam": true,
-   "elig": {
-    "status": "ok",
-    "lines": [
-     "Level: School leavers and graduate applicants",
-     "University: Not applicable",
-     "Nationality/residency: Not restricted",
-     "Age: Not stated",
-     "Team: Individual",
-     "Other: Freshman needs SAT 950 / ACT 17 (science) or SAT 870 / ACT 15 (arts)"
-    ]
-   },
-   "money": [
-    [
-     "Application fee",
-     "Not stated",
-     "ns"
-    ]
-   ],
-   "steps": [
-    "Open the official page and apply online."
-   ],
-   "contact": [
-    [
-     "Email",
-     "admissions@haigazian.edu.lb",
-     "Admissions Office"
-    ],
-    [
-     "Phone",
-     "+961 1 349 230/1",
-     "Admissions Office"
-    ],
-    [
-     "Mobile",
-     "81 877 100",
-     "Admissions Office"
-    ]
-   ],
-   "url": "https://www.haigazian.edu.lb/admissions/",
-   "confidence": "Medium",
-   "verified": "2026-10-24",
-   "source": "bulk-exams",
-   "added": "2026-10-24",
-   "caveat": "Page gives no year and other Haigazian pages mention 30 Mar or 31 May; confirm with Admissions.",
-   "image": "https://www.haigazian.edu.lb/wp-content/uploads/2022/05/AdmissionMain-scaled.jpg",
-   "logo": null,
-   "imageChecked": "2026-10-24",
    "gallery": [],
    "galleryChecked": "2026-10-24"
   },
@@ -29020,6 +30068,69 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-ndu-between-ndu-and-the-moon-2027",
+   "cat": "community",
+   "title": "Between NDU and the Moon: school visits to the NDU Observatory (Grades 5–8)",
+   "org": "NDU Department of Physics and Astronomy (FNAS)",
+   "place": "Farid and Moussa Raphael Observatory, NDU Main Campus, Zouk Mosbeh",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 15,
+   "feeText": "USD 15 per student",
+   "deadline": "2027-06-30T23:59:00+03:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Visits run 1 Oct 2026 – 30 Jun 2027",
+   "when": "1 Oct 2026 – 30 Jun 2027; each visit lasts 3 hours",
+   "meet": "Not stated",
+   "team": "School groups, up to 45 students per visit",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School students in Grades 5–8",
+     "University: Schools (any)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: School groups (max 45 per visit, 3 groups of 15)"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "USD 15 per student",
+     "info"
+    ]
+   ],
+   "steps": [
+    "The school completes the registration form on the official page with participant information.",
+    "Confirm the visit date with the department."
+   ],
+   "contact": [
+    [
+     "Email",
+     "astrophysics@ndu.edu.lb",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.ndu.edu.lb/news-events/events/academic-events/between-ndu-and-the-moon",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/FNAS-ndu-moon_1920x700_170247270.jpg",
+    "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/Youth-business-Challenge-banner_132257013.jpg"
+   ],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -79039,6 +80150,2212 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "cp-lau-skin-cancer-360-2026",
+   "cat": "community",
+   "title": "Skin Cancer 360°: A Multidisciplinary Dermatology–Oncology Conference",
+   "org": "LAU Gilbert and Rose-Marie Chagoury School of Medicine – Department of Dermatology",
+   "place": "Irwin Hall Auditorium, LAU Beirut campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-28T08:30:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-28",
+   "when": "28 Nov 2026, 8:30 AM–5:30 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Healthcare professionals (dermatologists, oncologists, pathologists, surgeons and others managing skin cancer)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "CME credits applied for from the Lebanese Order of Physicians (not yet granted)"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Registration is not open yet; the page says registration details and the programme will follow. Check the official page."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20261013_skin-cancer-360-a-multidisciplin",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Professional medical conference, not aimed at students; registration and fee not yet published.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lau-breaking-bad-news-2026",
+   "cat": "community",
+   "title": "Communication and Breaking Bad News (palliative care session)",
+   "org": "LAU Chagoury School of Medicine with SANAD Home Hospice Organization",
+   "place": "LAU Medical Center–Rizk Hospital, Block D auditorium (5th floor), Beirut, and online via WebEx",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-29T14:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-29",
+   "when": "29 Oct 2026, 2:00–4:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Healthcare professionals in patient care (physicians, nurses, psychologists, palliative care staff)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Attend at least 75% of the session to receive a certificate of attendance"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register through the LAU Wufoo form linked on the event page.",
+    "Attend in person or join on WebEx using your full name."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/event.php?evt=20261020_communication-and-breaking-bad-n",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Aimed at healthcare professionals; fee not stated.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lau-sustainability-bazaar-2026",
+   "cat": "community",
+   "title": "The Sustainability Bazaar Day (World Sustainability Day Bazaar)",
+   "org": "LAU Student Activities",
+   "place": "Med Area, LAU Byblos campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-29T10:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-29",
+   "when": "29 Oct 2026, 10:00 AM–3:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "volunteering"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "No registration stated; check the official page."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/students/event.php?evt=20261021_the-sustainability-bazaar-day",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lau-beyond-the-ribbon-2026",
+   "cat": "community",
+   "title": "Beyond the Ribbon: breast cancer symposium",
+   "org": "LAU Student Activities",
+   "place": "CHSC Auditorium, LAU Byblos campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-28T13:30:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-28",
+   "when": "28 Oct 2026, 1:30–3:30 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "No registration stated; check the official page."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/students/event.php?evt=20261023_beyone-the-ribbon",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Listed as \"Beyone The Ribbon\" on the calendar. Audience, fee and registration not stated.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lau-trick-or-treat-duo-2026",
+   "cat": "community",
+   "title": "Trick or Treat Duo (Halloween pizza making, costume contest and movie night)",
+   "org": "LAU Student Activities",
+   "place": "LAU Kitchen & Student Lounge, LAU Byblos campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-28T15:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-28",
+   "when": "28 Oct 2026, 3:00–8:00 PM (described as a two-day event; only 28 Oct listed)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "No registration stated; check the official page."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/students/event.php?evt=20261022_trick-or-treat-duo",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-lau-breathe-in-pink-2026",
+   "cat": "community",
+   "title": "Breathe in Pink: fundraising yoga for breast cancer awareness",
+   "org": "LAU Student Activities",
+   "place": "Frem 201 / on the grass, LAU Byblos campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated (fundraiser)",
+   "deadline": null,
+   "eventDate": "2026-10-27T16:30:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-27",
+   "when": "27 Oct 2026, 4:30–5:30 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports",
+    "volunteering"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated (fundraiser)",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register through the Google Form linked on the event page."
+   ],
+   "contact": [],
+   "url": "https://eventscal.lau.edu.lb/students/event.php?evt=20261022_breathe-in-pink",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-odyssey-museum-2026",
+   "cat": "community",
+   "title": "An Odyssey Adventure: Greek Gods Are Calling You! (Archaeological Museum)",
+   "org": "AUB Archaeological Museum / Friends of the Museum",
+   "place": "Post Hall, AUB Archaeological Museum, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-25T10:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-25",
+   "when": "25 Oct 2026, 10:00 AM–1:30 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (public event listed on the AUB events calendar)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Najla Ataya-Abou Jaoudé",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Email",
+     "frndmuse@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7561",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Calendar entry gives no description, audience, fee or registration details.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-feminist-foreign-policy-2026",
+   "cat": "community",
+   "title": "Advancing Feminist Foreign Policy: Commitments, Accountability, and Lessons Learned",
+   "org": "Asfari Institute for Civil Society and Citizenship, AUB",
+   "place": "Conference Hall, Asfari Building 37 (1st floor), AUB, and online via Zoom",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-27T16:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-27",
+   "when": "27 Oct 2026, 4:00–6:00 PM Beirut time",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all (public discussion)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register for in-person attendance via the Google Form, or for Zoom via the webinar link, both on the official page."
+   ],
+   "contact": [
+    [
+     "Email",
+     "asfariinstituteinfo@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7564",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-egypt-jewish-greek-book-talk-2026",
+   "cat": "community",
+   "title": "Book Talk: Jewish and Greek Communities in Egypt – Entrepreneurship and Business Before Nasser",
+   "org": "Center for Arab and Middle Eastern Studies (CAMES), AUB",
+   "place": "College Hall, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-27T17:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-27",
+   "when": "27 Oct 2026, 5:00–6:30 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (public event listed on the AUB events calendar)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Email",
+     "cames@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7569",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-elias-khoury-lecture-2026",
+   "cat": "community",
+   "title": "Lecture: The Work of the Late Elias Khoury – A Formative Figure in the Modern Arab Novel",
+   "org": "AUB Faculty of Arts and Sciences",
+   "place": "OIB, Zuqaq al-Blat, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-28T18:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-28",
+   "when": "28 Oct 2026, 6:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts",
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (public event listed on the AUB events calendar)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Email",
+     "fas@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7533",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-invention-of-america-2026",
+   "cat": "community",
+   "title": "Talk: The Invention of America (Ahmed Dardir Osman, CASAR)",
+   "org": "Center for American Studies and Research (CASAR), AUB",
+   "place": "Conference Hall, Asfari Building 37 (1st floor), AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-28T18:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-28",
+   "when": "28 Oct 2026, 6:00–7:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts",
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (public event listed on the AUB events calendar)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Rana Baghdadi",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Email",
+     "rb139@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7576",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-centering-care-2026",
+   "cat": "community",
+   "title": "Centering Care During Conflict & Displacement (International Day for Care & Support)",
+   "org": "Asfari Institute (AUB) with Women Deliver, Colmena Fund and GIZ",
+   "place": "Asfari Institute, Asfari Building 37, AUB, and online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-29T16:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-29",
+   "when": "29 Oct 2026, 4:00–7:00 PM Beirut time",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research",
+    "volunteering"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all (public event)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Complete the in-person attendance form, or register on Zoom to attend online (links on the official page)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "asfariinstituteinfo@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7574",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-darwish-ghosts-lecture-2026",
+   "cat": "community",
+   "title": "Lecture: Mahmoud Darwish's Ghost(s) – Return to the Present",
+   "org": "Anis Makdisi Program in Literature, AUB",
+   "place": "Charles W. Hostler Student Center Auditorium, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-29T18:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-29",
+   "when": "29 Oct 2026, 6:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (public event listed on the AUB events calendar)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Email",
+     "fas@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7546",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-everyday-politics-exile-book-2026",
+   "cat": "community",
+   "title": "Book Launch: \"Everyday Politics in Exile\" – Syrian women organizing in Lebanon",
+   "org": "Asfari Institute for Civil Society and Citizenship, AUB",
+   "place": "Conference Hall 113, Asfari Institute, AUB, and online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-30T16:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-30",
+   "when": "30 Oct 2026, 4:00–5:30 PM Beirut time",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all (public event)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Complete the in-person attendance form or register on Zoom (links on the official page)."
+   ],
+   "contact": [
+    [
+     "Email",
+     "asfariinstituteinfo@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7575",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-politics-of-writing-2026",
+   "cat": "community",
+   "title": "Roundtable: The Politics of Writing",
+   "org": "Anis Makdisi Program in Literature, AUB",
+   "place": "Issam Fares Institute (IFI), 4th floor conference room, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-10-30T18:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-10-30",
+   "when": "30 Oct 2026, 6:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (public event listed on the AUB events calendar)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Email",
+     "fas@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7545",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-philosophy-seminar-aid-2026",
+   "cat": "community",
+   "title": "AUB Philosophy Research Seminar: Effective or Fair? Choosing Who Gets Aid",
+   "org": "AUB Department of Philosophy",
+   "place": "Conference Hall, Asfari Building 37 (1st floor), AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-04T18:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-04",
+   "when": "4 Nov 2026, 6:00–8:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Students, faculty and scholars interested in the work (as described)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Lena Dadourian",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Email",
+     "ld31@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7573",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-smec-science-fair-2026",
+   "cat": "community",
+   "title": "31st Annual SMEC Science and Mathematics Fair",
+   "org": "Science and Mathematics Education Center (SMEC), AUB",
+   "place": "AUB campus, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-07T08:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-07",
+   "when": "7–8 Nov 2026",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (school science fair hosted by SMEC)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Email",
+     "smec@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7523",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Calendar entry has no description; participation rules and visiting hours not stated.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-case-method-webinar-2026",
+   "cat": "community",
+   "title": "Real Decisions, Relevant Learning: The Power of the Case Method (webinar)",
+   "org": "The Case Hub, AUB Suliman S. Olayan School of Business",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-10T16:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-10",
+   "when": "10 Nov 2026, 4:00–5:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "case",
+    "careers"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (panel on teaching with cases)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register through the Microsoft Form linked on the official page."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Maria Khoury",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Email",
+     "thecasehub@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7559",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-conversations-beirut-jordan-2026",
+   "cat": "community",
+   "title": "Conversations from Beirut: Jordan in the Crossfire of a Changing Levant (online panel)",
+   "org": "Princeton Bobst Center–AUB Collaborative Initiative",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-11T16:30:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-11",
+   "when": "11 Nov 2026, 4:30 PM Beirut",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all (online public panel)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Join via the link on the official page."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Lara Kechichian",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Email",
+     "lk94@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7566",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-cri-redcap-workshop-2026",
+   "cat": "community",
+   "title": "CRI Workshop on REDCap (research data capture)",
+   "org": "Clinical Research Institute (CRI), AUB Faculty of Medicine",
+   "place": "Multipurpose Room, Halim and Aida Daniel Academic and Clinical Center (ACC), AUBMC, and online via Zoom",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "$50–$225 depending on category",
+   "deadline": null,
+   "eventDate": "2026-11-16T09:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-16",
+   "when": "16 Nov 2026, 9:00 AM–1:00 PM (early-bird rate before 4 Nov 2026)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Clinical research coordinators, research assistants, faculty and researchers",
+     "University: Any; reduced rates for AUB ID holders and BAU, USEK, LAU, LU, SGUB, USJ, UoB",
+     "Nationality/residency: Open, with a higher rate for registrants from outside Lebanon",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "AUB ID holders (early/regular)",
+     "$50 / $75",
+     "info"
+    ],
+    [
+     "Selected Lebanese medical institutions (BAU, USEK, LAU, LU, SGUB, USJ, UoB)",
+     "$100 / $125",
+     "info"
+    ],
+    [
+     "Registrants from outside Lebanon",
+     "$200 / $225",
+     "info"
+    ]
+   ],
+   "steps": [
+    "See registration details on the official page."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Sara Khansa",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Email",
+     "sk77@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7568",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-musicales-baabdath-2026",
+   "cat": "community",
+   "title": "Les Musicales de Baabdath: Tribute to American & Armenian Composers (Hayk Melikian, piano)",
+   "org": "Les Musicales de Baabdath with AUB Zaki Nassif Program for Music and the Embassy of Armenia",
+   "place": "Assembly Hall, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free admission",
+   "deadline": null,
+   "eventDate": "2026-11-21T20:30:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-21",
+   "when": "21 Nov 2026, 8:30 PM (doors 8:00 PM)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all",
+     "University: Open to everyone",
+     "Nationality/residency: Not stated (public concert)",
+     "Age: Not stated",
+     "Team: Individual",
+     "No tickets or reservations; first come, first served; latecomers not admitted"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Free admission",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "No registration: arrive from 8:00 PM; seats are first come, first served."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@lesmusicales.org",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Phone",
+     "+961 76 680 340",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7565",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-under-christmas-tree-2026",
+   "cat": "community",
+   "title": "Under the Christmas Tree market (3rd edition)",
+   "org": "AUB Office of Events",
+   "place": "Main Gate (next to the Visitor’s Bureau), AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated for visitors (vendors pay $150)",
+   "deadline": null,
+   "eventDate": "2026-12-03T12:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-12-03",
+   "when": "3–4 Dec 2026, 12:00–9:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to the public (visitors)",
+     "University: Open to everyone",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Visitors",
+     "Not stated (open to the public)",
+     "ns"
+    ],
+    [
+     "Vendor participation fee",
+     "$150",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Visitors: come to the Main Gate during opening hours.",
+    "Vendor applications closed on 19 Oct 2026."
+   ],
+   "contact": [
+    [
+     "Email",
+     "events@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7532",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Visitor entry fee is not explicitly stated; the page says the market is open to the public.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-nature-photo-exhibition-2026",
+   "cat": "community",
+   "title": "The Lebanese Nature Photography Award – Exhibition and Awards Ceremony",
+   "org": "Nature Conservation Center (NCC), AUB",
+   "place": "West Hall, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-12-03T16:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-12-03",
+   "when": "3 Dec 2026, 4:00–6:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all (invitation to the public)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Ghada Joubran",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Email",
+     "gj18@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7570",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-urology-research-forum-2026",
+   "cat": "community",
+   "title": "10th Annual Urology Research Forum",
+   "org": "AUBMC Division of Urology",
+   "place": "Halim and Aida Daniel Academic and Clinical Center, AUBMC",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-12-05T08:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-12-05",
+   "when": "5 Dec 2026, 8:00 AM–2:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Aline Yacoubian",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Email",
+     "ay12@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7488",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Medical research forum; no description, audience or registration details on the calendar.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-pic-demo-day-2026",
+   "cat": "community",
+   "title": "AUB President's Innovation Challenge (PIC) Demo Day 2026",
+   "org": "Talal and Madiha Zein AUB Innovation Park (iPark)",
+   "place": "Beirut Digital District, BDD 1280, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-12-15T12:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-12-15",
+   "when": "15 Dec 2026, 12:00–9:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "startups"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Startups with at least one founder who is an AUB student, alumnus, faculty or staff member (competitors)",
+     "University: AUB community (competitors); attendance rules not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Competitor applications closed on 16 Oct 2026; see the PIC 2026 website for attending the Demo Day."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Hani Haidar",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Email",
+     "hh225@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7407",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "prize": "More than $55,000 in equity-free awards for competing startups",
+   "caveat": "Competitor applications have closed; whether the public may attend the Demo Day is not stated.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-career-fair-2027",
+   "cat": "career",
+   "title": "AUB Career Fair 2027",
+   "org": "AUB Career Hub",
+   "place": "West Hall, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2027-04-15T11:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2027-04-15",
+   "when": "15–16 Apr 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: All AUB undergraduate and graduate students (first-year students encouraged) and alumni",
+     "University: AUB students and alumni only",
+     "Nationality/residency: Not mentioned",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Prepare your CV and elevator pitch with the AUB Career Hub, then attend the fair."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Sarah Aboulhosn",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Email",
+     "sa432@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7385",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-ibdaa-2027",
+   "cat": "community",
+   "title": "IBDAA 20th Edition – International Biodiversity Day at AUB (poster forum and competition)",
+   "org": "Nature Conservation Center (AUB-NCC)",
+   "place": "Assembly Hall, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2027-04-22T13:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2027-04-22",
+   "when": "22 Apr 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research",
+    "case"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: University students",
+     "University: Students from various Lebanese universities",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Not stated",
+     "Submit a research idea as a poster on the yearly environmental theme and pitch it live to judges"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch the official page for the call for posters and theme."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Ghada Joubran",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Email",
+     "gj18@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7548",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "2027 theme, submission deadline and rules not yet published.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-outdoors-2027",
+   "cat": "community",
+   "title": "AUB Outdoors (annual student-led spring festival)",
+   "org": "AUB Student Activities / Outdoors team",
+   "place": "AUB campus, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Ticketed (2025 tickets sold online); 2027 price not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually late May (2025 edition: 24–25 May) — 2027 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all ticket holders (2025 edition sold tickets online)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Ticketed (2025 tickets sold online); 2027 price not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch the AUB events calendar for the 2027 dates and ticket link."
+   ],
+   "contact": [
+    [
+     "Email",
+     "studentactivities@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=6624",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Link is the 2025 edition (two days of performances by 900+ student organisers, main acts at night). 2026 edition not found on the calendar; 2027 dates and prices not announced.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-spring-fair-2027",
+   "cat": "community",
+   "title": "AUB Spring Fair (Green Oval)",
+   "org": "AUB Office of Events",
+   "place": "Green Oval, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually early April (2026 edition: 3–5 Apr) — 2027 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch the AUB events calendar; a call for vendors and performers usually opens in late January."
+   ],
+   "contact": [
+    [
+     "Email",
+     "events@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7189",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Link is the 2026 save-the-date entry; 2027 dates not announced.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-graduate-open-house-2027",
+   "cat": "community",
+   "title": "AUB Graduate Open House (graduate programmes and funding)",
+   "org": "AUB Graduate Council",
+   "place": "West Hall, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free (registration form)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually mid-February (2026: 11 Feb, 3:30–6:30 PM) — 2027 date not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Prospective graduate students",
+     "University: Open to any university background",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Free (registration form)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Register through the form linked on the AUB events calendar when the 2027 edition is posted."
+   ],
+   "contact": [
+    [
+     "Email",
+     "gradc@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7140",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Link is the 2026 edition; fee assumed free only because registration is a simple form — not explicitly stated.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-study-abroad-fair-2027",
+   "cat": "community",
+   "title": "AUB Annual Study Abroad Fair",
+   "org": "AUB Office of International Programs (AUB Abroad)",
+   "place": "Mahmoud Malhas Common Room, West Hall, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually early March (2026: 5 Mar, 11 AM–4 PM) — 2027 date not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: AUB students interested in exchange and study abroad",
+     "University: AUB students",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Attend the fair: meet partner universities, funding agencies and study-abroad alumni."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Hisham El Delbani",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Email",
+     "aubabroad@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7194",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-clinical-research-open-house-2027",
+   "cat": "community",
+   "title": "AUB Annual Clinical Research Open House",
+   "org": "AUB Clinical Research Institute (CRI) and Office of the Associate Dean for Research",
+   "place": "Issam Fares Hall, AUBMC",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually late May (2026: 21 May awards ceremony) — 2027 date not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Email",
+     "cri@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7311",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-startup-fair-2026",
+   "cat": "career",
+   "title": "AUB Startup Fair (WIE x iPark Student Branch)",
+   "org": "AUB Women in Engineering (WIE) and iPark Student Branch",
+   "place": "Ray R. Irani Oxy Engineering Complex, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Last held 11 Nov 2025 — next edition date not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "startups",
+    "careers"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Students (connects students with Lebanese startups)",
+     "University: Not stated (AUB student clubs event)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Naya Rahal",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Email",
+     "nir01@mail.aub.edu",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7017",
+   "confidence": "Low",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Link is the 2025 edition; a 2026-27 edition has not been announced.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-ndu-career-fair-2027",
+   "cat": "career",
+   "title": "NET-WORK: NDU Career Fair",
+   "org": "NDU Career Center / Office of Student Affairs",
+   "place": "Open Area, NDU Main Campus, Zouk Mosbeh",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually late April (2026: 28–29 Apr, 10 AM–4 PM) — 2027 dates not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: NDU students and alumni",
+     "University: NDU",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch the NDU events page for the 2027 dates and directory of participating organisations."
+   ],
+   "contact": [],
+   "url": "https://www.ndu.edu.lb/news-events/events/campus-events/net-work-ndu-career-fair-2026",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Link is the 2026 edition (employers included EY, Byblos Bank, Indevco, SABIS, L’Oréal Liban).",
+   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/Carrer-fair-news_161234220.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-ndu-tedx-2027",
+   "cat": "community",
+   "title": "TEDxNDULouaize",
+   "org": "NDU Office of Student Affairs",
+   "place": "NDU Main Campus, Zouk Mosbeh",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually early June (2026: 6 Jun, 2:30–8:00 PM) — 2027 date not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch the NDU events page for the 2027 date and registration."
+   ],
+   "contact": [],
+   "url": "https://www.ndu.edu.lb/news-events/events/campus-events/tedxndulouaize-2026",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Link is the 2026 edition; audience and ticketing not stated.",
+   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/The-power-of-connection-news_164704759.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "cs-bubbles-basic-diver",
    "cat": "community",
    "title": "Basic Diver try-dive (first supervised sea dive) – Bubbles Club for Divers, Amchit",
@@ -93627,77 +96944,6 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24"
-  },
-  {
-   "id": "ex-balamand-entrance-exams-2026-27",
-   "cat": "exchange",
-   "title": "University of Balamand admission – Fall 2027-28 early admission",
-   "org": "University of Balamand",
-   "place": "Lebanon (UOB campuses)",
-   "travel": false,
-   "funded": "na",
-   "feeUSD": null,
-   "feeText": "Not stated",
-   "deadline": null,
-   "eventDate": null,
-   "rolling": false,
-   "deadlineText": "Mid-January 2027 (exact day not stated)",
-   "when": "Decisions mid-February 2027; regular deadline end of July 2027",
-   "meet": "Not stated",
-   "team": "Individual",
-   "tags": [
-    "exchange"
-   ],
-   "exam": true,
-   "elig": {
-    "status": "ok",
-    "lines": [
-     "Level: School leavers (Lebanese Baccalaureate, IB, IGCSE, French Bac or equivalent)",
-     "University: Not applicable",
-     "Nationality/residency: Not restricted",
-     "Age: Not stated",
-     "Team: Individual",
-     "Other: SAT required for most majors (exemptions listed); Language Aptitude Tests"
-    ]
-   },
-   "money": [
-    [
-     "Application fee",
-     "Not stated",
-     "ns"
-    ]
-   ],
-   "steps": [
-    "Open the official page and apply online."
-   ],
-   "contact": [
-    [
-     "Email",
-     "info@balamand.edu.lb",
-     "General inquiries"
-    ],
-    [
-     "Email",
-     "orientation@balamand.edu.lb",
-     "Orientation (live chat 14:00–16:00 Mon–Fri)"
-    ]
-   ],
-   "url": "https://www.balamand.edu.lb/ProspectiveStudents/Pages/UndergraduateAdmissions.aspx",
-   "confidence": "Medium",
-   "verified": "2026-10-24",
-   "source": "bulk-exams",
-   "added": "2026-10-24",
-   "caveat": "Page says \"Mid – January, 2027\" without an exact day; apply well before mid-January.",
-   "image": null,
-   "logo": null,
-   "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.balamand.edu.lb/ProspectiveStudents/PublishingImages/FOMApps.jpg",
-    "https://www.balamand.edu.lb/Style%20Library/responsive/images/cover_prospective.jpg",
-    "https://www.balamand.edu.lb/ProspectiveStudents/PublishingImages/Banner/Prospective-Students.jpg",
-    "https://www.balamand.edu.lb/Style%20Library/responsive/images/aboutpic.jpg"
-   ],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -120658,6 +123904,1382 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-balamand-graduate-2027",
+   "cat": "exchange",
+   "title": "University of Balamand — Master's & DBA admission (2027)",
+   "org": "University of Balamand (UOB)",
+   "place": "Balamand (Koura), Dekouaneh (ALBA) and other campuses, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 65,
+   "feeText": "Application fee: USD 65 (graduate and post-graduate, non-refundable)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated on the graduate admissions page (see the UOB Admission Guide, \"Admission Exams & Dates\")",
+   "when": "Fall and Spring intakes.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Bachelor's degree holders (bachelor's required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Bachelor's with cumulative average ≥ 80/100 (conditional admission from 77)",
+     "English (non-UOB graduates, English track): EPT 85, TOEFL paper 600 or iBT 100 (lower bands accepted with ENGL101/102)",
+     "French-track majors: FREN201 level via DELF/DALF"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 255–730 plus LBP 2,165,000–5,125,000 per credit (2026–27 graduate rates by faculty); Executive MBA USD 26,000 programme; DBA USD 48,000 programme; Faculty of Medicine USD 31,000 per year",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 65 (graduate and post-graduate, non-refundable)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "English test USD 45; French test USD 25",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Financial aid and grants based on academic excellence and social situation",
+     "partial"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Apply online at sisweb.balamand.edu.lb.",
+    "Pay the USD 65 graduate application fee.",
+    "Submit transcripts and English/French test results.",
+    "Await the Faculty Graduate Admission Committee decision."
+   ],
+   "contact": [
+    [
+     "Email",
+     "orientation@balamand.edu.lb",
+     "Orientation team (live chat Mon–Fri 14:00–16:00)"
+    ],
+    [
+     "Email",
+     "info@balamand.edu.lb",
+     "General enquiries"
+    ]
+   ],
+   "url": "https://balamand.edu.lb/ProspectiveStudents/Pages/GraduateAdmissions.aspx",
+   "confidence": "Medium",
+   "degree": "master",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Graduate deadlines and nationality rules not published on the page.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://balamand.edu.lb/ProspectiveStudents/PublishingImages/FOMApps.jpg",
+    "https://balamand.edu.lb/Style%20Library/responsive/images/cover_prospective.jpg",
+    "https://balamand.edu.lb/ProspectiveStudents/PublishingImages/Banner/Prospective-Students.jpg",
+    "https://balamand.edu.lb/Style%20Library/responsive/images/aboutpic.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-aust-undergraduate-2027",
+   "cat": "exchange",
+   "title": "AUST — Undergraduate admission (2027)",
+   "org": "American University of Science and Technology (AUST)",
+   "place": "Beirut (Achrafieh), Zahle, Sidon (Lebanon)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 25,
+   "feeText": "Application fee: USD 25 (non-refundable)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated on the application instructions page (each campus sets its deadline)",
+   "when": "Admission valid for one calendar year. Exam samples and dates published online.",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese and non-Lebanese applicants (non-Lebanese submit passport copy)",
+     "Age: Not stated",
+     "Team: Individual",
+     "English: AUST English Entrance Exam 540 or international TOEFL 550",
+     "Math I (Arts, Business, some health/ICT majors) or Math II (Computer Science, CCE) entrance exam",
+     "SAT 870 Freshman Arts / 950 Freshman Science for non-Lebanese and foreign-programme applicants",
+     "Certified school records for last 2 years; Baccalaureate Part II if applicable"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Application fee",
+     "USD 25 (non-refundable)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "English Entrance Exam USD 25; Math I or Math II Entrance Exam USD 25",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Complete the AUST online undergraduate application (one campus only).",
+    "Pay the USD 25 application fee (+ exam fees if required).",
+    "Submit photos, ID/family record or passport, school records and certificates.",
+    "Sit the English and Math entrance exams if required."
+   ],
+   "contact": [],
+   "url": "https://s1.aust.edu.lb/UndergraduateApp/UndergradInstructions.aspx?Lang=En",
+   "confidence": "Medium",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "No dated deadline or tuition published on the instructions page.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-uls-undergraduate-2027",
+   "cat": "exchange",
+   "title": "Université La Sagesse (ULS) — Undergraduate admission (Fall 2027-28)",
+   "org": "Université La Sagesse (ULS)",
+   "place": "Furn El Chebbak and Achrafieh, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "Application fee: USD 50",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not announced yet for Fall 2027-28 (for Fall 2026-27, early admission opened 1 Dec 2025 and closed 31 Mar 2026)",
+   "when": "Entrance exams run from March to September (Fall 2026-27 had ten exam dates).",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Entrance exam; official documents per the 4-step admission process"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 40–250 per credit (2025–26 rates; e.g. Law/Business USD 200, Political Science USD 170, Nursing USD 120, Tourism USD 250, Freshman USD 200)",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 50",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Financial aid and scholarships available (ask the Admission Office)",
+     "partial"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Submit the application form and pay the fee.",
+    "Register for and sit the entrance exam.",
+    "Submit official documents.",
+    "Register."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admissions@uls.edu.lb",
+     "Office of Admission and Orientation"
+    ],
+    [
+     "Phone",
+     "+961 1 291 091",
+     "Main campus (Furn El Chebbak)"
+    ]
+   ],
+   "url": "https://www.uls.edu.lb/admissions/enrolments/",
+   "confidence": "Low",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "2027-28 calendar and tuition not yet published; tuition shown is 2025-26.",
+   "image": "https://www.uls.edu.lb/wp-content/uploads/2024/06/Picture4.png",
+   "logo": "https://www.uls.edu.lb/wp-content/uploads/2020/02/Logo_fav-300x300.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-uls-masters-2027",
+   "cat": "exchange",
+   "title": "Université La Sagesse (ULS) — Master's admission (2027-28)",
+   "org": "Université La Sagesse (ULS)",
+   "place": "Furn El Chebbak, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "Application fee: USD 50",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not announced yet",
+   "when": "Not stated",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Bachelor's degree holders (bachelor's required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Bachelor's degree; faculty-specific requirements"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 55–300 per credit (2025–26 graduate rates; e.g. MBA/MS USD 230, Engineering USD 245, Law USD 300)",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 50",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Contact the Office of Admission and Orientation and apply online."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admissions@uls.edu.lb",
+     "Office of Admission and Orientation"
+    ],
+    [
+     "Phone",
+     "+961 1 291 091",
+     "Main campus (Furn El Chebbak)"
+    ]
+   ],
+   "url": "https://www.uls.edu.lb/admissions/tuition-fees/",
+   "confidence": "Low",
+   "degree": "master",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "2027-28 dates not published; tuition shown is 2025-26.",
+   "image": "https://www.uls.edu.lb/wp-content/uploads/2024/06/Picture4.png",
+   "logo": "https://www.uls.edu.lb/wp-content/uploads/2020/02/Logo_fav-300x300.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-phoenicia-undergraduate-2027",
+   "cat": "exchange",
+   "title": "Phoenicia University — Undergraduate admission (2027)",
+   "org": "Phoenicia University (PU)",
+   "place": "Zahrani district, South Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 9,
+   "feeText": "Application fee: LBP 800,000 (non-refundable; covers application, major placement test(s) and English placement test; about USD 9)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated (see the PU Registrar Calendar)",
+   "when": "Not stated",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Grades 10–12 transcripts and Lebanese Baccalaureate or recognised equivalent",
+     "IELTS/TOEFL/SAT/Duolingo score or PU English placement test (SAT code 10332)"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Freshman USD 200 per credit, 45% payable in USD and 55% in LBP (LL 38,000 per USD per the page; year not stated)",
+     "info"
+    ],
+    [
+     "Application fee",
+     "LBP 800,000 (non-refundable; covers application, major placement test(s) and English placement test; about USD 9)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Included in the application fee",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Complete the online admission application (apply.pu.edu.lb).",
+    "Submit photo, ID/passport and sealed school transcripts.",
+    "Pay the LBP 800,000 fee and sit placement tests if needed."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 7 420 720",
+     "Main campus"
+    ],
+    [
+     "Email",
+     "info@pu.edu.lb",
+     "General enquiries"
+    ]
+   ],
+   "url": "https://pu.edu.lb/undergraduate",
+   "confidence": "Low",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "No dated deadline published; tuition page has no academic year.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-meu-undergraduate-2027",
+   "cat": "exchange",
+   "title": "Middle East University (MEU) — Master's admission (2026-27 / Fall 2027)",
+   "org": "Middle East University (MEU)",
+   "place": "Sabtieh, Jdeideh (Metn), Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 100,
+   "feeText": "Application fee: USD 100",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated on the apply page",
+   "when": "Not stated",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Bachelor's degree holders (bachelor's required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese and international applicants",
+     "Age: Not stated",
+     "Team: Individual",
+     "Equalised bachelor's diploma plus the standard documents and an English proficiency test"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 365 per credit (graduate, 2026–27) + registration fee per semester",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 100",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Complete the online application.",
+    "Submit documents incl. equalised bachelor's diploma.",
+    "Pay the USD 100 fee and email the receipt to the business office."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admissions@meu.edu.lb",
+     "Admissions"
+    ],
+    [
+     "Phone",
+     "+961 1 685 800",
+     "Admissions"
+    ],
+    [
+     "WhatsApp",
+     "+961 70 389 672",
+     "Admissions"
+    ]
+   ],
+   "url": "https://meu.edu.lb/apply/",
+   "confidence": "Medium",
+   "degree": "master",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-jinan-undergraduate-2027",
+   "cat": "exchange",
+   "title": "Jinan University — Undergraduate admission (2026-27)",
+   "org": "Jinan University (JU)",
+   "place": "Tripoli (main campus) and Saida, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 15,
+   "feeText": "Application fee: USD 15",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated on the fees page",
+   "when": "Not stated",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Rates shown are for Lebanese students; international students have a separate fee page",
+     "Age: Not stated",
+     "Team: Individual",
+     "Entrance exam (all majors); remedial English/French levels if needed"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 50–190 per credit for Lebanese students (2026–27; e.g. Computer Science USD 190, Business USD 125, Nursing USD 180) + USD 200 registration per semester",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 15",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "USD 50 (all majors)",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register through \"Apply to JU\" (entrance registration) on jinan.edu.lb.",
+    "Pay the USD 15 application fee and USD 50 entrance exam fee.",
+    "Sit the entrance exam."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 6 447 900",
+     "Tripoli main campus"
+    ],
+    [
+     "Email",
+     "info@jinan.edu.lb",
+     "Tripoli"
+    ],
+    [
+     "Phone",
+     "+961 7 727 209",
+     "Saida branch"
+    ],
+    [
+     "Email",
+     "info.saida@jinan.edu.lb",
+     "Saida branch"
+    ]
+   ],
+   "url": "https://www.jinan.edu.lb/pages/en/lebanese-students",
+   "confidence": "Medium",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Application deadlines not published on the fees page.",
+   "image": "https://www.jinan.edu.lb/images/banner-bg.jpg",
+   "logo": "https://www.jinan.edu.lb/android-chrome-512x512.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.jinan.edu.lb/images/jinan-wordmark-bilingual.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-liu-undergraduate-2027",
+   "cat": "exchange",
+   "title": "LIU — Undergraduate admission (2026-27 / 2027)",
+   "org": "Lebanese International University (LIU)",
+   "place": "Beirut, Bekaa, Saida, Nabatieh, Tripoli, Mount Lebanon, Tyre, Rayak, Akkar",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 17,
+   "feeText": "Application fee: LBP 1,500,000 (about USD 17)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated (see LIU academic calendar)",
+   "when": "Not stated",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Requirements in the LIU Admission Leaflets"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 165–299 per credit (e.g. Freshman USD 165, Arts & Sciences/Education USD 169, Business USD 179, Engineering USD 215, Pharmacy USD 299); year not stated",
+     "info"
+    ],
+    [
+     "Application fee",
+     "LBP 1,500,000 (about USD 17)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "LBP 1,000,000",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Submit the online application (applb2.liu.edu.lb) or apply in person.",
+    "Complete the admission file with all documents at the admission office.",
+    "Sit the entrance exam if required."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@liu.edu.lb",
+     "Admissions / general"
+    ],
+    [
+     "Phone",
+     "+961 1 705080",
+     "Mon–Fri 8:00–17:00"
+    ]
+   ],
+   "url": "https://liu.edu.lb/cms26/public/page.php?slug=tuition",
+   "confidence": "Medium",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Tuition page has no academic year; deadlines and nationality rules not published.",
+   "image": null,
+   "logo": "https://liu.edu.lb/cms26/assets/images/apple-touch-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-liu-masters-2027",
+   "cat": "exchange",
+   "title": "LIU — Master's admission (2026-27 / 2027)",
+   "org": "Lebanese International University (LIU)",
+   "place": "Beirut and other LIU campuses",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 28,
+   "feeText": "Application fee: LBP 2,500,000 (about USD 28)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated",
+   "when": "Not stated",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Bachelor's degree holders (bachelor's required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Bachelor's degree; requirements in the LIU Admission Leaflets"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 190–285 per credit (e.g. Education/MS Applied Math USD 190, Business USD 225, MS Food Technology USD 240, Engineering/Computer Science USD 285); year not stated",
+     "info"
+    ],
+    [
+     "Application fee",
+     "LBP 2,500,000 (about USD 28)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Submit the online application.",
+    "Complete the admission file at the admission office."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@liu.edu.lb",
+     "Admissions / general"
+    ],
+    [
+     "Phone",
+     "+961 1 705080",
+     "Mon–Fri 8:00–17:00"
+    ]
+   ],
+   "url": "https://liu.edu.lb/cms26/public/page.php?slug=tuition",
+   "confidence": "Low",
+   "degree": "master",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Deadlines and requirements not published on the page.",
+   "image": null,
+   "logo": "https://liu.edu.lb/cms26/assets/images/apple-touch-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-usal-undergraduate-2027",
+   "cat": "exchange",
+   "title": "USAL — Undergraduate admission (2026-27)",
+   "org": "Lebanese University of Science and Arts (USAL)",
+   "place": "Old Airport Road, Ghobeiry, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "Application fee: USD 50 (application and placement tests)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated",
+   "when": "Not stated",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "USD 65–70 + LBP 1,400,000 per credit (2026–27; partly payable in LBP) + registration USD 180",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 50 (application and placement tests)",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Included in the USD 50 fee",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Contact Student Affairs and apply.",
+    "Pay the USD 50 application and placement-test fee.",
+    "Sit placement tests."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 456102",
+     "USAL"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 169510",
+     "USAL"
+    ],
+    [
+     "Email",
+     "student.affairs@usal.edu.lb",
+     "Student affairs"
+    ]
+   ],
+   "url": "https://www.usal.edu.lb/admissions/tuition-fees/",
+   "confidence": "Medium",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "No admission deadlines or nationality rules published.",
+   "image": "https://usal.edu.lb/wp-content/uploads/2025/05/38f0b935-1fbc-4ed6-8383-a5ab47d79975-scaled-e1746948164621-1024x628.jpg",
+   "logo": "https://usal.edu.lb/wp-content/uploads/2024/07/download-150x150-1.webp",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-aul-undergraduate-2027",
+   "cat": "exchange",
+   "title": "AUL — Admission 2026-27 (bachelor programmes)",
+   "org": "Arts, Sciences and Technology University in Lebanon (AUL)",
+   "place": "Beirut (Mazraa) main campus and branches (Jounieh, Dekwaneh, Chtaura, Tripoli, Jadra)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Application fee not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated; site banner says \"Admissions Open for 2026 – 2027\"",
+   "when": "Not stated",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Bac II certificate or equivalent; certified high-school grades",
+     "ID or passport, family identity card, medical report, proof of residence",
+     "English test (SAT, IELTS, etc.) if applicable"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Merit-based scholarships, need-based aid, payment plans and work-study (details on the Financial Aid page)",
+     "partial"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Complete the online pre-application.",
+    "Submit documents to the Admissions Office."
+   ],
+   "contact": [
+    [
+     "Email",
+     "admissions@aul.edu.lb",
+     "Admissions"
+    ],
+    [
+     "Phone",
+     "+961 1 708 300 ext. 1804",
+     "Admissions, Mon–Fri 8:00–16:00"
+    ]
+   ],
+   "url": "https://www.aul.edu.lb/admissions.php",
+   "confidence": "Low",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Fees, deadlines and nationality rules not published on the page.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.aul.edu.lb/images/FSFA.jpg",
+    "https://www.aul.edu.lb/images/mba1.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-iul-undergraduate-2027",
+   "cat": "exchange",
+   "title": "Islamic University of Lebanon (IUL) — Bachelor admission 2026-27",
+   "org": "Islamic University of Lebanon (IUL)",
+   "place": "Khaldeh, Wardaniyeh, Tyre, Baalbek (Lebanon)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Application fee not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated",
+   "when": "Not stated",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese and foreign students (foreigners need passport copy and equivalence certificates)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Officially certified Lebanese Baccalaureate or equivalent, or Technical Baccalaureate (BT) / Technical Superior (TS) diploma",
+     "Two passport photos and ID copy"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance exam fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Financial aid available (see IUL Financial Aid page)",
+     "partial"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Contact the IUL admissions team.",
+    "Register with the listed documents at your chosen campus."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 5 807 711",
+     "Admissions team"
+    ]
+   ],
+   "url": "https://www.iul.edu.lb/undergraduate/",
+   "confidence": "Low",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Fees and deadlines not published on the page.",
+   "image": null,
+   "logo": "https://www.iul.edu.lb/wp-content/uploads/2019/11/cropped-iul-logo-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-aou-undergraduate-2027",
+   "cat": "exchange",
+   "title": "Arab Open University (AOU) Lebanon — Undergraduate admission (2027)",
+   "org": "Arab Open University – Lebanon Branch",
+   "place": "Beirut (Tayouneh), Antelias, Tripoli",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "Application fee: USD 50",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated on the admission pages",
+   "when": "Not stated",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: School leavers (secondary school diploma / Lebanese Baccalaureate or equivalent required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Lebanese and non-Lebanese (non-Lebanese need valid General Security residency permit, mayor's residency certificate, proof of funding and Bac equivalence)",
+     "Age: Not stated",
+     "Team: Individual",
+     "General secondary certificate (Lebanese Bac or equivalent) or Technical Baccalaureate BT3 (related field only)",
+     "Placement tests affect level, not admission"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated on the fees page (per-programme tuition in the Academics section); AGFUND financial support for students",
+     "info"
+    ],
+    [
+     "Application fee",
+     "USD 50",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "Placement tests USD 30 each (English for all; Math for Computer Studies; Arabic for Education / non-Lebanese certificates)",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Registration fee",
+     "USD 150",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Fill in the online application (sis.aou.edu.kw/OnlineApplicationLEB) or the form at Student Affairs.",
+    "Submit certified Bac copy, individual civil record and ID/passport.",
+    "Pay the USD 50 application fee and sit placement tests."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@aou.edu.lb",
+     "All branches"
+    ],
+    [
+     "Phone",
+     "+961 1 392139",
+     "Beirut (Tayouneh)"
+    ],
+    [
+     "Phone",
+     "+961 4 404101",
+     "Antelias"
+    ],
+    [
+     "Phone",
+     "+(961) 26-40 94 40",
+     "Tripoli"
+    ]
+   ],
+   "url": "https://web.aou.edu.lb/admission/pages/undergraduate-requirements.aspx",
+   "confidence": "Medium",
+   "degree": "bachelor",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "No dated deadline published.",
+   "image": "https://web.aou.edu.lb/assets/common/images/logo.png?v=2",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fbs-main-pic.jpg",
+    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fcs-main-pic.jpg",
+    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fls-main-pic.jpg",
+    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fes-main-pic.jpg",
+    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/gmdt-main-pic.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ul-aou-graduate-2027",
+   "cat": "exchange",
+   "title": "Arab Open University (AOU) Lebanon — MBA / graduate admission (2027)",
+   "org": "Arab Open University – Lebanon Branch",
+   "place": "Beirut (Tayouneh), Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "Application fee: USD 50",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not stated",
+   "when": "Not stated",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Bachelor's degree holders (bachelor's required)",
+     "University: n/a (admission to this university)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Application fee",
+     "USD 50",
+     "info"
+    ],
+    [
+     "Entrance exam fee",
+     "English placement test USD 30; MBA GEE test USD 30",
+     "info"
+    ],
+    [
+     "Financial aid (need-based)",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Merit scholarships",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Work-study",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Registration fee",
+     "USD 200",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Apply via the AOU Lebanon online application.",
+    "Pay the USD 50 fee and sit the English placement and GEE tests."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@aou.edu.lb",
+     "All branches"
+    ],
+    [
+     "Phone",
+     "+961 1 392139",
+     "Beirut (Tayouneh)"
+    ],
+    [
+     "Phone",
+     "+961 4 404101",
+     "Antelias"
+    ],
+    [
+     "Phone",
+     "+(961) 26-40 94 40",
+     "Tripoli"
+    ]
+   ],
+   "url": "https://web.aou.edu.lb/admission/pages/graduate-fees.aspx",
+   "confidence": "Low",
+   "degree": "master",
+   "admission": true,
+   "verified": "2026-10-24",
+   "source": "bulk-uni-lb",
+   "added": "2026-10-24",
+   "caveat": "Graduate requirements, tuition and deadlines not published on the fees page.",
+   "image": "https://web.aou.edu.lb/assets/common/images/logo.png?v=2",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fbs-main-pic.jpg",
+    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fcs-main-pic.jpg",
+    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fls-main-pic.jpg",
+    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fes-main-pic.jpg",
+    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/gmdt-main-pic.jpg"
+   ],
    "galleryChecked": "2026-10-24"
   },
   {
