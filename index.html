@@ -487,7 +487,7 @@ const MAKE=["hackathon","startup","case","tournament"];
 const FAMILY={};for(const g of[SPORTS,STUDY,MAKE,["arts","clubs","volunteer"]])for(const k of g)FAMILY[k]=[...new Set([...(FAMILY[k]||[]),...g])];
 
 /* ---------- type: competition, class/training, event, trip, programme, job, club, volunteering ---------- */
-const TYPES={competition:"🏆 Competitions",class:"📚 Classes & training",event:"🎤 Events & conferences",trip:"🥾 Trips & outings",aid:"💰 Scholarships & financial aid",program:"🎓 Programmes & scholarships",intern:"🧑‍💻 Internships",job:"💼 Jobs",club:"👥 Clubs & communities",volunteer:"🤝 Volunteering",place:"🏛️ Places to visit",festival:"🎉 Festivals & celebrations"};
+const TYPES={competition:"🏆 Competitions",class:"📚 Classes & training",event:"🎤 Events & conferences",trip:"🥾 Trips & outings",aid:"💰 Scholarships & financial aid",program:"🎓 Programmes & scholarships",intern:"🧑‍💻 Internships",job:"💼 Jobs",club:"👥 Clubs & communities",volunteer:"🤝 Volunteering",place:"🏛️ Places to visit",festival:"🎉 Festivals & celebrations",show:"🎬 Shows, movies & concerts"};
 function typesOf(o){
   if(o._types)return o._types;
   const t=new Set(),x=o.title+" "+(o.when||"");
@@ -501,6 +501,8 @@ function typesOf(o){
   if(o.source==="bulk-aid"||/scholarship|financial aid|bursar|tuition|stipend|grant|student loan|fee waiver|fellowship/i.test(o.title))t.add("aid");
   if(o.source==="bulk-internships"||/intern(ship)?s?|traineeship|summer analyst|co-?op/i.test(o.title))t.add("intern");
   if(o.place)t.add("place");
+  if(o.class)t.add("class");
+  if(o.show||o.movie||/circus|concert|theat(re|er) play|stand-?up|comedy night|musical|screening|premiere|now showing/i.test(o.title))t.add("show");
   if(o.festival||/festival|mahrajan|christmas (village|market)|eid|feast|carnival/i.test(o.title))t.add("festival");
   if(o.club)t.add("club");
   if(o.cat==="volunteer"||/volunteer/i.test(x))t.add("volunteer");
