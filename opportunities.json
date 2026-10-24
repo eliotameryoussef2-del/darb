@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T09:41:01.204Z",
- "count": 1526,
+ "updated": "2026-10-24T09:42:11.652Z",
+ "count": 1550,
  "opportunities": [
   {
    "id": "hk-taskforge",
@@ -7523,6 +7523,85 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "aid-laser-lu-registration-scholarship-2026",
+   "cat": "exchange",
+   "title": "LASeR Lebanese University Scholarship 2026-27 (covers LU registration fees)",
+   "org": "LASeR – Lebanese Association for Scientific Research",
+   "place": "Lebanese University (any branch), Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": "2026-11-15T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "15 Nov 2026 (late applications not considered)",
+   "when": "Academic year 2026-27",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Students enrolled at the Lebanese University (priority to 2nd year and above; first-years may apply)",
+     "University: Lebanese University only, any branch or faculty",
+     "Nationality/residency: Students resident in Lebanon of any nationality (Lebanese, Syrian, Palestinian or other)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Average of 12/20 or above in the last academic year"
+    ]
+   },
+   "money": [
+    [
+     "LU registration fees 2026-27",
+     "Covered",
+     "yes"
+    ],
+    [
+     "Books, transport, personal costs",
+     "Not covered",
+     "no"
+    ],
+    [
+     "Follow-up and support from LASeR",
+     "Included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Send the word 'مهتم' (interested) on WhatsApp to 81 429 498, or fill in the online form linked on the page.",
+    "LASeR reviews applications and contacts shortlisted candidates.",
+    "Provide ID/passport/residency, LU registration certificate and last-year transcript (12/20+).",
+    "Results are communicated directly to applicants."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 81 429 498",
+     "Published on the scholarship page"
+    ],
+    [
+     "Phone",
+     "+961 6 446632",
+     "LASeR, Tripoli"
+    ]
+   ],
+   "url": "https://laser-lb.org/lu-scholarship/",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "added": "2026-10-24",
+   "source": "bulk-aid",
+   "image": "https://laser-lb.org/wp-content/uploads/2024/04/LASeR-Logo.png",
+   "logo": "https://laser-lb.org/wp-content/uploads/2024/06/cropped-LASeR-icon-1-01-1-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://laser-lb.org/wp-content/uploads/2026/10/image-scaled.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "lr-lau-postdoc-n-impact-2026",
    "cat": "research",
    "title": "Postdoctoral Researcher, N-IMPACT Internal Research Grant (CSR and sustainability)",
@@ -10678,6 +10757,91 @@
    "added": "2026-10-24",
    "source": "bulk-aid",
    "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "aid-haigazian-financial-aid-spring-2027",
+   "cat": "exchange",
+   "title": "Haigazian University Financial Aid – Spring 2027",
+   "org": "Haigazian University – Financial Aid Office",
+   "place": "Beirut, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": "2026-11-30T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Spring 2027: 30 Nov 2026 (the site also lists 9 Dec for undergraduate applications); Fall 2027: 31 Mar / 1 Apr 2027",
+   "when": "One academic year, renewable",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Regular full-time undergraduate and graduate students (new and current)",
+     "University: Haigazian University only",
+     "Nationality/residency: Not stated (applicants outside Lebanon may email a scanned form)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Need-based, with academic achievement considered; must stay in good academic standing (no aid after probation)",
+     "Recipients work a few hours a week in labs, libraries or offices, proportional to the aid"
+    ]
+   },
+   "money": [
+    [
+     "Need-based grant",
+     "Amount not stated",
+     "partial"
+    ],
+    [
+     "Academic and athletic scholarships",
+     "Amount not stated",
+     "ns"
+    ],
+    [
+     "Late applications",
+     "Processed only as remaining funds allow",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Apply to Haigazian and get your student ID.",
+    "Get your financial aid password from the Financial Aid Office.",
+    "Log in to the SIS portal > Accounting > Financial Aid and submit the form before the deadline.",
+    "Attend a short interview and hand in hard-copy documents (civil record, income forms FA1/FA2, two FA3 reference forms, etc.).",
+    "Wait for the committee's decision by email."
+   ],
+   "contact": [
+    [
+     "Email",
+     "financialaidoffice@haigazian.edu.lb",
+     "Financial Aid Office"
+    ],
+    [
+     "Email",
+     "financialaid@haigazian.edu.lb",
+     "For applicants not residing in Lebanon"
+    ],
+    [
+     "Phone",
+     "+961 1 353010/1/2 ext. 303",
+     "Financial Aid Office"
+    ]
+   ],
+   "url": "https://www.haigazian.edu.lb/admissions/financial-aid/apply-for-financial-aid/",
+   "confidence": "Medium",
+   "caveat": "The page gives conflicting spring deadlines (30 Nov vs 9 Dec); the earlier date is used.",
+   "verified": "2026-10-24",
+   "added": "2026-10-24",
+   "source": "bulk-aid",
+   "image": "https://www.haigazian.edu.lb/wp-content/themes/haigazianacademics/assets/images/favion.png",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -67224,6 +67388,248 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "aid-laser-aub-masters-scholarship-2027",
+   "cat": "exchange",
+   "title": "LASeR–AUB Master's Scholarship (50% tuition) – Fall 2027-28",
+   "org": "LASeR – Lebanese Association for Scientific Research & AUB",
+   "place": "Beirut, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated (AUB graduate application fee may apply)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not announced yet for Fall 2027-28 (the Fall 2026-27 deadline was 15 Mar 2026)",
+   "when": "Master's degree at AUB",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: New master's students at AUB (not already enrolled); online MBA not covered",
+     "University: AUB only",
+     "Nationality/residency: Residents of Lebanon of any nationality (Lebanese, Syrian, Palestinian...)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Good undergraduate standing (B+, or 14/20 for Lebanese University graduates)",
+     "Commitment to attend the programme's workshops",
+     "Financial ability to pay the monthly instalments of the loan agreed upon"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "50% covered through LASeR–AUB joint funding",
+     "partial"
+    ],
+    [
+     "Remaining tuition",
+     "Paid by the student (monthly instalments / loan as agreed)",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Apply to the AUB master's programme.",
+    "Apply separately to the LASeR–AUB scholarship on connected.laser-lb.org.",
+    "Attend an online interview with the LASeR team.",
+    "Results are communicated by phone and on your LASeR account."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 71 98 65 14",
+     "Published on the scholarship page"
+    ],
+    [
+     "Phone",
+     "+961 6 446632",
+     "LASeR, Tripoli"
+    ]
+   ],
+   "url": "https://laser-lb.org/aub-scholarship/",
+   "confidence": "Medium",
+   "caveat": "Next cycle dates not posted yet; the page still shows the 2026-27 call.",
+   "verified": "2026-10-24",
+   "added": "2026-10-24",
+   "source": "bulk-aid",
+   "image": "https://laser-lb.org/wp-content/uploads/2024/04/LASeR-Logo.png",
+   "logo": "https://laser-lb.org/wp-content/uploads/2024/06/cropped-LASeR-icon-1-01-1-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://laser-lb.org/wp-content/uploads/2026/02/AUB-2026-R-1-2048x1321.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "aid-laser-city-fund-bachelors-2027",
+   "cat": "exchange",
+   "title": "LASeR City Fund Bachelor's Scholarships (BAU-Tripoli, AUL, AOU) – 2027 intake",
+   "org": "LASeR – City Fund (صندوق المدينة)",
+   "place": "Tripoli and other branches, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Not announced yet for 2027 (2026 deadlines were 24 Apr for BAU, 18 Jul for AUL, 15 Aug for AOU)",
+   "when": "Bachelor's degree",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Secondary-school graduates starting a bachelor's",
+     "University: Partner universities only: Beirut Arab University – Tripoli (all majors except Pharmacy), AUL (all branches), Arab Open University – Lebanon (all branches)",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Must be admitted to the partner university (BAU: pass the entrance exam) and pass a LASeR online interview"
+    ]
+   },
+   "money": [
+    [
+     "BAU-Tripoli",
+     "40% scholarship; remaining fees paid via LASeR in two instalments",
+     "partial"
+    ],
+    [
+     "AUL",
+     "50% of tuition",
+     "partial"
+    ],
+    [
+     "AOU",
+     "50% of tuition",
+     "partial"
+    ]
+   ],
+   "steps": [
+    "Fill in the City Fund application form for the chosen university on laser-lb.org.",
+    "Attend the online interview with the LASeR team.",
+    "Register at the partner university and meet its admission requirements.",
+    "LASeR contacts candidates with the results."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 81 429 498",
+     "LASeR"
+    ],
+    [
+     "Phone",
+     "+961 6 446632",
+     "LASeR, Tripoli"
+    ]
+   ],
+   "url": "https://laser-lb.org/bau-scholarship/",
+   "confidence": "Medium",
+   "caveat": "All three 2026 calls are closed; 2027 dates not yet posted. Nationality rule for City Fund bachelor's not stated.",
+   "verified": "2026-10-24",
+   "added": "2026-10-24",
+   "source": "bulk-aid",
+   "image": "https://laser-lb.org/wp-content/uploads/2024/04/LASeR-Logo.png",
+   "logo": "https://laser-lb.org/wp-content/uploads/2024/06/cropped-LASeR-icon-1-01-1-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://laser-lb.org/wp-content/uploads/2026/03/city-fund-26--2048x1365.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "aid-antonine-university-scholarships",
+   "cat": "exchange",
+   "title": "Antonine University (UA) merit, Baccalaureate and social-aid tuition reductions",
+   "org": "Université Antonine – Office of Social Affairs",
+   "place": "Hadat-Baabda, Zahle, Mejdlaya (North), Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "No application deadline published; merit awarded each semester on cumulative GPA",
+   "when": "Each semester",
+   "meet": "",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Undergraduate students at UA (Baccalaureate scholarship for students enrolling directly after high school)",
+     "University: Antonine University only",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Merit: cumulative GPA thresholds by faculty (e.g. Business 3.3+ = 10% up to 3.9+ = 100%)",
+     "Bac scholarship (first fall semester): 15-16.49 = 20%, 16.5-17.49 = 40%, 17.5-18.49 = 60%, 18.5+ = 100%",
+     "Social aid: percentage set after a social worker's assessment"
+    ]
+   },
+   "money": [
+    [
+     "Merit scholarship",
+     "10% to 100% of tuition by GPA",
+     "partial"
+    ],
+    [
+     "Baccalaureate scholarship",
+     "20%-100% of first-semester tuition",
+     "partial"
+    ],
+    [
+     "Social aid",
+     "Percentage set by socioeconomic assessment",
+     "partial"
+    ],
+    [
+     "Sibling grant",
+     "20% / 30% / 50%",
+     "partial"
+    ],
+    [
+     "Sports grants",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "For social aid, apply through UA's Office of Social Affairs (Apply for Financial Aid).",
+    "For sibling grants, apply to the Office of Orientation and Admissions.",
+    "Athletes submit official documents to the Office of Athletics.",
+    "Merit and Baccalaureate scholarships are applied on your grades."
+   ],
+   "contact": [
+    [
+     "Website",
+     "https://ua.edu.lb/en/office-of-social-affairs/financial-aid-and-scholarships",
+     "Office of Social Affairs page"
+    ]
+   ],
+   "url": "https://ua.edu.lb/en/office-of-social-affairs/financial-aid-and-scholarships",
+   "confidence": "Medium",
+   "caveat": "No deadlines or contact email published on the page.",
+   "verified": "2026-10-24",
+   "added": "2026-10-24",
+   "source": "bulk-aid",
+   "image": "https://ua.edu.lb/images/ShareLogo.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "ar-ifl-club-lecture-2026",
    "cat": "community",
    "art": "writing",
@@ -71155,6 +71561,693 @@
     "https://paraglidinglebanon.com/img/tandem1.jpg",
     "https://paraglidinglebanon.com/img/tandem2.jpg",
     "https://paraglidinglebanon.com/img/tandem3.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cs-diving-in-lebanon-try-scuba",
+   "cat": "community",
+   "title": "SSI Try Scuba (3-hour first dive experience) – Diving in Lebanon, Zaitunay Bay",
+   "org": "Diving in Lebanon (SSI dive centre)",
+   "place": "Zaitunay Bay yacht entrance, Beirut, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 75,
+   "feeText": "$75",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "class": true,
+   "deadlineText": "Rolling: book or enrol any time",
+   "when": "3 hours, in confined water, by appointment",
+   "meet": "Zaitunay Bay yacht entrance, Beirut",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: First-timers",
+     "University: Not restricted (open to the public)",
+     "Nationality/residency: No nationality rule stated; in Lebanon",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Try Scuba",
+     "$75",
+     "info"
+    ],
+    [
+     "SSI Try Scuba recognition card",
+     "Included",
+     "yes"
+    ],
+    [
+     "Equipment",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Message Diving in Lebanon on WhatsApp or use the booking page on divinginlebanon.com to pick a slot."
+   ],
+   "contact": [
+    [
+     "Phone / WhatsApp",
+     "+961 81 630 334",
+     "Published on divinginlebanon.com/contacts"
+    ],
+    [
+     "Email",
+     "hello@divinginlebanon.com",
+     "Published on divinginlebanon.com/contacts"
+    ]
+   ],
+   "url": "https://divinginlebanon.com/courses/try-scuba-diving/",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-classes",
+   "added": "2026-10-24",
+   "sport": "water",
+   "image": "https://divinginlebanon.com/wp-content/uploads/2019/02/Try-Scuba.jpg",
+   "logo": "https://divinginlebanon.com/wp-content/uploads/2022/04/cropped-DivingInLebanon-Logo-20210428-2-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://divinginlebanon.com/wp-content/uploads/2022/02/Open-Water-Diver-1170x658.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cs-diving-in-lebanon-open-water",
+   "cat": "community",
+   "title": "SSI Open Water Diver course (6 dives + 4 theory sessions) – Diving in Lebanon, Beirut",
+   "org": "Diving in Lebanon (SSI dive centre)",
+   "place": "Zaitunay Bay yacht entrance, Beirut, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 500,
+   "feeText": "$500",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "class": true,
+   "deadlineText": "Rolling: book or enrol any time",
+   "when": "6 diving sessions and 4 theory sessions; by appointment",
+   "meet": "Zaitunay Bay yacht entrance, Beirut",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Beginners (entry-level certification)",
+     "University: Not restricted (open to the public)",
+     "Nationality/residency: No nationality rule stated; in Lebanon",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Course fee",
+     "$500",
+     "info"
+    ],
+    [
+     "SSI Open Water Diver certification",
+     "Course leads to it",
+     "info"
+    ],
+    [
+     "Equipment",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Message Diving in Lebanon on WhatsApp or book through divinginlebanon.com/book-appointments."
+   ],
+   "contact": [
+    [
+     "Phone / WhatsApp",
+     "+961 81 630 334",
+     "Published on divinginlebanon.com/contacts"
+    ],
+    [
+     "Email",
+     "hello@divinginlebanon.com",
+     "Published on divinginlebanon.com/contacts"
+    ]
+   ],
+   "url": "https://divinginlebanon.com/courses/open-water-scuba-diving/",
+   "confidence": "High",
+   "caveat": "Minimum age and what the fee includes are not stated. The centre also offers Nitrox, Advanced/Deep and React Right courses.",
+   "verified": "2026-10-24",
+   "source": "bulk-classes",
+   "added": "2026-10-24",
+   "sport": "water",
+   "image": "https://divinginlebanon.com/wp-content/uploads/2022/02/Open-Water-Diver.jpg",
+   "logo": "https://divinginlebanon.com/wp-content/uploads/2022/04/cropped-DivingInLebanon-Logo-20210428-2-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://divinginlebanon.com/wp-content/uploads/2019/02/Try-Scuba-1170x658.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cs-batroun-watersports-surf-course",
+   "cat": "community",
+   "title": "7-hour beginner surfing course – Batroun Water Sports",
+   "org": "Batroun Water Sports",
+   "place": "Batroun, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "class": true,
+   "deadlineText": "Rolling: book or enrol any time",
+   "when": "7 hours with a full-time instructor; scheduled with the school depending on waves",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: No experience needed",
+     "University: Not restricted (open to the public)",
+     "Nationality/residency: No nationality rule stated; in Lebanon",
+     "Age: Not stated",
+     "Team: Individual",
+     "Swimming ability: Not stated"
+    ]
+   },
+   "money": [
+    [
+     "Course fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Surf equipment, video support, theory and practical lessons",
+     "Included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Register via WhatsApp (+961 3 156 402) or the form at batrounwatersports.com/register-for-activities/.",
+    "Agree a date with the instructor (depends on waves and wind)."
+   ],
+   "contact": [
+    [
+     "Phone / WhatsApp",
+     "+961 3 156 402",
+     "Published on batrounwatersports.com"
+    ],
+    [
+     "Email",
+     "batrounwatersports@gmail.com",
+     "Published on batrounwatersports.com"
+    ]
+   ],
+   "url": "https://batrounwatersports.com/surfing/",
+   "confidence": "Medium",
+   "caveat": "Price and season are not published; ask the school.",
+   "verified": "2026-10-24",
+   "source": "bulk-classes",
+   "added": "2026-10-24",
+   "sport": "water",
+   "image": null,
+   "logo": "https://batrounwatersports.com/wp-content/uploads/2025/06/insta-fav-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://batrounwatersports.com/wp-content/uploads/2025/05/Surfing.webp"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cs-batroun-watersports-windsurf-course",
+   "cat": "community",
+   "title": "7-hour windsurfing course for beginners – Batroun Water Sports",
+   "org": "Batroun Water Sports",
+   "place": "Batroun, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "class": true,
+   "deadlineText": "Rolling: book or enrol any time",
+   "when": "7 hours; scheduled with the school depending on wind",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: None required",
+     "University: Not restricted (open to the public)",
+     "Nationality/residency: No nationality rule stated; in Lebanon",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Course fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Windsurf equipment, video support, theory and practical lessons",
+     "Included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Register via WhatsApp (+961 3 156 402) or the form at batrounwatersports.com/register-for-activities/.",
+    "Agree a date with the instructor (depends on waves and wind)."
+   ],
+   "contact": [
+    [
+     "Phone / WhatsApp",
+     "+961 3 156 402",
+     "Published on batrounwatersports.com"
+    ],
+    [
+     "Email",
+     "batrounwatersports@gmail.com",
+     "Published on batrounwatersports.com"
+    ]
+   ],
+   "url": "https://batrounwatersports.com/windsurfing/",
+   "confidence": "Medium",
+   "caveat": "Price and season not published. The school also lists SUP, kitesurfing, wing foil and freediving lessons (freediving \"upon demand\").",
+   "verified": "2026-10-24",
+   "source": "bulk-classes",
+   "added": "2026-10-24",
+   "sport": "water",
+   "image": null,
+   "logo": "https://batrounwatersports.com/wp-content/uploads/2025/06/insta-fav-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://batrounwatersports.com/wp-content/uploads/2025/05/Windsurf.webp"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cs-urock-climbing-gym",
+   "cat": "community",
+   "title": "U Rock indoor climbing gym: day passes, Intro to Climbing and belaying sessions",
+   "org": "U Rock Climbing",
+   "place": "Pierre Gemayel street, Jdeideh, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 10,
+   "feeText": "Day pass $10 (kids under 12 $8); Intro to Climbing session $65",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "class": true,
+   "deadlineText": "Rolling: book or enrol any time",
+   "when": "Mon–Fri 16:00–22:00, Sat 15:00–20:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Beginners to experienced climbers; youth climbing club for children",
+     "University: Not restricted (open to the public)",
+     "Nationality/residency: No nationality rule stated; in Lebanon",
+     "Age: All ages (kids rates under 12)",
+     "Team: Individual",
+     "Waiver: sign the online Smartwaiver before climbing"
+    ]
+   },
+   "money": [
+    [
+     "Day pass",
+     "$10 (kids under 12: $8)",
+     "info"
+    ],
+    [
+     "10-entry punch card (valid 1 year)",
+     "$90",
+     "info"
+    ],
+    [
+     "Monthly membership",
+     "$45 (kids $40)",
+     "info"
+    ],
+    [
+     "Intro to Climbing session (indoors)",
+     "$65",
+     "info"
+    ],
+    [
+     "Belaying initiation / 1-on-1 training",
+     "$20 per person per hour",
+     "info"
+    ],
+    [
+     "Shoe rental",
+     "$10 per day",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Call or email U Rock to book an intro session.",
+    "Sign the online waiver before your visit."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 3 807 854",
+     "Published on urock-climbing.com"
+    ],
+    [
+     "Email",
+     "info@urock-climbing.com",
+     "Published on urock-climbing.com"
+    ]
+   ],
+   "url": "https://www.urock-climbing.com/services/training-classes/",
+   "confidence": "Medium",
+   "caveat": "The website footer says 2020, so prices and hours may have changed; confirm by phone.",
+   "verified": "2026-10-24",
+   "source": "bulk-classes",
+   "added": "2026-10-24",
+   "sport": "other",
+   "image": "https://www.urock-climbing.com/wp-content/uploads/2018/08/ogimage.jpg",
+   "logo": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_192,h_192/https://www.urock-climbing.com/wp-content/uploads/2018/01/cropped-U-ROCK-Favicon-e1516195635363-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cs-kitchen-lab-cooking-classes",
+   "cat": "community",
+   "title": "Evening cooking classes for adults (pasta, bistro, seasonal menus) – Kitchen Lab",
+   "org": "Kitchen Lab (Chef Roy Hazboun)",
+   "place": "Lebanon (address not stated on the website)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 60,
+   "feeText": "$60 per person (adult classes listed); kids classes from $45",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "class": true,
+   "deadlineText": "Rolling: book or enrol any time",
+   "when": "Weekly programme: adult classes Mon–Fri 18:00–20:00 (e.g. Cacio e Pepe Mon 26 Oct, \"Will You Marry Me\" chicken Tue 27 Oct, French Bistro Mon 2 Nov, A Taste of Fall Tue 3 Nov 2026); kids classes on Saturdays",
+   "meet": "Not stated",
+   "team": "Up to 16 participants per class",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (adult classes); separate kids classes, some 8+",
+     "University: Not restricted (open to the public)",
+     "Nationality/residency: No nationality rule stated; in Lebanon",
+     "Age: Adults; kids classes separately",
+     "Team: Up to 16 participants per class"
+    ]
+   },
+   "money": [
+    [
+     "Adult class (2 h)",
+     "$60 per person",
+     "info"
+    ],
+    [
+     "Dinner and drinks, aprons, utensils, ingredients",
+     "Included",
+     "yes"
+    ],
+    [
+     "Kids class",
+     "From $45 per kid",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Open the class page on kitchenlabo.com and use the Contact Us page to reserve a place."
+   ],
+   "contact": [],
+   "url": "https://kitchenlabo.com",
+   "confidence": "Medium",
+   "caveat": "Address and phone are not published on the website (only social media). Some later classes have no listed price.",
+   "verified": "2026-10-24",
+   "source": "bulk-classes",
+   "added": "2026-10-24",
+   "art": "other",
+   "image": null,
+   "logo": "https://kitchenlabo.com/wp-content/uploads/2021/12/cropped-k-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://kitchenlabo.com/wp-content/uploads/2024/01/IMG-20240123-WA0025.jpg",
+    "https://kitchenlabo.com/wp-content/uploads/2024/01/IMG-20240123-WA0023.jpg",
+    "https://kitchenlabo.com/wp-content/uploads/2024/01/IMG-20240123-WA0022.jpg",
+    "https://kitchenlabo.com/wp-content/uploads/2024/09/IMG_5618-555x453.png",
+    "https://kitchenlabo.com/wp-content/uploads/2026/09/spaghetti-cacio-e-pepe-recipe-hero-02_1-70880518badb4d428f5d5b03d303fabc-555x453.jpeg",
+    "https://kitchenlabo.com/wp-content/uploads/2025/08/marry-me-chicken-index-67a503f0a565c-555x453.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cs-zorba-academy-dabke",
+   "cat": "community",
+   "title": "Dabke classes in Beirut (beginner to advanced) and online dabke courses – Zorba Academy",
+   "org": "Zorba Academy (Learn Dabke)",
+   "place": "Beirut, Lebanon (venue not stated) and online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "Online steps course $50 (4 videos); online theory $100 (4 sessions); in-person prices not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "class": true,
+   "deadlineText": "Rolling: book or enrol any time",
+   "when": "Beginners Thu 19:00 and 20:30; Intermediate Wed 19:00–20:00; Advanced Wed 20:30–21:30; Practice Tue 20:30; private classes Fri 19:00–21:00",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts",
+    "sports"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Beginner, intermediate, advanced",
+     "University: Not restricted (open to the public)",
+     "Nationality/residency: No nationality rule stated; in Lebanon",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "In-person group classes",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Online steps course (4 videos)",
+     "$50",
+     "info"
+    ],
+    [
+     "Online theory (4 sessions)",
+     "$100",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Message Zorba Academy on WhatsApp (+961 3 301 443) to join a class."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 3 301 443",
+     "Published on learndabke.co"
+    ]
+   ],
+   "url": "https://learndabke.co/",
+   "confidence": "Medium",
+   "caveat": "Venue address and in-person fees are not published.",
+   "verified": "2026-10-24",
+   "source": "bulk-classes",
+   "added": "2026-10-24",
+   "sport": "dance",
+   "image": "https://learndabke.co/wp-content/uploads/2026/08/cropped-Learn-Dabke-Logo.png",
+   "logo": "https://i0.wp.com/learndabke.co/wp-content/uploads/2026/08/cropped-Learn-Dabke-Logo.png?fit=192%2C192&#038;ssl=1",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cs-saifi-arabic-courses",
+   "cat": "community",
+   "title": "Lebanese dialect and Modern Standard Arabic courses – Saifi Institute (Winter Term 1 starts 26 Oct 2026)",
+   "org": "Saifi Institute for Arabic Language",
+   "place": "Beirut (Gemmayzeh/Saifi area) and online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "class": true,
+   "deadlineText": "Rolling: book or enrol any time",
+   "when": "Eight terms a year; Winter Term 1: 26 Oct – 27 Nov 2026; private lessons any time",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Beginner to proficient (Urban Arabic) and Beginner to Advanced (MSA)",
+     "University: Not restricted (open to the public)",
+     "Nationality/residency: No nationality rule stated; in Lebanon",
+     "Age: Not stated",
+     "Team: Individual",
+     "Placement: free level assessment (online Mon/Wed/Fri 12:00–15:00, in person Tue/Thu 11:00–14:00) for anyone who has studied Arabic before"
+    ]
+   },
+   "money": [
+    [
+     "Tuition",
+     "Not stated on the public pages",
+     "ns"
+    ],
+    [
+     "Level assessment",
+     "Free",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Book the free level assessment (beginners can skip it).",
+    "Register online on classes.saifiarabic.com or in person.",
+    "Pay in cash (USD), by bank transfer or online."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@saifiarabic.com",
+     "Published on saifiarabic.com"
+    ]
+   ],
+   "url": "https://saifiarabic.com",
+   "confidence": "Medium",
+   "caveat": "Fees and street address are not on the pages checked; the next term starts 26 Oct 2026, later terms follow.",
+   "verified": "2026-10-24",
+   "source": "bulk-classes",
+   "added": "2026-10-24",
+   "art": "literature",
+   "image": "https://saifiarabic.com/wp-content/uploads/2019/03/fbcpver.jpg",
+   "logo": "https://saifiarabic.com/wp-content/uploads/2018/09/cropped-saiii-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://saifiarabic.com/wp-content/uploads/2023/01/SAIFI-PACKAGES3.png",
+    "https://saifiarabic.com/wp-content/uploads/2021/01/saifistore.png",
+    "https://saifiarabic.com/wp-content/uploads/2025/01/2151889103-1.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cs-bkerzay-pottery-atelier",
+   "cat": "community",
+   "title": "Pottery lessons at the Bkerzay pottery atelier (daily, hourly or monthly)",
+   "org": "Bkerzay",
+   "place": "Bkerzay, Chouf (Mount Lebanon), Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "class": true,
+   "deadlineText": "Rolling: book or enrol any time",
+   "when": "Daily lessons, by the hour or by the month; occasional master classes with potter Ahmad Deif",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: All levels",
+     "University: Not restricted (open to the public)",
+     "Nationality/residency: No nationality rule stated; in Lebanon",
+     "Age: All ages",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Lessons",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Bkerzay to book a lesson."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 3 512 020",
+     "Published on bkerzay.com"
+    ],
+    [
+     "Email",
+     "info@bkerzay.com",
+     "Published on bkerzay.com"
+    ]
+   ],
+   "url": "https://bkerzay.com/pottery-atelier-bkerzay",
+   "confidence": "Medium",
+   "caveat": "Prices and hours are not published.",
+   "verified": "2026-10-24",
+   "source": "bulk-classes",
+   "added": "2026-10-24",
+   "art": "crafts",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://images.squarespace-cdn.com/content/v1/56ec34cab6aa60dbf5cc2e58/6276e185-f7eb-4e96-bc3e-ead3aa6d01d1/IMG_2573.jpeg",
+    "https://images.squarespace-cdn.com/content/v1/56ec34cab6aa60dbf5cc2e58/1634552125782-2JV08IMFKI5PBN6NVVZ1/IMG_0427.jpeg",
+    "https://images.squarespace-cdn.com/content/v1/56ec34cab6aa60dbf5cc2e58/1634552147027-2VV3FJCPIDD8FGDD509L/IMG_0428.jpeg",
+    "https://images.squarespace-cdn.com/content/v1/56ec34cab6aa60dbf5cc2e58/1668426979806-GXE0V2BY3D73U18YTIJL/L1000259.JPG",
+    "https://images.squarespace-cdn.com/content/v1/56ec34cab6aa60dbf5cc2e58/1632407832545-X6EYZY3294C7DJKHPLES/pottery+.jpeg",
+    "https://images.squarespace-cdn.com/content/v1/56ec34cab6aa60dbf5cc2e58/1632407954807-I8E4LKITFXF8WJRBG10D/IMG_1718.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -80595,6 +81688,256 @@
    "logo": "https://oakenfest.com/wp-content/uploads/2024/05/cropped-Oaken-Fest-Icon-192x192.jpeg",
    "imageChecked": "2026-10-24",
    "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "fe-baalbek-christmas-village-2026",
+   "cat": "community",
+   "title": "Baalbek Christmas Village and local products fair",
+   "org": "Lebanese Association for Studies and Training",
+   "place": "The agricultural village, Baalbek, Bekaa",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No registration deadline (public event)",
+   "when": "Usually late December to early January — 2026 edition not announced yet (2025 edition: 11 days, ending 8 Jan 2026)",
+   "meet": "Not stated",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to everyone (public festival)",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; open to the public in Lebanon",
+     "Age: Not stated",
+     "Team: Come alone or with friends and family"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check the organiser's announcements in late November or early December for the 2026 dates and hours.",
+    "Go during opening hours; no registration is mentioned in the 2025 coverage."
+   ],
+   "contact": [],
+   "url": "https://www.annahar.com/lebanon/262192/الجمعية-اللبنانية-للدراسات-والتدريب-تطلق-القرية-الميلادية-ومعرضا-للمنتجات-برعاية-محافظ-بعلبك-الهرمل",
+   "confidence": "Medium",
+   "caveat": "Usual timing based on the 2025 edition (Annahar, 12 Dec 2025); 2026 edition not announced yet. Fee and contacts not stated.",
+   "verified": "2026-10-24",
+   "source": "bulk-festivals",
+   "added": "2026-10-24",
+   "festival": true,
+   "image": "https://www.annahar.com/Assets/ContentPhotos/Photos/WhatsAppImage20251212at15.33.43_160530.webp?width=1416&height=805&mode=crop&scale=both",
+   "logo": "https://www.annahar.com/images/favicon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.annahar.com/Assets/ContentPhotos/Photos/Bahr_183334_large.webp",
+    "https://www.annahar.com/Assets/ContentPhotos/Photos/AFP__20261023__D48E4P6__v1__MidRes__KenyaAccident_170028_large.webp",
+    "https://www.annahar.com/Assets/ContentPhotos/Photos/RL_111304_large.webp",
+    "https://www.annahar.com/Assets/ContentPhotos/Photos/02dd945f0a3b4401a0199ff6497d3dd3_105130_large.webp",
+    "https://www.annahar.com/Assets/ContentPhotos/Photos/87_112517_large.webp",
+    "https://www.annahar.com/Assets/ContentPhotos/Photos/AFP__20261023__D48U8BB__v2__MidRes__JordanUnrestShootingReligion_193204_large.webp"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "fe-hrajel-christmas-village-2026",
+   "cat": "community",
+   "title": "Hrajel Christmas village and market",
+   "org": "Not stated (Hrajel village)",
+   "place": "Hrajel, Kesrouan",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No registration deadline (public event)",
+   "when": "Usually the last week of December — 2026 dates not announced yet (2025: 23–31 Dec)",
+   "meet": "Not stated",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to everyone (public festival)",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; open to the public in Lebanon",
+     "Age: Not stated",
+     "Team: Come alone or with friends and family"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check the organiser's announcements in late November or early December for the 2026 dates and hours.",
+    "Go during opening hours; no registration is mentioned in the 2025 coverage."
+   ],
+   "contact": [],
+   "url": "https://aawsat.com/node/5213813",
+   "confidence": "Low",
+   "caveat": "Usual timing based on the 2025 season (Asharq Al-Awsat, 30 Nov 2025); 2026 dates not announced yet. Organiser, fee and activities not detailed.",
+   "verified": "2026-10-24",
+   "source": "bulk-festivals",
+   "added": "2026-10-24",
+   "festival": true,
+   "image": "https://static.srpcdigital.com/styles/1200x600/public/2025-11/1287311.jpeg.webp",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://aawsat.com/s3/files/styles/310xauto/public/2026-10/1843624.jpeg.webp",
+    "https://static.srpcdigital.com/styles/1037xauto/public/2025-11/1287311.jpeg.webp",
+    "https://static.srpcdigital.com/2025-11/1287310.jpeg",
+    "https://static.srpcdigital.com/2025-11/1287309.jpeg",
+    "https://static.srpcdigital.com/styles/657x371/public/2026-01/1326206.jpeg.webp",
+    "https://static.srpcdigital.com/styles/414x217/public/2025-12/1324287.jpeg.webp"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "fe-elf-town-beirut-2026",
+   "cat": "community",
+   "title": "Elf Town Christmas village, Beirut seafront",
+   "org": "Andmore Ventures, with the Ministries of Tourism and Information and Télé Liban (2025)",
+   "place": "Beirut seafront (2025)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No registration deadline (public event)",
+   "when": "Usually late November to 23 December — 2026 edition not announced yet (2025 edition: 28 Nov – 23 Dec)",
+   "meet": "Not stated",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to everyone (public festival)",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; open to the public in Lebanon",
+     "Age: Not stated",
+     "Team: Come alone or with friends and family"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check the organiser's announcements in late November or early December for the 2026 dates and hours.",
+    "Go during opening hours; no registration is mentioned in the 2025 coverage."
+   ],
+   "contact": [],
+   "url": "https://aawsat.com/node/5213813",
+   "confidence": "Medium",
+   "caveat": "Usual timing based on the 2025 edition (Asharq Al-Awsat, 30 Nov 2025; dates from Lebanon Traveler's Dec 2025 guide); 2026 edition not announced. Fees not stated. Part of the Beirut waterfront was used as a shelter for displaced people in 2026, so the venue may change.",
+   "verified": "2026-10-24",
+   "source": "bulk-festivals",
+   "added": "2026-10-24",
+   "festival": true,
+   "image": "https://static.srpcdigital.com/styles/1200x600/public/2025-11/1287311.jpeg.webp",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://aawsat.com/s3/files/styles/310xauto/public/2026-10/1843624.jpeg.webp",
+    "https://static.srpcdigital.com/styles/1037xauto/public/2025-11/1287311.jpeg.webp",
+    "https://static.srpcdigital.com/2025-11/1287310.jpeg",
+    "https://static.srpcdigital.com/2025-11/1287309.jpeg",
+    "https://static.srpcdigital.com/styles/657x371/public/2026-01/1326206.jpeg.webp",
+    "https://static.srpcdigital.com/styles/414x217/public/2025-12/1324287.jpeg.webp"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "fe-christmas-factory-2026",
+   "cat": "community",
+   "title": "Christmas Factory holiday market",
+   "org": "BOB Finance",
+   "place": "Seaside Arena, Beirut (2025)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 5,
+   "feeText": "$5 entry (2025, pre-ordered on the BOB app)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No registration deadline (public event)",
+   "when": "Usually late November or early December to 23 December — 2026 edition not announced yet (2025 listing: 4–23 Dec, daily 14:00–22:00; description said 23 Nov – 23 Dec, weekends 11:00–23:00)",
+   "meet": "Not stated",
+   "team": "Open attendance",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to everyone (public festival)",
+     "University: Not restricted",
+     "Nationality/residency: No nationality rule stated; open to the public in Lebanon",
+     "Age: Not stated",
+     "Team: Come alone or with friends and family"
+    ]
+   },
+   "money": [
+    [
+     "Entry",
+     "$5 in 2025 (pre-order on the BOB app)",
+     "info"
+    ],
+    [
+     "Food and gifts",
+     "Paid at stalls; prices not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Check for a 2026 announcement in November.",
+    "If it returns, pre-order the entry ticket on the BOB app and go during opening hours."
+   ],
+   "contact": [],
+   "url": "https://www.lebanontraveler.com/?p=97665",
+   "confidence": "Medium",
+   "caveat": "Usual timing and price based on the 2025 edition (Lebanon Traveler listing, which gives inconsistent dates); 2026 edition not announced yet. The Seaside Arena area on the Beirut waterfront was used as a shelter in 2026, so the venue may change.",
+   "verified": "2026-10-24",
+   "source": "bulk-festivals",
+   "added": "2026-10-24",
+   "festival": true,
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2025/12/BOB-CHRISTMAS.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://tasteandflavors.com/wp-content/uploads/2021/11/TF-Web-Banner.jpg",
+    "https://www.tasteandflavors.com/wp-content/uploads/2020/04/LT-Web-Banner1.jpg",
+    "https://www.tasteandflavors.com/wp-content/uploads/2020/04/HN-Web-Banner-1.jpg"
+   ],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -98971,6 +100314,419 @@
     "https://www.habitat.org/sites/default/files/styles/2_1_default/public/images/FIJI-24-GV-volunteer.png?itok=OhnolwEp",
     "https://www.habitat.org/sites/default/files/styles/2_1_default/public/images/CAMB-24-GV-team.png?itok=RQSJRANk",
     "https://www.habitat.org/sites/default/files/styles/2_1_default/public/images/hero-gv-volunteer-shirt_ROMA-24.png?itok=KmQJ2Fco"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "vo-embrace-national-lifeline-operator",
+   "cat": "volunteer",
+   "title": "Become a volunteer operator on the National Lifeline 1564 (Embrace)",
+   "org": "Embrace",
+   "place": "Lebanon (Embrace National Lifeline)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Recruitment opens three times a year; check the page for the current round",
+   "when": "At least one year; 8 hours a week, covering day and night shifts",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "volunteering"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all; current volunteers have varied educational and occupational backgrounds",
+     "University: Not required",
+     "Nationality/residency: Not stated; volunteers come from various regions of Lebanon",
+     "Age: 21 and above",
+     "Team: Individual",
+     "Other: Commit to at least one year, 8 hours a week, day and night shifts; all requirements must be met; applications are screened"
+    ]
+   },
+   "money": [
+    [
+     "Training",
+     "Intensive workshops in active listening, suicide risk assessment and crisis intervention",
+     "yes"
+    ],
+    [
+     "Participation fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the National Lifeline page and click \"Apply to become a Lifeline Operator\" when recruitment is open.",
+    "Applications are screened for the eligibility criteria; selected volunteers attend the training workshops."
+   ],
+   "contact": [
+    [
+     "Email",
+     "info@embracelebanon.org",
+     "Published on the Embrace website"
+    ]
+   ],
+   "url": "https://embracelebanon.org/what-we-do/the-national-lifeline/",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-volunteer",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": "https://embracelebanon.org/wp-content/uploads/2025/09/favicon-4.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://embracelebanon.org/wp-content/uploads/2026/07/Lifelinee-3-2.png",
+    "https://embracelebanon.org/wp-content/uploads/2026/07/Lifeline-1-scaled.jpeg",
+    "https://embracelebanon.org/wp-content/uploads/2025/09/fe6aed04-ad2f-491e-b92b-fe3d26ac75b7.jpg",
+    "https://embracelebanon.org/wp-content/uploads/2025/09/4bf73305-06fd-41d8-891f-15e44492ba84.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "vo-insan-association-volunteer",
+   "cat": "volunteer",
+   "title": "Volunteer with Insan Association (support for vulnerable and migrant communities)",
+   "org": "Insan Association",
+   "place": "Achrafieh, Beirut",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling",
+   "when": "Not stated",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "volunteering"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: No requirements published"
+    ]
+   },
+   "money": [
+    [
+     "Participation fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Fill in the volunteer form on the Insan website.",
+    "Or email insan@insanlb.org."
+   ],
+   "contact": [
+    [
+     "Email",
+     "insan@insanlb.org",
+     "Published on the Insan website"
+    ]
+   ],
+   "url": "https://insanassociation.org/volunteer/",
+   "confidence": "Medium",
+   "verified": "2026-10-24",
+   "source": "bulk-volunteer",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "vo-zooniverse-citizen-science",
+   "cat": "volunteer",
+   "title": "Zooniverse: online citizen-science volunteering (classify real research data)",
+   "org": "Zooniverse",
+   "place": "Online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling",
+   "when": "At your own pace, on your computer or the app",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "volunteering",
+    "research"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all; no specialised background, training or expertise needed",
+     "University: Not required",
+     "Nationality/residency: Not restricted (online platform)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Projects cover astronomy, ecology, history, humanities and more"
+    ]
+   },
+   "money": [
+    [
+     "Participation",
+     "Free",
+     "yes"
+    ],
+    [
+     "Certificate",
+     "You can generate an official certificate verifying your efforts",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Go to the Zooniverse Projects page and choose a project.",
+    "Learn how to classify, then submit classifications."
+   ],
+   "contact": [
+    [
+     "Email",
+     "contact@zooniverse.org",
+     "Published on the Zooniverse About page"
+    ]
+   ],
+   "url": "https://www.zooniverse.org/about",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-volunteer",
+   "added": "2026-10-24",
+   "image": "https://static.zooniverse.org/assets/zooniverse-icon-web-black.png",
+   "logo": "https://www.zooniverse.org/apple-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "vo-sci-volunteer-camps",
+   "cat": "volunteer",
+   "title": "Service Civil International (SCI) volunteer camps and long-term volunteering",
+   "org": "Service Civil International",
+   "place": "Projects in many countries; online tasks also possible",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": null,
+   "feeText": "Participation fees \"kept low\" (amount per project)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling",
+   "when": "Volunteer camps: 2 to 3 weeks; long-term volunteering: 1 to 12 months; online tasks flexible",
+   "meet": "Not stated",
+   "team": "Groups of international volunteers",
+   "tags": [
+    "volunteering",
+    "exchange"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to everyone (stated)",
+     "University: Not required",
+     "Nationality/residency: Open to everyone \"without any distinction\"; how to apply from Lebanon (via an SCI branch or partner) is not stated",
+     "Age: Not stated on the page",
+     "Team: Join a group",
+     "Other: Online volunteering tasks include translation, design, data collection and analysis"
+    ]
+   },
+   "money": [
+    [
+     "Participation fee",
+     "Kept low; set per project",
+     "info"
+    ],
+    [
+     "Travel",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Browse SCI opportunities on the SCI volunteer database.",
+    "Apply through the SCI branch or partner organisation listed for the project."
+   ],
+   "contact": [],
+   "url": "https://sci.ngo/volunteer-with-us/",
+   "confidence": "Medium",
+   "verified": "2026-10-24",
+   "source": "bulk-volunteer",
+   "added": "2026-10-24",
+   "caveat": "Fees, ages and the application route for residents of Lebanon depend on each project.",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://sci.ngo/app/uploads/2025/03/project-hero.webp",
+    "https://sci.ngo/app/uploads/2025/05/sci-poland-workcamp-august-2024-voices-of-volunteers-scaled-3.jpg",
+    "https://sci.ngo/app/uploads/2025/05/2022_belgium_job-shadowing-grassroots-na-fir-bolg-workcamp-2-1.jpg",
+    "https://sci.ngo/app/uploads/2025/10/a-route-to-connect_36125079664_o-min-1-scaled.jpg",
+    "https://sci.ngo/app/uploads/2025/07/peacenotwar.webp",
+    "https://sci.ngo/app/uploads/2025/07/volunteer01.webp"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "vo-7-cups-volunteer-listener",
+   "cat": "volunteer",
+   "title": "7 Cups: become an online volunteer listener (emotional support chat)",
+   "org": "7 Cups",
+   "place": "Online (web and app)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling",
+   "when": "You control your own availability",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "volunteering"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Open to all",
+     "University: Not required",
+     "Nationality/residency: Not stated (online)",
+     "Age: Not stated on the page",
+     "Team: Individual",
+     "Other: Internet connection; free online training"
+    ]
+   },
+   "money": [
+    [
+     "Participation",
+     "Free",
+     "yes"
+    ],
+    [
+     "Training and mentoring",
+     "Free online training and support",
+     "yes"
+    ],
+    [
+     "Certificate",
+     "Certifications to boost your resume",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Sign up as a listener on the 7 Cups website or app.",
+    "Complete the free online training, then start listening when you are available."
+   ],
+   "contact": [],
+   "url": "https://www.7cups.com/listener/become-a-volunteer-listener.php",
+   "confidence": "Medium",
+   "verified": "2026-10-24",
+   "source": "bulk-volunteer",
+   "added": "2026-10-24",
+   "image": "https://www.7cups.com/static/img/7cupsshare.jpg",
+   "logo": "https://www.7cups.com/static/icon/android-chrome-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.7cups.com/static/img/becomeaListener2.png"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "vo-ivhq-volunteer-abroad",
+   "cat": "volunteer",
+   "title": "International Volunteer HQ (IVHQ) volunteer abroad programmes",
+   "org": "International Volunteer HQ",
+   "place": "Over 50 destinations",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 329,
+   "feeText": "Registration fee US$329 plus a programme fee (varies by destination and length)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling",
+   "when": "Depends on programme and duration",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "volunteering"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated on the fees page",
+     "Team: Individual",
+     "Other: You arrange visa (if required), mandatory travel insurance, vaccinations and a criminal background check"
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "US$329",
+     "info"
+    ],
+    [
+     "Programme fee",
+     "Varies by destination and duration (examples on the page from about $26 to $65 per day)",
+     "info"
+    ],
+    [
+     "Accommodation and meals",
+     "Included in the programme fee",
+     "yes"
+    ],
+    [
+     "Airport pick-up and orientation",
+     "Included",
+     "yes"
+    ],
+    [
+     "Flights, visa, insurance",
+     "Not included",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Choose a programme and destination on the IVHQ website.",
+    "Pay the registration fee to secure your place.",
+    "Pay the programme fee and arrange visa, insurance, vaccinations and a background check."
+   ],
+   "contact": [],
+   "url": "https://www.volunteerhq.org/affordable-volunteer-fees/",
+   "confidence": "Medium",
+   "verified": "2026-10-24",
+   "source": "bulk-volunteer",
+   "added": "2026-10-24",
+   "caveat": "Paid programme; visa rules for Lebanese passport holders depend on the destination.",
+   "image": "https://www.volunteerhq.org/images/meta/international-volunteer-hq-most-trusted-affordable-programs-abroad-ivhq-social.jpg",
+   "logo": "https://www.volunteerhq.org/apple-touch-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://ivhq-secure.imgix.net/images/projects/buenos-aires/volunteer-abroad-in-argentina-ivhq-buenos-aires-location.jpg?w=850&h=200&fit=crop&crop=faces%2Ccenter&auto=compress%2Cformat&s=20f87a56bf5c71ef185880246fca0585",
+    "https://ivhq-secure.imgix.net/images/projects/cordoba/volunteer-abroad-in-argentina-ivhq-cordoba-location.jpg?w=850&h=200&fit=crop&crop=faces%2Ccenter&auto=compress%2Cformat&s=4600dedf90bbdf89e39fcdf6761ab485",
+    "https://ivhq-secure.imgix.net/images/projects/australia/volunteer-abroad-in-australia-ivhq-location.jpg?w=850&h=200&fit=crop&crop=faces%2Ccenter&auto=compress%2Cformat&s=7b25ee6d2ca2654b43f5c4a1dd887319",
+    "https://ivhq-secure.imgix.net/images/projects/bali/volunteer-abroad-in-bali-ivhq-lovina-location.jpg?w=850&h=200&fit=crop&crop=faces%2Ccenter&auto=compress%2Cformat&s=4efd1064d4715735d9ae131fc7e14030",
+    "https://ivhq-secure.imgix.net/images/projects/bali/volunteer-abroad-in-bali-ivhq-ubud-location.jpg?w=850&h=200&fit=crop&crop=faces%2Ccenter&auto=compress%2Cformat&s=69455f96b9d230d2622a0713a5d83257",
+    "https://ivhq-secure.imgix.net/images/projects/belize/volunteer-abroad-in-belize-ivhq-location.jpg?w=850&h=200&fit=crop&crop=faces%2Ccenter&auto=compress%2Cformat&s=cfbd3daee52e950c5c8eccd689d3ee33"
    ],
    "galleryChecked": "2026-10-24"
   }
