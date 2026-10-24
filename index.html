@@ -411,6 +411,7 @@ const AR_PATTERNS=[
   [/^That's all (\d+) for your filters$/,(m,n)=>`هذه كل النتائج (${n}) حسب الفلاتر`],[/^(\d+) views?$/,(m,n)=>`${n} مشاهدة`],
   [/^Refreshed · (\d+) open · updated (.+)$/,(m,n,d)=>`تم التحديث · ${n} متاح · آخر تحديث ${arDate(d)}`],
   [new RegExp("^"+DATE_RE+"$"),(m,d)=>arDate(d)],[new RegExp("^Register by "+DATE_RE+"$"),(m,d)=>`التسجيل قبل ${arDate(d)}`],
+  [/^Season opens (.+)$/,(m,d)=>`يبدأ الموسم ${arDate(d)}`],
   [/^Before (.+)$/,(m,d)=>`قبل ${arDate(d)}`],[/^After (.+)$/,(m,d)=>`بعد ${arDate(d)}`],
 ];
 const EMOJI_LEAD=/^((?:\p{Extended_Pictographic}|\p{Regional_Indicator})[️‍\p{Extended_Pictographic}\p{Regional_Indicator}]*\s*)([\s\S]*)$/u;
@@ -449,9 +450,18 @@ const $=s=>document.querySelector(s);
 const byId=id=>OPPS.find(o=>o.id===id);
 const DAY=864e5;
 function daysLeft(o){const t=o.deadline||o.eventDate;if(!t)return null;return Math.ceil((new Date(t)-Date.now())/DAY)}
+// Seasonal places (ski resorts, beaches): {from:"12-15",to:"04-10"}; the season may wrap the new year.
+function seasonState(o){
+  if(!o.season||!o.season.from||!o.season.to)return null;
+  const now=new Date(),md=(now.getMonth()+1)*100+now.getDate(),n=x=>+x.replace("-",""),a=n(o.season.from),b=n(o.season.to);
+  const inS=a<=b?md>=a&&md<=b:md>=a||md<=b;
+  if(inS)return{in:true};
+  const [m,d]=o.season.from.split("-").map(Number);let y=now.getFullYear();if(md>a)y++;
+  return{in:false,opens:new Date(y,m-1,d)};
+}
 function isClosed(o){const d=o.deadline?daysLeft(o):(o.eventDate?Math.ceil((new Date(o.eventDate)-Date.now())/DAY)+5:null);return d!==null&&d<0}
 function dlLabel(o){
-  if(o.visit)return"See opening hours";
+  if(o.visit){const ss=seasonState(o);if(ss)return ss.in?"Open · in season":"Season opens "+fmtDate(ss.opens);return"See opening hours"}
   if(isClosed(o)){const e=o.eventEnd||o.eventDate,de=e?Math.ceil((new Date(e)-Date.now())/DAY):null;
     if(de!==null&&de>0)return"Registration closed";if(de!==null&&de>=-1)return"Happening now";return"Ended "+fmtDate(e||o.deadline)}
   if(o.job&&!o.deadline)return"Hiring now";
@@ -534,11 +544,11 @@ function score(o){
   return{s,why:why.slice(0,2),label:s>=55?"Strong match":s>=35?"Good match":"Possible match"};
 }
 /* ---------- topic filters (football only, startups only, ...) ---------- */
-const TOPICS=[["tournament","🏆 Tournaments"],["football","⚽ Football"],["basketball","🏀 Basketball"],["volleyball","🏐 Volleyball"],["padel","🎾 Padel & tennis"],["swimming","🏊 Swimming"],["cycling","🚴 Cycling"],["ski","⛷️ Ski"],["chess","♟️ Chess"],["water","🤿 Diving & water sports"],["gymnastics","🤸 Gymnastics & cheer"],["yoga","🧘 Yoga & pilates"],["fitness","🏋️ Fitness & CrossFit"],["martial","🥋 Martial arts & boxing"],["climbing","🧗 Climbing"],["racket","🏓 Table tennis, squash & badminton"],["fencing","🤺 Fencing & archery"],["golf","⛳ Golf"],["skating","⛸️ Skating & skateboarding"],["rugby","🏉 Rugby, cricket & other team sports"],["bowling","🎳 Bowling, billiards & darts"],["motor","🏎️ Motorsport & karting"],["riding","🐎 Horse riding"],["dance","💃 Dance"],["music","🎵 Music"],["movies","🎬 Movies & shows"],["museums","🏛️ Museums & places"],["festivals","🎉 Festivals"],["esports","🎮 Esports"],["othersport","🥇 Other sports"],["clubs","👥 Clubs & communities"],["arts","🎨 Arts & creative"],["hiking","🥾 Hiking"],["running","🏃 Running"],["hackathon","💻 Hackathons"],["startup","🚀 Startups"],["case","📊 Case comps"],["research","🔬 Research"],["scholarship","🎓 Scholarships & exchange"],["conference","🎤 Conferences & MUN"],["volunteer","🤝 Volunteering"],["career","💼 Careers"],["funded","✈️ Fully funded"],["religious","⛪ Church & parish events"],["trips","🚌 Day trips & getaways (Lebanon)"],["travel","✈️ Group trips abroad"]];
+const TOPICS=[["tournament","🏆 Tournaments"],["football","⚽ Football"],["basketball","🏀 Basketball"],["volleyball","🏐 Volleyball"],["padel","🎾 Padel & tennis"],["swimming","🏊 Swimming"],["cycling","🚴 Cycling"],["ski","⛷️ Ski"],["chess","♟️ Chess"],["water","🤿 Diving & water sports"],["gymnastics","🤸 Gymnastics & cheer"],["yoga","🧘 Yoga & pilates"],["fitness","🏋️ Fitness & CrossFit"],["martial","🥋 Martial arts & boxing"],["climbing","🧗 Climbing"],["racket","🏓 Table tennis, squash & badminton"],["fencing","🤺 Fencing & archery"],["golf","⛳ Golf"],["skating","⛸️ Skating & skateboarding"],["rugby","🏉 Rugby, cricket & other team sports"],["bowling","🎳 Bowling, billiards & darts"],["motor","🏎️ Motorsport & karting"],["riding","🐎 Horse riding"],["dance","💃 Dance"],["music","🎵 Music"],["movies","🎬 Movies & shows"],["museums","🏛️ Museums & places"],["festivals","🎉 Festivals"],["esports","🎮 Esports"],["othersport","🥇 Other sports"],["clubs","👥 Clubs & communities"],["arts","🎨 Arts & creative"],["hiking","🥾 Hiking"],["running","🏃 Running"],["hackathon","💻 Hackathons"],["startup","🚀 Startups"],["case","📊 Case comps"],["research","🔬 Research"],["scholarship","🎓 Scholarships & exchange"],["conference","🎤 Conferences & MUN"],["volunteer","🤝 Volunteering"],["career","💼 Careers"],["funded","✈️ Fully funded"],["religious","⛪ Church & parish events"],["trips","🚌 Day trips & getaways (Lebanon)"],["travel","✈️ Group trips abroad"],["beaches","🏖️ Beaches"]];
 // Category groups, like OLX: tap a group to see its categories.
 const TOPIC_GROUPS=[
  ["sports","⚽ Sports",["football","basketball","volleyball","padel","swimming","cycling","ski","water","gymnastics","yoga","fitness","martial","climbing","racket","fencing","golf","skating","rugby","bowling","motor","riding","chess","esports","othersport"]],
- ["outdoors","🥾 Trips & outdoors",["travel","trips","hiking","running"]],
+ ["outdoors","🥾 Trips & outdoors",["travel","trips","beaches","ski","hiking","running"]],
  ["events","🎉 Events & culture",["festivals","religious","movies","museums","music","dance","arts"]],
  ["compete","🏆 Competitions",["tournament","hackathon","case","startup"]],
  ["study","🎓 Study & careers",["scholarship","funded","research","conference","career"]],
@@ -559,6 +569,8 @@ function topicsOf(o){
   // Organised trips: abroad (Jordan, Turkey…) or inside Lebanon. Races and conferences abroad are not "trips".
   const trip=(o.tags||[]).some(x=>/^(travel|trips?)$/.test(x))||/\b(trip|getaway|excursion|wine tour|day tour|boat tour|horseback tour|city tour|guided tour)\b/i.test(o.title);
   if(trip)t.add(o.travel?"travel":"trips");
+  if((o.tags||[]).includes("beach")||/\b(beach|plage)\b/i.test(o.title)&&!/volleyball/i.test(o.title))t.add("beaches");
+  if((o.tags||[]).includes("ski"))t.add("ski");
   if((o.tags||[]).includes("church-event")||/\b(church|parish|paroisse|diocese|archdiocese|eparchy|patriarchate|monastery|convent|mosque|waqf|mouvement apostolique|apostolic movement|fursan|fersen|knights of the virgin|jeunesse [ée]tudiante chr[ée]tienne|l[ée]gion de marie|legion of mary|scouts? catholiques|catholic scouts|youth of (the )?church|catechism)\b|\bMAM\b|\bJEC\b|فرسان|الحركة الرسولية/i.test(o.org+" "+o.title)||/\b(saint|st\.?|mar|saydet|sayydet) [a-z]+ (feast|festival|fest|night)|\bfeast of (saint|st|our lady)|\b(saint )?barbara\b|christmas (village|market|fair|bazaar|concert)|\bkermesse\b/i.test(o.title))t.add("religious");
   if(o.club)t.add("clubs");
   if(o.movie||o.show)t.add("movies");
@@ -640,7 +652,8 @@ const jitter=id=>(hash(id+SESSION_SEED)%1000)/1000;
 function affinity(o){let a=S.aff["org:"+orgKey(o)]||0;for(const t of topicsOf(o))a+=S.aff[t]||0;return Math.max(-30,Math.min(30,a))}
 function rankForYou(o){
   const seen=Math.min(S.seen[o.id]||0,3),fresh=o.added&&Date.now()-new Date(o.added)<3*DAY?8:0;
-  return score(o).s+affinity(o)*1.5-seen*10+fresh+jitter(o.id)*18;
+  const ss=seasonState(o);
+  return score(o).s+affinity(o)*1.5-seen*10+fresh+jitter(o.id)*18+(ss?(ss.in?12:-25):0);
 }
 function bump(o,w){for(const t of topicsOf(o))S.aff[t]=(S.aff[t]||0)+w;const k="org:"+orgKey(o);S.aff[k]=(S.aff[k]||0)+w/2}
 
@@ -663,6 +676,7 @@ function feedItems(){
   const main=list.filter(o=>!reachReason(o)),reach=list.filter(o=>reachReason(o));
   let out=S.profile.reach?main.concat(reach):main;
   // Jobs outnumber everything else; unless you filter for jobs/internships, show at most one job per 5 cards.
+  if(!strict&&!(S.profile.topics||[]).some(k=>k==="ski"||k==="beaches")){const off=out.filter(o=>{const ss=seasonState(o);return ss&&!ss.in});if(off.length)out=out.filter(o=>!off.includes(o)).concat(off)}
   // Ended events come one every 6 cards, after the open ones around them.
   if(showEnded){const ended=out.filter(isClosed),open=out.filter(o=>!isClosed(o)),mix=[];
     open.forEach((o,i)=>{mix.push(o);if(i%5===4&&ended.length)mix.push(ended.shift())});out=mix.concat(ended)}
