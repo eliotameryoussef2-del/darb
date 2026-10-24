@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T13:43:05.917Z",
- "count": 2420,
+ "updated": "2026-10-24T13:43:18.553Z",
+ "count": 2421,
  "opportunities": [
   {
    "id": "hk-airwallex-agentic-banking",
@@ -100609,6 +100609,64 @@
    "imageChecked": "2026-10-24",
    "gallery": [],
    "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-usek-open-day-2026",
+   "cat": "community",
+   "title": "USEK Open Day 2026 (for Grades 10–12)",
+   "org": "Holy Spirit University of Kaslik (USEK) – Admissions Office",
+   "place": "Esplanades A & C, USEK campus, Kaslik",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-06T09:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-06",
+   "when": "Fri 6 Nov 2026, 9:00 AM–5:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "campus",
+    "admissions",
+    "open-day"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: High school students in Grades 10, 11 and 12 (prospective students)",
+     "University: Schools / students considering USEK",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register through the \"Register Here\" Microsoft Form on the official page.",
+    "Come for programme info, faculty booths, campus tours and activities."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "(+961) 9 600 000",
+     "Published on the official page"
+    ]
+   ],
+   "url": "https://www.usek.edu.lb/news/usek-open-day-2026",
+   "confidence": "High",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Fee not mentioned on the page (open days are usually free, but this is not stated)."
   },
   {
    "id": "cp-usek-icaih-2026",
