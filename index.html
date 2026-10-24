@@ -869,9 +869,34 @@ function renderSaved(){
   const sortD=(a,b)=>(daysLeft(a)??9999)-(daysLeft(b)??9999);
   const saved=S.saved.map(byId).filter(o=>o&&!S.applied.includes(o.id)).sort(sortD);
   const applied=S.applied.map(byId).filter(Boolean).sort(sortD);
-  $("#v-saved").innerHTML=`<h1 class="h1">Deadlines</h1><p class="sub">Saved items sorted by closing date, soonest first.</p>
+  const perm=("Notification"in window)?Notification.permission:"unsupported";
+  const remind=perm==="granted"?`<p class="note" style="margin:0 0 12px">🔔 Reminders are on: you'll get a notification 7 days and 2 days before each saved deadline.</p>`
+    :perm==="denied"?`<p class="note" style="margin:0 0 12px">🔕 Notifications are blocked for Darb. Allow them in your phone's settings to get reminders.</p>`
+    :perm==="unsupported"?"":`<button class="btn primary" data-remind="1" style="margin:0 0 12px">🔔 Turn on deadline reminders</button>`;
+  $("#v-saved").innerHTML=`<h1 class="h1">Deadlines</h1><p class="sub">Saved items sorted by closing date, soonest first.</p>${remind}
    <div class="group"><h3>Saved · ${saved.length}</h3><div class="list">${saved.length?saved.map(o=>rowHTML(o,isClosed(o)?'<div class="m" style="color:var(--bad)">Closed</div>':"")).join(""):`<div class="empty">Tap Save on any card in Discover and it appears here.</div>`}</div></div>
    <div class="group"><h3>Applied · ${applied.length}</h3><div class="list">${applied.length?applied.map(o=>rowHTML(o,'<div class="m" style="color:var(--ok)">Applied · waiting for a result</div>')).join(""):`<div class="empty">Mark “I applied” to track your applications.</div>`}</div></div>`;
+}
+
+/* ---------- deadline reminders ---------- */
+// The page keeps a small list of saved deadlines where the background worker can read it,
+// so reminders can arrive even when the app is closed (Chrome on Android, installed app).
+async function syncReminders(){
+  if(!("caches"in window)||!("serviceWorker"in navigator))return;
+  try{
+    const c=await caches.open("darb-reminders"),old=await c.match("saved.json"),prev=old?await old.json():{};
+    const items=S.saved.map(byId).filter(o=>o&&o.deadline&&!isClosed(o)).map(o=>({id:o.id,title:o.title,deadline:o.deadline}));
+    await c.put("saved.json",new Response(JSON.stringify({items,sent:prev.sent||[]}),{headers:{"content-type":"application/json"}}));
+    if(Notification.permission==="granted"){const r=await navigator.serviceWorker.ready;r.active&&r.active.postMessage("check-deadlines")}
+  }catch(e){}
+}
+async function enableReminders(){
+  if(!("Notification"in window))return toast("This browser can't show notifications");
+  const p=await Notification.requestPermission();
+  if(p!=="granted"){renderSaved();return toast("Notifications not allowed")}
+  try{const r=await navigator.serviceWorker.ready;if(r.periodicSync)await r.periodicSync.register("darb-deadlines",{minInterval:12*3600*1000})}catch(e){}
+  await syncReminders();renderSaved();
+  toast(S.saved.length?"Reminders on for your saved deadlines":"Reminders on. Save something to get reminded");
 }
 
 /* ---------- add a flyer ---------- */
@@ -947,6 +972,7 @@ document.addEventListener("click",e=>{
   if(b.dataset.v)return show(b.dataset.v);
   if(b.dataset.reload)return loadData(true);
   if(b.dataset.filters){filterPage=null;return openFilters()}
+  if(b.dataset.remind)return enableReminders();
   if(b.dataset.dir){dirGroup="";dirQ="";return openDirectory()}
   if(b.dataset.dgroup!==undefined){dirGroup=b.dataset.dgroup;return openDirectory()}
   if(b.dataset.ftypex){S.filters.types=S.filters.types.filter(t=>t!==b.dataset.ftypex);persist();renderFeed();$("#v-feed").scrollTop=0;return}
@@ -994,7 +1020,7 @@ document.addEventListener("click",e=>{
   const act=b.dataset.act,id=b.dataset.id;if(!act)return;
   const o=byId(id);
   if(act==="like"){const on=toggleIn(S.likes,id);bump(o,on?2:-2);persist();refreshRails(id)}
-  if(act==="save"){const on=toggleIn(S.saved,id);bump(o,on?3:-3);persist();refreshRails(id);if($("#sheet").classList.contains("on"))openSheet(id);toast(on?"Saved to Deadlines":"Removed from saved")}
+  if(act==="save"){const on=toggleIn(S.saved,id);bump(o,on?3:-3);persist();refreshRails(id);syncReminders();if($("#sheet").classList.contains("on"))openSheet(id);toast(on?"Saved to Deadlines":"Removed from saved")}
   if(act==="applied"){const on=toggleIn(S.applied,id);if(on&&!S.saved.includes(id))S.saved.push(id);bump(o,on?4:-4);persist();refreshRails(id);toast(on?"Marked as applied. Good luck!":"Unmarked")}
   if(act==="share"){bump(o,2);persist();shareOpp(o)}
   if(act==="hide"){S.hidden.push(id);bump(o,-6);persist();const y=$("#v-feed").scrollTop;renderFeed();$("#v-feed").scrollTop=y;toast("Hidden. You'll see fewer like this",()=>{S.hidden=S.hidden.filter(x=>x!==id);persist();renderFeed()})}
@@ -1030,6 +1056,7 @@ async function loadData(manual){
     if(!DIRECTORY.length)try{const x=await fetch("directory.json");if(x.ok)DIRECTORY=(await x.json()).orgs||[]}catch(e){}
     if(!Object.keys(STOCK).length)try{const s=await fetch("stock.json");if(s.ok)STOCK=await s.json()}catch(e){}
     if(current==="feed"||!before){show("feed");$("#v-feed").scrollTop=0}
+    syncReminders();
     if(manual)toast(`Refreshed · ${OPPS.filter(o=>!isClosed(o)).length} open · updated ${fmtDate(UPDATED)}`);
     const id=decodeURIComponent(location.hash.slice(1));if(!before&&id&&byId(id))openSheet(id);
   }catch(e){
