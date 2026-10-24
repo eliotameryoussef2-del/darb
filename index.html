@@ -248,7 +248,7 @@ const CATS={research:"Research",hackathon:"Hackathon",case:"Case competition",ru
 const INTERESTS={consulting:"Consulting",finance:"Finance & VC",startups:"Startups",case:"Case comps",hackathon:"Hackathons",research:"Research",exchange:"Exchange & scholarships",careers:"Careers",running:"Running",hiking:"Hiking",volunteering:"Volunteering",sports:"Sports (football, basketball…)",arts:"Arts & creative"};
 
 /* ---------- state ---------- */
-const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{when:"any",where:[],region:"",money:[],fee:"any",feeMin:"",eligOnly:false,sort:"best"},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
+const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{types:[],when:"any",where:[],region:"",money:[],fee:"any",feeMin:"",eligOnly:false,sort:"best"},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
 let S=JSON.parse(JSON.stringify(DEF));
 try{const raw=localStorage.getItem("darb-state");if(raw){const p=JSON.parse(raw);S={...S,...p,profile:{...S.profile,...(p.profile||{})}}}}catch(e){}
 S.filters={...DEF.filters,...(S.filters||{})};
@@ -386,6 +386,7 @@ const REGIONS=[
 const regionOf=o=>whereOf(o)==="lebanon"?(REGIONS.find(([,,re])=>re.test(o.place+" "+(o.meet||"")))||[])[0]:undefined;
 function passFilters(o){
   const f=S.filters,d=daysLeft(o);
+  if(f.types.length&&!f.types.some(t=>typesOf(o).has(t)))return false;
   if(f.region&&regionOf(o)!==f.region)return false;
   if(f.feeMin!==""&&(o.feeUSD===null||o.feeUSD<Number(f.feeMin)))return false;
   if(f.when==="7"&&!(d!==null&&d>=0&&d<=7))return false;
@@ -397,7 +398,7 @@ function passFilters(o){
   if(f.eligOnly&&(o.elig.status!=="ok"||fitFor(o).block))return false;
   return true;
 }
-function activeFilters(){const f=S.filters;return(S.profile.topics||[]).length+(f.when!=="any")+f.where.length+!!f.region+f.money.length+(f.fee!=="any"||f.feeMin!=="")+f.eligOnly+(f.sort!=="best")}
+function activeFilters(){const f=S.filters;return(S.profile.topics||[]).length+f.types.length+(f.when!=="any")+f.where.length+!!f.region+f.money.length+(f.fee!=="any"||f.feeMin!=="")+f.eligOnly+(f.sort!=="best")}
 
 /* ---------- For You: learns from what you watch, save, like and skip ---------- */
 const jitter=id=>(hash(id+SESSION_SEED)%1000)/1000;
@@ -420,7 +421,64 @@ function feedItems(){
   else if(feedMode==="foryou"){const r=new Map(list.map(o=>[o.id,rankForYou(o)]));list.sort((a,b)=>r.get(b.id)-r.get(a.id))}
   else list.sort((a,b)=>jitter(a.id)-jitter(b.id));
   const main=list.filter(o=>!reachReason(o)),reach=list.filter(o=>reachReason(o));
-  return S.profile.reach?main.concat(reach):main;
+  const out=S.profile.reach?main.concat(reach):main;
+  return sort==="soon"?out:spread(out);
+}
+// Keep variants of the same thing apart (e.g. Sony photo awards' 3 categories, several Murex jobs):
+// no repeat of a series within the last 4 cards, and never the same organiser twice in a row.
+const seriesKey=o=>orgKey(o)+"|"+o.title.toLowerCase().replace(/[^a-z ]/g," ").split(/\s+/).filter(Boolean).slice(0,2).join(" ");
+function spread(list){
+  const out=[],pending=list.slice();
+  while(pending.length){
+    const recent=out.slice(-4).map(seriesKey),prevOrg=out.length?orgKey(out[out.length-1]):null;
+    let i=pending.findIndex(o=>!recent.includes(seriesKey(o))&&orgKey(o)!==prevOrg);
+    if(i<0)i=pending.findIndex(o=>!recent.includes(seriesKey(o)));
+    if(i<0)i=0;
+    out.push(pending.splice(i,1)[0]);
+  }
+  return out;
+}
+// Related categories, so "more like this" after Football means other sports, not hackathons.
+const SPORTS=["football","basketball","volleyball","padel","swimming","cycling","ski","chess","esports","othersport","hiking","running"];
+const STUDY=["research","scholarship","conference","career"];
+const MAKE=["hackathon","startup","case","tournament"];
+const FAMILY={};for(const g of[SPORTS,STUDY,MAKE,["arts","clubs","volunteer"]])for(const k of g)FAMILY[k]=[...new Set([...(FAMILY[k]||[]),...g])];
+
+/* ---------- type: competition, class/training, event, trip, programme, job, club, volunteering ---------- */
+const TYPES={competition:"🏆 Competitions",class:"📚 Classes & training",event:"🎤 Events & conferences",trip:"🥾 Trips & outings",program:"🎓 Programmes & scholarships",job:"💼 Jobs & internships",club:"👥 Clubs & communities",volunteer:"🤝 Volunteering"};
+function typesOf(o){
+  if(o._types)return o._types;
+  const t=new Set(),x=o.title+" "+(o.when||"");
+  if(o.cat==="hackathon"||o.cat==="case"||/compet|contest|challenge|championship|tournament|\bcup\b|olympiad|hackathon|\bctf\b|prize|award|\bopen\b|league|race|marathon|\b\d+k\b|run\b|regatta|grand prix|series|rally|aquathlon|triathlon|duathlon|pitch/i.test(x))t.add("competition");
+  // Degrees and scholarships are programmes, even when their names say "academy" or "course".
+  if(/class|course|workshop|training|lesson|bootcamp|academy|tutorial|masterclass|clinic|summer school|winter school|\bschool\b|study jam/i.test(o.title)&&!/scholarship|master'?s|fellowship|degree|\bphd\b|erasmus mundus/i.test(o.title))t.add("class");
+  if(/conference|summit|forum|festival|exhibition|talk|screening|concert|meetup|\bfair\b|week\b|webinar|symposium|congress|\bday\b|\bmun\b|model united|gala|launch/i.test(x))t.add("event");
+  if(o.cat==="hiking"||/hike|hiking|trek|\btour\b|trip|excursion|outing|atv|paraglid|ski day/i.test(x))t.add("trip");
+  if(o.cat==="research"||o.cat==="exchange"||/scholarship|fellowship|exchange|internship|residency|accelerator|incubat|programme|program\b|erasmus|grant/i.test(x))t.add("program");
+  if(o.cat==="career"&&/engineer|analyst|job|position|graduate|intern|hiring|vacanc|referent|officer|role/i.test(x)||/\bjob\b|vacanc/i.test(x))t.add("job");
+  if(o.club)t.add("club");
+  if(o.cat==="volunteer"||/volunteer/i.test(x))t.add("volunteer");
+  if(!t.size)t.add(o.cat==="career"?"event":o.cat==="startup"?"program":"event");
+  return(o._types=t);
+}
+
+// After the filtered results run out, keep going with the closest matches (like OLX's "more results").
+function moreLikeThis(shown){
+  const ids=new Set(shown.map(o=>o.id)),tp=S.profile.topics||[],f=S.filters;
+  const pool=OPPS.filter(o=>!ids.has(o.id)&&!isClosed(o)&&!S.hidden.includes(o.id)&&o.elig.status!=="no"&&!reachReason(o));
+  const fam=new Set(tp.flatMap(k=>FAMILY[k]||[]));
+  const near=o=>{
+    let s=0;for(const k of tp)if(topicsOf(o).has(k))s+=30;
+    if([...topicsOf(o)].some(t=>fam.has(t)))s+=20;
+    for(const t of f.types||[])if(typesOf(o).has(t))s+=12;
+    if(f.region&&regionOf(o)===f.region)s+=15;
+    if(f.where.length&&f.where.includes(whereOf(o)))s+=10;
+    if(f.money.length&&f.money.some(m=>m==="full"?o.funded==="full":m==="partial"?o.funded==="partial":m==="free"?o.feeUSD===0:!!o.prize))s+=8;
+    for(const s2 of shown.slice(0,5))if([...topicsOf(o)].some(t=>topicsOf(s2).has(t)))s+=3;
+    return s+rankForYou(o)/10;
+  };
+  const r=new Map(pool.map(o=>[o.id,near(o)]));
+  return spread(pool.sort((a,b)=>r.get(b.id)-r.get(a.id))).slice(0,80);
 }
 
 /* ---------- generated placeholder art (one motif per category) ---------- */
@@ -490,14 +548,19 @@ function renderFeed(){
   const tp=S.profile.topics||[];
   // Only the categories you picked (in Filters → Category) show here, each with ✕ to remove it.
   const chips=TOPICS.filter(([k])=>tp.includes(k));
-  el.classList.toggle("withtopics",chips.length>0);
+  const typeChips=S.filters.types.map(t=>`<button class="tchip on" data-ftypex="${t}" aria-label="Remove ${TYPES[t]}">${TYPES[t]} ✕</button>`).join("");
+  el.classList.toggle("withtopics",chips.length>0||!!typeChips);
   $("#feedbar").innerHTML=`<div class="tabsrow" role="tablist"><button class="tbx left" data-reload="1" aria-label="Refresh">${IC.refresh}</button>${tabs.map(([k,l])=>`<button class="tb ${feedMode===k?"on":""}" data-mode="${k}" role="tab" aria-selected="${feedMode===k}">${l}</button>`).join("")}<button class="tbx right ${nf?"on":""}" data-filters="1" aria-label="Filters">${IC.filter}${nf?`<b>${nf}</b>`:""}</button></div>
-   ${chips.length?`<div class="topicrow">${chips.map(([k,l])=>`<button class="tchip on" data-topic="${k}" aria-label="Remove ${l}">${l} ✕</button>`).join("")}${chips.length>1?'<button class="tchip" data-topic="all">Clear</button>':""}</div>`:""}`;
+   ${chips.length||typeChips?`<div class="topicrow">${typeChips}${chips.map(([k,l])=>`<button class="tchip on" data-topic="${k}" aria-label="Remove ${l}">${l} ✕</button>`).join("")}${chips.length>1?'<button class="tchip" data-topic="all">Clear</button>':""}</div>`:""}`;
   let h="";
   if(!S.profile.level)h+=`<div class="slide endcard"><div><h2>Get matches made for you</h2><p>Optional, no account needed. Tell us your year, university and age, and we hide what you can't join.</p><button class="btn primary" data-goto="profile">Set up my profile</button></div></div>`;
   if(feedMode==="following"&&!S.follow.length)h+=`<div class="slide endcard"><div style="width:100%;max-width:340px"><h2>Follow organisers</h2><p>Their new competitions, events and programmes will show up here.</p><div class="list" style="text-align:left">${topOrgs(12).map(orgRow).join("")}</div></div></div>`;
   else if(!items.length)h+=`<div class="slide endcard"><div><h2>Nothing here yet</h2><p>No open opportunities match this tab and your filters. Try another tab or clear some filters.</p>${nf?'<button class="btn primary" data-fclear="1">Clear filters</button>':""}</div></div>`;
-  items.forEach(o=>{
+  // Filtered view: once its results end, continue with the nearest matches under a clear divider.
+  const narrowed=feedMode==="following"||nf>0;
+  const extra=narrowed&&items.length&&!(feedMode==="following"&&!S.follow.length)?moreLikeThis(items):[];
+  const renderCard=(o,i)=>{
+    if(i===items.length&&extra.length)h+=`<div class="slide endcard"><div><h2>That's all ${items.length} for your filters</h2><p>Keep scrolling for the closest things you might like.</p><button class="btn" data-fclear="1">Clear filters</button></div></div>`;
     const sc=score(o),[fl,fc]=fundLabel(o),[el_,ec]=eligLabel(o),rr=reachReason(o),d=daysLeft(o),soon=d!==null&&d>=0&&d<=10,pic=picture(o,true),fol=S.follow.includes(orgKey(o));
     h+=`<article class="slide" data-id="${o.id}">
       <div class="art">${art(o)}${pic.html}</div><div class="shade"></div>
@@ -520,7 +583,8 @@ function renderFeed(){
       </div>
       <div class="rail">${railBtns(o)}</div>
     </article>`;
-  });
+  };
+  items.concat(extra).forEach(renderCard);
   if(items.length)h+=`<div class="slide endcard"><div><h2>You're all caught up</h2><p>Last updated ${UPDATED?fmtDate(UPDATED):"recently"}. New opportunities are checked and added every day. Saved items and reminders are under Deadlines.</p><button class="btn primary" data-goto="add">Know one we missed? Add a flyer</button></div></div>`;
   el.innerHTML=h;
   observeViews();
@@ -633,6 +697,7 @@ function filterSummary(){
   const f=S.filters,tp=S.profile.topics||[];
   const loc=f.region?REGIONS.find(r=>r[0]===f.region)[1]+", Lebanon":f.where.length?f.where.map(w=>WHERE[w]).join(", "):"Everywhere";
   return{
+    type:f.types.length?f.types.map(t=>TYPES[t].replace(/^\S+\s/,"")).join(", "):"Everything",
     category:tp.length?tp.map(k=>(TOPICS.find(t=>t[0]===k)||[,k])[1]).join(", "):"All categories",
     location:loc,
     deadline:WHEN[f.when],
@@ -646,7 +711,10 @@ function openFilters(){
   const foot=`<div class="ffoot"><button class="btn primary fsee" data-fapply="1">See ${n} result${n===1?"":"s"}</button></div>`;
   const opt=(attr,on,label,sub)=>`<button class="fopt ${on?"on":""}" ${attr}><span>${label}${sub?`<small>${sub}</small>`:""}</span><i>${on?"✓":""}</i></button>`;
   let body;
-  if(filterPage==="category"){
+  if(filterPage==="type"){
+    body=head("Type",1)+opt('data-fset="types:"',!f.types.length,"Everything")+`<div class="flabel">Choose one or more</div>`+
+      Object.entries(TYPES).map(([k,l])=>opt(`data-ftog="types:${k}"`,f.types.includes(k),l,`${OPPS.filter(o=>!isClosed(o)&&typesOf(o).has(k)).length} open`)).join("");
+  }else if(filterPage==="category"){
     const tp=S.profile.topics||[];
     body=head("Category",1)+opt('data-ftopic="all"',!tp.length,"All categories")+`<div class="flabel">Choose one or more</div>`+
       TOPICS.map(([k,l])=>{const c=OPPS.filter(o=>!isClosed(o)&&topicsOf(o).has(k)).length;return c||tp.includes(k)?opt(`data-ftopic="${k}"`,tp.includes(k),l,`${c} open`):""}).join("");
@@ -668,7 +736,7 @@ function openFilters(){
   }else{
     const row=(page,label,val)=>`<button class="frow" data-fpage="${page}"><span><b>${label}</b><small>${val}</small></span><em>Change</em></button>`;
     // Categories (Football, Tournaments…) are chosen here; the feed only shows the active ones.
-    body=head("Filters")+row("category","Category",sum.category)+row("location","Location",sum.location)+
+    body=head("Filters")+row("type","Type",sum.type)+row("category","Category",sum.category)+row("location","Location",sum.location)+
       `<div class="frow static"><span><b>Fee (USD)</b></span><div class="minmax"><input id="f-min" class="inp" type="number" inputmode="numeric" min="0" placeholder="Min" value="${f.feeMin}"><input id="f-max" class="inp" type="number" inputmode="numeric" min="0" placeholder="Max" value="${f.fee==="any"?"":f.fee}"></div></div>`+
       row("deadline","Deadline",sum.deadline)+row("money","Funding & prizes",sum.money)+row("more","More details",sum.more);
   }
@@ -785,6 +853,7 @@ document.addEventListener("click",e=>{
   if(b.dataset.v)return show(b.dataset.v);
   if(b.dataset.reload)return loadData(true);
   if(b.dataset.filters){filterPage=null;return openFilters()}
+  if(b.dataset.ftypex){S.filters.types=S.filters.types.filter(t=>t!==b.dataset.ftypex);persist();renderFeed();$("#v-feed").scrollTop=0;return}
   if(b.dataset.fpage){filterPage=b.dataset.fpage;return openFilters()}
   if(b.dataset.fback){if(filterPage){filterPage=null;return openFilters()}return closeSheet()}
   if(b.dataset.ftopic){const k=b.dataset.ftopic,tp=S.profile.topics||(S.profile.topics=[]);if(k==="all")tp.length=0;else toggleIn(tp,k);persist();return openFilters()}
@@ -795,7 +864,7 @@ document.addEventListener("click",e=>{
     else{f.region="";toggleIn(f.where,v.slice(2))}
     persist();return openFilters();
   }
-  if(b.dataset.fset){const[k,v]=b.dataset.fset.split(":");S.filters[k]=v;if(filterPage==="deadline")filterPage=null;persist();return openFilters()}
+  if(b.dataset.fset){const[k,v]=b.dataset.fset.split(":");S.filters[k]=k==="types"?[]:v;if(filterPage==="deadline")filterPage=null;persist();return openFilters()}
   if(b.dataset.ftog){const[k,v]=b.dataset.ftog.split(":");toggleIn(S.filters[k],v);persist();return openFilters()}
   if(b.dataset.fapply){closeSheet();renderFeed();$("#v-feed").scrollTop=0;return}
   if(b.dataset.fclear){S.filters=JSON.parse(JSON.stringify(DEF.filters));persist();closeSheet();renderFeed();$("#v-feed").scrollTop=0;return toast("Filters cleared")}
