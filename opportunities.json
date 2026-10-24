@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T13:43:18.553Z",
- "count": 2421,
+ "updated": "2026-10-24T13:43:32.473Z",
+ "count": 2427,
  "opportunities": [
   {
    "id": "hk-airwallex-agentic-banking",
@@ -97737,6 +97737,62 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "cp-aub-counseling-love-without-needing-2026",
+   "cat": "community",
+   "title": "Counseling Center workshop: Can You Love Someone Without Needing Them?",
+   "org": "AUB Counseling Center",
+   "place": "Auditorium B, West Hall, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-05T12:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-05",
+   "when": "5 Nov 2026, 12:00–1:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "campus",
+    "workshop"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (AUB Counseling Center session, likely aimed at AUB students)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register through the Microsoft Form linked on the official page."
+   ],
+   "contact": [
+    [
+     "Email",
+     "counselingcenter@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7553",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser."
+  },
+  {
    "id": "cp-aub-smec-science-fair-2026",
    "cat": "community",
    "title": "31st Annual SMEC Science and Mathematics Fair",
@@ -98010,6 +98066,62 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "cp-aub-counseling-intimacy-2026",
+   "cat": "community",
+   "title": "Counseling Center workshop: Intimacy Without the Guessing Games",
+   "org": "AUB Counseling Center",
+   "place": "Auditorium B, West Hall, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-11-25T12:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-11-25",
+   "when": "25 Nov 2026, 12:00–1:00 PM",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "campus",
+    "workshop"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated (AUB Counseling Center session, likely aimed at AUB students)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Register through the Microsoft Form linked on the official page."
+   ],
+   "contact": [
+    [
+     "Email",
+     "counselingcenter@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7556",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser."
+  },
+  {
    "id": "cp-aub-under-christmas-tree-2026",
    "cat": "community",
    "title": "Under the Christmas Tree market (3rd edition)",
@@ -98210,6 +98322,62 @@
     "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
    ],
    "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-founders-day-2026",
+   "cat": "community",
+   "title": "AUB Founders Day 2026-27",
+   "org": "AUB Office of Events",
+   "place": "Assembly Hall, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-12-07T12:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date 2026-12-07",
+   "when": "7 Dec 2026, 12:00–1:00 PM (save the date)",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "campus",
+    "event"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Email",
+     "events@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7393",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser."
   },
   {
    "id": "cp-aub-pic-demo-day-2026",
@@ -98599,6 +98767,68 @@
     "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png"
    ],
    "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-undergraduate-open-house-2027",
+   "cat": "community",
+   "title": "AUB Undergraduate Open House (prospective students, Fall 2027 intake)",
+   "org": "AUB Office of Admissions",
+   "place": "AUB campus or online",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Usually late April (2025: 26 Apr on campus; 2026: 25 Apr online) — 2027 date not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "campus",
+    "admissions",
+    "open-day"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: School students considering AUB (prospective undergraduates)",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Watch the AUB events calendar and admissions pages for the 2027 date and registration."
+   ],
+   "contact": [
+    [
+     "Email",
+     "dz23@aub.edu.lb",
+     "Published on the AUB events calendar"
+    ],
+    [
+     "Email",
+     "admissions@aub.edu.lb",
+     "Published on the AUB events calendar (2025 edition)"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7238",
+   "confidence": "Medium",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Who may attend is not fully stated on the official page; check with the organiser."
   },
   {
    "id": "cp-aub-study-abroad-fair-2027",
@@ -100410,6 +100640,61 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "cp-aub-lebanese-flag-day-2026",
+   "cat": "community",
+   "title": "Lebanese Flag Day gathering at AUB",
+   "org": "AUB Office of Student Affairs",
+   "place": "West Hall main steps, AUB",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 0,
+   "feeText": "Free",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "Around Independence Day (2025: 21 Nov, 11:50 AM–12:10 PM) — 2026 date not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "campus",
+    "event"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: AUB community (invitation addressed to the AUB community)",
+     "University: AUB",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Free",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Email",
+     "osa@aub.edu.lb",
+     "Published on the AUB events calendar (previous edition)"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7072",
+   "confidence": "Low",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24"
+  },
+  {
    "id": "cp-aub-fit-a-thon-2027",
    "cat": "community",
    "title": "AUB Fit-A-Thon",
@@ -100609,6 +100894,67 @@
    "imageChecked": "2026-10-24",
    "gallery": [],
    "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cp-aub-fafs-garden-market-2027",
+   "cat": "community",
+   "title": "FAFS Garden Market",
+   "org": "AUB Faculty of Agricultural and Food Sciences",
+   "place": "Greenhouse, AUB Lower Campus",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "No deadline stated; event date not announced",
+   "when": "2026 edition: 17 Apr 2026, 9:00 AM–2:00 PM — 2027 date not announced yet",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "campus",
+    "event"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Level: Not stated",
+     "University: Not stated",
+     "Nationality/residency: Not stated",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Entry / registration fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and check the details."
+   ],
+   "contact": [
+    [
+     "Contact",
+     "Hana Sobh",
+     "Published on the AUB events calendar (previous edition)"
+    ],
+    [
+     "Email",
+     "hs05@aub.edu.lb",
+     "Published on the AUB events calendar (previous edition)"
+    ]
+   ],
+   "url": "https://www.aub.edu.lb/Events/Pages/Details.aspx?ItemId=7290",
+   "confidence": "Low",
+   "campus": true,
+   "verified": "2026-10-24",
+   "source": "bulk-campus",
+   "added": "2026-10-24",
+   "caveat": "Calendar entry has no description."
   },
   {
    "id": "cp-usek-open-day-2026",
