@@ -104,6 +104,26 @@ main{position:relative;min-height:0}
 .orglink .logo{width:34px;height:34px}
 .rail{gap:10px}
 .rb.liked .ic{background:#ff4d6d;border-color:#ff4d6d;color:#fff}
+/* OLX-style full-screen filters */
+.sheet.full{max-height:100%;height:100%;border-radius:0;border-top:0;padding:0;background:var(--ink);display:flex;flex-direction:column}
+.fhead{position:sticky;top:0;z-index:2;display:flex;align-items:center;gap:6px;padding:10px max(12px,env(safe-area-inset-right,0px)) 10px max(8px,env(safe-area-inset-left,0px));background:var(--ink);border-bottom:1px solid var(--line)}
+.fhead b{font:800 19px/1 var(--display)}
+.fback{font-size:30px;line-height:1;background:none;border:0;color:var(--fg);width:36px;height:36px;padding:0}
+.flink{margin-left:auto;background:none;border:0;color:var(--accent);font-weight:700;font-size:14px}
+.frow,.fopt{display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%;padding:14px max(16px,env(safe-area-inset-right,0px)) 14px max(16px,env(safe-area-inset-left,0px));background:none;border:0;border-bottom:1px solid var(--line);text-align:left;color:var(--fg);box-sizing:border-box}
+.frow span,.fopt span{display:flex;flex-direction:column;gap:3px;min-width:0}
+.frow b{font-size:15px}
+.frow small,.fopt small{color:var(--mute);font-size:13px;overflow:hidden;text-overflow:ellipsis}
+.frow em{font-style:normal;color:var(--accent);font-weight:700;font-size:13px;flex:none}
+.frow.static{flex-direction:column;align-items:stretch;gap:10px}
+.minmax{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fopt{font-size:15px}
+.fopt i{font-style:normal;color:var(--accent);font-weight:800;width:18px;text-align:right}
+.fopt.on{color:var(--accent)}
+.flabel{padding:16px 16px 6px;font:500 11px/1 var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--mute)}
+.frowpad{padding:12px 16px}
+.ffoot{position:sticky;bottom:0;margin-top:auto;padding:12px max(16px,env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));background:var(--ink);border-top:1px solid var(--line)}
+.fsee{width:100%;padding:13px;font-size:15px}
 .endcard{display:grid;place-items:center;text-align:center;padding:32px}
 .endcard h2{font:800 22px/1.15 var(--display);margin:0 0 8px}
 .endcard p{color:var(--mute);max-width:30ch;margin:0 auto 14px}
@@ -227,7 +247,7 @@ const CATS={research:"Research",hackathon:"Hackathon",case:"Case competition",ru
 const INTERESTS={consulting:"Consulting",finance:"Finance & VC",startups:"Startups",case:"Case comps",hackathon:"Hackathons",research:"Research",exchange:"Exchange & scholarships",careers:"Careers",running:"Running",hiking:"Hiking",volunteering:"Volunteering",sports:"Sports (football, basketball…)",arts:"Arts & creative"};
 
 /* ---------- state ---------- */
-const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{when:"any",where:[],money:[],fee:"any",eligOnly:false,sort:"best"},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
+const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{when:"any",where:[],region:"",money:[],fee:"any",feeMin:"",eligOnly:false,sort:"best"},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
 let S=JSON.parse(JSON.stringify(DEF));
 try{const raw=localStorage.getItem("darb-state");if(raw){const p=JSON.parse(raw);S={...S,...p,profile:{...S.profile,...(p.profile||{})}}}}catch(e){}
 S.filters={...DEF.filters,...(S.filters||{})};
@@ -350,8 +370,23 @@ function topOrgs(n){
 
 /* ---------- filters (OLX-style panel) ---------- */
 function whereOf(o){if(!o.travel&&/online|virtual|remote/i.test(o.place))return"online";return o.travel?"abroad":"lebanon"}
+// Lebanese regions, matched against the place and meeting point text.
+const REGIONS=[
+  ["beirut","Beirut",/beirut|hamra|achrafieh|ashrafieh|gemmayz|mar mikhael|verdun|badaro|ras beirut|saifi|downtown|\baub\b|clemenceau|karantina/i],
+  ["metn","Metn",/metn|jdeideh|jdaideh|dekweneh|sin el fil|broummana|brummana|bikfaya|antelias|dbayeh|zalka|mansourieh|baabdat|mtein|beit mery|mazraat yachouh|bauchrieh|naccache|rabieh/i],
+  ["baabda","Baabda",/baabda|hazmieh|hadath|chiyah|ghobeiry|furn el chebbak|yarzeh|kfarchima/i],
+  ["keserwan","Keserwan",/kesrouan|keserwan|jounieh|kaslik|zouk|faraya|mzaar|kfardebian|harissa|ghazir|usek|jeita|ajaltoun|zaarour|adma/i],
+  ["jbeil","Jbeil (Byblos)",/jbeil|byblos|amchit|laklouk|tannourine|blat|annaya|aaqoura|akoura/i],
+  ["batroun","Batroun",/batroun|douma|selaata|chekka|kfour el arabi/i],
+  ["north","North (Tripoli, Koura, Zgharta, Bsharri, Akkar)",/tripoli|akkar|koura|zgharta|ehden|bsharri|bcharre|qadisha|minieh|halba|cedars|arz|kfarsghab|hadchit|balamand|qannoubine|annoubine/i],
+  ["chouf","Chouf & Aley",/chouf|shouf|deir el qamar|beiteddine|barouk|damour|ainab|aley|bhamdoun|niha|maasser/i],
+  ["south","South (Saida, Tyre, Nabatieh, Jezzine)",/saida|sidon|tyre|\bsour\b|nabatieh|jezzine|marjayoun|bint jbeil/i],
+  ["bekaa","Bekaa & Baalbek",/bekaa|beqaa|zahle|baalbek|hermel|chtaura|anjar|rashaya|qaraoun|ammiq/i]];
+const regionOf=o=>whereOf(o)==="lebanon"?(REGIONS.find(([,,re])=>re.test(o.place+" "+(o.meet||"")))||[])[0]:undefined;
 function passFilters(o){
   const f=S.filters,d=daysLeft(o);
+  if(f.region&&regionOf(o)!==f.region)return false;
+  if(f.feeMin!==""&&(o.feeUSD===null||o.feeUSD<Number(f.feeMin)))return false;
   if(f.when==="7"&&!(d!==null&&d>=0&&d<=7))return false;
   if(f.when==="30"&&!(d!==null&&d>=0&&d<=30))return false;
   if(f.when==="rolling"&&!o.rolling)return false;
@@ -361,7 +396,7 @@ function passFilters(o){
   if(f.eligOnly&&(o.elig.status!=="ok"||fitFor(o).block))return false;
   return true;
 }
-function activeFilters(){const f=S.filters;return(f.when!=="any")+f.where.length+f.money.length+(f.fee!=="any")+f.eligOnly+(f.sort!=="best")}
+function activeFilters(){const f=S.filters;return(f.when!=="any")+f.where.length+!!f.region+f.money.length+(f.fee!=="any"||f.feeMin!=="")+f.eligOnly+(f.sort!=="best")}
 
 /* ---------- For You: learns from what you watch, save, like and skip ---------- */
 const jitter=id=>(hash(id+SESSION_SEED)%1000)/1000;
@@ -549,8 +584,8 @@ function openSheet(id){
    </div>`;
   $("#sheet").classList.add("on");$("#backdrop").classList.add("on");$("#sheet").scrollTop=0;
 }
-function closeSheet(){$("#sheet").classList.remove("on");$("#backdrop").classList.remove("on")}
-function showSheet(html){$("#sheet").innerHTML=html;$("#sheet").classList.add("on");$("#backdrop").classList.add("on");$("#sheet").scrollTop=0}
+function closeSheet(){$("#sheet").classList.remove("on","full");$("#backdrop").classList.remove("on");filterPage=null}
+function showSheet(html){$("#sheet").innerHTML=html;$("#sheet").classList.remove("full");$("#sheet").classList.add("on");$("#backdrop").classList.add("on");$("#sheet").scrollTop=0}
 
 /* ---------- register directly: website, email, WhatsApp, call ---------- */
 function contactLinks(o){
@@ -587,18 +622,55 @@ function openOrg(key){
 }
 
 /* ---------- filter panel ---------- */
+// Laid out like OLX: a full-screen page of rows; each row opens its own list; live count at the bottom.
+let filterPage=null;
+const WHEN={any:"Any time","7":"Closing in 7 days","30":"Closing in 30 days",rolling:"Apply any time"};
+const WHERE={lebanon:"In Lebanon",online:"Online",abroad:"Abroad (travel)"};
+const MONEY={full:"Fully funded",partial:"Partly funded",free:"Free to join",prize:"Has a prize"};
+const SORTS={best:"Best for me",soon:"Closing soonest",new:"Newest"};
+function filterSummary(){
+  const f=S.filters,tp=S.profile.topics||[];
+  const loc=f.region?REGIONS.find(r=>r[0]===f.region)[1]+", Lebanon":f.where.length?f.where.map(w=>WHERE[w]).join(", "):"Everywhere";
+  return{
+    category:tp.length?tp.map(k=>(TOPICS.find(t=>t[0]===k)||[,k])[1]).join(", "):"All categories",
+    location:loc,
+    deadline:WHEN[f.when],
+    money:f.money.length?f.money.map(m=>MONEY[m]).join(", "):"Any",
+    more:[f.eligOnly?"Only clearly eligible":"",`Sort: ${SORTS[f.sort]}`].filter(Boolean).join(" · ")
+  };
+}
 function openFilters(){
-  const f=S.filters,n=feedItems().length;
-  const one=(k,v,l)=>`<button class="fchip ${f[k]===v?"on":""}" data-fset="${k}:${v}">${l}</button>`;
-  const many=(k,v,l)=>`<button class="fchip ${f[k].includes(v)?"on":""}" data-ftog="${k}:${v}">${l}</button>`;
-  showSheet(`<div class="grip"></div><h2>Filters</h2>
-   <div class="sec"><h3>Deadline</h3><div class="ichips">${one("when","any","Any time")}${one("when","7","Closing in 7 days")}${one("when","30","Closing in 30 days")}${one("when","rolling","Apply any time")}</div></div>
-   <div class="sec"><h3>Where</h3><div class="ichips">${many("where","lebanon","In Lebanon")}${many("where","online","Online")}${many("where","abroad","Abroad")}</div></div>
-   <div class="sec"><h3>Money</h3><div class="ichips">${many("money","full","Fully funded")}${many("money","partial","Partly funded")}${many("money","free","Free to join")}${many("money","prize","Has a prize")}</div></div>
-   <div class="sec"><h3>Most I'll pay</h3><div class="ichips">${one("fee","any","Any")}${one("fee","0","Free only")}${one("fee","25","Up to $25")}${one("fee","50","Up to $50")}${one("fee","100","Up to $100")}</div></div>
-   <div class="sec"><h3>Eligibility</h3><label class="toggle" for="f-elig" style="border:0;padding:0"><span>Only ones I'm clearly eligible for<small>Hides “Check eligibility” items</small></span><input id="f-elig" type="checkbox" class="sw" ${f.eligOnly?"checked":""}></label></div>
-   <div class="sec"><h3>Sort by</h3><div class="ichips">${one("sort","best","Best for me")}${one("sort","soon","Closing soonest")}${one("sort","new","Newest")}</div></div>
-   <div class="btnrow"><button class="btn primary" data-fapply="1">Show ${n} results</button><button class="btn" data-fclear="1">Clear all</button></div>`);
+  const f=S.filters,n=feedItems().length,sum=filterSummary();
+  const head=(title,back)=>`<div class="fhead"><button class="fback" data-fback="1" aria-label="Back">‹</button><b>${title}</b>${back?"":'<button class="flink" data-fclear="1">Clear all</button>'}</div>`;
+  const foot=`<div class="ffoot"><button class="btn primary fsee" data-fapply="1">See ${n} result${n===1?"":"s"}</button></div>`;
+  const opt=(attr,on,label,sub)=>`<button class="fopt ${on?"on":""}" ${attr}><span>${label}${sub?`<small>${sub}</small>`:""}</span><i>${on?"✓":""}</i></button>`;
+  let body;
+  if(filterPage==="category"){
+    const tp=S.profile.topics||[];
+    body=head("Category",1)+opt('data-ftopic="all"',!tp.length,"All categories")+`<div class="flabel">Choose one or more</div>`+
+      TOPICS.map(([k,l])=>{const c=OPPS.filter(o=>!isClosed(o)&&topicsOf(o).has(k)).length;return c||tp.includes(k)?opt(`data-ftopic="${k}"`,tp.includes(k),l,`${c} open`):""}).join("");
+  }else if(filterPage==="location"){
+    const cnt=fn=>OPPS.filter(o=>!isClosed(o)&&fn(o)).length;
+    body=head("Location",1)+opt('data-floc="all"',!f.region&&!f.where.length,"Everywhere")+
+      opt('data-floc="w:online"',f.where.includes("online")&&!f.region,"Online",`${cnt(o=>whereOf(o)==="online")} open`)+
+      opt('data-floc="w:abroad"',f.where.includes("abroad")&&!f.region,"Abroad (travel)",`${cnt(o=>whereOf(o)==="abroad")} open`)+
+      opt('data-floc="w:lebanon"',f.where.includes("lebanon")&&!f.region,"See all in Lebanon",`${cnt(o=>whereOf(o)==="lebanon")} open`)+
+      `<div class="flabel">Choose region</div>`+REGIONS.map(([k,l])=>opt(`data-floc="r:${k}"`,f.region===k,`📍 ${l}`,`${cnt(o=>regionOf(o)===k)} open`)).join("");
+  }else if(filterPage==="deadline"){
+    body=head("Deadline",1)+Object.entries(WHEN).map(([k,l])=>opt(`data-fset="when:${k}"`,f.when===k,l)).join("");
+  }else if(filterPage==="money"){
+    body=head("Funding & prizes",1)+`<div class="flabel">Choose one or more</div>`+Object.entries(MONEY).map(([k,l])=>opt(`data-ftog="money:${k}"`,f.money.includes(k),l)).join("");
+  }else if(filterPage==="more"){
+    body=head("More details",1)+`<div class="flabel">Eligibility</div>
+      <label class="toggle frowpad" for="f-elig"><span>Only ones I'm clearly eligible for<small>Hides “Check eligibility” items</small></span><input id="f-elig" type="checkbox" class="sw" ${f.eligOnly?"checked":""}></label>
+      <div class="flabel">Sort by</div>`+Object.entries(SORTS).map(([k,l])=>opt(`data-fset="sort:${k}"`,f.sort===k,l)).join("");
+  }else{
+    const row=(page,label,val)=>`<button class="frow" data-fpage="${page}"><span><b>${label}</b><small>${val}</small></span><em>Change</em></button>`;
+    body=head("Filters")+row("category","Category",sum.category)+row("location","Location",sum.location)+
+      `<div class="frow static"><span><b>Fee (USD)</b></span><div class="minmax"><input id="f-min" class="inp" type="number" inputmode="numeric" min="0" placeholder="Min" value="${f.feeMin}"><input id="f-max" class="inp" type="number" inputmode="numeric" min="0" placeholder="Max" value="${f.fee==="any"?"":f.fee}"></div></div>`+
+      row("deadline","Deadline",sum.deadline)+row("money","Funding & prizes",sum.money)+row("more","More details",sum.more);
+  }
+  showSheet(body+foot);$("#sheet").classList.add("full");
 }
 
 /* ---------- share (opens the phone's share menu: WhatsApp, Instagram, …) ---------- */
@@ -710,8 +782,18 @@ document.addEventListener("click",e=>{
   const b=e.target.closest("button,[data-open]");if(!b)return;
   if(b.dataset.v)return show(b.dataset.v);
   if(b.dataset.reload)return loadData(true);
-  if(b.dataset.filters)return openFilters();
-  if(b.dataset.fset){const[k,v]=b.dataset.fset.split(":");S.filters[k]=v;persist();return openFilters()}
+  if(b.dataset.filters){filterPage=null;return openFilters()}
+  if(b.dataset.fpage){filterPage=b.dataset.fpage;return openFilters()}
+  if(b.dataset.fback){if(filterPage){filterPage=null;return openFilters()}return closeSheet()}
+  if(b.dataset.ftopic){const k=b.dataset.ftopic,tp=S.profile.topics||(S.profile.topics=[]);if(k==="all")tp.length=0;else toggleIn(tp,k);persist();return openFilters()}
+  if(b.dataset.floc){
+    const v=b.dataset.floc,f=S.filters;
+    if(v==="all"){f.where=[];f.region=""}
+    else if(v.startsWith("r:")){f.region=v.slice(2);f.where=["lebanon"];filterPage=null}
+    else{f.region="";toggleIn(f.where,v.slice(2))}
+    persist();return openFilters();
+  }
+  if(b.dataset.fset){const[k,v]=b.dataset.fset.split(":");S.filters[k]=v;if(filterPage==="deadline")filterPage=null;persist();return openFilters()}
   if(b.dataset.ftog){const[k,v]=b.dataset.ftog.split(":");toggleIn(S.filters[k],v);persist();return openFilters()}
   if(b.dataset.fapply){closeSheet();renderFeed();$("#v-feed").scrollTop=0;return}
   if(b.dataset.fclear){S.filters=JSON.parse(JSON.stringify(DEF.filters));persist();closeSheet();renderFeed();$("#v-feed").scrollTop=0;return toast("Filters cleared")}
@@ -752,12 +834,18 @@ document.addEventListener("click",e=>{
 document.addEventListener("change",e=>{
   const p=S.profile,t=e.target;
   if(t.id==="f-elig"){S.filters.eligOnly=t.checked;persist();return openFilters()}
+  if(t.id==="f-min"||t.id==="f-max"){
+    const v=t.value.trim();if(t.id==="f-min")S.filters.feeMin=v;else S.filters.fee=v===""?"any":v;persist();
+    const n=feedItems().length,btn=$(".fsee");if(btn)btn.textContent=`See ${n} result${n===1?"":"s"}`;return;
+  }
   if(t.id==="p-travel")p.travel=t.checked;else if(t.id==="p-funded")p.fullyFunded=t.checked;else if(t.id==="p-reach")p.reach=t.checked;else if(t.id==="p-fee")p.maxFee=t.value;
   else if(["p-level","p-uni","p-field","p-nat","p-age"].includes(t.id))p[t.id.slice(2)]=t.value;
   else return;
   persist();
   if(t.id==="p-level"&&t.value)toast("Saved. Your feed now hides what you can't join");
 });
+// Fee boxes update the result count while typing.
+document.addEventListener("input",e=>{if(e.target.id==="f-min"||e.target.id==="f-max")e.target.dispatchEvent(new Event("change",{bubbles:true}))});
 $("#backdrop").addEventListener("click",closeSheet);
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeSheet()});
 function fmtDate(d){if(!d)return VERIFIED;const x=new Date(d);return isNaN(x)?d:x.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"})}
