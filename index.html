@@ -97,12 +97,15 @@ main{position:relative;min-height:0}
 .actions .btn.primary{color:var(--accent-ink)}
 .orghead{display:flex;gap:14px;align-items:center}
 .biglogo{width:64px;height:64px;border-radius:16px;background:#fff;object-fit:contain;flex:none}
-.orgrow{grid-template-columns:1fr auto;padding:8px 10px}
+.row.orgrow{grid-template-columns:minmax(0,1fr) auto;padding:8px 10px}
 .orglink{display:flex;align-items:center;gap:10px;background:none;border:0;padding:0;color:var(--fg);text-align:left;min-width:0}
 .orglink span{display:flex;flex-direction:column;min-width:0}
 .orglink b{font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .orglink small{color:var(--mute);font-size:12px}
 .orglink .logo{width:34px;height:34px}
+.logo.ph,.biglogo.ph{display:grid;place-items:center;background:var(--panel2);color:var(--accent);font:800 15px/1 var(--display);border:1px solid var(--line)}
+.biglogo.ph{font-size:26px}
+.sheet.full .search{margin:0}
 .rail{gap:10px}
 .rb.liked .ic{background:#ff4d6d;border-color:#ff4d6d;color:#fff}
 /* OLX-style full-screen filters */
@@ -362,11 +365,36 @@ function topicsOf(o){
 }
 /* ---------- organisers (profiles you can follow) ---------- */
 function orgName(o){return o.org.split(" · ")[0].trim()}
-function orgKey(o){return orgName(o).toLowerCase()}
-function topOrgs(n){
+// Brackets are dropped so "LOA (LOA Team)" and "LOA (LOA)" count as one organiser.
+function orgKey(o){return orgName(o).toLowerCase().replace(/\s*\(.*?\)\s*/g," ").replace(/\s+/g," ").trim()}
+function topOrgs(n){return allOrgs().filter(g=>g.count).slice(0,n)}
+// Directory of organisations (universities, companies, NGOs, clubs…) you can follow even with nothing open yet.
+let DIRECTORY=[],_orgs=null;
+const reEsc=s=>s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+const dirRe=d=>new RegExp(`\\b(${[d.name,d.short].filter(Boolean).map(reEsc).join("|")})\\b`,"i");
+function guessGroup(name){
+  if(/universit|college|école|ecole|school of|\bschool\b|institute of technology|academy|\b(lau|aub|usj|ndu|usek|bau|liu|aust)\b/i.test(name))return"university";
+  if(/\bun\b|undp|unicef|unhcr|unesco|escwa|embassy|institut fran|goethe|british council|daad|erasmus|european|world bank|fulbright|chevening|campus france/i.test(name))return"international";
+  if(/federation|club|association|scouts|guides|toastmasters|society|league|runners|hik|team|community|chapter|meetup|\bgdg\b|ieee|aiesec|rotaract|jci/i.test(name))return"club";
+  if(/foundation|ngo|red cross|relief|charity|initiative|support|save the children|mercy|caritas|arcenciel|offre joie|injaz|nawaya/i.test(name))return"ngo";
+  return"company";
+}
+function allOrgs(){
+  if(_orgs)return _orgs;
   const m=new Map();
-  for(const o of OPPS)if(!isClosed(o)){const k=orgKey(o),e=m.get(k)||{key:k,name:orgName(o),logo:null,count:0};e.count++;if(!e.logo&&o.logo)e.logo=o.logo;m.set(k,e)}
-  return[...m.values()].sort((a,b)=>b.count-a.count).slice(0,n);
+  for(const o of OPPS)if(!isClosed(o)){const k=orgKey(o),e=m.get(k)||{key:k,name:orgName(o),logo:null,count:0,group:null,website:null};e.count++;if(!e.logo&&o.logo)e.logo=o.logo;m.set(k,e)}
+  for(const d of DIRECTORY){
+    const re=dirRe(d),hit=[...m.values()].find(e=>e.key===d.name.toLowerCase()||re.test(e.name));
+    if(hit){hit.group=d.group;hit.website=hit.website||d.website;hit.dir=d}
+    else m.set(d.name.toLowerCase(),{key:d.name.toLowerCase(),name:d.name,logo:null,count:0,group:d.group,website:d.website,dir:d});
+  }
+  for(const e of m.values())e.group=e.group||guessGroup(e.name);
+  return(_orgs=[...m.values()].sort((a,b)=>b.count-a.count||a.name.localeCompare(b.name)));
+}
+// Following matches by organiser name, and also by a directory entry's full or short name (e.g. "LAU").
+function isFollowed(o){
+  if(S.follow.includes(orgKey(o)))return true;
+  return DIRECTORY.some(d=>S.follow.includes(d.name.toLowerCase())&&dirRe(d).test(o.org));
 }
 
 /* ---------- filters (OLX-style panel) ---------- */
@@ -414,7 +442,7 @@ function feedItems(){
   const tp=S.profile.topics||[];
   if(tp.length)list=list.filter(o=>tp.some(k=>topicsOf(o).has(k)));
   list=list.filter(passFilters);
-  if(feedMode==="following")list=list.filter(o=>S.follow.includes(orgKey(o)));
+  if(feedMode==="following")list=list.filter(isFollowed);
   const sort=S.filters.sort;
   if(sort==="soon")list.sort((a,b)=>(daysLeft(a)??9999)-(daysLeft(b)??9999));
   else if(sort==="new")list.sort((a,b)=>String(b.added||"").localeCompare(String(a.added||""))||jitter(a.id)-jitter(b.id));
@@ -549,19 +577,20 @@ function renderFeed(){
   // Only the categories you picked (in Filters → Category) show here, each with ✕ to remove it.
   const chips=TOPICS.filter(([k])=>tp.includes(k));
   const typeChips=S.filters.types.map(t=>`<button class="tchip on" data-ftypex="${t}" aria-label="Remove ${TYPES[t]}">${TYPES[t]} ✕</button>`).join("");
-  el.classList.toggle("withtopics",chips.length>0||!!typeChips);
+  el.classList.toggle("withtopics",chips.length>0||!!typeChips||(feedMode==="following"&&S.follow.length>0));
   $("#feedbar").innerHTML=`<div class="tabsrow" role="tablist"><button class="tbx left" data-reload="1" aria-label="Refresh">${IC.refresh}</button>${tabs.map(([k,l])=>`<button class="tb ${feedMode===k?"on":""}" data-mode="${k}" role="tab" aria-selected="${feedMode===k}">${l}</button>`).join("")}<button class="tbx right ${nf?"on":""}" data-filters="1" aria-label="Filters">${IC.filter}${nf?`<b>${nf}</b>`:""}</button></div>
+   ${feedMode==="following"&&S.follow.length?`<div class="topicrow"><button class="tchip" data-dir="1">＋ Find organisers · following ${S.follow.length}</button></div>`:""}
    ${chips.length||typeChips?`<div class="topicrow">${typeChips}${chips.map(([k,l])=>`<button class="tchip on" data-topic="${k}" aria-label="Remove ${l}">${l} ✕</button>`).join("")}${chips.length>1?'<button class="tchip" data-topic="all">Clear</button>':""}</div>`:""}`;
   let h="";
   if(!S.profile.level)h+=`<div class="slide endcard"><div><h2>Get matches made for you</h2><p>Optional, no account needed. Tell us your year, university and age, and we hide what you can't join.</p><button class="btn primary" data-goto="profile">Set up my profile</button></div></div>`;
-  if(feedMode==="following"&&!S.follow.length)h+=`<div class="slide endcard"><div style="width:100%;max-width:340px"><h2>Follow organisers</h2><p>Their new competitions, events and programmes will show up here.</p><div class="list" style="text-align:left">${topOrgs(12).map(orgRow).join("")}</div></div></div>`;
+  if(feedMode==="following"&&!S.follow.length)h+=`<div class="slide endcard"><div style="width:100%;max-width:340px"><h2>Follow organisers</h2><p>Their new competitions, events, jobs and programmes will show up here.</p><button class="btn primary" data-dir="1" style="margin-bottom:12px">Browse all ${allOrgs().length} organisers</button><div class="list" style="text-align:left">${topOrgs(6).map(orgRow).join("")}</div></div></div>`;
   else if(!items.length)h+=`<div class="slide endcard"><div><h2>Nothing here yet</h2><p>No open opportunities match this tab and your filters. Try another tab or clear some filters.</p>${nf?'<button class="btn primary" data-fclear="1">Clear filters</button>':""}</div></div>`;
   // Filtered view: once its results end, continue with the nearest matches under a clear divider.
   const narrowed=feedMode==="following"||nf>0;
   const extra=narrowed&&items.length&&!(feedMode==="following"&&!S.follow.length)?moreLikeThis(items):[];
   const renderCard=(o,i)=>{
     if(i===items.length&&extra.length)h+=`<div class="slide endcard"><div><h2>That's all ${items.length} for your filters</h2><p>Keep scrolling for the closest things you might like.</p><button class="btn" data-fclear="1">Clear filters</button></div></div>`;
-    const sc=score(o),[fl,fc]=fundLabel(o),[el_,ec]=eligLabel(o),rr=reachReason(o),d=daysLeft(o),soon=d!==null&&d>=0&&d<=10,pic=picture(o,true),fol=S.follow.includes(orgKey(o));
+    const sc=score(o),[fl,fc]=fundLabel(o),[el_,ec]=eligLabel(o),rr=reachReason(o),d=daysLeft(o),soon=d!==null&&d>=0&&d<=10,pic=picture(o,true),fol=isFollowed(o);
     h+=`<article class="slide" data-id="${o.id}">
       <div class="art">${art(o)}${pic.html}</div><div class="shade"></div>
       <span class="ph-tag" data-tag="${o.id}">${pic.tag}</span>
@@ -591,7 +620,7 @@ function renderFeed(){
 }
 function orgRow(g){
   const f=S.follow.includes(g.key);
-  return`<div class="row orgrow"><button class="orglink" data-org="${esc(g.key)}">${g.logo?`<img class="logo" src="${esc(g.logo)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<span><b>${g.name}</b><small>${g.count} open</small></span></button><button class="btn ${f?"":"primary"}" data-follow="${esc(g.key)}">${f?"Following":"Follow"}</button></div>`;
+  return`<div class="row orgrow"><button class="orglink" data-org="${esc(g.key)}">${g.logo?`<img class="logo" src="${esc(g.logo)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:`<span class="logo ph">${g.name.slice(0,1)}</span>`}<span><b>${g.name}</b><small>${(GROUPS[g.group]||"").replace(/^\S+\s/,"")} · ${g.count?g.count+" open":"nothing open now"}</small></span></button><button class="btn ${f?"":"primary"}" data-follow="${esc(g.key)}">${f?"Following":"Follow"}</button></div>`;
 }
 
 /* ---------- watch tracking for For You (time on each card, skips) ---------- */
@@ -623,7 +652,7 @@ function openSheet(id){
   $("#sheet").innerHTML=`<div class="grip"></div>
    ${o.sample?'<div class="warnbox"><b>Sample layout, not a real event.</b> It shows the fields a hike or club activity will carry: meeting time and place, fee, what to bring and contact.</div>':""}
    <span class="cat" style="display:inline-block;margin-top:${o.sample?12:0}px">${CATS[o.cat]}</span>
-   <h2>${o.title}</h2><button class="org orgbtn" data-org="${esc(orgKey(o))}">${logoImg(o)}<span>${o.org}</span><em class="fol ${S.follow.includes(orgKey(o))?"":"add"}">${S.follow.includes(orgKey(o))?"Following":"+ Follow"}</em></button>
+   <h2>${o.title}</h2><button class="org orgbtn" data-org="${esc(orgKey(o))}">${logoImg(o)}<span>${o.org}</span><em class="fol ${isFollowed(o)?"":"add"}">${isFollowed(o)?"Following":"+ Follow"}</em></button>
    ${regActions(o)}
    <div class="sec"><h3>When & where</h3><dl class="kv">
      <dt>Deadline</dt><dd><b>${dlLabel(o)}</b> · ${o.deadlineText}</dd>
@@ -677,13 +706,28 @@ function regActions(o){
 
 /* ---------- organiser profile ---------- */
 function openOrg(key){
-  const all=OPPS.filter(o=>orgKey(o)===key),items=all.filter(o=>!isClosed(o));
-  const o0=all.find(o=>o.logo)||all[0];if(!o0)return;
-  const f=S.follow.includes(key);let site="";try{site=new URL(o0.url).origin}catch(e){}
+  const g=allOrgs().find(e=>e.key===key),d=g&&g.dir;
+  const all=OPPS.filter(o=>orgKey(o)===key||(d&&dirRe(d).test(o.org))),items=all.filter(o=>!isClosed(o));
+  const o0=all.find(o=>o.logo)||all[0];if(!o0&&!g)return;
+  const f=S.follow.includes(key);let site=g&&g.website||"";if(!site&&o0)try{site=new URL(o0.url).origin}catch(e){}
+  const logo=(g&&g.logo)||(o0&&o0.logo),name=g?g.name:orgName(o0);
   showSheet(`<div class="grip"></div>
-   <div class="orghead">${o0.logo?`<img class="biglogo" src="${esc(o0.logo)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:""}<div><h2>${orgName(o0)}</h2><div class="org">${items.length} open ${items.length===1?"opportunity":"opportunities"} on Darb</div></div></div>
+   <div class="orghead">${logo?`<img class="biglogo" src="${esc(logo)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:`<div class="biglogo ph">${name.slice(0,1)}</div>`}<div><h2>${name}</h2><div class="org">${GROUPS[g?g.group:"company"]||""} · ${items.length} open ${items.length===1?"opportunity":"opportunities"} on Darb</div></div></div>
    <div class="btnrow"><button class="btn ${f?"":"primary"}" data-follow="${esc(key)}">${f?"Following ✓":"+ Follow"}</button>${site?`<a class="btn" href="${esc(site)}" target="_blank" rel="noopener">Website ↗</a>`:""}</div>
    <div class="list" style="margin-top:14px">${items.map(o=>rowHTML(o)).join("")||'<div class="empty">Nothing open right now. Follow to see their next one.</div>'}</div>`);
+}
+
+/* ---------- organisers directory: browse, search and follow anyone ---------- */
+const GROUPS={university:"🎓 Universities",company:"🏢 Companies",ngo:"🤝 NGOs",international:"🌍 International & embassies",club:"👥 Clubs & federations"};
+let dirGroup="",dirQ="";
+function openDirectory(){
+  const list=allOrgs().filter(g=>(!dirGroup||g.group===dirGroup)&&(!dirQ||(g.name+" "+(g.dir&&g.dir.short||"")).toLowerCase().includes(dirQ)));
+  const counts=Object.fromEntries(Object.keys(GROUPS).map(k=>[k,allOrgs().filter(g=>g.group===k).length]));
+  const body=`<div class="fhead"><button class="fback" data-fback="1" aria-label="Back">‹</button><b>Organisers</b></div>
+   <div class="pad" style="padding-top:12px;padding-bottom:0"><input id="dir-q" class="search" type="search" placeholder="Search universities, companies, clubs…" value="${esc(dirQ)}" aria-label="Search organisers">
+   <div class="filters"><button class="fchip ${dirGroup?"":"on"}" data-dgroup="">All · ${allOrgs().length}</button>${Object.entries(GROUPS).map(([k,l])=>`<button class="fchip ${dirGroup===k?"on":""}" data-dgroup="${k}">${l} · ${counts[k]}</button>`).join("")}</div></div>
+   <div class="pad dirlist" style="padding-top:6px"><div class="list">${list.slice(0,150).map(orgRow).join("")||'<div class="empty">No organiser matches. Try another name.</div>'}${list.length>150?`<p class="note">Showing 150 of ${list.length}. Search to narrow down.</p>`:""}</div></div>`;
+  showSheet(body);$("#sheet").classList.add("full");
 }
 
 /* ---------- filter panel ---------- */
@@ -736,7 +780,10 @@ function openFilters(){
   }else{
     const row=(page,label,val)=>`<button class="frow" data-fpage="${page}"><span><b>${label}</b><small>${val}</small></span><em>Change</em></button>`;
     // Categories (Football, Tournaments…) are chosen here; the feed only shows the active ones.
-    body=head("Filters")+row("type","Type",sum.type)+row("category","Category",sum.category)+row("location","Location",sum.location)+
+    // Where it happens: one tap on the main page; "Change" opens the full list with Lebanese regions.
+    const wq=(v,l)=>`<button class="fchip ${v==="all"?(!f.where.length&&!f.region?"on":""):(f.where.includes(v)&&!f.region?"on":"")}" data-floc="${v==="all"?"all":"w:"+v}">${l}</button>`;
+    body=head("Filters")+row("type","Type",sum.type)+row("category","Category",sum.category)+
+      `<div class="frow static"><span style="flex-direction:row;justify-content:space-between;align-items:center"><b>Where</b><button class="flink" data-fpage="location" style="margin:0">Regions in Lebanon ›</button></span><div class="ichips">${wq("all","Anywhere")}${wq("lebanon","🇱🇧 In Lebanon")}${wq("online","💻 Online")}${wq("abroad","✈️ Outside Lebanon")}</div>${f.region?`<small>Region: ${REGIONS.find(r=>r[0]===f.region)[1]}</small>`:""}</div>`+
       `<div class="frow static"><span><b>Fee (USD)</b></span><div class="minmax"><input id="f-min" class="inp" type="number" inputmode="numeric" min="0" placeholder="Min" value="${f.feeMin}"><input id="f-max" class="inp" type="number" inputmode="numeric" min="0" placeholder="Max" value="${f.fee==="any"?"":f.fee}"></div></div>`+
       row("deadline","Deadline",sum.deadline)+row("money","Funding & prizes",sum.money)+row("more","More details",sum.more);
   }
@@ -759,6 +806,7 @@ function renderSearch(){
   const v=$("#v-search");
   if(!v.dataset.built){
     v.innerHTML=`<h1 class="h1">Search</h1><p class="sub">Compare opportunities side by side. Closed ones are removed automatically.</p>
+    <button class="btn" data-dir="1" style="margin-bottom:12px">👥 Browse all organisers (universities, companies, clubs)</button>
     <input id="q" class="search" type="search" placeholder="Try “funded”, “Beirut”, “LAU”, “chess”…" aria-label="Search opportunities and organisers">
     <div class="filters" id="cf"></div><div class="list" id="sl"></div>`;
     v.dataset.built=1;
@@ -853,6 +901,8 @@ document.addEventListener("click",e=>{
   if(b.dataset.v)return show(b.dataset.v);
   if(b.dataset.reload)return loadData(true);
   if(b.dataset.filters){filterPage=null;return openFilters()}
+  if(b.dataset.dir){dirGroup="";dirQ="";return openDirectory()}
+  if(b.dataset.dgroup!==undefined){dirGroup=b.dataset.dgroup;return openDirectory()}
   if(b.dataset.ftypex){S.filters.types=S.filters.types.filter(t=>t!==b.dataset.ftypex);persist();renderFeed();$("#v-feed").scrollTop=0;return}
   if(b.dataset.fpage){filterPage=b.dataset.fpage;return openFilters()}
   if(b.dataset.fback){if(filterPage){filterPage=null;return openFilters()}return closeSheet()}
@@ -872,6 +922,7 @@ document.addEventListener("click",e=>{
   if(b.dataset.follow){
     const k=b.dataset.follow,on=toggleIn(S.follow,k);S.aff["org:"+k]=(S.aff["org:"+k]||0)+(on?5:-5);persist();
     if($("#sheet").classList.contains("on")&&$("#sheet .orghead"))openOrg(k);
+    else if($("#sheet").classList.contains("on")&&$("#dir-q")){const y=$("#sheet").scrollTop;openDirectory();$("#sheet").scrollTop=y}
     if(current==="feed")renderFeed();else if(current==="search")renderSearch();
     return toast(on?"Following. Their posts appear in Following":"Unfollowed");
   }
@@ -916,7 +967,9 @@ document.addEventListener("change",e=>{
   if(t.id==="p-level"&&t.value)toast("Saved. Your feed now hides what you can't join");
 });
 // Fee boxes update the result count while typing.
-document.addEventListener("input",e=>{if(e.target.id==="f-min"||e.target.id==="f-max")e.target.dispatchEvent(new Event("change",{bubbles:true}))});
+document.addEventListener("input",e=>{
+  if(e.target.id==="dir-q"){dirQ=e.target.value.toLowerCase();const pos=e.target.selectionStart;openDirectory();const i=$("#dir-q");i.focus();i.setSelectionRange(pos,pos);return}
+  if(e.target.id==="f-min"||e.target.id==="f-max")e.target.dispatchEvent(new Event("change",{bubbles:true}))});
 $("#backdrop").addEventListener("click",closeSheet);
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeSheet()});
 function fmtDate(d){if(!d)return VERIFIED;const x=new Date(d);return isNaN(x)?d:x.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"})}
@@ -926,7 +979,8 @@ async function loadData(manual){
   try{
     const r=await fetch("opportunities.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(r.status);
     const d=await r.json(),before=OPPS.length;
-    OPPS=d.opportunities||[];UPDATED=d.updated;lastLoad=Date.now();SESSION_SEED=Math.floor(Math.random()*1e9);
+    OPPS=d.opportunities||[];UPDATED=d.updated;lastLoad=Date.now();SESSION_SEED=Math.floor(Math.random()*1e9);_orgs=null;
+    if(!DIRECTORY.length)try{const x=await fetch("directory.json");if(x.ok)DIRECTORY=(await x.json()).orgs||[]}catch(e){}
     if(!Object.keys(STOCK).length)try{const s=await fetch("stock.json");if(s.ok)STOCK=await s.json()}catch(e){}
     if(current==="feed"||!before){show("feed");$("#v-feed").scrollTop=0}
     if(manual)toast(`Refreshed · ${OPPS.filter(o=>!isClosed(o)).length} open · updated ${fmtDate(UPDATED)}`);
