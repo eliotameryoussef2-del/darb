@@ -472,11 +472,11 @@ function score(o){
   return{s,why:why.slice(0,2),label:s>=55?"Strong match":s>=35?"Good match":"Possible match"};
 }
 /* ---------- topic filters (football only, startups only, ...) ---------- */
-const TOPICS=[["tournament","🏆 Tournaments"],["football","⚽ Football"],["basketball","🏀 Basketball"],["volleyball","🏐 Volleyball"],["padel","🎾 Padel & tennis"],["swimming","🏊 Swimming"],["cycling","🚴 Cycling"],["ski","⛷️ Ski"],["chess","♟️ Chess"],["water","🤿 Diving & water sports"],["gymnastics","🤸 Gymnastics & cheer"],["yoga","🧘 Yoga & pilates"],["fitness","🏋️ Fitness & CrossFit"],["martial","🥋 Martial arts & boxing"],["climbing","🧗 Climbing"],["racket","🏓 Table tennis, squash & badminton"],["fencing","🤺 Fencing & archery"],["golf","⛳ Golf"],["skating","⛸️ Skating & skateboarding"],["rugby","🏉 Rugby, cricket & other team sports"],["bowling","🎳 Bowling, billiards & darts"],["motor","🏎️ Motorsport & karting"],["riding","🐎 Horse riding"],["dance","💃 Dance"],["music","🎵 Music"],["movies","🎬 Movies & shows"],["museums","🏛️ Museums & places"],["festivals","🎉 Festivals"],["esports","🎮 Esports"],["othersport","🥇 Other sports"],["clubs","👥 Clubs & communities"],["arts","🎨 Arts & creative"],["hiking","🥾 Hiking"],["running","🏃 Running"],["hackathon","💻 Hackathons"],["startup","🚀 Startups"],["case","📊 Case comps"],["research","🔬 Research"],["scholarship","🎓 Scholarships & exchange"],["conference","🎤 Conferences & MUN"],["volunteer","🤝 Volunteering"],["career","💼 Careers"],["funded","✈️ Fully funded"],["religious","⛪ Religious & spiritual"]];
+const TOPICS=[["tournament","🏆 Tournaments"],["football","⚽ Football"],["basketball","🏀 Basketball"],["volleyball","🏐 Volleyball"],["padel","🎾 Padel & tennis"],["swimming","🏊 Swimming"],["cycling","🚴 Cycling"],["ski","⛷️ Ski"],["chess","♟️ Chess"],["water","🤿 Diving & water sports"],["gymnastics","🤸 Gymnastics & cheer"],["yoga","🧘 Yoga & pilates"],["fitness","🏋️ Fitness & CrossFit"],["martial","🥋 Martial arts & boxing"],["climbing","🧗 Climbing"],["racket","🏓 Table tennis, squash & badminton"],["fencing","🤺 Fencing & archery"],["golf","⛳ Golf"],["skating","⛸️ Skating & skateboarding"],["rugby","🏉 Rugby, cricket & other team sports"],["bowling","🎳 Bowling, billiards & darts"],["motor","🏎️ Motorsport & karting"],["riding","🐎 Horse riding"],["dance","💃 Dance"],["music","🎵 Music"],["movies","🎬 Movies & shows"],["museums","🏛️ Museums & places"],["festivals","🎉 Festivals"],["esports","🎮 Esports"],["othersport","🥇 Other sports"],["clubs","👥 Clubs & communities"],["arts","🎨 Arts & creative"],["hiking","🥾 Hiking"],["running","🏃 Running"],["hackathon","💻 Hackathons"],["startup","🚀 Startups"],["case","📊 Case comps"],["research","🔬 Research"],["scholarship","🎓 Scholarships & exchange"],["conference","🎤 Conferences & MUN"],["volunteer","🤝 Volunteering"],["career","💼 Careers"],["funded","✈️ Fully funded"],["religious","⛪ Church & parish events"],["trips","🚌 Day trips & getaways (Lebanon)"],["travel","✈️ Group trips abroad"]];
 // Category groups, like OLX: tap a group to see its categories.
 const TOPIC_GROUPS=[
  ["sports","⚽ Sports",["football","basketball","volleyball","padel","swimming","cycling","ski","water","gymnastics","yoga","fitness","martial","climbing","racket","fencing","golf","skating","rugby","bowling","motor","riding","chess","esports","othersport"]],
- ["outdoors","🥾 Outdoors & running",["hiking","running"]],
+ ["outdoors","🥾 Trips & outdoors",["travel","trips","hiking","running"]],
  ["events","🎉 Events & culture",["festivals","religious","movies","museums","music","dance","arts"]],
  ["compete","🏆 Competitions",["tournament","hackathon","case","startup"]],
  ["study","🎓 Study & careers",["scholarship","funded","research","conference","career"]],
@@ -494,7 +494,10 @@ function topicsOf(o){
   if(byCat[o.cat])t.add(byCat[o.cat]);
   if(o.source==="bulk-conferences"||/conference|summit|forum|\bmun\b|model united|debat|symposium|congress/i.test(o.title))t.add("conference");
   if(o.funded==="full")t.add("funded");
-  if((o.tags||[]).some(x=>/religio|faith|spiritual/i.test(x))||/\bmass\b|pilgrimage|procession|\bfeast of\b|\bsaint\b|\bst\.? (charbel|maroun|rafqa|elias)|mosque|ramadan|iftar|\beid al|ashura|mawlid|church|cathedral|monaster|retreat|prayer|adoration|harissa|annaya/i.test(o.title))t.add("religious");
+  // Organised trips: abroad (Jordan, Turkey…) or inside Lebanon. Races and conferences abroad are not "trips".
+  const trip=(o.tags||[]).some(x=>/^(travel|trips?)$/.test(x))||/\b(trip|getaway|excursion|wine tour|day tour|boat tour|horseback tour|city tour|guided tour)\b/i.test(o.title);
+  if(trip)t.add(o.travel?"travel":"trips");
+  if((o.tags||[]).includes("church-event")||/\b(church|parish|paroisse|diocese|archdiocese|eparchy|patriarchate|monastery|convent|order of|mosque|islamic|waqf)\b/i.test(o.org)||/\b(saint|st\.?|mar|saydet|sayydet) [a-z]+ (feast|festival|fest|night)|\bfeast of (saint|st|our lady)|\b(saint )?barbara\b|christmas (village|market|fair|bazaar|concert)|\bkermesse\b/i.test(o.title))t.add("religious");
   if(o.club)t.add("clubs");
   if(o.movie||o.show)t.add("movies");
   if(o.visit)t.add("museums");
