@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T14:04:45.614Z",
- "count": 2384,
+ "updated": "2026-10-24T14:08:27.737Z",
+ "count": 2460,
  "opportunities": [
   {
    "id": "hk-airwallex-agentic-banking",
@@ -153314,6 +153314,7085 @@
    "imageChecked": "2026-10-24",
    "gallery": [],
    "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-aqaba-nov-2026",
+   "cat": "hiking",
+   "title": "Aqaba, Jordan - 3 nights (20-23 Nov 2026)",
+   "org": "Nakhal Travel",
+   "place": "Aqaba, Jordan (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 415,
+   "feeText": "Starting $415 per person",
+   "deadline": null,
+   "eventDate": "2026-11-20T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "4 days / 3 nights, 20-23 Nov 2026",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $415 per person",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Hotel",
+     "3 nights",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/4627/aqaba-jordan",
+   "image": "https://kms.nakhal.com/Images/675x352xo/AQABA1261008033709250~.jpg",
+   "confidence": "Medium",
+   "caveat": "Nakhal's detail page shows only a starting price; the room-type price table and inclusions list are not shown, so confirm what the price covers (flights, hotel category, meals) when booking.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-sharm-el-sheikh-oct-dec-2026",
+   "cat": "hiking",
+   "title": "Sharm El Sheikh - 3, 4 or 7 nights (until 15 Dec 2026)",
+   "org": "Nakhal Travel",
+   "place": "Sharm El Sheikh, Egypt (direct flights from Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 420,
+   "feeText": "Starting $420 per person",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "3, 4 or 7 nights; departures from 16 Oct till 15 Dec 2026",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group",
+     "Window: departures until 15 Dec 2026"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $420 per person",
+     "info"
+    ],
+    [
+     "Flights",
+     "Direct flights to Sharm El Sheikh highlighted on page; inclusion in price not itemised",
+     "partial"
+    ],
+    [
+     "Hotel",
+     "3, 4 or 7 nights",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Cancellation",
+     "Free cancellation up to 8 days before departure (per page)",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/1663/sharm-el-sheikh-packages",
+   "image": "https://kms.nakhal.com/Images/675x352xo/sharm copy250424015827230~.png",
+   "confidence": "Medium",
+   "caveat": "Nakhal's detail page shows only a starting price; the room-type price table and inclusions list are not shown, so confirm what the price covers (flights, hotel category, meals) when booking. Page also mentions a family offer (4+ nights) and a honeymoon offer (bride flies free, 7+ nights).",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-tbilisi-christmas-new-year-dec-2026",
+   "cat": "hiking",
+   "title": "Tbilisi Christmas & New Year escorted tour - 5 days / 4 nights",
+   "org": "Nakhal Travel",
+   "place": "Tbilisi, Georgia (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 995,
+   "feeText": "Starting $995 per person",
+   "deadline": null,
+   "eventDate": "2026-12-22T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "5 days / 4 nights; departures 22-26 Dec, 26-30 Dec, 30 Dec 2026-3 Jan 2027, 3-7 Jan 2027",
+   "meet": "Not stated",
+   "team": "Escorted group tour",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $995 per person",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Hotel",
+     "4 nights in Tbilisi",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Guided tours each day (escorted tour)",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Transfers",
+     "Airport meet & assist and transfers",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/4480/tbilisi-christmas-new-year-escorted-tour",
+   "image": "https://kms.nakhal.com/Images/675x352xo/tbilisi 2251027112818586~.jpg",
+   "confidence": "High",
+   "caveat": "Services taken from the day-by-day itinerary; no formal inclusions list or room-type prices on the page.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-alsace-christmas-markets-dec-2026",
+   "cat": "hiking",
+   "title": "Christmas markets in Alsace river cruise (MS La Boheme) - 3 nights, Dec 2026",
+   "org": "Nakhal Travel",
+   "place": "Strasbourg & Alsace, France (river cruise from Strasbourg)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 677,
+   "feeText": "Starting $677 or EUR 589 per person",
+   "deadline": null,
+   "eventDate": "2026-12-03T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "3 nights; departures 3, 4, 10, 12, 16, 17 & 20 Dec 2026, embarking Strasbourg",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $677 / EUR 589 per person",
+     "info"
+    ],
+    [
+     "Flights",
+     "Not stated (cruise embarks in Strasbourg)",
+     "ns"
+    ],
+    [
+     "Cabin",
+     "3 nights on board MS La Boheme",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Dinners, lunch on board and breakfast per itinerary",
+     "yes"
+    ],
+    [
+     "Excursion",
+     "Strasbourg & Christmas markets excursion included",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Wine tasting",
+     "Alsatian wine cellar visit listed (marked with an unexplained asterisk)",
+     "partial"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/4580/christmas-markets-in-alsace",
+   "image": "https://kms.nakhal.com/Images/675x352xo/Stras. Christmas main260902024042858~.jpg",
+   "confidence": "Medium",
+   "caveat": "Flights to Strasbourg and Schengen visa are not stated; inclusions inferred from itinerary.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-nile-cruise-star-of-luxor-nov-2026",
+   "cat": "hiking",
+   "title": "Nile cruise RV Star of Luxor - The Land of the Pharaohs, 7 nights",
+   "org": "Nakhal Travel",
+   "place": "Luxor & Aswan, Egypt (Nile cruise)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1482,
+   "feeText": "Starting $1,482 or EUR 1,289 per person",
+   "deadline": null,
+   "eventDate": "2026-11-07T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "7 nights; departures 7, 14, 21 & 28 Nov and 5 Dec 2026",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $1,482 / EUR 1,289 per person",
+     "info"
+    ],
+    [
+     "Flights",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Cabin",
+     "7 nights on board RV Star of Luxor",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Lunches, dinners and breakfasts described in itinerary",
+     "yes"
+    ],
+    [
+     "Excursions",
+     "Karnak, Edfu, Philae, Elephantine boat tour, Hatshepsut, Valley of the Kings, Luxor Temple",
+     "yes"
+    ],
+    [
+     "Abu Simbel",
+     "Optional excursion, reserve before departure",
+     "no"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/3021/cruise-on-the-nile-the-land-of-the-pharaohs",
+   "image": "https://kms.nakhal.com/Images/675x352xo/200619120857338~Aswan_5258.jpg",
+   "confidence": "Medium",
+   "caveat": "No formal inclusions/exclusions list; services taken from itinerary. Flights not stated.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-istanbul-short-break-2026-27",
+   "cat": "hiking",
+   "title": "Istanbul short break - 2 or 3 nights (Oct 2026 - Mar 2027)",
+   "org": "Nakhal Travel",
+   "place": "Istanbul, Turkey (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 320,
+   "feeText": "Starting $320 per person",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "2 or 3 nights; departures from 1 Oct 2026 till 31 Mar 2027 (Istanbul or Sabiha airport)",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $320 per person",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Hotel",
+     "2 or 3 nights",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/1852/istanbul-short-break",
+   "image": "https://kms.nakhal.com/Images/675x352xo/181011020008493~Untitled-3.jpg",
+   "confidence": "Medium",
+   "caveat": "Nakhal's detail page shows only a starting price; the room-type price table and inclusions list are not shown, so confirm what the price covers (flights, hotel category, meals) when booking.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-sri-lanka-7-nights-all-year",
+   "cat": "hiking",
+   "title": "Sri Lanka 8 days / 7 nights - Colombo, Dambulla, Kandy, Nuwara Eliya & Bentota",
+   "org": "Nakhal Travel",
+   "place": "Sri Lanka (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 775,
+   "feeText": "Starting $775 per person",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling - departures all year round",
+   "when": "8 days / 7 nights; all year round",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $775 per person",
+     "info"
+    ],
+    [
+     "Flights",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Hotel",
+     "7 nights",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast & dinner listed on itinerary days",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/108/srilanka-7-nights",
+   "image": "https://kms.nakhal.com/Images/675x352xo/sri lanka250411035855481~.jpg",
+   "confidence": "Medium",
+   "caveat": "Nakhal's detail page shows only a starting price; the room-type price table and inclusions list are not shown, so confirm what the price covers (flights, hotel category, meals) when booking.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-spanish-super-cup-istanbul-feb-2027",
+   "cat": "hiking",
+   "title": "Spanish Super Cup Final in Istanbul - 3 nights (5-8 Feb 2027)",
+   "org": "Nakhal Travel",
+   "place": "Istanbul, Turkey (flights not included)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 965,
+   "feeText": "From $965 (triple) / $1,030 (double) / $1,225 (single) per person, 3* room only; 4* and 5* options up to $1,764",
+   "deadline": null,
+   "eventDate": "2027-02-05T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "3 nights, 5-8 Feb 2027 (final on 7 Feb 2027)",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $965 pp triple, $1,030 double (3* room only)",
+     "info"
+    ],
+    [
+     "Flights",
+     "Airplane ticket excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "3 nights at chosen hotel (3*, 4* or 5*)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Room only (3*) or bed & breakfast (4*/5*)",
+     "partial"
+    ],
+    [
+     "Match ticket",
+     "Short Side ticket included; Long Side +$160",
+     "yes"
+    ],
+    [
+     "Transfers",
+     "Arrival and departure transfers",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Travel insurance excluded",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/4565/spanish-super-cup-final-in-istanbul",
+   "image": "https://kms.nakhal.com/Images/675x352xo/stadium260822094713483~.jpg",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-celine-dion-paris-may-2027",
+   "cat": "hiking",
+   "title": "Celine Dion concerts in Paris - 3-night hotel package (May 2027)",
+   "org": "Nakhal Travel",
+   "place": "Paris, France (flights not included)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 945,
+   "feeText": "From $945 (triple) / $1,090 (double) / $1,350 (single) per person, 3* with breakfast; up to $2,845 at 5*",
+   "deadline": null,
+   "eventDate": "2027-05-08T00:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "3 nights; concert dates 8, 12, 14, 15, 19, 21, 22, 26, 28 & 29 May 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $945 pp triple, $1,090 double (3* B/B)",
+     "info"
+    ],
+    [
+     "Flights",
+     "Air ticket excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "3 nights at chosen hotel (3* to 5*)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Concert ticket",
+     "Excluded",
+     "no"
+    ],
+    [
+     "Transfers",
+     "Round-trip CDG/hotel/CDG",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/4615/celine-dion-concert-in-paris",
+   "image": "https://kms.nakhal.com/Images/675x352xo/celine 1 copy260416124655448_261001025451630~.jpg",
+   "confidence": "High",
+   "caveat": "Concert ticket is NOT included; buy separately.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-costa-toscana-cruise-nov-dec-2026",
+   "cat": "hiking",
+   "title": "Costa Toscana cruise - Italy, France, Spain & Tunisia, 7 nights",
+   "org": "Nakhal Travel",
+   "place": "Western Mediterranean cruise (Savona, Marseille, Barcelona, La Goulette, Palermo, Civitavecchia)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 562,
+   "feeText": "Starting $562 or EUR 489 per person",
+   "deadline": null,
+   "eventDate": "2026-11-28T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "7 nights; departures 28 Nov and 5, 12, 19 & 26 Dec 2026",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $562 / EUR 489 per person",
+     "info"
+    ],
+    [
+     "Flights",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Cabin",
+     "7 nights on board",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Port taxes",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/1555/costa-toscana-italy-france-spain-tunisia",
+   "image": "https://kms.nakhal.com/Images/675x352xo/170812095805649~barca.jpg",
+   "confidence": "Medium",
+   "caveat": "Price table and 'For your info' tab are empty on the page; flights to the embarkation port and port taxes not stated.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-club-med-tignes-ski-2026-27",
+   "cat": "hiking",
+   "title": "Club Med Tignes all-inclusive ski week (29 Nov 2026 - 25 Apr 2027)",
+   "org": "Nakhal Travel",
+   "place": "Tignes, French Alps (flights not included)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 2785,
+   "feeText": "Starting $2,785 or EUR 2,422 per week",
+   "deadline": null,
+   "eventDate": "2026-11-29T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "Per week; season 29 Nov 2026 - 25 Apr 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips",
+    "ski"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $2,785 / EUR 2,422 per week",
+     "info"
+    ],
+    [
+     "Flights",
+     "Airplane ticket excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "All-inclusive resort accommodation",
+     "yes"
+    ],
+    [
+     "Meals",
+     "All inclusive (bars & restaurants)",
+     "yes"
+    ],
+    [
+     "Ski lessons",
+     "Alpine ski and snowboard lessons included",
+     "yes"
+    ],
+    [
+     "Ski equipment",
+     "Extra charge",
+     "no"
+    ],
+    [
+     "Transfers",
+     "Extra charge",
+     "no"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/91/club-med-tignes",
+   "image": "https://kms.nakhal.com/Images/675x352xo/TIGC_L222_004 copy260825011124966~.jpg",
+   "confidence": "High",
+   "caveat": "Page does not say whether the weekly price is per person; confirm with Nakhal. Ski pass not listed among inclusions.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-club-med-val-disere-ski-2026-27",
+   "cat": "hiking",
+   "title": "Club Med Val d'Isere all-inclusive ski week (6 Dec 2026 - 25 Apr 2027)",
+   "org": "Nakhal Travel",
+   "place": "Val d'Isere, French Alps (flights not included)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 2405,
+   "feeText": "Starting $2,405 or EUR 2,091 per week",
+   "deadline": null,
+   "eventDate": "2026-12-06T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "Per week; season 6 Dec 2026 - 25 Apr 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips",
+    "ski"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $2,405 / EUR 2,091 per week",
+     "info"
+    ],
+    [
+     "Flights",
+     "Airplane ticket excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "All-inclusive resort accommodation",
+     "yes"
+    ],
+    [
+     "Meals",
+     "All inclusive (bars & restaurants)",
+     "yes"
+    ],
+    [
+     "Ski lifts & lessons",
+     "Ski lifts, alpine ski and snowboard lessons included",
+     "yes"
+    ],
+    [
+     "Ski equipment",
+     "Extra charge",
+     "no"
+    ],
+    [
+     "Transfers",
+     "Extra charge",
+     "no"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/92/club-med-val-d-isère",
+   "image": "https://kms.nakhal.com/Images/675x352xo/Val d'Isère copy240423012515747~.png",
+   "confidence": "High",
+   "caveat": "Page does not say whether the weekly price is per person; confirm with Nakhal.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-cappadocia-oct-dec-2026",
+   "cat": "hiking",
+   "title": "Cappadocia - 4 days / 3 nights (until 31 Dec 2026)",
+   "org": "Nakhal Travel",
+   "place": "Cappadocia, Turkey (departs Beirut; Nevsehir or Kayseri airport)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 490,
+   "feeText": "Starting $490 per person",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "4 days / 3 nights; departures from 1 Oct till 31 Dec 2026",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $490 per person",
+     "info"
+    ],
+    [
+     "Flights",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Hotel",
+     "3 nights",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Tours",
+     "Balloon, Green/Red tours and Anatolian night listed as suggested tours (inclusion not stated)",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/4178/cappadocia",
+   "confidence": "Medium",
+   "caveat": "Nakhal's detail page shows only a starting price; the room-type price table and inclusions list are not shown, so confirm what the price covers (flights, hotel category, meals) when booking. The page's main photo appeared to be an Adana image, so no image is included.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-armenia-georgia-oct-2026",
+   "cat": "hiking",
+   "title": "Armenia & Georgia escorted tour - 7 nights (29 Oct - 5 Nov 2026)",
+   "org": "Nakhal Travel",
+   "place": "Yerevan, Armenia & Tbilisi, Georgia (MEA flights from Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1450,
+   "feeText": "Starting $1,450 per person",
+   "deadline": null,
+   "eventDate": "2026-10-29T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "8 days / 7 nights, 29 Oct - 5 Nov 2026",
+   "meet": "Not stated",
+   "team": "Escorted group tour",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $1,450 per person",
+     "info"
+    ],
+    [
+     "Flights",
+     "MEA flights Beirut-Yerevan and direct return to Beirut per itinerary",
+     "partial"
+    ],
+    [
+     "Hotel",
+     "7 nights",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Professional English-speaking guides during visits",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/4539/armenia-and-georgia",
+   "image": "https://kms.nakhal.com/Images/675x352xo/tbilisi main260430124707095~.jpg",
+   "confidence": "Medium",
+   "caveat": "Flights are described in the itinerary but the page has no inclusions list confirming they are in the price. Departure is in 5 days.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-georgia-armenia-new-year-dec-2026",
+   "cat": "hiking",
+   "title": "Georgia & Armenia New Year tour - 9 days / 8 nights (30 Dec 2026 - 7 Jan 2027)",
+   "org": "Nakhal Travel",
+   "place": "Tbilisi, Georgia & Yerevan, Armenia (direct flight from Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1695,
+   "feeText": "Starting $1,695 per person",
+   "deadline": null,
+   "eventDate": "2026-12-30T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "9 days / 8 nights, 30 Dec 2026 - 7 Jan 2027",
+   "meet": "Not stated",
+   "team": "Escorted group tour",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $1,695 per person",
+     "info"
+    ],
+    [
+     "Flights",
+     "Direct flights to Tbilisi with One click airlines highlighted",
+     "partial"
+    ],
+    [
+     "Hotel",
+     "8 nights",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast most days",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Professional English-speaking guides during visits",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/1795/georgia-and-armenia-new-year",
+   "image": "https://kms.nakhal.com/Images/675x352xo/Georgia-bigstock-tbilisi-panorama-cit-239202601211103040224346~.jpg",
+   "confidence": "Medium",
+   "caveat": "No inclusions list on page; flight inclusion inferred from highlights.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-jordan-highlights-weekly-2026-27",
+   "cat": "hiking",
+   "title": "Jordan Highlights tour - 4 days / 3 nights (every Wednesday to Feb 2027)",
+   "org": "Nakhal Travel",
+   "place": "Jerash, Ajloun, Amman, Madaba, Mt Nebo, Kerak, Petra & Wadi Rum, Jordan (starts Amman airport)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 560,
+   "feeText": "Starting $560 per person",
+   "deadline": null,
+   "eventDate": "2026-10-28T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "4 days / 3 nights; every Wednesday from 5 Aug 2026 till 24 Feb 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $560 per person",
+     "info"
+    ],
+    [
+     "Flights to Amman",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Hotel",
+     "3 nights",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast; lunches optional",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Transport",
+     "Airport meet & assist, road transport between sites, short 4x4 ride in Wadi Rum",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/72/highlights-tour-jordan",
+   "image": "https://kms.nakhal.com/Images/675x352xo/161017124038403~jordan.JPG",
+   "confidence": "Medium",
+   "caveat": "Land tour starting/ending at Amman airport; flight from Beirut not stated as included.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-damascus-maaloula-homs-2026-27",
+   "cat": "hiking",
+   "title": "Damascus, Maaloula, Crac des Chevaliers & Homs - 5 days / 4 nights",
+   "org": "Nakhal Travel",
+   "place": "Damascus, Maaloula, Crac des Chevaliers & Homs, Syria",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 475,
+   "feeText": "Starting $475 per person",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "5 days / 4 nights; departures from 1 Aug 2026 till 28 Feb 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $475 per person",
+     "info"
+    ],
+    [
+     "Transport",
+     "Airport/hotel pickup and road transfers per itinerary",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "4 nights (Damascus & Homs)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast on some days",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/4561/damascus-maaloula-crac-des-chevaliers-homs",
+   "image": "https://kms.nakhal.com/Images/675x352xo/homs260725094645448~.jpg",
+   "confidence": "Medium",
+   "caveat": "No inclusions list; check current travel advice and entry requirements for Syria before booking.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-lapland-santa-village-2026-27",
+   "cat": "hiking",
+   "title": "Santa's Village, Lapland - 4 days / 3 nights (Nov 2026 - Mar 2027)",
+   "org": "Nakhal Travel",
+   "place": "Rovaniemi, Finnish Lapland",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 673,
+   "feeText": "Starting $673 or EUR 585 per person",
+   "deadline": null,
+   "eventDate": "2026-11-01T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "4 days / 3 nights; departures from 1 Nov 2026 till 27 Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $673 / EUR 585 per person",
+     "info"
+    ],
+    [
+     "Flights",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Hotel",
+     "3 nights",
+     "yes"
+    ],
+    [
+     "Activities",
+     "Santa's Village & reindeer farm with snowmobile safari, husky safari, aurora picnic",
+     "yes"
+    ],
+    [
+     "Guide",
+     "English-speaking guiding on excursions",
+     "yes"
+    ],
+    [
+     "Winter clothing",
+     "Provided on excursions",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/4123/santa-s-village-lapland",
+   "image": "https://kms.nakhal.com/Images/675x352xo/Untitled-6220608024849408~.jpg",
+   "confidence": "Medium",
+   "caveat": "Flights to Rovaniemi and Schengen visa not stated. Day-2 activity not available for infants 0-3.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-maldives-3-nights-all-year",
+   "cat": "hiking",
+   "title": "Maldives - 4 days / 3 nights (all year)",
+   "org": "Nakhal Travel",
+   "place": "Male, Maldives (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 625,
+   "feeText": "Starting $625 per person",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling - departures all year round",
+   "when": "4 days / 3 nights; all year round",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $625 per person",
+     "info"
+    ],
+    [
+     "Flights",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Hotel",
+     "3 nights",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Transfers",
+     "Airport-hotel-airport",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Tours",
+     "Optional tours on request",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/84/maldives",
+   "image": "https://kms.nakhal.com/Images/675x352xo/161019101531320~Maldives_Hotels.jpg",
+   "confidence": "Medium",
+   "caveat": "Nakhal's detail page shows only a starting price; the room-type price table and inclusions list are not shown, so confirm what the price covers (flights, hotel category, meals) when booking.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-phuket-bangkok-all-year",
+   "cat": "hiking",
+   "title": "Phuket 4 nights + Bangkok 2 nights - 7 days / 6 nights (all year)",
+   "org": "Nakhal Travel",
+   "place": "Phuket & Bangkok, Thailand (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 950,
+   "feeText": "Starting $950 per person",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling - departures all year round",
+   "when": "7 days / 6 nights; all year round",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting $950 per person",
+     "info"
+    ],
+    [
+     "International flights",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Hotel",
+     "4 nights Phuket + 2 nights Bangkok",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast on several days; lunch on island tour",
+     "partial"
+    ],
+    [
+     "Island tour",
+     "Snorkelling & beach island tour with lunch on day 2",
+     "yes"
+    ],
+    [
+     "Domestic flight",
+     "Phuket-Bangkok flight in itinerary; inclusion not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/115/phuket-and-bangkok",
+   "image": "https://kms.nakhal.com/Images/675x352xo/161024034824271~bangkok 3.jpg",
+   "confidence": "Medium",
+   "caveat": "Nakhal's detail page shows only a starting price; the room-type price table and inclusions list are not shown, so confirm what the price covers (flights, hotel category, meals) when booking.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-madrid-andalusia-christmas-dec-2026",
+   "cat": "hiking",
+   "title": "Madrid & Andalusia Christmas/New Year tour - 8 days / 7 nights",
+   "org": "Nakhal Travel",
+   "place": "Madrid, Cordoba, Seville & Granada, Spain",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1600,
+   "feeText": "Starting EUR 1,385 per person (about $1,600; USD not stated)",
+   "deadline": null,
+   "eventDate": "2026-12-19T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "8 days / 7 nights; departures 19 & 26 Dec 2026",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "Starting EUR 1,385 per person (approx. $1,600)",
+     "info"
+    ],
+    [
+     "Flights",
+     "Not stated (tour starts at Madrid airport)",
+     "ns"
+    ],
+    [
+     "Hotel",
+     "7 nights",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/packages/4569/madrid-andalusia-christmas-new-year",
+   "image": "https://kms.nakhal.com/Images/675x352xo/madrid main (2)260821013946669~.jpg",
+   "confidence": "Medium",
+   "caveat": "USD figure is an approximate conversion of EUR 1,385. Inclusions not listed.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-nakhal-lebanon-daily-tours-2026-27",
+   "cat": "hiking",
+   "title": "Nakhal daily tours of Lebanon - Jeita/Byblos, Cedars, Baalbeck, Tripoli/Batroun, Beiteddine, Sidon/Tyre",
+   "org": "Nakhal Travel",
+   "place": "Lebanon day tours (pickup/drop-off Beirut)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 110,
+   "feeText": "$110 per tour (page does not say per person)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling - tours run daily",
+   "when": "Full-day tours, daily Mon-Sun, Jan 2026 - Jan 2027",
+   "meet": "Pickup from Beirut",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Tour price",
+     "$110 per tour (per person not stated)",
+     "info"
+    ],
+    [
+     "Transport",
+     "Deluxe vehicle, pickup/drop-off Beirut",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "Not applicable (day tour)",
+     "info"
+    ],
+    [
+     "Meals",
+     "Lunch at a Lebanese restaurant with one soft drink or small arak (most tours)",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Professional guide (English/French)",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not applicable",
+     "info"
+    ],
+    [
+     "Entrance fees",
+     "Included, plus VAT",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Call Nakhal on +961 1 389 389 or WhatsApp +961 3 389 222 to check availability and book, or send a request from the package page on nakhal.com."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 389 389",
+     "Published on nakhal.com"
+    ],
+    [
+     "WhatsApp",
+     "+961 3 389 222",
+     "Published on nakhal.com (WhatsApp from abroad)"
+    ]
+   ],
+   "url": "https://www.nakhal.com/Lebanon/daily-tours",
+   "image": "https://kms.nakhal.com/Images/320x464xo/Untitled-23220606122849764~.jpg",
+   "confidence": "Medium",
+   "caveat": "Six different day tours on one page, all listed at $110; the Baalbeck tour's inclusions omit lunch despite its title. Confirm whether price is per person.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-tania-aqaba-direct-flight-nov-2026",
+   "cat": "hiking",
+   "title": "Aqaba direct-flight package - 4 days / 3 nights (20-23 Nov 2026)",
+   "org": "Tania Travel",
+   "place": "Aqaba, Jordan (Royal Jordanian direct flight from Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 430,
+   "feeText": "From $430 pp triple / $445 double / $515 single (Loft 4*); up to $615 double at Al Manara 5*; child 2-6 $315",
+   "deadline": null,
+   "eventDate": "2026-11-20T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "4 days / 3 nights, 20-23 Nov 2026",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $430 pp (triple, 4*)",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Royal Jordanian direct BEY/AQJ/BEY incl. airport taxes",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "3 nights",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast (HB supplement $5-30 pp/night)",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Visa charge excluded for non-Lebanese",
+     "partial"
+    ],
+    [
+     "Transfers",
+     "Seat-in-coach airport-hotel-airport",
+     "yes"
+    ],
+    [
+     "Insurance",
+     "Excluded",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Call Tania Travel on +961 1 616555 or WhatsApp +961 3 601301 (or email tania@taniatravel.com) to check availability and book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 616555",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Mobile/WhatsApp",
+     "+961 3 601301",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Email",
+     "tania@taniatravel.com",
+     "Published on taniatravel.com"
+    ]
+   ],
+   "url": "https://taniatravel.com/tour/aqaba-2/",
+   "image": "https://taniatravel.com/wp-content/uploads/2025/03/Aqaba-Wonders-Travel-Tourism.jpg",
+   "confidence": "High",
+   "caveat": "Page header still shows an old 2025 fixed-departure line; tour details give 20-23 Nov 2026. Base-rate currency implied as USD.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-tania-highlights-of-jordan-2026",
+   "cat": "hiking",
+   "title": "Highlights of Jordan - 5 days / 4 nights (until 20 Dec 2026)",
+   "org": "Tania Travel",
+   "place": "Amman, Madaba, Mt Nebo, Shobak, Petra, Wadi Rum & Dead Sea, Jordan",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 710,
+   "feeText": "From $710 pp (3*, group of 4, 1-13 Dec); $740-$1,960 depending on hotel, period and group size; Lebanese-passport rates",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "5 days / 4 nights; any date until 20 Dec 2026 (periods 10 Sep-30 Nov, 1-13 Dec, 14-20 Dec)",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; prices quoted for Lebanese passport holders; passport details needed 7-10 days before arrival.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $710 pp (4 pax, 3*)",
+     "info"
+    ],
+    [
+     "Flights",
+     "Round-trip ticket to Amman excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "4 nights at 3*, 4* or 5*",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast; half board in Wadi Rum",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Local guide at Petra (~4 hours)",
+     "partial"
+    ],
+    [
+     "Visa",
+     "Entry visa included for non-restricted nationalities",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "All sites in programme (Lebanese-nationality rates)",
+     "yes"
+    ],
+    [
+     "Transport",
+     "Private AC vehicle; 2-hour Wadi Rum jeep safari",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Call Tania Travel on +961 1 616555 or WhatsApp +961 3 601301 (or email tania@taniatravel.com) to check availability and book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 616555",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Mobile/WhatsApp",
+     "+961 3 601301",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Email",
+     "tania@taniatravel.com",
+     "Published on taniatravel.com"
+    ]
+   ],
+   "url": "https://taniatravel.com/tour/aqaba-special-promotion/",
+   "image": "https://taniatravel.com/wp-content/uploads/2025/11/1.jpg",
+   "confidence": "High",
+   "caveat": "Flights to Amman not included. One half-board supplement on the page (600) looks like a typo.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-tania-sri-lanka-classical-2026-27",
+   "cat": "hiking",
+   "title": "Sri Lanka Classical tour - 8 days / 7 nights (Oct 2026 - Apr 2027)",
+   "org": "Tania Travel",
+   "place": "Kandalama, Sigiriya, Kandy, Nuwara Eliya, Yala, Galle & Colombo, Sri Lanka",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 810,
+   "feeText": "From $810 pp (5-6 pax, superior) / $935 pp (2 pax, superior); deluxe from $975; solo $1,430",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling - valid until 30 Apr 2027",
+   "when": "8 days / 7 nights; valid 1 Oct 2026 - 30 Apr 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $810 pp (5-6 pax); $935 pp for 2 pax",
+     "info"
+    ],
+    [
+     "Flights",
+     "Round-trip flights to Colombo excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "7 nights superior or deluxe",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast (HB +$120)",
+     "partial"
+    ],
+    [
+     "Guide",
+     "English-speaking driver/guide",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Visa charge ($65) excluded",
+     "no"
+    ],
+    [
+     "Entrance fees",
+     "Elephant Orphanage, Sigiriya, Kandy Temple, Botanical Garden, cultural show, Yala",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Call Tania Travel on +961 1 616555 or WhatsApp +961 3 601301 (or email tania@taniatravel.com) to check availability and book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 616555",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Mobile/WhatsApp",
+     "+961 3 601301",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Email",
+     "tania@taniatravel.com",
+     "Published on taniatravel.com"
+    ]
+   ],
+   "url": "https://taniatravel.com/tour/sri-lanka-classical-tour-2/",
+   "image": "https://taniatravel.com/wp-content/uploads/2025/10/01NUWA-IM0001-nuwara-eliya.jpg",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-tania-kenya-highlights-2026",
+   "cat": "hiking",
+   "title": "Highlight of Kenya safari - 7 days / 6 nights (Mondays until 15 Dec 2026)",
+   "org": "Tania Travel",
+   "place": "Nairobi, Shaba, Lake Naivasha & Masai Mara, Kenya",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 2355,
+   "feeText": "From about $2,355 pp sharing (1 Nov - 15 Dec period); Oct period about $2,435; Masai Mara bed levy $170 adult may be added",
+   "deadline": null,
+   "eventDate": "2026-10-26T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "7 days / 6 nights; every Monday until 15 Dec 2026 (min. 2 persons)",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From about $2,355 pp sharing (Nov-Dec)",
+     "info"
+    ],
+    [
+     "Flights",
+     "Round-trip ticket excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "6 nights (Sarova hotels/lodges)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "As specified in programme",
+     "partial"
+    ],
+    [
+     "Guide",
+     "English-speaking tour escort",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Visa charge excluded",
+     "no"
+    ],
+    [
+     "Park fees",
+     "All park fees and government taxes",
+     "yes"
+    ],
+    [
+     "Safari transport",
+     "Shared 4x4 (max 6 per vehicle)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Call Tania Travel on +961 1 616555 or WhatsApp +961 3 601301 (or email tania@taniatravel.com) to check availability and book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 616555",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Mobile/WhatsApp",
+     "+961 3 601301",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Email",
+     "tania@taniatravel.com",
+     "Published on taniatravel.com"
+    ]
+   ],
+   "url": "https://taniatravel.com/tour/highlight-of-kenya-2026/",
+   "image": "https://taniatravel.com/wp-content/uploads/2025/10/412440c12c99e0000f5649d096249daba3b5f0a3-5129x2885-1-scaled.webp",
+   "confidence": "Medium",
+   "caveat": "Price table columns were hard to read; $2,355 appears to be the triple/double rate for 1 Nov-15 Dec. Confirm with Tania. Possible bed levy $170 adult / $90 child extra.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-tania-balkan-essentials-oct-2026",
+   "cat": "hiking",
+   "title": "Balkan Essentials guided tour - 12 days / 11 nights (departs 26 Oct 2026)",
+   "org": "Tania Travel",
+   "place": "Serbia, Bosnia, Montenegro & Croatia (Belgrade to Zagreb)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 2950,
+   "feeText": "Standard: EUR 2,705 pp triple / EUR 2,735 double / EUR 3,540 single (about $2,950+); Superior from EUR 3,135",
+   "deadline": null,
+   "eventDate": "2026-10-26T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "12 days / 11 nights; guaranteed departure 26 Oct 2026",
+   "meet": "Not stated",
+   "team": "Guided group tour (min. 2 pax)",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From EUR 2,705 pp (approx. $2,950)",
+     "info"
+    ],
+    [
+     "Flights",
+     "International flights excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "11 nights",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast daily; half board in Zlatibor",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Professional guide throughout",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Visa fees excluded",
+     "no"
+    ],
+    [
+     "Entrance fees",
+     "St Sava, Oplenac, Wooden Town, Kotor, Split/Hvar catamaran, Plitvice",
+     "yes"
+    ],
+    [
+     "Departure transfer",
+     "Excluded",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Call Tania Travel on +961 1 616555 or WhatsApp +961 3 601301 (or email tania@taniatravel.com) to check availability and book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 616555",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Mobile/WhatsApp",
+     "+961 3 601301",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Email",
+     "tania@taniatravel.com",
+     "Published on taniatravel.com"
+    ]
+   ],
+   "url": "https://taniatravel.com/tour/balkan-essentials/",
+   "image": "https://taniatravel.com/wp-content/uploads/2026/02/0x0-sarajevo-mostar-train-one-of-18-dream-routes-in-the-world-1532900672552.jpg",
+   "confidence": "High",
+   "caveat": "Last 2026 departure is in 2 days (26 Oct); USD is an approximate conversion from EUR.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-tania-grand-tour-morocco-2026-27",
+   "cat": "hiking",
+   "title": "Grand Tour of Morocco - Imperial Cities & Kasbah Trail, 9 days / 8 nights",
+   "org": "Tania Travel",
+   "place": "Casablanca, Fez, Merzouga, Ouarzazate & Marrakesh, Morocco",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1575,
+   "feeText": "From EUR 1,445 pp (3*, double/triple, min. 2) - about $1,575; up to EUR 2,435",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling - valid until 20 Oct 2027",
+   "when": "9 days / 8 nights; valid 21 Oct 2026 - 20 Oct 2027 (no fixed dates)",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From EUR 1,445 pp (approx. $1,575)",
+     "info"
+    ],
+    [
+     "Flights",
+     "Round-trip ticket to Casablanca excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "8 nights incl. desert camp",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast and meals as per programme",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Local English-speaking guide on city tours; private driver",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Visa fees excluded",
+     "no"
+    ],
+    [
+     "Entrance fees",
+     "All mentioned sites; camel ride in Merzouga",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Call Tania Travel on +961 1 616555 or WhatsApp +961 3 601301 (or email tania@taniatravel.com) to check availability and book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 616555",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Mobile/WhatsApp",
+     "+961 3 601301",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Email",
+     "tania@taniatravel.com",
+     "Published on taniatravel.com"
+    ]
+   ],
+   "url": "https://taniatravel.com/tour/grand-tour-of-morocco/",
+   "image": "https://taniatravel.com/wp-content/uploads/2025/03/Untitled-2024-01-15T153413.140-1024x576-1.png",
+   "confidence": "High",
+   "caveat": "USD is an approximate conversion from EUR; rates not valid during fair periods.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-tania-prague-vienna-budapest-2026-27",
+   "cat": "hiking",
+   "title": "Prague - Vienna - Budapest - 10 days / 9 nights (until Feb 2027)",
+   "org": "Tania Travel",
+   "place": "Prague, Vienna & Budapest",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1320,
+   "feeText": "From EUR 1,210 pp triple / EUR 1,230 double (1 Nov 2026 - 28 Feb 2027), about $1,320; Sep-Oct EUR 1,250",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling - valid until 28 Feb 2027",
+   "when": "10 days / 9 nights; valid until 28 Feb 2027 (except 23 Dec 2026 - 2 Jan 2027)",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From EUR 1,210 pp (approx. $1,320)",
+     "info"
+    ],
+    [
+     "Flights",
+     "Round-trip ticket excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "9 nights 4* city-centre",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast",
+     "partial"
+    ],
+    [
+     "Guided tours",
+     "Budapest + Danube cruise, Vienna + Schonbrunn, Prague Castle + Vltava cruise, Cesky Krumlov",
+     "yes"
+    ],
+    [
+     "Trains",
+     "2nd-class Prague-Vienna and Vienna-Budapest",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Visa charge excluded",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Call Tania Travel on +961 1 616555 or WhatsApp +961 3 601301 (or email tania@taniatravel.com) to check availability and book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 616555",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Mobile/WhatsApp",
+     "+961 3 601301",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Email",
+     "tania@taniatravel.com",
+     "Published on taniatravel.com"
+    ]
+   ],
+   "url": "https://taniatravel.com/tour/budapest-vienna-prague/",
+   "image": "https://taniatravel.com/wp-content/uploads/2025/06/AdobeStock_247811965-scaled-1.jpeg",
+   "confidence": "High",
+   "caveat": "USD approximate. Tours are seat-in-coach; pickups for tours and station transfers excluded; city taxes extra.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-tania-bangkok-koh-si-chang-pattaya-2026-27",
+   "cat": "hiking",
+   "title": "Bangkok - Koh Si Chang - Pattaya Discovery, 7 days / 6 nights (Nov 2026 - Apr 2027)",
+   "org": "Tania Travel",
+   "place": "Bangkok, Koh Si Chang & Pattaya, Thailand",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1020,
+   "feeText": "From $1,020 pp (6 pax) / $1,325 pp (2 pax); single supplement $350",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling - valid until 30 Apr 2027",
+   "when": "7 days / 6 nights; valid 1 Nov 2026 - 30 Apr 2027 (min. 2 persons)",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $1,020 pp (6 pax); $1,325 pp for 2",
+     "info"
+    ],
+    [
+     "Flights",
+     "Round-trip ticket excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "2 nights each in Bangkok, Koh Si Chang, Pattaya",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Guide",
+     "English-speaking guide",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Visa fees excluded",
+     "no"
+    ],
+    [
+     "Entrance fees",
+     "All tours with entrance fees as mentioned",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Call Tania Travel on +961 1 616555 or WhatsApp +961 3 601301 (or email tania@taniatravel.com) to check availability and book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 616555",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Mobile/WhatsApp",
+     "+961 3 601301",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Email",
+     "tania@taniatravel.com",
+     "Published on taniatravel.com"
+    ]
+   ],
+   "url": "https://taniatravel.com/tour/bangkok-pattaya/",
+   "image": "https://taniatravel.com/wp-content/uploads/2024/12/bangkok-pataya-bangkok.jpg",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-tania-central-thailand-bangkok-2026-27",
+   "cat": "hiking",
+   "title": "Central Thailand Highlight - Bangkok, 7 days / 6 nights (Nov 2026 - Apr 2027)",
+   "org": "Tania Travel",
+   "place": "Bangkok & Central Thailand",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 625,
+   "feeText": "From 625 pp (6 pax, 3*) / 1,055 pp (2 pax, 3*); currency not stated on page, likely USD",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling - valid until 30 Apr 2027",
+   "when": "7 days / 6 nights; valid 1 Nov 2026 - 30 Apr 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From 625 per person (6 pax); 1,055 for 2 pax (currency not stated)",
+     "info"
+    ],
+    [
+     "Flights",
+     "Round-trip ticket excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "6 nights in Bangkok",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Guide",
+     "English-speaking guide",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Visa charge excluded",
+     "no"
+    ],
+    [
+     "Entrance fees",
+     "All sites visited",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Call Tania Travel on +961 1 616555 or WhatsApp +961 3 601301 (or email tania@taniatravel.com) to check availability and book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 616555",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Mobile/WhatsApp",
+     "+961 3 601301",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Email",
+     "tania@taniatravel.com",
+     "Published on taniatravel.com"
+    ]
+   ],
+   "url": "https://taniatravel.com/tour/central-thailand-highlight-bangkok/",
+   "image": "https://taniatravel.com/wp-content/uploads/2024/12/City-bankgog.jpeg",
+   "confidence": "Medium",
+   "caveat": "Page does not state currency; USD assumed from Tania's other Thailand pages.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-tania-india-kerala-2026-27",
+   "cat": "hiking",
+   "title": "India - Kerala tour, 7 days / 6 nights (daily departures)",
+   "org": "Tania Travel",
+   "place": "Cochin, Periyar, Alleppey, Kumarakom & Marari, Kerala, India",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 980,
+   "feeText": "From $980 pp triple / $1,285 double (standard, Oct 2026 - Apr 2027); superior from $1,295",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rolling - daily departures until 30 Sep 2027",
+   "when": "7 days / 6 nights; daily departures 3 Oct 2026 - 30 Sep 2027 (except 23 Dec 2026 - 5 Jan 2027), min. 2 persons",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $980 pp triple / $1,285 double",
+     "info"
+    ],
+    [
+     "Flights",
+     "International ticket excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "6 nights bed & breakfast",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast plus 2 lunches (Vaikom, houseboat)",
+     "partial"
+    ],
+    [
+     "Guide",
+     "English-speaking local guide",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Visa charge excluded",
+     "no"
+    ],
+    [
+     "Entrance fees",
+     "Monuments per programme; Kathakali show, Periyar boat ride",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Call Tania Travel on +961 1 616555 or WhatsApp +961 3 601301 (or email tania@taniatravel.com) to check availability and book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 616555",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Mobile/WhatsApp",
+     "+961 3 601301",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Email",
+     "tania@taniatravel.com",
+     "Published on taniatravel.com"
+    ]
+   ],
+   "url": "https://taniatravel.com/tour/india-kerala/",
+   "image": "https://taniatravel.com/wp-content/uploads/2025/10/68093-Cochin.webp",
+   "confidence": "High",
+   "caveat": "Some inclusions/exclusions on the page mention Madurai, Munnar and Delhi, which look copied from another itinerary - confirm with Tania.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-tania-qatar-grand-prix-nov-2026",
+   "cat": "hiking",
+   "title": "Qatar Formula 1 Grand Prix package - 4 days / 3 nights (27-30 Nov 2026)",
+   "org": "Tania Travel",
+   "place": "Doha & Lusail, Qatar (flights not included)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 530,
+   "feeText": "From $530 pp (2 sharing, 4* hotel, T16 Grandstand); $685 solo; Main Grandstand 5* up to $1,185",
+   "deadline": null,
+   "eventDate": "2026-11-27T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "4 days / 3 nights, 27-30 Nov 2026",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $530 pp (2 pax, 4*, T16)",
+     "info"
+    ],
+    [
+     "Flights",
+     "Round-trip ticket excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "3 nights 4* or 5*",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Race tickets",
+     "3-day Grand Prix tickets in chosen grandstand",
+     "yes"
+    ],
+    [
+     "City tour",
+     "4-hour private Doha tour",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Visa charge excluded for non-Lebanese",
+     "partial"
+    ],
+    [
+     "Circuit transfers",
+     "Excluded ($180 per car)",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Call Tania Travel on +961 1 616555 or WhatsApp +961 3 601301 (or email tania@taniatravel.com) to check availability and book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 616555",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Mobile/WhatsApp",
+     "+961 3 601301",
+     "Published on taniatravel.com"
+    ],
+    [
+     "Email",
+     "tania@taniatravel.com",
+     "Published on taniatravel.com"
+    ]
+   ],
+   "url": "https://taniatravel.com/tour/grand-prix-of-qatar/",
+   "image": "https://taniatravel.com/wp-content/uploads/2026/01/f1-2024-qatar-grand-prix-race-start_f-1500x1000.webp",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-cts-aqaba-nov-2026",
+   "cat": "hiking",
+   "title": "Aqaba, Jordan - 3 nights (20-23 Nov 2026) · CTS Travel",
+   "org": "CTS Travel & Tourism",
+   "place": "Aqaba, Jordan (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 450,
+   "feeText": "Starting $450 per person (4* and 5* hotels)",
+   "deadline": null,
+   "eventDate": "2026-11-20T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "4 days / 3 nights, 20-23 Nov 2026",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $450 per person",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (direct Royal Jordanian flight, economy)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "3 nights at 4* or 5* hotel included",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast only; lunches and dinners excluded",
+     "partial"
+    ],
+    [
+     "Airport transfers",
+     "Private round-trip transfers included",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Representative assistance in Jordan; no guided tours stated",
+     "partial"
+    ],
+    [
+     "Visa",
+     "Visa fees excluded",
+     "no"
+    ],
+    [
+     "Travel insurance",
+     "Excluded ($15)",
+     "no"
+    ],
+    [
+     "Entrance fees",
+     "Not stated (optional tours excluded)",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Use \"Request a quote\" on the package page or call CTS on +961 1 395 600 to book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 395 600",
+     "Published on cts.com.lb"
+    ]
+   ],
+   "url": "https://www.cts.com.lb/packages/1492/aqaba-package-",
+   "image": "http://kms.cts.com.lb/content/resizedimages/500/500/inside/aqaba261022090605995~.jpg",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-cts-armenia-winter-2026",
+   "cat": "hiking",
+   "title": "Magnificent Armenia - 4 nights in Yerevan (Nov 2026 - Feb 2027)",
+   "org": "CTS Travel & Tourism",
+   "place": "Yerevan, Armenia (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 990,
+   "feeText": "Starting $990 per person (4* or 5* hotels)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Offer valid for travel until 28 Feb 2027",
+   "when": "5 days / 4 nights; valid 1 Nov 2026 - 28 Feb 2027 (not valid 27 Dec 2026 - 7 Jan 2027)",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $990 per person",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (MEA, economy, airport taxes)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "4 nights at 4* or 5* hotel included",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Airport transfers",
+     "Included",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Representative assistance in Armenia; tours optional",
+     "partial"
+    ],
+    [
+     "Visa",
+     "Visa charge excluded if needed",
+     "no"
+    ],
+    [
+     "Entrance fees",
+     "Excluded (paid on the spot)",
+     "no"
+    ],
+    [
+     "Travel insurance",
+     "Excluded",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Use \"Request a quote\" on the package page or call CTS on +961 1 395 600 to book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 395 600",
+     "Published on cts.com.lb"
+    ]
+   ],
+   "url": "https://www.cts.com.lb/packages/471/magnificent-armenia-",
+   "image": "http://kms.cts.com.lb/content/resizedimages/768/1000/inside/062623-CALIFORNIA-ARMENIA-01-KQED-800x533230905123039417~.jpg",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-cts-istanbul-newyear-2026",
+   "cat": "hiking",
+   "title": "New Year in Istanbul - 3 nights (31 Dec 2026 - 3 Jan 2027)",
+   "org": "CTS Travel & Tourism",
+   "place": "Istanbul, Turkey (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 550,
+   "feeText": "Starting $550 per person (3*, 4* or 5* hotels)",
+   "deadline": null,
+   "eventDate": "2026-12-31T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "4 days / 3 nights, 31 Dec 2026 - 3 Jan 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $550 per person",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (Turkish Airlines, economy, airport taxes)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "3 nights at 3*, 4* or 5* hotel",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast; New Year gala dinner excluded",
+     "partial"
+    ],
+    [
+     "Airport transfers",
+     "Private round-trip transfers included",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Representative assistance; tours optional",
+     "partial"
+    ],
+    [
+     "Visa",
+     "Visa charge excluded if needed",
+     "no"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Travel insurance",
+     "Excluded",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Use \"Request a quote\" on the package page or call CTS on +961 1 395 600 to book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 395 600",
+     "Published on cts.com.lb"
+    ]
+   ],
+   "url": "https://www.cts.com.lb/packages/440/new-year-in-istanbul-",
+   "image": "http://kms.cts.com.lb/content/resizedimages/500/500/inside/istanbul-new-year-min221102045011316~.jpg",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-cts-rome-winter-2026",
+   "cat": "hiking",
+   "title": "The Eternal City, Rome - 3 nights (Nov 2026 - Mar 2027)",
+   "org": "CTS Travel & Tourism",
+   "place": "Rome, Italy (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1050,
+   "feeText": "Starting $1050 per person",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Offer valid for travel until 10 Mar 2027",
+   "when": "4 days / 3 nights; valid 16 Nov 2026 - 10 Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $1050 per person",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (MEA, economy, airport taxes)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "3 nights in Rome",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Guided Vatican Museums & Sistine Chapel tour and Colosseum/Forum tour included",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Included for the two guided tours",
+     "partial"
+    ],
+    [
+     "Visa",
+     "Schengen visa charge excluded",
+     "no"
+    ],
+    [
+     "Travel insurance",
+     "Excluded ($15)",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Use \"Request a quote\" on the package page or call CTS on +961 1 395 600 to book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 395 600",
+     "Published on cts.com.lb"
+    ]
+   ],
+   "url": "https://www.cts.com.lb/packages/478/the-eternal-city,-rome",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-cts-fantasia-italia-winter-2026",
+   "cat": "hiking",
+   "title": "Fantasia Italia - 8-day Italy tour (Nov 2026 - Mar 2027)",
+   "org": "CTS Travel & Tourism",
+   "place": "Rome, Assisi, Florence, Bologna, Venice & Tuscany, Italy (flight from Beirut not included)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1195,
+   "feeText": "Starting $1195 per person, land only (4* hotels; flights extra)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Offer valid until 14 Mar 2027",
+   "when": "8 days / 7 nights; guaranteed departures valid 1 Nov 2026 - 14 Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $1195 per person (land only)",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Excluded (round trip to Rome and taxes extra)",
+     "no"
+    ],
+    [
+     "Hotel",
+     "7 nights at centrally located 4* hotels",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Several lunches and tastings included (Assisi, Florence, Bologna, Venice, Montepulciano); other meals excluded",
+     "partial"
+    ],
+    [
+     "Transport",
+     "Deluxe motor coach and airport transfers in Rome",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Guided tours in Florence and Venice; Vatican tour with skip-the-line",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Schengen visa fee excluded",
+     "no"
+    ],
+    [
+     "Travel insurance",
+     "Excluded ($15)",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Use \"Request a quote\" on the package page or call CTS on +961 1 395 600 to book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 395 600",
+     "Published on cts.com.lb"
+    ]
+   ],
+   "url": "https://www.cts.com.lb/packages/443/fantasia-italia-guaranteed-departures-",
+   "image": "http://kms.cts.com.lb/content/resizedimages/500/500/inside/streets-of-Siena-Italy221111112923035~.jpg",
+   "confidence": "High",
+   "caveat": "Exact guaranteed departure dates are in the CTS PDF and were not read.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-cts-heart-of-europe-2027",
+   "cat": "hiking",
+   "title": "Discover the Heart of Europe - Budapest, Vienna & Prague (to Feb 2027)",
+   "org": "CTS Travel & Tourism",
+   "place": "Budapest, Vienna & Prague (flight from Beirut not included)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 990,
+   "feeText": "Starting $990 per person, land only (4* hotels; flights extra)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Offer valid until 28 Feb 2027",
+   "when": "7 days / 6 nights; valid until 28 Feb 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $990 per person (land only)",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Airline ticket excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "6 nights at 4* hotels (2 per city)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Transport",
+     "2nd-class trains Budapest-Vienna-Prague; airport transfers",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Guided city tours in all three cities (Danube and Vltava cruises included)",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Schengen visa excluded",
+     "no"
+    ],
+    [
+     "Travel insurance",
+     "Excluded",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Use \"Request a quote\" on the package page or call CTS on +961 1 395 600 to book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 395 600",
+     "Published on cts.com.lb"
+    ]
+   ],
+   "url": "https://www.cts.com.lb/packages/1491/discover-the-heart-of-europe-",
+   "image": "http://kms.cts.com.lb/content/resizedimages/500/500/inside/Austria-Vienna-22261007035837222~.jpg",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-cts-budapest-2027",
+   "cat": "hiking",
+   "title": "Budapest, Pearl of the Danube - 3 nights (to Feb 2027)",
+   "org": "CTS Travel & Tourism",
+   "place": "Budapest, Hungary (flight from Beirut not included)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 905,
+   "feeText": "Starting $905 per person, land only (4* hotel; flights extra)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Offer valid until 28 Feb 2027",
+   "when": "4 days / 3 nights; valid until 28 Feb 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $905 per person (land only)",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Airline ticket excluded",
+     "no"
+    ],
+    [
+     "Hotel",
+     "3 nights at 4* hotel with breakfast",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast plus wine tasting with snacks",
+     "partial"
+    ],
+    [
+     "Activities",
+     "Danube cruise, thermal bath, ruin-bar tour, shooting experience included",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Guided city tour included",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Schengen visa excluded",
+     "no"
+    ],
+    [
+     "Travel insurance",
+     "Excluded",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Use \"Request a quote\" on the package page or call CTS on +961 1 395 600 to book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 395 600",
+     "Published on cts.com.lb"
+    ]
+   ],
+   "url": "https://www.cts.com.lb/packages/226/budapest,-pearl-of-the-danube",
+   "image": "http://kms.cts.com.lb/content/resizedimages/500/500/inside/budapest-scaled261007034324004~.jpg",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-cts-spain-2027",
+   "cat": "hiking",
+   "title": "Spanish Delights - 9-day Spain coach tour (to Mar 2027)",
+   "org": "CTS Travel & Tourism",
+   "place": "Madrid, Cordoba, Seville, Granada, Valencia & Barcelona (flight from Beirut not included)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1975,
+   "feeText": "Starting $1975 per person, land only (4* hotels; flights extra)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Offer valid until March 2027",
+   "when": "9 days / 8 nights; group departures valid until Mar 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $1975 per person (land only)",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Excluded (into Madrid, out of Barcelona)",
+     "no"
+    ],
+    [
+     "Hotel",
+     "8 nights, daily breakfast",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast only",
+     "partial"
+    ],
+    [
+     "Transport",
+     "Luxury motor coach",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Tour director throughout plus local city guides",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Cordoba Mosque, Seville Cathedral, Alhambra included",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Schengen visa excluded",
+     "no"
+    ],
+    [
+     "Travel insurance",
+     "Excluded ($15)",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Use \"Request a quote\" on the package page or call CTS on +961 1 395 600 to book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 395 600",
+     "Published on cts.com.lb"
+    ]
+   ],
+   "url": "https://www.cts.com.lb/packages/448/spanish-delights-",
+   "image": "http://kms.cts.com.lb/content/resizedimages/500/500/inside/Cordoba%202230116030843398~.jpg",
+   "confidence": "Medium",
+   "caveat": "Specific group departure dates are not on the page.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-cts-croatia-2026",
+   "cat": "hiking",
+   "title": "Croatia Tour - Dubrovnik to Zagreb, 9 days (to Dec 2026)",
+   "org": "CTS Travel & Tourism",
+   "place": "Dubrovnik, Split, Zadar, Plitvice & Zagreb, Croatia (flight from Beirut not included)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1300,
+   "feeText": "Starting $1300 per person, land only (3*, 4* or 5* hotels; flights extra)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Offer valid until December 2026",
+   "when": "9 days / 8 nights; valid until Dec 2026",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $1300 per person (land only)",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Excluded (into Dubrovnik, out of Zagreb)",
+     "no"
+    ],
+    [
+     "Hotel",
+     "8 nights, daily breakfast",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast only; lunches and dinners excluded",
+     "partial"
+    ],
+    [
+     "Transport",
+     "Private a/c vehicle / coach transfers",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Local guides for walking tours",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Dubrovnik walls, Diocletian's Palace, Plitvice included",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Visa charge excluded",
+     "no"
+    ],
+    [
+     "Travel insurance",
+     "Excluded ($15)",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Use \"Request a quote\" on the package page or call CTS on +961 1 395 600 to book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 395 600",
+     "Published on cts.com.lb"
+    ]
+   ],
+   "url": "https://www.cts.com.lb/packages/460/croatia-tour-",
+   "image": "http://kms.cts.com.lb/content/resizedimages/500/500/inside/croatia%20elaphiti%201230222010945201~.jpg",
+   "confidence": "Medium",
+   "caveat": "Winter departures may be limited; ask CTS which dates still run before end-2026.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-concord-malaysia-newyear-2026",
+   "cat": "hiking",
+   "title": "New Year in Kuala Lumpur, Malaysia (29 Dec 2026 - 2 Jan 2027)",
+   "org": "Concord Travel",
+   "place": "Kuala Lumpur, Malaysia (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1790,
+   "feeText": "$1790 (page does not state per-person basis)",
+   "deadline": null,
+   "eventDate": "2026-12-29T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "29 Dec 2026 - 2 Jan 2027 (Qatar Airways via Doha)",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "$1790",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (Qatar Airways BEY-DOH-KUL and back)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "Pullman Kuala Lumpur City Centre",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Dinner at Orbit revolving restaurant, KL Tower; other meals not stated",
+     "partial"
+    ],
+    [
+     "Airport transfers",
+     "Private sedan transfers included",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Private Batu Caves & cultural tour included",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call or WhatsApp Concord Travel on +961 70 512 112 or +961 81 512 112, or visit the Hamra branch (Saroulla Bldg, 8th floor), to book."
+   ],
+   "contact": [
+    [
+     "Phone/WhatsApp",
+     "+961 70 512 112",
+     "Published on concordtravel.com.lb"
+    ],
+    [
+     "Phone",
+     "+961 1 730074",
+     "Published on concordtravel.com.lb"
+    ],
+    [
+     "Email",
+     "online@concordtravel.com.lb",
+     "Published on concordtravel.com.lb"
+    ]
+   ],
+   "url": "https://concordtravel.com.lb/pages/packagedetails/273/new-year-in-malaysia",
+   "image": "https://concordtravel.com.lb/assets/images/albums/Kuala-Lumpur.webp",
+   "confidence": "High",
+   "caveat": "Page does not say whether $1790 is per person or which room type; subject to availability.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-concord-cairo-autumn-2026",
+   "cat": "hiking",
+   "title": "Cairo, Egypt - 3 nights (October & November)",
+   "org": "Concord Travel",
+   "place": "Cairo, Egypt (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 360,
+   "feeText": "$360 per person",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Offer valid for October and November travel",
+   "when": "4 days / 3 nights; valid in October and November",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "$360 per person",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (MEA, 2 pieces of luggage)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "3 nights at Pyramids Gold Sand Inn 4*",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Airport transfers",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call or WhatsApp Concord Travel on +961 70 512 112 or +961 81 512 112, or visit the Hamra branch (Saroulla Bldg, 8th floor), to book."
+   ],
+   "contact": [
+    [
+     "Phone/WhatsApp",
+     "+961 70 512 112",
+     "Published on concordtravel.com.lb"
+    ],
+    [
+     "Phone",
+     "+961 1 730074",
+     "Published on concordtravel.com.lb"
+    ],
+    [
+     "Email",
+     "online@concordtravel.com.lb",
+     "Published on concordtravel.com.lb"
+    ]
+   ],
+   "url": "https://concordtravel.com.lb/pages/packagedetails/274/cairo-package",
+   "image": "https://concordtravel.com.lb/assets/images/albums/cairo-luxor-aswan-concord-travel.webp",
+   "confidence": "Medium",
+   "caveat": "Page does not state the year; its duration field says 5 days/4 nights while the description says 4 days/3 nights.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-concord-istanbul-autumn-2026",
+   "cat": "hiking",
+   "title": "Istanbul, Turkey - 3 nights (October & November)",
+   "org": "Concord Travel",
+   "place": "Istanbul, Turkey (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 410,
+   "feeText": "$410 per person (double room); page header shows $299",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Offer valid for October and November travel",
+   "when": "4 days / 3 nights; valid in October and November",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "$410 per person, double room",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (AJet)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "3 nights at Grand Liza Hotel",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Airport transfers",
+     "Shared transfers included",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call or WhatsApp Concord Travel on +961 70 512 112 or +961 81 512 112, or visit the Hamra branch (Saroulla Bldg, 8th floor), to book."
+   ],
+   "contact": [
+    [
+     "Phone/WhatsApp",
+     "+961 70 512 112",
+     "Published on concordtravel.com.lb"
+    ],
+    [
+     "Phone",
+     "+961 1 730074",
+     "Published on concordtravel.com.lb"
+    ],
+    [
+     "Email",
+     "online@concordtravel.com.lb",
+     "Published on concordtravel.com.lb"
+    ]
+   ],
+   "url": "https://concordtravel.com.lb/pages/packagedetails/282/istanbul-travel-package",
+   "image": "https://concordtravel.com.lb/assets/images/albums/istanbul-packages.webp",
+   "confidence": "Medium",
+   "caveat": "Price conflict on page ($299 header vs $410 in description); year not stated.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-concord-athens-nov-2026",
+   "cat": "hiking",
+   "title": "Athens, Greece - 3 nights (November)",
+   "org": "Concord Travel",
+   "place": "Athens (Piraeus), Greece (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 385,
+   "feeText": "$385 per person (double room); page header shows $365",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Offer for November travel",
+   "when": "4 days / 3 nights; available in November",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "$385 per person, double room",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (MEA)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "3 nights at The Park Hotel Piraeus",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Airport transfers",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call or WhatsApp Concord Travel on +961 70 512 112 or +961 81 512 112, or visit the Hamra branch (Saroulla Bldg, 8th floor), to book."
+   ],
+   "contact": [
+    [
+     "Phone/WhatsApp",
+     "+961 70 512 112",
+     "Published on concordtravel.com.lb"
+    ],
+    [
+     "Phone",
+     "+961 1 730074",
+     "Published on concordtravel.com.lb"
+    ],
+    [
+     "Email",
+     "online@concordtravel.com.lb",
+     "Published on concordtravel.com.lb"
+    ]
+   ],
+   "url": "https://concordtravel.com.lb/pages/packagedetails/280/athens-package",
+   "image": "https://concordtravel.com.lb/assets/images/albums/athens-package.webp",
+   "confidence": "Medium",
+   "caveat": "Page date field says \"july 2026\" while the description says \"Available in November\"; price $365 vs $385. Confirm with Concord.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-satguru-jordan-highlights-2026",
+   "cat": "hiking",
+   "title": "Highlights of Jordan - Petra, Wadi Rum & Dead Sea, 5 days (to 23 Dec 2026)",
+   "org": "Satguru Travel Lebanon",
+   "place": "Amman, Madaba, Petra, Wadi Rum & Dead Sea, Jordan (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1035,
+   "feeText": "From $1035 per person (3* hotels, triple room, 1-23 Dec); $1120 triple / $1225 double in Nov; headline \"From $1150\"",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rates valid until 23 Dec 2026",
+   "when": "5 days / 4 nights; any date until 23 Dec 2026 (prices vary by season)",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $1035 per person (triple, 3*)",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (economy, lowest fare)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "4 nights; B&B, half board in Wadi Rum",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast daily; dinner in Wadi Rum",
+     "partial"
+    ],
+    [
+     "Transport",
+     "Private a/c vehicle",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Local guides at Petra and Jerash; private guide for groups of 8+",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "All sites in the programme included; 2-hour Wadi Rum jeep safari",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Use \"Book Package\" on the page, or call Satguru Travel Lebanon on +961 1 330 398 / +961 76 888 470 (Sassine, Ashrafieh)."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 330 398",
+     "Published on satgurutravel.com.lb"
+    ],
+    [
+     "Mobile",
+     "+961 76 888 470",
+     "Published on satgurutravel.com.lb"
+    ],
+    [
+     "Email",
+     "leisure.beirut@satgurutravel.com",
+     "Published on satgurutravel.com.lb"
+    ]
+   ],
+   "url": "https://satgurutravel.com.lb/highlights-of-jordan-holiday-package/",
+   "image": "https://satgurutravel.com.lb/wp-content/uploads/2025/01/Jordan-tour-package.webp",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-satguru-petra-and-more-2026",
+   "cat": "hiking",
+   "title": "Petra and More - Jordan, 6 days (to 23 Dec 2026)",
+   "org": "Satguru Travel Lebanon",
+   "place": "Amman, Jerash, Petra, Wadi Rum & Dead Sea, Jordan (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1135,
+   "feeText": "From $1135 per person (3* hotels, triple room, 1-23 Dec); $1220 triple / $1355 double in Nov",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Rates valid until 23 Dec 2026",
+   "when": "6 days / 5 nights; any date until 23 Dec 2026",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $1135 per person (triple, 3*)",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (economy, lowest fare)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "5 nights, B&B",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Transport",
+     "Private a/c vehicle",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Local guides at Petra and Jerash; private guide for groups of 8+",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Included; 2-hour Wadi Rum jeep safari",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Use \"Book Package\" on the page, or call Satguru Travel Lebanon on +961 1 330 398 / +961 76 888 470 (Sassine, Ashrafieh)."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 330 398",
+     "Published on satgurutravel.com.lb"
+    ],
+    [
+     "Mobile",
+     "+961 76 888 470",
+     "Published on satgurutravel.com.lb"
+    ],
+    [
+     "Email",
+     "leisure.beirut@satgurutravel.com",
+     "Published on satgurutravel.com.lb"
+    ]
+   ],
+   "url": "https://satgurutravel.com.lb/petra-tour-package-2026/",
+   "image": "https://satgurutravel.com.lb/wp-content/uploads/2024/08/2.webp",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-satguru-srilanka-newyear-2026",
+   "cat": "hiking",
+   "title": "Sri Lanka New Year Tour - 7 nights (30 Dec 2026 - 6 Jan 2027)",
+   "org": "Satguru Travel Lebanon",
+   "place": "Colombo, Sigiriya, Kandy, Nuwara Eliya & south coast, Sri Lanka (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1685,
+   "feeText": "$1685 per person in a triple room (group of 3); child $1060",
+   "deadline": null,
+   "eventDate": "2026-12-30T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "8 days / 7 nights, 30 Dec 2026 - 6 Jan 2027",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "$1685 per person (triple room)",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (Air Arabia, 20 kg)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "7 nights, B&B (Courtyard Colombo, Heritance Ahungalla, etc.)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast plus compulsory New Year gala dinner",
+     "partial"
+    ],
+    [
+     "Transport",
+     "A/c micro-van with English-speaking chauffeur guide",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Chauffeur guide included",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Included",
+     "yes"
+    ],
+    [
+     "Travel insurance",
+     "Included",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Excluded (e.g. Sigiriya $37, Kandy temple $12)",
+     "no"
+    ]
+   ],
+   "steps": [
+    "Use \"Book Package\" on the page, or call Satguru Travel Lebanon on +961 1 330 398 / +961 76 888 470 (Sassine, Ashrafieh)."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 330 398",
+     "Published on satgurutravel.com.lb"
+    ],
+    [
+     "Mobile",
+     "+961 76 888 470",
+     "Published on satgurutravel.com.lb"
+    ],
+    [
+     "Email",
+     "leisure.beirut@satgurutravel.com",
+     "Published on satgurutravel.com.lb"
+    ]
+   ],
+   "url": "https://satgurutravel.com.lb/sri-lanka-tour-package-2/",
+   "image": "https://satgurutravel.com.lb/wp-content/uploads/2024/07/7.webp",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-satguru-batumi-tbilisi-2026",
+   "cat": "hiking",
+   "title": "Batumi & Tbilisi, Georgia - 7 nights",
+   "org": "Satguru Travel Lebanon",
+   "place": "Tbilisi, Borjomi, Batumi & Kazbegi, Georgia (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 2130,
+   "feeText": "From $2130 per person (double room, 2 adults)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "8 days / 7 nights; no fixed dates stated",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $2130 per person, double",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Listed as included (MEA, 23 kg) but also listed as excluded - confirm",
+     "ns"
+    ],
+    [
+     "Hotel",
+     "4 nights Novotel Tbilisi 5* + 3 nights Hampton by Hilton Batumi 4*, B&B",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast",
+     "partial"
+    ],
+    [
+     "Transport",
+     "Private tours and transfers",
+     "yes"
+    ],
+    [
+     "Guide",
+     "English-speaking driver guide",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Borjomi, Botanical Garden, Martvili, Gonio etc. included",
+     "yes"
+    ],
+    [
+     "Travel insurance",
+     "Included",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Use \"Book Package\" on the page, or call Satguru Travel Lebanon on +961 1 330 398 / +961 76 888 470 (Sassine, Ashrafieh)."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 1 330 398",
+     "Published on satgurutravel.com.lb"
+    ],
+    [
+     "Mobile",
+     "+961 76 888 470",
+     "Published on satgurutravel.com.lb"
+    ],
+    [
+     "Email",
+     "leisure.beirut@satgurutravel.com",
+     "Published on satgurutravel.com.lb"
+    ]
+   ],
+   "url": "https://satgurutravel.com.lb/batumi-tbilisi-tour-package/",
+   "image": "https://satgurutravel.com.lb/wp-content/uploads/2025/03/Tbilisi-tour-package.webp",
+   "confidence": "Medium",
+   "caveat": "Page contradicts itself on whether air tickets are included.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-elajouz-georgia-allyear",
+   "cat": "hiking",
+   "title": "Georgia - 7 nights with MEA flights",
+   "org": "El Ajouz Travel & Tourism",
+   "place": "Georgia (departs Beirut on MEA)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 695,
+   "feeText": "Starting price $695 (basis not stated)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "8 days / 7 nights; dates not stated",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $695",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (MEA, airport taxes)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "7 nights in selected hotel",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Daily breakfast; meals during tours excluded",
+     "partial"
+    ],
+    [
+     "Airport transfers",
+     "Private round-trip transfers",
+     "yes"
+    ],
+    [
+     "Extras",
+     "Free SIM card",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Excluded",
+     "no"
+    ],
+    [
+     "Travel insurance",
+     "Excluded",
+     "no"
+    ],
+    [
+     "Visa",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call El Ajouz Travel on +961 3 041 661 or visit the main office (Chiah, Awada Center, 1st floor) to book."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 3 041 661",
+     "Published on elajouztravel.com"
+    ]
+   ],
+   "url": "https://www.elajouztravel.com/packages/view_package/196/GEORGIA",
+   "confidence": "Medium",
+   "caveat": "Page shows no dates or validity and does not say if $695 is per person; confirm with El Ajouz.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-alamanah-hajj-economy-may-2027",
+   "cat": "hiking",
+   "title": "Hajj 2027 (1448 AH) - Economy Package, 18 days (from 10 May 2027)",
+   "org": "Al Amanah Travel, Hajj & Umrah",
+   "place": "Madinah & Makkah, Saudi Arabia (departs Beirut; transport from Tripoli)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 4700,
+   "feeText": "Mawlid offer $4700 / $5350 / $6000 per person (quad / triple / double); regular price $4900 / $5700 / $6500",
+   "deadline": null,
+   "eventDate": "2027-05-10T00:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated by Al Amanah; another Lebanese operator gives 15 Oct 2026 as the Hajj 1448 application deadline - confirm",
+   "when": "17 nights / 18 days, about 10-27 May 2027 (4-21 Dhul Hijjah; dates may shift with the Hijri calendar)",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips",
+    "umrah"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group",
+     "Hajj eligibility and registration follow official Lebanese/Saudi procedures"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $4700 per person (quad, Mawlid offer)",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (MEA or Saudia)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "3 nights near the Prophet's Mosque; Makkah hotel further from Haram (shuttle)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast & dinner buffet in Madinah; daily lunch in Makkah; meals in the Mashaer",
+     "partial"
+    ],
+    [
+     "Transport",
+     "Tripoli-Beirut airport transfer, Haramain train, buses in the Mashaer",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Religious and administrative supervision; medical care",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Hajj cheque category D (per last year's pricing) included",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Not applicable",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Call Al Amanah on +961 6 202 402 or +961 70 511 525, or visit the Tripoli office (Azmi St, facing Famous Cocktail), to register."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 6 202 402",
+     "Published on alamanah.net"
+    ],
+    [
+     "Mobile",
+     "+961 70 511 525",
+     "Published on alamanah.net"
+    ],
+    [
+     "Email",
+     "t.halabi@hotmail.com",
+     "Published on alamanah.net"
+    ]
+   ],
+   "url": "https://www.alamanah.net/web/content/9749?unique=4b9746947262b9a716afe707bfa69a1c00668cca&download=true",
+   "confidence": "Medium",
+   "caveat": "Mawlid offer prices may no longer apply; Hajj 2027 places are subject to official quotas and registration deadlines.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-alamanah-hajj-superior-may-2027",
+   "cat": "hiking",
+   "title": "Hajj 2027 (1448 AH) - Superior Package, 17 days (from 10 May 2027)",
+   "org": "Al Amanah Travel, Hajj & Umrah",
+   "place": "Madinah & Makkah, Saudi Arabia (departs Beirut; transport from Tripoli)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 5350,
+   "feeText": "Mawlid offer $5350 / $6000 / $6650 per person (quad / triple / double); regular price $5500 / $6250 / $7000",
+   "deadline": null,
+   "eventDate": "2027-05-10T00:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No deadline stated by Al Amanah; another Lebanese operator gives 15 Oct 2026 as the Hajj 1448 application deadline - confirm",
+   "when": "16 nights / 17 days, about 10-26 May 2027 (4-20 Dhul Hijjah; dates may shift with the Hijri calendar)",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips",
+    "umrah"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; valid passport needed.",
+     "Age: Not stated",
+     "Team: Book individually or as a group",
+     "Hajj eligibility and registration follow official Lebanese/Saudi procedures"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "From $5350 per person (quad, Mawlid offer)",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (MEA or Saudia)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "Madinah hotel steps from the mosque; 6 nights at 5* hotel steps from the Haram in Makkah after Hajj days",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast & dinner buffet in Madinah; breakfast buffet in Makkah; meals in the Mashaer",
+     "partial"
+    ],
+    [
+     "Transport",
+     "Tripoli-Beirut airport transfer, Haramain train, buses in the Mashaer",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Religious and administrative supervision; medical care",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Hajj cheque category D (per last year's pricing) included",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Not applicable",
+     "info"
+    ]
+   ],
+   "steps": [
+    "Call Al Amanah on +961 6 202 402 or +961 70 511 525, or visit the Tripoli office (Azmi St, facing Famous Cocktail), to register."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 6 202 402",
+     "Published on alamanah.net"
+    ],
+    [
+     "Mobile",
+     "+961 70 511 525",
+     "Published on alamanah.net"
+    ],
+    [
+     "Email",
+     "t.halabi@hotmail.com",
+     "Published on alamanah.net"
+    ]
+   ],
+   "url": "https://www.alamanah.net/web/content/9707?unique=a6f6bc2c565c8e9f1e33dfe75ba28b9c01c3be5e&download=true",
+   "confidence": "Medium",
+   "caveat": "Mawlid offer prices may no longer apply; Hajj 2027 places are subject to official quotas and registration deadlines.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-georgia-christmas-22-26-dec-2026",
+   "cat": "hiking",
+   "title": "Georgia Christmas Edition - 5 days (22-26 Dec 2026)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Tbilisi, Georgia and around (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1090,
+   "feeText": "$1,090 per person, all inclusive (double or triple room); single room +$260",
+   "deadline": null,
+   "eventDate": "2026-12-22T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "5 days / 4 nights, 22-26 Dec 2026. Highlights: Tbilisi city tour and Christmas market, Borjomi park and sulfur pools, Bakuriani snow day, Uplistsikhe cave town, Mtskheta and Chronicles of Georgia, special Christmas dinner.",
+   "meet": "Beirut airport (flight to Tbilisi); flight time not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; passport valid 6+ months after return. Organiser states Lebanese passport holders can enter Georgia without a visa; other nationalities handled on reservation.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "$1,090 per person, all inclusive",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (flight ticket)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "4-star hotels, double or triple room (single +$260)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast daily; other meals not included (organiser suggests about $300 cash for food)",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Georgian guide and Lebanese guide included",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not needed for Lebanese passport holders (per organiser)",
+     "info"
+    ],
+    [
+     "Entrance fees",
+     "All entrance fees included; airport pickup, daily transport and travel insurance also included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Book and pay on the trip page (Buy Now) or WhatsApp LOA on +961 3 599 579.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo) as listed on the page."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/georgia-christmas-edition/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/08/4.png",
+   "confidence": "High",
+   "caveat": "Optional activities (ski, ATV, horseback) cost extra. Airline and flight times not stated.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-georgia-christmas-22-30-dec-2026",
+   "cat": "hiking",
+   "title": "Georgia Christmas Edition - 9 days (22-30 Dec 2026)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Tbilisi, Georgia and around (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1490,
+   "feeText": "$1,490 per person, all inclusive (double or triple room); single room +$300",
+   "deadline": null,
+   "eventDate": "2026-12-22T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "9 days / 8 nights, 22-30 Dec 2026. Highlights: Tbilisi, Borjomi and Bakuriani snow day, Christmas dinner, Uplistsikhe and Mtskheta, free day, Sighnaghi and Kakheti wine tour, Batumi New Year village and botanical garden.",
+   "meet": "Beirut airport (flight to Tbilisi); flight time not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; passport valid 6+ months after return. Organiser states Lebanese passport holders can enter Georgia without a visa; other nationalities handled on reservation.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "$1,490 per person, all inclusive",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (flight ticket)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "4-star hotels, double or triple room (single +$300)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast daily; other meals not included (organiser suggests about $300 cash for food)",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Georgian guide and Lebanese guide included",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not needed for Lebanese passport holders (per organiser)",
+     "info"
+    ],
+    [
+     "Entrance fees",
+     "All entrance fees included; airport pickup, daily transport and travel insurance also included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Book and pay on the trip page (Buy Now) or WhatsApp LOA on +961 3 599 579.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo) as listed on the page."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/georgia-christmas-edition-22-dec-30-jan/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/7-5.png",
+   "confidence": "High",
+   "caveat": "Optional activities (ski, ATV, horseback) cost extra. Airline and flight times not stated.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-georgia-christmas-26-30-dec-2026",
+   "cat": "hiking",
+   "title": "Georgia Christmas Edition - 5 days (26-30 Dec 2026)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Tbilisi, Georgia and around (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1090,
+   "feeText": "$1,090 per person, all inclusive (double or triple room); single room +$260",
+   "deadline": null,
+   "eventDate": "2026-12-26T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "5 days / 4 nights, 26-30 Dec 2026. Highlights: Tbilisi city tour, cable car and Christmas market, Sighnaghi and Kakheti wine tour, Batumi old town and New Year village, Batumi boulevard and botanical garden.",
+   "meet": "Beirut airport (flight to Tbilisi); flight time not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; passport valid 6+ months after return. Organiser states Lebanese passport holders can enter Georgia without a visa; other nationalities handled on reservation.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "$1,090 per person, all inclusive",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (flight ticket)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "4-star hotels, double or triple room (single +$260)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast daily; other meals not included (organiser suggests about $300 cash for food)",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Georgian guide and Lebanese guide included",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not needed for Lebanese passport holders (per organiser)",
+     "info"
+    ],
+    [
+     "Entrance fees",
+     "All entrance fees included; airport pickup, daily transport and travel insurance also included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Book and pay on the trip page (Buy Now) or WhatsApp LOA on +961 3 599 579.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo) as listed on the page."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/georgia-christmas-edition-26-dec-30-dec/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/2.png",
+   "confidence": "High",
+   "caveat": "Optional activities (ski, ATV, horseback) cost extra. Airline and flight times not stated.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-georgia-christmas-26dec-03jan-dec-2026",
+   "cat": "hiking",
+   "title": "Georgia Christmas Edition - 9 days (26 Dec 2026 - 3 Jan 2027)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Tbilisi, Georgia and around (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1550,
+   "feeText": "$1,550 per person, all inclusive (double or triple room); single room +$300",
+   "deadline": null,
+   "eventDate": "2026-12-26T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "9 days / 8 nights, 26 Dec 2026 - 3 Jan 2027. Highlights: Tbilisi, Sighnaghi and Kakheti wine tour, Batumi, free day, Borjomi and Stalin Museum, New Year Eve party in Tbilisi, Mtskheta, Ananuri fortress and Gudauri snow activities.",
+   "meet": "Beirut airport (flight to Tbilisi); flight time not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; passport valid 6+ months after return. Organiser states Lebanese passport holders can enter Georgia without a visa; other nationalities handled on reservation.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "$1,550 per person, all inclusive",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (flight ticket)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "4-star hotels, double or triple room (single +$300)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast daily; other meals not included (organiser suggests about $300 cash for food)",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Georgian guide and Lebanese guide included",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not needed for Lebanese passport holders (per organiser)",
+     "info"
+    ],
+    [
+     "Entrance fees",
+     "All entrance fees included; airport pickup, daily transport and travel insurance also included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Book and pay on the trip page (Buy Now) or WhatsApp LOA on +961 3 599 579.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo) as listed on the page."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/georgia-christmas-edition-26-dec-03-jan/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/3-3.png",
+   "confidence": "High",
+   "caveat": "Optional activities (ski, ATV, horseback) cost extra. Airline and flight times not stated.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-georgia-christmas-30dec-03jan-dec-2026",
+   "cat": "hiking",
+   "title": "Georgia Christmas Edition - 5 days (30 Dec 2026 - 3 Jan 2027)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Tbilisi, Georgia and around (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1150,
+   "feeText": "$1,150 per person, all inclusive (double or triple room); single room +$280",
+   "deadline": null,
+   "eventDate": "2026-12-30T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "5 days / 4 nights, 30 Dec 2026 - 3 Jan 2027. Highlights: Tbilisi Christmas market, Borjomi and Stalin Museum, New Year Eve party, Chronicles of Georgia and Mtskheta, Ananuri fortress and Gudauri snow activities.",
+   "meet": "Beirut airport (flight to Tbilisi); flight time not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; passport valid 6+ months after return. Organiser states Lebanese passport holders can enter Georgia without a visa; other nationalities handled on reservation.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "$1,150 per person, all inclusive",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (flight ticket)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "4-star hotels, double or triple room (single +$280)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast daily; other meals not included (organiser suggests about $300 cash for food)",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Georgian guide and Lebanese guide included",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not needed for Lebanese passport holders (per organiser)",
+     "info"
+    ],
+    [
+     "Entrance fees",
+     "All entrance fees included; airport pickup, daily transport and travel insurance also included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Book and pay on the trip page (Buy Now) or WhatsApp LOA on +961 3 599 579.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo) as listed on the page."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/georgia-christmas-edition-30-dec-03-jan/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/8-1.png",
+   "confidence": "High",
+   "caveat": "Optional activities (ski, ATV, horseback) cost extra. Airline and flight times not stated.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-georgia-christmas-30dec-07jan-dec-2026",
+   "cat": "hiking",
+   "title": "Georgia Christmas Edition - 9 days (30 Dec 2026 - 7 Jan 2027)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Tbilisi, Georgia and around (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1550,
+   "feeText": "$1,550 per person, all inclusive (double or triple room); single room +$300",
+   "deadline": null,
+   "eventDate": "2026-12-30T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "9 days / 8 nights, 30 Dec 2026 - 7 Jan 2027. Highlights: New Year Eve party in Tbilisi, Borjomi and Stalin Museum, Mtskheta, Gudauri snow day, Sighnaghi and Kakheti wine tour, two days in Bakuriani.",
+   "meet": "Beirut airport (flight to Tbilisi); flight time not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; passport valid 6+ months after return. Organiser states Lebanese passport holders can enter Georgia without a visa; other nationalities handled on reservation.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "$1,550 per person, all inclusive",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (flight ticket)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "4-star hotels, double or triple room (single +$300)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast daily; other meals not included (organiser suggests about $300 cash for food)",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Georgian guide and Lebanese guide included",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not needed for Lebanese passport holders (per organiser)",
+     "info"
+    ],
+    [
+     "Entrance fees",
+     "All entrance fees included; airport pickup, daily transport and travel insurance also included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Book and pay on the trip page (Buy Now) or WhatsApp LOA on +961 3 599 579.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo) as listed on the page."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/georgia-christmas-edition-30-dec-07-jan/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/6-2.png",
+   "confidence": "High",
+   "caveat": "Optional activities (ski, ATV, horseback) cost extra. Airline and flight times not stated.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-georgia-christmas-03-07jan-jan-2027",
+   "cat": "hiking",
+   "title": "Georgia Christmas Edition - 5 days (3-7 Jan 2027)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Tbilisi, Georgia and around (departs Beirut)",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": 1090,
+   "feeText": "$1,090 per person, all inclusive (double or triple room); single room +$260",
+   "deadline": null,
+   "eventDate": "2027-01-03T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "5 days / 4 nights, 3-7 Jan 2027. Highlights: Tbilisi night tour and Christmas market, Sighnaghi and Kakheti wine tour, two days of snow activities in Bakuriani.",
+   "meet": "Beirut airport (flight to Tbilisi); flight time not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Sold in Lebanon; passport valid 6+ months after return. Organiser states Lebanese passport holders can enter Georgia without a visa; other nationalities handled on reservation.",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Package price",
+     "$1,090 per person, all inclusive",
+     "info"
+    ],
+    [
+     "Return flights",
+     "Included (flight ticket)",
+     "yes"
+    ],
+    [
+     "Hotel",
+     "4-star hotels, double or triple room (single +$260)",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast daily; other meals not included (organiser suggests about $300 cash for food)",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Georgian guide and Lebanese guide included",
+     "yes"
+    ],
+    [
+     "Visa",
+     "Not needed for Lebanese passport holders (per organiser)",
+     "info"
+    ],
+    [
+     "Entrance fees",
+     "All entrance fees included; airport pickup, daily transport and travel insurance also included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Book and pay on the trip page (Buy Now) or WhatsApp LOA on +961 3 599 579.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo) as listed on the page."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/georgia-christmas-edition-03-jan-07-jan/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/pexels-rockwell-branding-agency-85164430-8910285-scaled.jpg",
+   "confidence": "High",
+   "caveat": "Optional activities (ski, ATV, horseback) cost extra. Airline and flight times not stated.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-camping-movie-night-oct-2026",
+   "cat": "hiking",
+   "title": "Camping & Movie Night overnight (24-25 Oct 2026)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Mountain campsite, Lebanon (location shared on booking)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 20,
+   "feeText": "$20 per person all inclusive (or $15 bonfire & movie night only); tent rental +$10, sleeping bag +$5",
+   "deadline": null,
+   "eventDate": "2026-10-24T00:00:00+03:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "2 days / 1 night, Sat 24 - Sun 25 Oct 2026: forest hike, campsite, bonfire and open-air movie",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips",
+    "hiking"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$20 per person all inclusive",
+     "info"
+    ],
+    [
+     "Transport",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Accommodation",
+     "Camping spot included; bring or rent tent (+$10) and sleeping bag (+$5)",
+     "partial"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Guides included",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Book and pay on the trip page (Buy Now) or WhatsApp LOA on +961 3 599 579.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo) as listed on the page."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/camping-movie-night/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/Untitled-Design.png",
+   "confidence": "Medium",
+   "caveat": "Starts today (24 Oct 2026); exact campsite and transport not stated. Page also lists a repeat date on 23-24 Oct 2027.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-sefir-qadisha-cedars-dec-2026",
+   "cat": "hiking",
+   "title": "Sefir bi Lebnen day tour: Qadisha, Arz cedars, St Jacob, La Jetee, St Charbel house (12 Dec 2026)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Qadisha Valley & Bcharre, North Lebanon (bus from Beirut)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 35,
+   "feeText": "$35 per person",
+   "deadline": null,
+   "eventDate": "2026-12-12T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "Full day, Sat 12 Dec 2026",
+   "meet": "Not stated",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$35 per person",
+     "info"
+    ],
+    [
+     "Transport",
+     "Transportation included",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Breakfast, water and coffee included",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Professional guides included",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Entrance fees (if any) included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Book and pay on the trip page (Buy Now) or WhatsApp LOA on +961 3 599 579.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo) as listed on the page."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/sefir-bi-lebnen-to-qadisha-arz-cedars-forest-st-jacob-la-jetee-st-charbel-house/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/489805657_1213658670760958_5374092195077197940_n.jpg",
+   "confidence": "Medium",
+   "caveat": "Meeting points not stated on this page (other LOA trips use Bikfaya, Sin El Fil, Furn El Chebbak, Mar Mikhael, Zalka, Antelias).",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-snowshoe-laklouk-lakes-jan-2027",
+   "cat": "hiking",
+   "title": "Laklouk lakes snowshoeing (Sat 23 Jan and Sat 30 Jan 2027)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Laklouk, Mount Lebanon (bus from Beirut)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 30,
+   "feeText": "$30 per person all inclusive",
+   "deadline": null,
+   "eventDate": "2027-01-23T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "One-day trips on Sat 23 Jan and Sat 30 Jan 2027. Trail: 8 km loop, +370 m, max 2,000 m; moderate",
+   "meet": "Bikfaya (Pierre Gemayel statue) 7:00AM; Sin El Fil (Rachidi Home) 8:00AM; Furn El Chebbak (Sagesse University) 8:05AM; Mar Mikhael Al Naher (Total) 8:15AM; Zalka (Fahed Supermarket) 8:20AM; Antelias (Demco Towers) 8:30AM",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips",
+    "hiking"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$30 per person all inclusive",
+     "info"
+    ],
+    [
+     "Transport",
+     "Bus from Beirut pick-up points (per listing)",
+     "yes"
+    ],
+    [
+     "Snowshoes",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Book and pay on the trip page (Buy Now) or WhatsApp LOA on +961 3 599 579.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo) as listed on the page."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/laklouk-lakes-snowshoeing-2/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/01/20250105_163625-scaled.jpg",
+   "confidence": "Medium",
+   "caveat": "Winter dates appear to repeat yearly on the site; snow conditions decide whether it runs. Inclusions (snowshoe rental, guide) not itemised on the page.",
+   "difficulty": "8 km loop, +370 m, max 2,000 m; moderate",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-snowshoe-arz-qanat-bakish-jan-2027",
+   "cat": "hiking",
+   "title": "Arz Qanat Bakish snowshoeing (Sun 17 Jan and Sun 24 Jan 2027)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Qanat Bakish, Bcharre area (bus from Beirut)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 30,
+   "feeText": "$30 per person",
+   "deadline": null,
+   "eventDate": "2027-01-17T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "One-day trips on Sun 17 Jan and Sun 24 Jan 2027. Trail: 8 km loop, +230 m, max 2,100 m; easy to moderate",
+   "meet": "Sin El Fil (Rachidi Home) 8:00AM; Furn El Chebbak (Sagesse University) 8:05AM; Mar Mikhael Al Naher (Total) 8:15AM; Zalka (Fahed Supermarket) 8:20AM; Antelias (Demco Towers) 8:30AM; Bikfaya (Wooden Bakery) 8:50AM",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips",
+    "hiking"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$30 per person",
+     "info"
+    ],
+    [
+     "Transport",
+     "Bus from Beirut pick-up points (per listing)",
+     "yes"
+    ],
+    [
+     "Snowshoes",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Book and pay on the trip page (Buy Now) or WhatsApp LOA on +961 3 599 579.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo) as listed on the page."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/arz-qanat-bakish-snowshoeing/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/01/20240225_121348-scaled.jpg",
+   "confidence": "Medium",
+   "caveat": "Winter dates appear to repeat yearly on the site; snow conditions decide whether it runs. Inclusions (snowshoe rental, guide) not itemised on the page.",
+   "difficulty": "8 km loop, +230 m, max 2,100 m; easy to moderate",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-snowshoe-arz-el-rab-bcharre-jan-2027",
+   "cat": "hiking",
+   "title": "Arz el Rab - Bcharre snowshoeing (Sat 9 Jan and Sat 16 Jan 2027)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Cedars of God, Bcharre (bus from Beirut)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 32,
+   "feeText": "$32 per person",
+   "deadline": null,
+   "eventDate": "2027-01-09T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "One-day trips on Sat 9 Jan and Sat 16 Jan 2027. Trail: 7 km one way, +45 m / -170 m, max 1,984 m; easy",
+   "meet": "Bikfaya (Pierre Gemayel statue) 7:00AM; Sin El Fil (Rachidi Home) 8:00AM; Furn El Chebbak (Sagesse University) 8:05AM; Mar Mikhael Al Naher (Total) 8:15AM; Zalka (Fahed Supermarket) 8:20AM; Antelias (Demco Towers) 8:30AM",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips",
+    "hiking"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$32 per person",
+     "info"
+    ],
+    [
+     "Transport",
+     "Bus from Beirut pick-up points (per listing)",
+     "yes"
+    ],
+    [
+     "Snowshoes",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Book and pay on the trip page (Buy Now) or WhatsApp LOA on +961 3 599 579.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo) as listed on the page."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/arz-el-rab-bcharre-snowshoeing-4/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/01/pexels-landsmann-803094805-19280188-scaled.jpg",
+   "confidence": "Medium",
+   "caveat": "Winter dates appear to repeat yearly on the site; snow conditions decide whether it runs. Inclusions (snowshoe rental, guide) not itemised on the page.",
+   "difficulty": "7 km one way, +45 m / -170 m, max 1,984 m; easy",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-sefir-ehden-snow-jan-2027",
+   "cat": "hiking",
+   "title": "Sefir bi Lebnen: Ehden, Zgharta, Bnachii & Ayto - snow edition (24 Jan 2027)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Ehden & Zgharta, North Lebanon (bus from Beirut)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 25,
+   "feeText": "$25 per person all inclusive",
+   "deadline": null,
+   "eventDate": "2027-01-24T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "Full day, Sun 24 Jan 2027: St Anthony monastery Ehden, Saydet El Hosn, Midan Ehden, St George church, Deir Mar Semaan Ayto, free time and lunch at Bnachii lake",
+   "meet": "Bikfaya (Pierre Gemayel statue) 7:00AM; Sin El Fil (Rachidi Home) 8:00AM; Furn El Chebbak (Sagesse University) 8:05AM; Mar Mikhael Al Naher (Total) 8:15AM; Zalka (Fahed Supermarket) 8:20AM; Antelias (Demco Towers) 8:30AM",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$25 per person all inclusive",
+     "info"
+    ],
+    [
+     "Transport",
+     "Bus from Beirut pick-up points",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Lunch at the lake; not stated whether included",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Book and pay on the trip page (Buy Now) or WhatsApp LOA on +961 3 599 579.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo) as listed on the page."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/sefer-bi-leb-ehden-zgharta-ayto-snow-edition/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/01/WhatsApp-Image-2026-01-18-at-12.28.36-PM.jpeg",
+   "confidence": "Medium",
+   "caveat": "Listing was created for Jan 2026 and its date has rolled to 2027; confirm with LOA before paying.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-private-baalbek-anjar-ksara-rolling",
+   "cat": "hiking",
+   "title": "The Roman Grandeur: Baalbek, Anjar & Ksara (private day tour, 4+ guests)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Baalbek, Anjar & Ksara, Bekaa (from Beirut)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 50,
+   "feeText": "$200 total for 4 guests (about $50 per person); $250 for 5, $300 for 6, $350 for 7 - all inclusive",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Runs on a recurring schedule; book ahead",
+   "when": "Private full-day cultural tour, any date on request (minimum 4 guests)",
+   "meet": "Not stated",
+   "team": "Private group of 4-7 people",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Private group, minimum 4 guests"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$200 total for 4 guests (about $50 per person); $250 for 5, $300 for 6, $350 for 7 - all inclusive",
+     "info"
+    ],
+    [
+     "Transport",
+     "Listed as all-inclusive; details not itemised",
+     "ns"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Listed as all-inclusive; details not itemised",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Book on the LOA page (choose group size) or WhatsApp +961 3 599 579 to fix a date.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo)."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/the-roman-grandeur-baalbek-anjar-ksara/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/03/Baalbek-Compressed.jpg",
+   "confidence": "Medium",
+   "caveat": "Price is per group, not per person; the per-person figure is the group-of-4 price divided by 4. Exact inclusions not itemised.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-private-qadisha-bcharre-cedars-rolling",
+   "cat": "hiking",
+   "title": "The Holy Valley: Qadisha, Bcharre & the Cedars (private day tour, 4+ guests)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Qadisha Valley, Bcharre & Cedars, North Lebanon (from Beirut)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 65,
+   "feeText": "$260 total for 4 people (about $65 per person); $325 for 5, $390 for 6, $455 for 7 - all inclusive",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Runs on a recurring schedule; book ahead",
+   "when": "Private full-day cultural tour, any date on request (minimum 4 guests)",
+   "meet": "Not stated",
+   "team": "Private group of 4-7 people",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Private group, minimum 4 guests"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$260 total for 4 people (about $65 per person); $325 for 5, $390 for 6, $455 for 7 - all inclusive",
+     "info"
+    ],
+    [
+     "Transport",
+     "Listed as all-inclusive; details not itemised",
+     "ns"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Listed as all-inclusive; details not itemised",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Book on the LOA page (choose group size) or WhatsApp +961 3 599 579 to fix a date.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo)."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/the-holy-valley-qadisha-bcharre-the-cedars/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/03/1076_museum1-1.jpg",
+   "confidence": "Medium",
+   "caveat": "Price is per group, not per person; the per-person figure is the group-of-4 price divided by 4. Exact inclusions not itemised.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-loa-private-chouf-deir-el-qamar-beiteddine-rolling",
+   "cat": "hiking",
+   "title": "The Chouf Royalty: Deir el Qamar, Beiteddine & Chouf cedars (private day tour, 4+ guests)",
+   "org": "Lebanon Outdoor Activities (LOA)",
+   "place": "Deir el Qamar, Beiteddine & Chouf Biosphere, Mount Lebanon (from Beirut)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 65,
+   "feeText": "$260 total for 4 people (about $65 per person); $325 for 5, $390 for 6, $455 for 7 - all inclusive",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "deadlineText": "Runs on a recurring schedule; book ahead",
+   "when": "Private full-day cultural tour, any date on request (minimum 4 guests)",
+   "meet": "Not stated",
+   "team": "Private group of 4-7 people",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Private group, minimum 4 guests"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$260 total for 4 people (about $65 per person); $325 for 5, $390 for 6, $455 for 7 - all inclusive",
+     "info"
+    ],
+    [
+     "Transport",
+     "Listed as all-inclusive; details not itemised",
+     "ns"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Guide",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Entrance fees",
+     "Listed as all-inclusive; details not itemised",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Book on the LOA page (choose group size) or WhatsApp +961 3 599 579 to fix a date.",
+    "Payment by transfer (Whish, OMT, Suyul, Neo)."
+   ],
+   "contact": [
+    [
+     "WhatsApp / Phone",
+     "+961 3 599 579",
+     "Published on lebanonoutdooractivities.com"
+    ],
+    [
+     "Email",
+     "info@lebanonoutdooractivities.com",
+     "Published on lebanonoutdooractivities.com"
+    ]
+   ],
+   "url": "https://lebanonoutdooractivities.com/listing/the-chouf-royalty-deir-el-qamar-beiteddine-and-chouf-biosphere-cedars-forest/",
+   "image": "https://lebanonoutdooractivities.com/wp-content/uploads/2026/03/5-2-1.jpg",
+   "confidence": "Medium",
+   "caveat": "Price is per group, not per person; the per-person figure is the group-of-4 price divided by 4. Exact inclusions not itemised.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-vamos-zahle-hike-wine-nov-2026",
+   "cat": "hiking",
+   "title": "Zahle hike & wine tasting: Chateau Khoury and Chateau Nakad (21 Nov 2026)",
+   "org": "Vamos Todos",
+   "place": "Zahle, Bekaa Valley (bus from Jdeideh)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 75,
+   "feeText": "$75 per person including transport, guides, insurance and lunch",
+   "deadline": null,
+   "eventDate": "2026-11-21T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "Day trip, Sat 21 Nov 2026: vineyard hike and tour with the owner at Chateau Khoury, tasting at Chateau Nakad, Lebanese lunch (non-walkers can do the tasting only)",
+   "meet": "Parking of Sagesse School, Jdeideh (facing the public garden), 8:00AM, departure 8:15AM",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips",
+    "hiking"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$75 per person including transport, guides, insurance and lunch",
+     "info"
+    ],
+    [
+     "Transport",
+     "Bus from Jdeideh included",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Lunch included",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Guides included",
+     "yes"
+    ],
+    [
+     "Insurance",
+     "Included (LIA Assurex)",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Winery visits and tastings part of the tour",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Reserve daily 8am-5pm on +961 3 917190 or +961 79 115001 (SMS/WhatsApp your name, phone, email and the event), or use the form on the event page.",
+    "Tickets also sold at Antoine Library branches and on antoineticketing.com (outdoors experiences)."
+   ],
+   "contact": [
+    [
+     "Phone / WhatsApp",
+     "+961 3 917190",
+     "Published on vamos-todos.com"
+    ],
+    [
+     "Phone / WhatsApp",
+     "+961 79 115001",
+     "Published on vamos-todos.com"
+    ]
+   ],
+   "url": "https://www.vamos-todos.com/Pages/EventDetails.aspx?ev=XxyCnLEjdjQ%3D&title=20261121-Wine%20Tour-Zahle%20Hike%20%26%20Wine%20Tasting!",
+   "image": "https://www.vamos-todos.com/Pictures/EventPictures/0851374920059Wine%20Tour%20(2).JPG",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-vamos-anfeh-hike-tour-dec-2026",
+   "cat": "hiking",
+   "title": "Anfeh hike & heritage tour with cave lunch (5 Dec 2026)",
+   "org": "Vamos Todos",
+   "place": "Anfeh, Koura coast, North Lebanon (bus from Jdeideh)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 30,
+   "feeText": "$55 per person with transport, guides, insurance and lunch; $30 without lunch",
+   "deadline": null,
+   "eventDate": "2026-12-05T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "Day trip, Sat 5 Dec 2026: Anfeh old village, Byzantine church, Crusader citadel and rock-cut moat, trail to Saidet el Natour monastery, homemade lunch in a cave (about 9 km, moderate)",
+   "meet": "Parking of Sagesse School, Jdeideh (facing the public garden), 8:30AM",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips",
+    "hiking"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$55 per person with transport, guides, insurance and lunch; $30 without lunch",
+     "info"
+    ],
+    [
+     "Transport",
+     "Bus from Jdeideh included",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Homemade lunch in the $55 option",
+     "partial"
+    ],
+    [
+     "Guide",
+     "Guides included",
+     "yes"
+    ],
+    [
+     "Insurance",
+     "Included (LIA Assurex)",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Reserve daily 8am-5pm on +961 3 917190 or +961 79 115001 (SMS/WhatsApp your name, phone, email and the event), or use the form on the event page.",
+    "Tickets also sold at Antoine Library branches and on antoineticketing.com (outdoors experiences)."
+   ],
+   "contact": [
+    [
+     "Phone / WhatsApp",
+     "+961 3 917190",
+     "Published on vamos-todos.com"
+    ],
+    [
+     "Phone / WhatsApp",
+     "+961 79 115001",
+     "Published on vamos-todos.com"
+    ]
+   ],
+   "url": "https://www.vamos-todos.com/Pages/EventDetails.aspx?ev=FUIzAjMSD9o%3D&title=20261205-Hiking%20Trip-Anfeh%20Hike%20%26%20Tour",
+   "image": "https://www.vamos-todos.com/Pictures/EventPictures/0722584126112Anfeh%20(14).JPG",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-vamos-metn-wine-tour-dec-2026",
+   "cat": "hiking",
+   "title": "El Metn wine tour ending at Mysterre Winery (12 Dec 2026)",
+   "org": "Vamos Todos",
+   "place": "El Metn, incl. Dhour Choueir / Ain Sindyene (bus from Jdeideh)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 60,
+   "feeText": "$60 per person including transport, wine tasting, guides, insurance and lunch",
+   "deadline": null,
+   "eventDate": "2026-12-12T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "Day trip, Sat 12 Dec 2026: Metn winery visits and tastings, final stop Mysterre Winery with homemade garden lunch",
+   "meet": "Parking of Sagesse School, Jdeideh (facing the public garden), 9:00AM",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$60 per person including transport, wine tasting, guides, insurance and lunch",
+     "info"
+    ],
+    [
+     "Transport",
+     "Bus from Jdeideh included",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Lunch included",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Guides included",
+     "yes"
+    ],
+    [
+     "Insurance",
+     "Included (LIA Assurex)",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Wine tasting included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Reserve daily 8am-5pm on +961 3 917190 or +961 79 115001 (SMS/WhatsApp your name, phone, email and the event), or use the form on the event page.",
+    "Tickets also sold at Antoine Library branches and on antoineticketing.com (outdoors experiences)."
+   ],
+   "contact": [
+    [
+     "Phone / WhatsApp",
+     "+961 3 917190",
+     "Published on vamos-todos.com"
+    ],
+    [
+     "Phone / WhatsApp",
+     "+961 79 115001",
+     "Published on vamos-todos.com"
+    ]
+   ],
+   "url": "https://www.vamos-todos.com/Pages/EventDetails.aspx?ev=fPuEBDcUneg%3D&title=20261212-Wine%20Tour-El%20Metn%20Wine%20Tour!",
+   "image": "https://www.vamos-todos.com/Pictures/EventPictures/0306180679841Untitled%20500%20400.jpg",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-vamos-bekaa-wine-tour-dec-2026",
+   "cat": "hiking",
+   "title": "Bekaa wine tour: Domaine des Tourelles, Chateau Nakad, Chateau Heritage (26 Dec 2026)",
+   "org": "Vamos Todos",
+   "place": "Bekaa Valley (bus from Jdeideh)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 80,
+   "feeText": "$80 per person including transport, wine tasting, guides, insurance and lunch",
+   "deadline": null,
+   "eventDate": "2026-12-26T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "Day trip, Sat 26 Dec 2026: three wineries with tastings (wine and cognac), homemade lunch at Khan al Makssoud",
+   "meet": "Parking of Sagesse School, Jdeideh (facing the public garden), 8:00AM, departure 8:15AM",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$80 per person including transport, wine tasting, guides, insurance and lunch",
+     "info"
+    ],
+    [
+     "Transport",
+     "Bus from Jdeideh included",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Lunch with soft drinks included",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Guides included",
+     "yes"
+    ],
+    [
+     "Insurance",
+     "Included (LIA Assurex)",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Wine tastings included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Reserve daily 8am-5pm on +961 3 917190 or +961 79 115001 (SMS/WhatsApp your name, phone, email and the event), or use the form on the event page.",
+    "Tickets also sold at Antoine Library branches and on antoineticketing.com (outdoors experiences)."
+   ],
+   "contact": [
+    [
+     "Phone / WhatsApp",
+     "+961 3 917190",
+     "Published on vamos-todos.com"
+    ],
+    [
+     "Phone / WhatsApp",
+     "+961 79 115001",
+     "Published on vamos-todos.com"
+    ]
+   ],
+   "url": "https://www.vamos-todos.com/Pages/EventDetails.aspx?ev=gTv%2FCVmmAww%3D&title=20261226-Wine%20Tour-Wine%20Tour%20Bekaa",
+   "image": "https://www.vamos-todos.com/Pictures/EventPictures/0958075370904W%20T%20Khoury%20(1)%20-%20Copy.JPG",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-vamos-ehden-snowshoeing-feb-2027",
+   "cat": "hiking",
+   "title": "Ehden reserve snowshoeing (13 Feb 2027)",
+   "org": "Vamos Todos",
+   "place": "Horsh Ehden Nature Reserve, North Lebanon (bus from Jdeideh)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 45,
+   "feeText": "$45 per person including transport, guides, insurance, reserve entrance and snowshoes",
+   "deadline": null,
+   "eventDate": "2027-02-13T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "Day trip, Sat 13 Feb 2027: snowshoeing in Horsh Ehden, easy and challenging levels",
+   "meet": "Parking of Sagesse School, Jdeideh (facing the public garden), 8:00AM, departure 8:15AM",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips",
+    "hiking"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$45 per person including transport, guides, insurance, reserve entrance and snowshoes",
+     "info"
+    ],
+    [
+     "Transport",
+     "Bus from Jdeideh included",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Not included (breakfast stop on the way)",
+     "no"
+    ],
+    [
+     "Guide",
+     "Guides included",
+     "yes"
+    ],
+    [
+     "Insurance",
+     "Included (LIA Assurex)",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Reserve entrance and snowshoes included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Reserve daily 8am-5pm on +961 3 917190 or +961 79 115001 (SMS/WhatsApp your name, phone, email and the event), or use the form on the event page.",
+    "Tickets also sold at Antoine Library branches and on antoineticketing.com (outdoors experiences)."
+   ],
+   "contact": [
+    [
+     "Phone / WhatsApp",
+     "+961 3 917190",
+     "Published on vamos-todos.com"
+    ],
+    [
+     "Phone / WhatsApp",
+     "+961 79 115001",
+     "Published on vamos-todos.com"
+    ]
+   ],
+   "url": "https://www.vamos-todos.com/Pages/EventDetails.aspx?ev=Wd3GOoaDJhM%3D&title=20270213-Snowshoeing-Ehden%20Snowshoeing",
+   "image": "https://www.vamos-todos.com/Pictures/EventPictures/0801450301249Ehden%20SS%20(1).JPG",
+   "confidence": "High",
+   "caveat": "Event is listed early on the club site; programme may still change.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-vamos-kefraya-wine-tour-feb-2027",
+   "cat": "hiking",
+   "title": "Wine tour: Clos St Thomas & Chateau Kefraya with lunch (14 Feb 2027)",
+   "org": "Vamos Todos",
+   "place": "West Bekaa (bus from Jdeideh)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 90,
+   "feeText": "$90 per person including transport, wine tasting, guides, insurance and lunch",
+   "deadline": null,
+   "eventDate": "2027-02-14T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "Day trip, Sun 14 Feb 2027: Clos St Thomas tour and tasting, Kefraya eco-train through the vineyards, winery tour, lunch at Chateau Kefraya, stop in Chtaura",
+   "meet": "Parking of Sagesse School, Jdeideh (facing the public garden), 8:00AM, departure 8:15AM",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$90 per person including transport, wine tasting, guides, insurance and lunch",
+     "info"
+    ],
+    [
+     "Transport",
+     "Bus from Jdeideh included",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Lunch with wine and soft drinks included",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Guides included",
+     "yes"
+    ],
+    [
+     "Insurance",
+     "Included (LIA Assurex)",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "Winery tours and tastings included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Reserve daily 8am-5pm on +961 3 917190 or +961 79 115001 (SMS/WhatsApp your name, phone, email and the event), or use the form on the event page.",
+    "Tickets also sold at Antoine Library branches and on antoineticketing.com (outdoors experiences)."
+   ],
+   "contact": [
+    [
+     "Phone / WhatsApp",
+     "+961 3 917190",
+     "Published on vamos-todos.com"
+    ],
+    [
+     "Phone / WhatsApp",
+     "+961 79 115001",
+     "Published on vamos-todos.com"
+    ]
+   ],
+   "url": "https://www.vamos-todos.com/Pages/EventDetails.aspx?ev=boS9MtB2yTY%3D&title=20270214-Wine%20Tour-Wine%20Tour%20Kefraya",
+   "image": "https://www.vamos-todos.com/Pictures/EventPictures/1433512598051Wine%20Tour%20(6).JPG",
+   "confidence": "High",
+   "caveat": "Event is listed early on the club site; programme may still change.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
+  },
+  {
+   "id": "tr-vamos-saida-tour-iftar-feb-2027",
+   "cat": "hiking",
+   "title": "Saida old city tour & Iftar (26 Feb 2027)",
+   "org": "Vamos Todos",
+   "place": "Saida, South Lebanon (bus from Jdeideh)",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 75,
+   "feeText": "$75 per person including transport, guides, insurance, tour, all entrances and Iftar; +$10 entrance for non-Lebanese",
+   "deadline": null,
+   "eventDate": "2027-02-26T00:00:00+02:00",
+   "rolling": false,
+   "deadlineText": "No booking deadline stated; book while places last",
+   "when": "Afternoon and evening, Fri 26 Feb 2027: Saida castles, El Kikhya mosque, old souk, Khan el Franj, then Iftar in a garden restaurant",
+   "meet": "Parking of Sagesse School, Jdeideh (facing the public garden), 3:00PM, departure 3:15PM",
+   "team": "Individual or group booking",
+   "tags": [
+    "travel",
+    "trips"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Open to all (paying travellers)",
+     "University: Not restricted",
+     "Nationality/residency: Open to residents and visitors in Lebanon",
+     "Age: Not stated",
+     "Team: Book individually or as a group"
+    ]
+   },
+   "money": [
+    [
+     "Price",
+     "$75 per person including transport, guides, insurance, tour, all entrances and Iftar; +$10 entrance for non-Lebanese",
+     "info"
+    ],
+    [
+     "Transport",
+     "Bus from Jdeideh included",
+     "yes"
+    ],
+    [
+     "Meals",
+     "Iftar meal included",
+     "yes"
+    ],
+    [
+     "Guide",
+     "Guides included",
+     "yes"
+    ],
+    [
+     "Insurance",
+     "Included (LIA Assurex)",
+     "yes"
+    ],
+    [
+     "Entrance fees",
+     "All entrances included (+$10 for non-Lebanese)",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Reserve daily 8am-5pm on +961 3 917190 or +961 79 115001 (SMS/WhatsApp your name, phone, email and the event), or use the form on the event page.",
+    "Tickets also sold at Antoine Library branches and on antoineticketing.com (outdoors experiences)."
+   ],
+   "contact": [
+    [
+     "Phone / WhatsApp",
+     "+961 3 917190",
+     "Published on vamos-todos.com"
+    ],
+    [
+     "Phone / WhatsApp",
+     "+961 79 115001",
+     "Published on vamos-todos.com"
+    ]
+   ],
+   "url": "https://www.vamos-todos.com/Pages/EventDetails.aspx?ev=NGw%2B1deYSS4%3D&title=20270226-Tour%20and%20Dinner-Saida%20Tour%20%26%20Iftar",
+   "image": "https://www.vamos-todos.com/Pictures/EventPictures/102755488775223.JPG",
+   "confidence": "High",
+   "caveat": "Event is listed early on the club site; programme may still change.",
+   "verified": "2026-10-24",
+   "source": "bulk-travel",
+   "added": "2026-10-24"
   },
   {
    "id": "ua-uclouvain-bachelor-master-non-eu-2027",
