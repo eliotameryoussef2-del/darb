@@ -1,0 +1,22 @@
+name: Refresh jobs and remove expired
+on:
+  schedule:
+    - cron: "0 4,16 * * *"   # 6/7 AM and PM in Beirut
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node cloud/refresh.js
+      - name: Publish if anything changed
+        run: |
+          git config user.name "darb-bot"
+          git config user.email "darb-bot@users.noreply.github.com"
+          git add opportunities.json
+          git diff --cached --quiet || (git commit -m "Cloud refresh: jobs and expired items" && git push)
