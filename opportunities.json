@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T21:19:20.455Z",
+ "updated": "2026-10-24T21:25:00.271Z",
  "count": 2891,
  "opportunities": [
   {
@@ -13901,7 +13901,16 @@
    "caveat": "Prices from the official registration page; confirm the start time on the official schedule.",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://beirutmarathon.org/images/races/Run%20for%20a%20cause.JPG",
+    "https://beirutmarathon.org/images/races/42juniorrelay.jpg",
+    "https://beirutmarathon.org/images/races/42marathon.jpg",
+    "https://beirutmarathon.org/images/races/42relay.jpg",
+    "https://beirutmarathon.org/images/races/42km.jpg",
+    "https://beirutmarathon.org/images/races/Half%20Marathon.JPG"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "hk-launchpad-hacks",
@@ -136712,7 +136721,9 @@
    "added": "2026-10-24",
    "festival": true,
    "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ev-horeca-lebanon-2026",
@@ -136766,7 +136777,16 @@
    "source": "bulk-events-now",
    "added": "2026-10-24",
    "logo": "https://www.horecashow.com/images/favicon.ico",
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.horecashow.com/ContentFiles/6101Image.png?w=1319&h=569",
+    "https://www.horecashow.com/ContentFiles/6099Image.jpg?w=1200&h=300",
+    "https://www.horecashow.com/ContentFiles/9142Image.jpg?w=1200&h=300",
+    "https://www.horecashow.com/ContentFiles/5527Image.jpg?w=1200&h=300",
+    "https://www.horecashow.com/ContentFiles/549Section1Block1Image.png?w=585&h=454&mode=crop",
+    "https://www.horecashow.com/ContentFiles/549Section1Block2Image.jpg?w=585&h=454&mode=crop"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ev-dream-park-halloween-2026",
@@ -136831,7 +136851,9 @@
    "source": "bulk-events-now",
    "added": "2026-10-24",
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ev-hocus-pocus-2-tilt33",
@@ -136885,7 +136907,16 @@
    "source": "bulk-events-now",
    "added": "2026-10-24",
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/Dusk.jpg",
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/Failure-to-See.jpg",
+    "https://platinumlist.net/guide/wp-content/uploads/2025/11/category-list-scaled.webp",
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/Pumpkin-Headed-Carnival-Performer.jpg",
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/girl-makeup-by-Confi-Cosmetics.jpg",
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/Rib-Room-steak-and-fries.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ev-centro-beauty-exhibition-2026",
@@ -136944,7 +136975,16 @@
    "source": "bulk-events-now",
    "added": "2026-10-24",
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/Glossea-Beauty.jpg",
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/Jomeer-body-cream.jpg",
+    "https://platinumlist.net/guide/wp-content/uploads/2025/11/category-list-scaled.webp",
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/Pumpkin-Headed-Carnival-Performer.jpg",
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/Rib-Room-steak-and-fries.jpg",
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/4042-petit-ours-brun-image1.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ev-sesobel-golden-jubilee-gala",
@@ -137013,7 +137053,16 @@
    "source": "bulk-events-now",
    "added": "2026-10-24",
    "logo": "https://agendaculturel.com/apple-touch-icon.png",
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvMjBiOGViYmJmZjdlZDEyNmUwMGE0ZjI5YTAxMzk2N2U5YjQ1NTAwZTJkYTJjMzAxLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwic2hhcnBlbiI6dHJ1ZX19",
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvOGJlZjkzZDQ2ZDM1NjY1Yjc3MTI4YmI1MThlOTU2MDY3YjlkZDk2MDEyMDBiMzg2LnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwic2hhcnBlbiI6dHJ1ZX19",
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvYWVlZDY1NTgxYTFhOGVhNDUyYjg1NWZlOGE5ZmI2OTI0ODJiZWNhNjJmZjBiZDhiLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjE5MjAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sInNoYXJwZW4iOnRydWV9fQ==",
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvYjNiZDcyYTQ0ZmNlNmM3YTBlZDk1NGQyOGJjNDQ4ZGI4OTM0NjUwMTQ3ZDg3OWMzLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwic2hhcnBlbiI6dHJ1ZX19",
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvNTUyNGI0NmJkYzI0ZjgzZjlmOTkxN2FmMDY1MThlZmVlYmI1OGQ0YmIxOTA4Mjg2LmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjE5MjAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sInNoYXJwZW4iOnRydWV9fQ==",
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJhZ2VuZGFjdWx0dXJlbCIsImtleSI6InVwbG9hZHMvYThmMzMzNjVmYTM3YjY1NDVkOWQyMTU0Y2FlYTY0OTE0MmNjZDgyY2MwZTM4NzczLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MTkyMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwic2hhcnBlbiI6dHJ1ZX19"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ev-frat-tint-lobby-halloween",
@@ -137077,7 +137126,13 @@
    "source": "bulk-events-now",
    "added": "2026-10-24",
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2F81YL9DSZMDZJxuhSzn8P%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=f3213cb4-44c2-404b-82eb-312071e3a8c8",
+    "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2FaxlG8S7BRrHvzh65Nj4f%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=797d4246-4aab-42c2-91ee-0ff567b03a67",
+    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9273/event_cover_JO%C3%8BLLE___EL%C4%B0O.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ev-flip-phone-era-halloween",
@@ -137136,7 +137191,13 @@
    "source": "bulk-events-now",
    "added": "2026-10-24",
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2F81YL9DSZMDZJxuhSzn8P%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=f3213cb4-44c2-404b-82eb-312071e3a8c8",
+    "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2FaxlG8S7BRrHvzh65Nj4f%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=797d4246-4aab-42c2-91ee-0ff567b03a67",
+    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9273/event_cover_JO%C3%8BLLE___EL%C4%B0O.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ev-after-hours-sousol-halloween",
@@ -137200,7 +137261,13 @@
    "source": "bulk-events-now",
    "added": "2026-10-24",
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2F81YL9DSZMDZJxuhSzn8P%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=f3213cb4-44c2-404b-82eb-312071e3a8c8",
+    "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2FaxlG8S7BRrHvzh65Nj4f%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=797d4246-4aab-42c2-91ee-0ff567b03a67",
+    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9273/event_cover_JO%C3%8BLLE___EL%C4%B0O.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ev-se7er-se7er-ked-halloween",
@@ -137259,7 +137326,12 @@
    "source": "bulk-events-now",
    "added": "2026-10-24",
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2F81YL9DSZMDZJxuhSzn8P%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=f3213cb4-44c2-404b-82eb-312071e3a8c8",
+    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9273/event_cover_JO%C3%8BLLE___EL%C4%B0O.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ev-nations-festival-beirut-2026",
@@ -137313,7 +137385,9 @@
    "festival": true,
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ex-mcat-2027-lebanon",
@@ -141472,7 +141546,18 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "The official site lists facilities and hours but no prices.",
-   "image": "https://champs-fitness.com/wp-content/uploads/2024/06/A_G08381-2-1.jpg"
+   "image": null,
+   "logo": "https://champs-fitness.com/wp-content/uploads/2024/06/Group-3895.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://champs-fitness.com/wp-content/uploads/2026/02/2.png",
+    "https://champs-fitness.com/wp-content/uploads/2026/02/3.png",
+    "https://champs-fitness.com/wp-content/uploads/2026/02/4.png",
+    "https://champs-fitness.com/wp-content/uploads/2026/02/5.png",
+    "https://champs-fitness.com/wp-content/uploads/2026/02/6.png",
+    "https://champs-fitness.com/wp-content/uploads/2026/02/7.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-gym-hub30-jbeil",
@@ -141566,7 +141651,11 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "The site shows the full month at $60 in its FAQ and $70 in one pricing block; confirm the current rate.",
-   "image": "https://hub30gym.com/assets/CrossfitClassHub30.jpeg"
+   "image": "https://hub30gym.com/assets/hub30Logo-512.png",
+   "logo": "https://hub30gym.com/assets/hub30Logo-180.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-gym-smallville-superhero-gym",
@@ -141666,7 +141755,15 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Gym opening hours are not stated on the page.",
-   "image": "https://thesmallville.com/wp-content/uploads/2024/01/the-superhero-gym-best-of-gyms-in-beirut.png"
+   "image": "https://thesmallville.com/wp-content/uploads/2024/01/the-superhero-gym-best-of-gyms-in-beirut.png",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://thesmallville.com/wp-content/uploads/2026/09/gym-image.webp",
+    "https://thesmallville.com/wp-content/uploads/2024/01/Untitled-design-2024-01-18T142817.609.png",
+    "https://thesmallville.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T133055.505.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-gym-le-royal-fitness-dbayeh",
@@ -141765,7 +141862,17 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/6529fd1a77d3086c-Captured%E2%80%99%C3%A9cran2023-12-14%C3%A014.42.44.png"
+   "image": "https://cdn.prod.website-files.com/5f7dd2ba7175efe532fcf359/630cb604a9cb3c841514b746_Fitness%20main.jpg",
+   "logo": "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/6450b995dcbf1768799767b7_RR%20256x256%20px%20for%20website.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.prod.website-files.com/5f7dd2ba7175efe532fcf359/631712db3f94a2622289d764_Fitness%20video%20image.jpg",
+    "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/623ae68d31421308bdb9f082_fitness%20classes%202.jpg",
+    "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/623ae68b4fcd39f14af25062_fitness%20classes%201.jpg",
+    "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/623ae68a7ac21533d7735005_fitness%20classes%203.jpg",
+    "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/6318a3834ae30402e911bccd_Spa%20amenities%203.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-gym-360-fitness-verdun",
@@ -141859,7 +141966,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/f73877c97bfce8eb-11053282_907154045972750_7362989003570359173_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmNzM4NzdjOTdiZmNlOGViLTExMDUzMjgyXzkwNzE1NDA0NTk3Mjc1MF83MzYyOTg5MDAzNTcwMzU5MTczX24uanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-gym-3b-gym-ramlet-el-bayda",
@@ -141953,7 +142066,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/6c3039493bf69eb7-305910253_498944605568539_8193753744694202184_n.jpeg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2YzMwMzk0OTNiZjY5ZWI3LTMwNTkxMDI1M180OTg5NDQ2MDU1Njg1MzlfODE5Mzc1Mzc0NDY5NDIwMjE4NF9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-gym-body-factory-dekwaneh",
@@ -142047,7 +142166,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/60bebe7ce4e4e353-56622556_1763608257072070_7928668069759549440_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2MGJlYmU3Y2U0ZTRlMzUzLTU2NjIyNTU2XzE3NjM2MDgyNTcwNzIwNzBfNzkyODY2ODA2OTc1OTU0OTQ0MF9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-gym-fit-by-choice-broummana",
@@ -142141,7 +142266,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/7d844a0db837dd56-Captured%E2%80%99%C3%A9cran2023-12-14%C3%A011.41.05.png"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI3ZDg0NGEwZGI4MzdkZDU2LUNhcHR1cmVk4oCZw6ljcmFuMjAyMy0xMi0xNMOgMTEuNDEuMDUucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-gym-global-fitness-ghobeiry",
@@ -142235,7 +142366,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/c13775b919bf02e7-10418188_1490648191212097_6391913845236173047_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjMTM3NzViOTE5YmYwMmU3LTEwNDE4MTg4XzE0OTA2NDgxOTEyMTIwOTdfNjM5MTkxMzg0NTIzNjE3MzA0N19uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-gym-gym-club-haret-hreik",
@@ -142329,7 +142466,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5a21fd880cccf80f-46482597_2247014922286400_8815040390693388288_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1YTIxZmQ4ODBjY2NmODBmLTQ2NDgyNTk3XzIyNDcwMTQ5MjIyODY0MDBfODgxNTA0MDM5MDY5MzM4ODI4OF9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-gym-mac-gym-dekwaneh",
@@ -142423,7 +142566,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/06381407d7d47ce9-10003909_637980552969182_8516156684410950200_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIwNjM4MTQwN2Q3ZDQ3Y2U5LTEwMDAzOTA5XzYzNzk4MDU1Mjk2OTE4Ml84NTE2MTU2Njg0NDEwOTUwMjAwX24uanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-gym-mcs-fitlife-tyre",
@@ -142517,7 +142666,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going. Security: this venue is in South Lebanon, an area that has seen Israeli strikes and border hostilities. Check the current security situation and official travel advice before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/b7526ae25af01e4c-Captured%E2%80%99%C3%A9cran2023-12-14%C3%A012.09.57.png"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiNzUyNmFlMjVhZjAxZTRjLUNhcHR1cmVk4oCZw6ljcmFuMjAyMy0xMi0xNMOgMTIuMDkuNTcucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-gym-ozone-fitness-jnah",
@@ -142611,7 +142766,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/ea278031cb3533a6-Captured%E2%80%99%C3%A9cran2023-12-14%C3%A014.28.56.png"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJlYTI3ODAzMWNiMzUzM2E2LUNhcHR1cmVk4oCZw6ljcmFuMjAyMy0xMi0xNMOgMTQuMjguNTYucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-gym-profit-07-tyre",
@@ -142705,7 +142866,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going. Security: this venue is in South Lebanon, an area that has seen Israeli strikes and border hostilities. Check the current security situation and official travel advice before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/c1ec8d5c62bae222-Captured%E2%80%99%C3%A9cran2023-12-14%C3%A014.40.04.png"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjMWVjOGQ1YzYyYmFlMjIyLUNhcHR1cmVk4oCZw6ljcmFuMjAyMy0xMi0xNMOgMTQuNDAuMDQucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-gym-zeus-fitness-jnah",
@@ -142799,7 +142966,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/629fae89a617aee8-WhatsAppImage2023-12-14at9.46.58AM.jpeg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2MjlmYWU4OWE2MTdhZWU4LVdoYXRzQXBwSW1hZ2UyMDIzLTEyLTE0YXQ5LjQ2LjU4QU0uanBlZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-animal-city-zekrit",
@@ -142877,7 +143050,18 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Entry prices are not published on the official site.",
-   "image": "https://www.animalcitylebanon.com/img/Banner.jpg"
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.animalcitylebanon.com/img/Banner.jpg",
+    "https://www.animalcitylebanon.com/img/BannerMobile.jpg",
+    "https://www.animalcitylebanon.com/img/Playground.jpg",
+    "https://www.animalcitylebanon.com/img/services/image-with-snake.jpg",
+    "https://www.animalcitylebanon.com/img/services/pony-ride.jpg",
+    "https://www.animalcitylebanon.com/img/GuidedTours.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-dino-city-ajaltoun",
@@ -142950,7 +143134,18 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Ticket prices and opening hours are not published on the official site.",
-   "image": "https://www.dinocitylb.com/img/slider1.jpg"
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.dinocitylb.com/img/slider1.jpg",
+    "https://www.dinocitylb.com/img/slider2.jpg",
+    "https://www.dinocitylb.com/img/slider3.jpg",
+    "https://www.dinocitylb.com/img/about.jpg",
+    "https://www.dinocitylb.com/img/text-box_1.jpg",
+    "https://www.dinocitylb.com/img/text-box_2.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-teleferique-jounieh",
@@ -143043,7 +143238,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Ticket prices include the funicular ride at the top. Prices are in Lebanese pounds; the USD figure is approximate.",
-   "image": "https://images.squarespace-cdn.com/content/v1/6842e8456358d37866d2adeb/1778246160435-IPRA23Y9WMQ968ZSLYZJ/image-asset.jpeg"
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://images.squarespace-cdn.com/content/v1/6842e8456358d37866d2adeb/3c4773fc-85f8-42f6-bdcb-c77a369759f3/unnamed.jpg?format=2500w"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-playtown-raouche",
@@ -143116,7 +143317,11 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Prices and hours are not published on the official site.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/f5a7d2c579c9cade-2019-05-29.jpg"
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-animal-encounter-aley",
@@ -143188,7 +143393,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/1eb2e9eaa599d41a-277565178_5481630818534219_6201153869725773295_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxZWIyZTllYWE1OTlkNDFhLTI3NzU2NTE3OF81NDgxNjMwODE4NTM0MjE5XzYyMDExNTM4Njk3MjU3NzMyOTVfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-ark-of-peace-qaouzah",
@@ -143260,7 +143471,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going. Security: this venue is in South Lebanon, an area that has seen Israeli strikes and border hostilities. Check the current security situation and official travel advice before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/33089597d9f8924c-72036428_108555827216743_7429776664499847168_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIzMzA4OTU5N2Q5Zjg5MjRjLTcyMDM2NDI4XzEwODU1NTgyNzIxNjc0M183NDI5Nzc2NjY0NDk5ODQ3MTY4X24uanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-beirut-luna-park",
@@ -143332,7 +143549,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/87d1c601a1b7a8a7-luaOErq52p47oupZPtOWtYMkDGdM4p5ixlW0WPlB.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4N2QxYzYwMWExYjdhOGE3LWx1YU9FcnE1MnA0N291cFpQdE9XdFlNa0RHZE00cDVpeGxXMFdQbEIuanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-city-park-abbassieh",
@@ -143404,7 +143627,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going. Security: this venue is in South Lebanon, an area that has seen Israeli strikes and border hostilities. Check the current security situation and official travel advice before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/ca15dc9bdaea256b-e6d78843-83d8-4d72-821e-80da6f8184a2.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjYTE1ZGM5YmRhZWEyNTZiLWU2ZDc4ODQzLTgzZDgtNGQ3Mi04MjFlLTgwZGE2ZjgxODRhMi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-dongassia-park",
@@ -143476,7 +143705,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/b87b5c377d0d7011-7c596a49207878ad21d84a0d44112944.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiODdiNWMzNzdkMGQ3MDExLTdjNTk2YTQ5MjA3ODc4YWQyMWQ4NGEwZDQ0MTEyOTQ0LmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-flaoui-zoo",
@@ -143548,7 +143783,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going. Security: this venue is in the Bekaa, parts of which have seen Israeli strikes. Check the current security situation before travelling.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/61717e7da8298f47-19895093_1965082807093219_6351004063410592412_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2MTcxN2U3ZGE4Mjk4ZjQ3LTE5ODk1MDkzXzE5NjUwODI4MDcwOTMyMTlfNjM1MTAwNDA2MzQxMDU5MjQxMl9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-frenzy-fun-center-amchit",
@@ -143620,7 +143861,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/ba14b45faab02d29-75082263_2495236917263444_2749976806969835520_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiYTE0YjQ1ZmFhYjAyZDI5LTc1MDgyMjYzXzI0OTUyMzY5MTcyNjM0NDRfMjc0OTk3NjgwNjk2OTgzNTUyMF9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-fun-planet-jdeideh",
@@ -143692,7 +143939,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/8f24479b9c0e2258-1.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4ZjI0NDc5YjljMGUyMjU4LTEuanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-fun-planet-tyre",
@@ -143764,7 +144017,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going. Security: this venue is in South Lebanon, an area that has seen Israeli strikes and border hostilities. Check the current security situation and official travel advice before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/a30cc8e3364421b4-876bd5ce-d536-47f3-a132-243258a12c7e.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJhMzBjYzhlMzM2NDQyMWI0LTg3NmJkNWNlLWQ1MzYtNDdmMy1hMTMyLTI0MzI1OGExMmM3ZS5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-fundo-mondo-saida",
@@ -143836,7 +144095,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going. Security: this venue is in South Lebanon, an area that has seen Israeli strikes and border hostilities. Check the current security situation and official travel advice before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/1b9c395200c31536-49272637e00cbc5bd709153096dffcbc.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxYjljMzk1MjAwYzMxNTM2LTQ5MjcyNjM3ZTAwY2JjNWJkNzA5MTUzMDk2ZGZmY2JjLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-kidscovery-verdun",
@@ -143908,7 +144173,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/968697f29f09f0d3-83352458_560403297886344_8734406812117237760_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5Njg2OTdmMjlmMDlmMGQzLTgzMzUyNDU4XzU2MDQwMzI5Nzg4NjM0NF84NzM0NDA2ODEyMTE3MjM3NzYwX24uanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-megaplay-taanayel",
@@ -143980,7 +144251,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going. Security: this venue is in the Bekaa, parts of which have seen Israeli strikes. Check the current security situation before travelling.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/cdcfccf7efdefd09-megaplay1.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjZGNmY2NmN2VmZGVmZDA5LW1lZ2FwbGF5MS5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-mini-me-world-tripoli",
@@ -144052,7 +144329,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/a788feace39d153a-mini-me-world.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJhNzg4ZmVhY2UzOWQxNTNhLW1pbmktbWUtd29ybGQuanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-rizqallah-zoo-qobayat",
@@ -144124,7 +144407,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/94759248e0b57634-21762368_1945185239063269_1836270751392646984_o.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5NDc1OTI0OGUwYjU3NjM0LTIxNzYyMzY4XzE5NDUxODUyMzkwNjMyNjlfMTgzNjI3MDc1MTM5MjY0Njk4NF9vLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-treasure-island-sad-el-bauchrieh",
@@ -144196,7 +144485,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/8443269284201ccc-soft-playground-for-toddlers.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4NDQzMjY5Mjg0MjAxY2NjLXNvZnQtcGxheWdyb3VuZC1mb3ItdG9kZGxlcnMuanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-trioland-fanar",
@@ -144268,7 +144563,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/fd87ca38f92fb2e6-c8b95c51668ed9fa3e2fa1200e22bcde.jpeg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZDg3Y2EzOGY5MmZiMmU2LWM4Yjk1YzUxNjY4ZWQ5ZmEzZTJmYTEyMDBlMjJiY2RlLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-xplore-adventure-naqoura",
@@ -144340,7 +144641,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "The area is right on the southern border. Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going. Security: this venue is in South Lebanon, an area that has seen Israeli strikes and border hostilities. Check the current security situation and official travel advice before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/b1c9dd526ab3203e-263081261_891792881727246_8591810326109441281_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiMWM5ZGQ1MjZhYjMyMDNlLTI2MzA4MTI2MV84OTE3OTI4ODE3MjcyNDZfODU5MTgxMDMyNjEwOTQ0MTI4MV9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-zazoo-city-baabda",
@@ -144412,7 +144719,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/4457b870d82997ca-fun%26leisure.svg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI0NDU3Yjg3MGQ4Mjk5N2NhLWZ1biZsZWlzdXJlLnN2ZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-zone-de-joie-antelias",
@@ -144484,7 +144797,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/e75ea4969b9a99a7-e2459b7d0f3e5dc5147e1d83b7de72b6.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJlNzVlYTQ5NjliOWE5OWE3LWUyNDU5YjdkMGYzZTVkYzUxNDdlMWQ4M2I3ZGU3MmI2LmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-d-club-ghazir",
@@ -144556,7 +144875,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/87a386e2d048925b-0b5a9c360722cd11d3545de99a4df406.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4N2EzODZlMmQwNDg5MjViLTBiNWE5YzM2MDcyMmNkMTFkMzU0NWRlOTlhNGRmNDA2LmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-besten-bar-elias",
@@ -144628,7 +144953,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going. Security: this venue is in the Bekaa, parts of which have seen Israeli strikes. Check the current security situation before travelling.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/cc88d2141a3f61ea-306552689_1731071027261626_226032637188250648_n.jpeg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjYzg4ZDIxNDFhM2Y2MWVhLTMwNjU1MjY4OV8xNzMxMDcxMDI3MjYxNjI2XzIyNjAzMjYzNzE4ODI1MDY0OF9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-woodland-playclub",
@@ -144700,13 +145031,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/f325398b03046a1b-Captured%E2%80%99%C3%A9cran2022-11-07%C3%A014.20.00.png",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmMzI1Mzk4YjAzMDQ2YTFiLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0xMS0wN8OgMTQuMjAuMDAucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer only (Saturday playdates; exact dates not stated)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-cosmocity",
@@ -144788,7 +145125,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Prices and hours are not published.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/309998cb64c595ca-228704388_1473145329729561_4070653680936475623_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIzMDk5OThjYjY0YzU5NWNhLTIyODcwNDM4OF8xNDczMTQ1MzI5NzI5NTYxXzQwNzA2NTM2ODA5MzY0NzU2MjNfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-what-the-fun-hazmieh",
@@ -144859,7 +145202,19 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours."
+   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled-e1777286403827.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/BuzzPlayPark-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/CosmoCity-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FizzZone-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FunSquare-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/Popiliboo-Lebanon-Traveler-2.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-buzz-play-park",
@@ -144930,7 +145285,19 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours."
+   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled-e1777286403827.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/BuzzPlayPark-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/CosmoCity-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FizzZone-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FunSquare-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/Popiliboo-Lebanon-Traveler-2.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-fizz-zone",
@@ -145001,7 +145368,19 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours."
+   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled-e1777286403827.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/BuzzPlayPark-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/CosmoCity-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FizzZone-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FunSquare-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/Popiliboo-Lebanon-Traveler-2.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-fun-square",
@@ -145072,7 +145451,19 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours."
+   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled-e1777286403827.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/BuzzPlayPark-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/CosmoCity-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FizzZone-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FunSquare-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/Popiliboo-Lebanon-Traveler-2.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-funscape-sin-el-fil",
@@ -145143,7 +145534,19 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours."
+   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled-e1777286403827.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/BuzzPlayPark-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/CosmoCity-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FizzZone-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FunSquare-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/Popiliboo-Lebanon-Traveler-2.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-glow-kids-koraytem",
@@ -145214,7 +145617,19 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours."
+   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled-e1777286403827.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/BuzzPlayPark-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/CosmoCity-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FizzZone-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FunSquare-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/Popiliboo-Lebanon-Traveler-2.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-hip-hop-verdun",
@@ -145285,7 +145700,19 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours."
+   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled-e1777286403827.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/BuzzPlayPark-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/CosmoCity-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FizzZone-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FunSquare-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/Popiliboo-Lebanon-Traveler-2.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-popiliboo-broumana",
@@ -145356,7 +145783,19 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours."
+   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled-e1777286403827.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/BuzzPlayPark-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/CosmoCity-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FizzZone-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FunSquare-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/Popiliboo-Lebanon-Traveler-2.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-poptastic-beirut-souks",
@@ -145427,7 +145866,19 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours."
+   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled-e1777286403827.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/BuzzPlayPark-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/CosmoCity-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FizzZone-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FunSquare-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/Popiliboo-Lebanon-Traveler-2.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-recreo-naccache",
@@ -145498,7 +145949,19 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours."
+   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled-e1777286403827.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/BuzzPlayPark-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/CosmoCity-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FizzZone-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FunSquare-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/Popiliboo-Lebanon-Traveler-2.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-vol-playground-dbayeh",
@@ -145569,7 +146032,19 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours."
+   "caveat": "Listed in Lebanon Traveler's April 2026 guide to indoor kids' play areas, which gives no prices, ages or hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled-e1777286403827.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/WTFun-Lebanon-Traveler-scaled.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/BuzzPlayPark-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/CosmoCity-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FizzZone-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/FunSquare-Lebanon-Traveler-2.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2026/02/Popiliboo-Lebanon-Traveler-2.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-hillhout-village-khenchara",
@@ -145640,7 +146115,19 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler (June 2026), which gives no prices or opening hours."
+   "caveat": "Listed in Lebanon Traveler (June 2026), which gives no prices or opening hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2024/05/arnaaoun-lebanon-traveler-scaled.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Aley-Equi-Club-LT-e1781482199580.webp",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Arnaoon-Village-LT-e1781482157885.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Dbayeh-Coubntry-Club-LT-e1781482246303.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/El-Rancho-LT-e1781482301496.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Gravity-Activities-LT-e1781482360158.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Hillhout-Village-LT-e1781518509334.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-gravity-activities-koura",
@@ -145711,7 +146198,12 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler (June 2026), which gives no prices or opening hours."
+   "caveat": "Listed in Lebanon Traveler (June 2026), which gives no prices or opening hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2024/05/arnaaoun-lebanon-traveler-scaled.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-el-rancho-village-fatqa",
@@ -145782,7 +146274,19 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler (June 2026), which gives no prices or opening hours."
+   "caveat": "Listed in Lebanon Traveler (June 2026), which gives no prices or opening hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2024/05/arnaaoun-lebanon-traveler-scaled.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Aley-Equi-Club-LT-e1781482199580.webp",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Arnaoon-Village-LT-e1781482157885.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Dbayeh-Coubntry-Club-LT-e1781482246303.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/El-Rancho-LT-e1781482301496.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Gravity-Activities-LT-e1781482360158.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Hillhout-Village-LT-e1781518509334.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-attr-swings-camp-metn",
@@ -145853,7 +146357,19 @@
    "verified": "2026-10-24",
    "source": "bulk-fun-places",
    "added": "2026-10-24",
-   "caveat": "Listed in Lebanon Traveler (June 2026), which gives no prices or opening hours."
+   "caveat": "Listed in Lebanon Traveler (June 2026), which gives no prices or opening hours.",
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2024/05/arnaaoun-lebanon-traveler-scaled.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Aley-Equi-Club-LT-e1781482199580.webp",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Arnaoon-Village-LT-e1781482157885.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Dbayeh-Coubntry-Club-LT-e1781482246303.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/El-Rancho-LT-e1781482301496.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Gravity-Activities-LT-e1781482360158.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2025/04/Hillhout-Village-LT-e1781518509334.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-wp-watergate-aqua-park",
@@ -145932,7 +146448,18 @@
     "to": "09-07",
     "label": "Summer (last season ran 25 May – 7 September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/6450b995dcbf1768799767b7_RR%20256x256%20px%20for%20website.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.prod.website-files.com/5f7dd2ba7175efe532fcf359/632b1aa3ef156027e4e45550_Watergate%20aqua%20park%20top%20view.jpg",
+    "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/623b259c8895c671aed049a4_WG%20SLIDES4.jpg",
+    "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/623b259e561ed759e2ea8683_WG%20SLIDES2.jpg",
+    "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/623b259f9ab934b0c396486d_WG%20SLIDES5.jpg",
+    "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/623b279f7e4bf226954ed1bf_WG%20SLIDES6.jpg",
+    "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/62397e882b22fd33e2527053_WG%20lockers.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-wp-waves-aqua-park",
@@ -146014,13 +146541,17 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "60,000 m² park: 21-million-litre wave pool, kids pool, 7 slides (about 21 m), four-lane racer, island pool, lazy river, semi-Olympic pool. Red Cross-certified first aid on duty.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/1fb3e1ee3ab78c8d-2017-08-08.jpg",
+   "image": null,
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer only, June to September (per the official site)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-wp-rio-lento",
@@ -146087,13 +146618,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "The official site (riolento.com) did not load when checked. Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5643943ca3a92853-wate-rpark-3714613_960_720.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1NjQzOTQzY2EzYTkyODUzLXdhdGUtcnBhcmstMzcxNDYxM185NjBfNzIwLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer (exact dates not stated; Lebanese water parks usually open June–September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-wp-waterland-zgharta",
@@ -146170,7 +146707,12 @@
     "to": "09-30",
     "label": "Summer (the 2025 season ran 23 May – 30 September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://waterlandwaterpark.com/pwa-512x512.png",
+   "logo": "https://waterlandwaterpark.com/pwa-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-wp-sour-water-park",
@@ -146231,7 +146773,14 @@
     "to": "09-30",
     "label": "Summer (exact dates not stated)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-parasol-biel",
@@ -146303,13 +146852,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Prices from Beirut.com's summer 2026 list (May 2026).",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5f225bf46d9da9fe-Captured%E2%80%99%C3%A9cran2023-10-19%C3%A015.58.40.png",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1ZjIyNWJmNDZkOWRhOWZlLUNhcHR1cmVk4oCZw6ljcmFuMjAyMy0xMC0xOcOgMTUuNTguNDAucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-pool-detat-hamra",
@@ -146387,7 +146942,14 @@
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiNGNlNjMyM2VjZjM5YjdlLWE4ODI5Yjk1YjIzNDFjODQxMjg1NTE3YTU2ZWRkMTkxXzE2MjU4MDc3NTEuanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-tulua-zaarour",
@@ -146459,13 +147021,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/568c2832ea3521c9-2023-07-23.jpeg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1NjhjMjgzMmVhMzUyMWM5LTIwMjMtMDctMjMuanBlZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer pool season (exact dates not stated by the venue; mountain pools in Lebanon usually open in June and close in September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-lavender-by-the-pool",
@@ -146537,13 +147105,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Day pool with night pool parties. Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/4cace44b756d1f18-289501324_186791650449332_5069952391605656617_n.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI0Y2FjZTQ0Yjc1NmQxZjE4LTI4OTUwMTMyNF8xODY3OTE2NTA0NDkzMzJfNTA2OTk1MjM5MTYwNTY1NjYxN19uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-bekaa-joy",
@@ -146620,13 +147194,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Prices from Beirut.com's summer 2026 list. Security: this venue is in the Bekaa, parts of which have seen Israeli strikes. Check the current security situation before travelling.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/ee5900c148cd7fcb-67393802_2282832271804321_5935960942729756672_n.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJlZTU5MDBjMTQ4Y2Q3ZmNiLTY3MzkzODAyXzIyODI4MzIyNzE4MDQzMjFfNTkzNTk2MDk0MjcyOTc1NjY3Ml9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer (opened 1 June in 2026; closing date not stated)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-canopee-broumana",
@@ -146698,13 +147278,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Price terms were stated for May 2026 and may have changed in high season. Live performances and comedy shows some evenings.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5dfe9ac51ed2e3e0-Captured%E2%80%99%C3%A9cran2023-08-29%C3%A011.03.07.png",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1ZGZlOWFjNTFlZDJlM2UwLUNhcHR1cmVk4oCZw6ljcmFuMjAyMy0wOC0yOcOgMTEuMDMuMDcucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer pool season (exact dates not stated by the venue; mountain pools in Lebanon usually open in June and close in September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-afeer-faraya",
@@ -146776,13 +147362,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/cc7a3b726ecbcdf9-Captured%E2%80%99%C3%A9cran2023-08-01%C3%A010.52.59.png",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjYzdhM2I3MjZlY2JjZGY5LUNhcHR1cmVk4oCZw6ljcmFuMjAyMy0wOC0wMcOgMTAuNTIuNTkucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer pool season (exact dates not stated by the venue; mountain pools in Lebanon usually open in June and close in September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-al-mandaloun-dbayeh",
@@ -146854,13 +147446,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/c42008181200fb27-NAJ_0063.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjNDIwMDgxODEyMDBmYjI3LU5BSl8wMDYzLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-chtaura-park-hotel",
@@ -146932,13 +147530,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going. Security: this venue is in the Bekaa, parts of which have seen Israeli strikes. Check the current security situation before travelling.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/1172ad265159f361-61968777_2332404456819136_6350247668421230592_n.jpeg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxMTcyYWQyNjUxNTlmMzYxLTYxOTY4Nzc3XzIzMzI0MDQ0NTY4MTkxMzZfNjM1MDI0NzY2ODQyMTIzMDU5Ml9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer pool season (exact dates not stated by the venue; mountain pools in Lebanon usually open in June and close in September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-faraya-village-club",
@@ -147010,13 +147614,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/9b69ad4592052431-ef1cc4b51953e67008cc91d2b9ae22ef.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5YjY5YWQ0NTkyMDUyNDMxLWVmMWNjNGI1MTk1M2U2NzAwOGNjOTFkMmI5YWUyMmVmLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer pool season (exact dates not stated by the venue; mountain pools in Lebanon usually open in June and close in September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-kobayat-country-club",
@@ -147088,13 +147698,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5325af28c6c82ba6-275843148_102057172448876_2293467767780954776_n.jpeg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1MzI1YWYyOGM2YzgyYmE2LTI3NTg0MzE0OF8xMDIwNTcxNzI0NDg4NzZfMjI5MzQ2Nzc2Nzc4MDk1NDc3Nl9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer pool season (exact dates not stated by the venue; mountain pools in Lebanon usually open in June and close in September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-la-colline-dalfred",
@@ -147166,13 +147782,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/14cd973868af0343-4b81246c4880e366d1e039c34e1a6474.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxNGNkOTczODY4YWYwMzQzLTRiODEyNDZjNDg4MGUzNjZkMWUwMzljMzRlMWE2NDc0LmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-la-maison-bleue-kfarabida",
@@ -147244,13 +147866,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/2ab478dde3914591-6BDAC88A-5CB1-46F1-BAA0-C3370CC89CC0.jpeg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyYWI0NzhkZGUzOTE0NTkxLTZCREFDODhBLTVDQjEtNDZGMS1CQUEwLUMzMzcwQ0M4OUNDMC5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-la-piscina-faqra",
@@ -147322,13 +147950,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Faqra Club is a private gated resort; check whether non-members can enter. Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/06539f3953997439-InfinaGardenumbrellaFaqraclub9_1200x935.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIwNjUzOWYzOTUzOTk3NDM5LUluZmluYUdhcmRlbnVtYnJlbGxhRmFxcmFjbHViOV8xMjAweDkzNS5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer pool season (exact dates not stated by the venue; mountain pools in Lebanon usually open in June and close in September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-la-suite-oceana-damour",
@@ -147400,13 +148034,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/97cb617d3832e8da-maxresdefault.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5N2NiNjE3ZDM4MzJlOGRhLW1heHJlc2RlZmF1bHQuanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-laymouna-b-naqoura",
@@ -147478,13 +148118,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "The area is right on the southern border. Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going. Security: this venue is in South Lebanon, an area that has seen Israeli strikes and border hostilities. Check the current security situation and official travel advice before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/86e02b71d7ac8c97-69230863_112470333449146_2180367231878168576_n.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4NmUwMmI3MWQ3YWM4Yzk3LTY5MjMwODYzXzExMjQ3MDMzMzQ0OTE0Nl8yMTgwMzY3MjMxODc4MTY4NTc2X24uanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-odom-qanat-bakish",
@@ -147556,13 +148202,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/9b21446544a9c07c-a18deb497be158cc2e0665ca30d8dfea.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5YjIxNDQ2NTQ0YTljMDdjLWExOGRlYjQ5N2JlMTU4Y2MyZTA2NjVjYTMwZDhkZmVhLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer pool season (exact dates not stated by the venue; mountain pools in Lebanon usually open in June and close in September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-new-santa-theresa-okaibeh",
@@ -147634,13 +148286,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/b62511deca28724f-200868452_4071638619587177_8280544398753528732_n.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiNjI1MTFkZWNhMjg3MjRmLTIwMDg2ODQ1Ml80MDcxNjM4NjE5NTg3MTc3XzgyODA1NDQzOTg3NTM1Mjg3MzJfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-o-riva-antelias",
@@ -147712,13 +148370,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/08de65f90810965f-cac7a560e3a1639b6786a4a48d3c9395.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIwOGRlNjVmOTA4MTA5NjVmLWNhYzdhNTYwZTNhMTYzOWI2Nzg2YTRhNDhkM2M5Mzk1LmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-riviera-beach-manara",
@@ -147790,13 +148454,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/e187e2cb29327a5a-102372681_2975245025887325_8013025818773028864_n.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJlMTg3ZTJjYjI5MzI3YTVhLTEwMjM3MjY4MV8yOTc1MjQ1MDI1ODg3MzI1XzgwMTMwMjU4MTg3NzMwMjg4NjRfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-saida-country-club-qrayeh",
@@ -147868,13 +148538,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "BAM lists El Qrayeh under Aley district, but the club name points to the Qrayeh near Saida (South Lebanon); check the location. Three pools, restaurants, playground, tennis, basketball and a football field. Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going. Security: this venue is in South Lebanon, an area that has seen Israeli strikes and border hostilities. Check the current security situation and official travel advice before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/faf5200f3e68a589-235970f99279bdbb47f1edea0bb09018.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmYWY1MjAwZjNlNjhhNTg5LTIzNTk3MGY5OTI3OWJkYmI0N2YxZWRlYTBiYjA5MDE4LmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-sol-antelias",
@@ -147946,13 +148622,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/7ff4a512166b9df9-301361749_402688872007504_8290378449611455591_n.jpeg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI3ZmY0YTUxMjE2NmI5ZGY5LTMwMTM2MTc0OV80MDI2ODg4NzIwMDc1MDRfODI5MDM3ODQ0OTYxMTQ1NTU5MV9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-solem-zaarour",
@@ -148024,13 +148706,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/3fa5eb6c18e07a0f-217389891_1018305075373650_253521350643093033_n.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIzZmE1ZWI2YzE4ZTA3YTBmLTIxNzM4OTg5MV8xMDE4MzA1MDc1MzczNjUwXzI1MzUyMTM1MDY0MzA5MzAzM19uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer pool season (exact dates not stated by the venue; mountain pools in Lebanon usually open in June and close in September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-soult-beach-kfarabida",
@@ -148102,13 +148790,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/dc5f817cbe10b905-240670008_684987709563038_3158837829378743265_n.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJkYzVmODE3Y2JlMTBiOTA1LTI0MDY3MDAwOF82ODQ5ODc3MDk1NjMwMzhfMzE1ODgzNzgyOTM3ODc0MzI2NV9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-suwa-choueifat",
@@ -148180,13 +148874,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/7802413253a3c976-193341395_632108381046102_8711510663036100506_n.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI3ODAyNDEzMjUzYTNjOTc2LTE5MzM0MTM5NV82MzIxMDgzODEwNDYxMDJfODcxMTUxMDY2MzAzNjEwMDUwNl9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-terre-brune-faqra",
@@ -148258,13 +148958,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/7c788c0a9873b094-289127362_4946116522184278_4007858890969898830_n.jpeg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI3Yzc4OGMwYTk4NzNiMDk0LTI4OTEyNzM2Ml80OTQ2MTE2NTIyMTg0Mjc4XzQwMDc4NTg4OTA5Njk4OTg4MzBfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer pool season (exact dates not stated by the venue; mountain pools in Lebanon usually open in June and close in September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-utopia-damour",
@@ -148336,13 +149042,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/be2025d0a8ea1e93-fae04e6876b5f977ac10cf2cbfdcdfb1.jpg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiZTIwMjVkMGE4ZWExZTkzLWZhZTA0ZTY4NzZiNWY5NzdhYzEwY2YyY2JmZGNkZmIxLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-mtayleb-country-club",
@@ -148414,7 +149126,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Indoor pool is heated, so swimming runs year-round; the Olympic-size pool is outdoor. Lifeguard-supervised. Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/46434b907a292a96-67720679_2463857630526637_2082341647093334016_n.jpeg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI0NjQzNGI5MDdhMjkyYTk2LTY3NzIwNjc5XzI0NjM4NTc2MzA1MjY2MzdfMjA4MjM0MTY0NzA5MzMzNDAxNl9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-delb-country-club",
@@ -148486,13 +149204,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "17,000 m² club on the foothills of Bikfaya, 25 minutes from Beirut. Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/3a4b5895b43f58fa-38501172_1787640094607280_2669405432405032960_n.jpeg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIzYTRiNTg5NWI0M2Y1OGZhLTM4NTAxMTcyXzE3ODc2NDAwOTQ2MDcyODBfMjY2OTQwNTQzMjQwNTAzMjk2MF9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer pool season (exact dates not stated by the venue; mountain pools in Lebanon usually open in June and close in September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-deir-al-kalaa-country-club",
@@ -148565,7 +149289,13 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Private club 600 m above sea level, 15 km from Beirut. Its own website currently shows unrelated spam content, so use the phone number. Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/cf6b51680f97e4e0-Dqe4POUW4AACCDn.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjZjZiNTE2ODBmOTdlNGUwLURxZTRQT1VXNEFBQ0NEbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-smallville-rooftop",
@@ -148637,13 +149367,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Day-pass prices from Beirut.com's summer 2026 list.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/b1ae9bef41faef95-299195307_3726572734235791_1677567491305545985_n.jpeg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiMWFlOWJlZjQxZmFlZjk1LTI5OTE5NTMwN18zNzI2NTcyNzM0MjM1NzkxXzE2Nzc1Njc0OTEzMDU1NDU5ODVfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-scappa-resort-ajaltoun",
@@ -148715,13 +149451,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Also has a spa and gym. Prices from Beirut.com's summer 2026 list.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/6be7c5477370ab73-280479074_184087977275130_3893385907366181358_n.jpeg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2YmU3YzU0NzczNzBhYjczLTI4MDQ3OTA3NF8xODQwODc5NzcyNzUxMzBfMzg5MzM4NTkwNzM2NjE4MTM1OF9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
    "season": {
     "from": "06-01",
     "to": "09-30",
     "label": "Summer pool season (exact dates not stated by the venue; mountain pools in Lebanon usually open in June and close in September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-veer-kaslik",
@@ -148793,13 +149535,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Price from Beirut.com's summer 2026 list.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/8aa3674231dc8440-106541893_1870845976384874_9152391339258428316_n.jpeg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4YWEzNjc0MjMxZGM4NDQwLTEwNjU0MTg5M18xODcwODQ1OTc2Mzg0ODc0XzkxNTIzOTEzMzkyNTg0MjgzMTZfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-bossa-nova-rooftop",
@@ -148871,13 +149619,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Prices are from summer 2025 (Lebanon Traveler); 2026 prices were not published.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/6804f0d3fe38781d-72187590_3466942809990472_2779894900613709824_n.jpeg",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2ODA0ZjBkM2ZlMzg3ODFkLTcyMTg3NTkwXzM0NjY5NDI4MDk5OTA0NzJfMjc3OTg5NDkwMDYxMzcwOTgyNF9uLmpwZWciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-raouche-arjaan",
@@ -148949,13 +149703,19 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Prices are from summer 2025 (Lebanon Traveler); 2026 prices were not published.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/688c40f6a53ccd4b-Captured%E2%80%99%C3%A9cran2023-05-04%C3%A013.28.31.png",
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2ODhjNDBmNmE1M2NjZDRiLUNhcHR1cmVk4oCZw6ljcmFuMjAyMy0wNS0wNMOgMTMuMjguMzEucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
    "season": {
     "from": "05-15",
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-galleria-hotel-jnah",
@@ -149032,7 +149792,15 @@
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2025/06/O-Monot-Pool-2-Lebanon-Traveler.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2024/05/LT-AGENDA-SQUARE-3.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2018/03/Ammiq-Wetland-by-Antonio-Haber.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-skypool-antelias",
@@ -149109,7 +149877,15 @@
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2025/06/O-Monot-Pool-2-Lebanon-Traveler.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2024/05/LT-AGENDA-SQUARE-3.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2018/03/Ammiq-Wetland-by-Antonio-Haber.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-o-monot-achrafieh",
@@ -149186,7 +149962,15 @@
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2025/06/O-Monot-Pool-2-Lebanon-Traveler.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2024/05/LT-AGENDA-SQUARE-3.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2018/03/Ammiq-Wetland-by-Antonio-Haber.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-warwick-palm-beach",
@@ -149263,7 +150047,15 @@
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.lebanontraveler.com/wp-content/uploads/2025/06/O-Monot-Pool-2-Lebanon-Traveler.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.lebanontraveler.com/wp-content/uploads/2024/05/LT-AGENDA-SQUARE-3.jpg",
+    "https://www.lebanontraveler.com/wp-content/uploads/2018/03/Ammiq-Wetland-by-Antonio-Haber.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fp-pool-divina-resort-zahle",
@@ -149334,7 +150126,12 @@
     "to": "10-01",
     "label": "Summer pool season (exact dates not stated by the venue; outdoor pools in Lebanon usually open in May–June and close by late September)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-21-May-2026-02-04-PM-737.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fd-acad-iahs-systa-young-hydrologists-travel",
@@ -166095,7 +166892,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/3f911123d9ba94f0-9948038885_9f927d3730_b.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIzZjkxMTEyM2Q5YmE5NGYwLTk5NDgwMzg4ODVfOWY5MjdkMzczMF9iLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-sporting-club-beach",
@@ -166193,7 +166996,11 @@
     "label": "Open year-round (summer season memberships run June to end of October)"
    },
    "seasonOpen": true,
-   "image": "https://sportingclub.com/photos/og-default.jpg"
+   "image": "https://sportingclub.com/photos/og-default.jpg",
+   "logo": "https://sportingclub.com/apple-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-coral-beach-beirut",
@@ -166264,7 +167071,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-saint-george-yacht-club",
@@ -166341,7 +167155,12 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": null,
+   "logo": "https://saintgeorgebeirut.com/apple-touch-icon.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-kempinski-summerland-beirut",
@@ -166412,7 +167231,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-la-plage-beirut",
@@ -166483,7 +167309,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-long-beach-club-beirut",
@@ -166554,7 +167387,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-movenpick-beirut-beach",
@@ -166620,7 +167460,19 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": null,
+   "logo": "https://movenpick.accor.com/etc.clientlibs/movenpick/clientlibs/clientlib-mov/resources/images/android-chrome-512x512.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://m.ahstatic.com/is/image/accorhotels/aja_p_7060-53",
+    "https://m.ahstatic.com/is/image/accorhotels/aja_p_7060-79",
+    "https://m.ahstatic.com/is/image/accorhotels/aja_p_7060-80",
+    "https://m.ahstatic.com/is/image/accorhotels/aja_p_7060-69",
+    "https://m.ahstatic.com/is/image/accorhotels/aja_p_7060-66",
+    "https://m.ahstatic.com/is/image/accorhotels/aja_p_7060-57"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-river-and-sea-jounieh",
@@ -166696,7 +167548,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-lamedina-jounieh",
@@ -166767,7 +167626,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-gaia-by-the-sea-kaslik",
@@ -166850,7 +167716,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/89772f46eff62d4b-2021-10-02.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4OTc3MmY0NmVmZjYyZDRiLTIwMjEtMTAtMDIuanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-ula-beach-jounieh",
@@ -166921,7 +167793,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-hotel-bel-azur-jounieh",
@@ -166998,7 +167877,12 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-golden-bay-jounieh",
@@ -167069,7 +167953,12 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-21-May-2026-02-04-PM-737.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-lagon-beach-club-jounieh",
@@ -167140,7 +168029,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-mocean-jounieh",
@@ -167206,7 +168102,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-azure-beach-zouk",
@@ -167284,7 +168187,16 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/1062b8183aaca965-241047481_1527707190912131_5481187339541734310_n(1).jpg"
+   "image": null,
+   "logo": "https://www.azure-beach.com/wp-content/uploads/2024/05/cropped-1-192x192.jpg",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.azure-beach.com/wp-content/uploads/2024/04/about-img1-10-03-2023.jpg",
+    "https://www.azure-beach.com/wp-content/uploads/2024/04/2.jpg",
+    "https://www.azure-beach.com/wp-content/uploads/2026/08/Azure-2-1.png",
+    "https://www.azure-beach.com/wp-content/uploads/2026/09/Azure-Vietnam.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-kalani-resort-halat",
@@ -167362,7 +168274,11 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/c4b9752f4c0ca136-3-HomePage-Slider-4-1024x683.jpg"
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-plage-des-rois-byblos",
@@ -167445,7 +168361,11 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5ccda2e062cd8ebc-39878882_2151342805121883_7306333725250289664_n.jpg"
+   "image": null,
+   "logo": "https://plagedesrois.com/wp-content/uploads/2026/01/PDRlogo-png-1-e1768502070317.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-ocean-blue-byblos",
@@ -167533,7 +168453,11 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/0eb36996596cd86d-62568981_2756465701091615_2460190828023250944_n.jpg"
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-dea-del-mare-resort",
@@ -167616,7 +168540,13 @@
     "label": "Summer season (opened 15 May in 2026; closing date not stated)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/7619b7453ee21832-60534299_341553076417606_2968457661558816768_n.png"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI3NjE5Yjc0NTNlZTIxODMyLTYwNTM0Mjk5XzM0MTU1MzA3NjQxNzYwNl8yOTY4NDU3NjYxNTU4ODE2NzY4X24ucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-le-phenix-de-byblos",
@@ -167687,7 +168617,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-c-flow-jbeil",
@@ -167758,7 +168695,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-white-lace-jbeil",
@@ -167829,7 +168773,12 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2025/05/beaches.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-edde-sands-byblos",
@@ -167912,7 +168861,18 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5d2950a946757aee-279710427_5096779433735708_3884831678098637149_n.jpg"
+   "image": null,
+   "logo": "https://eddesands.com/wp-content/uploads/2024/04/cropped-eddesands-1-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://eddesands.com/wp-content/uploads/2024/04/eddesands.png",
+    "https://eddesands.com/wp-content/uploads/2025/10/website-cover.jpg",
+    "https://eddesands.com/wp-content/uploads/2025/10/mahraja-1-770x550.jpg",
+    "https://eddesands.com/wp-content/uploads/2025/10/tente-de-la-reine-770x550.jpg",
+    "https://eddesands.com/wp-content/uploads/2024/04/323A2778-770x550.jpg",
+    "https://eddesands.com/wp-content/uploads/2024/04/323A2652-770x550.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-byblos-public-beach",
@@ -167979,7 +168939,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/e64d6ff02a140c80-37398063981_185767a406_b.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJlNjRkNmZmMDJhMTQwYzgwLTM3Mzk4MDYzOTgxXzE4NTc2N2E0MDZfYi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-belle-merre-okaibe",
@@ -168050,7 +169016,12 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-21-May-2026-02-04-PM-737.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-safra-public-beach",
@@ -168117,7 +169088,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/183855d8ada3ec9d-19399693_1603501876347129_1108621211656020538_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxODM4NTVkOGFkYTNlYzlkLTE5Mzk5NjkzXzE2MDM1MDE4NzYzNDcxMjlfMTEwODYyMTIxMTY1NjAyMDUzOF9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-joining-public-beach-kfaraabida",
@@ -168184,7 +169161,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/1cd1b201231b2c29-batroun-kfarabida-savekfarabida-mediterranean-s-6-27-2017-12-40-13-pm-l.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxY2QxYjIwMTIzMWIyYzI5LWJhdHJvdW4ta2ZhcmFiaWRhLXNhdmVrZmFyYWJpZGEtbWVkaXRlcnJhbmVhbi1zLTYtMjctMjAxNy0xMi00MC0xMy1wbS1sLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-abou-ali-public-beach",
@@ -168251,7 +169234,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/a077a728219891b5-abou-ali-beach-kfarabida-.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJhMDc3YTcyODIxOTg5MWI1LWFib3UtYWxpLWJlYWNoLWtmYXJhYmlkYS0uanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-colonel-reef-batroun",
@@ -168324,7 +169313,17 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/a6d569ba2eee0a14-66021261_389325565105475_4571471247497494528_n.jpg"
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.popmartworld.com/img/ezugi-gaming.a210830.webp",
+    "https://www.popmartworld.com/img/ubo.cda035b.webp",
+    "https://www.popmartworld.com/img/poker.c6e9994.webp",
+    "https://www.popmartworld.com/img/fishing.c3aa057.webp",
+    "https://www.popmartworld.com/img/e-sports5d6a2b7.webp"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-pierre-and-friends-batroun",
@@ -168397,7 +169396,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/dddd148350155dc9-31948831_1692502684166988_8569295564745736192_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJkZGRkMTQ4MzUwMTU1ZGM5LTMxOTQ4ODMxXzE2OTI1MDI2ODQxNjY5ODhfODU2OTI5NTU2NDc0NTczNjE5Ml9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-danys-beach-batroun",
@@ -168463,7 +169468,12 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-21-May-2026-02-04-PM-737.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-white-beach-batroun",
@@ -168546,7 +169556,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5d316269385d18c2-106547117_3026273684131414_6625819018497650964_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1ZDMxNjI2OTM4NWQxOGMyLTEwNjU0NzExN18zMDI2MjczNjg0MTMxNDE0XzY2MjU4MTkwMTg0OTc2NTA5NjRfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-blu-bay-batroun",
@@ -168629,7 +169645,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/cb147be6c2138c38-ScreenShot2022-06-17at2.23.55AM.png"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjYjE0N2JlNmMyMTM4YzM4LVNjcmVlblNob3QyMDIyLTA2LTE3YXQyLjIzLjU1QU0ucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-butlers-beach-club-batroun",
@@ -168707,7 +169729,11 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/1abcc8f7de94515d-Captured’écran2022-07-13à10.33.42.png"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxYWJjYzhmN2RlOTQ1MTVkLUNhcHR1cmVk4oCZw6ljcmFuMjAyMi0wNy0xM8OgMTAuMzMuNDIucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-orchid-beach-batroun",
@@ -168785,7 +169811,18 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/89082f1143fc20ea-235557987_5851067571635206_437914894536261178_n.jpg"
+   "image": "https://www.orchid-lifestyle.com/assets/images/og-image.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.orchid-lifestyle.com/assets/images/obr_beach_04.jpg",
+    "https://www.orchid-lifestyle.com/assets/images/obr_beach_12.jpg",
+    "https://www.orchid-lifestyle.com/assets/images/obr_beach_13.jpg",
+    "https://www.orchid-lifestyle.com/assets/images/obr_beach_02.jpg",
+    "https://www.orchid-lifestyle.com/assets/images/obr_beach_05.jpg",
+    "https://www.orchid-lifestyle.com/assets/images/obr_beach_10.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-sawary-resort-batroun",
@@ -168862,7 +169899,12 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-aqualand-batroun",
@@ -168933,7 +169975,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-kai-beach-batroun",
@@ -169004,7 +170053,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-san-stephano-batroun",
@@ -169087,7 +170143,18 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/23edc0740f972fcd-c-gallery-11.jpg"
+   "image": null,
+   "logo": "https://www.sanstephano.com/images/icons/57EvenSized%20San%20Stephano%20Logo.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.sanstephano.com/images/About%20us/aboutus_600x750B.jpg",
+    "https://www.sanstephano.com/images/About%20us/aboutus_600x830.jpg",
+    "https://www.sanstephano.com/images/Restaurants/Restaurants.jpg",
+    "https://www.sanstephano.com/images/Art%20&%20Culture%20to%20replace%20with%20ROUTES/Routes.jpg",
+    "https://www.sanstephano.com/images/events/wd1.png",
+    "https://www.sanstephano.com/images/events/ce1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-rocca-island-hamat",
@@ -169165,7 +170232,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/351b01ae7c110f08-240940102_2058767817607014_1565602613257125315_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIzNTFiMDFhZTdjMTEwZjA4LTI0MDk0MDEwMl8yMDU4NzY3ODE3NjA3MDE0XzE1NjU2MDI2MTMyNTcxMjUzMTVfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-sealena-chekka",
@@ -169248,7 +170321,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/69d593aa9ed5bc80-292962110_5726797560698230_4228917115096273516_n.jpeg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2OWQ1OTNhYTllZDViYzgwLTI5Mjk2MjExMF81NzI2Nzk3NTYwNjk4MjMwXzQyMjg5MTcxMTUwOTYyNzM1MTZfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-palmera-chekka",
@@ -169326,7 +170405,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/2ac78af0dd888bc9-106908710_3123081777771149_7800693749484732400_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyYWM3OGFmMGRkODg4YmM5LTEwNjkwODcxMF8zMTIzMDgxNzc3NzcxMTQ5Xzc4MDA2OTM3NDk0ODQ3MzI0MDBfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-crystal-blue-chekka",
@@ -169397,7 +170482,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-nanaya-beach-club",
@@ -169480,7 +170572,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/db1d27d8764b4300-286846315_1737629246579184_5949131409472428393_n.jpeg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJkYjFkMjdkODc2NGI0MzAwLTI4Njg0NjMxNV8xNzM3NjI5MjQ2NTc5MTg0XzU5NDkxMzE0MDk0NzI0MjgzOTNfbi5qcGVnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-plage-saint-antoine-heri",
@@ -169551,7 +170649,12 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-21-May-2026-02-04-PM-737.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-beny-beach-heri",
@@ -169624,7 +170727,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/63465af72f3c11d7-58818388_10156929577195661_4783727315790069760_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2MzQ2NWFmNzJmM2MxMWQ3LTU4ODE4Mzg4XzEwMTU2OTI5NTc3MTk1NjYxXzQ3ODM3MjczMTU3OTAwNjk3NjBfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-calico-anfeh",
@@ -169702,7 +170811,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/0fb840263f88c793-448332014_122124512834279120_4313940568567093484_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIwZmI4NDAyNjNmODhjNzkzLTQ0ODMzMjAxNF8xMjIxMjQ1MTI4MzQyNzkxMjBfNDMxMzk0MDU2ODU2NzA5MzQ4NF9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-salacia-anfeh",
@@ -169785,7 +170900,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5a0b55f4b2dc22b8-Captured’écran2024-05-22à15.53.32.png"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI1YTBiNTVmNGIyZGMyMmI4LUNhcHR1cmVk4oCZw6ljcmFuMjAyNC0wNS0yMsOgMTUuNTMuMzIucG5nIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-las-salinas-anfeh",
@@ -169868,7 +170989,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/8bb1525e04c9a9e0-220g0s000000hhyvi70C5_Z_550_412_R5_Q70_D.jpg"
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://lassalinas-lb.com/wp-content/uploads/2019/05/h8.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-tahet-el-rih-anfeh",
@@ -169941,7 +171068,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/2f5954760918612e-20160602_130108.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyZjU5NTQ3NjA5MTg2MTJlLTIwMTYwNjAyXzEzMDEwOC5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-colina-bay-anfeh",
@@ -170012,7 +171145,12 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-21-May-2026-02-04-PM-737.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-palm-islands-reserve",
@@ -170079,7 +171217,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/9341f4613ad4da82-PALMS1.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5MzQxZjQ2MTNhZDRkYTgyLVBBTE1TMS5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-bella-mare-khalde",
@@ -170168,7 +171312,11 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/5a194e982727dd2b-20748076_435345353532397_6310306872266382598_o.jpg"
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-la-siesta-khalde",
@@ -170256,7 +171404,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/a375f9a32530b152-la-siesta-hotel-beach.jpg"
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://lasiestabeachresort.com/images/lasiesta-map.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-deauville-beach-khalde",
@@ -170332,7 +171486,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-laguava-rmeileh",
@@ -170415,7 +171576,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/a601a363cd7e55be-inspirado-nas-praias-asiaticas-o-resort-laguava-5-26-2017-12-28-01-pm-l.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJhNjAxYTM2M2NkN2U1NWJlLWluc3BpcmFkby1uYXMtcHJhaWFzLWFzaWF0aWNhcy1vLXJlc29ydC1sYWd1YXZhLTUtMjYtMjAxNy0xMi0yOC0wMS1wbS1sLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-havana-beach-rmeileh",
@@ -170486,7 +171653,12 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-beach-45-rmeileh",
@@ -170563,7 +171735,11 @@
     "label": "Summer season (opened 8 May in 2026; closing date not stated)"
    },
    "seasonOpen": false,
-   "image": "https://www.beirut.com/wp-content/uploads/2023/07/beach45.jpg"
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-21-May-2026-02-04-PM-737.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-jiyeh-marina-resort",
@@ -170646,7 +171822,18 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/3601d2f56cf449e7-60830675_1143478315835403_5129760646006571008_n.jpg"
+   "image": "https://jiyehmarinahotel.com/upload/cp__preferences/cp__preferences_company_logo/1/cp__preferences_1_1713344469.553127186a2f33992f0d3f41c367775552c8.png",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://jiyehmarinahotel.com/upload/ot__slider/ot__slider_image/4/ot__slider_4_1713247847.32455625d364953cffcbd2be5381e5a7f2e7.jpg",
+    "https://jiyehmarinahotel.com/upload/ot__page/ot__page_image/41/ot__page_41_1713251218.5547dadd74cab7d317f73ea36c147cde366d.jpg",
+    "https://jiyehmarinahotel.com/upload/jiyehmarina_room/jiyehmarina_room_image/1/jiyehmarina_room_1_1784789835.24561571fb9ef8868bbc345374faf19fd486.jpg",
+    "https://jiyehmarinahotel.com/upload/jiyehmarina_room/jiyehmarina_room_image/2/jiyehmarina_room_2_1784789848.1082a510aad60b208f1db3e898d0f222d3f4.jpg",
+    "https://jiyehmarinahotel.com/upload/jiyehmarina_room/jiyehmarina_room_image/5/jiyehmarina_room_5_1784790479.2261287b42aefbab468b1e3a126869c2e8f6.jpg",
+    "https://jiyehmarinahotel.com/upload/jiyehmarina_room/jiyehmarina_room_image/11/jiyehmarina_room_11_1782201975.188179f6599d1d57bee4e8cf4e40f2160788.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-la-fontaine-jiyeh",
@@ -170722,7 +171909,14 @@
     "to": "10-15",
     "label": "Summer season (beach opened 15 May and pool 23 May in 2026; closing date not stated)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-golden-sands-jiyeh",
@@ -170800,7 +171994,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/95d5605d2fcdcf1f-188250721_3950358795053175_204003738417502766_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5NWQ1NjA1ZDJmY2RjZjFmLTE4ODI1MDcyMV8zOTUwMzU4Nzk1MDUzMTc1XzIwNDAwMzczODQxNzUwMjc2Nl9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-pangea-beach-jiyeh",
@@ -170878,7 +172078,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/8b9181eeb3da26f8-10055555.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4YjkxODFlZWIzZGEyNmY4LTEwMDU1NTU1LmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-aquaville-jiyeh",
@@ -170954,7 +172160,14 @@
     "to": "10-15",
     "label": "Summer season (opened 27 May in 2026; closing date not stated)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-jonas-beach-jiyeh",
@@ -171027,7 +172240,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/21d795248e1af775-jonas-gd2_9798.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyMWQ3OTUyNDhlMWFmNzc1LWpvbmFzLWdkMl85Nzk4LmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-lazy-b-jiyeh",
@@ -171130,7 +172349,11 @@
     "label": "Beach season (usually opens around 15 April and closes around 10 October)"
    },
    "seasonOpen": false,
-   "image": "https://framerusercontent.com/images/kuahqjCrN2dxQpLsBIsDjIwQkzc.jpg"
+   "image": "https://framerusercontent.com/images/kuahqjCrN2dxQpLsBIsDjIwQkzc.jpg",
+   "logo": "https://framerusercontent.com/images/8Nr9BftKWfWHT6yput60oKJ3HyM.svg",
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-cabo-beach-jiyeh",
@@ -171208,7 +172431,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/c525f203609dd01d-176daf0e59e851a1d811e50e6603e840.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJjNTI1ZjIwMzYwOWRkMDFkLTE3NmRhZjBlNTllODUxYTFkODExZTUwZTY2MDNlODQwLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-chir-bay-jiyeh",
@@ -171281,7 +172510,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/9bdaa1527247a848-photo1jpg.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5YmRhYTE1MjcyNDdhODQ4LXBob3RvMWpwZy5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-orchid-beach-jiyeh",
@@ -171359,7 +172594,18 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://www.orchid-lifestyle.com/assets/images/og-image.jpg"
+   "image": "https://www.orchid-lifestyle.com/assets/images/og-image.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.orchid-lifestyle.com/assets/images/obr_beach_04.jpg",
+    "https://www.orchid-lifestyle.com/assets/images/obr_beach_12.jpg",
+    "https://www.orchid-lifestyle.com/assets/images/obr_beach_13.jpg",
+    "https://www.orchid-lifestyle.com/assets/images/obr_beach_02.jpg",
+    "https://www.orchid-lifestyle.com/assets/images/obr_beach_05.jpg",
+    "https://www.orchid-lifestyle.com/assets/images/obr_beach_10.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-bar-damour-beach",
@@ -171437,7 +172683,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/63dbb35831be88a2-240325412_3059697070971873_6729876968335815140_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2M2RiYjM1ODMxYmU4OGEyLTI0MDMyNTQxMl8zMDU5Njk3MDcwOTcxODczXzY3Mjk4NzY5NjgzMzU4MTUxNDBfbi5qcGciLCJlZGl0cyI6eyJ3ZWJwIjp0cnVlLCJqcGVnIjp0cnVlLCJzaGFycGVuIjp0cnVlLCJyZXNpemUiOnsid2lkdGgiOjUwMCwiaGVpZ2h0Ijo1MDB9fX0=",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-damour-beach-resort",
@@ -171510,7 +172762,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/8f5dc689e309143d-83687608_1664029947106568_1673534856962737085_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI4ZjVkYzY4OWUzMDkxNDNkLTgzNjg3NjA4XzE2NjQwMjk5NDcxMDY1NjhfMTY3MzUzNDg1Njk2MjczNzA4NV9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-guanabana-damour",
@@ -171581,7 +172839,14 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": "https://www.beirut.com/wp-content/uploads/2026/05/MixCollage-04-May-2026-04-54-PM-2629.jpg",
+   "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.beirut.com/wp-content/uploads/2026/05/Screenshot-2026-05-07-at-9.47.04-AM-1.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-janna-sur-mer-damour",
@@ -171664,7 +172929,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/795744c454873c19-breakfast-with-a-sea-view-at-janna-sur-mer38356567-l.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI3OTU3NDRjNDU0ODczYzE5LWJyZWFrZmFzdC13aXRoLWEtc2VhLXZpZXctYXQtamFubmEtc3VyLW1lcjM4MzU2NTY3LWwuanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-sands-rock-jadra",
@@ -171742,7 +173013,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/1652057ec0e5ea56-193288604_2914332308833593_38038392506148778_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIxNjUyMDU3ZWMwZTVlYTU2LTE5MzI4ODYwNF8yOTE0MzMyMzA4ODMzNTkzXzM4MDM4MzkyNTA2MTQ4Nzc4X24uanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-rest-house-tyre",
@@ -171820,7 +173097,16 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/b7bc387b231fea0a-12(1).jpg"
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://resthouse-tyr.com.lb/assets/images/slider/home/2.jpg",
+    "https://resthouse-tyr.com.lb/assets/images/slider/home/3.jpg",
+    "https://resthouse-tyr.com.lb/assets/images/slider/home/1.jpg",
+    "https://resthouse-tyr.com.lb/assets/images/slider/home/0.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-tyre-public-beach",
@@ -171887,7 +173173,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/6fbba0a39c09bba0-DJI_0509-copy.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI2ZmJiYTBhMzljMDliYmEwLURKSV8wNTA5LWNvcHkuanBnIiwiZWRpdHMiOnsid2VicCI6dHJ1ZSwianBlZyI6dHJ1ZSwic2hhcnBlbiI6dHJ1ZSwicmVzaXplIjp7IndpZHRoIjo1MDAsImhlaWdodCI6NTAwfX19",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-turquoise-beach-naqoura",
@@ -171960,7 +173252,13 @@
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
    "seasonOpen": false,
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/273dbf0ce24fba42-60428861_2430775466952774_4472823974786498560_n.jpg"
+   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiIyNzNkYmYwY2UyNGZiYTQyLTYwNDI4ODYxXzI0MzA3NzU0NjY5NTI3NzRfNDQ3MjgyMzk3NDc4NjQ5ODU2MF9uLmpwZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJmZTQ5ZDhmMjBlOTRlZWM1LWJhbS13ZWItYmFubmVyLnBuZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6MzAwMH19fQ=="
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-beach-auberge-de-tyr",
@@ -172031,7 +173329,19 @@
     "to": "10-15",
     "label": "Summer beach season (exact dates not stated by the venue; Lebanese beach clubs usually open in May and close in early-to-mid October)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "image": null,
+   "logo": "https://aubergedetyr.com/wp-content/uploads/2024/04/Untitled-design-300x300.png",
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://aubergedetyr.com/wp-content/uploads/2022/11/LAuberge-de-Tyr-small-white.png",
+    "https://aubergedetyr.com/wp-content/uploads/2024/04/Untitled-design.png",
+    "https://aubergedetyr.com/wp-content/uploads/2024/05/Untitled-design.png",
+    "https://aubergedetyr.com/wp-content/uploads/2024/05/Untitled-design-2.png",
+    "https://aubergedetyr.com/wp-content/uploads/2024/04/6.png",
+    "https://aubergedetyr.com/wp-content/uploads/2024/04/7.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-ski-mzaar-kfardebian",
@@ -172172,7 +173482,7 @@
     ]
    ],
    "url": "https://www.mzaarskiresort.com/winter",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/8155e4c2cb89a651-89573244_3178884945477105_4068562325534146560_n.jpg",
+   "image": "https://www.mzaarskiresort.com/images/hero-winter-BTchV3EB.jpg",
    "confidence": "Medium",
    "caveat": "2025-26 prices; 2026-27 not published yet. Lift prices are SkiLeb's 'winter 2026' list (the 2025-26 season); the official site does not yet publish prices. Rental price range is from an undated SkiLeb guide. Prices source: SkiLeb lift-pass page (winter 2026). Season dates and stats: skiresort.info and SkiLeb. Live info: Slope status: https://www.skileb.com/ski-resort/Mzaar/slopes/ – webcam page https://www.skileb.com/webcam/mzaar/ (listed as under relocation).",
    "verified": "2026-10-24",
@@ -172183,7 +173493,16 @@
     "to": "04-10",
     "label": "Ski season (usually early December to early April; the resort says December through April)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.mzaarskiresort.com/images/activity-snowboard-BerGN6vg.jpg",
+    "https://www.mzaarskiresort.com/storage/activities/01KX5RD748XSNZCXVD9HG20KPX.jpg",
+    "https://www.mzaarskiresort.com/storage/activities/01KX5RCGQHNMA6TVSX8MXVSRD4.JPG",
+    "https://www.mzaarskiresort.com/storage/activities/01KW9B96SADNK33D8SJPSWWPKG.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-ski-the-cedars-arz",
@@ -172279,7 +173598,7 @@
     ]
    ],
    "url": "https://www.skileb.com/ski-resort/Cedars/",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/4e29dde8ff5a9b16-12494882_840663836059223_4594631621842472289_n.jpg",
+   "image": null,
    "confidence": "Medium",
    "caveat": "2025-26 prices; 2026-27 not published yet. Lift prices are SkiLeb's 'winter 2026' list. No official resort website was found; contact is BAM's listing. In 2025-26 the resort opened on New Year's Eve (L'Orient-Le Jour). Prices source: SkiLeb lift-pass page (winter 2026). Season dates and stats: skiresort.info and SkiLeb. Live info: Slope status: https://www.skileb.com/ski-resort/Cedars/slopes/ – webcam https://www.skileb.com/webcam/cedars/.",
    "verified": "2026-10-24",
@@ -172290,7 +173609,15 @@
     "to": "04-30",
     "label": "Ski season (usually mid-November to late April, snow permitting – the longest in Lebanon)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.skileb.com/banner_top.png",
+    "https://www.skileb.com/multimedia/image/resorts/cedars_overview.jpg",
+    "https://www.skileb.com/multimedia/image/resorts/CedarsLifts.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-ski-zaarour-club",
@@ -172421,7 +173748,7 @@
     ]
    ],
    "url": "https://www.zaarourclub.com/slopes",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/7cbba0c5005e0eaa-85147390_2687223741385519_4235069007780118528_n.jpg",
+   "image": null,
    "confidence": "Medium",
    "caveat": "2025-26 prices; 2026-27 not published yet. The official slopes page lists these prices without a season label; SkiLeb gives the same figures as 'winter 2026'. Prices source: Official slopes page / SkiLeb (winter 2026). Season dates and stats: skiresort.info and SkiLeb. Live info: Webcams and slope status: https://www.zaarourclub.com/webcams.",
    "verified": "2026-10-24",
@@ -172432,7 +173759,18 @@
     "to": "04-10",
     "label": "Ski season (usually early December to early April, snow permitting)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.zaarourclub.com/images/slopes/trail-map.jpg",
+    "https://www.zaarourclub.com/media/k2/items/cache/c889234799e865bbe90cee71f6cd2e53_L.jpg",
+    "https://www.zaarourclub.com/media/k2/items/cache/9b2c4b44fb86522964124ed80d03c5e8_L.jpg",
+    "https://www.zaarourclub.com/media/k2/items/cache/71f67488b0857639cee631943a3fc6fa_L.jpg",
+    "https://www.zaarourclub.com/media/k2/items/cache/e2bf3b11df0b872112757f1c2fee6e32_L.jpg",
+    "https://www.zaarourclub.com/media/k2/items/cache/233826a67be66a810b23a263230da62e_L.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-ski-laqlouq",
@@ -172528,7 +173866,7 @@
     ]
    ],
    "url": "https://www.skileb.com/ski-resort/laqlouq/",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/bf4d498468d89d1d-155519688_545889792983511_2582319578159276822_n.jpg",
+   "image": null,
    "confidence": "Low",
    "caveat": "Prices are SkiLeb's undated list and may be older than 2025-26; 2026-27 not published yet. No official website found. Prices source: SkiLeb lift-pass page (undated). Season dates and stats: skiresort.info and SkiLeb. Live info: Slope status: https://www.skileb.com/ski-resort/laqlouq/slopes/ – webcam https://www.skileb.com/webcam/laklo1/.",
    "verified": "2026-10-24",
@@ -172539,7 +173877,13 @@
     "to": "03-31",
     "label": "Ski season (usually mid-January to late March, snow permitting)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.skileb.com/banner_top.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-ski-faqra-club",
@@ -172646,7 +173990,7 @@
     ]
    ],
    "url": "https://www.faqraclub.com/TheExperience",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/c50412cca227fbf9-51216156_2185745398141067_4464907684340039680_n.jpg",
+   "image": "https://www.faqraclub.com/Content/uploads/SEO/160202075420725~seo.jpg",
    "confidence": "Low",
    "caveat": "Latest published prices are BAM's '2024 season' (the official site lists none); 2025-26 and 2026-27 not published. Private club: check that non-members can buy day passes. Prices source: BAM (2024 season). Season dates and stats: skiresort.info and SkiLeb. Live info: Webcam: https://www.skileb.com/webcam/faqra1/ (the official site also has a webcam viewer).",
    "verified": "2026-10-24",
@@ -172657,7 +174001,18 @@
     "to": "03-31",
     "label": "Ski season (dates not stated by the club; Lebanese resorts usually run December to March, snow permitting)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.faqraclub.com/Content/uploads/Activity/Football.JPG250224042844637~.jpg",
+    "https://www.faqraclub.com/Content/uploads/Activity/Basketball.JPG250224042827918~.jpg",
+    "https://www.faqraclub.com/Content/uploads/Activity/bike.JPG250522102452644~.jpg",
+    "https://www.faqraclub.com/Content/uploads/Activity/show%20jumping%20(3).JPG250522103127506~.jpg",
+    "https://www.faqraclub.com/Content/uploads/Activity/Swimming.JPG250224043139815~.jpg",
+    "https://www.faqraclub.com/Content/uploads/Activity/tennis%201%20JPG250522103354447~.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sp-ski-qanat-bakish",
@@ -172743,7 +174098,7 @@
     ]
    ],
    "url": "https://www.skileb.com/ski-resort/qanat/",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/2939293d9162d111-44611719.700x525.jpeg",
+   "image": null,
    "confidence": "Low",
    "caveat": "Latest published prices are BAM's '2024 season' and an undated SkiLeb list; 2025-26 and 2026-27 not published. No official website found. Prices source: BAM (2024 season) / SkiLeb (undated). Season dates and stats: skiresort.info and SkiLeb. Live info: Slope status: https://www.skileb.com/ski-resort/qanat/slopes/ (no webcam listed).",
    "verified": "2026-10-24",
@@ -172754,7 +174109,13 @@
     "to": "03-31",
     "label": "Ski season (dates not stated by the resort; Lebanese resorts usually run December to March, snow permitting)"
    },
-   "seasonOpen": false
+   "seasonOpen": false,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.skileb.com/banner_top.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "travel": false,
