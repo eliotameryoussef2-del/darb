@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T11:38:13.677Z",
- "count": 2372,
+ "updated": "2026-10-24T12:25:45.880Z",
+ "count": 2371,
  "opportunities": [
   {
    "id": "hk-taskforge",
@@ -37029,66 +37029,6 @@
     "https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2Feb17306d54dc4a05b682c561446e61a0",
     "https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2F71d12fac6b6045d5a378bd3cb9576752",
     "https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2Fc140c97829bd46dfaafa5e34264c0b78"
-   ],
-   "galleryChecked": "2026-10-24"
-  },
-  {
-   "id": "portfolio-night-beirut-2026",
-   "cat": "career",
-   "title": "Portfolio Night 2026 - Beirut",
-   "org": "The One Club for Creativity · hosted by IAA Lebanon",
-   "place": "Annahar News Café, Annahar Building, Downtown Beirut, Lebanon",
-   "travel": false,
-   "funded": "na",
-   "feeUSD": null,
-   "feeText": "Not stated",
-   "deadline": null,
-   "eventDate": "2026-10-23T15:00:00+03:00",
-   "rolling": false,
-   "deadlineText": "Not stated (event on 23 Oct 2026)",
-   "when": "Friday 23 Oct 2026, 3:00-7:00 pm",
-   "meet": "Annahar News Café, Annahar Building, Downtown Beirut",
-   "team": "Individual",
-   "tags": [
-    "careers"
-   ],
-   "prize": "IAA Lebanon selects one All-Star for a virtual boot camp in early 2027; the winning All-Star team wins a trip to New York for The One Club's Creative Week 2027.",
-   "elig": {
-    "status": "ok",
-    "lines": [
-     "Level: 'The event is open to senior students and fresh grads'",
-     "University: 'from major Lebanese universities'",
-     "Nationality/residency: Not stated (event in Beirut for Lebanese university students)",
-     "Age: Not stated",
-     "Team: Not stated",
-     "Field: graphic design, art direction, copywriting"
-    ]
-   },
-   "money": [
-    [
-     "Ticket",
-     "Not stated",
-     "ns"
-    ]
-   ],
-   "steps": [
-    "Open the official Beirut event page.",
-    "Use the Get Tickets link (Eventbrite) to register."
-   ],
-   "contact": [],
-   "url": "https://portfolionight.com/beirut-af-2026/",
-   "confidence": "High",
-   "caveat": "Event is tomorrow (23 Oct); ticket price and registration cutoff not stated on the official page.",
-   "verified": "2026-10-22",
-   "source": "allevents-beirut",
-   "added": "2026-10-22",
-   "image": "https://portfolionight.com/wp-content/uploads/2026/07/PN26-Logo-OG-1200x627.jpg",
-   "logo": "https://portfolionight.com/wp-content/uploads/2024/01/cropped-The_One_Club_for_Creativity-logo_black-6-192x192.png",
-   "imageChecked": "2026-10-22",
-   "gallery": [
-    "https://portfolionight.com/wp-content/uploads/2026/07/Beirut.jpg",
-    "https://portfolionight.com/wp-content/uploads/2026/08/LEBANON-NEGATIVE-RGB-scaled.jpg",
-    "https://portfolionight.com/wp-content/uploads/2026/08/LEBANON-NEGATIVE-RGB-2048x2048.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },

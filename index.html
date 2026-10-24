@@ -339,6 +339,9 @@ if(sb)sb.auth.onAuthStateChange(async(ev,session)=>{
   if(OPPS.length){if(current==="feed")renderFeed();else if(current==="profile")renderProfile();else if(current==="saved")renderSaved()}
   if(location.hash.includes("access_token"))history.replaceState(null,"",location.pathname);
 });
+// A sign-in link that failed (expired, already used) says so instead of failing silently.
+{const h=new URLSearchParams(location.hash.slice(1));
+ if(h.get("error_description")){setTimeout(()=>{openSignIn("use all features");const m=$("#si-msg");if(m)m.innerHTML="⚠️ That sign-in link didn't work ("+escHTML(h.get("error_description"))+"). Request a new one below and open it on this phone, in Chrome."},600);history.replaceState(null,"",location.pathname)}}
 
 async function loadCounts(){
   try{const[l,c]=await Promise.all([supa("/rest/v1/rpc/like_counts",{method:"POST",body:"{}"}),supa("/rest/v1/rpc/comment_counts",{method:"POST",body:"{}"})]);
