@@ -47,6 +47,16 @@ main{position:relative;min-height:0}
 .mediagrid>div{position:relative;aspect-ratio:1;border-radius:10px;overflow:hidden;background:#222}
 .mediagrid img,.mediagrid video{width:100%;height:100%;object-fit:cover}
 .mediagrid button{position:absolute;top:4px;right:4px;border:0;border-radius:99px;background:rgba(0,0,0,.7);color:#fff;width:24px;height:24px}
+.clink{background:none;border:0;color:var(--mute);font-size:12.5px;padding:2px 0;font-weight:600}
+.cm.reply{margin-left:22px;border-left:2px solid var(--line);padding-left:10px}
+.tab.dot,.fchip.dot{position:relative}.tab.dot::after,.fchip.dot::after{content:"";position:absolute;top:6px;right:calc(50% - 16px);width:9px;height:9px;border-radius:50%;background:#ff3b30;border:2px solid var(--bg)}.fchip.dot::after{top:-2px;right:-2px}
+.stiles{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.stile{border:1px solid var(--line);border-radius:12px;padding:10px 12px}.stile b{display:block;font-size:22px}.stile small{color:var(--mute);font-size:12px}
+.bars{display:flex;align-items:flex-end;gap:3px;height:110px;margin-top:8px}.bars>div{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%}.bars i{display:block;width:100%;background:var(--accent);border-radius:3px 3px 0 0;min-height:2px}.bars small{font-size:9px;color:var(--mute)}
+html[dir=rtl] .cat,html[dir=rtl] .h1,html[dir=rtl] .lbl,html[dir=rtl] .flabel,html[dir=rtl] .sec h3{letter-spacing:0;font-family:"Noto Sans Arabic","Segoe UI",Tahoma,sans-serif;text-transform:none}
+.langrow{display:flex;align-items:center;gap:8px;margin:0 0 10px;font-size:14px}
+html[dir=rtl] body{font-family:"Noto Sans Arabic","Segoe UI",Tahoma,var(--body)}
+html[dir=rtl] .cm.reply{margin-left:0;margin-right:22px;border-left:0;border-right:2px solid var(--line);padding-left:0;padding-right:10px}
+html[dir=rtl] .title,html[dir=rtl] .nt{direction:ltr;unicode-bidi:plaintext;text-align:right}
 .badge-org{display:inline-block;font-size:11.5px;font-weight:700;background:#1d4d2e;color:#9ff0b8;border-radius:6px;padding:2px 7px;margin-left:6px}
 .logo{width:26px;height:26px;border-radius:7px;object-fit:contain;background:#fff;flex:none;vertical-align:middle;margin-right:7px}
 .thumb{position:relative}
@@ -366,7 +376,7 @@ function pushState(now){
 }
 if(sb)sb.auth.onAuthStateChange(async(ev,session)=>{
   const was=!!USER;USER=session?session.user:null;TOKEN=session?session.access_token:null;
-  if(USER&&!was){await pullState();loadMine();loadMyOrgs();if(ev==="SIGNED_IN"){closeSheet();toast("Signed in. Welcome to Darb!");feedMode="foryou"}}
+  if(USER&&!was){await pullState();loadMyOrgs();checkAdmin();loadMine().then(()=>{loadMyStats();checkActivity()});if(ev==="SIGNED_IN"){closeSheet();toast("Signed in. Welcome to Darb!");feedMode="foryou"}}
   if(!USER&&was&&feedMode!=="community")feedMode="community";
   if(OPPS.length){if(current==="feed")renderFeed();else if(current==="profile")renderProfile();else if(current==="saved")renderSaved()}
   if(location.hash.includes("access_token"))history.replaceState(null,"",location.pathname);
@@ -381,6 +391,58 @@ async function loadCounts(){
     document.querySelectorAll(".slide[data-id] .rail").forEach(r=>{const o=byId(r.parentNode.dataset.id);if(o)r.innerHTML=railBtns(o)});
   }catch(e){}
 }
+
+/* ---------- language: English / العربية ---------- */
+// Arabic swaps every piece of on-screen English for its Arabic from one dictionary (ar.json):
+// app labels and the details of each opportunity. Event titles and organisation names are
+// marked "nt" and are never translated. Numbers in labels ("8 days left") use patterns below.
+let LANG="en",AR={};
+try{LANG=JSON.parse(localStorage.getItem("darb-state")||"{}").lang||"en"}catch(e){}
+const AR_MONTHS={Jan:"كانون الثاني",Feb:"شباط",Mar:"آذار",Apr:"نيسان",May:"أيار",Jun:"حزيران",Jul:"تموز",Aug:"آب",Sep:"أيلول",Sept:"أيلول",Oct:"تشرين الأول",Nov:"تشرين الثاني",Dec:"كانون الأول",January:"كانون الثاني",February:"شباط",March:"آذار",April:"نيسان",June:"حزيران",July:"تموز",August:"آب",September:"أيلول",October:"تشرين الأول",November:"تشرين الثاني",December:"كانون الأول"};
+const arDate=s=>s.replace(/\b(January|February|March|April|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sept|Sep|Oct|Nov|Dec)\b/g,m=>AR_MONTHS[m]);
+const DATE_RE="(\\d{1,2} [A-Z][a-z]{2,8} \\d{4})";
+const AR_PATTERNS=[
+  [/^(\d+) days left$/,(m,n)=>`باقي ${n} أيام`],[/^1 day left$/,()=>"باقي يوم واحد"],
+  [/^Starts in (\d+) days$/,(m,n)=>`يبدأ بعد ${n} أيام`],[/^Ended (.+)$/,(m,d)=>`انتهى ${arDate(d)}`],
+  [/^See (\d+) results?$/,(m,n)=>`عرض ${n} نتيجة`],[/^(\d+) open$/,(m,n)=>`${n} متاح`],
+  [/^(\d+) chosen$/,(m,n)=>`${n} مختار`],[/^Showing (\d+) of (\d+)\. Search to narrow down\.$/,(m,a,b)=>`عرض ${a} من ${b}. ابحث لتضييق النتائج.`],
+  [/^Uploading (\d+)\/(\d+)…$/,(m,a,b)=>`جارٍ الرفع ${a}/${b}…`],[/^Browse all (\d+) organisers$/,(m,n)=>`تصفّح كل المنظِّمين (${n})`],
+  [/^(\d+) open opportunit(y|ies) on Darb$/,(m,n)=>`${n} فرصة متاحة على Darb`],[/^All · (\d+)$/,(m,n)=>`الكل · ${n}`],
+  [/^That's all (\d+) for your filters$/,(m,n)=>`هذه كل النتائج (${n}) حسب الفلاتر`],[/^(\d+) views?$/,(m,n)=>`${n} مشاهدة`],
+  [/^Refreshed · (\d+) open · updated (.+)$/,(m,n,d)=>`تم التحديث · ${n} متاح · آخر تحديث ${arDate(d)}`],
+  [new RegExp("^"+DATE_RE+"$"),(m,d)=>arDate(d)],[new RegExp("^Register by "+DATE_RE+"$"),(m,d)=>`التسجيل قبل ${arDate(d)}`],
+  [/^Before (.+)$/,(m,d)=>`قبل ${arDate(d)}`],[/^After (.+)$/,(m,d)=>`بعد ${arDate(d)}`],
+];
+const EMOJI_LEAD=/^((?:\p{Extended_Pictographic}|\p{Regional_Indicator})[️‍\p{Extended_Pictographic}\p{Regional_Indicator}]*\s*)([\s\S]*)$/u;
+function trCore(s){
+  if(AR[s])return AR[s];
+  const e=s.match(EMOJI_LEAD);if(e&&e[2]&&AR[e[2]])return e[1]+AR[e[2]];
+  for(const[re,fn]of AR_PATTERNS){const m=s.match(re);if(m)return fn(...m)}
+  // "Label · value · value": translate the parts we know.
+  if(s.includes(" · ")){const parts=s.split(" · ");let hit=0;const out=parts.map(p=>{const r=p.trim()&&trCore(p.trim());if(r){hit++;return r}return p});if(hit)return out.join(" · ")}
+  return null;
+}
+function trText(s){
+  const m=s.match(/^([\s·•|–:,(“"]*)([\s\S]*?)([\s·•|.:,)”"…]*)$/);if(!m||!m[2]||!/[A-Za-z]/.test(m[2]))return null;
+  const r=trCore(m[2]);if(r)return m[1]+r+m[3];
+  const r2=m[3].trim()&&trCore(m[2]+m[3].trim());return r2?m[1]+r2:null;
+}
+function translateTree(root){
+  if(LANG!=="ar"||!root)return;
+  const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT,{acceptNode:n=>{const p=n.parentElement;if(!p||/^(SCRIPT|STYLE|TEXTAREA|CODE)$/.test(p.tagName)||p.closest(".nt,[translate=no]"))return NodeFilter.FILTER_REJECT;return NodeFilter.FILTER_ACCEPT}});
+  for(let n;(n=w.nextNode());){if(n._en===undefined)n._en=n.nodeValue;const r=trText(n._en);if(r&&n.nodeValue!==r)n.nodeValue=r}
+  const els=root.querySelectorAll?root.querySelectorAll("[placeholder],[aria-label],[title]"):[];
+  for(const el of els)for(const a of ["placeholder","aria-label","title"]){const v=el.getAttribute(a);if(!v)continue;const k="data-en-"+a;const en=el.getAttribute(k)||v;if(!el.hasAttribute(k))el.setAttribute(k,v);const r=trText(en);if(r&&v!==r)el.setAttribute(a,r)}
+}
+const t=x=>LANG==="ar"&&trCore(x)||x;
+async function loadLang(){
+  if(LANG!=="ar")return;
+  document.documentElement.lang="ar";document.documentElement.dir="rtl";
+  try{const r=await fetch("i18n-ar.json?v="+(UPDATED||Date.now()));if(r.ok)AR=await r.json()}catch(e){}
+  translateTree(document.body);
+  new MutationObserver(ms=>{for(const m of ms)for(const n of m.addedNodes){if(n.nodeType===1)translateTree(n);else if(n.nodeType===3&&n.parentElement)translateTree(n.parentElement)}}).observe(document.body,{childList:true,subtree:true});
+}
+function setLang(l){S.lang=l;persist();location.reload()}
 
 /* ---------- helpers ---------- */
 const $=s=>document.querySelector(s);
@@ -776,8 +838,8 @@ function renderFeed(){
       ${o.sample?'<span class="sample-tag">Sample layout</span>':""}
       <div class="info">
         ${pic.tile||""}<span class="cat">${o.catLabel||CATS[o.cat]}</span>
-        <h2 class="title">${o.title}</h2>
-        <button class="org orgbtn" data-org="${esc(orgKey(o))}">${logoImg(o)}<span>${o.org}</span>${fol?'<em class="fol">Following</em>':'<em class="fol add">+ Follow</em>'}</button>
+        <h2 class="title nt">${o.title}</h2>
+        <button class="org orgbtn" data-org="${esc(orgKey(o))}">${logoImg(o)}<span class="nt">${o.org}</span>${fol?'<em class="fol">Following</em>':'<em class="fol add">+ Follow</em>'}</button>
         <div class="chips">
           <span class="chip ${isClosed(o)?"ended":soon?"hot":""}">${dlLabel(o)}</span>
           <span class="chip">${o.place.split(" (")[0]}</span>
@@ -813,14 +875,14 @@ document.querySelector("#v-feed").addEventListener("scroll",()=>{
 },{passive:true});
 function orgRow(g){
   const f=S.follow.includes(g.key);
-  return`<div class="row orgrow"><button class="orglink" data-org="${esc(g.key)}">${g.logo?`<img class="logo" src="${esc(g.logo)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:`<span class="logo ph">${g.name.slice(0,1)}</span>`}<span><b>${g.name}</b><small>${(GROUPS[g.group]||"").replace(/^\S+\s/,"")} · ${g.count?g.count+" open":"nothing open now"}</small></span></button><button class="btn ${f?"":"primary"}" data-follow="${esc(g.key)}">${f?"Following":"Follow"}</button></div>`;
+  return`<div class="row orgrow"><button class="orglink" data-org="${esc(g.key)}">${g.logo?`<img class="logo" src="${esc(g.logo)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:`<span class="logo ph">${g.name.slice(0,1)}</span>`}<span><b class="nt">${g.name}</b><small>${(GROUPS[g.group]||"").replace(/^\S+\s/,"")} · ${g.count?g.count+" open":"nothing open now"}</small></span></button><button class="btn ${f?"":"primary"}" data-follow="${esc(g.key)}">${f?"Following":"Follow"}</button></div>`;
 }
 
 /* ---------- watch tracking for For You (time on each card, skips) ---------- */
 let io,curView=null,curStart=0;
 function endView(){
   if(!curView)return;const o=byId(curView),ms=Date.now()-curStart;
-  if(o){S.seen[curView]=(S.seen[curView]||0)+1;if(ms>5000)bump(o,1);else if(ms<1500)bump(o,-.3);persist()}
+  if(o){if(ms>1500)track("view",curView);S.seen[curView]=(S.seen[curView]||0)+1;if(ms>5000)bump(o,1);else if(ms<1500)bump(o,-.3);persist()}
   curView=null;
 }
 function observeViews(){
@@ -841,13 +903,13 @@ function railBtns(o){
 
 /* ---------- detail sheet ---------- */
 function openSheet(id){
-  const o=byId(id);const [el_,ec]=eligLabel(o);
+  const o=byId(id);if(!o)return;track("detail",id);replyTo=null;const [el_,ec]=eligLabel(o);
   const st={yes:"Covered",partial:"Partial",no:"Not covered",ns:"Not stated",info:"Info"};
   const moneyRows=o.money.map(([k,v,s])=>`<div class="mrow"><span>${k}</span><span class="st ${s}">${s==="yes"&&/free|none/i.test(v)?"Free":st[s]}</span><span class="v">${v}</span></div>`).join("");
   $("#sheet").innerHTML=`<div class="grip"></div>
    ${o.sample?'<div class="warnbox"><b>Sample layout, not a real event.</b> It shows the fields a hike or club activity will carry: meeting time and place, fee, what to bring and contact.</div>':""}
    <span class="cat" style="display:inline-block;margin-top:${o.sample?12:0}px">${o.catLabel||CATS[o.cat]}</span>
-   <h2>${o.title}</h2><button class="org orgbtn" data-org="${esc(orgKey(o))}">${logoImg(o)}<span>${o.org}</span><em class="fol ${isFollowed(o)?"":"add"}">${isFollowed(o)?"Following":"+ Follow"}</em></button>
+   <h2 class="nt">${o.title}</h2><button class="org orgbtn" data-org="${esc(orgKey(o))}">${logoImg(o)}<span class="nt">${o.org}</span><em class="fol ${isFollowed(o)?"":"add"}">${isFollowed(o)?"Following":"+ Follow"}</em></button>
    ${regActions(o)}
    ${o.desc?`<div class="sec"><h3>About${o.byOrganiser||o.post?'<span class="badge-org">From the organiser</span>':""}</h3><p style="margin:0;white-space:pre-line">${escHTML(o.desc)}</p></div>`:""}
    ${o.video?`<div class="sec"><video src="${esc(o.video)}" controls playsinline preload="metadata" style="width:100%;border-radius:12px;max-height:420px;background:#000"></video></div>`:""}
@@ -869,7 +931,7 @@ function openSheet(id){
    <div class="sec"><h3>How to register</h3><ol class="steps">${o.steps.map(s=>`<li><span>${s}</span></li>`).join("")}</ol></div>
    <div class="sec"><h3>Contact</h3>${o.contact.length?o.contact.map(([t,v,n])=>`<div class="contact"><div><small>${t}</small><code>${v}</code>${n?`<small>${n}</small>`:""}</div><button class="btn" data-copy="${v}">Copy</button></div>`).join(""):`<p class="note" style="margin:0">The organiser publishes no direct contact. Use the official page below.</p>`}</div>
    <div class="sec" id="cmts"><h3>Comments</h3><div class="clist" data-cfor="${o.id}"><p class="note">Loading comments…</p></div>
-     ${USER?"":`<button class="btn" data-signin="comment">Sign in to comment</button>`}<div class="cform" ${USER?"":"hidden"}><input id="c-name" class="inp" maxlength="40" placeholder="Your name (optional)"><textarea id="c-body" class="inp" maxlength="600" rows="2" placeholder="Ask a question or share a tip…"></textarea><button class="btn primary" data-cpost="${o.id}">Post</button></div></div>
+     ${USER?"":`<button class="btn" data-signin="comment">Sign in to comment</button>`}<div id="c-replying" class="note"></div><div class="cform" ${USER?"":"hidden"}><input id="c-name" class="inp" maxlength="40" placeholder="Your name (optional)"><textarea id="c-body" class="inp" maxlength="600" rows="2" placeholder="Ask a question or share a tip…"></textarea><button class="btn primary" data-cpost="${o.id}">Post</button></div></div>
    <div class="sec"><h3>Source</h3><p class="note" style="margin:0">${o.sample?"Not applicable.":`Checked against the official page on ${fmtDate(o.verified)} · confidence: <b>${o.confidence}</b>.`}${picture(o).tag?` Picture: ${picture(o).tag.replace(/^Swipe for \d+ photos · /,"")}.`:""} ${o.caveat||""} Always confirm on the official page before you pay or book travel.</p></div>
    <div class="btnrow">
      ${o.url?`<a class="btn primary" href="${o.url}" target="_blank" rel="noopener">Open official page ↗</a>`:""}
@@ -879,16 +941,11 @@ function openSheet(id){
    <div class="minirow">
      ${isClosed(o)?"":`<button class="btn" data-act="applied" data-id="${o.id}">${S.applied.includes(o.id)?"Applied ✓":"✓ I applied"}</button>`}
      <button class="btn" data-act="hide" data-id="${o.id}">⊘ Not for me</button>
+     ${o.post&&!o.post.mine?`<button class="btn" data-reportpost="${o.id}">🚩 Report post</button>`:""}
      ${o.post&&o.post.mine?`<button class="btn" data-editpost="${o.post.id}">✏️ Edit my event</button>`:o.post?"":`<button class="btn" data-claim="${o.id}">${myClaim(o.id)==="approved"?"✏️ Edit this event":"🏷️ I run this event"}</button>`}
    </div>`;
   $("#sheet").classList.add("on");$("#backdrop").classList.add("on");$("#sheet").scrollTop=0;
   loadComments(id);if(S.cname){const n=$("#c-name");if(n)n.value=S.cname}
-}
-async function loadComments(id){
-  const box=document.querySelector('[data-cfor="'+id+'"]');if(!box)return;
-  try{const rows=await supa("/rest/v1/comments?select=name,body,created_at&opp_id=eq."+encodeURIComponent(id)+"&order=created_at.asc&limit=100");
-    box.innerHTML=rows.length?rows.map(c=>'<div class="cm"><b>'+escHTML(c.name||"Someone")+'</b> <small>'+fmtDate(c.created_at)+'</small><p>'+escHTML(c.body)+'</p></div>').join(""):'<p class="note">No comments yet. Be the first to ask or share a tip.</p>';
-  }catch(e){box.innerHTML='<p class="note">Comments couldn\'t load. Check your connection.</p>'}
 }
 function closeSheet(){$("#sheet").classList.remove("on","full");$("#backdrop").classList.remove("on");filterPage=null}
 function showSheet(html){$("#sheet").innerHTML=html;$("#sheet").classList.remove("full");$("#sheet").classList.add("on");$("#backdrop").classList.add("on");$("#sheet").scrollTop=0}
@@ -924,7 +981,7 @@ function openOrg(key){
   const f=S.follow.includes(key);let site=g&&g.website||"";if(!site&&o0)try{site=new URL(o0.url).origin}catch(e){}
   const logo=(g&&g.logo)||(o0&&o0.logo),name=g?g.name:orgName(o0);
   showSheet(`<div class="grip"></div>
-   <div class="orghead">${logo?`<img class="biglogo" src="${esc(logo)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:`<div class="biglogo ph">${name.slice(0,1)}</div>`}<div><h2>${name}</h2><div class="org">${GROUPS[g?g.group:"company"]||""} · ${items.length} open ${items.length===1?"opportunity":"opportunities"} on Darb</div></div></div>
+   <div class="orghead">${logo?`<img class="biglogo" src="${esc(logo)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:`<div class="biglogo ph">${name.slice(0,1)}</div>`}<div><h2 class="nt">${name}</h2><div class="org">${GROUPS[g?g.group:"company"]||""} · ${items.length} open ${items.length===1?"opportunity":"opportunities"} on Darb</div></div></div>
    <div class="btnrow"><button class="btn ${f?"":"primary"}" data-follow="${esc(key)}">${f?"Following ✓":"+ Follow"}</button>${site?`<a class="btn" href="${esc(site)}" target="_blank" rel="noopener">Website ↗</a>`:""}</div>
    <div class="list" style="margin-top:14px">${items.map(o=>rowHTML(o)).join("")||'<div class="empty">Nothing open right now. Follow to see their next one.</div>'}</div>`);
 }
@@ -1020,7 +1077,7 @@ async function shareOpp(o){
 /* ---------- search ---------- */
 function rowHTML(o,extra=""){
   const d=daysLeft(o),soon=d!==null&&d>=0&&d<=10;
-  return`<button class="row" data-open="${o.id}"><div class="thumb" style="background:${CAT_COLOR[o.cat][0]}">${picture(o).html}</div><div style="min-width:0"><div class="t">${o.title}${o.sample?" · sample":""}</div><div class="m">${o.catLabel||CATS[o.cat]} · ${o.place.split(" (")[0]} · ${o.feeText}</div>${extra}</div><div class="dl ${soon?"soon":""}">${dlLabel(o)}</div></button>`;
+  return`<button class="row" data-open="${o.id}"><div class="thumb" style="background:${CAT_COLOR[o.cat][0]}">${picture(o).html}</div><div style="min-width:0"><div class="t nt">${o.title}${o.sample?" · sample":""}</div><div class="m">${o.catLabel||CATS[o.cat]} · ${o.place.split(" (")[0]} · ${o.feeText}</div>${extra}</div><div class="dl ${soon?"soon":""}">${dlLabel(o)}</div></button>`;
 }
 function renderSearch(){
   const v=$("#v-search");
@@ -1119,7 +1176,7 @@ const PUB=SUPA.url+"/storage/v1/object/public/posts/";
 const POST_TYPES={
   competition:["🏆 Competition or tournament","community"],class:["📚 Class, course or training","community"],
   club:["👥 Club, team or community","community"],event:["🎤 Event, talk or conference","community"],
-  festival:["🎉 Festival or celebration","community"],religious:["⛪ Religious or spiritual gathering","community"],
+  festival:["🎉 Festival or celebration","community"],religious:["⛪ Church or religious community event","community"],
   trip:["🥾 Trip, hike or outing","hiking"],show:["🎬 Show, concert or movie","community"],
   volunteer:["🤝 Volunteering","volunteer"],job:["💼 Job or internship","career"],
   place:["🏛️ Place, offer or opening hours","community"],other:["✨ Something else","community"]};
@@ -1243,7 +1300,7 @@ function orgFormHTML(){
    <div class="minmax">${fld("phone","Phone / WhatsApp","e.g. 03 123 456","tel")}${fld("email","Email","","email")}</div>
    ${fld("role","Your role there *","e.g. President, coach, parish priest, marketing manager")}
    <div class="btnrow"><button class="btn primary" data-orgsend="1">${orgForm.id?"Save changes":"Register"}</button>${MYORGS.size?'<button class="btn" data-orgcancel="1">Cancel</button>':""}</div>
-   <p class="note">We check each organisation before its posts go public. You can start posting right after registering; everything goes live together once checked.</p>`;
+   <p class="note">We check each new organisation once (usually within 12 hours). After that, everything you post goes live straight away. You can start posting right after registering.</p>`;
 }
 function readOrgForm(){const d={...(orgForm.data||{})};document.querySelectorAll("[data-of]").forEach(el=>{d[el.dataset.of]=el.value.trim()});return d}
 async function sendOrg(){
@@ -1273,7 +1330,7 @@ function myOrgsHTML(){
   const rows=[...MYORGS.values()];
   const st=r=>r.status==="live"?(r.pending?"Live · your changes are waiting for a check":"✅ Verified"):r.status==="rejected"?"Not approved"+(r.review_note?": "+escHTML(r.review_note):""):"⏳ Waiting for a check";
   return`<div class="lbl" style="margin-top:6px">My organisations</div>
-   ${rows.length?rows.map(r=>{const d=r.pending||r.data||{};return`<div class="mypost"><span style="display:flex;gap:10px;align-items:center">${orgLogo(d)?`<img class="logo" src="${esc(orgLogo(d))}" alt="">`:""}<span><b>${escHTML(d.name||"")}</b><small>${st(r)}</small></span></span><button class="btn" data-orgedit="${r.id}">Edit</button></div>`}).join(""):`<p class="note" style="margin:6px 0 10px">Register your company, association, club or church to post.</p>`}
+   ${rows.length?rows.map(r=>{const d=r.pending||r.data||{};return`<div class="mypost"><span style="display:flex;gap:10px;align-items:center">${orgLogo(d)?`<img class="logo" src="${esc(orgLogo(d))}" alt="">`:""}<span><b class="nt">${escHTML(d.name||"")}</b><small>${st(r)}</small></span></span><button class="btn" data-orgedit="${r.id}">Edit</button></div>`}).join(""):`<p class="note" style="margin:6px 0 10px">Register your company, association, club or church to post.</p>`}
    <div class="btnrow" style="margin-bottom:16px"><button class="btn" data-orgnew="1">＋ Register ${rows.length?"another":"an"} organisation</button></div>`;
 }
 
@@ -1290,7 +1347,7 @@ function renderAdd(){
   const fld=(k,l,ph,type="text",extra="")=>`<div class="field"><label for="pf-${k}">${l}</label><input id="pf-${k}" data-pf="${k}" class="inp" type="${type}" placeholder="${esc(ph||"")}" value="${esc(d[k]??"")}" ${extra}></div>`;
   const area=(k,l,ph)=>`<div class="field"><label for="pf-${k}">${l}</label><textarea id="pf-${k}" data-pf="${k}" class="inp" rows="3" placeholder="${esc(ph||"")}">${escHTML(d[k]||"")}</textarea></div>`;
   v.innerHTML=seg+`<h1 class="h1">${editing?(editing.opp_id?"Edit this event":"Edit your post"):"Post your event"}</h1>
-   <p class="sub">${editing?"Change anything, add photos or a video. The current version stays live until your edit is checked.":"Add photos, a flyer or a video, then answer the questions for your type of event. It's checked, then it goes live for everyone."}</p>
+   <p class="sub">${editing?"Change anything, add photos or a video. The current version stays live until your edit is checked.":"Add photos, a flyer or a video, then answer the questions for your type of event."}</p>
    <div class="field"><label for="pf-type">What kind of event is it?</label><select id="pf-type" data-pf="type"><option value="">Choose…</option>${Object.entries(POST_TYPES).map(([k,[l]])=>`<option value="${k}" ${t===k?"selected":""}>${l}</option>`).join("")}</select></div>
    <label class="drop" for="pf-media"><strong>Add photos, flyers or a video</strong>Up to 8 photos and 1 video (max 50 MB, about 1 minute)</label>
    <input id="pf-media" type="file" accept="image/*,video/*" multiple hidden>
@@ -1314,8 +1371,8 @@ function renderAdd(){
    ${fld("link","Registration link","https://")}
    <div class="minmax">${fld("whatsapp","WhatsApp","e.g. 03 123 456","tel")}${fld("email","Email","","email")}</div>
    ${fld("instagram","Instagram","@yourpage")}
-   <div class="btnrow"><button class="btn primary" data-postsend="1">${editing?"Save changes":"Post for review"}</button>${editing?'<button class="btn" data-postcancel="1">Cancel</button>':""}</div>
-   <p class="note">Posts are checked twice a day before they go live, so the feed stays free of spam. You can edit your post any time from Me.</p>`:'<p class="note">Choose the kind of event first, and we\'ll ask the right questions.</p>'}`;
+   <div class="btnrow"><button class="btn primary" data-postsend="1">${editing?"Save changes":"Post"}</button>${editing?'<button class="btn" data-postcancel="1">Cancel</button>':""}</div>
+   <p class="note">Posts from verified organisations go live straight away. A new organisation's first posts go live once it's checked. You can edit your post any time from Me.</p>`:'<p class="note">Choose the kind of event first, and we\'ll ask the right questions.</p>'}`;
   drawMedia();
 }
 function drawMedia(){
@@ -1361,10 +1418,12 @@ async function sendPost(){
     }
     d.media=out;btn.textContent="Saving…";
     await supa("/rest/v1/rpc/save_post",{method:"POST",body:JSON.stringify({p_id:editing&&editing.id||null,p_opp:editing&&editing.opp_id||null,p_data:d})});
-    const was=!!editing;editing=null;draft=null;media=[];meTab="posts";await loadMine();
-    toast(was?"Saved. Your changes go live once checked":"Posted! It goes live once checked (usually within 12 hours)");
+    const was=!!editing,wasOpp=editing&&editing.opp_id;editing=null;draft=null;media=[];meTab="posts";await loadMine();
+    const live=orgOf(MYORGS.get(d.org_id)||{})&&(MYORGS.get(d.org_id)||{}).status==="live"||!!wasOpp;
+    toast(live?(was?"Saved. Your changes are live":"Posted! It's live now"):(was?"Saved. Your changes go live once checked":"Posted! It goes live once your organisation is checked"));
+    if(live)loadPosts().then(()=>{_orgs=null});
     show("profile");
-  }catch(err){toast(String(err.message||"").startsWith("That file")||/Upload failed/.test(err.message)?err.message:"Couldn't post. Check your connection and try again");btn.disabled=false;btn.textContent=editing?"Save changes":"Post for review"}
+  }catch(err){toast(String(err.message||"").startsWith("That file")||/Upload failed/.test(err.message)?err.message:"Couldn't post. Check your connection and try again");btn.disabled=false;btn.textContent=editing?"Save changes":"Post"}
 }
 function openClaim(id){
   const o=byId(id);if(!o||needAuth("edit this event"))return;
@@ -1390,7 +1449,7 @@ function myPostsHTML(){
   const rows=[...MYPOSTS.values()],cl=Object.entries(MYCLAIMS);
   const st=r=>r.status==="live"?(r.pending?"Live · your edit is waiting for a check":"✅ Live"):r.status==="rejected"?"Not approved"+(r.review_note?": "+escHTML(r.review_note):""):"⏳ Waiting for a check";
   return`<div class="lbl" style="margin-top:6px">My posts</div>
-   ${rows.length?rows.map(r=>{const d=r.pending||r.data||{};return`<div class="mypost"><span><b>${escHTML(d.title||"Untitled")}</b><small>${st(r)}</small></span><span style="display:flex;gap:6px">${r.status==="live"?`<button class="btn" data-open="${r.opp_id||"post-"+r.id}">View</button>`:""}<button class="btn" data-editpost="${r.id}">Edit</button><button class="btn" data-rmpost="${r.id}" aria-label="Remove post">🗑</button></span></div>`}).join(""):`<p class="note" style="margin:6px 0 10px">You haven't posted anything yet.</p>`}
+   ${rows.length?rows.map(r=>{const d=r.pending||r.data||{};return`<div class="mypost"><span><b class="nt">${escHTML(d.title||"Untitled")}</b><small>${st(r)}</small></span><span style="display:flex;gap:6px">${r.status==="live"?`<button class="btn" data-open="${r.opp_id||"post-"+r.id}">View</button>`:""}<button class="btn" data-editpost="${r.id}">Edit</button><button class="btn" data-rmpost="${r.id}" aria-label="Remove post">🗑</button></span></div>`}).join(""):`<p class="note" style="margin:6px 0 10px">You haven't posted anything yet.</p>`}
    ${cl.length?`<p class="note">Events you claimed: ${cl.map(([id,s])=>`${escHTML((byId(id)||{title:id}).title)} (${s==="approved"?"approved, open it to edit":s})`).join(" · ")}</p>`:""}
    <div class="btnrow" style="margin-bottom:16px"><button class="btn primary" data-goto="add">📸 Post an event</button></div>`;
 }
@@ -1398,42 +1457,122 @@ function myPostsHTML(){
 /* ---------- Me: Profile · Liked · Saved · My posts · Activity ---------- */
 let meTab="profile";
 const ME_TABS=[["profile","👤 Profile"],["liked","❤️ Liked"],["saved","🔖 Saved"],["posts","📸 My posts"],["activity","💬 Activity"]];
-const acctBox=()=>`<div class="acct">${USER?`<span>Signed in as <b>${escHTML(USER.email||USER.phone||"you")}</b><small>Your saves, likes, follows and profile sync across your phones.</small></span><button class="btn" data-signout="1">Sign out</button>`:`<span><b>Not signed in</b><small>Sign in to like, comment, save, post and get your For You feed.</small></span><button class="btn primary" data-signin="use all features">Sign in</button>`}</div>`;
-const meSeg=()=>`<div class="filters" style="margin:0 0 12px">${ME_TABS.map(([k,l])=>`<button class="fchip ${meTab===k?"on":""}" data-metab="${k}">${l}</button>`).join("")}</div>`;
+const acctBox=()=>`<div class="langrow nt">🌐 <button class="fchip ${LANG==="en"?"on":""}" data-lang="en">English</button><button class="fchip ${LANG==="ar"?"on":""}" data-lang="ar">العربية</button></div><div class="acct">${USER?`<span>Signed in as <b>${escHTML(USER.email||USER.phone||"you")}</b><small>Your saves, likes, follows and profile sync across your phones.</small></span><button class="btn" data-signout="1">Sign out</button>`:`<span><b>Not signed in</b><small>Sign in to like, comment, save, post and get your For You feed.</small></span><button class="btn primary" data-signin="use all features">Sign in</button>`}</div>`;
+const meSeg=()=>`<div class="filters" style="margin:0 0 12px">${(ISADMIN?ME_TABS.concat([["stats","📊 Stats"]]):ME_TABS).map(([k,l])=>`<button class="fchip ${meTab===k?"on":""}" data-metab="${k}">${l}</button>`).join("")}</div>`;
 function renderMeList(){
   const v=$("#v-profile"),list=ids=>ids.map(byId).filter(Boolean);
   let body="";
   if(meTab==="liked"){const l=list(S.likes).reverse();body=l.length?`<div class="list">${l.map(o=>rowHTML(o)).join("")}</div>`:`<div class="empty">Posts you like show up here.</div>`}
   else if(meTab==="saved"){const l=list(S.saved).reverse();body=l.length?`<div class="list">${l.map(o=>rowHTML(o)).join("")}</div><p class="note">Deadlines sorts these by closing date and reminds you before they close.</p>`:`<div class="empty">Tap Save on anything to keep it here.</div>`}
   else if(meTab==="posts")body=USER?myOrgsHTML()+myPostsHTML()+postStatsHTML():`<div class="empty">Sign in to post events and see how they do.</div>`;
+  else if(meTab==="stats"&&ISADMIN)body=`<div id="stats"><p class="note">${t("Loading…")}</p></div>`;
   else if(meTab==="activity"){body=USER?`<div id="activity"><p class="note">Loading…</p></div>`:`<div class="empty">Sign in to see likes and comments on your posts and comments.</div>`}
   v.innerHTML=`<h1 class="h1">Me</h1>${acctBox()}${meSeg()}${body}`;
   if(meTab==="activity"&&USER)loadActivity();
+  if(meTab==="stats"&&ISADMIN)loadStats();
+  setDot(ACT.n);
 }
 // Likes and comments on each of my live posts.
 function postStatsHTML(){
   const live=[...MYPOSTS.values()].filter(r=>r.status==="live");if(!live.length)return"";
   return`<div class="lbl" style="margin-top:6px">How your posts are doing</div>`+live.map(r=>{const id=r.opp_id||"post-"+r.id,d=r.data||{};
-    return`<button class="row" data-open="${esc(id)}"><div style="min-width:0"><div class="t">${escHTML(d.title||"")}</div><div class="m">❤️ ${LIKES[id]||0} likes · 💬 ${CCOUNT[id]||0} comments</div></div></button>`}).join("");
+    const m=MYSTATS[id]||{};return`<button class="row" data-open="${esc(id)}"><div style="min-width:0"><div class="t">${escHTML(d.title||"")}</div><div class="m">👁️ ${m.view||0} ${t("views")} · 📄 ${m.detail||0} ${t("opened")} · ✅ ${m.reg||0} ${t("register taps")} · ❤️ ${LIKES[id]||0} · 💬 ${CCOUNT[id]||0}</div></div></button>`}).join("");
 }
+/* ---------- Me → Activity: replies to your comments, comments and likes on your posts ---------- */
 async function loadActivity(){
   const box=$("#activity");if(!box)return;
+  await checkActivity();
+  const since=S.actSeen||"",title=id=>escHTML((byId(id)||{title:t("An event")}).title);
+  const cm=c=>`<button class="row" data-open="${esc(c.opp_id)}"><div style="min-width:0"><div class="t">${c.created_at>since?"🔴 ":""}${escHTML(c.name||t("Someone"))} · <small>${fmtDate(c.created_at)}</small></div><div class="m">“${escHTML(c.body.slice(0,140))}” · ${title(c.opp_id)}</div></div></button>`;
+  const mine=[...MYPOSTS.values()].filter(r=>r.status==="live").map(r=>r.opp_id||"post-"+r.id);
+  box.innerHTML=`<div class="lbl">${t("Replies to your comments")}</div>${ACT.replies.length?`<div class="list">${ACT.replies.map(cm).join("")}</div>`:`<p class="note">${t("No replies yet.")}</p>`}
+   <div class="lbl" style="margin-top:14px">${t("On your posts")}</div>${mine.length?(ACT.onPosts.length?`<div class="list">${ACT.onPosts.map(cm).join("")}</div>`:`<p class="note">${t("No comments on your posts yet.")}</p>`)+`<p class="note">${mine.map(id=>`${title(id)}: ❤️ ${LIKES[id]||0} · 💬 ${CCOUNT[id]||0}`).join("<br>")}</p>`:`<p class="note">${t("Once a post of yours is live, its likes and comments show here.")}</p>`}`;
+  markActivitySeen();
+}
+
+/* ---------- comment replies ---------- */
+let replyTo=null;   // {id,name} while answering a comment
+async function loadComments(id){
+  const box=document.querySelector('[data-cfor="'+id+'"]');if(!box)return;
+  try{const rows=await supa("/rest/v1/comments?select=id,name,body,created_at,parent_id&opp_id=eq."+encodeURIComponent(id)+"&order=created_at.asc&limit=200");
+    const top=rows.filter(c=>!c.parent_id),kids=p=>rows.filter(c=>c.parent_id===p);
+    const one=(c,reply)=>`<div class="cm${reply?" reply":""}"><b>${escHTML(c.name||"Someone")}</b> <small>${fmtDate(c.created_at)}</small><p>${escHTML(c.body)}</p>${reply?"":`<button class="clink" data-creply="${c.id}" data-cname="${esc(c.name||"Someone")}">${t("Reply")}</button>`}</div>`;
+    box.innerHTML=top.length?top.map(c=>one(c)+kids(c.id).map(r=>one(r,true)).join("")).join(""):`<p class="note">${t("No comments yet. Be the first to ask or share a tip.")}</p>`;
+  }catch(e){box.innerHTML=`<p class="note">${t("Comments couldn't load. Check your connection.")}</p>`}
+}
+function setReply(id,name){
+  replyTo=id?{id,name}:null;const bar=$("#c-replying");
+  if(bar)bar.innerHTML=replyTo?`${t("Replying to")} <b>${escHTML(name)}</b> <button class="clink" data-creply="">✕</button>`:"";
+  if(replyTo){const c=$("#c-body");if(c){c.focus();c.scrollIntoView({behavior:"smooth",block:"center"})}}
+}
+
+/* ---------- report a post ---------- */
+async function reportPost(o){
+  if(needAuth("report a post"))return;
+  const why=prompt(t("What's wrong with this post? (spam, fake, offensive…)"));if(why===null)return;
+  try{await supa("/rest/v1/rpc/report_post",{method:"POST",body:JSON.stringify({p_post:o.post.id,p_reason:why.slice(0,300)})});toast(t("Thanks. Posts reported by several people are hidden"))}
+  catch(e){toast(t("Couldn't send. Check your connection"))}
+}
+
+/* ---------- activity: red dot on Me when someone reacts to your posts or replies to you ---------- */
+let ACT={n:0,onPosts:[],replies:[]};
+async function checkActivity(){
+  if(!USER)return setDot(0);
   try{
-    const mine=[...MYPOSTS.values()].filter(r=>r.status==="live").map(r=>r.opp_id||"post-"+r.id);
-    const inList=a=>"("+a.map(x=>'"'+x.replace(/"/g,"")+'"').join(",")+")";
-    const onPosts=mine.length?await supa("/rest/v1/comments?select=opp_id,name,body,created_at,user_id&opp_id=in."+encodeURIComponent(inList(mine))+"&order=created_at.desc&limit=40"):[];
-    const myC=await supa("/rest/v1/comments?select=opp_id,body,created_at&user_id=eq."+USER.id+"&order=created_at.desc&limit=30");
-    let after=[];
-    if(myC.length){const ids=[...new Set(myC.map(c=>c.opp_id))];
-      const all=await supa("/rest/v1/comments?select=opp_id,name,body,created_at,user_id&opp_id=in."+encodeURIComponent(inList(ids))+"&order=created_at.desc&limit=100");
-      const first={};for(const c of myC)first[c.opp_id]=first[c.opp_id]&&first[c.opp_id]<c.created_at?first[c.opp_id]:c.created_at;
-      after=all.filter(c=>c.user_id!==USER.id&&c.created_at>first[c.opp_id]);}
-    const title=id=>escHTML((byId(id)||{title:"An event"}).title);
-    const cm=c=>`<button class="row" data-open="${esc(c.opp_id)}"><div style="min-width:0"><div class="t">${escHTML(c.name||"Someone")} · <small>${fmtDate(c.created_at)}</small></div><div class="m">“${escHTML(c.body.slice(0,140))}” on ${title(c.opp_id)}</div></div></button>`;
-    const theirs=onPosts.filter(c=>c.user_id!==USER.id);
-    box.innerHTML=`<div class="lbl">On your posts</div>${mine.length?(theirs.length?`<div class="list">${theirs.map(cm).join("")}</div>`:'<p class="note">No comments on your posts yet.</p>')+`<p class="note">${mine.map(id=>`${title(id)}: ❤️ ${LIKES[id]||0} · 💬 ${CCOUNT[id]||0}`).join("<br>")}</p>`:'<p class="note">Once a post of yours is live, its likes and comments show here.</p>'}
-     <div class="lbl" style="margin-top:14px">After your comments</div>${after.length?`<div class="list">${after.map(cm).join("")}</div>`:`<p class="note">${myC.length?"No new comments after yours yet.":"You haven't commented yet."}</p>`}`;
-  }catch(e){box.innerHTML='<p class="note">Couldn\'t load activity. Check your connection.</p>'}
+    const since=S.actSeen||"1970-01-01T00:00:00Z",mine=[...MYPOSTS.values()].filter(r=>r.status==="live").map(r=>r.opp_id||"post-"+r.id);
+    const inList=a=>"("+a.map(x=>'"'+String(x).replace(/"/g,"")+'"').join(",")+")";
+    const onPosts=mine.length?await supa("/rest/v1/comments?select=id,opp_id,name,body,created_at,user_id,parent_id&opp_id=in."+encodeURIComponent(inList(mine))+"&order=created_at.desc&limit=50"):[];
+    const myC=await supa("/rest/v1/comments?select=id&user_id=eq."+USER.id+"&limit=200");
+    const replies=myC.length?await supa("/rest/v1/comments?select=id,opp_id,name,body,created_at,user_id,parent_id&parent_id=in."+encodeURIComponent(inList(myC.map(c=>c.id)))+"&order=created_at.desc&limit=50"):[];
+    ACT.onPosts=onPosts.filter(c=>c.user_id!==USER.id);ACT.replies=replies.filter(c=>c.user_id!==USER.id);
+    const likeNew=mine.reduce((s,id)=>s+Math.max(0,(LIKES[id]||0)-((S.likeSeen||{})[id]||0)),0);
+    ACT.n=[...ACT.onPosts,...ACT.replies].filter(c=>c.created_at>since).length+likeNew;
+    setDot(ACT.n);
+  }catch(e){}
+}
+function setDot(n){const tab=document.querySelector('.tab[data-v="profile"]');if(tab)tab.classList.toggle("dot",n>0);const chip=document.querySelector('[data-metab="activity"]');if(chip)chip.classList.toggle("dot",n>0)}
+function markActivitySeen(){
+  S.actSeen=new Date().toISOString();S.likeSeen={};
+  for(const r of MYPOSTS.values())if(r.status==="live"){const id=r.opp_id||"post-"+r.id;S.likeSeen[id]=LIKES[id]||0}
+  persist();ACT.n=0;setDot(0);
+}
+setInterval(()=>{if(!document.hidden)checkActivity()},120000);
+
+/* ---------- usage numbers ---------- */
+// Counts only: app opens, card views, details opened, register taps and shares, per day.
+// Sent every 30 seconds with this phone's random id; no names, emails or locations.
+let TRACKQ=[];
+function track(k,o){TRACKQ.push(o?{k,o}:{k});if(TRACKQ.length>=150)flushTrack()}
+function flushTrack(keep){
+  if(!TRACKQ.length)return;const ev=TRACKQ.splice(0,200);
+  fetch(SUPA.url+"/rest/v1/rpc/track",{method:"POST",keepalive:!!keep,headers:{apikey:SUPA.key,"content-type":"application/json",...(TOKEN?{authorization:"Bearer "+TOKEN}:{})},body:JSON.stringify({p_device:S.device,p_events:ev})}).catch(()=>{});
+}
+setInterval(()=>flushTrack(),30000);
+document.addEventListener("visibilitychange",()=>{if(document.hidden)flushTrack(true)});
+track("open");
+
+let ISADMIN=false,statsDays=30;
+async function checkAdmin(){try{ISADMIN=USER?!!(await supa("/rest/v1/rpc/is_admin",{method:"POST",body:"{}"})):false}catch(e){ISADMIN=false}}
+async function loadStats(){
+  const box=$("#stats");if(!box)return;
+  try{
+    const s=await supa("/rest/v1/rpc/app_stats",{method:"POST",body:JSON.stringify({p_days:statsDays})});
+    const k=s.kinds||{},title=id=>{const o=byId(id);return o?escHTML(o.title):escHTML(id)};
+    const tile=(n,l)=>`<div class="stile"><b>${(+n||0).toLocaleString()}</b><small>${t(l)}</small></div>`;
+    const max=Math.max(1,...s.daily.map(d=>d.phones));
+    box.innerHTML=`<div class="filters" style="margin:0 0 12px">${[7,30,90].map(d=>`<button class="fchip ${statsDays===d?"on":""}" data-sdays="${d}">${d} ${t("days")}</button>`).join("")}</div>
+     <div class="stiles">${tile(s.phones,"Phones that opened Darb")}${tile(s.accounts,"Accounts (total)")}${tile(s.new_accounts,"New accounts")}${tile(k.open,"App opens")}${tile(k.view,"Cards viewed")}${tile(k.detail,"Details opened")}${tile(k.reg,"Register taps")}${tile(k.share,"Shares")}${tile(s.likes,"Likes")}${tile(s.comments,"Comments")}</div>
+     <div class="lbl" style="margin-top:14px">${t("Phones per day")}</div>
+     <div class="bars">${s.daily.map(d=>`<div title="${d.day}: ${d.phones}"><i style="height:${Math.round(d.phones/max*100)}%"></i><small>${d.day.slice(8)}</small></div>`).join("")||`<p class="note">${t("No data yet.")}</p>`}</div>
+     <div class="lbl" style="margin-top:14px">${t("Most viewed")}</div>${(s.top_views||[]).map(x=>`<button class="row" data-open="${esc(x.opp_id)}"><div style="min-width:0"><div class="t">${title(x.opp_id)}</div><div class="m">${x.n} ${t("views")}</div></div></button>`).join("")||`<p class="note">${t("No data yet.")}</p>`}
+     <div class="lbl" style="margin-top:14px">${t("Most register taps")}</div>${(s.top_reg||[]).map(x=>`<button class="row" data-open="${esc(x.opp_id)}"><div style="min-width:0"><div class="t">${title(x.opp_id)}</div><div class="m">${x.n} ${t("taps")}</div></div></button>`).join("")||`<p class="note">${t("No data yet.")}</p>`}
+     <p class="note" style="margin-top:14px">${t("Posts")}: ${s.posts.live} ${t("live")} · ${s.posts.waiting} ${t("waiting")} · ${s.posts.hidden} ${t("hidden")}. ${t("Organisations")}: ${s.orgs.live} ${t("verified")} · ${s.orgs.waiting} ${t("waiting")}.</p>`;
+  }catch(e){box.innerHTML=`<p class="note">${t("Couldn't load the numbers. Check your connection.")}</p>`}
+}
+let MYSTATS={};
+async function loadMyStats(){
+  if(!USER)return;
+  try{const rows=await supa("/rest/v1/rpc/my_post_stats",{method:"POST",body:"{}"});MYSTATS={};for(const r of rows){(MYSTATS[r.opp_id]=MYSTATS[r.opp_id]||{})[r.kind]=+r.n}}catch(e){}
 }
 
 /* ---------- profile ---------- */
@@ -1441,9 +1580,9 @@ function renderProfile(){
   if(meTab!=="profile")return renderMeList();
   const p=S.profile;
   $("#v-profile").innerHTML=`<h1 class="h1">Me</h1>
-   <div class="acct">${USER?`<span>Signed in as <b>${escHTML(USER.email||USER.phone||"you")}</b><small>Your saves, follows and profile sync across your phones.</small></span><button class="btn" data-signout="1">Sign out</button>`:`<span><b>Not signed in</b><small>Sign in to like, comment, save and get your For You feed.</small></span><button class="btn primary" data-signin="use all features">Sign in</button>`}</div>${meSeg()}<p class="sub">Your profile and what you watch, like and save shape your For You feed. Items that break a setting move to “Reach”; they don't vanish. Items that break a setting move to “Reach”, they don't vanish.</p>
+   <div class="langrow nt">🌐 <button class="fchip ${LANG==="en"?"on":""}" data-lang="en">English</button><button class="fchip ${LANG==="ar"?"on":""}" data-lang="ar">العربية</button></div><div class="acct">${USER?`<span>Signed in as <b>${escHTML(USER.email||USER.phone||"you")}</b><small>Your saves, follows and profile sync across your phones.</small></span><button class="btn" data-signout="1">Sign out</button>`:`<span><b>Not signed in</b><small>Sign in to like, comment, save and get your For You feed.</small></span><button class="btn primary" data-signin="use all features">Sign in</button>`}</div>${meSeg()}<p class="sub">Your profile and what you watch, like and save shape your For You feed. Items that break a setting move to “Reach”; they don't vanish.</p>
    <div class="lbl" style="margin-top:6px">About you</div>
-   <p class="note" style="margin:4px 0 0">Used only to match you. It stays on this phone.</p>
+   <p class="note" style="margin:4px 0 0">Used only to match you. Never shown to anyone.</p>
    <div class="field"><label for="p-level">Where you are in your studies</label>
     <select id="p-level"><option value="">Choose…</option>${LEVELS.map(([v,l])=>`<option value="${v}" ${p.level===v?"selected":""}>${l}</option>`).join("")}</select></div>
    <div class="field"><label for="p-uni">University</label>
@@ -1463,7 +1602,7 @@ function renderProfile(){
    </div>
    <div class="field"><label for="p-fee">Most I'll pay to take part</label>
     <select id="p-fee">${[["0","Free only"],["25","Up to $25"],["50","Up to $50"],["100","Up to $100"],["any","Any amount"]].map(([v,l])=>`<option value="${v}" ${p.maxFee===v?"selected":""}>${l}</option>`).join("")}</select></div>
-   <p class="note" style="margin-top:18px">No account needed. Your settings stay on this phone and are never sent anywhere.</p>
+   <p class="note" style="margin-top:18px">Your settings stay on this phone, and sync to your account when you're signed in.</p>
    <div class="btnrow"><button class="btn primary" id="saveprofile">Save and show my matches</button><button class="btn" id="reset">Clear my settings</button></div>`;
 }
 
@@ -1484,7 +1623,7 @@ async function copy(text){try{await navigator.clipboard.writeText(text);toast("C
 
 document.addEventListener("click",e=>{
   const reg=e.target.closest("a[data-reg]");
-  if(reg){const o=byId(reg.dataset.reg);if(o){bump(o,4);persist()}return}
+  if(reg){const o=byId(reg.dataset.reg);if(o){bump(o,4);persist();track("reg",o.id)}return}
   const b=e.target.closest("button,[data-open]");if(!b)return;
   if(b.dataset.v)return show(b.dataset.v);
   if(b.dataset.reload)return loadData(true);
@@ -1522,6 +1661,7 @@ document.addEventListener("click",e=>{
   if(b.dataset.signin)return openSignIn(b.dataset.signin);
   if(b.dataset.sendlink)return sendLink();
   if(b.dataset.verify)return verifyCode();
+  if(b.dataset.lang){if(b.dataset.lang!==LANG)setLang(b.dataset.lang);return}
   if(b.dataset.metab){meTab=b.dataset.metab;return renderProfile()}
   if(b.dataset.addmode){if(addMode==="post"&&$("[data-pf]"))draft=readForm();addMode=b.dataset.addmode;return renderAdd()}
   if(b.dataset.pwhere){draft=readForm();draft.where=b.dataset.pwhere;return renderAdd()}
@@ -1551,10 +1691,13 @@ document.addEventListener("click",e=>{
   if(b.dataset.rsend){const o=byId(b.dataset.rsend),t=($("#r-body").value||"").trim();if(!t)return toast("Write what's wrong first");
     b.disabled=true;supa("/rest/v1/submissions",{method:"POST",headers:{prefer:"return=minimal"},body:JSON.stringify({title:("Correction: "+o.title).slice(0,200),link:(o.url||"").slice(0,500),contact:t.slice(0,200),device:S.device})})
       .then(()=>{b.parentNode.innerHTML='<p class="note">✓ Report sent. We\'ll check it against the official page.</p>'}).catch(()=>{b.disabled=false;toast("Couldn't send. Check your connection")});return}
+  if(b.dataset.creply!==undefined){if(needAuth("reply"))return;return setReply(b.dataset.creply,b.dataset.cname)}
+  if(b.dataset.sdays){statsDays=+b.dataset.sdays;return loadStats()}
+  if(b.dataset.reportpost){const o=byId(b.dataset.reportpost);if(o)reportPost(o);return}
   if(b.dataset.cpost){if(needAuth("comment"))return;const id=b.dataset.cpost,body=($("#c-body").value||"").trim(),name=($("#c-name").value||"").trim();if(!body)return toast("Write a comment first");
     b.disabled=true;S.cname=name;persist();
-    supa("/rest/v1/comments",{method:"POST",headers:{prefer:"return=minimal"},body:JSON.stringify({opp_id:id,name:name||null,body,device:S.device})})
-      .then(()=>{$("#c-body").value="";CCOUNT[id]=(CCOUNT[id]||0)+1;refreshRails(id);loadComments(id);toast("Comment posted")}).catch(()=>toast("Couldn't post. Check your connection")).finally(()=>{b.disabled=false});return}
+    supa("/rest/v1/comments",{method:"POST",headers:{prefer:"return=minimal"},body:JSON.stringify({opp_id:id,name:name||null,body,device:S.device,parent_id:replyTo?replyTo.id:null})})
+      .then(()=>{$("#c-body").value="";setReply(null);CCOUNT[id]=(CCOUNT[id]||0)+1;refreshRails(id);loadComments(id);toast("Comment posted")}).catch(()=>toast("Couldn't post. Check your connection")).finally(()=>{b.disabled=false});return}
   if(b.id==="saveprofile"){
     const age=$("#p-age");if(age)S.profile.age=age.value;
     persist();show("feed");$("#v-feed").scrollTop=0;
@@ -1570,7 +1713,7 @@ document.addEventListener("click",e=>{
   if(act==="comments"){openSheet(id);setTimeout(()=>{const c=$("#cmts");if(c)c.scrollIntoView({behavior:"smooth"})},300)}
   if(act==="save"){const on=toggleIn(S.saved,id);bump(o,on?3:-3);persist();refreshRails(id);syncReminders();if($("#sheet").classList.contains("on"))openSheet(id);toast(on?"Saved to Deadlines":"Removed from saved")}
   if(act==="applied"){const on=toggleIn(S.applied,id);if(on&&!S.saved.includes(id))S.saved.push(id);bump(o,on?4:-4);persist();refreshRails(id);toast(on?"Marked as applied. Good luck!":"Unmarked")}
-  if(act==="share"){bump(o,2);persist();shareOpp(o)}
+  if(act==="share"){bump(o,2);persist();track("share",id);shareOpp(o)}
   if(act==="applied"&&$("#sheet").classList.contains("on"))openSheet(id);
   if(act==="hide"){closeSheet();S.hidden.push(id);bump(o,-6);persist();const y=$("#v-feed").scrollTop;renderFeed();$("#v-feed").scrollTop=y;toast("Hidden. You'll see fewer like this",()=>{S.hidden=S.hidden.filter(x=>x!==id);persist();renderFeed()})}
 });
@@ -1605,7 +1748,7 @@ document.addEventListener("input",e=>{
   if(e.target.id==="f-min"||e.target.id==="f-max")e.target.dispatchEvent(new Event("change",{bubbles:true}))});
 $("#backdrop").addEventListener("click",closeSheet);
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeSheet()});
-function fmtDate(d){if(!d)return VERIFIED;const x=new Date(d);return isNaN(x)?d:x.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"})}
+function fmtDate(d){if(!d)return VERIFIED;const x=new Date(d);if(isNaN(x))return d;const s=x.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});return LANG==="ar"?arDate(s):s}
 // Opportunities live in opportunities.json, refreshed by the daily updater.
 let lastLoad=0;
 document.body.classList.toggle("colorful",!!S.profile.colorful);
@@ -1634,7 +1777,7 @@ document.addEventListener("scroll",e=>{
   const i=Math.round(g.scrollLeft/g.clientWidth),dots=document.querySelector(`[data-dots="${g.dataset.gal}"]`);
   if(dots)[...dots.children].forEach((d,k)=>d.classList.toggle("on",k===i));
 },true);
-loadData();
+loadLang();loadData();
 </script>
 
 <script>if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});</script>
