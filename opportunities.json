@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T09:56:40.529Z",
- "count": 1859,
+ "updated": "2026-10-24T09:57:03.331Z",
+ "count": 1865,
  "opportunities": [
   {
    "id": "hk-taskforge",
@@ -4963,7 +4963,9 @@
    "travel": false,
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "lb-aub-casar-archival-research-2026",
@@ -7031,6 +7033,99 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "fd-ustc-international-winter-camp-2026",
+   "cat": "exchange",
+   "title": "USTC International Winter Camp 2026/2027 (with USTC Fellowship)",
+   "org": "University of Science and Technology of China (USTC)",
+   "place": "Hefei, China",
+   "travel": true,
+   "funded": "partial",
+   "feeUSD": 420,
+   "feeText": "Programme fee CNY 3,000 (covers tuition, twin room, field trips); fellowships available",
+   "deadline": "2026-11-08T23:59:00+08:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "8 Nov 2026 (UTC+8)",
+   "when": "19 Dec 2026 - 1 Jan 2027",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Current undergraduate or master's students, or graduates of these programmes wishing to study further at USTC",
+     "University: Any",
+     "Nationality/residency: Non-Chinese citizens with a valid foreign passport (Lebanon not excluded)",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: Good English; good health; not a previous USTC Winter/Summer Camp participant"
+    ]
+   },
+   "money": [
+    [
+     "Programme fee",
+     "CNY 3,000 (about USD 420)",
+     "info"
+    ],
+    [
+     "Tuition",
+     "Included in programme fee",
+     "yes"
+    ],
+    [
+     "Accommodation",
+     "Twin room included",
+     "yes"
+    ],
+    [
+     "Flights/travel",
+     "Not included; USTC Fellowship may give a travel subsidy to outstanding students",
+     "partial"
+    ],
+    [
+     "Meals",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Insurance",
+     "Not included (fellowship may cover)",
+     "partial"
+    ]
+   ],
+   "steps": [
+    "Register on the USTC online application system.",
+    "Go to Start Application > Non-Degree Programs Application > Winter Camp, fill in the form and upload documents by 8 Nov 2026."
+   ],
+   "contact": [
+    [
+     "Email",
+     "visiting@ustc.edu.cn",
+     "Published on the official page"
+    ],
+    [
+     "Phone",
+     "+86 551 6360 3531",
+     "Published on the official page"
+    ]
+   ],
+   "url": "http://ic.ustc.edu.cn/?abroad=179",
+   "confidence": "Medium",
+   "caveat": "Fellowship (full or partial: travel subsidy, insurance, accommodation, stipend) only for outstanding students; otherwise self-paid travel and fee.",
+   "verified": "2026-10-23",
+   "source": "bulk-funded",
+   "added": "2026-10-23",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://ic.ustc.edu.cn/wp-content/themes/_s/img/banner.jpg"
+   ],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -14868,7 +14963,9 @@
    "caveat": "Page does not state the intake (Spring 2027 vs Fall 2027) for these test dates; nationality rules not stated.",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "sc-emjm-mundus-mapp-2027",
@@ -15535,7 +15632,11 @@
    "added": "2026-10-24",
    "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/dsc06888_123448_174428113.jpg?w=1920"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ll-ex-kulturnest-thresholds",
@@ -17705,7 +17806,9 @@
    "added": "2026-10-24",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ul-usj-medicine-dentistry-2027",
@@ -17806,7 +17909,9 @@
    "added": "2026-10-24",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "travel": false,
@@ -21838,7 +21943,12 @@
    "caveat": "Nationality/residency rules not stated on the official page.",
    "image": "https://www.bau.edu.lb/Content/img/fb-social.png",
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://bau.edu.lb/BAUUpload/BAU-Library/images/Admission/students/GRADUATE.jpg",
+    "https://bau.edu.lb/BAUUpload/BAU-Library/images/Other/Poster-Admission-Spring-27.png"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "fd-iau-ga-2027-grants",
@@ -23180,6 +23290,60 @@
     "https://www.epog.eu/wp-content/uploads/sites/33/2025/08/Fanny-Gallot-HHK.png",
     "https://www.epog.eu/wp-content/uploads/sites/33/2026/08/Frederic-Hache.png"
    ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "ex-balamand-medicine-2027",
+   "cat": "exchange",
+   "title": "University of Balamand Faculty of Medicine admission 2027-28",
+   "org": "University of Balamand – Faculty of Medicine and Medical Sciences",
+   "place": "Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": "2027-01-29T23:59:00+02:00",
+   "eventDate": null,
+   "rolling": false,
+   "deadlineText": "Apply by 29 Jan 2027 (MCAT scores by 26 Feb) for decision 19 Mar 2027; or by 31 Mar 2027 (MCAT by 31 May) for decision 18 Jun 2027",
+   "when": "Interview counts 5%; MCAT 25%",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "exchange"
+   ],
+   "exam": true,
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Bachelor's/Master's degree completed by end of Spring 2027",
+     "University: Any",
+     "Nationality/residency: Not restricted",
+     "Age: Not stated",
+     "Team: Individual",
+     "Other: MCAT required; premed average 30%, cumulative 20%, major 20%"
+    ]
+   },
+   "money": [
+    [
+     "Application fee",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Open the official page and apply online."
+   ],
+   "contact": [],
+   "url": "http://www.balamand.edu.lb/ProspectiveStudents/AdmissionsCriteria/Pages/AdmissionsFOM.aspx",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-exams",
+   "added": "2026-10-24",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -25658,7 +25822,14 @@
    "added": "2026-10-24",
    "image": "https://www.bau.edu.lb/Content/img/fb-social.png",
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.bau.edu.lb/BAUUpload/BAU-Library/images/Admission/students/PROSPECTIVE.jpg",
+    "https://www.bau.edu.lb/BAUUpload/BAU-Library/images/Admission/d1.jpg",
+    "https://www.bau.edu.lb/BAUUpload/BAU-Library/images/Admission/d2.jpg",
+    "https://www.bau.edu.lb/BAUUpload/BAU-Library/images/Admission/d3.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ul-bau-medicine-health-2027",
@@ -25745,7 +25916,14 @@
    "added": "2026-10-24",
    "image": "https://www.bau.edu.lb/Content/img/fb-social.png",
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.bau.edu.lb/BAUUpload/BAU-Library/images/Admission/students/PROSPECTIVE.jpg",
+    "https://www.bau.edu.lb/BAUUpload/BAU-Library/images/Admission/d1.jpg",
+    "https://www.bau.edu.lb/BAUUpload/BAU-Library/images/Admission/d2.jpg",
+    "https://www.bau.edu.lb/BAUUpload/BAU-Library/images/Admission/d3.jpg"
+   ],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ex-lsat-apr-2027",
@@ -79262,6 +79440,79 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "cs-u961-scuba-courses",
+   "cat": "community",
+   "title": "Discover Scuba, Open Water to Rescue courses and $90 Hookah Diver course – U961 Scuba Diving Lebanon",
+   "org": "U961 Scuba Diving Lebanon (Underwater Lebanon)",
+   "place": "Jounieh area, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 90,
+   "feeText": "Recreational Hookah Diver course $90; other courses: Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "class": true,
+   "deadlineText": "Rolling: book or enrol any time",
+   "when": "Not stated; contact to schedule",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: From first-timers (Discover Scuba Diving) to advanced",
+     "University: Not restricted (open to the public)",
+     "Nationality/residency: No nationality rule stated; in Lebanon",
+     "Age: Not stated",
+     "Team: Individual"
+    ]
+   },
+   "money": [
+    [
+     "Recreational Hookah Diver course (surface-supplied air)",
+     "$90",
+     "info"
+    ],
+    [
+     "Discover Scuba, Open Water, Advanced, Rescue, Nitrox, Deep, Night",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Contact U961 on WhatsApp or by email to ask for availability and prices."
+   ],
+   "contact": [
+    [
+     "Phone / WhatsApp",
+     "+961 76 309 909",
+     "Published on underwaterlebanon.com"
+    ],
+    [
+     "Email",
+     "Dive@UnderWaterLebanon.com",
+     "Published on underwaterlebanon.com"
+    ]
+   ],
+   "url": "http://www.underwaterlebanon.com/courses",
+   "confidence": "Medium",
+   "caveat": "Only the hookah course price is published; ask for the others.",
+   "verified": "2026-10-24",
+   "source": "bulk-classes",
+   "added": "2026-10-24",
+   "sport": "water",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://www.underwaterlebanon.com/_next/image?url=%2Fimages%2Fuploads%2Fcourse-dsd-1786635027205.png&w=3840&q=75"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "cs-xiphias-diving-freediving",
    "cat": "community",
    "title": "SSI scuba and freediving courses (Try Scuba, Open Water, Try/Basic Freediving) – Xiphias Diving, Byblos",
@@ -81697,6 +81948,78 @@
    "galleryChecked": "2026-10-24"
   },
   {
+   "id": "cs-fly-lebanon-paragliding",
+   "cat": "community",
+   "title": "Tandem paragliding flights and paragliding school – Fly Lebanon Paragliding (Jounieh bay)",
+   "org": "Fly Lebanon Paragliding",
+   "place": "Jounieh bay area, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "class": true,
+   "deadlineText": "Rolling: book or enrol any time",
+   "when": "On request, weather permitting",
+   "meet": "Not stated",
+   "team": "Individual",
+   "tags": [
+    "sports"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: Tandem: no experience needed; school: from first steps upwards",
+     "University: Not restricted (open to the public)",
+     "Nationality/residency: No nationality rule stated; in Lebanon",
+     "Age: Not stated",
+     "Team: Individual",
+     "Weight/health limits: Not stated"
+    ]
+   },
+   "money": [
+    [
+     "Tandem flight",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Pilot course",
+     "Not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Call or email Fly Lebanon Paragliding to book a tandem flight or ask about the school."
+   ],
+   "contact": [
+    [
+     "Phone",
+     "+961 3 670796",
+     "Published on flylebanonparagliding.com"
+    ],
+    [
+     "Email",
+     "info@flylebanonparagliding.com",
+     "Published on flylebanonparagliding.com"
+    ]
+   ],
+   "url": "http://flylebanonparagliding.com",
+   "confidence": "Medium",
+   "caveat": "No prices or course details published on the homepage.",
+   "verified": "2026-10-24",
+   "source": "bulk-classes",
+   "added": "2026-10-24",
+   "sport": "other",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
    "id": "cs-scuba-nano-try-scuba",
    "cat": "community",
    "title": "Try Scuba Diving day ($80, one-on-one with an instructor) – Scuba Nano, Safra",
@@ -82597,6 +82920,78 @@
    "added": "2026-10-24",
    "sport": "water",
    "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cs-karim-ramadan-photography-tutoring",
+   "cat": "community",
+   "title": "Off-Auto photography course: 6 private sessions (exposure, aperture, shutter, light, framing, critique) – Karim Ramadan, Beirut",
+   "org": "Karim Ramadan (photographer)",
+   "place": "Beirut, Lebanon",
+   "travel": false,
+   "funded": "na",
+   "feeUSD": 350,
+   "feeText": "$350 total for 6 sessions (one person or shared by a private group)",
+   "deadline": null,
+   "eventDate": null,
+   "rolling": true,
+   "class": true,
+   "deadlineText": "Rolling: book or enrol any time",
+   "when": "Dates and times agreed with the tutor",
+   "meet": "Not stated",
+   "team": "One-to-one or a private group of friends",
+   "tags": [
+    "arts"
+   ],
+   "elig": {
+    "status": "ok",
+    "lines": [
+     "Level: No prior photography experience needed",
+     "University: Not restricted (open to the public)",
+     "Nationality/residency: No nationality rule stated; in Lebanon",
+     "Age: Not stated",
+     "Team: One-to-one or a private group of friends",
+     "Equipment: a DSLR or mirrorless camera with manual aperture and shutter control"
+    ]
+   },
+   "money": [
+    [
+     "6-session course",
+     "$350 total (not per person)",
+     "info"
+    ],
+    [
+     "WhatsApp support for photography questions",
+     "Included",
+     "yes"
+    ]
+   ],
+   "steps": [
+    "Message Karim on WhatsApp or by email with your camera model, goals and group size.",
+    "Agree dates, then start the 6 sessions."
+   ],
+   "contact": [
+    [
+     "WhatsApp",
+     "+961 81 629595",
+     "Published on karimramadan.com"
+    ],
+    [
+     "Email",
+     "karim.ramadan.95@gmail.com",
+     "Published on karimramadan.com"
+    ]
+   ],
+   "url": "http://karimramadan.com/private-tutoring",
+   "confidence": "High",
+   "verified": "2026-10-24",
+   "source": "bulk-classes",
+   "added": "2026-10-24",
+   "art": "photography",
+   "image": "https://karimramadan.com/img/og-private-tutoring.png",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -85298,6 +85693,86 @@
    "imageChecked": "2026-10-24",
    "gallery": [
     "https://www.nmun.org/dynamic-media/assets/images/conferences/ny/NYMasthead.jpg?gravity=center&v=masthead&k=1NGS2h2LZsMixAkVYDWxWw"
+   ],
+   "galleryChecked": "2026-10-24"
+  },
+  {
+   "id": "cf-a-wudc-ottawa-2027",
+   "cat": "community",
+   "title": "World Universities Debating Championship (WUDC) 2027, Ottawa",
+   "org": "World Universities Debating Council / Ottawa WUDC 2027 organising committee",
+   "place": "Ottawa, Canada",
+   "travel": true,
+   "funded": "none",
+   "feeUSD": null,
+   "feeText": "Not stated",
+   "deadline": null,
+   "eventDate": "2026-12-27",
+   "rolling": false,
+   "deadlineText": "Institutional registration runs in phases on the official Calicotab site; current phase status not stated on public pages.",
+   "when": "27 Dec 2026 - 4 Jan 2027",
+   "meet": "Not stated",
+   "team": "Teams of 2 registered by a university (British Parliamentary format)",
+   "tags": [
+    "careers"
+   ],
+   "elig": {
+    "status": "check",
+    "lines": [
+     "Registration must be done by institutions as defined in the WUDC constitution (tertiary education providers); individuals cannot register during institutional registration.",
+     "No nationality restriction found, but slots are allocated per institution; check whether your university debate club has a slot."
+    ]
+   },
+   "money": [
+    [
+     "Registration fee",
+     "Not stated",
+     "ns"
+    ],
+    [
+     "Flights",
+     "Self-paid",
+     "no"
+    ],
+    [
+     "Accommodation",
+     "Not stated (room upgrades listed separately)",
+     "ns"
+    ],
+    [
+     "Scholarships",
+     "Scholarship applications opened with Phase 1 registration; details not stated",
+     "ns"
+    ]
+   ],
+   "steps": [
+    "Ask your university debating society to register the institution on the official WUDC 2027 registration site.",
+    "Wait for slot allocation.",
+    "Arrange Canadian visa and travel."
+   ],
+   "contact": [
+    [
+     "Email",
+     "wudc.exec@gmail.com",
+     "World Universities Debating Council, listed on worlddebating.org"
+    ]
+   ],
+   "url": "http://www.worlddebating.org/",
+   "confidence": "Low",
+   "caveat": "Official registration site (wudc2027.calicotab.com) blocked automated access; registration phases may already have closed. Requires a Canadian visa.",
+   "verified": "2026-10-22",
+   "source": "bulk-conferences",
+   "added": "2026-10-22",
+   "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sxMYy2WqpNaFXI2LmqhUFz6cVzhQPCF-jcc6MOVTriidTxJlqwiW1JKdKwApzHhMP_zkGPiX56GiCOdVPRCyIh8u4GJ6_0LTJUaOB9x_26zrCD88n4x5mxARJIp0AOWv0uR4MfED8E4F-YO6KjdOG06gcR_TM1HsqyGX55YKyf1AzDmwVPcv__NSPSIRA=w16383",
+   "logo": null,
+   "imageChecked": "2026-10-24",
+   "gallery": [
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sB98pb3vvQFoHZOOS_ZVYC62_juJTvnL0KWTSip5DyZToBT-eb3S4yf1SfBA3RDAuI5aPndHe-p31cIomJZbv1WVekp2_LxqUw573A6qUWHXuV4UyGPPdW5z1W3_vLV1A3Oi8vjAEJbYVwPCQHvFaXVkguQX_9ZP8otBeK4SKRA42QU8Y35z0zP2Y-HuSYFvxJjNqnvnnsUJQj3lfsWNhCwncv9kwj5QQ14ASq0x0=w1280",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72tRaNRjbgCarld1NR3hyXvBzMiAH6uge8A0v5BJ_-99hVetBrAk2VFtZFkxkvAAjHnqTaRNi2YN2f7b8hs9XMqAdueI2wQmGNASkqgnpRiCuz5u-CXl4whmDXvCYXnU0LpD_XtFdQPLJdpc1sKUTolUFo7XRBJFqZQypn0r3GeY3wzDtOgL4hi4lOAAHv2yI-_CI9NoPFAcFoeGgHM4LpCPgQXRN7CdVFKILUvXd10=w1280",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72t3f5UWrra2-k6VfSMTpMAsXpfL2N800ug3b5X98XaFLB3h2UihLYqtsEcYD-GtOYdQ8i1vJ0pXjdxON_dl--rzOnBvtVs9c41fOatbFuQageOAbQV_GXwSJ5KnZh0YFf2sCe71XVRopkl2c1gzO9yhzJUbakl1leIPlfcACTbwHkDohG6aKQwTIe_qX6M9cvEUEDT8F9WNXBGXQUP06KD8EyaaZ0PYbIDV8WgY4w8=w1280",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72ttPJ2JC_nExETSowBGdBp6YuvY4PXFs3vEyQYllYlHwr2dD7LFq_Ht836RJjeBIZIQnQoPde6FKdDXgku2lM-nz4LjZiZVRw9eFqQuN5N_H_DCXHctw5a01hW_h4WpMkADXU0bt-_YuJ0acZlkmklifZxDoFIdqne1fma9hkl6inWtUuIIQHJPrvPSwogVQJ1_OgnxiJWE9bBuEr5UvKZ0aEB_GU-XCo-HfYEtYOA=w1280",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sOpVMZKbqOIShP4NHUOLB8pk4CmbCpoTkNCkHk0kI2tPomQ7-Y0mAmsrxdXpMwDF0eHj9tKa0WI2NWwzyvy-0SEeCxVZKnDQVE6tafInGs9E6oPwpw4aVClsAi6AL8oGRTQC1V9isXKBNbvtfGdstMDx0OeBlNhdI0FJ765RIMWW6mx09_IyweqEz3=w1280",
+    "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72suyNEL8xVMeToYurIKCL4nLnwxPWzOsGc4FD5to3fxayCgBamGrQkATLwx0mHqdH91MMzTPQHqtT1U36DHVfJ4AmoHffU-S4iVnH-sbptJV8uBgjg3lME1h3goUki-_rxgBvuGxtrWI3AO8zr-CZSenTKpg0KQBzYKr93UNt_0W3O1-JK_lx0LVPCGazM=w1280"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -119736,7 +120211,9 @@
    "caveat": "Deadlines, fees and tuition for master's programmes are set per faculty and not published on the central admission page.",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ul-ndu-graduate-2027",
@@ -119823,7 +120300,9 @@
    "caveat": "Graduate-specific deadlines and nationality rules not published; confirm with the Office of Admissions.",
    "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ul-usek-masters-2027",
@@ -119914,7 +120393,9 @@
    "caveat": "Nationality/residency rules not stated on the official page.",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ul-lu-bachelor-2027",
@@ -119998,7 +120479,9 @@
    "caveat": "2027-28 calendars not yet published; figures shown are from the 2026-27 cycle as an example.",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ul-lu-masters-2027",
@@ -120079,7 +120562,9 @@
    "caveat": "No central master admission calendar or fee published for 2027-28.",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "ul-lu-doctorate-2027",
@@ -120171,7 +120656,9 @@
    "caveat": "2027-28 doctoral calls not yet published; past-cycle dates given for orientation only.",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-24"
+   "imageChecked": "2026-10-24",
+   "gallery": [],
+   "galleryChecked": "2026-10-24"
   },
   {
    "id": "vo-lebanese-red-cross-ems-volunteer",
