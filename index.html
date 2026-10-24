@@ -366,7 +366,7 @@ function pushState(now){
 }
 if(sb)sb.auth.onAuthStateChange(async(ev,session)=>{
   const was=!!USER;USER=session?session.user:null;TOKEN=session?session.access_token:null;
-  if(USER&&!was){await pullState();loadMine();if(ev==="SIGNED_IN"){closeSheet();toast("Signed in. Welcome to Darb!");feedMode="foryou"}}
+  if(USER&&!was){await pullState();loadMine();loadMyOrgs();if(ev==="SIGNED_IN"){closeSheet();toast("Signed in. Welcome to Darb!");feedMode="foryou"}}
   if(!USER&&was&&feedMode!=="community")feedMode="community";
   if(OPPS.length){if(current==="feed")renderFeed();else if(current==="profile")renderProfile();else if(current==="saved")renderSaved()}
   if(location.hash.includes("access_token"))history.replaceState(null,"",location.pathname);
@@ -1141,7 +1141,9 @@ let MYPOSTS=new Map(),MYCLAIMS={},LIVEPOSTS=[];
 const myClaim=id=>MYCLAIMS[id];
 
 function postToOpp(r){
-  const d=r.data||{},m=d.media||[],imgs=m.filter(x=>x.kind==="image").map(x=>PUB+x.path),vid=m.find(x=>x.kind==="video");
+  const d={...(r.data||{})},og=LIVEORGS[d.org_id];
+  if(og){d.org=og.name;for(const k of ["whatsapp","email","instagram"])if(!d[k])d[k]=k==="whatsapp"?og.phone:og[k]}
+  const m=d.media||[],imgs=m.filter(x=>x.kind==="image").map(x=>PUB+x.path),vid=m.find(x=>x.kind==="video");
   const fee=d.fee===""||d.fee==null||isNaN(Number(d.fee))?null:Number(d.fee),where=d.where||"lebanon";
   const contact=[];
   if(d.whatsapp)contact.push(["WhatsApp",d.whatsapp,""]);
@@ -1164,7 +1166,7 @@ function postToOpp(r){
     contact,url:/^https?:\/\//.test(d.link||"")?d.link:"",image:imgs[0]||"",gallery:imgs.slice(1),video:vid?PUB+vid.path:"",
     tags:[d.type||"event",...(d.type==="religious"?["religious","faith"]:[])],verified:r.updated_at,confidence:"posted by the organiser",added:r.created_at,
     festival:d.type==="festival",club:d.type==="club",class:d.type==="class",show:d.type==="show",visit:d.type==="place",job:d.type==="job",
-    post:{id:r.id,mine:MYPOSTS.has(r.id)}};
+    logo:og?orgLogo(og):undefined,post:{id:r.id,mine:MYPOSTS.has(r.id)}};
 }
 // An approved organiser edit of an event Darb already lists: their details and media win.
 function applyEdit(base,r){
@@ -1201,6 +1203,80 @@ async function loadMine(){
   }catch(e){}
 }
 
+/* ---------- organisations: who a post is from ---------- */
+// To post, an account registers its company, association, club, church, school… once.
+// Its name, logo and contacts then appear on each post and on a profile people can follow.
+const ORG_KINDS={company:["🏢 Company or business","company"],association:["🤝 Association or NGO","ngo"],club:["👥 Club or team","club"],
+  church:["⛪ Church, parish or religious group","club"],school:["🎓 School or university","university"],municipality:["🏛️ Municipality or public body","government"],
+  venue:["🎭 Venue, museum or festival","company"],agency:["✈️ Travel or events agency","company"],person:["🙋 Individual organiser","club"]};
+let MYORGS=new Map(),LIVEORGS={},orgForm=null;   // orgForm: {id|null, data} while registering or editing
+const orgLogo=d=>d&&d.logo?PUB+d.logo:null;
+async function loadOrgs(){
+  try{
+    const rows=await supa("/rest/v1/rpc/live_orgs",{method:"POST",body:"{}"})||[];
+    LIVEORGS=Object.fromEntries(rows.map(r=>[r.id,r.data]));
+    // Registered organisations join the directory, so people can find and follow them.
+    for(const[id,d]of Object.entries(LIVEORGS))if(!DIRECTORY.some(x=>x.orgId===id))
+      DIRECTORY.push({name:d.name,short:"",group:(ORG_KINDS[d.kind]||ORG_KINDS.person)[1],website:d.website||null,logo:orgLogo(d),orgId:id});
+    _orgs=null;
+  }catch(e){}
+}
+async function loadMyOrgs(){
+  if(!USER)return;
+  try{const rows=await supa("/rest/v1/organisations?select=id,data,pending,status,review_note&status=neq.removed&order=created_at.asc");MYORGS=new Map(rows.map(r=>[r.id,r]))}catch(e){}
+}
+const orgOf=r=>r.data||r.pending||{};
+function orgFormHTML(){
+  const d=orgForm.data||{};
+  const fld=(k,l,ph,type="text",extra="")=>`<div class="field"><label for="of-${k}">${l}</label><input id="of-${k}" data-of="${k}" class="inp" type="${type}" placeholder="${esc(ph||"")}" value="${esc(d[k]??"")}" ${extra}></div>`;
+  return`<h1 class="h1">${orgForm.id?"Edit your organisation":"Register your organisation"}</h1>
+   <p class="sub">${orgForm.id?"Changes go live once checked.":"Before you post, tell us who is organising. Your posts will show this name and logo, and people can follow you."}</p>
+   <div class="field"><label for="of-kind">What are you?</label><select id="of-kind" data-of="kind"><option value="">Choose…</option>${Object.entries(ORG_KINDS).map(([k,[l]])=>`<option value="${k}" ${d.kind===k?"selected":""}>${l}</option>`).join("")}</select></div>
+   ${fld("name","Name *","e.g. Mont La Salle Fencing Club")}
+   <label class="drop" for="of-logofile"><strong>${d.logo||orgForm.logoFile?"Change logo":"Add your logo"}</strong>Square image works best</label>
+   <input id="of-logofile" type="file" accept="image/*" hidden>
+   <div id="of-logoprev">${orgForm.logoUrl||orgLogo(d)?`<img class="biglogo" src="${esc(orgForm.logoUrl||orgLogo(d))}" alt="Logo preview">`:""}</div>
+   <div class="field"><label for="of-about">About</label><textarea id="of-about" data-of="about" class="inp" rows="3" placeholder="What you do, who you're for">${escHTML(d.about||"")}</textarea></div>
+   ${fld("place","Based in","e.g. Ain Saadeh, Metn")}
+   ${fld("website","Website","https://")}
+   ${fld("instagram","Instagram","@yourpage")}
+   <div class="minmax">${fld("phone","Phone / WhatsApp","e.g. 03 123 456","tel")}${fld("email","Email","","email")}</div>
+   ${fld("role","Your role there *","e.g. President, coach, parish priest, marketing manager")}
+   <div class="btnrow"><button class="btn primary" data-orgsend="1">${orgForm.id?"Save changes":"Register"}</button>${MYORGS.size?'<button class="btn" data-orgcancel="1">Cancel</button>':""}</div>
+   <p class="note">We check each organisation before its posts go public. You can start posting right after registering; everything goes live together once checked.</p>`;
+}
+function readOrgForm(){const d={...(orgForm.data||{})};document.querySelectorAll("[data-of]").forEach(el=>{d[el.dataset.of]=el.value.trim()});return d}
+async function sendOrg(){
+  const d=readOrgForm();
+  if(!d.kind)return toast("Choose what kind of organisation it is");
+  if(!d.name||d.name.length<2)return toast("Add the name");
+  if(!d.role)return toast("Add your role there");
+  if(d.website&&!/^https?:\/\//.test(d.website))d.website="https://"+d.website;
+  const btn=$("[data-orgsend]");btn.disabled=true;btn.textContent="Saving…";
+  try{
+    if(orgForm.logoFile){
+      const f=orgForm.logoFile,ext=(f.name.split(".").pop()||"png").toLowerCase().replace(/[^a-z0-9]/g,"").slice(0,5);
+      const path=`${USER.id}/logo-${Date.now()}.${ext}`;
+      const r=await fetch(SUPA.url+"/storage/v1/object/posts/"+path,{method:"POST",headers:{apikey:SUPA.key,authorization:"Bearer "+TOKEN,"content-type":f.type||"image/png"},body:f});
+      if(!r.ok)throw new Error("logo");
+      d.logo=path;
+    }
+    const id=await supa("/rest/v1/rpc/save_org",{method:"POST",body:JSON.stringify({p_id:orgForm.id,p_data:d})});
+    const was=!!orgForm.id;orgForm=null;await loadMyOrgs();
+    if(!was&&draft)draft.org_id=id;
+    toast(was?"Saved. Changes go live once checked":"Registered! Now add your post");
+    renderAdd();
+  }catch(e){toast(e.message==="logo"?"Couldn't upload the logo. Try a smaller image":"Couldn't save. Check your connection");btn.disabled=false;btn.textContent=orgForm&&orgForm.id?"Save changes":"Register"}
+}
+function myOrgsHTML(){
+  if(!USER)return"";
+  const rows=[...MYORGS.values()];
+  const st=r=>r.status==="live"?(r.pending?"Live · your changes are waiting for a check":"✅ Verified"):r.status==="rejected"?"Not approved"+(r.review_note?": "+escHTML(r.review_note):""):"⏳ Waiting for a check";
+  return`<div class="lbl" style="margin-top:6px">My organisations</div>
+   ${rows.length?rows.map(r=>{const d=r.pending||r.data||{};return`<div class="mypost"><span style="display:flex;gap:10px;align-items:center">${orgLogo(d)?`<img class="logo" src="${esc(orgLogo(d))}" alt="">`:""}<span><b>${escHTML(d.name||"")}</b><small>${st(r)}</small></span></span><button class="btn" data-orgedit="${r.id}">Edit</button></div>`}).join(""):`<p class="note" style="margin:6px 0 10px">Register your company, association, club or church to post.</p>`}
+   <div class="btnrow" style="margin-bottom:16px"><button class="btn" data-orgnew="1">＋ Register ${rows.length?"another":"an"} organisation</button></div>`;
+}
+
 /* ---------- the post form ---------- */
 let addMode="post",editing=null,draft=null,media=[];   // media: {path?,kind,file?,url}
 function renderAdd(){
@@ -1208,7 +1284,9 @@ function renderAdd(){
   const seg=`<div class="seg"><button class="fchip ${addMode==="post"?"on":""}" data-addmode="post">📸 Post an event</button><button class="fchip ${addMode==="flyer"?"on":""}" data-addmode="flyer">📄 Quick flyer</button></div>`;
   if(addMode==="flyer"){v.innerHTML=seg+'<div id="flyerbox"></div>';renderFlyerForm($("#flyerbox"));return}
   if(!USER){v.innerHTML=seg+`<h1 class="h1">Post your event</h1><p class="sub">Organisers, clubs, churches, schools and anyone running something: add photos or a video, answer a few questions, and it goes on Darb.</p><div class="acct"><span><b>Sign in to post</b><small>So only you can edit your post later.</small></span><button class="btn primary" data-signin="post your event">Sign in</button></div><p class="note">Just want to share a flyer you saw? Use <b>Quick flyer</b>, no account needed.</p>`;return}
+  if(orgForm||!MYORGS.size){if(!orgForm)orgForm={id:null,data:{}};v.innerHTML=seg+orgFormHTML();return}
   const d=draft||{},t=d.type||"";
+  if(!d.org_id||!MYORGS.has(d.org_id))d.org_id=[...MYORGS.keys()][0];
   const fld=(k,l,ph,type="text",extra="")=>`<div class="field"><label for="pf-${k}">${l}</label><input id="pf-${k}" data-pf="${k}" class="inp" type="${type}" placeholder="${esc(ph||"")}" value="${esc(d[k]??"")}" ${extra}></div>`;
   const area=(k,l,ph)=>`<div class="field"><label for="pf-${k}">${l}</label><textarea id="pf-${k}" data-pf="${k}" class="inp" rows="3" placeholder="${esc(ph||"")}">${escHTML(d[k]||"")}</textarea></div>`;
   v.innerHTML=seg+`<h1 class="h1">${editing?(editing.opp_id?"Edit this event":"Edit your post"):"Post your event"}</h1>
@@ -1218,7 +1296,7 @@ function renderAdd(){
    <input id="pf-media" type="file" accept="image/*,video/*" multiple hidden>
    <div class="mediagrid" id="pf-grid"></div>
    ${t?`${fld("title","Event name *","e.g. Faraya Winter Festival")}
-   ${fld("org","Organiser *","e.g. Faraya Municipality")}
+   <div class="field"><label for="pf-org_id">Posting as</label><select id="pf-org_id" data-pf="org_id">${[...MYORGS.values()].map(r=>`<option value="${r.id}" ${d.org_id===r.id?"selected":""}>${escHTML(orgOf(r).name||"")}${r.status==="live"?" ✓":""}</option>`).join("")}</select><button class="flink" data-orgnew="1" style="margin-top:6px">＋ Register another organisation</button></div>
    ${area("desc","Describe it *","What happens, who it's for, what makes it special")}
    <div class="lbl" style="margin-top:14px">When</div>
    <div class="minmax">${fld("start","Starts","","date")}${fld("end","Ends","","date")}</div>
@@ -1264,7 +1342,8 @@ async function sendPost(){
   const d=readForm();
   if(!d.type)return toast("Choose what kind of event it is");
   if(!d.title||d.title.length<3)return toast("Add the event name");
-  if(!d.org)return toast("Add the organiser");
+  if(!d.org_id)return toast("Choose who is posting");
+  d.org=orgOf(MYORGS.get(d.org_id)||{}).name||d.org||"";
   if(!d.desc)return toast("Describe the event in a few words");
   if(!media.length&&!editing)return toast("Add at least one photo, flyer or video");
   if(d.link&&!/^https?:\/\//.test(d.link))d.link="https://"+d.link;
@@ -1326,7 +1405,7 @@ function renderMeList(){
   let body="";
   if(meTab==="liked"){const l=list(S.likes).reverse();body=l.length?`<div class="list">${l.map(o=>rowHTML(o)).join("")}</div>`:`<div class="empty">Posts you like show up here.</div>`}
   else if(meTab==="saved"){const l=list(S.saved).reverse();body=l.length?`<div class="list">${l.map(o=>rowHTML(o)).join("")}</div><p class="note">Deadlines sorts these by closing date and reminds you before they close.</p>`:`<div class="empty">Tap Save on anything to keep it here.</div>`}
-  else if(meTab==="posts")body=USER?myPostsHTML()+postStatsHTML():`<div class="empty">Sign in to post events and see how they do.</div>`;
+  else if(meTab==="posts")body=USER?myOrgsHTML()+myPostsHTML()+postStatsHTML():`<div class="empty">Sign in to post events and see how they do.</div>`;
   else if(meTab==="activity"){body=USER?`<div id="activity"><p class="note">Loading…</p></div>`:`<div class="empty">Sign in to see likes and comments on your posts and comments.</div>`}
   v.innerHTML=`<h1 class="h1">Me</h1>${acctBox()}${meSeg()}${body}`;
   if(meTab==="activity"&&USER)loadActivity();
@@ -1448,6 +1527,10 @@ document.addEventListener("click",e=>{
   if(b.dataset.pwhere){draft=readForm();draft.where=b.dataset.pwhere;return renderAdd()}
   if(b.dataset.mrm!==undefined){draft=readForm();media.splice(+b.dataset.mrm,1);return drawMedia()}
   if(b.dataset.postsend)return sendPost();
+  if(b.dataset.orgsend)return sendOrg();
+  if(b.dataset.orgcancel){orgForm=null;return renderAdd()}
+  if(b.dataset.orgnew){if($("[data-pf]"))draft=readForm();orgForm={id:null,data:{}};addMode="post";return show("add")}
+  if(b.dataset.orgedit){const r=MYORGS.get(b.dataset.orgedit);if(r){orgForm={id:r.id,data:{...(r.pending||r.data||{})}};addMode="post";show("add")}return}
   if(b.dataset.postcancel){editing=null;draft=null;media=[];return renderAdd()}
   if(b.dataset.editpost){closeSheet();if(needAuth("edit your post"))return;const r=MYPOSTS.get(b.dataset.editpost);if(r)editPost(r);return}
   if(b.dataset.rmpost){if(!confirm("Remove this post from Darb?"))return;supa("/rest/v1/rpc/remove_post",{method:"POST",body:JSON.stringify({p_id:b.dataset.rmpost})}).then(()=>{MYPOSTS.delete(b.dataset.rmpost);OPPS=OPPS.filter(o=>!(o.post&&o.post.id===b.dataset.rmpost&&!o.post.edit));renderProfile();toast("Post removed")}).catch(()=>toast("Couldn't remove. Try again"));return}
@@ -1493,6 +1576,7 @@ document.addEventListener("click",e=>{
 });
 document.addEventListener("change",e=>{
   const p=S.profile,t=e.target;
+  if(t.id==="of-logofile"){const f=t.files[0];if(!f)return;if(f.size>6*1024*1024)return toast("Logo must be under 6 MB");orgForm.data=readOrgForm();orgForm.logoFile=f;orgForm.logoUrl=URL.createObjectURL(f);return renderAdd()}
   if(t.id==="pf-type"){draft=readForm();return renderAdd()}
   if(t.id==="pf-media"){draft=readForm();for(const file of t.files){const kind=/^video/.test(file.type)?"video":"image";
     if(kind==="video"&&media.some(m=>m.kind==="video")){toast("One video per post");continue}
@@ -1530,7 +1614,7 @@ async function loadData(manual){
     const r=await fetch("opportunities.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(r.status);
     const d=await r.json(),before=OPPS.length;
     OPPS=d.opportunities||[];UPDATED=d.updated;
-    await Promise.race([loadPosts(),new Promise(r=>setTimeout(r,4000))]);lastLoad=Date.now();SESSION_SEED=Math.floor(Math.random()*1e9);_orgs=null;
+    await Promise.race([loadOrgs().then(loadPosts),new Promise(r=>setTimeout(r,4000))]);lastLoad=Date.now();SESSION_SEED=Math.floor(Math.random()*1e9);_orgs=null;
     if(!DIRECTORY.length)try{const x=await fetch("directory.json");if(x.ok)DIRECTORY=(await x.json()).orgs||[]}catch(e){}
     if(!Object.keys(STOCK).length)try{const s=await fetch("stock.json");if(s.ok)STOCK=await s.json()}catch(e){}
     if(current==="feed"||!before){show("feed");$("#v-feed").scrollTop=0}
