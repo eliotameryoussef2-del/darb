@@ -280,7 +280,8 @@ const DAY=864e5;
 function daysLeft(o){const t=o.deadline||o.eventDate;if(!t)return null;return Math.ceil((new Date(t)-Date.now())/DAY)}
 function isClosed(o){const d=o.deadline?daysLeft(o):(o.eventDate?Math.ceil((new Date(o.eventDate)-Date.now())/DAY)+5:null);return d!==null&&d<0}
 function dlLabel(o){
-  if(o.place)return"See opening hours";
+  if(o.visit)return"See opening hours";
+  if(o.job&&!o.deadline)return"Hiring now";
   if(o.rolling)return"Rolling";
   const d=daysLeft(o);
   if(d===null)return o.sample?"Example":"Deadline TBC";
@@ -374,7 +375,7 @@ function topicsOf(o){
   if(o.funded==="full")t.add("funded");
   if(o.club)t.add("clubs");
   if(o.movie||o.show)t.add("movies");
-  if(o.place)t.add("museums");
+  if(o.visit)t.add("museums");
   if(o.festival||/festival|mahrajan/i.test(o.title))t.add("festivals");
   if(/^bulk-tournaments/.test(o.source||"")||/tournament|championship|\bcup\b|\bopen\b|league|olympiad|contest|competition|regatta|\bmeet\b/i.test(o.title))t.add("tournament");
   if(o.art||(o.tags||[]).includes("arts")||/painting|drawing|\barts?\b|illustration|photograph|film festival|short film|music|song|dance|theat(er|re)|poetry|writing contest|essay contest|pottery|ceramic|craft/i.test(o.title))t.add("arts");
@@ -511,7 +512,7 @@ function typesOf(o){
   if(o.source==="bulk-internships"||/intern(ship)?s?|traineeship|summer analyst|co-?op/i.test(o.title))t.add("intern");
   if(o.job)t.add(o.intern?"intern":"job");
   if(o.exam||/(sat|act|gre|gmat|mcat|lsat|toefl|ielts|delf|dalf|cfa|acca|pmp)|entrance exam|admission|application deadline/i.test(o.title))t.add("exam");
-  if(o.place)t.add("place");
+  if(o.visit)t.add("place");
   if(o.class)t.add("class");
   if(o.show||o.movie||/circus|concert|theat(re|er) play|stand-?up|comedy night|musical|screening|premiere|now showing/i.test(o.title))t.add("show");
   if(o.festival||/festival|mahrajan|christmas (village|market)|eid|feast|carnival/i.test(o.title))t.add("festival");
@@ -604,7 +605,7 @@ function renderFeed(){
   // Filtered view: once its results end, continue with the nearest matches under a clear divider.
   const narrowed=feedMode==="following"||nf>0;
   const extra=narrowed&&items.length&&!(feedMode==="following"&&!S.follow.length)?moreLikeThis(items):[];
-  const renderCard=(o,i)=>{
+  const renderCard=(o,i)=>{let h="";
     if(i===items.length&&extra.length)h+=`<div class="slide endcard"><div><h2>That's all ${items.length} for your filters</h2><p>Keep scrolling for the closest things you might like.</p><button class="btn" data-fclear="1">Clear filters</button></div></div>`;
     const sc=score(o),[fl,fc]=fundLabel(o),[el_,ec]=eligLabel(o),rr=reachReason(o),d=daysLeft(o),soon=d!==null&&d>=0&&d<=10,pic=picture(o,true),fol=isFollowed(o);
     h+=`<article class="slide" data-id="${o.id}" style="--cb:${CAT_COLOR[o.cat][0]};--cc:${CAT_COLOR[o.cat][1]}">
@@ -628,12 +629,26 @@ function renderFeed(){
       </div>
       <div class="rail">${railBtns(o)}</div>
     </article>`;
+    return h;
   };
-  items.concat(extra).forEach(renderCard);
-  if(items.length)h+=`<div class="slide endcard"><div><h2>You're all caught up</h2><p>Last updated ${UPDATED?fmtDate(UPDATED):"recently"}. New opportunities are checked and added every day. Saved items and reminders are under Deadlines.</p><button class="btn primary" data-goto="add">Know one we missed? Add a flyer</button></div></div>`;
-  el.innerHTML=h;
+  // Cards are added in batches of 25 as you scroll, so 1,000+ items stay fast on any phone.
+  const all=items.concat(extra),end=items.length?`<div class="slide endcard"><div><h2>You're all caught up</h2><p>Last updated ${UPDATED?fmtDate(UPDATED):"recently"}. New opportunities are checked and added every day. Saved items and reminders are under Deadlines.</p><button class="btn primary" data-goto="add">Know one we missed? Add a flyer</button></div></div>`:"";
+  feedQueue={all,next:0,render:renderCard,end};
+  el.innerHTML=h+moreCards();
   observeViews();
 }
+let feedQueue=null;
+function moreCards(){
+  const q=feedQueue;if(!q||q.next>=q.all.length)return"";
+  let h="";const stop=Math.min(q.next+25,q.all.length);
+  for(;q.next<stop;q.next++)h+=q.render(q.all[q.next],q.next);
+  if(q.next>=q.all.length)h+=q.end;
+  return h;
+}
+document.querySelector("#v-feed").addEventListener("scroll",()=>{
+  const f=document.querySelector("#v-feed");
+  if(feedQueue&&feedQueue.next<feedQueue.all.length&&f.scrollTop+f.clientHeight*4>f.scrollHeight){f.insertAdjacentHTML("beforeend",moreCards());observeViews()}
+},{passive:true});
 function orgRow(g){
   const f=S.follow.includes(g.key);
   return`<div class="row orgrow"><button class="orglink" data-org="${esc(g.key)}">${g.logo?`<img class="logo" src="${esc(g.logo)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:`<span class="logo ph">${g.name.slice(0,1)}</span>`}<span><b>${g.name}</b><small>${(GROUPS[g.group]||"").replace(/^\S+\s/,"")} · ${g.count?g.count+" open":"nothing open now"}</small></span></button><button class="btn ${f?"":"primary"}" data-follow="${esc(g.key)}">${f?"Following":"Follow"}</button></div>`;
@@ -672,7 +687,7 @@ function openSheet(id){
    ${regActions(o)}
    <div class="sec"><h3>When & where</h3><dl class="kv">
      <dt>Deadline</dt><dd><b>${dlLabel(o)}</b> · ${o.deadlineText}</dd>
-     <dt>${o.place?"Opening hours":"Dates"}</dt><dd>${o.when}</dd>
+     <dt>${o.visit?"Opening hours":"Dates"}</dt><dd>${o.when}</dd>
      ${o.meet?`<dt>Meeting</dt><dd>${o.meet}</dd>`:""}
      <dt>Location</dt><dd>${o.place}</dd>
      <dt>Format</dt><dd>${o.team}</dd>
