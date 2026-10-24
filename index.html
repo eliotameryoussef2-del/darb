@@ -6,7 +6,7 @@
 <style>
 /* Layout: phone-width app shell; full-screen vertical swipe feed + list tabs; road-marking yellow accent ("darb" = path) */
 :root{
-  --ink:#11141c; --panel:#191d27; --panel2:#222736; --line:#2f3546;
+  --ink:#0c0e11; --panel:#15181d; --panel2:#1d2128; --line:#2a2f38;
   --fg:#f2f0ea; --mute:#9ea4ae; --accent:#ffd23f; --accent-ink:#1a1500;
   --ok:#4fd18b; --warn:#ffb547; --bad:#ff6b6b; --info:#7fb4ff;
   --display:"Syne","Arial Black",system-ui,sans-serif;
@@ -26,8 +26,8 @@ main{position:relative;min-height:0}
 
 /* Feed */
 .feed{scroll-snap-type:y mandatory;overscroll-behavior:contain}
-.slide{position:relative;height:100%;scroll-snap-align:start;scroll-snap-stop:always;overflow:hidden;background:var(--cb,var(--panel))}
-.art{position:absolute;inset:0 0 16% 0}
+.slide{position:relative;height:100%;scroll-snap-align:start;scroll-snap-stop:always;overflow:hidden;background:var(--panel)}
+.art{position:absolute;inset:0 0 34% 0}
 .art svg{width:100%;height:100%;display:block}
 .art .photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;max-width:none}
 .art .photo.contain{object-fit:contain;padding:18% 12% 22%;box-sizing:border-box;background:#f4f2ee}
@@ -36,19 +36,20 @@ main{position:relative;min-height:0}
 .thumb .photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .thumb .logotile{inset:8px;padding:4px;border-radius:6px}
 .art .base.soft{filter:blur(14px) saturate(1.2);transform:scale(1.15)}
-.logotile{position:absolute;inset:13% 26% 47%;background:#fff;border-radius:22px;display:grid;place-items:center;padding:22px;box-shadow:0 12px 40px rgba(0,0,0,.35)}
+.logotile{position:absolute;inset:13% 27% 42%;background:#fff;border-radius:22px;display:grid;place-items:center;padding:22px;box-shadow:0 12px 40px rgba(0,0,0,.35)}
+.logotile.inline{position:static;width:96px;height:96px;padding:12px;border-radius:20px;box-sizing:border-box;box-shadow:0 8px 28px rgba(0,0,0,.4)}
 .logotile img{max-width:100%;max-height:100%;object-fit:contain}
 /* category-tinted fade: the picture stays bright on top, text sits on the category colour below */
-.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.42) 0%,rgba(0,0,0,0) 13%,rgba(0,0,0,0) 40%,color-mix(in srgb,var(--cb,#11141c) 72%,transparent) 56%,color-mix(in srgb,var(--cb,#11141c) 94%,transparent) 68%,var(--cb,#11141c) 84%)}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,14,17,.6) 0%,rgba(12,14,17,0) 14%,rgba(12,14,17,0) 26%,rgba(12,14,17,.7) 42%,rgba(12,14,17,.95) 58%,var(--ink) 70%)}
 .info .title,.info .org{text-shadow:0 1px 12px rgba(0,0,0,.6)}
 .ph-tag{position:absolute;top:60px;left:16px;font:500 10px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--fg);background:rgba(12,14,17,.55);padding:5px 7px;border-radius:4px}
 .sample-tag{position:absolute;top:60px;right:16px;font:700 11px/1 var(--body);letter-spacing:.05em;text-transform:uppercase;background:var(--warn);color:#201300;padding:6px 8px;border-radius:4px}
 .info{position:absolute;left:0;right:66px;bottom:0;padding:0 0 18px 16px;display:flex;flex-direction:column;gap:8px}
-.cat{align-self:flex-start;font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:#10121a;background:var(--cc,var(--accent));padding:5px 8px;border-radius:3px}
-.title{font:800 25px/1.08 var(--display);text-wrap:balance;margin:0;letter-spacing:-.01em}
+.cat{align-self:flex-start;font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent-ink);background:var(--accent);padding:5px 8px;border-radius:3px}
+.title{font:800 25px/1.08 var(--display);text-wrap:balance;margin:0;letter-spacing:-.01em;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .org{color:var(--mute);font-size:13.5px;margin-top:-2px}
 .chips{display:flex;flex-wrap:wrap;gap:6px}
-.chip{font-size:12.5px;font-weight:600;padding:5px 9px;border-radius:999px;background:rgba(0,0,0,.28);border:1px solid rgba(255,255,255,.18);white-space:nowrap}
+.chip{font-size:12.5px;font-weight:600;padding:5px 9px;border-radius:999px;background:var(--panel2);border:1px solid var(--line);white-space:nowrap}
 .chip.hot{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .chip.ok{border-color:rgba(79,209,139,.5);color:var(--ok)}
 .chip.warn{border-color:rgba(255,181,71,.5);color:var(--warn)}
@@ -58,7 +59,7 @@ main{position:relative;min-height:0}
 .details-btn{align-self:flex-start;margin-top:2px;background:var(--fg);color:var(--ink);border:0;border-radius:999px;padding:9px 16px;font-weight:700;font-size:14px}
 .rail{position:absolute;right:8px;bottom:22px;display:flex;flex-direction:column;gap:14px;align-items:center}
 .rb{display:flex;flex-direction:column;align-items:center;gap:4px;background:none;border:0;padding:0;width:52px;font-size:11px;color:var(--fg)}
-.rb .ic{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:rgba(0,0,0,.32);border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(6px)}
+.rb .ic{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:rgba(29,33,40,.85);border:1px solid var(--line)}
 .rb.on .ic{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 .rb svg{width:22px;height:22px}
 .topbar{position:absolute;top:0;left:0;right:0;z-index:5;display:flex;gap:4px;justify-content:center;padding:12px 8px 8px;background:linear-gradient(180deg,rgba(12,14,17,.85),rgba(12,14,17,0))}
@@ -72,6 +73,11 @@ main{position:relative;min-height:0}
 .tchip.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .ph-tag,.sample-tag{top:60px!important}
 .feed.withtopics .ph-tag{top:96px!important}
+/* optional colourful card style (Me → Colourful cards) */
+.colorful .slide{background:var(--cb,var(--panel))}
+.colorful .art{inset:0 0 26% 0}
+.colorful .shade{background:linear-gradient(180deg,rgba(0,0,0,.42) 0%,rgba(0,0,0,0) 14%,rgba(0,0,0,0) 36%,color-mix(in srgb,var(--cb) 75%,transparent) 52%,var(--cb) 70%)}
+.colorful .cat{color:#10121a;background:var(--cc)}
 .fit{display:flex;flex-direction:column;gap:5px;font-size:14px}
 .fit .g{color:var(--ok)}.fit .w{color:var(--warn)}.fit .b{color:var(--bad)}
 /* TikTok-style tab row with refresh (left) and filters (right) */
@@ -86,7 +92,7 @@ main{position:relative;min-height:0}
 .gal{position:absolute;inset:0;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior-x:contain}
 .gal::-webkit-scrollbar{display:none}
 .gal img{flex:0 0 100%;width:100%;height:100%;object-fit:cover;scroll-snap-align:center;max-width:none}
-.dots{position:absolute;left:0;right:0;top:92px;display:flex;justify-content:center;gap:5px;z-index:3;pointer-events:none}
+.dots{position:absolute;left:0;right:0;top:calc(66% - 46px);display:flex;justify-content:center;gap:5px;z-index:3;pointer-events:none}
 .dots i{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.45)}
 .dots i.on{background:#fff;width:16px;border-radius:3px}
 /* organiser line on cards and sheets */
@@ -141,7 +147,7 @@ main{position:relative;min-height:0}
 nav.tabs{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);background:var(--ink);padding-bottom:env(safe-area-inset-bottom,0px)}
 .tab{background:none;border:0;padding:8px 0 9px;display:flex;flex-direction:column;align-items:center;gap:3px;font-size:11px;color:var(--mute)}
 .tab svg{width:22px;height:22px}
-.tab.on{color:var(--accent)}
+.tab.on{color:var(--fg)}
 .tab.add .plus{width:42px;height:28px;border-radius:8px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center}
 
 /* Sheet */
@@ -539,7 +545,9 @@ function picture(o,full){
   const gal=[...new Set([o.image,...(o.gallery||[])].filter(Boolean))];
   if(full&&gal.length>1)return{html:base+`<div class="gal" data-gal="${o.id}">${gal.map(src=>img(src,"","onerror=\"this.remove()\"")).join("")}</div><div class="dots" data-dots="${o.id}">${gal.map((_,i)=>`<i class="${i?"":"on"}"></i>`).join("")}</div>`,tag:`Swipe for ${gal.length} photos · organiser's site`};
   if(o.image)return{html:base+img(o.image,"photo","onerror=\"this.remove()\""),tag:"Photo from the organiser"};
-  if(o.logo)return{html:(s?img(s.src,"photo base soft","onerror=\"this.remove()\""):"")+`<div class="logotile"><img src="${esc(o.logo)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></div>`,tag:"Organiser logo"};
+  if(o.logo){const tile=`<div class="logotile${full?" inline":""}"><img src="${esc(o.logo)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></div>`;
+    // On feed cards the logo sits inside the text block (above the label) so it can never overlap the title.
+    return{html:(s?img(s.src,"photo base soft","onerror=\"this.remove()\""):"")+(full?"":tile),tile:full?tile:"",tag:"Organiser logo"}}
   if(s)return{html:base,tag:"Photo of the activity · Wikimedia Commons"};
   return{html:"",tag:""};
 }
@@ -583,10 +591,10 @@ function renderFeed(){
     const sc=score(o),[fl,fc]=fundLabel(o),[el_,ec]=eligLabel(o),rr=reachReason(o),d=daysLeft(o),soon=d!==null&&d>=0&&d<=10,pic=picture(o,true),fol=isFollowed(o);
     h+=`<article class="slide" data-id="${o.id}" style="--cb:${CAT_COLOR[o.cat][0]};--cc:${CAT_COLOR[o.cat][1]}">
       <div class="art">${pic.html}</div><div class="shade"></div>
-      ${pic.tag?`<span class="ph-tag" data-tag="${o.id}">${pic.tag}</span>`:""}
+      
       ${o.sample?'<span class="sample-tag">Sample layout</span>':""}
       <div class="info">
-        <span class="cat">${CATS[o.cat]}</span>
+        ${pic.tile||""}<span class="cat">${CATS[o.cat]}</span>
         <h2 class="title">${o.title}</h2>
         <button class="org orgbtn" data-org="${esc(orgKey(o))}">${logoImg(o)}<span>${o.org}</span>${fol?'<em class="fol">Following</em>':'<em class="fol add">+ Follow</em>'}</button>
         <div class="chips">
@@ -660,7 +668,7 @@ function openSheet(id){
    <div class="sec"><h3>Who can take part ·<span class="st ${ec==="ok"?"yes":ec==="warn"?"partial":"no"}">${el_}</span></h3><ul class="el">${o.elig.lines.map(l=>`<li>${l}</li>`).join("")}</ul></div>
    <div class="sec"><h3>How to register</h3><ol class="steps">${o.steps.map(s=>`<li><span>${s}</span></li>`).join("")}</ol></div>
    <div class="sec"><h3>Contact</h3>${o.contact.length?o.contact.map(([t,v,n])=>`<div class="contact"><div><small>${t}</small><code>${v}</code>${n?`<small>${n}</small>`:""}</div><button class="btn" data-copy="${v}">Copy</button></div>`).join(""):`<p class="note" style="margin:0">The organiser publishes no direct contact. Use the official page below.</p>`}</div>
-   <div class="sec"><h3>Source</h3><p class="note" style="margin:0">${o.sample?"Not applicable.":`Checked against the official page on ${fmtDate(o.verified)} · confidence: <b>${o.confidence}</b>.`} ${o.caveat||""} Always confirm on the official page before you pay or book travel.</p></div>
+   <div class="sec"><h3>Source</h3><p class="note" style="margin:0">${o.sample?"Not applicable.":`Checked against the official page on ${fmtDate(o.verified)} · confidence: <b>${o.confidence}</b>.`}${picture(o).tag?` Picture: ${picture(o).tag.replace(/^Swipe for d+ photos · /,"")}.`:""} ${o.caveat||""} Always confirm on the official page before you pay or book travel.</p></div>
    <div class="btnrow">
      ${o.url?`<a class="btn primary" href="${o.url}" target="_blank" rel="noopener">Open official page ↗</a>`:""}
      <button class="btn" data-act="save" data-id="${o.id}">${S.saved.includes(o.id)?"Saved ✓":"Save + remind me"}</button>
@@ -861,6 +869,7 @@ function renderProfile(){
    <div style="margin-top:10px">
     <label class="toggle" for="p-travel"><span>I can travel abroad<small>Off = only Lebanon and online in your main feed</small></span><input id="p-travel" type="checkbox" class="sw" ${p.travel?"checked":""}></label>
     <label class="toggle" for="p-funded"><span>Travel must be fully funded<small>Flights and housing both covered</small></span><input id="p-funded" type="checkbox" class="sw" ${p.fullyFunded?"checked":""}></label>
+    <label class="toggle" for="p-colorful"><span>Colourful cards<small>Tints each card with its category colour</small></span><input id="p-colorful" type="checkbox" class="sw" ${p.colorful?"checked":""}></label>
     <label class="toggle" for="p-reach"><span>Show “Reach” opportunities<small>Ones outside your settings, at the end of the feed</small></span><input id="p-reach" type="checkbox" class="sw" ${p.reach?"checked":""}></label>
    </div>
    <div class="field"><label for="p-fee">Most I'll pay to take part</label>
@@ -950,7 +959,7 @@ document.addEventListener("change",e=>{
     const v=t.value.trim();if(t.id==="f-min")S.filters.feeMin=v;else S.filters.fee=v===""?"any":v;persist();
     const n=feedItems().length,btn=$(".fsee");if(btn)btn.textContent=`See ${n} result${n===1?"":"s"}`;return;
   }
-  if(t.id==="p-travel")p.travel=t.checked;else if(t.id==="p-funded")p.fullyFunded=t.checked;else if(t.id==="p-reach")p.reach=t.checked;else if(t.id==="p-fee")p.maxFee=t.value;
+  if(t.id==="p-travel")p.travel=t.checked;else if(t.id==="p-funded")p.fullyFunded=t.checked;else if(t.id==="p-reach")p.reach=t.checked;else if(t.id==="p-fee")p.maxFee=t.value;else if(t.id==="p-colorful"){p.colorful=t.checked;document.body.classList.toggle("colorful",t.checked)}
   else if(["p-level","p-uni","p-field","p-nat","p-age"].includes(t.id))p[t.id.slice(2)]=t.value;
   else return;
   persist();
@@ -965,6 +974,7 @@ document.addEventListener("keydown",e=>{if(e.key==="Escape")closeSheet()});
 function fmtDate(d){if(!d)return VERIFIED;const x=new Date(d);return isNaN(x)?d:x.toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"})}
 // Opportunities live in opportunities.json, refreshed by the daily updater.
 let lastLoad=0;
+document.body.classList.toggle("colorful",!!S.profile.colorful);
 async function loadData(manual){
   try{
     const r=await fetch("opportunities.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(r.status);
