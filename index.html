@@ -486,7 +486,7 @@ const MAKE=["hackathon","startup","case","tournament"];
 const FAMILY={};for(const g of[SPORTS,STUDY,MAKE,["arts","clubs","volunteer"]])for(const k of g)FAMILY[k]=[...new Set([...(FAMILY[k]||[]),...g])];
 
 /* ---------- type: competition, class/training, event, trip, programme, job, club, volunteering ---------- */
-const TYPES={competition:"🏆 Competitions",class:"📚 Classes & training",event:"🎤 Events & conferences",trip:"🥾 Trips & outings",program:"🎓 Programmes & scholarships",job:"💼 Jobs & internships",club:"👥 Clubs & communities",volunteer:"🤝 Volunteering"};
+const TYPES={competition:"🏆 Competitions",class:"📚 Classes & training",event:"🎤 Events & conferences",trip:"🥾 Trips & outings",aid:"💰 Scholarships & financial aid",program:"🎓 Programmes & scholarships",job:"💼 Jobs & internships",club:"👥 Clubs & communities",volunteer:"🤝 Volunteering"};
 function typesOf(o){
   if(o._types)return o._types;
   const t=new Set(),x=o.title+" "+(o.when||"");
@@ -497,6 +497,7 @@ function typesOf(o){
   if(o.cat==="hiking"||/hike|hiking|trek|\btour\b|trip|excursion|outing|atv|paraglid|ski day/i.test(x))t.add("trip");
   if(o.cat==="research"||o.cat==="exchange"||/scholarship|fellowship|exchange|internship|residency|accelerator|incubat|programme|program\b|erasmus|grant/i.test(x))t.add("program");
   if(o.cat==="career"&&/engineer|analyst|job|position|graduate|intern|hiring|vacanc|referent|officer|role/i.test(x)||/\bjob\b|vacanc/i.test(x))t.add("job");
+  if(o.source==="bulk-aid"||/scholarship|financial aid|bursar|tuition|stipend|grant|student loan|fee waiver|fellowship/i.test(o.title))t.add("aid");
   if(o.club)t.add("club");
   if(o.cat==="volunteer"||/volunteer/i.test(x))t.add("volunteer");
   if(!t.size)t.add(o.cat==="career"?"event":o.cat==="startup"?"program":"event");
