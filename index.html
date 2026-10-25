@@ -302,7 +302,7 @@ const CATS={research:"Research",hackathon:"Hackathon",case:"Case competition",ru
 const INTERESTS={consulting:"Consulting",finance:"Finance & VC",startups:"Startups",case:"Case comps",hackathon:"Hackathons",research:"Research",exchange:"Exchange & scholarships",careers:"Careers",running:"Running",hiking:"Hiking",volunteering:"Volunteering",sports:"Sports (football, basketball…)",arts:"Arts & creative"};
 
 /* ---------- state ---------- */
-const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{types:[],degree:[],when:"any",where:[],region:"",money:[],fee:"any",feeMin:"",eligOnly:false,sort:"best",dlMode:"",dlDate:"",ended:true,city:""},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
+const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{types:[],degree:[],when:"any",where:[],region:"",money:[],fee:"any",feeMin:"",eligOnly:false,sort:"best",dlMode:"",dlDate:"",ended:true,city:"",happens:""},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
 let S=JSON.parse(JSON.stringify(DEF));
 try{const raw=localStorage.getItem("darb-state");if(raw){const p=JSON.parse(raw);S={...S,...p,profile:{...S.profile,...(p.profile||{})}}}}catch(e){}
 S.filters={...DEF.filters,...(S.filters||{})};
@@ -537,12 +537,12 @@ function score(o){
   return{s,why:why.slice(0,2),label:s>=55?"Strong match":s>=35?"Good match":"Possible match"};
 }
 /* ---------- topic filters (football only, startups only, ...) ---------- */
-const TOPICS=[["tournament","🏆 Tournaments"],["football","⚽ Football"],["basketball","🏀 Basketball"],["volleyball","🏐 Volleyball"],["padel","🎾 Padel & tennis"],["swimming","🏊 Swimming"],["cycling","🚴 Cycling"],["ski","⛷️ Ski"],["chess","♟️ Chess"],["water","🤿 Diving & water sports"],["gymnastics","🤸 Gymnastics & cheer"],["yoga","🧘 Yoga & pilates"],["fitness","🏋️ Fitness & CrossFit"],["martial","🥋 Martial arts & boxing"],["climbing","🧗 Climbing"],["racket","🏓 Table tennis, squash & badminton"],["fencing","🤺 Fencing & archery"],["golf","⛳ Golf"],["skating","⛸️ Skating & skateboarding"],["rugby","🏉 Rugby, cricket & other team sports"],["bowling","🎳 Bowling, billiards & darts"],["motor","🏎️ Motorsport & karting"],["riding","🐎 Horse riding"],["dance","💃 Dance"],["music","🎵 Music"],["movies","🎬 Movies & shows"],["museums","🏛️ Museums & places"],["festivals","🎉 Festivals"],["esports","🎮 Esports"],["othersport","🥇 Other sports"],["clubs","👥 Clubs & communities"],["arts","🎨 Arts & creative"],["hiking","🥾 Hiking"],["running","🏃 Running"],["hackathon","💻 Hackathons"],["startup","🚀 Startups"],["case","📊 Case comps"],["research","🔬 Research"],["scholarship","🎓 Scholarships & exchange"],["conference","🎤 Conferences & MUN"],["volunteer","🤝 Volunteering"],["career","💼 Careers"],["funded","✈️ Fully funded"],["religious","⛪ Church & parish events"],["trips","🚌 Day trips & getaways (Lebanon)"],["travel","✈️ Group trips abroad"],["beaches","🏖️ Beaches"],["gyms","🏋️ Gyms"],["parks","🎢 Attraction parks & waterparks"],["pools","🏊 Pools"],["food","🍽️ Food events & offers"]];
+const TOPICS=[["tournament","🏆 Tournaments"],["football","⚽ Football"],["basketball","🏀 Basketball"],["volleyball","🏐 Volleyball"],["padel","🎾 Padel & tennis"],["swimming","🏊 Swimming"],["cycling","🚴 Cycling"],["ski","⛷️ Ski"],["chess","♟️ Chess"],["water","🤿 Diving & water sports"],["gymnastics","🤸 Gymnastics & cheer"],["yoga","🧘 Yoga & pilates"],["fitness","🏋️ Fitness & CrossFit"],["martial","🥋 Martial arts & boxing"],["climbing","🧗 Climbing"],["racket","🏓 Table tennis, squash & badminton"],["fencing","🤺 Fencing & archery"],["golf","⛳ Golf"],["skating","⛸️ Skating & skateboarding"],["rugby","🏉 Rugby, cricket & other team sports"],["bowling","🎳 Bowling, billiards & darts"],["motor","🏎️ Motorsport & karting"],["riding","🐎 Horse riding"],["dance","💃 Dance"],["music","🎵 Music"],["movies","🎬 Movies & shows"],["museums","🏛️ Museums & places"],["festivals","🎉 Festivals"],["esports","🎮 Esports"],["othersport","🥇 Other sports"],["clubs","👥 Clubs & communities"],["arts","🎨 Arts & creative"],["hiking","🥾 Hiking"],["running","🏃 Running"],["hackathon","💻 Hackathons"],["startup","🚀 Startups"],["case","📊 Case comps"],["research","🔬 Research"],["scholarship","🎓 Scholarships & exchange"],["conference","🎤 Conferences & MUN"],["volunteer","🤝 Volunteering"],["career","💼 Careers"],["funded","✈️ Fully funded"],["religious","⛪ Church & parish events"],["trips","🚌 Day trips & getaways (Lebanon)"],["travel","✈️ Group trips abroad"],["beaches","🏖️ Beaches"],["parks","🎢 Attraction parks & waterparks"],["pools","🏊 Pools"],["food","🎤 Openings & live music nights"]];
 // Category groups, like OLX: tap a group to see its categories.
 const TOPIC_GROUPS=[
  ["sports","⚽ Sports",["football","basketball","volleyball","padel","swimming","cycling","ski","water","gymnastics","yoga","fitness","martial","climbing","racket","fencing","golf","skating","rugby","bowling","motor","riding","chess","esports","othersport"]],
  ["outdoors","🥾 Trips & outdoors",["travel","trips","beaches","ski","hiking","running"]],
- ["fun","🎢 Fun places",["parks","pools","gyms","food","beaches"]],
+ ["fun","🎢 Fun places",["parks","pools","food","beaches"]],
  ["events","🎉 Events & culture",["festivals","religious","movies","museums","music","dance","arts"]],
  ["compete","🏆 Competitions",["tournament","hackathon","case","startup"]],
  ["study","🎓 Study & careers",["scholarship","funded","research","conference","career"]],
@@ -566,10 +566,9 @@ function topicsOf(o){
   if((o.tags||[]).includes("beach")||/\b(beach|plage)\b/i.test(o.title)&&!/volleyball/i.test(o.title))t.add("beaches");
   if((o.tags||[]).includes("ski"))t.add("ski");
   const tg=o.tags||[];
-  if(tg.includes("gym"))t.add("gyms");
   if(tg.includes("attraction")||tg.includes("waterpark")||/\b(water ?park|aqua ?park|theme park|amusement park|luna park|fun ?fair|zoo)\b/i.test(o.title))t.add("parks");
   if(tg.includes("pool")||/\bswimming pool\b/i.test(o.title))t.add("pools");
-  if(tg.includes("food")||/\b(brunch|food festival|food market|tasting menu|wine pairing|chef'?s table|pop-?up dinner)\b/i.test(o.title))t.add("food");
+  if(tg.includes("food")||/\b(grand opening|inauguration|opening night|live music|dj night|dj set|karaoke night|live band)\b/i.test(o.title))t.add("food");
   if((o.tags||[]).includes("church-event")||/\b(church|parish|paroisse|diocese|archdiocese|eparchy|patriarchate|monastery|convent|mosque|waqf|mouvement apostolique|apostolic movement|fursan|fersen|knights of the virgin|jeunesse [ée]tudiante chr[ée]tienne|l[ée]gion de marie|legion of mary|scouts? catholiques|catholic scouts|youth of (the )?church|catechism)\b|\bMAM\b|\bJEC\b|فرسان|الحركة الرسولية/i.test(o.org+" "+o.title)||/\b(saint|st\.?|mar|saydet|sayydet) [a-z]+ (feast|festival|fest|night)|\bfeast of (saint|st|our lady)|\b(saint )?barbara\b|christmas (village|market|fair|bazaar|concert)|\bkermesse\b/i.test(o.title))t.add("religious");
   if(o.club)t.add("clubs");
   if(o.movie||o.show)t.add("movies");
@@ -589,6 +588,8 @@ let DIRECTORY=[],_orgs=null;
 const reEsc=s=>s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
 const dirRe=d=>new RegExp(`\\b(${[d.name,d.short].filter(Boolean).map(reEsc).join("|")})\\b`,"i");
 function guessGroup(name){
+  // Sports academies and clubs are clubs, not universities.
+  if(/(football|basketball|volleyball|tennis|padel|swim|fencing|karate|taekwondo|judo|gymnastic|dance|ballet|chess|boxing|rugby|riding|equestrian|diving|ski|climbing|sport|athletic|\bfc)\b.*academy|academy.*(football|basketball|volleyball|tennis|swim|fencing|sport|dance|ballet)/i.test(name))return"club";
   if(/universit|college|école|ecole|school of|\bschool\b|institute of technology|academy|\b(lau|aub|usj|ndu|usek|bau|liu|aust)\b/i.test(name))return"university";
   if(/\bun\b|undp|unicef|unhcr|unesco|escwa|embassy|institut fran|goethe|british council|daad|erasmus|european|world bank|fulbright|chevening|campus france/i.test(name))return"international";
   if(/federation|club|association|scouts|guides|toastmasters|society|league|runners|hik|team|community|chapter|meetup|\bgdg\b|ieee|aiesec|rotaract|jci/i.test(name))return"club";
@@ -632,6 +633,7 @@ function passFilters(o){
   const f=S.filters,d=daysLeft(o);
   if(f.types.length&&!f.types.some(t=>typesOf(o).has(t)))return false;
   if(f.region&&regionOf(o)!==f.region)return false;
+  if(f.happens&&!happensIn(o,f.happens))return false;
   if(f.city&&!(o.place+" "+(o.meet||"")).toLowerCase().includes(f.city.toLowerCase()))return false;
   if(f.feeMin!==""&&(o.feeUSD===null||o.feeUSD<Number(f.feeMin)))return false;
   if(f.when==="7"&&!(d!==null&&d>=0&&d<=7))return false;
@@ -644,7 +646,7 @@ function passFilters(o){
   if(f.eligOnly&&(o.elig.status!=="ok"||fitFor(o).block))return false;
   return true;
 }
-function activeFilters(){const f=S.filters;return(S.profile.topics||[]).length+f.types.length+(f.when!=="any")+!!(f.dlMode&&f.dlDate)+!!f.city+(f.ended===false)+f.where.length+!!f.region+f.money.length+(f.fee!=="any"||f.feeMin!=="")+f.eligOnly+(f.sort!=="best")}
+function activeFilters(){const f=S.filters;return(S.profile.topics||[]).length+f.types.length+(f.when!=="any")+!!(f.dlMode&&f.dlDate)+!!f.city+!!f.happens+(f.ended===false)+f.where.length+!!f.region+f.money.length+(f.fee!=="any"||f.feeMin!=="")+f.eligOnly+(f.sort!=="best")}
 
 /* ---------- For You: learns from what you watch, save, like and skip ---------- */
 const jitter=id=>(hash(id+SESSION_SEED)%1000)/1000;
@@ -661,7 +663,7 @@ function feedItems(){
   // and except when you sort or filter by deadline, where only open ones make sense.
   const showEnded=f0.ended!==false&&!strict&&f0.when==="any"&&!(f0.dlMode&&f0.dlDate);
   // Ski resorts, beaches and other seasonal places join the feed once their owners announce the season.
-  let list=OPPS.filter(o=>(!isClosed(o)||(showEnded&&!o.job))&&!S.hidden.includes(o.id)&&o.elig.status!=="no"&&!seasonHidden(o));
+  let list=OPPS.filter(o=>(!isClosed(o)||(showEnded&&!o.job))&&!S.hidden.includes(o.id)&&o.elig.status!=="no"&&!seasonHidden(o)&&(!isListing(o)||f0.types.some(t=>t==="club"||t==="place")));
   const tp=S.profile.topics||[];
   if(tp.length)list=list.filter(o=>tp.some(k=>topicsOf(o).has(k)));
   list=list.filter(passFilters);
@@ -980,22 +982,97 @@ function contactLinks(o){
   return out;
 }
 function regActions(o){
-  const l=contactLinks(o);if(o.url)l.unshift([isClosed(o)?"Event page ↗":"Register / apply ↗",o.url]);
+  const l=contactLinks(o);if(o.url)l.unshift([isClosed(o)?"Event page ↗":o.visit||o.club?"Website ↗":"Register / apply ↗",o.url]);
+  if(whereOf(o)==="lebanon"&&o.place&&!/online/i.test(o.place))l.push(["📍 Directions",mapsUrl(orgName(o),o.place)]);
   if(!l.length)return"";
   return`<div class="actions">${l.map(([t,h],i)=>`<a class="btn ${i===0?"primary":""}" href="${esc(h)}" ${/^https?:/.test(h)?'target="_blank" rel="noopener"':""} data-reg="${o.id}">${t}</a>`).join("")}</div>`;
 }
 
 /* ---------- organiser profile ---------- */
-function openOrg(key){
+
+/* ---------- clubs & places vs posts (like Google Maps + Eventbrite) ---------- */
+// A club or an always-open place (museum, park, kayaking provider…) is a listing: it lives in Search
+// and on its organiser's page. Discover shows posts: matches, events, openings, a season starting.
+const isListing=o=>!!(o.club||o.visit)&&!(o.season&&o.seasonOpen);
+const mapsUrl=(name,place)=>"https://www.google.com/maps/search/?api=1&query="+encodeURIComponent([name,(place||"").split(" (")[0],"Lebanon"].filter(Boolean).join(", "));
+// "When it happens" (Discover filter): the event's dates overlap the chosen window.
+const HAPPENS={today:"Today",tomorrow:"Tomorrow",weekend:"This weekend",week:"Next 7 days"};
+function happensIn(o,w){
+  if(!o.eventDate)return false;
+  const s=new Date(o.eventDate),e=o.eventEnd?new Date(o.eventEnd):new Date(s.getTime()+DAY-1),d0=new Date();d0.setHours(0,0,0,0);
+  let a=d0,b;
+  if(w==="today")b=new Date(d0.getTime()+DAY);
+  else if(w==="tomorrow"){a=new Date(d0.getTime()+DAY);b=new Date(d0.getTime()+2*DAY)}
+  else if(w==="weekend"){const dow=d0.getDay(),toSat=(6-dow+7)%7;a=new Date(d0.getTime()+(dow===0?-1:toSat)*DAY);b=new Date(a.getTime()+2*DAY)}
+  else b=new Date(d0.getTime()+7*DAY);
+  return s<b&&e>=a;
+}
+
+/* ---------- search: Clubs & places (like Maps) and Posts ---------- */
+let searchMode="all",placeTopic="";
+function listingMatches(o,q){
+  if(!q)return true;
+  const hay=[o.title,o.org,o.place,o.meet||"",o.sport||"",...[...topicsOf(o)].map(k=>(TOPICS.find(t=>t[0]===k)||[,k])[1])].join(" ").toLowerCase();
+  return q.split(/\s+/).filter(w=>w&&!/^(clubs?|places?|in|the|and|a)$/.test(w)).every(w=>hay.includes(w.replace(/s$/,"")));
+}
+function renderSearch(){
+  const v=$("#v-search");
+  if(!v.dataset.built){
+    v.innerHTML=`<h1 class="h1">Search</h1><p class="sub">Find clubs, places and organisers, or search posts.</p>
+    <input id="q" class="search" type="search" placeholder="Try “football”, “diving Batroun”, “museum”, “LAU”…" aria-label="Search clubs, places and posts">
+    <div class="seg" id="smode"></div><div class="filters" id="cf"></div><div id="sl"></div>
+    <button class="btn" data-dir="1" style="margin:14px 0">👥 Browse all organisers (universities, companies, clubs)</button>`;
+    v.dataset.built=1;
+    $("#q").addEventListener("input",e=>{searchQ=e.target.value.toLowerCase().trim();renderSearch()});
+  }
+  $("#smode").innerHTML=[["all","All"],["places","📍 Clubs & places"],["posts","📰 Posts"]].map(([k,l])=>`<button class="fchip ${searchMode===k?"on":""}" data-smode="${k}">${l}</button>`).join("");
+  const listings=OPPS.filter(isListing);
+  // Category chips (like Maps: "Football clubs", "Beaches", "Museums"…), only those with places.
+  const counts={};for(const o of listings)for(const k of topicsOf(o))counts[k]=(counts[k]||0)+1;
+  const chips=TOPICS.filter(([k])=>counts[k]&&k!=="funded").sort((a,b)=>counts[b[0]]-counts[a[0]]);
+  $("#cf").innerHTML=searchMode==="posts"?"":[["","All"],...chips].map(([k,l])=>`<button class="fchip ${placeTopic===k?"on":""}" data-ptopic="${k}">${l}${k?` · ${counts[k]}`:""}</button>`).join("");
+  const places=listings.filter(o=>(!placeTopic||topicsOf(o).has(placeTopic))&&listingMatches(o,searchQ));
+  const posts=searchMode==="places"?[]:OPPS.filter(o=>!isListing(o)&&!isClosed(o)&&!seasonHidden(o)).filter(o=>!placeTopic||topicsOf(o).has(placeTopic)).filter(o=>!searchQ||listingMatches(o,searchQ)||[o.title,o.org,o.place,o.feeText,o.prize||""].join(" ").toLowerCase().includes(searchQ));
+  const orgs=searchQ&&searchMode!=="posts"?allOrgs().filter(g=>g.name.toLowerCase().includes(searchQ)).slice(0,5):[];
+  const placeRow=o=>rowHTML(o,`<div class="m">📍 ${escHTML((o.place||"").split(" (")[0])}${o.club&&o.when?" · "+escHTML(o.when.slice(0,60)):""}</div>`);
+  const cap=searchMode==="all"?8:400;
+  let h="";
+  if(searchMode!=="posts"){
+    h+=orgs.length?`<div class="group"><h3>${t("Organisers")}</h3><div class="list">${orgs.map(orgRow).join("")}</div></div>`:"";
+    h+=`<div class="group"><h3>${t("Clubs & places")} · ${places.length}</h3><div class="list">${places.slice(0,cap).map(placeRow).join("")||`<div class="empty">${t("No club or place matches. Try another word.")}</div>`}</div>${searchMode==="all"&&places.length>cap?`<button class="btn" data-smode="places">${t("See all")} ${places.length}</button>`:""}</div>`;
+  }
+  if(searchMode!=="places"){
+    h+=`<div class="group"><h3>${t("Posts")} · ${posts.length}</h3><div class="list">${posts.slice(0,searchMode==="all"?20:300).map(o=>rowHTML(o)).join("")||`<div class="empty">${t("No open posts match. Try a broader word.")}</div>`}</div>${searchMode==="all"&&posts.length>20?`<button class="btn" data-smode="posts">${t("See all")} ${posts.length}</button>`:""}</div>`;
+  }
+  $("#sl").innerHTML=h;
+}
+
+/* ---------- organiser / place page (like a Maps place page) ---------- */
+let orgTab="posts";
+function openOrg(key,tab){
+  orgTab=tab||"posts";
   const g=allOrgs().find(e=>e.key===key),d=g&&g.dir;
-  const all=OPPS.filter(o=>orgKey(o)===key||(d&&dirRe(d).test(o.org))),items=all.filter(o=>!isClosed(o));
+  const all=OPPS.filter(o=>orgKey(o)===key||(d&&dirRe(d).test(o.org)));
   const o0=all.find(o=>o.logo)||all[0];if(!o0&&!g)return;
+  const listing=all.filter(isListing),posts=all.filter(o=>!isListing(o)&&!seasonHidden(o));
+  const when=o=>new Date(o.eventDate||o.deadline||o.added||0).getTime();
+  const upcoming=posts.filter(o=>!isClosed(o)).sort((a,b)=>(daysLeft(a)??9999)-(daysLeft(b)??9999)),past=posts.filter(isClosed).sort((a,b)=>when(b)-when(a));
   const f=S.follow.includes(key);let site=g&&g.website||"";if(!site&&o0)try{site=new URL(o0.url).origin}catch(e){}
-  const logo=(g&&g.logo)||(o0&&o0.logo),name=g?g.name:orgName(o0);
+  const logo=(g&&g.logo)||(o0&&o0.logo),name=g?g.name:orgName(o0),base=listing[0]||o0;
+  const place=base?(base.place||"").split(" (")[0]:"";
+  const seen=new Set(),acts=[...(base&&whereOf(base)==="lebanon"?[["📍 Directions",mapsUrl(name,place)]]:[]),...(base?contactLinks(base).filter(([l])=>!/^🔗/.test(l)):[]),...(site?[["🌐 Website",site]]:[])].filter(([l])=>!seen.has(l)&&seen.add(l));
+  const photos=[...new Set(all.flatMap(o=>[o.image,...(o.gallery||[])]).filter(Boolean))].slice(0,30);
+  const tabs=[["posts",`${t("Posts")} · ${upcoming.length+past.length}`],["about",t("About")],["photos",`${t("Photos")} · ${photos.length}`]];
+  let body="";
+  if(orgTab==="posts")body=(upcoming.length?`<div class="lbl">${t("Upcoming")}</div><div class="list">${upcoming.map(o=>rowHTML(o)).join("")}</div>`:"")+(past.length?`<div class="lbl" style="margin-top:12px">${t("Past")}</div><div class="list">${past.slice(0,30).map(o=>rowHTML(o)).join("")}</div>`:"")+(!upcoming.length&&!past.length?`<div class="empty">${t("No posts yet. Follow to see their next match, event or opening.")}</div>`:"");
+  else if(orgTab==="about")body=listing.length?`<div class="list">${listing.map(o=>rowHTML(o,`<div class="m">📍 ${escHTML((o.place||"").split(" (")[0])}</div>`)).join("")}</div><p class="note">${t("Tap for training days, fees, season, hours and contacts.")}</p>`:`<p class="note">${GROUPS[g?g.group:"company"]||""}${place?" · 📍 "+escHTML(place):""}</p>`;
+  else body=photos.length?`<div class="mediagrid">${photos.map(p=>`<div><img src="${esc(p)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></div>`).join("")}</div>`:`<div class="empty">${t("No photos yet.")}</div>`;
   showSheet(`<div class="grip"></div>
-   <div class="orghead">${logo?`<img class="biglogo" src="${esc(logo)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:`<div class="biglogo ph">${name.slice(0,1)}</div>`}<div><h2 class="nt">${name}</h2><div class="org">${GROUPS[g?g.group:"company"]||""} · ${items.length} open ${items.length===1?"opportunity":"opportunities"} on Darb</div></div></div>
-   <div class="btnrow"><button class="btn ${f?"":"primary"}" data-follow="${esc(key)}">${f?"Following ✓":"+ Follow"}</button>${site?`<a class="btn" href="${esc(site)}" target="_blank" rel="noopener">Website ↗</a>`:""}</div>
-   <div class="list" style="margin-top:14px">${items.map(o=>rowHTML(o)).join("")||'<div class="empty">Nothing open right now. Follow to see their next one.</div>'}</div>`);
+   <div class="orghead">${logo?`<img class="biglogo" src="${esc(logo)}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">`:`<div class="biglogo ph">${name.slice(0,1)}</div>`}<div><h2 class="nt">${name}</h2><div class="org">${GROUPS[g?g.group:"company"]||""}${place?" · 📍 "+escHTML(place):""}</div></div></div>
+   <div class="btnrow"><button class="btn ${f?"":"primary"}" data-follow="${esc(key)}">${f?"Following ✓":"+ Follow"}</button><button class="btn" data-shareorg="${esc(key)}">Share</button></div>
+   ${acts.length?`<div class="actions" style="margin-top:8px">${acts.map(([l,h])=>`<a class="btn" href="${esc(h)}" ${/^https?:/.test(h)?'target="_blank" rel="noopener"':""}>${l}</a>`).join("")}</div>`:""}
+   <div class="seg" style="margin-top:14px">${tabs.map(([k,l])=>`<button class="fchip ${orgTab===k?"on":""}" data-orgtab="${k}" data-orgkey="${esc(key)}">${l}</button>`).join("")}</div>
+   ${body}`);
 }
 
 /* ---------- organisers directory: browse, search and follow anyone ---------- */
@@ -1071,6 +1148,7 @@ function openFilters(){
     // Where it happens: one tap on the main page; "Change" opens the full list with Lebanese regions.
     const wq=(v,l)=>`<button class="fchip ${v==="all"?(!f.where.length&&!f.region?"on":""):(f.where.includes(v)&&!f.region?"on":"")}" data-floc="${v==="all"?"all":"w:"+v}">${l}</button>`;
     body=head("Filters")+row("type","Type",sum.type)+
+      `<div class="frow static"><span><b>When it happens</b></span><div class="ichips">${Object.entries(HAPPENS).map(([k,l])=>`<button class="fchip ${f.happens===k?"on":""}" data-fhap="${k}">${l}</button>`).join("")}</div></div>`+
       row("category","Category",sum.category)+
       `<div class="frow static"><span style="flex-direction:row;justify-content:space-between;align-items:center"><b>Where</b><button class="flink" data-fpage="location" style="margin:0">Regions in Lebanon ›</button></span><div class="ichips">${wq("all","Anywhere")}${wq("lebanon","🇱🇧 In Lebanon")}${wq("online","💻 Online")}${wq("abroad","✈️ Outside Lebanon")}</div>${f.region?`<small>Region: ${REGIONS.find(r=>r[0]===f.region)[1]}</small>`:""}</div>`+
       `<div class="frow static"><span><b>Fee (USD)</b></span><div class="minmax"><input id="f-min" class="inp" type="number" inputmode="numeric" min="0" placeholder="Min" value="${f.feeMin}"><input id="f-max" class="inp" type="number" inputmode="numeric" min="0" placeholder="Max" value="${f.fee==="any"?"":f.fee}"></div></div>`+
@@ -1090,22 +1168,6 @@ async function shareOpp(o){
 function rowHTML(o,extra=""){
   const d=daysLeft(o),soon=d!==null&&d>=0&&d<=10;
   return`<button class="row" data-open="${o.id}"><div class="thumb" style="background:${CAT_COLOR[o.cat][0]}">${picture(o).html}</div><div style="min-width:0"><div class="t nt">${o.title}${o.sample?" · sample":""}</div><div class="m">${o.catLabel||CATS[o.cat]} · ${o.place.split(" (")[0]} · ${o.feeText}</div>${extra}</div><div class="dl ${soon?"soon":""}">${dlLabel(o)}</div></button>`;
-}
-function renderSearch(){
-  const v=$("#v-search");
-  if(!v.dataset.built){
-    v.innerHTML=`<h1 class="h1">Search</h1><p class="sub">Compare opportunities side by side. Closed ones are removed automatically.</p>
-    <button class="btn" data-dir="1" style="margin-bottom:12px">👥 Browse all organisers (universities, companies, clubs)</button>
-    <input id="q" class="search" type="search" placeholder="Try “funded”, “Beirut”, “LAU”, “chess”…" aria-label="Search opportunities and organisers">
-    <div class="filters" id="cf"></div><div class="list" id="sl"></div>`;
-    v.dataset.built=1;
-    $("#q").addEventListener("input",e=>{searchQ=e.target.value.toLowerCase();renderSearch()});
-  }
-  $("#cf").innerHTML=[["all","All"],...Object.entries(CATS)].map(([k,l])=>`<button class="fchip ${searchCat===k?"on":""}" data-cat="${k}">${l}</button>`).join("");
-  const list=OPPS.filter(o=>!isClosed(o)).filter(o=>searchCat==="all"||o.cat===searchCat).filter(o=>!searchQ||[o.title,o.org,o.place,o.feeText,CATS[o.cat],o.funded==="full"?"funded":"",o.prize||""].join(" ").toLowerCase().includes(searchQ));
-  const orgs=searchQ?topOrgs(999).filter(g=>g.name.toLowerCase().includes(searchQ)).slice(0,5):[];
-  $("#sl").innerHTML=(orgs.length?`<div class="group" style="margin-top:4px"><h3>Organisers</h3><div class="list">${orgs.map(orgRow).join("")}</div></div><div class="group"><h3>Opportunities</h3></div>`:"")+
-    (list.length?list.map(o=>rowHTML(o)).join(""):`<div class="empty">No open opportunities match. Try a broader word.</div>`);
 }
 
 /* ---------- saved / deadlines ---------- */
@@ -1674,6 +1736,11 @@ document.addEventListener("click",e=>{
   if(b.dataset.sendlink)return sendLink();
   if(b.dataset.verify)return verifyCode();
   if(b.dataset.lang){if(b.dataset.lang!==LANG)setLang(b.dataset.lang);return}
+  if(b.dataset.fhap){S.filters.happens=S.filters.happens===b.dataset.fhap?"":b.dataset.fhap;persist();return openFilters()}
+  if(b.dataset.smode){searchMode=b.dataset.smode;return renderSearch()}
+  if(b.dataset.ptopic!==undefined){placeTopic=placeTopic===b.dataset.ptopic?"":b.dataset.ptopic;return renderSearch()}
+  if(b.dataset.orgtab){return openOrg(b.dataset.orgkey,b.dataset.orgtab)}
+  if(b.dataset.shareorg){const g=allOrgs().find(e=>e.key===b.dataset.shareorg);const txt=(g?g.name:"")+" on Darb";try{if(navigator.share){navigator.share({title:txt,text:txt,url:location.origin+location.pathname});return}}catch(e){}copy(txt+": "+location.origin+location.pathname);return}
   if(b.dataset.metab){meTab=b.dataset.metab;return renderProfile()}
   if(b.dataset.addmode){if(addMode==="post"&&$("[data-pf]"))draft=readForm();addMode=b.dataset.addmode;return renderAdd()}
   if(b.dataset.pwhere){draft=readForm();draft.where=b.dataset.pwhere;return renderAdd()}
