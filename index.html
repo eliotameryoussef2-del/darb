@@ -570,7 +570,7 @@ function topicsOf(o){
   const tg=o.tags||[];
   if(tg.includes("attraction")||tg.includes("waterpark")||/\b(water ?park|aqua ?park|theme park|amusement park|luna park|fun ?fair|zoo)\b/i.test(o.title))t.add("parks");
   if(tg.includes("pool")||/\bswimming pool\b/i.test(o.title))t.add("pools");
-  if(tg.includes("food")||/\b(grand opening|inauguration|opening night|live music|dj night|dj set|karaoke night|live band)\b/i.test(o.title))t.add("food");
+  if(tg.includes("food")||/\b(grand opening|inauguration|opening night|now open|opens in|soft opening|new opening|new branch|new location|live music|dj night|dj set|karaoke night|live band)\b|^new: /i.test(o.title))t.add("food");
   if((o.tags||[]).includes("church-event")||/\b(church|parish|paroisse|diocese|archdiocese|eparchy|patriarchate|monastery|convent|mosque|waqf|mouvement apostolique|apostolic movement|fursan|fersen|knights of the virgin|jeunesse [ée]tudiante chr[ée]tienne|l[ée]gion de marie|legion of mary|scouts? catholiques|catholic scouts|youth of (the )?church|catechism)\b|\bMAM\b|\bJEC\b|فرسان|الحركة الرسولية/i.test(o.org+" "+o.title)||/\b(saint|st\.?|mar|saydet|sayydet) [a-z]+ (feast|festival|fest|night)|\bfeast of (saint|st|our lady)|\b(saint )?barbara\b|christmas (village|market|fair|bazaar|concert)|\bkermesse\b/i.test(o.title))t.add("religious");
   if(o.club)t.add("clubs");
   if(o.movie||o.show)t.add("movies");
