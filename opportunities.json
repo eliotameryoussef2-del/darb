@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T16:17:07.254Z",
+ "updated": "2026-10-25T16:17:58.512Z",
  "count": 2911,
  "opportunities": [
   {
@@ -358,7 +358,7 @@
    "verified": "2026-10-22",
    "source": "bulk-hackathons",
    "added": "2026-10-22",
-   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/618/083/datas/large.png",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -423,14 +423,7 @@
    "image": "https://ieeextreme.org/wp-content/uploads/2026/09/xtreme-logo_4.png",
    "logo": "https://ieeextreme.org/wp-content/uploads/2018/03/cropped-Xtreme12_color-192x192.png",
    "imageChecked": "2026-10-22",
-   "gallery": [
-    "https://ieeextreme.org/wp-content/uploads/2020/03/ab-bg.png",
-    "https://ieeextreme.org/wp-content/uploads/2020/03/about-ieeextreme-1.png",
-    "https://ieeextreme.org/wp-content/uploads/2020/03/first-place.png",
-    "https://ieeextreme.org/wp-content/uploads/2020/03/second-place.png",
-    "https://ieeextreme.org/wp-content/uploads/2020/03/third_place.png",
-    "https://ieeextreme.org/wp-content/uploads/2020/03/4th-10th-place.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -1478,9 +1471,7 @@
    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/376/754/datas/large.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/005/376/756/datas/full_width.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -1919,8 +1910,7 @@
     "https://images.ctfassets.net/vmb6iqn8sgcm/6MgfVanIarG7uhV5d7oaa6/16a1d9be685a389380624b9b43fec076/DSC_6086.jpeg?h=700",
     "https://images.ctfassets.net/vmb6iqn8sgcm/709U6msHRCIHXieqiN0bPc/0c6feae120515ccee9967851b04512c2/ESSEC-Cergy-Campus-GBBA.jpg?w=460",
     "https://images.ctfassets.net/vmb6iqn8sgcm/3Rcxxr5r3ZqyrbQ2onigdE/b5989bad50729b812ee9fef615f071bb/ESSEC-Singapore-Campus-GBBA.jpg?w=460",
-    "https://images.ctfassets.net/vmb6iqn8sgcm/4WBQZ71RdmEglWQSxsy46a/1a13e4f23951062cbf0965282236c259/ESSEC-Africa-Campus-GBBA.jpg?w=460",
-    "https://images.ctfassets.net/vmb6iqn8sgcm/UOHRdjTKRxzJHrQ7AnZC7/291c597623271d01f0100c07778242f0/2023-02-24_ESSEC_CNIT_VincentBlocquaux_073__1_.jpg?h=1000"
+    "https://images.ctfassets.net/vmb6iqn8sgcm/4WBQZ71RdmEglWQSxsy46a/1a13e4f23951062cbf0965282236c259/ESSEC-Africa-Campus-GBBA.jpg?w=460"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -3614,8 +3604,7 @@
    "logo": "https://hacktoberfest.com/apple-touch-icon.png",
    "imageChecked": "2026-10-22",
    "gallery": [
-    "https://hacktoberfest.com/og-image-16x9.png",
-    "https://hacktoberfest.com/sponsors/gemma.png"
+    "https://hacktoberfest.com/og-image-16x9.png"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -4647,11 +4636,10 @@
    "url": "https://warwick.ac.uk/fac/cross_fac/iatl/research/present/worldcur/worldcur27/",
    "confidence": "Medium",
    "caveat": "Deadline is very close. Registration fee and Travel Fund amounts are not published on the page.",
-   "image": "https://d36jn9qou1tztq.cloudfront.net/static_war/render/images/og_image-lavender.webp.300207447509",
+   "image": "https://warwick.ac.uk/fac/cross_fac/iatl/research/present/worldcur/worldcur27/worldcur-2027-invitation-with-deadline-283.jpg?maxWidth=2048",
    "logo": "https://d36jn9qou1tztq.cloudfront.net/static_war/render/id7/images/apple-touch-icon-180x180.png.265479534550",
    "imageChecked": "2026-10-22",
    "gallery": [
-    "https://warwick.ac.uk/fac/cross_fac/iatl/research/present/worldcur/worldcur27/worldcur-2027-invitation-with-deadline-283.jpg?maxWidth=2048",
     "https://warwick.ac.uk/fac/cross_fac/iatl/research/present/worldcur/worldcur27/cultural-500-x-300.jpg?maxWidth=2048"
    ],
    "galleryChecked": "2026-10-24"
@@ -4798,12 +4786,10 @@
    "verified": "2026-10-22",
    "source": "bulk-hackathons",
    "added": "2026-10-22",
-   "image": "https://zindi-public-release.s3.eu-west-2.amazonaws.com/uploads/competition/image/716/thumb_5fa0307b-154a-44e5-bc0d-6f814f1c0cd8.png",
+   "image": null,
    "logo": "https://zindi-app.lon1.digitaloceanspaces.com/static-site/production/apple-touch-icon.png",
    "imageChecked": "2026-10-22",
-   "gallery": [
-    "https://zindi-public-release.s3.eu-west-2.amazonaws.com/uploads/image_attachment/image/3358/295feebd-d46b-4c34-9d23-30462ce2dd94.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -4861,7 +4847,7 @@
    "verified": "2026-10-22",
    "source": "bulk-hackathons",
    "added": "2026-10-22",
-   "image": "https://zindi-public-release.s3.eu-west-2.amazonaws.com/uploads/competition/image/756/thumb_4d0a4503-03fa-422e-9847-d3fab42146c3%282%29.png",
+   "image": null,
    "logo": "https://zindi-app.lon1.digitaloceanspaces.com/static-site/production/apple-touch-icon.png",
    "imageChecked": "2026-10-22",
    "gallery": [],
@@ -5004,7 +4990,6 @@
    "logo": "https://wfuna.org/wp-content/uploads/2023/02/cropped-favicon-192x192.webp",
    "imageChecked": "2026-10-22",
    "gallery": [
-    "https://wfuna.org/wp-content/uploads/2023/05/wimun-1.webp",
     "https://wfuna.org/wp-content/uploads/2024/04/WHOBuildings75th.webp",
     "https://wfuna.org/wp-content/uploads/2026/02/fao_headquarters-riccardodeluca2bc81feb819644a2baa742995cf0b152a.webp",
     "https://wfuna.org/wp-content/uploads/2023/04/transparency-featured.webp",
@@ -5275,12 +5260,9 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://expandnorthstar.com/theme26/images/Element_1.png",
-    "https://expandnorthstar.com/theme26/images/WhatsNewIn.png",
     "https://expandnorthstar.com/images/supernova2026img2.jpg",
     "https://expandnorthstar.com/images/supernova2026img3.jpg",
-    "https://expandnorthstar.com/images/supernova2026img4.jpg",
-    "https://expandnorthstar.com/theme26/images/ExpandNorthStar_bg_23.jpg?v=1.2"
+    "https://expandnorthstar.com/images/supernova2026img4.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -5337,9 +5319,7 @@
    "image": "https://biahposter.com/wp-content/uploads/2022/10/seo-2.webp",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://biahposter.com/wp-content/uploads/2026/02/cond51.webp"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -6523,9 +6503,7 @@
    "image": "https://images.squarespace-cdn.com/content/v1/5ad251fc3e2d094aaf183ae2/2e579eb3-b701-4cbf-9291-20485679a8ec/FINAL.png?format=2500w",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://images.squarespace-cdn.com/content/v1/5ad251fc3e2d094aaf183ae2/1715619802823-47YPL76ZZVLNGMZX2KNB/image-asset.jpeg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -6681,7 +6659,6 @@
    "logo": "https://college.harvard.edu/themes/custom/harvard_college/assets/dependencies/favicon/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://college.harvard.edu/sites/default/files/portal/harvard-map_1.webp",
     "https://college.harvard.edu/sites/default/files/styles/page_header_mobile_xsmall/public/2019-05/a017_c007_0105cz.0000438f.0000000.jpg.webp?itok=zDGCXskJ",
     "https://college.harvard.edu/sites/default/files/styles/billboard_image_wide/public/2024-03/linderpix-harvard-21960-web._flipped_0.jpg.webp?h=06ac0d8c&itok=1YFXiCpi",
     "https://college.harvard.edu/sites/default/files/styles/billboard_image_medium/public/2024-03/linderpix-harvard-21960-web._flipped_0.jpg.webp?h=06ac0d8c&itok=47Zc72kp"
@@ -6763,8 +6740,7 @@
    "gallery": [
     "https://admissions.yale.edu/sites/default/files/styles/3_2_2400/public/starterkit/harkness-tower-clock_andrew-hurley.jpg?h=0a8b6f8b&itok=3TUdgKvm",
     "https://admissions.yale.edu/sites/default/files/styles/3_2_2400/public/starterkit/beinecke-library-exterior-close-up.jpg?h=c6980913&itok=cwQ1Pg0g",
-    "https://admissions.yale.edu/sites/default/files/styles/3_2_2400/public/starterkit/yale-university-art-gallery-interior_elizabeth-felicella.jpg?h=9c145b13&itok=jUb7k1EQ",
-    "https://admissions.yale.edu/sites/default/files/2025-09/new_blue_scroll_backdrop.jpg"
+    "https://admissions.yale.edu/sites/default/files/styles/3_2_2400/public/starterkit/yale-university-art-gallery-interior_elizabeth-felicella.jpg?h=9c145b13&itok=jUb7k1EQ"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -6918,10 +6894,8 @@
    "gallery": [
     "https://admissions.dartmouth.edu/sites/admissions.prod/files/styles/400x234_global/public/admissions/images/nodeforhero_398x223_bloggers.jpg?itok=_nmIpSSU&timestamp=1599147764",
     "https://admissions.dartmouth.edu/sites/admissions.prod/files/styles/400x155_global/public/admissions/content/featured-image/hero_1920x1135_darthallsummer.jpg?itok=MKGE46ld&timestamp=1597429366",
-    "https://admissions.dartmouth.edu/sites/admissions.prod/files/styles/400x274_blog/public/admissions/content/blog-post/photos/potomac.jpg?itok=actx4_-S&timestamp=1788159542",
     "https://admissions.dartmouth.edu/sites/admissions.prod/files/styles/400x274_blog/public/admissions/content/blog-post/photos/4_1.png?itok=_zfCIq75&timestamp=1787768170",
-    "https://admissions.dartmouth.edu/sites/admissions.prod/files/styles/400x274_blog/public/admissions/content/blog-post/photos/img_0638.jpeg?itok=pj7eaj1h&timestamp=1785777398",
-    "https://admissions.dartmouth.edu/sites/admissions.prod/files/styles/400x274_blog/public/admissions/content/blog-post/photos/gap_year_title_image.png?itok=UEfkZ05U&timestamp=1784572850"
+    "https://admissions.dartmouth.edu/sites/admissions.prod/files/styles/400x274_blog/public/admissions/content/blog-post/photos/img_0638.jpeg?itok=pj7eaj1h&timestamp=1785777398"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -7984,8 +7958,6 @@
    "imageChecked": "2026-10-24",
    "gallery": [
     "https://www.sciencespo.fr/admissions/en/static/9f71cd5e290a36e36d6616ec7b9fb5f4/10237/Undergraduate_Open_House_Day_Fall_2024_c6a7ebf54d.webp",
-    "https://www.sciencespo.fr/admissions/en/static/76c924e40db4eb25134c0411686e12c1/fad48/sciencespo_2025_admissions_procedure_bachelor_internationale_120_en_86e12426ad.webp",
-    "https://www.sciencespo.fr/admissions/en/static/6d0a85bc982394da8e4b15ff974da431/3d53b/sciencespo_bilan_admissions_couverture_1069_fefb528db7.jpg",
     "https://www.sciencespo.fr/admissions/en/static/bd4816924790b24f181aac7d5a2406c3/978e6/flip_finance_1_485b03f518.jpg",
     "https://www.sciencespo.fr/admissions/en/static/0ed34a8b72d0a574727ad88b4cc63dca/1e618/enquete_jeunes_diplomes_2023_sciencespo_230cac3001.jpg"
    ],
@@ -8051,11 +8023,7 @@
    "imageChecked": "2026-10-23",
    "gallery": [
     "https://www.clipstudio.net/view/promotion/cspcontest49/img/mv_pc.webp",
-    "https://www.clipstudio.net/view/promotion/cspcontest49/img/title_en.webp",
-    "https://www.clipstudio.net/view/promotion/cspcontest_common/img/cash_prize.png",
-    "https://www.clipstudio.net/view/promotion/cspcontest49/img/flame_Grand-Prize_sample_illust.png",
-    "https://www.clipstudio.net/view/promotion/cspcontest_common/img/gold.png",
-    "https://www.clipstudio.net/view/promotion/cspcontest49/img/flame_2nd_place_sample_illust.png"
+    "https://www.clipstudio.net/view/promotion/cspcontest49/img/title_en.webp"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -8208,16 +8176,10 @@
    "source": "bulk-exams",
    "added": "2026-10-24",
    "caveat": "Registration period (8 Jul – 5 Nov 2026) taken from the CFA disability-accommodations page; exact exam days and standard fee are in an interactive tool that could not be read. Beirut test-centre availability not confirmed.",
-   "image": "https://cfainstitute.widen.net/content/4d88c4fa-2751-45a1-a297-bf6480ce9482/web/cfa-program-903273602.jpg?w=568&v=4d88c4fa-2751-45a1-a297-bf6480ce9482&itok=x7y9rICS",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cfainstitute.widen.net/content/fd94b243-8fa3-49da-9c95-5022bd76fdc6/web/cfa-program-961269416.jpg?w=568&v=fd94b243-8fa3-49da-9c95-5022bd76fdc6&itok=nB15tuTy",
-    "https://cfainstitute.widen.net/content/859173df-cf6f-42a4-95f5-05a51a0b1a8d/web/esg-certificate-2150579972.jpg?crop=yes&w=768&h=512&v=859173df-cf6f-42a4-95f5-05a51a0b1a8d",
-    "https://cfainstitute.widen.net/content/28c7e3dc-5083-43d3-bb6b-4c51b4084bd8/web/private-markets-1477043851.jpg?crop=yes&w=768&h=512&v=28c7e3dc-5083-43d3-bb6b-4c51b4084bd8",
-    "https://cfainstitute.widen.net/content/f339486a-586b-4aba-bfd3-c23ffc30e0f2/web/investment-foundations-1282499990.jpg?crop=yes&w=768&h=512&v=f339486a-586b-4aba-bfd3-c23ffc30e0f2",
-    "https://cfainstitute.widen.net/content/9572970e-2311-4ba6-a3e0-0e7460224109/web/climate-risk-1182299361.jpg?crop=yes&w=768&h=512&v=9572970e-2311-4ba6-a3e0-0e7460224109"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -8430,9 +8392,6 @@
    "imageChecked": "2026-10-24",
    "gallery": [
     "https://images.thesaurus.ie.edu/c/cover/q/95/w/2000/h/1034/p/center/f/jpeg/transfer-students-header",
-    "https://images.thesaurus.ie.edu/c/cover/q/75/w/2000/h/1297/p/center/f/jpeg/04-gmba-admissions-fees-01-e82c49c5-8329-4841-bcdc-8d79a39da811",
-    "https://images.thesaurus.ie.edu/c/cover/q/75/w/2000/h/1297/p/center/f/jpeg/04-gmba-admissions-fees-04-d51ca719-bdb7-49e9-bf83-97fc18051e18",
-    "https://images.thesaurus.ie.edu/c/cover/q/75/w/2000/h/1297/p/center/f/jpeg/170a7203-720x480-49d05728-3269-4892-9c19-9eec9cbdd483-8da15b62-256d-4c0d-a041-1f323ae70fa0",
     "https://images.thesaurus.ie.edu/c/cover/q/95/w/2400/h/648/p/center/f/jpeg/footer1-e9ecc949-a9cb-4df2-b449-f90311aa7d4b",
     "https://images.thesaurus.ie.edu/c/cover/q/95/w/1080/h/1215/p/center/f/jpeg/footer1-e9ecc949-a9cb-4df2-b449-f90311aa7d4b"
    ],
@@ -9165,7 +9124,7 @@
    "verified": "2026-10-23",
    "added": "2026-10-23",
    "source": "bulk-arts",
-   "image": "https://images.squarespace-cdn.com/content/v1/591373983a041126bc4478a6/1512656904541-ZUGY2VOATURWQ2ECPJS1/GBP_CircleWhite.png?format=1500w",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -10339,11 +10298,10 @@
    "verified": "2026-10-22",
    "added": "2026-10-22",
    "source": "bulk-business",
-   "image": "https://www.ama.org/wp-content/uploads/2026/03/cignagroup_logo_color_pos_rgb.png?w=454",
+   "image": "https://www.ama.org/wp-content/uploads/2025/08/AMA-ICC-2025-Mark-Campbell-Productions-927.jpg?fit=4000%2C2668&resize=4000%2C2668",
    "logo": "https://www.ama.org/wp-content/uploads/2019/04/cropped-android-chrome-256x256.png?fit=192%2C192",
    "imageChecked": "2026-10-22",
    "gallery": [
-    "https://www.ama.org/wp-content/uploads/2025/08/AMA-ICC-2025-Mark-Campbell-Productions-927.jpg?fit=4000%2C2668&resize=4000%2C2668",
     "https://www.ama.org/wp-content/uploads/2024/05/AMA-ICC-2024-Mark-Campbell-Productions-170.jpg?resize=1024%2C731",
     "https://www.ama.org/wp-content/uploads/2024/05/AMA-ICC-2024-Mark-Campbell-Productions-157.jpg?resize=1024%2C683",
     "https://www.ama.org/wp-content/uploads/2024/05/AMA-ICC-2024-Mark-Campbell-Productions-161.jpg?resize=1024%2C683",
@@ -11013,8 +10971,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2F9f2c190669ce4a64b624f4abe59f315e",
-    "https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2Fc2121674ed064502b1d395776b87dd10"
+    "https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2F9f2c190669ce4a64b624f4abe59f315e"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -11204,7 +11161,7 @@
    "contact": [],
    "url": "https://www.worldcubeassociation.org/competitions/MoroccoChampionship2026",
    "caveat": "Abroad (Morocco); check visa rules for Lebanese passport holders. Fee read from the WCA competition data; confirm on the page.",
-   "image": "https://www.worldcubeassociation.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjE3MDE3LCJwdXIiOiJibG9iX2lkIn19--05703b0d834db42c2a9718e6194e3d38c04258ed/entry%20comp.JPG",
+   "image": null,
    "logo": "https://assets.worldcubeassociation.org/assets/8f2142c/assets/apple-touch-icon-d4b911d7e66b43d564710f36fd5a906ecd030a900cc2bbdeba0b988b7ba2f8d7.png",
    "imageChecked": "2026-10-23",
    "gallery": [],
@@ -11953,11 +11910,10 @@
    "verified": "2026-10-22",
    "added": "2026-10-22",
    "source": "bulk-business",
-   "image": "https://forwardfooding.com/wp-content/uploads/2025/09/sponsor-2024.png",
+   "image": "https://forwardfooding.com/wp-content/uploads/2025/10/Merav-Koren.jpeg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://forwardfooding.com/wp-content/uploads/2025/10/Merav-Koren.jpeg",
     "https://forwardfooding.com/wp-content/uploads/2025/09/Schermata-2020-06-04-alle-18.31.03.png",
     "https://forwardfooding.com/wp-content/uploads/2025/09/Max-Loessl-Portrait.jpg",
     "https://forwardfooding.com/wp-content/uploads/2025/09/marc-oshima.jpeg",
@@ -12210,11 +12166,10 @@
    "verified": "2026-10-22",
    "source": "bulk-scholarships",
    "added": "2026-10-22",
-   "image": "https://www.epfl.ch/schools/sv/wp-content/uploads/2019/01/SRP_SV.jpg",
+   "image": "https://www.epfl.ch/schools/sv/wp-content/uploads/2024/12/SRP-Thumbnail_V1.jpg",
    "logo": "https://www.epfl.ch/schools/sv/wp-content/themes/wp-theme-2018/assets/favicons/android-chrome-512x512.png",
    "imageChecked": "2026-10-22",
    "gallery": [
-    "https://www.epfl.ch/schools/sv/wp-content/uploads/2024/12/SRP-Thumbnail_V1.jpg",
     "https://www.epfl.ch/schools/sv/wp-content/uploads/2026/10/EPFL-vue-aerienne-Jamani-Caillet-1920x1080-1.jpg"
    ],
    "galleryChecked": "2026-10-24"
@@ -12376,12 +12331,10 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://svcs-image.dreamapply.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJkcmVhbS1hcHBseSIsImF1ZCI6ImRyZWFtLWltYWdlIiwicGxkIjp7InBhdGgiOiJkcmVhbS1hcHBseTpzaGFyZDkzMC9jb3Vyc2VfcGhvdG9zLzE1LnBvN2s0cSIsInRyYW5zZm9ybWF0aW9ucyI6W3sibmFtZSI6ImxpbWl0IiwicGFyYW1zIjp7IndpZHRoIjoiMTIwMCIsInF1YWxpdHkiOiI2OSJ9fV0sImNhY2hlIjoibWF4LWFnZT0zMTUzNjAwMCwgcHVibGljIiwib3V0cHV0X2Zvcm1hdCI6InNhbWUiLCJhdHRhY2giOm51bGwsInNka192ZXJzaW9uIjoiMS4wIn19.TcM-uSqKgsOV9vk46Ok6JiGRHpctTRqUtagyU4R7EP0XxERqgDnHm4AbQf6PAXwqHcun1FAj9T2OGnOoCDTwGexjl3yU6TUFg1uGavosoQM4BNN4XngpGiMVXcCD4kkYhJv7MEsPzSdoe0qF-7dtaYS11aAp-B6pik5NICa0bzmkVo7CLh_gZf_3VyyJQko1AeEAwP9TclPj0YrftDzn6JTq6GTLiXGbWJh33xkPXJStVfhPEKElxpQjzUpsKeUq8UHnnY6R4oWpgAtmi6UaPfT5Yq5tiID2DXU47vH6IsDrzepADGRO6OtWW5BP5Sf8v_INqBdGgIBoxKLGjbdDDg",
+   "image": null,
    "logo": "https://apply.unipd.it/public/icons/apple-touch-icon-precomposed.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://svcs-image.dreamapply.com/eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJkcmVhbS1hcHBseSIsImF1ZCI6ImRyZWFtLWltYWdlIiwicGxkIjp7InBhdGgiOiJkcmVhbS1hcHBseTpzaGFyZDkzMC9jb3Vyc2VfcGhvdG9zLzE1LnBvN2s0cSIsInRyYW5zZm9ybWF0aW9ucyI6W3sibmFtZSI6ImxpbWl0IiwicGFyYW1zIjp7IndpZHRoIjoiMjA0OCIsInF1YWxpdHkiOiI4MCJ9fV0sImNhY2hlIjoibWF4LWFnZT0zMTUzNjAwMCwgcHVibGljIiwib3V0cHV0X2Zvcm1hdCI6InNhbWUiLCJhdHRhY2giOm51bGwsInNka192ZXJzaW9uIjoiMS4wIn19.V-GWXfCN5m7ashsOVcrDS4OTL-AyZwRJBpPKviAINSc663EIoeUOtWypKcPBXtcO6-fyIGnsOC65UczQAQGNmxgvrqGHX83YyoYFALQzt6PzNd8EuXotEOxeh9oLBcGws-XbjTQ6xp2snpdW3Tl5xhS-slAQbHazWf8RV-ChsPiFlxvumXfeiha9faD8z-DtaBF6Q6_EbvsuUhCwDWrzWPk_xYPRHENIgYTmCM22LUPj7dxEf1GstS5V7hjb4VpwlEIRdCcjrfyLpYUl14Jjf10jC_kvnZgf30myCUbFzMmU1iLmj6wO1pE1wO5cbbVW2GLZaNFl3rnSTHG_6PPQJA"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -12629,10 +12582,7 @@
    "image": "https://www.bowdoin.edu/images/bowdoin-college-brunswick-maine.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.bowdoin.edu/admissions/apply/international-students/international-countries.png",
-    "https://www.bowdoin.edu/admissions/apply/international-students/map.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -13311,9 +13261,7 @@
    "logo": "https://assets.worldcubeassociation.org/assets/8f2142c/assets/apple-touch-icon-d4b911d7e66b43d564710f36fd5a906ecd030a900cc2bbdeba0b988b7ba2f8d7.png",
    "imageChecked": "2026-10-23",
    "gallery": [
-    "https://www.worldcubeassociation.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjI2MzA5LCJwdXIiOiJibG9iX2lkIn19--2d901a8fd219fe09c1f0986984d2334b853468cd/1000047867.jpg",
-    "https://www.worldcubeassociation.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjI2MzEwLCJwdXIiOiJibG9iX2lkIn19--8c7a974cc67f3636b3dbe8d7d80bb78a5e33d6b5/1000047868.png",
-    "https://www.worldcubeassociation.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjI2MzEyLCJwdXIiOiJibG9iX2lkIn19--4d6879df3120a705dc25f7789232225e9dcc4ac1/1000047869.png"
+    "https://www.worldcubeassociation.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MjI2MzEwLCJwdXIiOiJibG9iX2lkIn19--8c7a974cc67f3636b3dbe8d7d80bb78a5e33d6b5/1000047868.png"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -13371,7 +13319,7 @@
    "verified": "2026-10-22",
    "source": "bulk-hackathons",
    "added": "2026-10-22",
-   "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/618/250/datas/large.png",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -13501,9 +13449,7 @@
    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/374/843/datas/large.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/005/375/002/datas/full_width.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -14182,7 +14128,7 @@
    "verified": "2026-10-22",
    "source": "bulk-lebanon",
    "added": "2026-10-22",
-   "image": "https://ashkalalwan.org/uploads/1792496205-PHOTO-2026-10-20-14-37-14.jpg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -14951,11 +14897,7 @@
    "image": "https://www.internetsociety.org/wp-content/uploads/2025/04/woman-on-ladder-250x175.jpg",
    "logo": "https://www.internetsociety.org/wp-content/themes/isoc/dist/images/favicon/android-icon-192x192.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.internetsociety.org/wp-content/uploads/2026/09/Asset-3@3x.png",
-    "https://www.internetsociety.org/wp-content/uploads/2026/09/Asset-2@3x.png",
-    "https://www.internetsociety.org/wp-content/uploads/2026/09/Asset-4.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -15802,7 +15744,7 @@
    "verified": "2026-10-22",
    "source": "bulk-conferences",
    "added": "2026-10-22",
-   "image": "https://images.squarespace-cdn.com/content/v1/5ae79b0d3c3a535560ce1849/1601679743651-LQGDC1U7LLQOH4MQZG3U/image+%283%29.png?format=1500w",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -16812,9 +16754,6 @@
    "logo": "https://berytech.org/wp-content/uploads/2020/04/Berytech-favicon.svg",
    "imageChecked": "2026-10-22",
    "gallery": [
-    "https://berytech.org/wp-content/uploads/2023/02/Investment-training-in-Lebanon.png",
-    "https://berytech.org/wp-content/uploads/2023/02/Startup-Lebanon-scaled.jpg",
-    "https://berytech.org/wp-content/uploads/2024/10/UPaint.png",
     "https://berytech.org/wp-content/uploads/2016/05/Lara-El-Khoury.png",
     "https://berytech.org/wp-content/uploads/2024/09/Iyad-Mouawad-1.png",
     "https://berytech.org/wp-content/uploads/2024/02/Theresa-El-Maalouf-01.png"
@@ -17265,10 +17204,7 @@
    "logo": "https://hello-tomorrow.org/wp-content/uploads/2022/05/cropped-HT_Website_Favicon-512x512px-192x192.png",
    "imageChecked": "2026-10-22",
    "gallery": [
-    "https://hello-tomorrow.org/wp-content/uploads/2026/09/1-640x640.png",
-    "https://hello-tomorrow.org/wp-content/uploads/2026/09/Challenge-12th-edition-tracks-Challenge-page.png",
-    "https://hello-tomorrow.org/wp-content/uploads/2025/08/11thChallenge_Aerospace.png",
-    "https://hello-tomorrow.org/wp-content/uploads/2025/01/GTT-Strategic-Ventures.png"
+    "https://hello-tomorrow.org/wp-content/uploads/2026/09/1-640x640.png"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -17427,11 +17363,10 @@
    "verified": "2026-10-22",
    "added": "2026-10-22",
    "source": "bulk-business",
-   "image": "https://ubcworldwide.com/wp-content/uploads/2022/03/Capfinity-logo.jpg",
+   "image": "https://ubcworldwide.com/wp-content/uploads/2025/04/UBC-GM-2026-leaflet-THUMBNAIL.jpg",
    "logo": "https://ubcworldwide.com/wp-content/uploads/2022/04/cropped-ubcww-logo2-192x192.jpg",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://ubcworldwide.com/wp-content/uploads/2025/04/UBC-GM-2026-leaflet-THUMBNAIL.jpg",
     "https://ubcworldwide.com/wp-content/uploads/2025/04/UBC-GM-2026-poster-THUMBNAIL.jpg"
    ],
    "galleryChecked": "2026-10-24"
@@ -18338,12 +18273,10 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://t.e7096c671.entry.domains/lWGCgfKXr8PlHzUExuYPXXRV_54=/fit-in/300x300/filters:strip_exif()/https%3A%2F%2Fwww.tudelft.nl%2F_assets%2Ff6b877d73456607fbfa2de3e3c5fd420%2FImages%2FOpenGraph%2FTUDelft.jpg%3Fhash%3D9ac1b46830",
+   "image": null,
    "logo": "https://www.tudelft.nl/_assets/2f383d4a929ad3d42eff11e81cdd4068/img/android-chrome-192x192.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://t.e7096c671.entry.domains/BL-ROcg_zOdwzci-Tnz-Fre2CnU=/3433x467/filters:strip_exif()/https%3A%2F%2Ffilelist.tudelft.nl%2FTUDelft%2FOnderwijs%2FPraktische_zaken%2FScholarships%2FPicture%2520web%2520scholarship.png%3Fhash%3D1d3c60aa00"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -18482,7 +18415,7 @@
    "source": "bulk-exams",
    "added": "2026-10-24",
    "caveat": "LSAC says dates are subject to change. Check Prometric for a test centre in or near Lebanon, or choose remote testing if allowed.",
-   "image": "https://www.lsac.org/document-library/243",
+   "image": null,
    "logo": "https://www.lsac.org/themes/custom/lsac/images/favicons/apple-touch-icon-1024x1024.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -19560,12 +19493,10 @@
    "verified": "2026-10-22",
    "source": "bulk-conferences",
    "added": "2026-10-22",
-   "image": "https://aaai.org/wp-content/uploads/2026/03/AAAI-Logo-Mark-White.png",
+   "image": "https://aaai.org/wp-content/uploads/2026/03/AAAI-27-PalaisDesCongresDeMontreal-2000x1333-1.jpg",
    "logo": "https://aaai.org/wp-content/uploads/2022/12/cropped-white-logo-192x192.png",
    "imageChecked": "2026-10-22",
-   "gallery": [
-    "https://aaai.org/wp-content/uploads/2026/03/AAAI-27-PalaisDesCongresDeMontreal-2000x1333-1.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -19703,12 +19634,10 @@
    "verified": "2026-10-22",
    "source": "bulk-scholarships",
    "added": "2026-10-22",
-   "image": "https://aaai.org/wp-content/uploads/2026/03/AAAI-Logo-Mark-White.png",
+   "image": "https://aaai.org/wp-content/uploads/2026/03/AAAI-27-PalaisDesCongresDeMontreal-2000x1333-1.jpg",
    "logo": "https://aaai.org/wp-content/uploads/2022/12/cropped-white-logo-192x192.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://aaai.org/wp-content/uploads/2026/03/AAAI-27-PalaisDesCongresDeMontreal-2000x1333-1.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -19859,11 +19788,10 @@
    "verified": "2026-10-24",
    "source": "bulk-entertainment",
    "added": "2026-10-24",
-   "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-1109-639270742798180236.png",
+   "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-T-23346-639270743917612780.png",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-T-23346-639270743917612780.png",
     "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-T-23345-639270743416914033.png"
    ],
    "galleryChecked": "2026-10-24"
@@ -20135,7 +20063,7 @@
    "source": "bulk-exams",
    "added": "2026-10-24",
    "caveat": "Time zone of deadlines not stated; test-centre availability in Lebanon not confirmed.",
-   "image": "https://caia.org/app/uploads/2026/06/CAIA-Hero-Graphic_Final.png",
+   "image": null,
    "logo": "https://caia.org/app/uploads/2026/05/cropped-CAIA-Favicon-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -20588,10 +20516,7 @@
    "image": "https://zindi-public-release.s3.eu-west-2.amazonaws.com/uploads/competition/image/768/thumb_fd87d3b5-5766-40b3-acce-85ade99894f2.png",
    "logo": "https://zindi-app.lon1.digitaloceanspaces.com/static-site/production/apple-touch-icon.png",
    "imageChecked": "2026-10-22",
-   "gallery": [
-    "https://zindi-public-release.s3.eu-west-2.amazonaws.com/uploads/draftjs_images/b9a8b356-560e-4a9a-a5e5-25e59f62a6b3/0d1866e6-b3a3-47ac-a0be-824d7a60d777.png",
-    "https://zindi-public-release.s3.eu-west-2.amazonaws.com/uploads/draftjs_images/333a5e35-65c7-4406-b799-0d39df1d2732/198a0caa-233e-4b85-99cf-f101d8e44103.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -21029,11 +20954,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.liban.campusfrance.org/sites/pays/files/liban/styles/mobile_menu_image_1_2_et_3/public/menu/2018-07/Fotolia_111175256_Subscription_Monthly_M_6.jpg?h=b284d102&itok=2W3a96Wu",
-    "https://www.liban.campusfrance.org/sites/pays/files/liban/styles/mobile_menu_image_1_2_et_3/public/menu/2018-07/EXCELLENCE_0.jpg?h=9d96f97f&itok=RJ45_Hs8",
-    "https://www.liban.campusfrance.org/sites/pays/files/liban/styles/mobile_menu_image_1_2_et_3/public/menu/2018-07/Fotolia_84792381_XL_0.jpg?h=62817c32&itok=fj-P-fr0",
-    "https://www.liban.campusfrance.org/sites/pays/files/liban/styles/mobile_menu_image_1_2_et_3/public/menu/2023-06/mars.png?h=90a76ea9&itok=NuwxMTVR",
-    "https://www.liban.campusfrance.org/sites/pays/files/liban/styles/mobile_menu_image_1_2_et_3/public/menu/2024-12/Mardi%20Agro%286%29.png?h=57024e64&itok=m-XUuAPK"
+    "https://www.liban.campusfrance.org/sites/pays/files/liban/styles/mobile_menu_image_1_2_et_3/public/menu/2018-07/EXCELLENCE_0.jpg?h=9d96f97f&itok=RJ45_Hs8"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -21354,9 +21275,7 @@
    "gallery": [
     "https://www.nohanet.org/uploads/masters/287/en/top-blocks/11069337124_396fe4c34f_o.jpg",
     "https://www.nohanet.org/uploads/masters/287/en/top-blocks/IMG_0584.JPG",
-    "https://www.nohanet.org/uploads/masters/287/en/top-blocks/Screenshot%202026-01-07%20at%2013.50.46.png",
-    "https://www.nohanet.org/data/masters/NOHA+%20Learning%20Path.png?t=1493484852",
-    "https://www.nohanet.org/assets/images/eu_co_funded_en.jpg"
+    "https://www.nohanet.org/data/masters/NOHA+%20Learning%20Path.png?t=1493484852"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -22017,10 +21936,7 @@
    "image": "https://balamand.edu.lb/ProspectiveStudents/PublishingImages/FOMApps.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://balamand.edu.lb/Style%20Library/responsive/images/cover_prospective.jpg",
-    "https://balamand.edu.lb/ProspectiveStudents/PublishingImages/Banner/Prospective-Students.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -23405,12 +23321,10 @@
    "source": "bulk-uni-lb",
    "added": "2026-10-24",
    "caveat": "Deadlines given without years; tuition shown is the 2024-25 table.",
-   "image": "https://www.aut.edu/wp-content/uploads/2023/04/Admission.png",
+   "image": null,
    "logo": "https://www.aut.edu/wp-content/uploads/2024/02/cropped-Favicon-192x192.jpg",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.aut.edu/wp-content/uploads/2023/08/Financial-Aid.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -23506,12 +23420,10 @@
    "source": "bulk-uni-lb",
    "added": "2026-10-24",
    "caveat": "Deadlines given without years; tuition shown is the 2024-25 table.",
-   "image": "https://www.aut.edu/wp-content/uploads/2023/04/Admission.png",
+   "image": null,
    "logo": "https://www.aut.edu/wp-content/uploads/2024/02/cropped-Favicon-192x192.jpg",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.aut.edu/wp-content/uploads/2023/08/Financial-Aid.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -23578,11 +23490,10 @@
    "source": "bulk-volunteer",
    "added": "2026-10-24",
    "caveat": "Aimed at international volunteers; Lebanon-based applicants should confirm eligibility. Short-term project volunteers (2 to 6 weeks, workshops) can also send proposals at any time.",
-   "image": "https://www.reliefandreconciliation.org/uploads/1/5/4/5/15455898/screenshot-2017-10-26-21-33-45_orig.png",
+   "image": "https://www.reliefandreconciliation.org/uploads/1/5/4/5/15455898/published/558097411-1142107231447188-3743330692021702680-n.jpg?1782824672",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.reliefandreconciliation.org/uploads/1/5/4/5/15455898/published/558097411-1142107231447188-3743330692021702680-n.jpg?1782824672",
     "https://www.reliefandreconciliation.org/uploads/1/5/4/5/15455898/17-f-vrier-2016sans-titre-43_1.jpg"
    ],
    "galleryChecked": "2026-10-24"
@@ -24556,9 +24467,7 @@
    "imageChecked": "2026-10-22",
    "caveat": "Final-year students cannot get the EMJM scholarship; nationality rules not stated.",
    "gallery": [
-    "https://master-international-law-erasmusmundus.eu/wp-content/uploads/2025/09/United_Nations_Geneva_conference_room.jpg",
-    "https://master-international-law-erasmusmundus.eu/wp-content/uploads/2025/09/eu-c-04-11.jpg",
-    "https://master-international-law-erasmusmundus.eu/wp-content/uploads/2022/05/world-class.jpg"
+    "https://master-international-law-erasmusmundus.eu/wp-content/uploads/2025/09/United_Nations_Geneva_conference_room.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -24761,7 +24670,7 @@
    "verified": "2026-10-22",
    "source": "bulk-scholarships",
    "added": "2026-10-22",
-   "image": "https://www.aalto.fi/sites/default/files/styles/1_91_1200w_630h_n/public/2025-11/cyber_uusi_studies.jpg?h=5cf565ba&itok=x3YAextP",
+   "image": null,
    "logo": "https://www.aalto.fi/sites/default/files/favicons/apple-touch-icon.png",
    "imageChecked": "2026-10-22",
    "gallery": [],
@@ -24996,9 +24905,7 @@
    "image": "https://programmes.polytechnique.edu/themes/custom/x_theme_bulma/images/polytechnique.jpg",
    "logo": "https://programmes.polytechnique.edu/sites/default/files/favicons/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://programmes.polytechnique.edu/sites/default/files/styles/slick_media_wide/public/2019-11/bachelor-header-web.jpg?itok=3wq3sHsH"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -25373,14 +25280,10 @@
    "verified": "2026-10-22",
    "source": "bulk-conferences",
    "added": "2026-10-22",
-   "image": "https://www.mun-belgium.be/wp-content/uploads/2022/04/icon08.png",
+   "image": null,
    "logo": "https://www.mun-belgium.be/wp-content/uploads/2025/02/cropped-belgium-192x192.jpg",
    "imageChecked": "2026-10-22",
-   "gallery": [
-    "https://www.mun-belgium.be/wp-content/uploads/2022/05/mavi.png",
-    "https://www.mun-belgium.be/wp-content/uploads/2022/05/dominziana.png",
-    "https://www.mun-belgium.be/wp-content/uploads/2022/05/diploma.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -25594,7 +25497,6 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://conference.pictoplasma.com/files/official_selection_ani.png",
     "https://conference.pictoplasma.com/files/PictoAnimFest_13.jpg",
     "https://conference.pictoplasma.com/files/PictoAnimFest_8.jpg",
     "https://conference.pictoplasma.com/files/PictoAnimFest_1.jpg",
@@ -25673,10 +25575,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "caveat": "Non-EU applicants (incl. Lebanese) must apply in the first round.",
-   "gallery": [
-    "https://www.emjm-imaging.eu/globalassets/migratedresources/--www.miun.se---bilder-for-miun.se/politecnico_horizontal_2025_16x9.jpg",
-    "https://www.emjm-imaging.eu/globalassets/migratedresources/--www.miun.se---bilder-for-miun.se/tau_tampere-university_16x9_resize_613x1089_resize_613x1084.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -25748,14 +25647,10 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://www.ucas.com/sites/default/files/styles/content_block/public/media_images/adviser-guide-2027cta.jpg?itok=HVe_lgVE",
+   "image": null,
    "logo": "https://dfcdn.ucas.com/5.7.5/images/favicons/favicon-180x180.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.ucas.com/sites/default/files/styles/content_block/public/media_images/adviser-hub-guide-cta.jpg?itok=JCdnttSC",
-    "https://www.ucas.com/sites/default/files/styles/content_block/public/media_images/scholarships-search-cta.jpg?itok=FQ2Pml6p",
-    "https://www.ucas.com/sites/default/files/styles/content_block/public/landing/writing-2026-conservatoires-personal-statement.jpg?itok=yjOw9mVD"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -26053,7 +25948,7 @@
    "verified": "2026-10-22",
    "source": "bulk-scholarships",
    "added": "2026-10-22",
-   "image": "https://www.imlex.org/wp-content/uploads/sites/80/2024/11/EN-Co-funded-vertical-web.jpg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "caveat": "How-to-apply page does not state nationality eligibility explicitly.",
@@ -26789,7 +26684,7 @@
    "verified": "2026-10-22",
    "source": "bulk-scholarships",
    "added": "2026-10-22",
-   "image": "https://choreomundus.org/wp-content/uploads/2020/01/EN-Co-funded-by-the-EU_POS-scaled.jpg",
+   "image": null,
    "logo": "https://choreomundus.org/wp-content/uploads/2020/07/cropped-favicon-192x192.png",
    "imageChecked": "2026-10-24",
    "caveat": "For graduates; the page does not say whether final-year students can apply.",
@@ -27049,9 +26944,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "caveat": "Page says 'most nationalities' are eligible without listing exceptions; Lebanon not mentioned. Final-year students cannot apply for the scholarship.",
-   "gallery": [
-    "https://images.squarespace-cdn.com/content/v1/64106e8b7a7a1a18e67e11a0/80240c5f-7291-4240-8816-a19c083d8ca9/europe.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -27289,7 +27182,7 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://t.e7096c671.entry.domains/lWGCgfKXr8PlHzUExuYPXXRV_54=/fit-in/300x300/filters:strip_exif()/https%3A%2F%2Fwww.tudelft.nl%2F_assets%2Ff6b877d73456607fbfa2de3e3c5fd420%2FImages%2FOpenGraph%2FTUDelft.jpg%3Fhash%3D9ac1b46830",
+   "image": null,
    "logo": "https://www.tudelft.nl/_assets/2f383d4a929ad3d42eff11e81cdd4068/img/android-chrome-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -27369,13 +27262,10 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://www.eur.nl/sites/corporate/files/styles/open_graph/public/2021-09/iba.jpg?h=5cd1f88b&itok=LHOOtNCO",
+   "image": null,
    "logo": "https://www.eur.nl/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.eur.nl/sites/corporate/files/styles/responsive_w2050_r21_8/public/2021-09/iba.jpg.avif?h=5cd1f88b&itok=K3VbxCIr",
-    "https://www.eur.nl/sites/corporate/files/styles/responsive_w2050_r16_9/public/2021-06/schermafbeelding-2021-06-16-om-13.41.16.png.avif?h=8cb1eae1&itok=qpxJJP-j"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -27452,7 +27342,7 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://www.uva.nl/binaries/_ht_1766588493957/1200x630-jpg/content/gallery/onderwijs/eb/msc-2022/header-msc-business-administration.jpg",
+   "image": null,
    "logo": "https://www.uva.nl/webfiles/1790927060797/_favicon/android-chrome-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -27742,11 +27632,10 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://future.utoronto.ca/sites/default/files/styles/landscape_16_9_900/public/2025-07/0A1A2588alice.xue_.photography.2025.jpg?itok=biJsvQw7",
+   "image": "https://future.utoronto.ca/sites/default/files/styles/landscape_16_9_900/public/2025-11/UofT86427_u-of-t-engineering_50514279436_o.jpg?itok=SfKKHMhm",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://future.utoronto.ca/sites/default/files/styles/landscape_16_9_900/public/2025-11/UofT86427_u-of-t-engineering_50514279436_o.jpg?itok=SfKKHMhm",
     "https://future.utoronto.ca/sites/default/files/styles/landscape_16_9_900/public/2025-06/UofT95800_2024-09-03-First%20Day%20Campus%20Shots%20%2824%29%20%281%29.jpg?itok=FdGq5GgC",
     "https://future.utoronto.ca/sites/default/files/styles/landscape_16_9_900/public/2025-07/0A1A8557alice.xue_.photography.2025.jpg?itok=v2MGFp9u"
    ],
@@ -27825,9 +27714,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.uottawa.ca/study/sites/g/files/bhrskd296/files/2026-07/track-your-application.png",
-    "https://www.uottawa.ca/study/sites/g/files/bhrskd296/files/2026-07/admission-for-other-pathways.png",
-    "https://www.uottawa.ca/study/sites/g/files/bhrskd296/files/2026-07/international-applicants.png"
+    "https://www.uottawa.ca/study/sites/g/files/bhrskd296/files/2026-07/track-your-application.png"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -27968,7 +27855,7 @@
    "verified": "2026-10-22",
    "source": "bulk-conferences",
    "added": "2026-10-22",
-   "image": "https://2027.programmingconference.org/getImage/carousel/kyoto.JPG?1783983397000",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -28034,7 +27921,7 @@
    ],
    "url": "https://www.lcps-lebanon.org/en/jobs",
    "caveat": "Contact email is hidden on the page; the summer window text on the page appears to contain a typo.",
-   "image": "https://api.lcps-lebanon.org/content/uploads/corporatepages/lcps.jpg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -28105,7 +27992,7 @@
    "verified": "2026-10-22",
    "source": "bulk-scholarships",
    "added": "2026-10-22",
-   "image": "https://cdn.prod.website-files.com/64b41a2377901d548f3ecbd5/655480ba477b93838aa83e93_EN_Co-fundedbytheEU_RGB_WHITE.png",
+   "image": null,
    "logo": "https://cdn.prod.website-files.com/64b41a2377901d548f3ecbd5/653d24c4deea6f44f70592ee_Webclip.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -28176,7 +28063,6 @@
    "caveat": "Applicants must already hold a bachelor's; the page does not say whether final-year students can apply.",
    "gallery": [
     "https://masterlive-vaccinology.eu/wp-content/uploads/2023/06/about-live.png",
-    "https://masterlive-vaccinology.eu/wp-content/uploads/2022/08/erasmus-label.jpg",
     "https://masterlive-vaccinology.eu/wp-content/uploads/2026/10/2024_IVI-internship-in-Seoul_v3.jpg",
     "https://masterlive-vaccinology.eu/wp-content/uploads/2023/06/viedo-testi-2048x1214.jpeg"
    ],
@@ -29050,11 +28936,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.liban.campusfrance.org/sites/pays/files/liban/styles/mobile_menu_image_1_2_et_3/public/menu/2018-07/Fotolia_111175256_Subscription_Monthly_M_6.jpg?h=b284d102&itok=2W3a96Wu",
-    "https://www.liban.campusfrance.org/sites/pays/files/liban/styles/mobile_menu_image_1_2_et_3/public/menu/2018-07/EXCELLENCE_0.jpg?h=9d96f97f&itok=RJ45_Hs8",
-    "https://www.liban.campusfrance.org/sites/pays/files/liban/styles/mobile_menu_image_1_2_et_3/public/menu/2018-07/Fotolia_84792381_XL_0.jpg?h=62817c32&itok=fj-P-fr0",
-    "https://www.liban.campusfrance.org/sites/pays/files/liban/styles/mobile_menu_image_1_2_et_3/public/menu/2023-06/mars.png?h=90a76ea9&itok=NuwxMTVR",
-    "https://www.liban.campusfrance.org/sites/pays/files/liban/styles/mobile_menu_image_1_2_et_3/public/menu/2024-12/Mardi%20Agro%286%29.png?h=57024e64&itok=m-XUuAPK"
+    "https://www.liban.campusfrance.org/sites/pays/files/liban/styles/mobile_menu_image_1_2_et_3/public/menu/2018-07/EXCELLENCE_0.jpg?h=9d96f97f&itok=RJ45_Hs8"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -29501,9 +29383,7 @@
    "imageChecked": "2026-10-24",
    "gallery": [
     "https://www.garp.org/hubfs/GARP%20Design/frm/image/python-primer-nav.jpg",
-    "https://www.garp.org/hubfs/GARP%20Design/event/image/efrs26-event-page.png",
-    "https://www.garp.org/hs-fs/hubfs/GARP%20Design/frm/image/ada-info.png?width=1200&height=1296&name=ada-info.png",
-    "https://www.garp.org/hubfs/Website/China/Images/GARP-China-QR-code.jpg"
+    "https://www.garp.org/hubfs/GARP%20Design/event/image/efrs26-event-page.png"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -29582,7 +29462,6 @@
     "https://www.u-tokyo.ac.jp/content/100116087.png",
     "https://www.u-tokyo.ac.jp/content/100116085.png",
     "https://www.u-tokyo.ac.jp/content/100116203.png",
-    "https://www.u-tokyo.ac.jp/content/400019168.jpg",
     "https://www.u-tokyo.ac.jp/content/400273209.jpg"
    ],
    "galleryChecked": "2026-10-24"
@@ -29660,8 +29539,7 @@
     "https://www.opir.kyoto-u.ac.jp/study/en/curriculum/amgenscholars/img/img_top01.jpg",
     "https://www.opir.kyoto-u.ac.jp/study/en/curriculum/amgenscholars/img/img_top02.jpg",
     "https://www.opir.kyoto-u.ac.jp/study/en/curriculum/amgenscholars/img/img_top03.jpg",
-    "https://www.opir.kyoto-u.ac.jp/study/en/curriculum/amgenscholars/img/img_top04.jpg",
-    "https://www.opir.kyoto-u.ac.jp/study/en/curriculum/amgenscholars/img/Application_Procedures_Chart.jpg"
+    "https://www.opir.kyoto-u.ac.jp/study/en/curriculum/amgenscholars/img/img_top04.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -30649,11 +30527,10 @@
    "verified": "2026-10-23",
    "source": "bulk-funded",
    "added": "2026-10-23",
-   "image": "https://www.biologists.com/wp-content/uploads/2015/07/Banner_Dev_140_092.jpg",
+   "image": "https://www.biologists.com/wp-content/uploads/JCS-TF-image-KEying-Zhu.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.biologists.com/wp-content/uploads/JCS-TF-image-KEying-Zhu.jpg",
     "https://www.biologists.com/wp-content/uploads/JCSTF2210890-Lab-group-photo.png",
     "https://www.biologists.com/resized/190/journals.biologists.com/dev/current-cover.png?v={RANDOM}",
     "https://www.biologists.com/resized/190/journals.biologists.com/jcs/current-cover.png?v={RANDOM}",
@@ -30783,16 +30660,10 @@
    "source": "bulk-exams",
    "added": "2026-10-24",
    "caveat": "Registration dates taken from the CFA disability-accommodations page; levels offered and exact exam days not readable.",
-   "image": "https://cfainstitute.widen.net/content/4d88c4fa-2751-45a1-a297-bf6480ce9482/web/cfa-program-903273602.jpg?w=568&v=4d88c4fa-2751-45a1-a297-bf6480ce9482&itok=x7y9rICS",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cfainstitute.widen.net/content/fd94b243-8fa3-49da-9c95-5022bd76fdc6/web/cfa-program-961269416.jpg?w=568&v=fd94b243-8fa3-49da-9c95-5022bd76fdc6&itok=nB15tuTy",
-    "https://cfainstitute.widen.net/content/859173df-cf6f-42a4-95f5-05a51a0b1a8d/web/esg-certificate-2150579972.jpg?crop=yes&w=768&h=512&v=859173df-cf6f-42a4-95f5-05a51a0b1a8d",
-    "https://cfainstitute.widen.net/content/28c7e3dc-5083-43d3-bb6b-4c51b4084bd8/web/private-markets-1477043851.jpg?crop=yes&w=768&h=512&v=28c7e3dc-5083-43d3-bb6b-4c51b4084bd8",
-    "https://cfainstitute.widen.net/content/f339486a-586b-4aba-bfd3-c23ffc30e0f2/web/investment-foundations-1282499990.jpg?crop=yes&w=768&h=512&v=f339486a-586b-4aba-bfd3-c23ffc30e0f2",
-    "https://cfainstitute.widen.net/content/9572970e-2311-4ba6-a3e0-0e7460224109/web/climate-risk-1182299361.jpg?crop=yes&w=768&h=512&v=9572970e-2311-4ba6-a3e0-0e7460224109"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -31041,7 +30912,6 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://images.squarespace-cdn.com/content/v1/55349acee4b0edee994da9f9/1566000265283-AZZMWTU39GLI0L1IZ5AS/132.jpg?format=2500w",
     "https://images.squarespace-cdn.com/content/v1/55349acee4b0edee994da9f9/1556615624499-3X8A75Z9T0HA0CMFES81/Screen+Shot+2019-04-30+at+05.13.02.png?format=2500w"
    ],
    "galleryChecked": "2026-10-24"
@@ -31593,14 +31463,10 @@
    "verified": "2026-10-22",
    "source": "bulk-conferences",
    "added": "2026-10-22",
-   "image": "https://www.mun-italia.it/wp-content/uploads/2022/04/icon08.png",
+   "image": null,
    "logo": "https://www.mun-italia.it/wp-content/uploads/2022/05/cropped-favicon-192x192.jpg",
    "imageChecked": "2026-10-22",
-   "gallery": [
-    "https://www.mun-italia.it/wp-content/uploads/2022/05/mavi.png",
-    "https://www.mun-italia.it/wp-content/uploads/2022/05/dominziana.png",
-    "https://www.mun-italia.it/wp-content/uploads/2022/05/diploma.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -31901,7 +31767,7 @@
    "source": "bulk-exams",
    "added": "2026-10-24",
    "caveat": "LSAC says dates are subject to change. Check Prometric for a test centre in or near Lebanon, or choose remote testing if allowed.",
-   "image": "https://www.lsac.org/document-library/243",
+   "image": null,
    "logo": "https://www.lsac.org/themes/custom/lsac/images/favicons/apple-touch-icon-1024x1024.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -31978,10 +31844,7 @@
    "image": "https://www.worldbank.org/content/dam/wbr/share-logo/social-share.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.worldbank.org/content/dam/photos/780x439/2026/feb-1/Japanese-youth.jpg",
-    "https://www.worldbank.org/content/dam/photos/780x439/2021/oct-1/Diverse-young-students.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -32052,13 +31915,7 @@
    "image": "https://euro2027athens.com/wp-content/uploads/2026/09/euro2027athens-scaled.webp",
    "logo": "https://euro2027athens.com/wp-content/uploads/2026/06/favicon.jpg",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://euro2027athens.com/wp-content/uploads/2018/02/team-1.jpg",
-    "https://euro2027athens.com/wp-content/uploads/2018/02/team-10.jpg",
-    "https://euro2027athens.com/wp-content/uploads/2018/02/team-3.jpg",
-    "https://euro2027athens.com/wp-content/uploads/2018/02/team-5.jpg",
-    "https://euro2027athens.com/wp-content/uploads/2018/02/team-4.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -32209,7 +32066,7 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://eng.kuleuven.be/++resource++plone-logo.svg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -32849,11 +32706,10 @@
    ],
    "url": "https://www.zurichmaratobarcelona.es/en/",
    "caveat": "Regulation lists bib-tier prices EUR 70-100; current shop shows EUR 100 for Race Entry. Schengen visa needed.",
-   "image": "https://zurichmaratobarcelona.es/wp-content/uploads/2026/03/HOKA-02.png",
+   "image": "https://zurichmaratobarcelona.es/wp-content/uploads/2026/03/20250610-las5g-zmb-640x640-bannerweb.png",
    "logo": "https://zurichmaratobarcelona.es/wp-content/uploads/2026/03/cropped-faviconzurich-192x192.jpg",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://zurichmaratobarcelona.es/wp-content/uploads/2026/03/20250610-las5g-zmb-640x640-bannerweb.png",
     "https://zurichmaratobarcelona.es/wp-content/uploads/2026/03/COURSE-1-1-1.png",
     "https://zurichmaratobarcelona.es/wp-content/uploads/2026/03/HIGHLIGHTS26.png",
     "https://zurichmaratobarcelona.es/wp-content/uploads/2026/09/BN-turisme-ZMB.webp",
@@ -33094,14 +32950,10 @@
    "verified": "2026-10-22",
    "source": "bulk-conferences",
    "added": "2026-10-22",
-   "image": "https://www.mun-france.fr/wp-content/uploads/2022/04/icon08.png",
+   "image": null,
    "logo": "https://www.mun-france.fr/wp-content/uploads/2025/07/cropped-Progetto-senza-titolo-2-192x192.png",
    "imageChecked": "2026-10-22",
-   "gallery": [
-    "https://www.mun-france.fr/wp-content/uploads/2022/05/mavi.png",
-    "https://www.mun-france.fr/wp-content/uploads/2022/05/dominziana.png",
-    "https://www.mun-france.fr/wp-content/uploads/2022/05/diploma.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -34126,9 +33978,7 @@
    "image": "https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobkey=id&blobtable=MungoBlobs&blobwhere=1371565450267&ssbinary=true",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.uc3m.es/grado/media/grado/img/grande/reducida/en-ig_early2_44690.../1371301018253.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -34801,7 +34651,7 @@
    "source": "bulk-exams",
    "added": "2026-10-24",
    "caveat": "LSAC says dates are subject to change. Check Prometric for a test centre in or near Lebanon, or choose remote testing if allowed.",
-   "image": "https://www.lsac.org/sites/default/files/styles/spotlight_large/public/spotlight_banner/iStock-1290259731-1588x800_0.jpg?h=1c7714eb&itok=_UO8gMnq",
+   "image": null,
    "logo": "https://www.lsac.org/themes/custom/lsac/images/favicons/apple-touch-icon-1024x1024.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -35595,11 +35445,10 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://www.tum.de/fileadmin/_processed_/a/1/csm_OG2_a211f33903.jpg",
+   "image": "https://www.tum.de/fileadmin/user_upload_87/_processed_/5/8/csm_20221014_Bild_Internationale_Studierende_AH_544092_64f9027f66.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.tum.de/fileadmin/user_upload_87/_processed_/5/8/csm_20221014_Bild_Internationale_Studierende_AH_544092_64f9027f66.jpg",
     "https://www.tum.de/fileadmin/user_upload_87/_processed_/5/a/csm_20251013_imat_AH_942333_1c37e0db3f.jpg",
     "https://www.tum.de/fileadmin/user_upload_87/_processed_/1/1/csm_EUROTEQMonday-Levi_Baruch-0121_5c06ac40b6.jpg",
     "https://www.tum.de/fileadmin/user_upload_87/_processed_/9/a/csm_Rendering_TUMorrow_Factory_Aussen_2c5c6e8305.jpg"
@@ -35905,7 +35754,7 @@
    "verified": "2026-10-24",
    "source": "bulk-exams",
    "added": "2026-10-24",
-   "image": "https://caia.org/app/uploads/2026/06/CAIA-Hero-Graphic_Final.png",
+   "image": null,
    "logo": "https://caia.org/app/uploads/2026/05/cropped-CAIA-Favicon-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -36541,12 +36390,10 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://www.tum.de/fileadmin/_processed_/a/1/csm_OG2_a211f33903.jpg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.tum.de/fileadmin/_processed_/4/6/csm_BachelorPreview_32e4c67a63.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -36706,7 +36553,7 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://www.sle.kit.edu/img/termine-fristen_header.jpg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -36785,7 +36632,7 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://www.intl.kit.edu/img/content/INTL_Website-Banner_kleines%20Kopfbild.jpg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -37478,7 +37325,7 @@
    "verified": "2026-10-22",
    "source": "manual-research",
    "added": "2026-10-22",
-   "image": "https://admissions.kaust.edu.sa/images/default-source/student-story/screenshot-2024-11-04-152643.png?sfvrsn=de817653_3",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "caveat": "Nationality not stated on the official page.",
@@ -37624,9 +37471,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "caveat": "Only for LAU students.",
-   "gallery": [
-    "https://studyabroad.lau.edu.lb/images/EU%20SW.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -37766,10 +37611,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://lablab.ai/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Flablab-static-eu%2Fevents%2FKubecon_Hackathon_Main_banner--6-_kwbcfs6opwvhzmeeok1r50av.jpg&w=3840&q=75",
-    "https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2Feb17306d54dc4a05b682c561446e61a0",
-    "https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2F71d12fac6b6045d5a378bd3cb9576752",
-    "https://cdn.builder.io/api/v1/image/assets%2F972274c44a2d4c658b0fa440848d24a1%2Fc140c97829bd46dfaafa5e34264c0b78"
+    "https://lablab.ai/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Flablab-static-eu%2Fevents%2FKubecon_Hackathon_Main_banner--6-_kwbcfs6opwvhzmeeok1r50av.jpg&w=3840&q=75"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -38079,7 +37921,6 @@
     "https://images.cdn-files-a.com/uploads/2078034/2000_5cab10a2c2b02.jpg",
     "https://images.cdn-files-a.com/uploads/2078034/2000_5cab10a3aa21b.jpg",
     "https://images.cdn-files-a.com/uploads/2078034/2000_5cab10a445d3c.jpg",
-    "https://images.cdn-files-a.com/uploads/2078034/2000_5cab1184484e3.jpg",
     "https://images.cdn-files-a.com/uploads/2078034/2000_5cab11855be90.jpg"
    ],
    "galleryChecked": "2026-10-24"
@@ -38437,12 +38278,7 @@
    "logo": "https://xtrem-paintball.com/wp-content/uploads/2023/02/cropped-cropped-fav-2-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://xtrem-paintball.com/wp-content/uploads/2023/03/xtrem-Banner.jpg",
-    "https://xtrem-paintball.com/wp-content/uploads/bb-plugin/cache/19-copy-square-d98d0d1e9c07c5349c6fc8f416a16187-.jpg",
-    "https://xtrem-paintball.com/wp-content/uploads/bb-plugin/cache/18-copy-square-ea321f3fc2878f4c3db4e3e337eafc74-.jpg",
-    "https://xtrem-paintball.com/wp-content/uploads/bb-plugin/cache/17-copy-square-2e24879c75e76efad886106636647210-.jpg",
-    "https://xtrem-paintball.com/wp-content/uploads/bb-plugin/cache/16-copy-square-f065799e56416d66cd75bc99fd6d2884-.jpg",
-    "https://xtrem-paintball.com/wp-content/uploads/bb-plugin/cache/15-copy-square-6dd77ba4676499ee40d429113a8195c3-.jpg"
+    "https://xtrem-paintball.com/wp-content/uploads/2023/03/xtrem-Banner.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -39084,7 +38920,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "karting",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI5MzZmZTZlMGNhZTNlMzQ1LWZ1biZsZWlzdXJlLnN2ZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": null,
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -40128,7 +39964,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "trampoline",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiI3YTZhYTI4NjcwZWI3Y2MzLWZ1biZsZWlzdXJlLnN2ZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": null,
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -43809,7 +43645,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "climbing",
-   "image": "https://cdn.n-idea.net/eyJidWNrZXQiOiJiYW1sZWIiLCJrZXkiOiJiN2UyODEwNDM0YzZhMTE0LW91dGRvb3JhY3Rpdml0aWVzLnN2ZyIsImVkaXRzIjp7IndlYnAiOnRydWUsImpwZWciOnRydWUsInNoYXJwZW4iOnRydWUsInJlc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19fQ==",
+   "image": null,
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -48639,7 +48475,7 @@
    "source": "bulk-activities",
    "added": "2026-10-24",
    "sport": "boat trip",
-   "image": "https://www.skileb.com/book/images/packages/SUNSET_large.jpg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -50006,9 +49842,7 @@
    "image": "https://www.amideast.org/sites/default/files/images/og_logo.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.amideast.org/sites/default/files/styles/large/public/2025-07/Pio%2C%20Lebanon.jpg?itok=TWfmipXS"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -51438,13 +51272,10 @@
    "verified": "2026-10-24",
    "added": "2026-10-24",
    "source": "bulk-aid",
-   "image": "https://indianembassybeirut.gov.in/public/partner/1733833491.jpg",
+   "image": "https://indianembassybeirut.gov.in/public/partner/1733834382.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://indianembassybeirut.gov.in/public/partner/1733833882.jpg",
-    "https://indianembassybeirut.gov.in/public/partner/1733834382.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -52029,9 +51860,7 @@
    "image": "https://blog-cdn.reedsy.com/assets/writing-prompts/og-image-401b29f7dce0d35883e1e50c9794e20de8848e28bb1e2bec9f49fa66765fd243.jpg",
    "logo": "https://blog-cdn.reedsy.com/assets/icons/favicon/apple-icon-180x180-10c058b4a65ae9f56578a8afd5ba7798acce80cffc0597369e9c57f2ad4c7f18.png",
    "imageChecked": "2026-10-23",
-   "gallery": [
-    "https://blog-cdn.reedsy.com/assets/reedsy/blogger/studio-1533606dfebd0fb65ea77b6e3233cb9ef7a3eb87a72f770bac4375eceed25d97.webp"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -52804,8 +52633,6 @@
    "logo": "https://berytech.org/wp-content/uploads/2020/04/Berytech-favicon.svg",
    "imageChecked": "2026-10-22",
    "gallery": [
-    "https://berytech.org/wp-content/uploads/2024/08/group-of-diverse-group-of-business-people-having-a-2023-11-27-05-31-55-utc-1-2048x1358.jpg",
-    "https://berytech.org/wp-content/uploads/2024/08/Professional-Network-Access.png",
     "https://berytech.org/wp-content/uploads/2025/07/Andre-Dibe.png",
     "https://berytech.org/wp-content/uploads/2025/07/Ayman-Itani.png",
     "https://berytech.org/wp-content/uploads/2025/04/Edward-Melki.png",
@@ -52869,13 +52696,10 @@
    "verified": "2026-10-22",
    "added": "2026-10-22",
    "source": "bulk-business",
-   "image": "https://cfainstitute.widen.net/content/48653598-a387-471f-9df0-5599249637da/web/research-challenge-2094337676-400x300.jpg?crop=yes&k=c&w=1200&h=627&v=48653598-a387-471f-9df0-5599249637da",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cfainstitute.widen.net/content/ffd5d65b-a4fd-46e2-89d8-274c0b394172/web/students-2094337676.jpg?w=568&v=ffd5d65b-a4fd-46e2-89d8-274c0b394172&itok=7dWayCkP",
-    "https://cfainstitute.widen.net/content/f6a5e983-e0d0-4b51-8e54-14bd9e08217b/web/university-students-research-challenge-banner-3.png?w=568&v=f6a5e983-e0d0-4b51-8e54-14bd9e08217b&itok=Nzh5EJDA"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -53115,13 +52939,11 @@
    "verified": "2026-10-22",
    "added": "2026-10-22",
    "source": "bulk-business",
-   "image": "https://flat6labs.com/wp-content/uploads/2024/09/StartMashreq-logos-header-01.png",
+   "image": "https://flat6labs.com/wp-content/uploads/2021/10/New-Project.png",
    "logo": null,
    "imageChecked": "2026-10-24",
    "caveat": "Startup incubation programme, not student-specific; full criteria on the application page.",
    "gallery": [
-    "https://flat6labs.com/wp-content/uploads/2024/09/StartMashreq-logos-header-01.png",
-    "https://flat6labs.com/wp-content/uploads/2021/10/New-Project.png",
     "https://flat6labs.com/wp-content/uploads/2020/03/Website-Program-Page-Abu-Dhabi-Selection-Bootcamp.jpg",
     "https://flat6labs.com/wp-content/uploads/2020/03/Website-Program-Page-Cairo-Interviews.jpg",
     "https://flat6labs.com/wp-content/uploads/2020/03/Website-Program-Page-Bahrain-Bootcamp.jpg"
@@ -53249,11 +53071,10 @@
    "verified": "2026-10-22",
    "added": "2026-10-22",
    "source": "bulk-business",
-   "image": "https://www.rotman.utoronto.ca/media/rotman/content-assets/images/rotman-building---interior-exterior-and-facilities/Rotman20Pink20Staircase_15.png",
+   "image": "https://pxl-rotmanutorontoca.terminalfour.net/fit-in/780x1688/filters:quality(60)/filters:format(webp)/1038x0:1962x2000/prod01/prod01/media/rotman/content-assets/images/student-life/Rotman_StudentLife_33.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://pxl-rotmanutorontoca.terminalfour.net/fit-in/780x1688/filters:quality(60)/filters:format(webp)/1038x0:1962x2000/prod01/prod01/media/rotman/content-assets/images/student-life/Rotman_StudentLife_33.jpg",
     "https://pxl-rotmanutorontoca.terminalfour.net/prod01/prod01/media/rotman/content-assets/images/areas/bmo-lab/RITC-screenshot.png"
    ],
    "galleryChecked": "2026-10-24"
@@ -53448,12 +53269,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/945629-Hero-Background-1600x700?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=700&qlt=100&fit=constrain",
-    "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/945629-StartupSpotlight-Background-1600x1216?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=1216&qlt=100&fit=constrain",
-    "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/945629-StartupSpotlight-1280x720?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1000&hei=563&qlt=100&fit=constrain",
-    "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/945629-TrueStories-01-416x178?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1000&hei=429&qlt=100&fit=constrain",
-    "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/945629-TrueStories-02-416x178?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1000&hei=429&qlt=100&fit=constrain",
-    "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/945629-TrueStories-03-416x178?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1000&hei=429&qlt=100&fit=constrain"
+    "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/945629-StartupSpotlight-1280x720?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1000&hei=563&qlt=100&fit=constrain"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -53521,9 +53337,7 @@
    "image": "https://gsc-stanford.b-cdn.net/website-og-image.webp",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/export?bbox=-180,-60,180,85&bboxSR=4326&imageSR=4326&size=1600,700&format=png&transparent=false&f=image"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -53951,10 +53765,6 @@
    "imageChecked": "2026-10-24",
    "caveat": "Cloud credits for startups, not a student programme.",
    "gallery": [
-    "https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/homepage/global-nav/building-30-day-challenge.fbb950fa275e28193955202b94c04d0125135ecc.jpg",
-    "https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/global-nav/aws-library_illustration_innovation_8_1200.07a6484f8eaa3100138cf8b6dce14f1db024db32.jpg",
-    "https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/global-nav/aws-library_illustration_culture_2_1200.77dd122bde9af49ea0c09cdc009c193866f62ad7.jpg",
-    "https://d1.awsstatic.com/onedam/marketing-channels/website/aws/en_US/global-nav/aws-library_illustration_culture_11_1200.29c48d4e742090396f61d0c5d5eec4ea8d714817.jpg",
     "https://d1.awsstatic.com/onedam/marketing-channels/website/public/shared/images/2026-Q3-IDP-SUP-Imagery-AWSStartupsCredits-VideoThumbnail-Web-en-US-1920x1080-FINAL.796d95eff778fc1118d301369c4565fb8cdc9a85.jpg"
    ],
    "galleryChecked": "2026-10-24"
@@ -54014,8 +53824,7 @@
    "gallery": [
     "https://www.unicefventurefund.org/sites/default/files/styles/scale_335w_2x/public/2023-06/thinking%20machines%20_5.png?itok=1gYZkz9D",
     "https://www.unicefventurefund.org/sites/default/files/styles/scale_335w_2x/public/2023-06/videogame_5.jpg?itok=yy_qY9sv",
-    "https://www.unicefventurefund.org/sites/default/files/styles/scale_335w_2x/public/2023-06/somelangg_5.png?itok=2TSFId_f",
-    "https://www.unicefventurefund.org/sites/default/files/styles/scale_1440w/public/2023-08/frame_2426_1.jpg?itok=FxkMOPx5"
+    "https://www.unicefventurefund.org/sites/default/files/styles/scale_335w_2x/public/2023-06/somelangg_5.png?itok=2TSFId_f"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -54072,7 +53881,7 @@
    "verified": "2026-10-22",
    "added": "2026-10-22",
    "source": "bulk-business",
-   "image": "https://www.caseit.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobilehero.0o4i7pie1tr0-.png&w=3840&q=75",
+   "image": null,
    "logo": "https://www.caseit.org/pwa/icon-512.png",
    "imageChecked": "2026-10-24",
    "caveat": "School-level participation; how schools are invited is not stated.",
@@ -54436,13 +54245,11 @@
    "verified": "2026-10-22",
    "added": "2026-10-22",
    "source": "bulk-business",
-   "image": "https://assets.kpmg.com/is/image/kpmgcloud/lebanon-web-banner",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "caveat": "Eligibility details not published on the page.",
-   "gallery": [
-    "https://kpmg.com/adobe/dynamicmedia/deliver/dm-aid--a0f4fc52-7ada-4315-9a74-1faee8e6dd64/man-holding-tablet.png?quality=82&preferwebp=true"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -54503,7 +54310,6 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.nvidia.com/content/nvidiaGDC/us/en_US/startups/home/_jcr_content/root/responsivegrid/nv_container_614600079/nv_container/nv_container/nv_image.coreimg.jpeg/1792109290785/apply-to-inception-ari-renw.jpeg",
     "https://www.nvidia.com/content/nvidiaGDC/us/en_US/startups/home/_jcr_content/root/responsivegrid/nv_container_614600079/nv_container/nv_container_1086862320/nv_image_835106241.coreimg.jpeg/1792109290821/gtc25-dc-web-inception-startup-pitch.jpeg",
     "https://www.nvidia.com/content/nvidiaGDC/us/en_US/startups/home/_jcr_content/root/responsivegrid/nv_container_614600079/nv_container/nv_container_2057878344/nv_image_2106618017.coreimg.jpeg/1792109290857/explore-your-benefits-ari.jpeg",
     "https://www.nvidia.com/content/nvidiaGDC/us/en_US/startups/home/_jcr_content/root/responsivegrid/nv_container_1343082527/nv_container_1164413675/nv_teaser.coreimg.jpeg/1792109290987/anybotics-ari.jpeg",
@@ -54561,15 +54367,10 @@
    "verified": "2026-10-22",
    "added": "2026-10-22",
    "source": "bulk-business",
-   "image": "https://cfainstitute.widen.net/content/a0ba8409-9081-4bd8-be70-6afe67c4e0d8/web/scholarships-2077400772.jpg?w=568&v=a0ba8409-9081-4bd8-be70-6afe67c4e0d8&itok=6CEN2KbQ",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cfainstitute.widen.net/content/19a22037-f0b7-4831-a558-4d0865893e53/web/scholarsships-access-1487740498.jpg?w=768&v=19a22037-f0b7-4831-a558-4d0865893e53&itok=ie1_fHkn",
-    "https://cfainstitute.widen.net/content/c1ac4628-355d-40a7-b1c9-e07781d0c06a/web/scholarships-students-1564758108.jpg?w=768&v=c1ac4628-355d-40a7-b1c9-e07781d0c06a&itok=20eRW4ZT",
-    "https://cfainstitute.widen.net/content/05cf136f-6be5-4d06-a314-6c28b8f9a40e/web/scholarships-professors-1443627734.jpg?w=768&v=05cf136f-6be5-4d06-a314-6c28b8f9a40e&itok=MVoC4Zuj",
-    "https://cfainstitute.widen.net/content/e8353909-a0b3-4ecc-aea6-ceff5e183639/web/cfa-program-1503568271.jpg?w=568&v=e8353909-a0b3-4ecc-aea6-ceff5e183639&itok=7V9H1d8l"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -56959,7 +56760,7 @@
    "source": "bulk-campus",
    "added": "2026-10-24",
    "caveat": "Link is the 2026 edition; audience and ticketing not stated.",
-   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/The-power-of-connection-news_164704759.jpg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -58950,7 +58751,7 @@
    "source": "bulk-campus",
    "added": "2026-10-24",
    "caveat": "Who may attend is not fully stated on the official page; check with the organiser.",
-   "image": "https://www.usek.edu.lb/ContentFiles/61968Image.jpg?v=202610191201",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -59004,12 +58805,10 @@
    "source": "bulk-campus",
    "added": "2026-10-24",
    "caveat": "Page in Arabic; start time, fee and registration not stated.",
-   "image": "https://ul.edu.lb/sites/default/files/2026-10/20261013-ULFPe-ConAn-WebsiteNewsCover.jpg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://ul.edu.lb/themes/lebaneseuni/img/SDG.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -59962,13 +59761,10 @@
    "source": "bulk-classes",
    "added": "2026-10-24",
    "art": "literature",
-   "image": "https://www.lebanesearabicinstitute.com/wp-content/uploads/2023/12/male-student-studying-Arabic-online-1.jpg",
+   "image": null,
    "logo": "https://www.lebanesearabicinstitute.com/wp-content/uploads/2016/09/cropped-Lebanese-Arabic-Institute-1-192x192.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.lebanesearabicinstitute.com/wp-content/uploads/2023/12/female-student-studying-online-1-1024x576.jpg",
-    "https://www.lebanesearabicinstitute.com/wp-content/uploads/2020/02/map-pin.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -60499,9 +60295,7 @@
    "gallery": [
     "https://kitchenlabo.com/wp-content/uploads/2024/01/IMG-20240123-WA0023.jpg",
     "https://kitchenlabo.com/wp-content/uploads/2024/01/IMG-20240123-WA0022.jpg",
-    "https://kitchenlabo.com/wp-content/uploads/2024/09/IMG_5618-555x453.png",
-    "https://kitchenlabo.com/wp-content/uploads/2026/09/spaghetti-cacio-e-pepe-recipe-hero-02_1-70880518badb4d428f5d5b03d303fabc-555x453.jpeg",
-    "https://kitchenlabo.com/wp-content/uploads/2025/08/marry-me-chicken-index-67a503f0a565c-555x453.png"
+    "https://kitchenlabo.com/wp-content/uploads/2024/09/IMG_5618-555x453.png"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -60640,13 +60434,11 @@
    "source": "bulk-classes",
    "added": "2026-10-24",
    "art": "literature",
-   "image": "https://saifiarabic.com/wp-content/uploads/2019/03/fbcpver.jpg",
+   "image": "https://saifiarabic.com/wp-content/uploads/2023/01/SAIFI-PACKAGES3.png",
    "logo": "https://saifiarabic.com/wp-content/uploads/2018/09/cropped-saiii-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://saifiarabic.com/wp-content/uploads/2023/01/SAIFI-PACKAGES3.png",
-    "https://saifiarabic.com/wp-content/uploads/2021/01/saifistore.png",
-    "https://saifiarabic.com/wp-content/uploads/2025/01/2151889103-1.jpg"
+    "https://saifiarabic.com/wp-content/uploads/2021/01/saifistore.png"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -60784,16 +60576,10 @@
    "source": "bulk-classes",
    "added": "2026-10-24",
    "sport": "dance",
-   "image": "https://www.fredastaire.com/beirut-lb/wp-content/uploads/sites/65/2019/03/why-fred-astaire-block.jpg",
+   "image": null,
    "logo": "https://www.fredastaire.com/wp-content/uploads/2025/08/DANCERS-blkgold-298x300.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.fredastaire.com/beirut-lb/wp-content/uploads/sites/65/2023/10/dance_at_fred-astaire-1.jpg",
-    "https://www.fredastaire.com/beirut-lb/wp-content/uploads/sites/65/2023/10/dance-lessons-for-weddings.jpg",
-    "https://www.fredastaire.com/beirut-lb/wp-content/uploads/sites/65/2023/10/news-press-ban.jpg",
-    "https://www.fredastaire.com/beirut-lb/wp-content/uploads/sites/65/2023/10/learn-to-CHA-CHA-scaled-1-1.jpg",
-    "https://www.fredastaire.com/beirut-lb/wp-content/uploads/sites/65/2023/10/learn-to-HUSTLE-scaled-1-1.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -60941,8 +60727,7 @@
    "logo": "https://static.wixstatic.com/media/653bb1_3715e556472d451cbd85e2134e7b34a5%7Emv2.jpg/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/653bb1_3715e556472d451cbd85e2134e7b34a5%7Emv2.jpg",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://static.wixstatic.com/media/653bb1_6a5852dcf1454870887ddd447904a674~mv2.jpg/v1/fill/w_980,h_474,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/wixig.jpg",
-    "https://static.wixstatic.com/media/653bb1_d0aec73d3a5146f6ab78d2df3de8d89a~mv2.jpg/v1/crop/x_0,y_34,w_848,h_432/fill/w_452,h_230,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/45581245_m.jpg"
+    "https://static.wixstatic.com/media/653bb1_6a5852dcf1454870887ddd447904a674~mv2.jpg/v1/fill/w_980,h_474,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/wixig.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -61015,13 +60800,7 @@
    "image": "https://www.berlitz-lebanon.com/images/bannersliderimage/5b5f02be1a477_ws-blc-banner-140yr-2018.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.berlitz-lebanon.com/images/bannersliderimage/5b5f0382a8e41_banner.jpg",
-    "https://www.berlitz-lebanon.com/images/bannersliderimage/5b5f04bb6113d_banner3.jpg",
-    "https://www.berlitz-lebanon.com/images/bannersliderimage/5b5f04fd14320_banner4.jpg",
-    "https://www.berlitz-lebanon.com/images/bannersliderimage/5b5f046696796_banner1.jpg",
-    "https://www.berlitz-lebanon.com/images/bannersliderimage/5b5f058fd3114_banner6.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -61335,13 +61114,7 @@
    "image": "https://www.artofliving.org/lb-en/iimg/1161/520x/i.png",
    "logo": "https://www.artofliving.org/lb-en/iimg/343/256x256/i.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.artofliving.org/lb-en/iimg/1952/i.webp",
-    "https://www.artofliving.org/lb-en/iimg/1953/570x/i.webp",
-    "https://www.artofliving.org/lb-en/iimg/2517/i.webp",
-    "https://www.artofliving.org/lb-en/iimg/1352/i.png",
-    "https://www.artofliving.org/lb-en/iimg/1949/i.webp"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -61504,14 +61277,7 @@
    "image": "https://shop.marounchedid.com/cdn/shop/collections/Cooking_academy_1200x1200.jpg?v=1689585119",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://shop.marounchedid.com/cdn/shop/files/Cooking_Academy_0001_framboisier_600x.jpg?v=1789052155",
-    "https://shop.marounchedid.com/cdn/shop/files/Cooking_Academy_0000_british_600x.jpg?v=1789052155",
-    "https://shop.marounchedid.com/cdn/shop/files/Cooking_Academy_0004_greece_600x.jpg?v=1789052154",
-    "https://shop.marounchedid.com/cdn/shop/files/Cooking_Academy_0005_CREAMY_CARAMEL_LOVERS_600x.jpg?v=1789652607",
-    "https://shop.marounchedid.com/cdn/shop/files/website_0007_Pizza_600x.jpg?v=1758626005",
-    "https://shop.marounchedid.com/cdn/shop/files/Cooking_Academy_0004_THAI_TABLE_600x.jpg?v=1789652608"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -61603,14 +61369,7 @@
    "image": "https://shop.marounchedid.com/cdn/shop/collections/Cooking_academy_1200x1200.jpg?v=1689585119",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://shop.marounchedid.com/cdn/shop/files/Cooking_Academy_0001_framboisier_600x.jpg?v=1789052155",
-    "https://shop.marounchedid.com/cdn/shop/files/Cooking_Academy_0000_british_600x.jpg?v=1789052155",
-    "https://shop.marounchedid.com/cdn/shop/files/Cooking_Academy_0004_greece_600x.jpg?v=1789052154",
-    "https://shop.marounchedid.com/cdn/shop/files/Cooking_Academy_0005_CREAMY_CARAMEL_LOVERS_600x.jpg?v=1789652607",
-    "https://shop.marounchedid.com/cdn/shop/files/website_0007_Pizza_600x.jpg?v=1758626005",
-    "https://shop.marounchedid.com/cdn/shop/files/Cooking_Academy_0004_THAI_TABLE_600x.jpg?v=1789652608"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -61757,7 +61516,6 @@
    "gallery": [
     "https://www.calf-lebanon.com/img/carousel-2.png",
     "https://www.calf-lebanon.com/img/carousel-3.png",
-    "https://www.calf-lebanon.com/img/about.jpg",
     "https://www.calf-lebanon.com/img/blog-2-2.png",
     "https://www.calf-lebanon.com/img/blog-3-3.png"
    ],
@@ -61825,8 +61583,7 @@
    "gallery": [
     "https://www.levantineinstitute.com/web/image/20534-82c3eae5/Screenshot%202023-07-09%20150929.png",
     "https://www.levantineinstitute.com/web/image/6156-8f6dd308/Screen%2BShot%2B2020-01-21%2Bat%2B16.15.31.png",
-    "https://www.levantineinstitute.com/web/image/6112-60e320c8/Untitled%20design%20%281%29.png",
-    "https://www.levantineinstitute.com/web/image/14249-cab0c988/Untitled%20design%20%2810%29.png"
+    "https://www.levantineinstitute.com/web/image/6112-60e320c8/Untitled%20design%20%281%29.png"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -65413,8 +65170,7 @@
     "https://www.theprivateclub.net/wp-content/uploads/Volley-Court.jpg",
     "https://www.theprivateclub.net/wp-content/uploads/BasketBall-Court-Diagonale.jpg",
     "https://www.theprivateclub.net/wp-content/uploads/Pool.jpg",
-    "https://www.theprivateclub.net/wp-content/uploads/Zumba-Event.jpg",
-    "https://www.theprivateclub.net/wp-content/uploads/Events-1024x682.jpg"
+    "https://www.theprivateclub.net/wp-content/uploads/Zumba-Event.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -65760,7 +65516,7 @@
    "verified": "2026-10-24",
    "source": "bulk-clubs-sports",
    "added": "2026-10-24",
-   "image": "https://www.usek.edu.lb/ContentFiles/60207Image.jpg?v=202308202015",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -66424,14 +66180,7 @@
    "image": "https://ul.edu.lb/sites/default/files/2025-01/20250120-ULSAD-SpAc-WebsiteNewsCover.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://ul.edu.lb/themes/lebaneseuni/img/SDG.png",
-    "https://www.ul.edu.lb/sites/default/files/styles/280x183/public/2026-10/20261021-LU-Me-ProfBadran-WebsiteNewsCover.jpg?itok=9VY9hR_D",
-    "https://ul.edu.lb/sites/default/files/styles/280x183/public/2026-10/20261021-LU-Int-ProfBadran-VDL-WebsiteNewsCover.jpg?itok=Mg-grfQq",
-    "https://ul.edu.lb/sites/default/files/styles/280x183/public/2026-10/20261021-LU-HoCe-ProfBadran-WebsiteNewsCover.jpg?itok=-DsCuEmW",
-    "https://ul.edu.lb/sites/default/files/styles/280x183/public/2026-10/20261021-ULFS-Alumni-GhenwaKataya-WebsiteNewsCover.jpg?itok=pPG_tGcP",
-    "https://ul.edu.lb/sites/default/files/styles/280x183/public/2026-10/20261020-ULFE-Br2-StIn-WebsiteNewsCover.jpg?itok=_-B1i3TG"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -67531,8 +67280,7 @@
     "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_YIX37zW",
     "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_iMeaND3",
     "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/Copy%20of%20post%20speaker_fD7wDXq.png",
-    "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_3JKNF0w",
-    "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/MacroVision%201_YDlUnEV.jpg"
+    "https://res.cloudinary.com/startup-grind/image/upload/c_fill,w_500,h_500,g_center/c_fill,dpr_2.0,f_auto,g_center,q_auto:good/v1/gcs/platform-data-goog/events/blob_3JKNF0w"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -67859,8 +67607,7 @@
    "imageChecked": "2026-10-24",
    "gallery": [
     "https://secure.meetupstatic.com/photos/event/6/7/b/d/clean_536066557.webp",
-    "https://secure.meetupstatic.com/photos/event/1/5/3/8/highres_529985432.jpeg",
-    "https://secure.meetupstatic.com/photos/event/e/9/9/3/highres_529439795.jpeg"
+    "https://secure.meetupstatic.com/photos/event/1/5/3/8/highres_529985432.jpeg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -68054,8 +67801,6 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://secure.meetupstatic.com/photos/event/1/4/e/d/highres_536585357.jpeg",
-    "https://secure.meetupstatic.com/photos/event/1/4/a/e/highres_536585294.jpeg",
     "https://secure.meetupstatic.com/photos/event/1/f/0/7/highres_536587943.jpeg"
    ],
    "galleryChecked": "2026-10-24"
@@ -69139,13 +68884,10 @@
    "source": "bulk-clubs",
    "added": "2026-10-23",
    "club": true,
-   "image": "https://secure.meetupstatic.com/photos/event/2/d/4/9/600_466571593.jpeg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://secure.meetupstatic.com/photos/event/2/d/4/9/clean_466571593.webp",
-    "https://secure.meetupstatic.com/photos/event/2/d/4/9/highres_466571593.jpeg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -69617,12 +69359,10 @@
    "verified": "2026-10-22",
    "source": "bulk-conferences",
    "added": "2026-10-22",
-   "image": "https://alf.website/wp-content/uploads/2024/10/Pebbles-3.png",
+   "image": null,
    "logo": "https://alf.website/wp-content/uploads/2024/10/Group-313.webp",
    "imageChecked": "2026-10-22",
-   "gallery": [
-    "https://alf.website/wp-content/uploads/2024/10/Pebbles-1.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -69704,10 +69444,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://images.squarespace-cdn.com/content/v1/685193535b70ba7b31c6d673/1e1230bd-8dab-4429-bc46-0f08835f93dd/%E3%85%88%E1%84%83%E1%85%B2%E1%84%82%E1%85%A3%E1%86%BA%E3%84%B7.png",
-    "https://images.squarespace-cdn.com/content/v1/685193535b70ba7b31c6d673/2655f3b4-06fb-4db1-a5b2-aadcdd46700f/HCONF+2026+%284%29.png",
     "https://images.squarespace-cdn.com/content/v1/685193535b70ba7b31c6d673/8db77dcc-9c1c-4496-99ec-c902d0fd4ff2/hpair+speaking+darker.png?format=2500w",
-    "https://images.squarespace-cdn.com/content/v1/685193535b70ba7b31c6d673/042fc3de-f338-4f75-9877-e4ddda3b4550/2.png?format=2500w",
     "https://images.squarespace-cdn.com/content/v1/685193535b70ba7b31c6d673/7493170b-d418-4637-b355-8cad7d12ad2d/hpair+hconf+charles+medium.png?format=2500w"
    ],
    "galleryChecked": "2026-10-24"
@@ -70260,7 +69997,7 @@
    "verified": "2026-10-22",
    "source": "bulk-conferences",
    "added": "2026-10-22",
-   "image": "https://pi.tedcdn.com/r/s3.amazonaws.com/ted.conferences.profiles/00/00/02/b9/2c/178476.jpg?u%5Br%5D=2&u%5Bs%5D=0.5&u%5Ba%5D=0.8&u%5Bt%5D=0.03&quality=80&w=3840",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -70408,12 +70145,7 @@
    "logo": "https://www.gitex.com/favicon-192.png",
    "imageChecked": "2026-10-22",
    "gallery": [
-    "https://www.gitex.com/images/GitexGlobalDubaiNew.png",
-    "https://www.gitex.com/theme26/images/1.png",
-    "https://www.gitex.com/theme26/images/Huawei.png",
-    "https://www.gitex.com/theme26/images/Telnyx.png",
-    "https://www.gitex.com/theme26/images/legora.png",
-    "https://www.gitex.com/theme26/images/TechDestination-MinistryOfIT&Telecom.png"
+    "https://www.gitex.com/images/GitexGlobalDubaiNew.png"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -70563,7 +70295,6 @@
    "gallery": [
     "https://cdn.prod.website-files.com/69554112f09d4a3da335320a/696e390b5b14912c5f10ad35_SEF-Speakers---Web-273.png",
     "https://cdn.prod.website-files.com/69554112f09d4a3da335320a/696f1560abfd664f7d87c439_SEF-Speakers---Web-325.png",
-    "https://cdn.prod.website-files.com/69554112f09d4a3da335320a/696e2e56a5f159a9dc270589_SEF-Speakers---Web-238.png",
     "https://cdn.prod.website-files.com/69554112f09d4a3da335320a/696e34fc134e15fb6234bf5b_SEF-Speakers---Web-262.png",
     "https://cdn.prod.website-files.com/69554112f09d4a3da335320a/696e3534cd9e6910aaf5d5b6_SEF-Speakers---Web-263.png",
     "https://cdn.prod.website-files.com/69554112f09d4a3da335320a/696e2e3ba5f159a9dc26fd33_SEF-Speakers---Web-237.png"
@@ -71575,10 +71306,7 @@
    "image": "https://hyrox.com/wp-content/uploads/2026/07/1500x1000_egypt-1.jpg",
    "logo": "https://hyrox.com/wp-content/uploads/2026/09/Favicon-300x300.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://maintain.hyrox.com/wp-content/uploads/2026/06/Ah26-Hero-Banner_01.jpg",
-    "https://maintain.hyrox.com/wp-content/uploads/2026/03/RB-Event-Page-DK.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -71784,11 +71512,7 @@
    "image": "https://hyrox.com/wp-content/uploads/2026/10/Naviglio-scaled-1.webp",
    "logo": "https://hyrox.com/wp-content/uploads/2026/09/Favicon-300x300.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://maintain.hyrox.com/wp-content/uploads/2026/06/Ah26-Hero-Banner_01.jpg",
-    "https://maintain.hyrox.com/wp-content/uploads/2026/07/RB-Event-Page-ITA-1.jpg",
-    "https://maintain.hyrox.com/wp-content/uploads/2026/03/Myprotein-Event-Page-Banner-scaled.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -72830,9 +72554,7 @@
    "image": "https://www.ooredoo.qa/web/wp-content/uploads/2026/06/Doha-Marathon-By-Ooredoo.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.ooredoo.qa/web/wp-content/themes/ooredoo-cms/assets/images/mobile-app-banner-2026.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -72906,7 +72628,6 @@
    "gallery": [
     "https://ultra-x.co/uploads/2025/12/ultra-x-jordan-image-5-1638x2048.jpg",
     "https://ultra-x.co/uploads/2025/12/ultra-x-jordan-image-1-2048x2048.jpg",
-    "https://ultra-x.co/uploads/2025/12/UltraX-RacePage-Jordan-Elevation-2026-110-V1-scaled.png",
     "https://ultra-x.co/uploads/2025/12/ultra-x-jordan-image-6-2048x1365.jpg",
     "https://ultra-x.co/uploads/2025/12/ultra-x-jordan-image-7-2048x2048.jpg",
     "https://ultra-x.co/uploads/2025/12/ultra-x-jordan-image-8-2048x1365.jpg"
@@ -73913,9 +73634,7 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23368-639277468936954905.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639277467695399093.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -74604,17 +74323,15 @@
    "verified": "2026-10-24",
    "source": "bulk-entertainment",
    "added": "2026-10-24",
-   "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639232677457524847.png",
+   "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-23285-639263684194249452.jpeg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-23285-639263684194249452.jpeg",
     "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-1105-639229981477779922.jpg",
     "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-1108-639270718498159387.jpg",
     "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-22978-639219701470486888.jpg",
     "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-22999-639278288910991364.JPG",
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-23338-639264525382471619.jpg",
-    "https://cdn.ticketingboxoffice.com/images/SoldOut-big.png"
+    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-23338-639264525382471619.jpg"
    ],
    "galleryChecked": "2026-10-25"
   },
@@ -74738,9 +74455,7 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23285-639263684194249452.jpeg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639256119536737129.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-25"
   },
   {
@@ -74885,9 +74600,7 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-22978-639219701470457270.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639066705114544741.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -74963,9 +74676,7 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-22999-639278288910951732.JPG",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639272358042575053.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -75032,9 +74743,7 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23337-639264859865626164.jpeg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639263673930675578.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -75110,9 +74819,7 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23338-639264525382471619.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639263884375569813.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -75178,9 +74885,7 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23335-639266192221287955.jpeg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639259479021954046.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -75246,9 +74951,7 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23370-639278450496004360.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639278449388402078.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -75384,9 +75087,7 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23375-639283590209278524.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639281954354226709.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -75462,9 +75163,7 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23266-639246307540632141.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639244055026566496.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -75536,9 +75235,7 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23360-639274045077500227.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639274824149826707.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -79644,7 +79341,7 @@
     ]
    ],
    "url": "https://ticketing.as.com.lb/events/hype-fight-night-2026",
-   "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23373-639281026212237430.png",
+   "image": null,
    "confidence": "Medium",
    "caveat": "The listing gives only the name, date, time and venue; fight card and prices not stated.",
    "verified": "2026-10-24",
@@ -79652,11 +79349,7 @@
    "added": "2026-10-24",
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9266/event_cover_ATCL_Aquathlon_for_Ihjoz.jpg",
-    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9221/event_cover_NinexLiaassurex_lLets_run_ihjozbanner_Sep_16_please.jpg",
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23371-639280197488183670.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -79716,11 +79409,7 @@
    "added": "2026-10-24",
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9266/event_cover_ATCL_Aquathlon_for_Ihjoz.jpg",
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23373-639281026212237430.png",
-    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9221/event_cover_NinexLiaassurex_lLets_run_ihjozbanner_Sep_16_please.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -79779,11 +79468,7 @@
    "added": "2026-10-24",
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9291/event_cover_LAUGH_FOR_A_CAUSE.jpg",
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23302-153511.jpg",
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-1109-639270742798180236.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -79906,10 +79591,7 @@
    "added": "2026-10-24",
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9264/event_cover_2F3CDB70-E9FB-40CA-9F69-01D5DF359E7A.jpg",
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23298-639252457649437114.jpeg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -80969,8 +80651,6 @@
    "imageChecked": "2026-10-24",
    "gallery": [
     "https://www.horecashow.com/ContentFiles/6101Image.png?w=1319&h=569",
-    "https://www.horecashow.com/ContentFiles/6099Image.jpg?w=1200&h=300",
-    "https://www.horecashow.com/ContentFiles/9142Image.jpg?w=1200&h=300",
     "https://www.horecashow.com/ContentFiles/5527Image.jpg?w=1200&h=300",
     "https://www.horecashow.com/ContentFiles/549Section1Block1Image.png?w=585&h=454&mode=crop",
     "https://www.horecashow.com/ContentFiles/549Section1Block2Image.jpg?w=585&h=454&mode=crop"
@@ -81808,9 +81488,7 @@
    "image": "https://ielts.org/cdn/ielts-and-partner-logos/ielts-logo-trademark.webp?fit=cover&height=630&width=1200&s=PHK59zgnMCHWDYNdgpvptRd-PCMwrKdKaqOgHhsKZbk",
    "logo": "https://ielts.org/dist/images/favicon/apple-touch-icon.png?1792597643",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://maps.googleapis.com/maps/api/staticmap?center=33.8869774,35.5094009&key=AIzaSyCBNetbmxWSqu5VU9HuSPljF5k_4r8_Rxs&zoom=14&size=400x400&markers=size:large|color:0xe31837|33.8869774,35.5094009"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -81877,9 +81555,7 @@
    "image": "https://ielts.org/cdn/ielts-and-partner-logos/ielts-logo-trademark.webp?fit=cover&height=630&width=1200&s=PHK59zgnMCHWDYNdgpvptRd-PCMwrKdKaqOgHhsKZbk",
    "logo": "https://ielts.org/dist/images/favicon/apple-touch-icon.png?1792597643",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://maps.googleapis.com/maps/api/staticmap?center=33.89592,35.47843&key=AIzaSyCBNetbmxWSqu5VU9HuSPljF5k_4r8_Rxs&zoom=14&size=400x400&markers=size:large|color:0xe31837|33.89592,35.47843"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -82146,7 +81822,7 @@
    "verified": "2026-10-24",
    "source": "bulk-exams",
    "added": "2026-10-24",
-   "image": "https://nasba.org/wp-content/uploads/2025/01/NASBA_IntlMap_Updated.png",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -82597,7 +82273,6 @@
    "logo": "https://en.annahar.com/images/favicon.png",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.annahar.com/Assets/ContentPhotos/Photos/_HUM7301_114411.png",
     "https://www.annahar.com/Assets/ContentPhotos/Photos/Screenshot20251219122847_122858_large.webp"
    ],
    "galleryChecked": "2026-10-24"
@@ -84019,15 +83694,10 @@
    "source": "bulk-festivals",
    "added": "2026-10-24",
    "festival": true,
-   "image": "https://today.lorientlejour.com/assets/images/hacking_lebanese_motclet.png?1",
+   "image": "https://s.lorientlejour.com/storage/attachments/1474/2025-08-14_16-44-27_164865_130e93c1f4580b0252d16cd45166bce9.jpg/r/2400/2025-08-14_16-44-27_164865_130e93c1f4580b0252d16cd45166bce9.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://today.lorientlejour.com/assets/images/cooking/cooking_menu_image.png",
-    "https://s.lorientlejour.com/storage/attachments/1474/2025-08-14_11-28-08_165694_828e10517761bcc31044e01adba0f427.jpg/r/2400/2025-08-14_11-28-08_165694_828e10517761bcc31044e01adba0f427.jpg",
-    "https://s.lorientlejour.com/storage/attachments/1474/2025-08-14_11-32-16_988552_2ff8c1772f4b3f81d45e9acf2d47e349.jpg/r/2400/2025-08-14_11-32-16_988552_2ff8c1772f4b3f81d45e9acf2d47e349.jpg",
-    "https://s.lorientlejour.com/storage/attachments/1474/2025-08-14_16-44-27_164865_130e93c1f4580b0252d16cd45166bce9.jpg/r/2400/2025-08-14_16-44-27_164865_130e93c1f4580b0252d16cd45166bce9.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -84138,8 +83808,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://hammana.gov.lb/sites/default/files/styles/full_width/public/listings/cherryhdr.jpg?itok=eL-bc9gZ",
-    "https://hammana.gov.lb/themes/hammana/images/partners/4e9bccc5dff8e88a313fd59a5c2d6e53.jpg"
+    "https://hammana.gov.lb/sites/default/files/styles/full_width/public/listings/cherryhdr.jpg?itok=eL-bc9gZ"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -84497,7 +84166,6 @@
    "logo": "https://www.baalbeck.org.lb/wp-content/uploads/2016/04/cropped-512x512-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.baalbeck.org.lb/wp-content/uploads/2016/04/news2023-2.jpg",
     "https://www.baalbeck.org.lb/wp-content/uploads/2016/04/portfolio02.jpg",
     "https://www.baalbeck.org.lb/wp-content/uploads/2016/04/portfolio03.jpg",
     "https://www.baalbeck.org.lb/wp-content/uploads/2016/04/JMJ201homepage.jpg"
@@ -85414,12 +85082,9 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://aawsat.com/s3/files/styles/310xauto/public/2026-10/1843624.jpeg.webp",
     "https://static.srpcdigital.com/styles/1037xauto/public/2025-11/1287311.jpeg.webp",
     "https://static.srpcdigital.com/2025-11/1287310.jpeg",
-    "https://static.srpcdigital.com/2025-11/1287309.jpeg",
-    "https://static.srpcdigital.com/styles/657x371/public/2026-01/1326206.jpeg.webp",
-    "https://static.srpcdigital.com/styles/414x217/public/2025-12/1324287.jpeg.webp"
+    "https://static.srpcdigital.com/2025-11/1287309.jpeg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -85476,12 +85141,9 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://aawsat.com/s3/files/styles/310xauto/public/2026-10/1843624.jpeg.webp",
     "https://static.srpcdigital.com/styles/1037xauto/public/2025-11/1287311.jpeg.webp",
     "https://static.srpcdigital.com/2025-11/1287310.jpeg",
-    "https://static.srpcdigital.com/2025-11/1287309.jpeg",
-    "https://static.srpcdigital.com/styles/657x371/public/2026-01/1326206.jpeg.webp",
-    "https://static.srpcdigital.com/styles/414x217/public/2025-12/1324287.jpeg.webp"
+    "https://static.srpcdigital.com/2025-11/1287309.jpeg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -87260,7 +86922,7 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Details come from the BAM by Agenda Culturel listing, which does not publish prices or full opening hours; call before going.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/4457b870d82997ca-fun%26leisure.svg",
+   "image": null,
    "logo": "https://bam.agendaculturel.com/apple-icon.png?abb8010e912d0b56",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -88887,8 +88549,7 @@
     "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/623b259c8895c671aed049a4_WG%20SLIDES4.jpg",
     "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/623b259e561ed759e2ea8683_WG%20SLIDES2.jpg",
     "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/623b259f9ab934b0c396486d_WG%20SLIDES5.jpg",
-    "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/623b279f7e4bf226954ed1bf_WG%20SLIDES6.jpg",
-    "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/62397e882b22fd33e2527053_WG%20lockers.jpg"
+    "https://cdn.prod.website-files.com/5f7dd2ba9d04374e6c4d3dc2/623b279f7e4bf226954ed1bf_WG%20SLIDES6.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -91981,7 +91642,7 @@
    "source": "bulk-fun-places",
    "added": "2026-10-24",
    "caveat": "Prices are from summer 2025 (Lebanon Traveler); 2026 prices were not published.",
-   "image": "https://bamleb.s3.eu-central-1.amazonaws.com/6804f0d3fe38781d-72187590_3466942809990472_2779894900613709824_n.jpeg",
+   "image": null,
    "season": {
     "from": "05-15",
     "to": "10-01",
@@ -92752,9 +92413,7 @@
    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/021/146/datas/large.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/005/021/342/datas/full_width.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -92814,10 +92473,7 @@
    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/828/557/datas/large.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/004/828/558/datas/full_width.jpg",
-    "https://d112y698adiu2z.cloudfront.net/photos/production/judge_photos/004/784/678/datas/large.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -93004,9 +92660,7 @@
    "image": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/366/043/datas/large.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/005/366/045/datas/full_width.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -93123,7 +92777,6 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://framerusercontent.com/images/v6XbHlq6LvjRvt20q6ukQes1Ao.png?width=3876&height=3876",
     "https://framerusercontent.com/images/18AdZuYRU5s3vBbNHJL2dyqfbW8.png?width=512&height=512",
     "https://framerusercontent.com/images/i0n70gkI5ecToRfnr245GjIX6I.png?width=739&height=556"
    ],
@@ -93187,7 +92840,6 @@
    "imageChecked": "2026-10-24",
    "caveat": "The official page has not published any participation rules yet.",
    "gallery": [
-    "https://flu.xxx/sponsors/hetzner.png",
     "https://flu.xxx/logo.png"
    ],
    "galleryChecked": "2026-10-25"
@@ -93359,7 +93011,6 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://framerusercontent.com/images/v6XbHlq6LvjRvt20q6ukQes1Ao.png?width=3876&height=3876",
     "https://framerusercontent.com/images/18AdZuYRU5s3vBbNHJL2dyqfbW8.png?width=512&height=512",
     "https://framerusercontent.com/images/i0n70gkI5ecToRfnr245GjIX6I.png?width=739&height=556"
    ],
@@ -93430,14 +93081,7 @@
    "image": "https://www.worldbank.org/ext/en/careers/talent-programs/media_1a1aef13d7684265a1b152c78292472cf08b4cd7a.avif?width=1200&#x26;format=pjpg&#x26;optimize=medium",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.worldbank.org/ext/en/careers/talent-programs/media_1604433003d22734552ce236684835324e01ee1d6.avif?width=750&#x26;format=avif&#x26;optimize=medium",
-    "https://www.worldbank.org/ext/en/careers/talent-programs/media_1721ece822a84c78df81e049b782d1f9c96d9a7f7.avif?width=750&#x26;format=avif&#x26;optimize=medium",
-    "https://www.worldbank.org/ext/en/careers/talent-programs/media_1fb43022756fb430dd744a1780d52c4c389c1b972.avif?width=750&#x26;format=avif&#x26;optimize=medium",
-    "https://www.worldbank.org/ext/en/careers/talent-programs/media_1475682e26a4ec516c8c45ec22745760c88c68680.avif?width=750&#x26;format=avif&#x26;optimize=medium",
-    "https://www.worldbank.org/ext/en/careers/talent-programs/media_102dd03d59f21b32d9a24d16e22afcc3c1847a78a.avif?width=750&#x26;format=avif&#x26;optimize=medium",
-    "https://www.worldbank.org/ext/en/careers/talent-programs/media_1c691f91d15b462c271699fbeb9fe7c7823f4c11b.avif?width=750&#x26;format=avif&#x26;optimize=medium"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -94208,9 +93852,7 @@
    "image": "https://carnegieendowment.applicantpro.com/images/4/2306/20260331150615-CarnegieEndowment_FBlogo1March26.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://carnegieendowment.applicantpro.com/images/4/2306/20260331145935-CarnegieEndowment_header8March26.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -94276,9 +93918,7 @@
    "image": "https://carnegieendowment.applicantpro.com/images/4/2306/20260331150615-CarnegieEndowment_FBlogo1March26.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://carnegieendowment.applicantpro.com/images/4/2306/20260331145935-CarnegieEndowment_header8March26.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -94400,9 +94040,7 @@
    "image": "https://www.byblosbank.com/images/ShareLogo.jpg",
    "logo": "https://www.byblosbank.com/images/mobileicon.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://byblos.byblosbank.com/files/Library/Images/Careers-1140x475.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -94807,10 +94445,6 @@
    "logo": "https://www.who.int/apple-touch-icon-precomposed.png",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.who.int/images/default-source/fallback/maps/africa8bd96ad167204ac7ac4811b8ae1dfe2c.png?sfvrsn=3204f957_20",
-    "https://www.who.int/images/default-source/fallback/maps/americas.png?sfvrsn=9efd6df3_19",
-    "https://www.who.int/images/default-source/fallback/maps/south-east-asia1c6bd1d9eb5b4cf0b5ad5da36ff3912d.png?sfvrsn=68e76dc2_17",
-    "https://www.who.int/images/default-source/fallback/maps/western-pacifice1e576200c9b4fe59078eb28958428a9.png?sfvrsn=88cbdcd5_19",
     "https://www.who.int/images/default-source/careers/dr-tedros-and-interns.tmb-1920v.jpg?Culture=en&sfvrsn=ad2c4fb_14",
     "https://cdn.who.int/media/images/default-source/careers/guinea-security-guard.png?sfvrsn=242ee082_8"
    ],
@@ -94892,8 +94526,7 @@
    "logo": "https://www.wipo.int/web-assets/images/ulf-wipo-favicon-192.png",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.wipo.int/documents/d/wipo/images-photos-director-general-daren-tang-with-the-young-experts-960.webp",
-    "https://www.wipo.int/documents/d/wipo/images-headshots-oluchi-charlaine-isingozu-640.webp"
+    "https://www.wipo.int/documents/d/wipo/images-photos-director-general-daren-tang-with-the-young-experts-960.webp"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -95947,7 +95580,7 @@
    "verified": "2026-10-24",
    "source": "bulk-lb-leisure",
    "added": "2026-10-24",
-   "image": "https://metromadina.com/wp-content/uploads/2026/10/FLOOR-ZONES-Salma-Mousfi-scaled.jpg",
+   "image": null,
    "logo": "https://metromadina.com/wp-content/uploads/2023/07/cropped-favicon-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -98268,9 +97901,7 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23368-639277468936954905.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639277467695399093.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -98327,9 +97958,7 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23370-639278450496004360.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639278449388402078.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -98387,9 +98016,7 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23337-639264859865626164.jpeg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-639263673930675578.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -98841,14 +98468,7 @@
    "image": "https://ghi.aub.edu.lb/wp-content/uploads/2024/03/Copy-of-creew-swisscross-logo-png.png",
    "logo": "https://ghi.aub.edu.lb/android-chrome-256x256.png?v=4",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://ghi.aub.edu.lb/wp-content/uploads/2026/09/image013-300x180.png",
-    "https://ghi.aub.edu.lb/wp-content/uploads/2026/08/Zeinab-Al-Hajj-300x180.png",
-    "https://ghi.aub.edu.lb/wp-content/uploads/2026/08/Ghina-Abdul-Razzak-300x180.png",
-    "https://ghi.aub.edu.lb/wp-content/uploads/2026/08/Mariam-Ismail-300x180.png",
-    "https://ghi.aub.edu.lb/wp-content/uploads/2026/08/Sarah-El-Habhab-300x180.png",
-    "https://ghi.aub.edu.lb/wp-content/uploads/2026/08/Lara-Mokdad-300x180.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -99043,7 +98663,7 @@
    "source": "bulk-lb-training",
    "added": "2026-10-24",
    "caveat": "Dates, schedules and fees are not published; contact the IFL.",
-   "image": "https://institutfrancais-liban.com/wp-content/uploads/2023/04/Entete-site-3.png",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -99194,9 +98814,6 @@
    "logo": "https://ace.lau.edu.lb/wp-content/uploads/2024/07/Untitled-1-01.jpg",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://ace.lau.edu.lb/wp-content/uploads/2024/11/15310.jpg",
-    "https://ace.lau.edu.lb/wp-content/uploads/2024/11/20586.jpg",
-    "https://ace.lau.edu.lb/wp-content/uploads/2024/11/banking-business-finance-investment-concept.jpg",
     "https://ace.lau.edu.lb/wp-content/uploads/2025/04/IMG_3628-scaled.jpg"
    ],
    "galleryChecked": "2026-10-24"
@@ -99269,8 +98886,6 @@
    "logo": "https://ace.lau.edu.lb/wp-content/uploads/2024/07/Untitled-1-01.jpg",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://ace.lau.edu.lb/wp-content/uploads/2025/10/Heading-2025-10-13T111956.286.png",
-    "https://ace.lau.edu.lb/wp-content/uploads/2025/10/Heading-2025-10-13T111510.616.png",
     "https://ace.lau.edu.lb/wp-content/uploads/2025/10/Heading-2025-10-13T111626.330.png",
     "https://ace.lau.edu.lb/wp-content/uploads/2025/10/Heading-2025-10-13T111543.771.png"
    ],
@@ -99345,15 +98960,10 @@
    "source": "bulk-lb-training",
    "added": "2026-10-24",
    "caveat": "The page gives two different fee figures; aimed at professionals rather than students.",
-   "image": "https://ace.lau.edu.lb/wp-content/uploads/2024/10/2148507853.jpg",
+   "image": null,
    "logo": "https://ace.lau.edu.lb/wp-content/uploads/2024/07/Untitled-1-01.jpg",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://ace.lau.edu.lb/wp-content/uploads/2024/10/131.jpg",
-    "https://ace.lau.edu.lb/wp-content/uploads/2024/10/4290.jpg",
-    "https://ace.lau.edu.lb/wp-content/uploads/2024/10/2147787716.jpg",
-    "https://ace.lau.edu.lb/wp-content/uploads/2024/10/373395.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -99420,7 +99030,7 @@
    "source": "bulk-lb-training",
    "added": "2026-10-24",
    "caveat": "No cohort date published; eligibility not stated. ZAKA is a Lebanon-founded AI school; programme is online.",
-   "image": "https://zaka.ai/wp-content/uploads/2025/11/Screenshot-2025-11-12-at-4.34.34-PM.png",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -99485,15 +99095,10 @@
    "source": "bulk-lb-training",
    "added": "2026-10-24",
    "caveat": "Start date TBA.",
-   "image": "https://zaka.ai/wp-content/uploads/2026/02/image-agent.png",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://zaka.ai/wp-content/uploads/2026/02/Feb-14-2026-02_43_22-AM.png",
-    "https://zaka.ai/wp-content/uploads/2026/05/Global-Education-Group-8-819x1024.png",
-    "https://zaka.ai/wp-content/uploads/2026/09/2.png",
-    "https://zaka.ai/wp-content/uploads/2026/05/Global-Education-Group-16.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -99561,9 +99166,7 @@
    "image": "https://zaka.ai/wp-content/uploads/2025/11/Screenshot-2025-11-11-at-4.57.19-PM.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://zaka.ai/wp-content/uploads/2026/05/114.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -99691,7 +99294,7 @@
    "source": "bulk-lb-training",
    "added": "2026-10-24",
    "caveat": "Start date for 2027 not published.",
-   "image": "https://nawaya.org/wp-content/uploads/2021/12/0001-600x369.jpg",
+   "image": null,
    "logo": "https://nawaya.org/wp-content/uploads/2021/12/cropped-Nawaya-Logo-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -100099,15 +99702,10 @@
    "source": "bulk-lb-training",
    "added": "2026-10-24",
    "caveat": "Enrolment process is via an inquiry form; no automatic online checkout described.",
-   "image": "https://ace.lau.edu.lb/wp-content/uploads/2026/04/portfolio-management.jpg",
+   "image": null,
    "logo": "https://ace.lau.edu.lb/wp-content/uploads/2024/07/Untitled-1-01.jpg",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://ace.lau.edu.lb/wp-content/uploads/2025/11/Heading-8.png",
-    "https://ace.lau.edu.lb/wp-content/uploads/2025/11/Heading-6.png",
-    "https://ace.lau.edu.lb/wp-content/uploads/2025/11/Heading-7.png",
-    "https://ace.lau.edu.lb/wp-content/uploads/2026/06/SnapInsta.to_629311169_18560698171026151_7637618458451383747_n-Edited.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -100179,10 +99777,7 @@
    "logo": "https://ace.lau.edu.lb/wp-content/uploads/2024/07/Untitled-1-01.jpg",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://ace.lau.edu.lb/wp-content/uploads/2025/11/Heading-6.png",
-    "https://ace.lau.edu.lb/wp-content/uploads/2025/11/Heading-7.png",
-    "https://ace.lau.edu.lb/wp-content/uploads/2025/07/Heading-19.png",
-    "https://ace.lau.edu.lb/wp-content/uploads/2025/11/Heading-8.png"
+    "https://ace.lau.edu.lb/wp-content/uploads/2025/07/Heading-19.png"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -101434,16 +101029,10 @@
    "source": "bulk-lb-training",
    "added": "2026-10-24",
    "caveat": "Global online course from a Lebanon-founded AI school; the page mentions both 7-day and 10-day versions.",
-   "image": "https://zaka.ai/wp-content/uploads/2025/11/Screenshot-2025-11-12-at-12.27.48-PM.png",
+   "image": "https://zaka.ai/wp-content/uploads/2025/08/iqFMmGfSz6r7zjlIB8S6_Artificial-Intelligence-For-Everyone.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://zaka.ai/wp-content/uploads/2025/11/Screenshot-2025-11-12-at-12.28.17-PM.png",
-    "https://zaka.ai/wp-content/uploads/2025/11/Screenshot-2025-11-12-at-12.28.34-PM.png",
-    "https://zaka.ai/wp-content/uploads/2025/11/Screenshot-2025-11-12-at-1.22.32-PM.png",
-    "https://zaka.ai/wp-content/uploads/2025/11/Screenshot-2025-11-12-at-1.26.10-PM.png",
-    "https://zaka.ai/wp-content/uploads/2025/08/iqFMmGfSz6r7zjlIB8S6_Artificial-Intelligence-For-Everyone.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -103034,9 +102623,7 @@
    "logo": "https://foodblessed.org/wp-content/uploads/2016/08/fave.png",
    "imageChecked": "2026-10-24",
    "caveat": "The volunteer page states no eligibility rules.",
-   "gallery": [
-    "https://foodblessed.org/wp-content/uploads/2015/09/how-can-i-help-smw.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -103297,9 +102884,7 @@
    "image": "https://www.amideast.org/sites/default/files/images/og_logo.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.amideast.org/sites/default/files/styles/large/public/2025-07/Pio%2C%20Lebanon.jpg?itok=TWfmipXS"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -103666,7 +103251,7 @@
    "verified": "2026-10-22",
    "source": "bulk-lebanon",
    "added": "2026-10-22",
-   "image": "https://www.kas.de/o/kas-de-theme/images/kas_logo_socialmediaquadrat.png",
+   "image": null,
    "logo": "https://www.kas.de/o/kas-de-theme/images/favicons/apple-touch-icon.png",
    "imageChecked": "2026-10-22",
    "gallery": [],
@@ -103738,9 +103323,7 @@
    "gallery": [
     "https://www.shoufcedar.org/uploads/calendar_of_events/300x615/20230730_083956.jpg",
     "https://www.shoufcedar.org/uploads/calendar_of_events/300x615/JG6A2453.JPG",
-    "https://www.shoufcedar.org/uploads/calendar_of_events/300x615/20230819_203845.jpg",
-    "https://www.shoufcedar.org/uploads/experience/Untitled-11-01.jpg",
-    "https://www.shoufcedar.org/uploads/experience/Untitled-11-02.jpg"
+    "https://www.shoufcedar.org/uploads/calendar_of_events/300x615/20230819_203845.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -104059,7 +103642,6 @@
    "logo": "https://amel.org/wp-content/uploads/2024/07/cropped-Amel-Logo-Icon-Transparent-192x192.png",
    "imageChecked": "2026-10-22",
    "gallery": [
-    "https://amel.org/wp-content/uploads/2026/03/Ways-to-Make-a-Difference.jpg",
     "https://amel.org/wp-content/uploads/2026/07/Volunteer-with-amel-scaled.jpg"
    ],
    "galleryChecked": "2026-10-24"
@@ -104121,10 +103703,7 @@
    "image": "https://sanadhospice.org/wp-content/uploads/Thumb.jpg",
    "logo": "https://sanadhospice.org/wp-content/uploads/Sanad-symbol-black-2.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://sanadhospice.org/wp-content/uploads/ted-website-thumbnail.png",
-    "https://sanadhospice.org/wp-content/uploads/bkhatrak-habibi-website-thumbnail2.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -104189,7 +103768,7 @@
    "source": "bulk-lebanon",
    "added": "2026-10-22",
    "caveat": "Start date and deadline not stated; fees quoted are for 2024-2025.",
-   "image": "https://idraac.org/storage/326/conversions/Humedica-Flyer-medium.webp",
+   "image": null,
    "logo": "https://www.idraac.org/images/favicon/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -104253,9 +103832,7 @@
    "image": "https://www.nahno-volunteers.com/uploads/project_vip/cover-261013154313xHyfQ.png",
    "logo": "https://www.nahno-volunteers.com/images/favicon-192.png?v=20260824b",
    "imageChecked": "2026-10-22",
-   "gallery": [
-    "https://www.nahno-volunteers.com/uploads/ngo/profile-240302115637FKVrB.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -104310,7 +103887,6 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.balamand.edu.lb/Style%20Library/Images/DEKCafeteria.jpg",
     "https://www.balamand.edu.lb/Style%20Library/Images/banner/cover11_.jpg",
     "https://www.balamand.edu.lb/Style%20Library/Images/banner/cover2_.jpg",
     "https://www.balamand.edu.lb/Style%20Library/Images/banner/cover5.jpg",
@@ -108221,9 +107797,7 @@
    "image": "https://www.s.u-tokyo.ac.jp/en/images/ogp.png",
    "logo": "https://www.s.u-tokyo.ac.jp/en/images/favicon-96x96.png",
    "imageChecked": "2026-10-22",
-   "gallery": [
-    "https://www.s.u-tokyo.ac.jp/en/images/eb-international.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -108634,13 +108208,10 @@
    "verified": "2026-10-22",
    "source": "bulk-scholarships",
    "added": "2026-10-22",
-   "image": "https://prod-sbfitestch-hcms-sdweb.imgix.net/dam/en/sd-web/FUDsinfzeUMx/eskas.jpg?auto=format",
+   "image": null,
    "logo": "https://www.sbfi.admin.ch/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://prod-sbfitestch-hcms-sdweb.imgix.net/dam/en/sd-web/1Gvu1FQw290R/Schweizer%20Bundes-Exzellenz-Stipendien%20auf%20einen%20Blick.jpg?rect=0%2C0%2C1920%2C1080&w=1024&auto=format",
-    "https://prod-sbfitestch-hcms-sdweb.imgix.net/dam/en/sd-web/TNHEMjuMNHIn/eskas_faq.jpg?rect=0%2C0%2C1920%2C1080&w=1024&auto=format"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -108793,12 +108364,8 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.campusfrance.org/sites/default/files/styles/mobile_menu_image_1_2_et_3/public/menu/2017-10/Fotolia_111175256_Subscription_Monthly_M.jpg?h=16a6d817&itok=EJt0DgN5",
     "https://www.campusfrance.org/sites/default/files/styles/mobile_menu_image_1_2_et_3/public/menu/2017-10/des%20%C3%A9tudes%20d%27excellence.jpg?h=c28d936f&itok=ibNw9LZ6",
-    "https://www.campusfrance.org/sites/default/files/styles/mobile_menu_image_1_2_et_3/public/menu/2017-10/%C3%A9tudiez%20au%20coeur%20de%20l%27europe%20%28mise%20en%20avant%29_1.jpg?h=d17b7671&itok=OcHRg_yB",
-    "https://www.campusfrance.org/sites/default/files/styles/mobile_menu_image_1_2_et_3/public/menu/2026-02/Studio_cflive_2026.JPG?h=adf72fbf&itok=9va8AC5E",
-    "https://www.campusfrance.org/sites/default/files/styles/mobile_menu_image_1_2_et_3/public/menu/2017-10/trouver%20sa%20formation%20%28mise%20en%20avant%29.jpg?h=16a6d817&itok=wjOOe3ut",
-    "https://www.campusfrance.org/sites/default/files/styles/mobile_menu_image_1_2_et_3/public/menu/2017-10/s%27inscrire%20%28article%20g%C3%A9n%C3%A9ral%29.jpg?h=16a6d817&itok=fypuLAG3"
+    "https://www.campusfrance.org/sites/default/files/styles/mobile_menu_image_1_2_et_3/public/menu/2026-02/Studio_cflive_2026.JPG?h=adf72fbf&itok=9va8AC5E"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -108997,12 +108564,10 @@
    "verified": "2026-10-22",
    "source": "bulk-scholarships",
    "added": "2026-10-22",
-   "image": "https://cms.web.hva.nl/sites/default/files/styles/social_media_facebook/public/hva-breed/homepage/20260325hva-maya-final-01-landscape-online-zonder-opmaak.jpg.webp?itok=ToJqH7iq",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cms.web.hva.nl/sites/default/files/styles/1_1_896x896_focal_point_jpg/public/imported/2022-11/collegeld-po.jpg?h=cc76ca32&itok=XFra34PF"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -111457,13 +111022,7 @@
    "image": "https://bamleb.s3.eu-central-1.amazonaws.com/a6d569ba2eee0a14-66021261_389325565105475_4571471247497494528_n.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.popmartworld.com/img/ezugi-gaming.a210830.webp",
-    "https://www.popmartworld.com/img/ubo.cda035b.webp",
-    "https://www.popmartworld.com/img/poker.c6e9994.webp",
-    "https://www.popmartworld.com/img/fishing.c3aa057.webp",
-    "https://www.popmartworld.com/img/e-sports5d6a2b7.webp"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -112281,7 +111840,6 @@
     "https://www.sanstephano.com/images/About%20us/aboutus_600x750B.jpg",
     "https://www.sanstephano.com/images/About%20us/aboutus_600x830.jpg",
     "https://www.sanstephano.com/images/Restaurants/Restaurants.jpg",
-    "https://www.sanstephano.com/images/Art%20&%20Culture%20to%20replace%20with%20ROUTES/Routes.jpg",
     "https://www.sanstephano.com/images/events/wd1.png",
     "https://www.sanstephano.com/images/events/ce1.png"
    ],
@@ -115184,8 +114742,6 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://resthouse-tyr.com.lb/assets/images/slider/home/2.jpg",
-    "https://resthouse-tyr.com.lb/assets/images/slider/home/3.jpg",
     "https://resthouse-tyr.com.lb/assets/images/slider/home/1.jpg",
     "https://resthouse-tyr.com.lb/assets/images/slider/home/0.jpg"
    ],
@@ -115415,9 +114971,7 @@
    "gallery": [
     "https://aubergedetyr.com/wp-content/uploads/2024/04/Untitled-design.png",
     "https://aubergedetyr.com/wp-content/uploads/2024/05/Untitled-design.png",
-    "https://aubergedetyr.com/wp-content/uploads/2024/05/Untitled-design-2.png",
-    "https://aubergedetyr.com/wp-content/uploads/2024/04/6.png",
-    "https://aubergedetyr.com/wp-content/uploads/2024/04/7.png"
+    "https://aubergedetyr.com/wp-content/uploads/2024/05/Untitled-design-2.png"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -116315,11 +115869,10 @@
    "url": "https://beirutmarathon.org/womens-race.php",
    "caveat": "Registration not yet open; Beirut is likely UTC+02:00 on 14 Mar 2027 (DST starts end of March).",
    "deadline": null,
-   "image": "https://beirutmarathon.org/img/click.png",
+   "image": "https://beirutmarathon.org/img/womens-race2023.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://beirutmarathon.org/img/womens-race2023.jpg",
     "https://beirutmarathon.org/img/f.png"
    ],
    "galleryChecked": "2026-10-24"
@@ -116845,7 +116398,7 @@
    "caveat": "Fees and age limits not shown on the official homepage.",
    "deadline": null,
    "feeUSD": null,
-   "image": "https://larnakamarathon.com/wp-content/uploads/2024/09/GetItOnGooglePlay_Badge_Web_color_English.svg",
+   "image": null,
    "logo": "https://larnakamarathon.com/wp-content/uploads/2026/09/RBLIM-Icon-Round-2.png",
    "imageChecked": "2026-10-22",
    "gallery": [],
@@ -117070,12 +116623,10 @@
    ],
    "url": "https://www.dubaimarathon.org/how-to-register",
    "deadline": null,
-   "image": "https://www.dubaimarathon.org/wp-content/uploads/2024/07/RAS-AL-KHAIMAH-HALF-MARATHON-DATE-SET-FOR-2025.jpg",
+   "image": null,
    "logo": "https://www.dubaimarathon.org/wp-content/uploads/2025/10/cropped-fav-dxb-1-192x192.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.dubaimarathon.org/wp-content/uploads/2024/07/RAS-AL-KHAIMAH-HALF-MARATHON-DATE-SET-FOR-2025.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -117215,11 +116766,10 @@
    "url": "https://www.cyprusmarathon.com/",
    "deadline": null,
    "feeUSD": null,
-   "image": "https://cyprusmarathon.com/wp-content/uploads/2025/12/Marathon.png",
+   "image": "https://cyprusmarathon.com/wp-content/uploads/2025/12/img-history.png",
    "logo": "https://cyprusmarathon.com/wp-content/uploads/2026/01/Group-124.png",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://cyprusmarathon.com/wp-content/uploads/2025/12/img-history.png",
     "https://cyprusmarathon.com/wp-content/uploads/2026/05/cyprus-marathon-run-640x840.png",
     "https://cyprusmarathon.com/wp-content/uploads/2026/05/marathon-cyprus-marathon-pafos-640x840.png",
     "https://cyprusmarathon.com/wp-content/uploads/2025/02/Untitled-design-15-2-442x276.webp",
@@ -118660,7 +118210,6 @@
    "imageChecked": "2026-10-24",
    "gallery": [
     "https://www.poseidon-athenshalfmarathon.com/images/2027/races/pahm-countdown-27-1300x400-1.webp",
-    "https://www.poseidon-athenshalfmarathon.com/images/common%20images/jpg/poseidon_gr_assistant_en-1302.jpg",
     "https://poseidon-athenshalfmarathon.com/images/news/2025/poseidon_athens_halfmarathon_25_2.webp",
     "https://poseidon-athenshalfmarathon.com/images/newsletters/2027/flisvos-mascot-27-601.jpg",
     "https://www.poseidon-athenshalfmarathon.com/images/multimedia/slideshow/1/2-marinamass-marina-18.webp"
@@ -119397,9 +118946,7 @@
    "gallery": [
     "https://www.cyclechallenge.ae/media/totgpv3w/img_0393.jpeg",
     "https://www.cyclechallenge.ae/media/xxrbb2r4/img_0387.jpeg",
-    "https://www.cyclechallenge.ae/media/synfaqp1/ip_2520.jpg",
-    "https://www.cyclechallenge.ae/media/sgcdr3ot/garmin-black.png",
-    "https://www.cyclechallenge.ae/media/hlflxlub/untitled-design-37.png"
+    "https://www.cyclechallenge.ae/media/synfaqp1/ip_2520.jpg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -121899,11 +121446,10 @@
    "url": "https://www.thelittlegym.com/lebanon-hazmieh/",
    "confidence": "High",
    "caveat": "Children's programme; prices are not published.",
-   "image": "https://www.thelittlegym.com/wp-content/uploads/2022/06/littlegym-logo-desktop.png",
+   "image": "https://www.thelittlegym.com/wp-content/uploads/2026/09/The-Little-Gym-Fall-Membership-Promo.png",
    "logo": "https://www.thelittlegym.com/lebanon-hazmieh/wp-content/uploads/sites/212/2023/09/cropped-Untitled-512-%C3%97-512-px-5-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.thelittlegym.com/wp-content/uploads/2026/09/The-Little-Gym-Fall-Membership-Promo.png",
     "https://www.thelittlegym.com/lebanon-hazmieh/wp-content/uploads/sites/212/2026/09/LittleGymBDay-952.jpg",
     "https://www.thelittlegym.com/lebanon-hazmieh/wp-content/uploads/sites/212/2026/09/TheLittleGymJan2020-1372-1.jpg",
     "https://www.thelittlegym.com/wp-content/uploads/2026/09/The-Little-Gym-Fall-Birthday-Banner.jpg",
@@ -121996,7 +121542,7 @@
    "url": "https://swatshootingclub.com/",
    "confidence": "Medium",
    "caveat": "Prices, hours, age limits and ID rules are not published.",
-   "image": "https://i.vimeocdn.com/video/738582080_1920x1080.jpg?r=pad",
+   "image": null,
    "logo": "https://img1.wsimg.com/isteam/ip/4495c202-6144-45f5-920f-add0c3864b59/LOGO%20%233.png/:/rs=w:180,h:180,m",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -122235,8 +121781,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/i0OLbTXuOtgzaMwejwnq/media/67c095210aed84262624cc88.jpeg",
-    "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://firebasestorage.googleapis.com/v0/b/highlevel-backend.appspot.com/o/location%2Fi0OLbTXuOtgzaMwejwnq%2Fimages%2FBys1mie20kqRhUuGQTta%2FChIJX0-HmxoXHxURYwiwH3GX1As%2Fmap-2tSSlWzyA-.jpg?alt=media"
+    "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/i0OLbTXuOtgzaMwejwnq/media/67c095210aed84262624cc88.jpeg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -122347,11 +121892,7 @@
    "logo": "https://muayclubbeirut.com/wp-content/uploads/2025/04/cropped-Untitled-4-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://muayclubbeirut.com/wp-content/uploads/2025/04/Untitled-2-1.png",
-    "https://muayclubbeirut.com/wp-content/uploads/2016/12/1kids.png",
-    "https://muayclubbeirut.com/wp-content/uploads/2016/12/2Juniors.png",
-    "https://muayclubbeirut.com/wp-content/uploads/2016/11/3adults.png",
-    "https://muayclubbeirut.com/wp-content/uploads/2016/11/4advanced.png"
+    "https://muayclubbeirut.com/wp-content/uploads/2025/04/Untitled-2-1.png"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -122478,7 +122019,7 @@
    "verified": "2026-10-24",
    "added": "2026-10-24",
    "source": "bulk-sports3",
-   "image": "https://www.crossfit.com/wp-content/uploads/affiliates/60186/schedule/782bb6da2c0f8947bdf6d1d2978302db_1787306329.jpeg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -123260,11 +122801,10 @@
    "url": "https://thebeamstudio.fit/",
    "confidence": "Medium",
    "caveat": "Prices are not shown on the website; booking goes through an external app. No age or other eligibility rules are stated.",
-   "image": "https://cdn.prod.website-files.com/66d9bb39c76814b16027424d/6723d5f522cdf605fa9cd368_reduced.jpg",
+   "image": "https://cdn.prod.website-files.com/66d9bb39c76814b16027424d/67a23443404fe73dfb2c8c09_mobile-version-_0000_f1b2feec-fa80-492a-a01b-7131fe926008.png",
    "logo": "https://cdn.prod.website-files.com/66d9bb39c76814b16027424d/670e5d3e01603b3a7dd8bd72_256X256.png",
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://cdn.prod.website-files.com/66d9bb39c76814b16027424d/67a23443404fe73dfb2c8c09_mobile-version-_0000_f1b2feec-fa80-492a-a01b-7131fe926008.png",
     "https://cdn.prod.website-files.com/66d9bb39c76814b16027424d/67a234442907b8df7590f51d_mobile-version-_0002_a36b015b-3e9a-4dfa-b377-c67dc03f27d3.png",
     "https://cdn.prod.website-files.com/66d9bb39c76814b16027424d/67a23444c0ea8582486dd08e_mobile-version-_0001_d946e805-772b-4ef5-b5b8-d0859dfae753.png",
     "https://cdn.prod.website-files.com/66d9bb39c76814b16027424d/67a23443618ad27409e8be76_mobile-version-_0004_90a0b65e-46cd-4939-8ed2-2ddd60a9725f.png",
@@ -123423,13 +122963,10 @@
    "url": "https://thekalmstudio.com/",
    "confidence": "Medium",
    "caveat": "Prices did not load from the Packages page; no street addresses or eligibility rules are given. kalm also offers pop-up outdoor classes and candlelight yoga.",
-   "image": "https://thekalmstudio.com/wp-content/uploads/2023/08/cropped-cropped-cropped-Kalm-logo-4@2x.png",
+   "image": "https://thekalmstudio.com/wp-content/uploads/2024/06/PHOTO-2024-06-24-13-28-30-2.jpg",
    "logo": "https://thekalmstudio.com/wp-content/uploads/2023/08/cropped-Untitled-design-2023-08-09T172126.955-192x192.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://thekalmstudio.com/wp-content/uploads/2024/06/PHOTO-2024-06-24-13-28-30-2.jpg",
-    "https://thekalmstudio.com/wp-content/uploads/2023/10/loyalty-program.jpeg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -123498,7 +123035,7 @@
    "url": "https://kurvstudiolb.com/",
    "confidence": "Medium",
    "caveat": "Prices are only in a downloadable PDF (not opened). The site appears partly built from a template, so confirm classes and the new-client discount with the studio.",
-   "image": "https://kurvstudiolb.com/wp-content/uploads/2024/08/apple-Medium.png",
+   "image": null,
    "logo": "https://kurvstudiolb.com/wp-content/uploads/2024/08/fav-1-260x260.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -123896,11 +123433,10 @@
    "url": "https://www.wearethephew.com/",
    "confidence": "Low",
    "caveat": "The website's booking buttons do not link to a booking system and the site may not be recently updated; confirm by phone that classes are running. No prices or eligibility rules stated.",
-   "image": "https://www.wearethephew.com/wp-content/uploads/2024/01/Asset-1.png",
+   "image": "https://www.wearethephew.com/wp-content/uploads/2024/01/lagree-2048x1300.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://www.wearethephew.com/wp-content/uploads/2024/01/lagree-2048x1300.jpg",
     "https://www.wearethephew.com/wp-content/uploads/2024/01/cafe.jpg"
    ],
    "galleryChecked": "2026-10-24"
@@ -124152,12 +123688,10 @@
    "url": "https://soarlagree.com/",
    "confidence": "Medium",
    "caveat": "The website sells packs but does not show the class schedule, booking method, pack validity or opening hours; confirm by WhatsApp.",
-   "image": "https://soarlagree.com/cdn/shop/files/preview_images/e94a2436933c42acbb9140ad560a9ac9.thumbnail.0000000000.jpg?v=1743081644&width=3840",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://soarlagree.com/cdn/shop/files/preview_images/e94a2436933c42acbb9140ad560a9ac9.thumbnail.0000000000_1100x.jpg?v=1743081644"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -124788,9 +124322,7 @@
    "image": "https://decathlon.com.lb/cdn/shop/articles/skating_session_dbc823ba-79bb-4b6d-9f27-460cdfa7cd11.png?v=1780993173&width=1024",
    "logo": "https://decathlon.com.lb/cdn/shop/t/13/assets/icon_decathlon.png?v=66265361688787949541754654258",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://decathlon.com.lb/cdn/shop/articles/KIPSTA-FIBA-WASL-Ball-Court-480x171-HQ_4559922d-a377-4946-9537-a77e5ed3c84a.jpg?v=1790083619&width=480"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -128373,7 +127905,7 @@
    "contact": [],
    "url": "https://ratings.fide.com/tournament_information.phtml?event=507110",
    "caveat": "Listed on the FIDE rating server only (registered 19 Oct 2026); venue name is inferred from the city and the organiser's earlier Keshmat events. Fee, prizes and sign-up method not published.",
-   "image": "https://directory.fide.com/img/fide_og_1200.png",
+   "image": null,
    "logo": "https://ratings.fide.com/manifest/apple-touch-icon-iphone-60x60.png",
    "imageChecked": "2026-10-23",
    "gallery": [],
@@ -129897,9 +129429,7 @@
    "added": "2026-10-24",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://kms.nakhal.com/Content/uploads/Package/spanish%20cup%20pic260905124600600~.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -131818,7 +131348,6 @@
     "https://taniatravel.com/wp-content/uploads/2026/02/stari-grad-dubrovnik-pogled-sa-srdja-optimizirano-za-tisak-luka-esenko-3500-scaled.jpg",
     "https://taniatravel.com/wp-content/uploads/2026/02/0x0-sarajevo-mostar-train-one-of-18-dream-routes-in-the-world-1532900672552-1500x1000.jpg",
     "https://taniatravel.com/wp-content/uploads/2026/02/20211101_125604-1500x1000.webp",
-    "https://taniatravel.com/wp-content/uploads/2026/02/allan-politano-view01-01-1500x1000.jpg",
     "https://taniatravel.com/wp-content/uploads/2026/02/trebinje-panorama-1500x1000.jpg"
    ],
    "galleryChecked": "2026-10-25"
@@ -132138,8 +131667,7 @@
     "https://taniatravel.com/wp-content/uploads/2024/12/BANGKOK-CHIANG-MAI-HUA-HIN-1500x1000.webp",
     "https://taniatravel.com/wp-content/uploads/2024/12/City-bankgog.jpeg",
     "https://taniatravel.com/wp-content/uploads/2024/12/Thailand-on-road.jpeg",
-    "https://taniatravel.com/wp-content/uploads/2026/02/4785211-1457246_0_0_2000_1333_1200_800-700x500.webp",
-    "https://taniatravel.com/wp-content/uploads/2025/01/Cyprus-Civil-Marriage-700x446.jpeg"
+    "https://taniatravel.com/wp-content/uploads/2026/02/4785211-1457246_0_0_2000_1333_1200_800-700x500.webp"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -132243,10 +131771,7 @@
    "gallery": [
     "https://taniatravel.com/wp-content/uploads/2025/10/01e97574-city-26166-1592813274a.jpg",
     "https://taniatravel.com/wp-content/uploads/2025/10/big-b-bangkok-1-scaled-1.jpeg",
-    "https://taniatravel.com/wp-content/uploads/2025/10/Temple-Wat-Arun-Bangkok-Thailande-1500x1000.jpeg",
-    "https://taniatravel.com/wp-content/uploads/2026/01/destination-2-nicosia-700x500.jpg",
-    "https://taniatravel.com/wp-content/uploads/2025/03/aqaba-700x500.jpg",
-    "https://taniatravel.com/wp-content/uploads/2025/02/image-9-700x500.png"
+    "https://taniatravel.com/wp-content/uploads/2025/10/Temple-Wat-Arun-Bangkok-Thailande-1500x1000.jpeg"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -132460,11 +131985,7 @@
    "imageChecked": "2026-10-24",
    "gallery": [
     "https://taniatravel.com/wp-content/uploads/2025/02/image-9.png",
-    "https://taniatravel.com/wp-content/uploads/2026/01/Teams-Qatar-2023-Sunday-1500x1000.avif",
-    "https://taniatravel.com/wp-content/uploads/2025/06/upload-1200-700x500.webp",
-    "https://taniatravel.com/wp-content/uploads/2024/12/optional-700x500.jpeg",
-    "https://taniatravel.com/wp-content/uploads/2026/01/stock-spanish-steps-morning-rome-italy-twilight-788996182-700x500.webp",
-    "https://taniatravel.com/wp-content/uploads/2026/05/blog-greece-santorini-sunset-700x500.webp"
+    "https://taniatravel.com/wp-content/uploads/2026/01/Teams-Qatar-2023-Sunday-1500x1000.avif"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -133760,9 +133281,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://concordtravel.com.lb/assets/images/albums/paris-600x400.webp",
-    "https://concordtravel.com.lb/assets/images/albums/roma.webp",
-    "https://concordtravel.com.lb/assets/images/albums/berlin.webp"
+    "https://concordtravel.com.lb/assets/images/albums/paris-600x400.webp"
    ],
    "galleryChecked": "2026-10-24"
   },
@@ -134315,7 +133834,7 @@
    "verified": "2026-10-24",
    "source": "bulk-travel",
    "added": "2026-10-24",
-   "image": "https://www.elajouztravel.com/files/original/versions_tmp/350x161/1399.jpg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -136836,12 +136355,10 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://uclouvain.be/system/files/uclouvain_assetmanager/groups/cms-editors-sic/images/inscriptions_940X616px_calendrier.jpg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://uclouvain.be/system/files/styles/slide_large/private/uclouvain_assetmanager/groups/cms-editors-sic/images/inscriptions_940X616px_calendrier.jpg?h=d2e94ece&itok=y5L42gSm"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -136918,7 +136435,7 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://www.uni-assist.de/fileadmin/_processed_/5/5/csm_Zahlungsoptionen_iStock-616091760_andresr_d65fd92e41.jpg",
+   "image": null,
    "logo": "https://www.uni-assist.de/typo3conf/ext/uniassisttemplates/Resources/Public/Images/Favicons/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -137332,7 +136849,7 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://www.uniroma1.it/sites/default/files/styles/1150_300/public/adobestock_892091625_0.jpeg?itok=2606-lX0&c=ab46272ab088d479e7a59fddcd6cfee3",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -137566,13 +137083,10 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://www.commonapp.org/static/fe3faed599f709352598bcbe7c14ad9b/2289b/application_guide_hero_optimized.jpg",
+   "image": "https://www.commonapp.org/static/1ce730852d298644bd7d03fffcf5da18/FY-walkthrough-2025.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.commonapp.org/static/1ce730852d298644bd7d03fffcf5da18/FY-walkthrough-2025.png",
-    "https://www.commonapp.org/static/b2f362445b3778585def7b5265d14ce8/need-help-common-app-solutions-center_optimized_0.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -137651,7 +137165,6 @@
     "https://www.ku.ac.ae/wp-content/uploads/2021/10/UG-International-teacher-program.jpg",
     "https://www.ku.ac.ae/wp-content/themes/khalifauniversity/assets/img/admissions/undergraduate-admissions/how-to-apply.jpg",
     "https://www.ku.ac.ae/wp-content/uploads/2021/10/ug-admissions-international-student-scholarship-1.jpg",
-    "https://www.ku.ac.ae/wp-content/uploads/2021/08/international-student2.jpg",
     "https://www.ku.ac.ae/wp-content/uploads/2021/09/biomedical_engineering_students-e1635324979970.jpg"
    ],
    "galleryChecked": "2026-10-24"
@@ -137994,13 +137507,10 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://iro.sabanciuniv.edu/sites/iro.sabanciuniv.edu/files/inline-images/Ads%C4%B1z%20%283%29.png",
+   "image": "https://iro.sabanciuniv.edu/sites/iro.sabanciuniv.edu/files/inline-images/Ads%C4%B1z%20%284%29.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://iro.sabanciuniv.edu/sites/iro.sabanciuniv.edu/files/inline-images/Ads%C4%B1z%20%2819%29.png",
-    "https://iro.sabanciuniv.edu/sites/iro.sabanciuniv.edu/files/inline-images/Ads%C4%B1z%20%284%29.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -138160,7 +137670,7 @@
    "verified": "2026-10-24",
    "source": "bulk-uni-abroad",
    "added": "2026-10-24",
-   "image": "https://www.emu.edu.tr/media/c/img_22879_3.jpg?1592201722",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -138974,7 +138484,7 @@
    "source": "bulk-uni-lb",
    "added": "2026-10-24",
    "caveat": "2027-28 calendars not yet published; figures shown are from the 2026-27 cycle as an example.",
-   "image": "https://ul.edu.lb/sites/default/files/2026-06/20260610-ULFI-EnExAn-Bachelor-WebsiteNewsCover.jpg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -139251,10 +138761,7 @@
    "image": "https://balamand.edu.lb/ProspectiveStudents/PublishingImages/FOMApps.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://balamand.edu.lb/Style%20Library/responsive/images/cover_prospective.jpg",
-    "https://balamand.edu.lb/ProspectiveStudents/PublishingImages/Banner/Prospective-Students.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -139922,12 +139429,10 @@
    "source": "bulk-uni-lb",
    "added": "2026-10-24",
    "caveat": "Application deadlines not published on the fees page.",
-   "image": "https://www.jinan.edu.lb/images/banner-bg.jpg",
+   "image": "https://www.jinan.edu.lb/images/jinan-wordmark-bilingual.png",
    "logo": "https://www.jinan.edu.lb/android-chrome-512x512.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.jinan.edu.lb/images/jinan-wordmark-bilingual.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -140209,7 +139714,7 @@
    "source": "bulk-uni-lb",
    "added": "2026-10-24",
    "caveat": "No admission deadlines or nationality rules published.",
-   "image": "https://usal.edu.lb/wp-content/uploads/2025/05/38f0b935-1fbc-4ed6-8383-a5ab47d79975-scaled-e1746948164621-1024x628.jpg",
+   "image": null,
    "logo": "https://usal.edu.lb/wp-content/uploads/2024/07/download-150x150-1.webp",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -140307,9 +139812,7 @@
    "image": "https://www.aul.edu.lb/images/FSFA.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.aul.edu.lb/images/mba1.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -140508,13 +140011,7 @@
    "image": "https://web.aou.edu.lb/assets/common/images/logo.png?v=2",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fbs-main-pic.jpg",
-    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fcs-main-pic.jpg",
-    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fls-main-pic.jpg",
-    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fes-main-pic.jpg",
-    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/gmdt-main-pic.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -140621,13 +140118,7 @@
    "image": "https://web.aou.edu.lb/assets/common/images/logo.png?v=2",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fbs-main-pic.jpg",
-    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fcs-main-pic.jpg",
-    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fls-main-pic.jpg",
-    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/fes-main-pic.jpg",
-    "https://web.aou.edu.lb/assets/aou_assets_new/images/Navigation_Bar/Academic_programs/gmdt-main-pic.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -140699,8 +140190,6 @@
    "imageChecked": "2026-10-24",
    "gallery": [
     "https://www.redcross.org.lb/wp-content/uploads/2020/11/what-it-costs.jpg",
-    "https://www.redcross.org.lb/wp-content/uploads/2020/11/chart-1.jpg",
-    "https://www.redcross.org.lb/wp-content/uploads/2020/11/chart-2.jpg",
     "https://www.redcross.org.lb/wp-content/uploads/2024/10/side-banner_new.jpg"
    ],
    "galleryChecked": "2026-10-24"
@@ -140816,9 +140305,7 @@
    "image": "https://beitelbaraka.org/wp-content/uploads/2026/03/Beit-El-Barka-Logo-1200x675-1.png",
    "logo": "https://beitelbaraka.org/wp-content/uploads/2026/03/cropped-beit-el-baraka-site-icon-192x192.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://beitelbaraka.org/wp-content/uploads/2025/11/impact-transparency-banner-dark.webp"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -140949,12 +140436,10 @@
    "verified": "2026-10-24",
    "source": "bulk-volunteer",
    "added": "2026-10-24",
-   "image": "https://www.autismlebanon.org/web/image/website/1/logo?unique=f5871b5",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.autismlebanon.org/web/image/352-f84d8fc0/pic-4.webp"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -141142,10 +140627,7 @@
    "image": "https://teachforlebanon.org/images/slider/12159e3b-d9aa-404a-9293-cfa882aa9f22_0N1A3430.JPG",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://teachforlebanon.org/images/uploads/SELECTION%20PROCESS-2022-01.png",
-    "https://teachforlebanon.org/images/uploads/TFL-PROCESS-02.jpg?id=123"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -141739,7 +141221,7 @@
    "source": "bulk-volunteer",
    "added": "2026-10-24",
    "caveat": "Age limit, fees and whether Lebanon-based applicants are served are not stated on the page.",
-   "image": "https://aiesec.org/_next/image?url=%2Fassets%2Fimages%2Fgv-youth-hero.jpeg&w=1440&q=75",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -141880,9 +141362,7 @@
    "image": "https://cdn.prod.website-files.com/62ebea99d6671b2fe6fc5043/68b996294fc71b343c306427_Hero%20Header%20(560%20x%20560%20px).png",
    "logo": "https://cdn.prod.website-files.com/62ebea99d6671b2fe6fc5043/638893fe65306f520fb488a0_TarjimlyLogoSquare1-Large.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://cdn.prod.website-files.com/62ebea99d6671b2fe6fc5043/6722285b76088bde5c8980c9_qr.webp"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -141933,12 +141413,10 @@
    "verified": "2026-10-24",
    "source": "bulk-volunteer",
    "added": "2026-10-24",
-   "image": "https://www.bemyeyes.com/wp-content/uploads/2025/10/volunteer.jpg",
+   "image": null,
    "logo": "https://www.bemyeyes.com/wp-content/uploads/2025/02/cropped-favicon-32x32-1-192x192.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.bemyeyes.com/wp-content/uploads/2025/10/VolunteerHero.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -142337,9 +141815,7 @@
    "image": "https://www.7cups.com/static/img/7cupsshare.jpg",
    "logo": "https://www.7cups.com/static/icon/android-chrome-192x192.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://www.7cups.com/static/img/becomeaListener2.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -142563,7 +142039,7 @@
    "verified": "2026-10-24",
    "source": "bulk-volunteer",
    "added": "2026-10-24",
-   "image": "https://proudlebanon.org/wp-content/uploads/2026/03/Donate-Now-Large.jpeg",
+   "image": null,
    "logo": "https://proudlebanon.org/wp-content/uploads/2020/08/cropped-proud-fav-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -142685,16 +142161,10 @@
    "verified": "2026-10-24",
    "source": "bulk-volunteer",
    "added": "2026-10-24",
-   "image": "https://translatorswithoutborders.org/wp-content/uploads/2017/12/TWB-in-2017-Map.png",
+   "image": null,
    "logo": "https://translatorswithoutborders.org/wp-content/uploads/2022/07/favicon-TWB-logo.png?ver=1789727092",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://translatorswithoutborders.org/wp-content/uploads/2022/12/Sifat-Noor-member-of-the-TWB-Community.png?ver=1789727092",
-    "https://translatorswithoutborders.org/wp-content/uploads/2022/12/Barbara-TWB-community-member.png?ver=1789727092",
-    "https://translatorswithoutborders.org/wp-content/uploads/2022/09/Stefan-D-e1670250895683.jpg?ver=1789727092",
-    "https://translatorswithoutborders.org/wp-content/uploads/2022/09/Jean-Bellefleur.jpg?ver=1789727092",
-    "https://translatorswithoutborders.org/wp-content/uploads/2022/09/Gladis.jpg?ver=1789727092"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -142806,11 +142276,10 @@
    "verified": "2026-10-24",
    "source": "bulk-volunteer",
    "added": "2026-10-24",
-   "image": "https://www.missingmaps.org/assets/images/home/hero.svg",
+   "image": "https://missingmaps.org/assets/images/home/participate1.webp",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
-    "https://missingmaps.org/assets/images/home/participate1.webp",
     "https://missingmaps.org/assets/images/home/participate2.webp",
     "https://missingmaps.org/assets/images/home/participate3.webp",
     "https://missingmaps.org/assets/uploads/20260707-ebola-mapping_msf372299.webp",
@@ -142937,9 +142406,7 @@
    "image": "https://thb.tildacdn.net/tild3731-6538-4062-b639-636361343764/-/resize/504x/LiveLove_Black_logo.png",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://static.tildacdn.net/tild3834-3537-4163-b564-613538646636/2560px-Deutsche_Gese.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -143112,12 +142579,10 @@
    "source": "bulk-volunteer",
    "added": "2026-10-24",
    "caveat": "For the local editors' community (Wikimedians of the Levant) see the separate club listing.",
-   "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/BW41_Schliengen.jpg/1280px-BW41_Schliengen.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/How_to_edit_a_page_Edit_box.png/960px-How_to_edit_a_page_Edit_box.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -143178,12 +142643,10 @@
    "verified": "2026-10-24",
    "source": "bulk-volunteer",
    "added": "2026-10-24",
-   "image": "https://utopialebanon.org/wp-content/uploads/2024/09/get-involved-01-300x273.png",
+   "image": null,
    "logo": "https://utopialebanon.org/wp-content/uploads/2017/03/dark-emblem-UTOPIA-02.png",
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://utopialebanon.org/wp-content/uploads/2024/09/get-involved-01.png"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24"
   },
   {
@@ -143467,12 +142930,10 @@
    "url": "https://www.ticketingboxoffice.com/lebanon-lbn-vs-japan-jpn-tickets/event/23371/en",
    "caveat": "The page does not name the sport or competition (a 'Court side' category suggests basketball); organiser not stated.",
    "source": "ent-ticketing-box-office-virgin-le",
-   "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23371-639280197488183670.png",
+   "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-638973351918959245.jpeg",
    "logo": null,
    "imageChecked": "2026-10-25",
-   "gallery": [
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/HallBigPic-0-638973351918959245.jpeg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-25"
   },
   {
