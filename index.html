@@ -791,7 +791,7 @@ function stockFor(o){
 // Only real images: the event's own photos/flyer, else the organiser's logo, else a real photo of the activity.
 // A real topic photo always sits underneath, so a broken image falls back to a photo, never to drawn art.
 function picture(o,full){
-  const s=stockFor(o),img=(src,cls="photo",extra="")=>`<img class="${cls}" src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" ${/base/.test(cls)?"":'onload="fitImg(this)"'} ${extra}>`;
+  const s=null/* no stock photos: only the event's own pictures or the organiser's logo */,img=(src,cls="photo",extra="")=>`<img class="${cls}" src="${esc(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" ${/base/.test(cls)?"":'onload="fitImg(this)"'} ${extra}>`;
   const base=s?img(s.src,"photo base","onerror=\"this.remove()\""):"";
   // A post's own video plays first (muted until you tap the sound button).
   if(full&&o.video)return{html:base+`<video class="photo" src="${esc(o.video)}" ${o.image?`poster="${esc(o.image)}"`:""} muted loop playsinline preload="metadata" data-vid="${o.id}"></video><button class="snd" data-snd="${o.id}">🔇 Sound</button>`,tag:"Video from the organiser"};
