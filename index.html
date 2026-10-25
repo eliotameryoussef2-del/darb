@@ -66,6 +66,8 @@ html[dir=rtl] .title,html[dir=rtl] .nt{direction:ltr;unicode-bidi:plaintext;text
 .logotile{position:absolute;inset:13% 27% 42%;background:#fff;border-radius:22px;display:grid;place-items:center;padding:22px;box-shadow:0 12px 40px rgba(0,0,0,.35)}
 .logotile.inline{position:static;width:96px;height:96px;padding:12px;border-radius:20px;box-sizing:border-box;box-shadow:0 8px 28px rgba(0,0,0,.4)}
 .logotile img{max-width:100%;max-height:100%;object-fit:contain}
+.logotile.mono span{font:800 64px/1 var(--display,inherit);color:#222}
+.thumb .logotile.mono span{font-size:22px}
 /* category-tinted fade: the picture stays bright on top, text sits on the category colour below */
 .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,14,17,.6) 0%,rgba(12,14,17,0) 14%,rgba(12,14,17,0) 26%,rgba(12,14,17,.7) 42%,rgba(12,14,17,.95) 58%,var(--ink) 70%)}
 .info .title,.info .org{text-shadow:0 1px 12px rgba(0,0,0,.6)}
@@ -800,9 +802,17 @@ function picture(o,full){
   if(o.image)return{html:base+img(o.image,"photo","onerror=\"this.remove()\""),tag:"Photo from the organiser"};
   if(o.logo){const tile=`<div class="logotile${full?" inline":""}"><img src="${esc(o.logo)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.parentNode.remove()"></div>`;
     // On feed cards the logo sits inside the text block (above the label) so it can never overlap the title.
-    return{html:(s?img(s.src,"photo base soft","onerror=\"this.remove()\""):"")+(full?"":tile),tile:full?tile:"",tag:"Organiser logo"}}
+    return{html:(s?img(s.src,"photo base soft","onerror=\"this.remove()\""):"")+(full?tile.replace("logotile inline","logotile"):tile),tile:"",tag:"Organiser logo"}}
   if(s)return{html:base,tag:"Photo of the activity · Wikimedia Commons"};
-  return{html:"",tag:""};
+  // No picture: the organiser's real logo (its website icon) in a white tile, or its initial.
+  // Job boards' and listing sites' icons are not the organiser's, so those get the initial.
+  {
+    let dom="";try{dom=new URL(o.url).hostname.replace(/^www\./,"")}catch(e){}
+    const board=/smartrecruiters|workable|bamboohr|myworkdayjobs|oraclecloud|himalayas|jobicy|remoteok|weworkremotely|linkedin|indeed|bayt|greenhouse|lever\.co|eventbrite|instagram|facebook|google|agendaculturel|beirut\.com|lebanontraveler|ihjoz|ticketing|skileb/i.test(dom);
+    const initial=`<div class="logotile mono"><span>${escHTML(orgName(o).replace(/^the\s+/i,"").slice(0,1).toUpperCase())}</span></div>`;
+    if(dom&&!board&&!o.job)return{html:`<div class="logotile" data-alt="${esc(initial)}"><img src="https://www.google.com/s2/favicons?domain=${encodeURIComponent(dom)}&sz=256" alt="" loading="lazy" onload="if(this.naturalWidth<64)this.parentNode.outerHTML=this.parentNode.dataset.alt" onerror="this.parentNode.outerHTML=this.parentNode.dataset.alt"></div>`,tag:"Organiser logo"};
+    return{html:initial,tag:""};
+  }
 }
 // Wide banners (a company name cut to "ce"), tall strips and small thumbnails would be cropped
 // or blurry as a full-screen photo, so they are shown whole on white.
