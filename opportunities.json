@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T20:54:47.759Z",
+ "updated": "2026-10-27T21:01:21.400Z",
  "count": 2952,
  "opportunities": [
   {
@@ -907,7 +907,7 @@
    "gallery": [
     "https://www.antoineticketing.com/_next/image?url=https%3A%2F%2Ftixity.antoineticketing.com%2Ffiles%2Fevent_banner_6825__1788335572.jpg&w=3840&q=75"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Ticketed Arabic stage show at Théâtre Le Monnot in Beirut, by Zeina Daccache and Karim Chebli, for a night out at the theatre.",
    "skills": "none",
@@ -2812,7 +2812,7 @@
     "https://tixity.antoineticketing.com/files/event_gallery_6852_1__1788764710.jpg",
     "https://tixity.antoineticketing.com/files/event_gallery_6852_2__1792392690.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Ticketed stage show by Ralph S. Maatouk at District 7 in Saifi, Beirut.",
    "skills": "none",
@@ -4674,7 +4674,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Four restored films starring Monica Vitti and directed by Antonioni, screened at Metropolis Cinema in Beirut from 28 to 31 October.",
    "skills": "none",
@@ -4890,7 +4890,7 @@
    "gallery": [
     "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9284/event_cover_3x_JM_Diner_Ihjoz_Banners.jpg.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Ticketed dinner-concert nights at J/M Diner-Concert in Beirut with oriental disco, tarab and pop music.",
    "skills": "none",
@@ -4955,7 +4955,7 @@
    "gallery": [
     "https://www.antoineticketing.com/_next/image?url=https%3A%2F%2Ftixity.antoineticketing.com%2Ffiles%2Fevent_banner_6982__1789644547.jpg&w=3840&q=75"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Ticketed family play by Abdo Nawar at Theatre Tournesol, suitable for parents to enjoy with children.",
    "skills": "none",
@@ -6407,7 +6407,7 @@
    "gallery": [
     "https://www.antoineticketing.com/_next/image?url=https%3A%2F%2Ftixity.antoineticketing.com%2Ffiles%2Fevent_banner_7059__1790246804.jpg&w=3840&q=75"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Ticketed play by Maya P. Souhaid at Théâtre Le Monnot in Beirut.",
    "skills": "none",
@@ -9411,9 +9411,14 @@
    "verified": "2026-10-27",
    "source": "opportunity-desk",
    "added": "2026-10-27",
-   "image": null,
+   "image": "https://d186y8p8mms174.cloudfront.net//fit-in/750x750//20250408_104315498_i_OS_a615136605.png",
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [
+    "https://d186y8p8mms174.cloudfront.net//fit-in/450x600//emmanuel_400x400_eef0abc1eb.jpg",
+    "https://d186y8p8mms174.cloudfront.net//fit-in/450x600//Meg_400x400_41ac33102b.jpg"
+   ],
+   "galleryChecked": "2026-10-27"
   },
   {
    "id": "ex-cfa-feb-2027",
@@ -9909,7 +9914,9 @@
    "added": "2026-10-27",
    "image": "https://static.wixstatic.com/media/04bfff_b6dc1f76ed534601b868b2606185d813%7Emv2.png/v1/fit/w_2500,h_1330,al_c/04bfff_b6dc1f76ed534601b868b2606185d813%7Emv2.png",
    "logo": "https://static.wixstatic.com/media/04bfff_d66df79fc6e1408d89b46fd59e6a7b2b%7Emv2_d_1595_1582_s_2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/04bfff_d66df79fc6e1408d89b46fd59e6a7b2b%7Emv2_d_1595_1582_s_2.png",
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "cat": "career",
@@ -10292,7 +10299,7 @@
     "https://tixity.antoineticketing.com/files/event_gallery_6683_1__1787221926.jpg",
     "https://tixity.antoineticketing.com/files/event_gallery_6683_2__1788430565.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Ticketed social comedy play about mixed marriages at Theatre Tournesol in Beirut.",
    "skills": "none",
@@ -12250,7 +12257,7 @@
     "https://www.salehbarakatgallery.com/Content/uploads/ExhibitionImage/1930_jb-06cf.jpg",
     "https://www.salehbarakatgallery.com/Content/uploads/ExhibitionImage/4819_jb-07cf.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Exhibition of Jean Boghossian's artwork at Saleh Barakat Gallery in Beirut.",
    "skills": "none",
@@ -14722,7 +14729,12 @@
    "added": "2026-10-27",
    "image": "https://img.itch.zone/aW1nLzI5ODk5MDY3LnBuZw==/original/d9g8SA.png",
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [
+    "https://img.itch.zone/aW1nLzI5ODk5MDY3LnBuZw==/508x254%23mb/kK4Rq%2B.png",
+    "https://img.itch.zone/aW1nLzMwNzk3MzU4LnBuZw==/original/JRRHBQ.png"
+   ],
+   "galleryChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -15955,7 +15967,9 @@
    "added": "2026-10-27",
    "image": "https://v.fastcdn.co/u/0bc8903d/66062192-0-Xylem-2026--Facebook.png",
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "id": "marathon",
@@ -17839,7 +17853,7 @@
     "https://i0.wp.com/lesmusicales.org/wp-content/uploads/2026/10/Musicales-2026-Fall-Season-65.png?w=1350&ssl=1",
     "https://i0.wp.com/lesmusicales.org/wp-content/uploads/2026/10/Musicales-2026-Fall-Season-41.png?w=1080&ssl=1"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "festival",
    "desc": "Music festival in Baabdath for its 10th anniversary, with mostly free concerts.",
    "skills": "none",
@@ -18265,7 +18279,7 @@
    "logo": "https://agendaculturel.com/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Photography exhibition at Beit Beirut by Catherine Cattaruzza, free to explore.",
    "skills": "none",
@@ -19919,9 +19933,11 @@
    "verified": "2026-10-27",
    "source": "opportunity-desk",
    "added": "2026-10-27",
-   "image": "https://www.hertie-school.org/fileadmin/_processed_/e/c/csm_CIS_Explosion_b0629f7427.jpg",
+   "image": null,
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -25851,7 +25867,7 @@
    "logo": "https://agendaculturel.com/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "place",
    "desc": "Exhibition at the Lebanese National Library exploring the history of the Lebanese Constitution.",
    "skills": "none",
@@ -29425,7 +29441,13 @@
    "added": "2026-10-27",
    "image": "https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/styles/1200x630/public/2024-10/main_page_2.jpg?itok=7MZNDG_B",
    "logo": "https://cddrl.fsi.stanford.edu/themes/custom/stanford_fsi/apple-touch-icon.png",
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [
+    "https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/styles/480x430/public/2025-09/ff15ca81-8120-4a66-b661-30878b4dd7f3-63390-00003821f3e38f79.jpg?h=a964989f&itok=KQHicu2w",
+    "https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/styles/480x270/public/2025-09/ffsf_how_to_apply.jpg?h=8c1344d8&itok=RpuZ4M2r",
+    "https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/styles/480x270/public/2026-10/RSD26_038_0054a.jpg?h=a7351c19&itok=iU6TmI6s"
+   ],
+   "galleryChecked": "2026-10-27"
   },
   {
    "id": "ua-ucas-undergraduate-2027",
@@ -30255,7 +30277,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "place",
    "desc": "Art exhibition by Ali Merhi at Ashkal Alwan in Beirut.",
    "skills": "none",
@@ -37728,7 +37750,9 @@
    "added": "2026-10-27",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "id": "lb-aub-fas-undergraduate-research-fund-2027",
@@ -38606,9 +38630,11 @@
    "verified": "2026-10-27",
    "source": "greatyop",
    "added": "2026-10-27",
-   "image": null,
+   "image": "https://utwente.becdn.net/.wh/ea/uc/ia456c1fd01020b3b2700eef4f6024e108be5f9f7d6320701c20000000280/campus.avif",
    "logo": "https://utwente.becdn.net/.utdesign/img/favicons/apple-touch-icon.png",
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "id": "ua-american-university-of-sharjah-bachelor-2027",
@@ -42442,7 +42468,7 @@
    "imageChecked": "2026-10-24",
    "caveat": "The page does not say whether non-LAU students may attend.",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "A week of career sessions at LAU's business school on CVs, LinkedIn and getting job-ready. Register for each session you want to attend.",
    "skills": "none",
@@ -43148,7 +43174,7 @@
     "https://portfolionight.com/wp-content/uploads/2026/08/LEBANON-NEGATIVE-RGB-scaled.jpg",
     "https://portfolionight.com/wp-content/uploads/2026/08/LEBANON-NEGATIVE-RGB-2048x2048.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Evening where senior students and fresh grads show their creative portfolios to agency professionals and get feedback, hosted by IAA Lebanon.",
    "skills": "specific",
@@ -58164,7 +58190,7 @@
     "https://institutfrancais-liban.com/wp-content/uploads/2026/10/b8YX9E9LrAtqfy2f1pQTdHTmBIIuj5u20L87GY7w3tGuXvMAYoGUCQ-cover-full.jpg",
     "https://institutfrancais-liban.com/wp-content/uploads/2026/10/d66a05e5f0a595be2f6d9601a89212b69bdd5347d4f5f65a089c583479c093c0.jpg"
    ],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "club",
    "desc": "Monthly French-language book club at the Institut francais library where members read and talk about books together.",
    "skills": "specific",
@@ -58669,7 +58695,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "conference",
    "desc": "Talk with illustrator Raed Charaf about his work and creative process, held at LAU.",
    "skills": "none",
@@ -58730,7 +58756,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Screening of an Italian film at LAU, organised with the Italian Embassy and cultural institute.",
    "skills": "none",
@@ -59247,7 +59273,7 @@
    "gallery": [
     "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9263/event_cover_3x_A62FBB74-3EA2-41B6-A9E4-472FB24D560C.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "class",
    "desc": "Workshop in Tripoli using art, music and movement to help you express yourself. No art or movement experience needed.",
    "skills": "none",
@@ -59329,7 +59355,7 @@
    "gallery": [
     "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9264/event_cover_3x_2F3CDB70-E9FB-40CA-9F69-01D5DF359E7A.jpg"
    ],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "class",
    "desc": "Workshop in Tripoli on journaling and writing as a way to reflect and express yourself.",
    "skills": "none",
@@ -61650,7 +61676,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "conference",
    "desc": "A student-organised symposium on breast cancer awareness with talks about prevention and early detection.",
    "skills": "none",
@@ -61711,7 +61737,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "A Halloween night at LAU with pizza making in pairs, a costume contest and a movie night.",
    "skills": "none",
@@ -61773,7 +61799,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "A fundraising yoga session raising money and awareness for breast cancer; beginners can join in.",
    "skills": "none",
@@ -61841,11 +61867,11 @@
    "source": "bulk-campus",
    "added": "2026-10-24",
    "caveat": "Calendar entry gives no description, audience, fee or registration details.",
-   "image": "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "A family-friendly museum adventure at the AUB Archaeological Museum, discovering Greek gods and myths through the collection.",
    "skills": "none",
@@ -61912,7 +61938,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "conference",
    "desc": "A public discussion on how governments follow through on feminist foreign policy pledges and what lessons have been learned.",
    "skills": "none",
@@ -61979,7 +62005,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "conference",
    "desc": "A book talk about how Jewish and Greek communities ran businesses in Egypt before the Nasser era.",
    "skills": "none",
@@ -62047,7 +62073,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "conference",
    "desc": "A lecture on the life and writing of Elias Khoury, a leading figure in the modern Arabic novel.",
    "skills": "none",
@@ -62120,7 +62146,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "conference",
    "desc": "A talk on how America has been imagined and invented, presented by a speaker from the American Studies centre at AUB.",
    "skills": "none",
@@ -64271,7 +64297,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "class",
    "desc": "A workshop on finding people's hidden needs to define the right problem to solve; no design experience needed.",
    "skills": "none",
@@ -64343,7 +64369,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "conference",
    "desc": "An online guest lecture on how shared food spaces can work as social infrastructure in cities.",
    "skills": "none",
@@ -65148,11 +65174,11 @@
    "source": "bulk-campus",
    "added": "2026-10-24",
    "caveat": "Bare calendar listing: no description, audience, fee or registration details on the official page.",
-   "image": null,
+   "image": "https://www.rhu.edu.lb/images/ShareLogo.JPG",
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "A campus event at RHU raising awareness about breast cancer.",
    "skills": "none",
@@ -65213,7 +65239,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "conference",
    "desc": "A career talk on the roadmap to becoming an AI engineer and what skills to learn.",
    "skills": "beginner",
@@ -82010,7 +82036,7 @@
    "gallery": [
     "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9257/event_cover_3x_003fd8a7-e7f0-445a-949b-854e196be8c9.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Live night of tarab (classic Arabic) and shaabi songs by singer Faraj Hanna at a Tripoli venue.",
    "skills": "none",
@@ -82095,7 +82121,7 @@
    "gallery": [
     "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9259/event_cover_3x_georges-leandra-ihjoz.jpg.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Charity concert night at O Beirut with singer George Tawil, raising support for Leandra.",
    "skills": "none",
@@ -82794,7 +82820,7 @@
    "gallery": [
     "https://www.antoineticketing.com/_next/image?url=https%3A%2F%2Ftixity.antoineticketing.com%2Ffiles%2Fevent_banner_7098__1790585469.jpg&w=3840&q=75"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "competition",
    "desc": "Lebanese heat of the global Wacken Metal Battle, where metal bands compete live for a place in the international final. Fans can attend to watch.",
    "skills": "specific",
@@ -82929,7 +82955,7 @@
    "gallery": [
     "https://www.antoineticketing.com/_next/image?url=https%3A%2F%2Ftixity.antoineticketing.com%2Ffiles%2Fevent_banner_7300__1791264410.png&w=3840&q=75"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Stage show at Théâtre Le Monnot by Dreamers Japan in Lebanon, a cultural encounter built around Japanese ideas and performance.",
    "skills": "none",
@@ -83327,9 +83353,10 @@
     "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-1108-639270718498159387.jpg",
     "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-22978-639219701470486888.jpg",
     "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-22999-639278288910991364.JPG",
-    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-23338-639264525382471619.jpg"
+    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-23338-639264525382471619.jpg",
+    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-23335-639266192221287955.jpeg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Concert at Casino du Liban with Hiba Tawaji and Oussama Rahbani marking 25 years of the Bassma songs.",
    "skills": "none",
@@ -83398,7 +83425,7 @@
    "logo": "https://www.casinoduliban.com.lb/logo192.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Lebanese pop singer Joseph Attieh performs live in the Salle des Ambassadeurs at Casino du Liban.",
    "skills": "none",
@@ -83465,8 +83492,15 @@
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23285-639263684194249452.jpeg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "gallery": [
+    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-1105-639229981477779922.jpg",
+    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-1108-639270718498159387.jpg",
+    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-22978-639219701470486888.jpg",
+    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-22999-639278288910991364.JPG",
+    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-23338-639264525382471619.jpg",
+    "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-Pres-T-23335-639266192221287955.jpeg"
+   ],
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Live Arabic love-song night (Laylet Hob) with singer Salah El Kurdi in Tripoli.",
    "skills": "none",
@@ -84629,7 +84663,7 @@
    "gallery": [
     "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9273/event_cover_3x_JO%C3%8BLLE___EL%C4%B0O.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Oriental dance party at Meen Beirut with Arabic dance music and a fun crowd.",
    "skills": "none",
@@ -84784,7 +84818,7 @@
    "logo": "https://www.casinoduliban.com.lb/logo192.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Concert with singers Zein El Omr and Aline Khalaf at Casino du Liban.",
    "skills": "none",
@@ -85553,7 +85587,7 @@
    "gallery": [
     "https://www.antoineticketing.com/_next/image?url=https%3A%2F%2Ftixity.antoineticketing.com%2Ffiles%2Fevent_banner_7100__1790746406.jpg&w=3840&q=75"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Theatre play Radio Transistor with Adon Khoury and Yara Zakhour.",
    "skills": "none",
@@ -85614,7 +85648,7 @@
    "logo": "https://agendaculturel.com/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Theatre play at Théâtre Athénée Jounieh.",
    "skills": "none",
@@ -85677,7 +85711,7 @@
    "logo": "https://agendaculturel.com/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Art exhibition at Zico House in Beirut. Walk in and view the works.",
    "skills": "none",
@@ -85741,7 +85775,7 @@
    "logo": "https://agendaculturel.com/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Exhibition of paintings by artist Armen Gevorgian at Le Yacht Club, Beirut.",
    "skills": "none",
@@ -85805,7 +85839,7 @@
    "logo": "https://agendaculturel.com/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Gallery show of artworks drawn with BIC ballpoint pens by Farid Schoucair and 12 designers.",
    "skills": "none",
@@ -85869,7 +85903,7 @@
    "logo": "https://agendaculturel.com/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Exhibition of drawings and paintings by Mohsen Shaalan inspired by Van Gogh's poppy flower.",
    "skills": "none",
@@ -85933,7 +85967,7 @@
    "logo": "https://agendaculturel.com/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Second part of an exhibition of photo-based artworks at Labyrinthe.",
    "skills": "none",
@@ -85997,7 +86031,7 @@
    "logo": "https://agendaculturel.com/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Exhibition of oil and watercolour paintings by Michel Chidia at Galerie Cheriff Tabet.",
    "skills": "none",
@@ -86708,7 +86742,7 @@
    "logo": "https://agendaculturel.com/apple-touch-icon.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "club",
    "desc": "Weekly children's choir in Beirut where kids who love singing can join and perform together.",
    "skills": "beginner",
@@ -86852,7 +86886,7 @@
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "One-hour stand-up comedy special by Nicolas Tawk at awk.word comedy club.",
    "skills": "none",
@@ -86985,7 +87019,7 @@
     ]
    ],
    "url": "https://ticketing.as.com.lb/events/ahmed-hassan-we-need-to-talk",
-   "image": "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2FCj5lsb3BdMTaRFZcHBfb%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=1136ac56-8347-4474-bad2-15357c0aafb7",
+   "image": "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2FNp3VYxZ2Q0Gbz66RhbiD%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=35897537-2c68-4f13-9a19-9ce60ed10381",
    "confidence": "High",
    "caveat": "Ticket price not shown on the AS Ticketing Hub listing; ask when reserving.",
    "verified": "2026-10-24",
@@ -86994,7 +87028,7 @@
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Stand-up comedy show by Ahmed Hassan at Hidden Cellar Beirut.",
    "skills": "none",
@@ -87064,7 +87098,7 @@
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "competition",
    "desc": "Stand-up comedy contest where comedians perform to win over the audience, at Hidden Cellar Beirut. Come to watch the acts.",
    "skills": "none",
@@ -87125,7 +87159,7 @@
     ]
    ],
    "url": "https://ticketing.as.com.lb/events/wednesday-4-comedy-halloween-edition",
-   "image": "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2FCj5lsb3BdMTaRFZcHBfb%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=1136ac56-8347-4474-bad2-15357c0aafb7",
+   "image": null,
    "confidence": "High",
    "caveat": "Ticket price not shown on the AS Ticketing Hub listing; ask when reserving.",
    "verified": "2026-10-24",
@@ -87134,7 +87168,7 @@
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Halloween comedy night where several comedians perform in costume.",
    "skills": "none",
@@ -88330,7 +88364,7 @@
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Comedy afternoon for kids aged 8 to 12 to enjoy stand-up made for their age.",
    "skills": "none",
@@ -90085,7 +90119,7 @@
    "gallery": [
     "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9289/event_cover_3x_Untitled_design.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Party on a moving bus, billed as Lebanon's first, so you dance while travelling.",
    "skills": "none",
@@ -90290,7 +90324,7 @@
    "logo": "https://www.beirut.com/wp-content/themes/ThisIs/src/assets/images/sites/beirut/android-icon-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "festival",
    "desc": "Free screenings of restored Lebanese films across nine venues, in its second edition.",
    "skills": "none",
@@ -90433,9 +90467,12 @@
    "imageChecked": "2026-10-24",
    "gallery": [
     "https://platinumlist.net/guide/wp-content/uploads/2026/10/Dream-Park-Lebanon.jpg",
+    "https://platinumlist.net/guide/wp-content/uploads/2025/11/category-list-scaled.webp",
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/girl-makeup-by-Confi-Cosmetics.jpg",
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/Rib-Room-steak-and-fries.jpg",
     "https://platinumlist.net/guide/wp-content/uploads/2026/10/4042-petit-ours-brun-image1.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Halloween at Dream Park for kids, with witches, magic shows and parades over two Sundays.",
    "skills": "none",
@@ -90569,10 +90606,14 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/girl-makeup-by-Confi-Cosmetics.jpg",
     "https://platinumlist.net/guide/wp-content/uploads/2026/10/Jomeer-body-cream.jpg",
+    "https://platinumlist.net/guide/wp-content/uploads/2025/11/category-list-scaled.webp",
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/Pumpkin-Headed-Carnival-Performer.jpg",
+    "https://platinumlist.net/guide/wp-content/uploads/2026/10/Rib-Room-steak-and-fries.jpg",
     "https://platinumlist.net/guide/wp-content/uploads/2026/10/4042-petit-ours-brun-image1.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Beauty exhibition at Centro Mall with brands, consultations and giveaways.",
    "skills": "none",
@@ -90932,7 +90973,7 @@
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Halloween party at Club Heshik Beshik with a Mini Studio nostalgia theme.",
    "skills": "none",
@@ -103766,7 +103807,7 @@
    "gallery": [
     "https://flu.xxx/logo.png"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "competition",
    "desc": "Online capture-the-flag hacking contest where teams solve security puzzles to score points.",
    "skills": "specific",
@@ -105776,7 +105817,7 @@
    "logo": "https://metromadina.com/wp-content/uploads/2023/07/cropped-favicon-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Farewell concert by the band Bedouin Burger, with live cinema visuals by filmmaker Vincent Moon, at Metro al-Madina.",
    "skills": "none",
@@ -105853,7 +105894,7 @@
    "logo": "https://metromadina.com/wp-content/uploads/2023/07/cropped-favicon-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Improvised music concert by the group Moon at Metro al-Madina.",
    "skills": "none",
@@ -105924,11 +105965,11 @@
    "verified": "2026-10-24",
    "source": "bulk-lb-leisure",
    "added": "2026-10-24",
-   "image": null,
+   "image": "https://metromadina.com/wp-content/uploads/2025/06/FLOOR-ZONES-NEW-scaled.jpg",
    "logo": "https://metromadina.com/wp-content/uploads/2023/07/cropped-favicon-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Concert of songs from South Lebanon at Metro al-Madina.",
    "skills": "none",
@@ -106003,11 +106044,11 @@
    "verified": "2026-10-24",
    "source": "bulk-lb-leisure",
    "added": "2026-10-24",
-   "image": null,
+   "image": "https://metromadina.com/wp-content/uploads/2025/10/FLOOR-ZONES-FARAJ-scaled.jpg",
    "logo": "https://metromadina.com/wp-content/uploads/2023/07/cropped-favicon-192x192.png",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Stand-up comedy show by Rula Korban at Metro al-Madina.",
    "skills": "none",
@@ -106865,7 +106906,7 @@
    "gallery": [
     "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9297/event_cover_3x_JM_Diner_Ihjoz_Banners-04.jpg.jpg"
    ],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Dinner concert with singer Maryline Succar and a band playing jazzy hits.",
    "skills": "none",
@@ -106944,7 +106985,7 @@
    "gallery": [
     "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9283/event_cover_3x_JM_Diner_Ihjoz_Banners-05.jpg"
    ],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "French chanson night with singers Lorie, Layal and a live band, over dinner.",
    "skills": "none",
@@ -107350,9 +107391,15 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [
+    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9292/event_cover_3x_Image.jpg",
+    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9294/event_cover_3x_Ihjoz_1920x640_20_Years.jpg",
+    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9283/event_cover_3x_JM_Diner_Ihjoz_Banners-05.jpg",
+    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9284/event_cover_3x_JM_Diner_Ihjoz_Banners.jpg.jpg",
+    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9270/event_cover_3x_JM_Diner_Ihjoz_Banners-03.jpg",
+    "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9282/event_cover_2x_JOINED_BY_MEHDI_RYAN__1_.jpg",
     "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9291/event_cover_3x_LAUGH_FOR_A_CAUSE.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "art": "comedy",
    "show": true,
    "summary": "Stand-up comedy night with a guest line-up; proceeds go to repairing a war-damaged home.",
@@ -108232,7 +108279,7 @@
    "gallery": [
     "https://iicbeirut.esteri.it/wp-content/uploads/2026/10/OPS_Balamand_A5_landscape_v3.png"
    ],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Presentation of the Arabic translation of a popular science book on unexpected events that changed evolution and history, aimed at a younger audience.",
    "skills": "none",
@@ -108302,7 +108349,7 @@
    "gallery": [
     "https://institutfrancais-liban.com/wp-content/uploads/2026/09/sauvages.jpg"
    ],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Public screening of Claude Chabrol's 1995 French thriller as part of a heritage film series at the Institut francais.",
    "skills": "none",
@@ -111899,7 +111946,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "class",
    "desc": "Training programme on coaching leaders and executives with confidence.",
    "skills": "beginner",
@@ -113003,7 +113050,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "conference",
    "desc": "Technical seminar for engineers on R290 heat pumps, covering thermodynamics, safety and hydronic design.",
    "skills": "specific",
@@ -113069,7 +113116,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "conference",
    "desc": "Technical session for engineers on detecting fires in electrical environments.",
    "skills": "specific",
@@ -113202,7 +113249,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Drop-in sessions at LAU explaining how to use JobTeaser, the international career portal.",
    "skills": "none",
@@ -113265,7 +113312,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "competition",
    "desc": "Series of sessions linked to LAU's virtual stock exchange trading competition, giving students practical tips on trading.",
    "skills": "beginner",
@@ -113326,7 +113373,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "conference",
    "desc": "Research seminar in the Beirut Economics series where Dr. Ragui Assaad talks about social insurance in Egypt. Open to everyone.",
    "skills": "none",
@@ -113966,7 +114013,7 @@
     "https://www.nahno-volunteers.com/uploads/ngo/anera2.png",
     "https://www.nahno-volunteers.com/uploads/ngo/livelove.png"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "volunteer",
    "desc": "Open volunteering day in Baalbek for young people aged 15 to 29 with about 150 volunteers.",
    "skills": "none",
@@ -114103,11 +114150,12 @@
    "logo": "https://beirutartcenter.org/wp-content/uploads/2021/06/cropped-bac-icon-rounded-512-192x192.png",
    "imageChecked": "2026-10-22",
    "gallery": [
-    "https://beirutartcenter.org/wp-content/uploads/2026/10/BAC_Legal-Clinic_Post-01-scaled.jpg",
+    "https://beirutartcenter.org/wp-content/uploads/2026/10/BAC_Legal-Clinic_Post-01-scaled.jpg.webp",
     "https://beirutartcenter.org/wp-content/uploads/2026/10/IMG_3997.jpg",
-    "https://beirutartcenter.org/wp-content/uploads/2026/10/1-on-1-Clinic-08-scaled.png"
+    "https://beirutartcenter.org/wp-content/uploads/2026/10/1-on-1-Clinic-08-scaled.png",
+    "https://beirutartcenter.org/wp-content/uploads/2026/10/BAC_Legal-Clinic_Post-01-scaled.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "conference",
    "desc": "Free legal clinic for artists in Beirut where you can ask lawyers about your rights and contracts.",
    "skills": "none",
@@ -115654,7 +115702,7 @@
     "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/CS7_Website-Banner8_140551316.jpg",
     "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/23590Image_105344062.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "conference",
    "desc": "International conference on flexible city streets and smart adaptations, with free registration for students.",
    "skills": "specific",
@@ -115995,7 +116043,7 @@
     "https://www.balamand.edu.lb/Style%20Library/Images/banner/cover5.jpg",
     "https://www.balamand.edu.lb/Style%20Library/Images/banner/cover10.jpg"
    ],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "event",
    "desc": "Student empowerment session at the University of Balamand.",
    "skills": "none",
@@ -129071,7 +129119,7 @@
    "logo": "https://libantrek.com/wp-content/uploads/2020/07/cropped-icon-libantrek-1-192x192.png?189db0&189db0",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "trip",
    "desc": "A guided cultural day trip through the Chouf and Bekaa, visiting heritage sites by bus with a group.",
    "skills": "none",
@@ -129154,7 +129202,7 @@
    "logo": "https://libantrek.com/wp-content/uploads/2020/07/cropped-icon-libantrek-1-192x192.png?189db0&189db0",
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "trip",
    "desc": "A guided day hike in the Ehden reserve from Kfarsghab to Jouit, about 10 km and five hours, with a group.",
    "skills": "beginner",
@@ -129318,7 +129366,7 @@
     "https://www.vamos-todos.com/Pictures/EventPictures/1020249959266Tannourine%20(5).jpg",
     "https://www.vamos-todos.com/Pictures/EventPictures/1020249959266Tannourine%20(4).jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "trip",
    "desc": "A day of ecotourism in Chatine and Tannourine with transport, guides and brunch, covering nature and village visits.",
    "skills": "none",
@@ -129409,7 +129457,7 @@
     "https://www.vamos-todos.com/Pictures/EventPictures/0401299959974Hamatoura%20(16).JPG",
     "https://www.vamos-todos.com/Pictures/EventPictures/023948174384607.JPG"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "trip",
    "desc": "A group hike to the Hamatoura area in Koura with guides and transport from Beirut.",
    "skills": "beginner",
@@ -130148,7 +130196,7 @@
     "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/Hiker-Above-a-Sunlit-Stone-Arch-800x500.png",
     "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/Hikers-on-a-Sunlit-Mountain-Trail-1-800x500.png"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "trip",
    "desc": "A guided group hike at Roueiset El Naaman in the mountains, organised by Lebanon Outdoor Activities.",
    "skills": "beginner",
@@ -130225,10 +130273,12 @@
    "gallery": [
     "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/488652304_29398497953097473_8104750818603424661_n.jpg",
     "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/488652304_29398497953097473_8104750818603424661_n-800x500.jpg",
+    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/488512700_1212416677551824_7286297875075438756_n-400x300.jpg",
+    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/489632153_1213037994156359_4717703570434804093_n-400x300.jpg",
     "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/5461e6e4-c993-4fb7-90aa-2b16a9563d1e-400x300.png",
     "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/492389251_1229084495885042_3325976231153679023_n-400x300.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "trip",
    "desc": "A group hike in the autumn colours of Laklouk, led by a guide.",
    "skills": "beginner",
@@ -130384,8 +130434,7 @@
    "imageChecked": "2026-10-22",
    "gallery": [
     "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/471875508_10162215260465446_8669173044933061659_n.jpg",
-    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/471875508_10162215260465446_8669173044933061659_n-800x500.jpg",
-    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/491441945_1220086926784799_5242967375733478838_n-400x300.jpg"
+    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/471875508_10162215260465446_8669173044933061659_n-800x500.jpg"
    ],
    "galleryChecked": "2026-10-24",
    "type": "trip",
@@ -130545,8 +130594,7 @@
    "imageChecked": "2026-10-22",
    "gallery": [
     "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/488512700_1212416677551824_7286297875075438756_n.jpg",
-    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/488512700_1212416677551824_7286297875075438756_n-800x500.jpg",
-    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/491441945_1220086926784799_5242967375733478838_n-400x300.jpg"
+    "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/488512700_1212416677551824_7286297875075438756_n-800x500.jpg"
    ],
    "galleryChecked": "2026-10-24",
    "type": "trip",
@@ -131664,7 +131712,7 @@
    "logo": "https://dalecorazon.com/wp-content/uploads/2023/08/logo.jpg",
    "imageChecked": "2026-10-22",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "trip",
    "desc": "A group hike in the Chouf village of Jahlieh, led by Dale Corazon.",
    "skills": "beginner",
@@ -131758,7 +131806,7 @@
    "logo": "https://dalecorazon.com/wp-content/uploads/2023/08/logo.jpg",
    "imageChecked": "2026-10-22",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "trip",
    "desc": "A group hike through the golden autumn forest of Al Ozor between Laqlouq and Ehmej.",
    "skills": "beginner",
@@ -132202,7 +132250,7 @@
    "gallery": [
     "https://www.adnocabudhabimarathon.com/wp-content/themes/AbuDhabiMarathon-2025/assets/events-map.webp"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "competition",
    "desc": "A race in Al Dhannah, UAE, part of the Abu Dhabi marathon series.",
    "skills": "beginner",
@@ -141787,7 +141835,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "competition",
    "desc": "National capture-the-flag cybersecurity contest with a student category and a professional category. Teams solve hacking puzzles to win.",
    "skills": "specific",
@@ -141856,7 +141904,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "competition",
    "desc": "Open rapid chess tournament in Batloun, with players of all ages and ratings.",
    "skills": "specific",
@@ -141925,7 +141973,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "competition",
    "desc": "Open chess tournament in blitz format, played at the Golf venue by players of all ages and ratings.",
    "skills": "specific",
@@ -141993,7 +142041,7 @@
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "competition",
    "desc": "The national classical chess championship for women players in Lebanon.",
    "skills": "specific",
@@ -144632,7 +144680,7 @@
    "gallery": [
     "https://kms.nakhal.com/Content/uploads/Package/161017124027489~jordan%20main%20pic.jpg"
    ],
-   "galleryChecked": "2026-10-24",
+   "galleryChecked": "2026-10-27",
    "type": "trip",
    "desc": "Four-day Jordan tour leaving every Wednesday, covering the country's main sights.",
    "skills": "none",
@@ -145721,7 +145769,7 @@
     "https://taniatravel.com/wp-content/uploads/2025/10/Kenya-by-Wendy-Ronksley-2011-feature-1500x1000.jpg",
     "https://taniatravel.com/wp-content/uploads/2025/10/517003864-1500x1000.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "trip",
    "desc": "Seven-day safari in Kenya leaving on Mondays until mid-December.",
    "skills": "none",
@@ -145838,7 +145886,7 @@
     "https://taniatravel.com/wp-content/uploads/2026/02/20211101_125604-1500x1000.webp",
     "https://taniatravel.com/wp-content/uploads/2026/02/trebinje-panorama-1500x1000.jpg"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "trip",
    "desc": "Twelve-day guided tour through several Balkan countries, departing 26 October.",
    "skills": "none",
@@ -149586,7 +149634,7 @@
     "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/Untitled-Design-281x500.png",
     "https://lebanonoutdooractivities.com/wp-content/uploads/2026/10/Untitled-Design-800x500.png"
    ],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "trip",
    "desc": "Overnight camping trip with an outdoor movie night.",
    "skills": "none",
@@ -158659,7 +158707,7 @@
    "url": "https://ticketing.as.com.lb/events/mario-yazbek-in-beirut",
    "caveat": "Ticket prices are not shown on the listing. Below-ground venue, may not be fully accessible.",
    "source": "as-ticketing",
-   "image": "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2Fpbd6q3OIQqHGT7cDEYmS%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=3fad8992-e352-4374-bf38-3093c7a4bcaf",
+   "image": null,
    "summary": "Storytelling stand-up about growing up in Lebanon, sudden money troubles and moving abroad.",
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
    "imageChecked": "2026-10-25",
@@ -158960,7 +159008,7 @@
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
    "imageChecked": "2026-10-25",
    "gallery": [],
-   "galleryChecked": "2026-10-25",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Live game show hosted by Tera Irani at District 7 in Beirut.",
    "skills": "none",
@@ -159030,11 +159078,11 @@
    ],
    "url": "https://ticketing.as.com.lb/events/open-mic",
    "source": "as-ticketing",
-   "image": "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2FcCvZHWKcgMrf2m4tAQ05%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=976200d7-4b64-482f-b86f-ebedc0c80540",
+   "image": null,
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
    "imageChecked": "2026-10-25",
    "gallery": [],
-   "galleryChecked": "2026-10-25",
+   "galleryChecked": "2026-10-27",
    "type": "show",
    "desc": "Free open-mic comedy night at the Hidden Cellar comedy club (ticket required).",
    "skills": "none",
@@ -159812,11 +159860,11 @@
    "verified": "2026-10-25",
    "source": "aub-events-api",
    "added": "2026-10-25",
-   "image": "https://www.aub.edu.lb/Events/EventsPictures/panelninerotator.png",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-25",
    "gallery": [],
-   "galleryChecked": "2026-10-26",
+   "galleryChecked": "2026-10-27",
    "type": "conference",
    "desc": "Academic talk on how to stay healthy as long as possible, from AUBMC's internal medicine department.",
    "skills": "none",
@@ -159992,12 +160040,10 @@
    "verified": "2026-10-25",
    "source": "ndu-news",
    "added": "2026-10-25",
-   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
+   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/dsc05329_123810_174110802.jpg?w=1920",
    "logo": null,
    "imageChecked": "2026-10-25",
-   "gallery": [
-    "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/dsc05329_123810_174110802.jpg?w=1920"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-25",
    "type": "aid",
    "desc": "Tuition discount of 15 to 25 percent for NDU undergraduates who have siblings enrolled at the same time.",
@@ -160332,7 +160378,9 @@
    "source": "lau-events",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160383,7 +160431,9 @@
    "source": "lau-events",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160434,7 +160484,9 @@
    "source": "lau-events",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160486,7 +160538,9 @@
    "source": "lau-events",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160538,7 +160592,9 @@
    "source": "lau-events",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160590,7 +160646,9 @@
    "source": "lau-events",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160642,7 +160700,9 @@
    "source": "lau-events",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160694,7 +160754,9 @@
    "source": "lau-events",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160745,7 +160807,9 @@
    "source": "lau-events",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160796,7 +160860,9 @@
    "source": "lau-events",
    "image": null,
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160845,9 +160911,11 @@
    "url": "https://www.ndu.edu.lb/news-events/events/academic-events/the-future-of-finance-fintech-ai--innovation",
    "caveat": "Registration, fee and audience not stated.",
    "source": "ndu-home",
-   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
+   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/FBAE-Fintech_news-banner_101611914.jpg",
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -160906,9 +160974,11 @@
    "caveat": "Venues, times and prices for individual workshops and performances are not on the listing; start time on 16 Nov not stated (6:00 PM is the listing's header time).",
    "source": "as-ticketing",
    "summary": "Multi-day dance festival: workshops (Tunisian traditional, contemporary, dabke, oriental, music and movement) and performances by artists from Lebanon and abroad.",
-   "image": "https://ticketing.as.com.lb/as-ticketing-hub-logo.png",
+   "image": null,
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -160966,9 +161036,11 @@
    "caveat": "Price not shown on the listing. Part of the Beirut Choreography Encounters programme.",
    "source": "as-ticketing",
    "summary": "Piece for four dancers and a live viola da gamba player mixing breakdance, circus, contemporary and traditional dance; scenography by Nadia Kaabi-Linke.",
-   "image": "https://ticketing.as.com.lb/as-ticketing-hub-logo.png",
+   "image": null,
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -161028,7 +161100,9 @@
    "summary": "Yamane returns to MusicHall after her sold-out first Original concert in September.",
    "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23376-639284695738593425.jpeg",
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -161113,7 +161187,9 @@
    "summary": "Beirut electronic producer Liliane Chlela with Beirut musicians, a Mophradat 2023/4 commission.",
    "image": "https://tixity.antoineticketing.com/files/event_image_7455__1792999712.png",
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -161173,7 +161249,9 @@
    "summary": "First BISOU18 party at B 018.",
    "image": "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2FUE4foFVuj4ReMq7xZmXT%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=902620f1-0b2a-4d22-b62c-92e105a320e5",
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -161239,7 +161317,9 @@
    "summary": "NESTA plays an all-night Halloween set at B 018, with a surprise guest.",
    "image": "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2FluzBmNHINqz95ATcPe86%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=05b2cb55-8d86-4b9f-b892-726cb3359795",
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -161298,7 +161378,9 @@
    "summary": "Beauty pageant gala in Beirut for women aged 50 and over.",
    "image": "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9258/event_cover_File.jpg",
    "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [],
+   "galleryChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -161358,7 +161440,11 @@
    "summary": "Preview of the Chopin biopic by Michal Kwiecinski; all proceeds support former GLFL students through the AGL Aid Fund.",
    "image": "https://tixity.antoineticketing.com/files/event_banner_7459__1793082003.jpg",
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [
+    "https://www.antoineticketing.com/_next/image?url=https%3A%2F%2Ftixity.antoineticketing.com%2Ffiles%2Fevent_banner_7459__1793082003.jpg&w=3840&q=75"
+   ],
+   "galleryChecked": "2026-10-27"
   },
   {
    "cat": "hiking",
@@ -161429,7 +161515,11 @@
    "summary": "Pine-forest hike around Bkassine with views of Jezzine and a waterfall, ending with a village lunch.",
    "image": "https://tixity.antoineticketing.com/files/event_banner_7458__1793009359.jpg",
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [
+    "https://www.antoineticketing.com/_next/image?url=https%3A%2F%2Ftixity.antoineticketing.com%2Ffiles%2Fevent_banner_7458__1793009359.jpg&w=3840&q=75"
+   ],
+   "galleryChecked": "2026-10-27"
   },
   {
    "id": "ibm-z-day-2026",
@@ -161487,7 +161577,11 @@
    "added": "2026-10-27",
    "image": "https://v.fastcdn.co/u/0bc8903d/66036219-0-IBM-Z-Day-2025-600x4.png",
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [
+    "https://v.fastcdn.co/cdn-cgi/image/f=auto,q=high,fit=scale-down,width=281/u/0bc8903d/66035261-0-image-3.png"
+   ],
+   "galleryChecked": "2026-10-27"
   },
   {
    "id": "aiforgood-trusted-knowledge-accountable-action-webinar",
@@ -161539,7 +161633,11 @@
    "added": "2026-10-27",
    "image": "https://s41721.pcdn.co/wp-content/uploads/ai4g-banners/banner_96889_session.png",
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [
+    "https://s41721.pcdn.co/wp-content/uploads/2024/05/In-person-networking-23.png"
+   ],
+   "galleryChecked": "2026-10-27"
   },
   {
    "id": "aiforgood-resilient-ai-infrastructure-observability-webinar",
@@ -161591,7 +161689,11 @@
    "added": "2026-10-27",
    "image": "https://s41721.pcdn.co/wp-content/uploads/ai4g-banners/banner_97700_session.png",
    "logo": null,
-   "imageChecked": "2026-10-27"
+   "imageChecked": "2026-10-27",
+   "gallery": [
+    "https://s41721.pcdn.co/wp-content/uploads/2024/05/In-person-networking-23.png"
+   ],
+   "galleryChecked": "2026-10-27"
   },
   {
    "id": "job-sr-744000158053740",
