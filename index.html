@@ -66,6 +66,13 @@ html[dir=rtl] .title,html[dir=rtl] .nt{direction:ltr;unicode-bidi:plaintext;text
 .logotile{position:absolute;inset:13% 27% 42%;background:#fff;border-radius:22px;display:grid;place-items:center;padding:22px;box-shadow:0 12px 40px rgba(0,0,0,.35)}
 .logotile.inline{position:static;width:96px;height:96px;padding:12px;border-radius:20px;box-sizing:border-box;box-shadow:0 8px 28px rgba(0,0,0,.4)}
 .logotile img{max-width:100%;max-height:100%;object-fit:contain}
+.typetile{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;background:radial-gradient(circle at 30% 20%,var(--c2),var(--c1) 75%)}
+.typetile span{font-size:96px;line-height:1;filter:drop-shadow(0 8px 18px rgba(0,0,0,.35))}
+.typetile b{font-size:15px;letter-spacing:.08em;text-transform:uppercase;color:#fff;opacity:.92}
+.thumb .typetile span{font-size:26px}.thumb .typetile b{display:none}
+.cdesc{margin:4px 0 8px;font-size:14px;line-height:1.35;color:#e8e8e8;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.catgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:0 16px 6px}.catbtn{display:flex;justify-content:space-between;align-items:center;gap:6px;text-align:left;border:1px solid var(--line);background:var(--panel);color:var(--fg);border-radius:12px;padding:10px;font-size:13.5px}.catbtn small{color:var(--mute)}.catbtn.on{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
+.clink.liked{color:#ff4d6d}.cbar{position:sticky;bottom:0;background:var(--bg);padding-top:8px}
 .logotile.mono span{font:800 64px/1 var(--display,inherit);color:#222}
 .thumb .logotile.mono span{font-size:22px}
 /* category-tinted fade: the picture stays bright on top, text sits on the category colour below */
@@ -304,7 +311,7 @@ const CATS={research:"Research",hackathon:"Hackathon",case:"Case competition",ru
 const INTERESTS={consulting:"Consulting",finance:"Finance & VC",startups:"Startups",case:"Case comps",hackathon:"Hackathons",research:"Research",exchange:"Exchange & scholarships",careers:"Careers",running:"Running",hiking:"Hiking",volunteering:"Volunteering",sports:"Sports (football, basketball…)",arts:"Arts & creative"};
 
 /* ---------- state ---------- */
-const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{types:[],degree:[],when:"any",where:[],region:"",money:[],fee:"any",feeMin:"",eligOnly:false,sort:"best",dlMode:"",dlDate:"",ended:true,city:"",happens:""},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
+const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{types:[],degree:[],when:"any",where:[],region:"",money:[],fee:"any",feeMin:"",eligOnly:false,sort:"best",dlMode:"",dlDate:"",ended:true,city:"",happens:"",skills:[],aud:[],prizeMin:"",prizeMax:""},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
 let S=JSON.parse(JSON.stringify(DEF));
 try{const raw=localStorage.getItem("darb-state");if(raw){const p=JSON.parse(raw);S={...S,...p,profile:{...S.profile,...(p.profile||{})}}}}catch(e){}
 S.filters={...DEF.filters,...(S.filters||{})};
@@ -636,6 +643,10 @@ function passFilters(o){
   if(f.types.length&&!f.types.some(t=>typesOf(o).has(t)))return false;
   if(f.region&&regionOf(o)!==f.region)return false;
   if(f.happens&&!happensIn(o,f.happens))return false;
+  if((f.skills||[]).length&&!(o.skills&&f.skills.includes(o.skills)))return false;
+  if((f.aud||[]).length&&!(o.audience&&(o.audience.includes("anyone")||f.aud.some(a=>o.audience.includes(a)))))return false;
+  if(f.prizeMin&&prizeUSD(o)<Number(f.prizeMin))return false;
+  if(f.prizeMax&&prizeUSD(o)>Number(f.prizeMax))return false;
   if(f.city&&!(o.place+" "+(o.meet||"")).toLowerCase().includes(f.city.toLowerCase()))return false;
   if(f.feeMin!==""&&(o.feeUSD===null||o.feeUSD<Number(f.feeMin)))return false;
   if(f.when==="7"&&!(d!==null&&d>=0&&d<=7))return false;
@@ -648,7 +659,7 @@ function passFilters(o){
   if(f.eligOnly&&(o.elig.status!=="ok"||fitFor(o).block))return false;
   return true;
 }
-function activeFilters(){const f=S.filters;return(S.profile.topics||[]).length+f.types.length+(f.when!=="any")+!!(f.dlMode&&f.dlDate)+!!f.city+!!f.happens+(f.ended===false)+f.where.length+!!f.region+f.money.length+(f.fee!=="any"||f.feeMin!=="")+f.eligOnly+(f.sort!=="best")}
+function activeFilters(){const f=S.filters;return(S.profile.topics||[]).length+f.types.length+(f.when!=="any")+!!(f.dlMode&&f.dlDate)+!!f.city+!!f.happens+(f.skills||[]).length+(f.aud||[]).length+!!(f.prizeMin||f.prizeMax)+(f.ended===false)+f.where.length+!!f.region+f.money.length+(f.fee!=="any"||f.feeMin!=="")+f.eligOnly+(f.sort!=="best")}
 
 /* ---------- For You: learns from what you watch, save, like and skip ---------- */
 const jitter=id=>(hash(id+SESSION_SEED)%1000)/1000;
@@ -702,11 +713,12 @@ function prizeUSD(o){
 // Keep variants of the same thing apart (e.g. Sony photo awards' 3 categories, several Murex jobs):
 // no repeat of a series within the last 4 cards, and never the same organiser twice in a row.
 const seriesKey=o=>orgKey(o)+"|"+o.title.toLowerCase().replace(/[^a-z ]/g," ").split(/\s+/).filter(Boolean).slice(0,2).join(" ");
+const picKey=o=>{if(o.image)return o.image;if(o.logo)return o.logo;try{if(o.url&&!o.job)return"d:"+new URL(o.url).hostname}catch(e){}return"t:"+[...typesOf(o)][0]};
 function spread(list){
   const out=[],pending=list.slice();
   while(pending.length){
-    const recent=out.slice(-4).map(seriesKey),prevOrg=out.length?orgKey(out[out.length-1]):null;
-    let i=pending.findIndex(o=>!recent.includes(seriesKey(o))&&orgKey(o)!==prevOrg);
+    const recent=out.slice(-4).map(seriesKey),prevOrg=out.length?orgKey(out[out.length-1]):null,pics=out.slice(-2).map(picKey);
+    let i=pending.findIndex(o=>!recent.includes(seriesKey(o))&&orgKey(o)!==prevOrg&&!pics.includes(picKey(o)));
     if(i<0)i=pending.findIndex(o=>!recent.includes(seriesKey(o)));
     if(i<0)i=0;
     out.push(pending.splice(i,1)[0]);
@@ -720,7 +732,7 @@ const MAKE=["hackathon","startup","case","tournament"];
 const FAMILY={};for(const g of[SPORTS,STUDY,MAKE,["arts","clubs","volunteer"]])for(const k of g)FAMILY[k]=[...new Set([...(FAMILY[k]||[]),...g])];
 
 /* ---------- type: competition, class/training, event, trip, programme, job, club, volunteering ---------- */
-const TYPES={competition:"🏆 Competitions",class:"📚 Classes & training",event:"🎤 Events & conferences",trip:"🥾 Trips & outings",aid:"💰 Scholarships & financial aid",program:"🎓 Programmes & scholarships",intern:"🧑‍💻 Internships",job:"💼 Jobs",club:"👥 Clubs & communities",volunteer:"🤝 Volunteering",place:"🏛️ Places to visit",festival:"🎉 Festivals & celebrations",show:"🎬 Shows, movies & concerts",exam:"📝 Exams & admissions",admission:"🎓 University admissions"};
+const TYPES={competition:"🏆 Competitions",aid:"💰 Scholarships & financial aid",program:"🎓 Programmes (exchange, summer schools…)",conference:"🎤 Conferences & talks",event:"🎪 Events, fairs & parties",show:"🎬 Shows, concerts & movies",festival:"🎉 Festivals",class:"📚 Classes & training",trip:"🥾 Trips & outings",volunteer:"🤝 Volunteering",intern:"🧑‍💻 Internships",job:"💼 Jobs",exam:"📝 Exams & tests",admission:"🏫 University admissions",club:"👥 Clubs & teams",place:"🏛️ Places to visit"};
 // Degree level for admissions, scholarships and programmes: from the item or its title.
 const DEGREES={bachelor:"Bachelor's",master:"Master's",phd:"PhD"};
 function degreeOf(o){
@@ -733,6 +745,9 @@ function degreeOf(o){
 }
 function typesOf(o){
   if(o._types)return o._types;
+  // Each post has one main type, set when it was checked; older or new posts fall back to guessing.
+  if(o.type&&TYPES[o.type])return(o._types=new Set([o.type]));
+  if(o.job)return(o._types=new Set([o.intern?"intern":"job"]));
   const t=new Set(),x=o.title+" "+(o.when||"");
   if(o.cat==="hackathon"||o.cat==="case"||/compet|contest|challenge|championship|tournament|\bcup\b|olympiad|hackathon|\bctf\b|prize|award|\bopen\b|league|race|marathon|\b\d+k\b|run\b|regatta|grand prix|series|rally|aquathlon|triathlon|duathlon|pitch/i.test(x))t.add("competition");
   // Degrees and scholarships are programmes, even when their names say "academy" or "course".
@@ -752,6 +767,8 @@ function typesOf(o){
   if(o.festival||/festival|mahrajan|christmas (village|market)|\beid\b|feast|carnival/i.test(o.title))t.add("festival");
   if(o.club)t.add("club");
   if(o.cat==="volunteer"||/volunteer/i.test(x))t.add("volunteer");
+  if(/conference|summit|forum|symposium|congress|\bmun\b|model united|webinar|seminar|panel discussion|\btalk\b|lecture/i.test(o.title)){t.add("conference");t.delete("event")}
+  if(t.has("aid")||/scholarship|fellowship|bursar|financial aid|\bgrant\b/i.test(o.title))t.delete("competition");
   if(!t.size)t.add(o.cat==="career"?"event":o.cat==="startup"?"program":"event");
   return(o._types=t);
 }
@@ -809,7 +826,8 @@ function picture(o,full){
   {
     let dom="";try{dom=new URL(o.url).hostname.replace(/^www\./,"")}catch(e){}
     const board=/smartrecruiters|workable|bamboohr|myworkdayjobs|oraclecloud|himalayas|jobicy|remoteok|weworkremotely|linkedin|indeed|bayt|greenhouse|lever\.co|eventbrite|instagram|facebook|google|agendaculturel|beirut\.com|lebanontraveler|ihjoz|ticketing|skileb/i.test(dom);
-    const initial=`<div class="logotile mono"><span>${escHTML(orgName(o).replace(/^the\s+/i,"").slice(0,1).toUpperCase())}</span></div>`;
+    const ty=[...typesOf(o)][0]||"event",tl=(TYPES[ty]||"✨ Opportunity").split(" "),tc=TYPE_COLORS[ty]||["#3a2b66","#c1a8ff"];
+    const initial=`<div class="typetile" style="--c1:${tc[0]};--c2:${tc[1]}"><span>${tl[0]}</span><b>${escHTML(tl.slice(1).join(" "))}</b></div>`;
     if(dom&&!board&&!o.job)return{html:`<div class="logotile" data-alt="${esc(initial)}"><img src="https://www.google.com/s2/favicons?domain=${encodeURIComponent(dom)}&sz=256" alt="" loading="lazy" onload="if(this.naturalWidth<64)this.parentNode.outerHTML=this.parentNode.dataset.alt" onerror="this.parentNode.outerHTML=this.parentNode.dataset.alt"></div>`,tag:"Organiser logo"};
     return{html:initial,tag:""};
   }
@@ -819,6 +837,8 @@ function picture(o,full){
 function fitImg(i){const w=i.naturalWidth,h=i.naturalHeight;if(!w||!h)return;const r=w/h;if(w<420||r>1.9||r<.42)i.classList.add("fit")}
 const logoImg=o=>o.logo?`<img class="logo" src="${esc(o.logo)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">`:"";
 
+const TYPE_COLORS={competition:["#5a3a08","#ffb84d"],aid:["#0f3766","#5fb3ff"],program:["#24286b","#9aa9ff"],conference:["#1e3554","#86b7ec"],event:["#5a1546","#ff7ab6"],show:["#4a1170","#c78bff"],festival:["#6e1f12","#ff8f66"],class:["#0f4a47","#5fe3cd"],trip:["#14462a","#62d98d"],volunteer:["#5a3410","#ffb35c"],intern:["#1d3a5f","#7ec8ff"],job:["#263238","#90a4ae"],exam:["#3e2723","#ffab91"],admission:["#1a237e","#8c9eff"],club:["#1b5e20","#81c784"],place:["#004d40","#4db6ac"]};
+const typeLabel=o=>(TYPES[[...typesOf(o)][0]]||"✨ Opportunity").replace(/^\S+\s/,"");
 /* ---------- icons ---------- */
 const IC={
  save:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 3h12v18l-6-4-6 4z"/></svg>',
@@ -861,8 +881,9 @@ function renderFeed(){
       
       ${o.sample?'<span class="sample-tag">Sample layout</span>':""}
       <div class="info">
-        ${pic.tile||""}<span class="cat">${o.catLabel||CATS[o.cat]}</span>
+        ${pic.tile||""}<span class="cat">${o.catLabel||typeLabel(o)}</span>
         <h2 class="title nt">${o.title}</h2>
+        ${o.desc?`<p class="cdesc">${escHTML(o.desc)}</p>`:""}
         <button class="org orgbtn" data-org="${esc(orgKey(o))}">${logoImg(o)}<span class="nt">${o.org}</span>${fol?'<em class="fol">Following</em>':'<em class="fol add">+ Follow</em>'}</button>
         <div class="chips">
           <span class="chip ${isClosed(o)?"ended":soon?"hot":""}">${dlLabel(o)}</span>
@@ -871,6 +892,7 @@ function renderFeed(){
           ${o.prize?`<span class="chip">🏆 ${o.prize.split(" · ")[0]}</span>`:""}
           ${fl?`<span class="chip ${fc}">${fl}</span>`:""}
           <span class="chip ${ec}">${el_}</span>
+          ${o.skills==="none"?`<span class="chip ok">✅ No skills needed</span>`:o.skills==="beginner"?`<span class="chip ok">🌱 Beginners welcome</span>`:o.skills==="specific"?`<span class="chip warn">🎯 Needs ${escHTML(o.skillsNote||"specific skills")}</span>`:""}
         </div>
         <div class="why">${rr?`<b>Reach:</b> ${rr.toLowerCase()} · `:`<b>${sc.label}</b> · `}${sc.why.join(" · ")}</div>
         <div class="cta"><button class="details-btn" data-open="${o.id}">Details</button>${o.url?(isClosed(o)?`<a class="reg-btn ended" href="${esc(o.url)}" target="_blank" rel="noopener">See event page ↗</a>`:`<a class="reg-btn" href="${esc(o.url)}" target="_blank" rel="noopener" data-reg="${o.id}">Register / apply ↗</a>`):""}</div>
@@ -932,7 +954,7 @@ function openSheet(id){
   const moneyRows=o.money.map(([k,v,s])=>`<div class="mrow"><span>${k}</span><span class="st ${s}">${s==="yes"&&/free|none/i.test(v)?"Free":st[s]}</span><span class="v">${v}</span></div>`).join("");
   $("#sheet").innerHTML=`<div class="grip"></div>
    ${o.sample?'<div class="warnbox"><b>Sample layout, not a real event.</b> It shows the fields a hike or club activity will carry: meeting time and place, fee, what to bring and contact.</div>':""}
-   <span class="cat" style="display:inline-block;margin-top:${o.sample?12:0}px">${o.catLabel||CATS[o.cat]}</span>
+   <span class="cat" style="display:inline-block;margin-top:${o.sample?12:0}px">${o.catLabel||typeLabel(o)}</span>
    <h2 class="nt">${o.title}</h2><button class="org orgbtn" data-org="${esc(orgKey(o))}">${logoImg(o)}<span class="nt">${o.org}</span><em class="fol ${isFollowed(o)?"":"add"}">${isFollowed(o)?"Following":"+ Follow"}</em></button>
    ${regActions(o)}
    ${o.desc?`<div class="sec"><h3>About${o.byOrganiser||o.post?'<span class="badge-org">From the organiser</span>':""}</h3><p style="margin:0;white-space:pre-line">${escHTML(o.desc)}</p></div>`:""}
@@ -954,8 +976,7 @@ function openSheet(id){
    <div class="sec"><h3>Who can take part ·<span class="st ${ec==="ok"?"yes":ec==="warn"?"partial":"no"}">${el_}</span></h3><ul class="el">${o.elig.lines.map(l=>`<li>${l}</li>`).join("")}</ul></div>
    <div class="sec"><h3>How to register</h3><ol class="steps">${o.steps.map(s=>`<li><span>${s}</span></li>`).join("")}</ol></div>
    <div class="sec"><h3>Contact</h3>${o.contact.length?o.contact.map(([t,v,n])=>`<div class="contact"><div><small>${t}</small><code>${v}</code>${n?`<small>${n}</small>`:""}</div><button class="btn" data-copy="${v}">Copy</button></div>`).join(""):`<p class="note" style="margin:0">The organiser publishes no direct contact. Use the official page below.</p>`}</div>
-   <div class="sec" id="cmts"><h3>Comments</h3><div class="clist" data-cfor="${o.id}"><p class="note">Loading comments…</p></div>
-     ${USER?"":`<button class="btn" data-signin="comment">Sign in to comment</button>`}<div id="c-replying" class="note"></div><div class="cform" ${USER?"":"hidden"}><input id="c-name" class="inp" maxlength="40" placeholder="Your name (optional)"><textarea id="c-body" class="inp" maxlength="600" rows="2" placeholder="Ask a question or share a tip…"></textarea><button class="btn primary" data-cpost="${o.id}">Post</button></div></div>
+   <div class="sec"><button class="btn" data-act="comments" data-id="${o.id}">💬 Comments${CCOUNT[o.id]?" · "+CCOUNT[o.id]:""}</button></div>
    <div class="sec"><h3>Source</h3><p class="note" style="margin:0">${o.sample?"Not applicable.":`Checked against the official page on ${fmtDate(o.verified)} · confidence: <b>${o.confidence}</b>.`}${picture(o).tag?` Picture: ${picture(o).tag.replace(/^Swipe for \d+ photos · /,"")}.`:""} ${o.caveat||""} Always confirm on the official page before you pay or book travel.</p></div>
    <div class="btnrow">
      ${o.url?`<a class="btn primary" href="${o.url}" target="_blank" rel="noopener">Open official page ↗</a>`:""}
@@ -1153,16 +1174,38 @@ function openFilters(){
       <label class="toggle frowpad" for="f-ended"><span>Show events whose registration ended<small>Festivals happening now, past events with their photos</small></span><input id="f-ended" type="checkbox" class="sw" ${f.ended!==false?"checked":""}></label>
       <div class="flabel">Sort by</div>`+Object.entries(SORTS).map(([k,l])=>opt(`data-fset="sort:${k}"`,f.sort===k,l)).join("");
   }else{
+    // OLX-style: first choose what you're looking for, then only the filters that matter for it.
+    const cur=f.types.length===1?f.types[0]:"";
     const row=(page,label,val)=>`<button class="frow" data-fpage="${page}"><span><b>${label}</b><small>${val}</small></span><em>Change</em></button>`;
-    // Categories (Football, Tournaments…) are chosen here; the feed only shows the active ones.
-    // Where it happens: one tap on the main page; "Change" opens the full list with Lebanese regions.
     const wq=(v,l)=>`<button class="fchip ${v==="all"?(!f.where.length&&!f.region?"on":""):(f.where.includes(v)&&!f.region?"on":"")}" data-floc="${v==="all"?"all":"w:"+v}">${l}</button>`;
-    body=head("Filters")+row("type","Type",sum.type)+
-      `<div class="frow static"><span><b>When it happens</b></span><div class="ichips">${Object.entries(HAPPENS).map(([k,l])=>`<button class="fchip ${f.happens===k?"on":""}" data-fhap="${k}">${l}</button>`).join("")}</div></div>`+
-      row("category","Category",sum.category)+
-      `<div class="frow static"><span style="flex-direction:row;justify-content:space-between;align-items:center"><b>Where</b><button class="flink" data-fpage="location" style="margin:0">Regions in Lebanon ›</button></span><div class="ichips">${wq("all","Anywhere")}${wq("lebanon","🇱🇧 In Lebanon")}${wq("online","💻 Online")}${wq("abroad","✈️ Outside Lebanon")}</div>${f.region?`<small>Region: ${REGIONS.find(r=>r[0]===f.region)[1]}</small>`:""}</div>`+
-      `<div class="frow static"><span><b>Fee (USD)</b></span><div class="minmax"><input id="f-min" class="inp" type="number" inputmode="numeric" min="0" placeholder="Min" value="${f.feeMin}"><input id="f-max" class="inp" type="number" inputmode="numeric" min="0" placeholder="Max" value="${f.fee==="any"?"":f.fee}"></div></div>`+
-      row("location","Region / city",sum.location)+row("deadline","Deadline",sum.deadline)+row("money","Funding & prizes",sum.money)+row("more","More details",sum.more);
+    const chips=(label,key,opts)=>`<div class="frow static"><span><b>${label}</b></span><div class="ichips">${opts.map(([k,l])=>`<button class="fchip ${(f[key]||[]).includes(k)?"on":""}" data-ftog="${key}:${k}">${l}</button>`).join("")}</div></div>`;
+    const range=(label,a,b,va,vb)=>`<div class="frow static"><span><b>${label}</b></span><div class="minmax"><input id="${a}" class="inp" type="number" inputmode="numeric" min="0" placeholder="Min" value="${va||""}"><input id="${b}" class="inp" type="number" inputmode="numeric" min="0" placeholder="Max" value="${vb||""}"></div></div>`;
+    const ROWS={
+      happens:()=>`<div class="frow static"><span><b>When it happens</b></span><div class="ichips">${Object.entries(HAPPENS).map(([k,l])=>`<button class="fchip ${f.happens===k?"on":""}" data-fhap="${k}">${l}</button>`).join("")}</div></div>`,
+      deadline:()=>row("deadline","Deadline",sum.deadline),
+      where:()=>`<div class="frow static"><span style="flex-direction:row;justify-content:space-between;align-items:center"><b>Where</b><button class="flink" data-fpage="location" style="margin:0">Region / city ›</button></span><div class="ichips">${wq("all","Anywhere")}${wq("lebanon","🇱🇧 In Lebanon")}${wq("online","💻 Online")}${wq("abroad","✈️ Outside Lebanon")}</div>${f.region||f.city?`<small>${sum.location}</small>`:""}</div>`,
+      topic:()=>row("category","Category",sum.category),
+      fee:()=>range(cur==="trip"?"Price per person (USD)":cur==="show"||cur==="event"||cur==="festival"?"Ticket price (USD)":"Fee (USD)","f-min","f-max",f.feeMin,f.fee==="any"?"":f.fee),
+      prize:()=>range("Prize (USD)","f-pmin","f-pmax",f.prizeMin,f.prizeMax),
+      funding:()=>row("money","Funding",sum.money),
+      skills:()=>chips("Skills needed","skills",[["none","No skills needed"],["beginner","Beginners welcome"],["specific","Specific skills"]]),
+      audience:()=>chips("Who it's for","aud",[["anyone","Anyone"],["students","Students"],["professionals","Professionals"],["teens","Teens"],["kids","Kids"]]),
+      more:()=>row("more","More: sort, eligibility, ended events",sum.more)
+    };
+    const SETS={
+      "":["happens","where","topic","fee","prize","skills","audience","deadline","more"],
+      competition:["deadline","where","topic","prize","fee","skills","audience","more"],
+      aid:["deadline","where","funding","audience","more"],
+      program:["deadline","where","funding","fee","skills","audience","more"],
+      conference:["happens","where","topic","fee","funding","audience","more"],
+      event:["happens","where","fee","audience","more"],show:["happens","where","fee","audience","more"],festival:["happens","where","fee","more"],
+      class:["topic","where","fee","skills","audience","happens","more"],trip:["happens","where","fee","more"],
+      volunteer:["where","topic","skills","audience","more"],intern:["deadline","where","skills","more"],job:["where","skills","more"],
+      exam:["deadline","where","fee","more"],admission:["deadline","where","fee","more"],club:["topic","where","fee","audience","more"],place:["topic","where","fee","more"]
+    };
+    const open=k=>OPPS.filter(o=>!isClosed(o)&&!seasonHidden(o)&&(k?typesOf(o).has(k):true)).length;
+    body=head("Filters")+`<div class="flabel">What are you looking for?</div><div class="catgrid">${[["","✨ Everything"],...Object.entries(TYPES)].map(([k,l])=>`<button class="catbtn ${cur===k?"on":""}" data-fcat="${k}"><span>${l}</span><small>${open(k)}</small></button>`).join("")}</div>`+
+      `<div class="flabel">${cur?`${TYPES[cur].replace(/^\S+\s/,"")}: filters`:"Filters"}</div>`+(SETS[cur]||SETS[""]).map(k=>ROWS[k]()).join("");
   }
   showSheet(body+foot);$("#sheet").classList.add("full");
 }
@@ -1177,7 +1220,7 @@ async function shareOpp(o){
 /* ---------- search ---------- */
 function rowHTML(o,extra=""){
   const d=daysLeft(o),soon=d!==null&&d>=0&&d<=10;
-  return`<button class="row" data-open="${o.id}"><div class="thumb" style="background:${CAT_COLOR[o.cat][0]}">${picture(o).html}</div><div style="min-width:0"><div class="t nt">${o.title}${o.sample?" · sample":""}</div><div class="m">${o.catLabel||CATS[o.cat]} · ${o.place.split(" (")[0]} · ${o.feeText}</div>${extra}</div><div class="dl ${soon?"soon":""}">${dlLabel(o)}</div></button>`;
+  return`<button class="row" data-open="${o.id}"><div class="thumb" style="background:${CAT_COLOR[o.cat][0]}">${picture(o).html}</div><div style="min-width:0"><div class="t nt">${o.title}${o.sample?" · sample":""}</div><div class="m">${o.catLabel||typeLabel(o)} · ${o.place.split(" (")[0]} · ${o.feeText}</div>${extra}</div><div class="dl ${soon?"soon":""}">${dlLabel(o)}</div></button>`;
 }
 
 /* ---------- saved / deadlines ---------- */
@@ -1569,9 +1612,30 @@ async function loadActivity(){
   const since=S.actSeen||"",title=id=>escHTML((byId(id)||{title:t("An event")}).title);
   const cm=c=>`<button class="row" data-open="${esc(c.opp_id)}"><div style="min-width:0"><div class="t">${c.created_at>since?"🔴 ":""}${escHTML(c.name||t("Someone"))} · <small>${fmtDate(c.created_at)}</small></div><div class="m">“${escHTML(c.body.slice(0,140))}” · ${title(c.opp_id)}</div></div></button>`;
   const mine=[...MYPOSTS.values()].filter(r=>r.status==="live").map(r=>r.opp_id||"post-"+r.id);
-  box.innerHTML=`<div class="lbl">${t("Replies to your comments")}</div>${ACT.replies.length?`<div class="list">${ACT.replies.map(cm).join("")}</div>`:`<p class="note">${t("No replies yet.")}</p>`}
+  box.innerHTML=`<div class="lbl">${t("Likes on your comments")}</div>${(ACT.clikes||[]).length?`<div class="list">${ACT.clikes.map(x=>`<button class="row" data-ocomm="${esc(x.opp_id)}"><div style="min-width:0"><div class="t">${x.last_at>since?"🔴 ":""}❤️ ${x.n} · <small>${fmtDate(x.last_at)}</small></div><div class="m">“${escHTML(x.body.slice(0,120))}” · ${title(x.opp_id)}</div></div></button>`).join("")}</div>`:`<p class="note">${t("No likes on your comments yet.")}</p>`}
+   <div class="lbl" style="margin-top:14px">${t("Replies to your comments")}</div>${ACT.replies.length?`<div class="list">${ACT.replies.map(cm).join("")}</div>`:`<p class="note">${t("No replies yet.")}</p>`}
    <div class="lbl" style="margin-top:14px">${t("On your posts")}</div>${mine.length?(ACT.onPosts.length?`<div class="list">${ACT.onPosts.map(cm).join("")}</div>`:`<p class="note">${t("No comments on your posts yet.")}</p>`)+`<p class="note">${mine.map(id=>`${title(id)}: ❤️ ${LIKES[id]||0} · 💬 ${CCOUNT[id]||0}`).join("<br>")}</p>`:`<p class="note">${t("Once a post of yours is live, its likes and comments show here.")}</p>`}`;
   markActivitySeen();
+}
+
+/* ---------- comments: their own sheet, like TikTok/Instagram, with replies and likes ---------- */
+function openComments(id){
+  const o=byId(id);if(!o)return;replyTo=null;
+  showSheet(`<div class="grip"></div><h2 style="margin:0 0 4px">${t("Comments")}${CCOUNT[id]?` · ${CCOUNT[id]}`:""}</h2><p class="note nt" style="margin:0 0 12px">${escHTML(o.title)}</p>
+   <div class="clist" data-cfor="${o.id}"><p class="note">${t("Loading comments…")}</p></div>
+   <div class="cbar">${USER?"":`<button class="btn" data-signin="comment">${t("Sign in to comment")}</button>`}<div id="c-replying" class="note"></div><div class="cform" ${USER?"":"hidden"}><input id="c-name" class="inp" maxlength="40" placeholder="Your name (optional)"><textarea id="c-body" class="inp" maxlength="600" rows="2" placeholder="Ask a question or share a tip…"></textarea><button class="btn primary" data-cpost="${o.id}">Post</button></div></div>`);
+  loadComments(id);if(S.cname){const n=$("#c-name");if(n)n.value=S.cname}
+}
+let CLIKES={};   // comment id -> {n, mine}
+async function loadCommentLikes(id){
+  try{const rows=await supa("/rest/v1/rpc/comment_like_info",{method:"POST",body:JSON.stringify({p_opp:id})});for(const r of rows||[])CLIKES[r.comment_id]={n:+r.n,mine:!!r.mine}}catch(e){}
+}
+const likeBtn=c=>{const l=CLIKES[c.id]||{n:0,mine:false};return`<button class="clink ${l.mine?"liked":""}" data-clike="${c.id}">${l.mine?"❤️":"🤍"} ${l.n||""}</button>`};
+async function toggleCommentLike(cid){
+  if(needAuth("like comments"))return;
+  const l=CLIKES[cid]||{n:0,mine:false};l.mine=!l.mine;l.n=Math.max(0,l.n+(l.mine?1:-1));CLIKES[cid]=l;
+  document.querySelectorAll(`[data-clike="${cid}"]`).forEach(b=>{b.classList.toggle("liked",l.mine);b.textContent=`${l.mine?"❤️":"🤍"} ${l.n||""}`});
+  try{const n=await supa("/rest/v1/rpc/toggle_comment_like",{method:"POST",body:JSON.stringify({p_comment:cid})});l.n=+n}catch(e){}
 }
 
 /* ---------- comment replies ---------- */
@@ -1579,8 +1643,9 @@ let replyTo=null;   // {id,name} while answering a comment
 async function loadComments(id){
   const box=document.querySelector('[data-cfor="'+id+'"]');if(!box)return;
   try{const rows=await supa("/rest/v1/comments?select=id,name,body,created_at,parent_id&opp_id=eq."+encodeURIComponent(id)+"&order=created_at.asc&limit=200");
+    await loadCommentLikes(id);
     const top=rows.filter(c=>!c.parent_id),kids=p=>rows.filter(c=>c.parent_id===p);
-    const one=(c,reply)=>`<div class="cm${reply?" reply":""}"><b>${escHTML(c.name||"Someone")}</b> <small>${fmtDate(c.created_at)}</small><p>${escHTML(c.body)}</p>${reply?"":`<button class="clink" data-creply="${c.id}" data-cname="${esc(c.name||"Someone")}">${t("Reply")}</button>`}</div>`;
+    const one=(c,reply)=>`<div class="cm${reply?" reply":""}"><b>${escHTML(c.name||"Someone")}</b> <small>${fmtDate(c.created_at)}</small><p>${escHTML(c.body)}</p>${likeBtn(c)} ${reply?"":`<button class="clink" data-creply="${c.id}" data-cname="${esc(c.name||"Someone")}">${t("Reply")}</button>`}</div>`;
     box.innerHTML=top.length?top.map(c=>one(c)+kids(c.id).map(r=>one(r,true)).join("")).join(""):`<p class="note">${t("No comments yet. Be the first to ask or share a tip.")}</p>`;
   }catch(e){box.innerHTML=`<p class="note">${t("Comments couldn't load. Check your connection.")}</p>`}
 }
@@ -1609,8 +1674,9 @@ async function checkActivity(){
     const myC=await supa("/rest/v1/comments?select=id&user_id=eq."+USER.id+"&limit=200");
     const replies=myC.length?await supa("/rest/v1/comments?select=id,opp_id,name,body,created_at,user_id,parent_id&parent_id=in."+encodeURIComponent(inList(myC.map(c=>c.id)))+"&order=created_at.desc&limit=50"):[];
     ACT.onPosts=onPosts.filter(c=>c.user_id!==USER.id);ACT.replies=replies.filter(c=>c.user_id!==USER.id);
+    try{ACT.clikes=await supa("/rest/v1/rpc/likes_on_my_comments",{method:"POST",body:"{}"})||[]}catch(e){ACT.clikes=[]}
     const likeNew=mine.reduce((s,id)=>s+Math.max(0,(LIKES[id]||0)-((S.likeSeen||{})[id]||0)),0);
-    ACT.n=[...ACT.onPosts,...ACT.replies].filter(c=>c.created_at>since).length+likeNew;
+    ACT.n=[...ACT.onPosts,...ACT.replies].filter(c=>c.created_at>since).length+likeNew+(ACT.clikes||[]).filter(x=>x.last_at>since).length;
     setDot(ACT.n);
   }catch(e){}
 }
@@ -1729,7 +1795,7 @@ document.addEventListener("click",e=>{
     persist();return openFilters();
   }
   if(b.dataset.fset){const[k,v]=b.dataset.fset.split(":");S.filters[k]=k==="types"?[]:v;if(filterPage==="deadline")filterPage=null;persist();return openFilters()}
-  if(b.dataset.ftog){const[k,v]=b.dataset.ftog.split(":");toggleIn(S.filters[k],v);persist();return openFilters()}
+  if(b.dataset.ftog){const[k,v]=b.dataset.ftog.split(":");if(!Array.isArray(S.filters[k]))S.filters[k]=[];toggleIn(S.filters[k],v);persist();return openFilters()}
   if(b.dataset.fapply){closeSheet();renderFeed();$("#v-feed").scrollTop=0;return}
   if(b.dataset.fclear){S.filters=JSON.parse(JSON.stringify(DEF.filters));persist();closeSheet();renderFeed();$("#v-feed").scrollTop=0;return toast("Filters cleared")}
   if(b.dataset.org)return openOrg(b.dataset.org);
@@ -1746,6 +1812,7 @@ document.addEventListener("click",e=>{
   if(b.dataset.sendlink)return sendLink();
   if(b.dataset.verify)return verifyCode();
   if(b.dataset.lang){if(b.dataset.lang!==LANG)setLang(b.dataset.lang);return}
+  if(b.dataset.fcat!==undefined){S.filters.types=b.dataset.fcat?[b.dataset.fcat]:[];persist();return openFilters()}
   if(b.dataset.fhap){S.filters.happens=S.filters.happens===b.dataset.fhap?"":b.dataset.fhap;persist();return openFilters()}
   if(b.dataset.smode){searchMode=b.dataset.smode;return renderSearch()}
   if(b.dataset.ptopic!==undefined){placeTopic=placeTopic===b.dataset.ptopic?"":b.dataset.ptopic;return renderSearch()}
@@ -1780,6 +1847,8 @@ document.addEventListener("click",e=>{
   if(b.dataset.rsend){const o=byId(b.dataset.rsend),t=($("#r-body").value||"").trim();if(!t)return toast("Write what's wrong first");
     b.disabled=true;supa("/rest/v1/submissions",{method:"POST",headers:{prefer:"return=minimal"},body:JSON.stringify({title:("Correction: "+o.title).slice(0,200),link:(o.url||"").slice(0,500),contact:t.slice(0,200),device:S.device})})
       .then(()=>{b.parentNode.innerHTML='<p class="note">✓ Report sent. We\'ll check it against the official page.</p>'}).catch(()=>{b.disabled=false;toast("Couldn't send. Check your connection")});return}
+  if(b.dataset.ocomm){return openComments(b.dataset.ocomm)}
+  if(b.dataset.clike){return toggleCommentLike(b.dataset.clike)}
   if(b.dataset.creply!==undefined){if(needAuth("reply"))return;return setReply(b.dataset.creply,b.dataset.cname)}
   if(b.dataset.sdays){statsDays=+b.dataset.sdays;return loadStats()}
   if(b.dataset.reportpost){const o=byId(b.dataset.reportpost);if(o)reportPost(o);return}
@@ -1799,7 +1868,7 @@ document.addEventListener("click",e=>{
   const o=byId(id);
   if(act==="like"){const on=toggleIn(S.likes,id);bump(o,on?2:-2);persist();LIKES[id]=Math.max(0,(LIKES[id]||0)+(on?1:-1));refreshRails(id);
     supa("/rest/v1/rpc/toggle_like",{method:"POST",body:JSON.stringify({p_opp:id,p_device:S.device})}).then(n=>{LIKES[id]=+n;refreshRails(id)}).catch(()=>{})}
-  if(act==="comments"){openSheet(id);setTimeout(()=>{const c=$("#cmts");if(c)c.scrollIntoView({behavior:"smooth"})},300)}
+  if(act==="comments"){openComments(id)}
   if(act==="save"){const on=toggleIn(S.saved,id);bump(o,on?3:-3);persist();refreshRails(id);syncReminders();if($("#sheet").classList.contains("on"))openSheet(id);toast(on?"Saved to Deadlines":"Removed from saved")}
   if(act==="applied"){const on=toggleIn(S.applied,id);if(on&&!S.saved.includes(id))S.saved.push(id);bump(o,on?4:-4);persist();refreshRails(id);toast(on?"Marked as applied. Good luck!":"Unmarked")}
   if(act==="share"){bump(o,2);persist();track("share",id);shareOpp(o)}
@@ -1818,6 +1887,7 @@ document.addEventListener("change",e=>{
     t.value="";return drawMedia()}
   if(t.id==="f-elig"){S.filters.eligOnly=t.checked;persist();return openFilters()}
   if(t.id==="f-city"){S.filters.city=t.value.trim();if(S.filters.city&&!S.filters.where.length&&!S.filters.region)S.filters.where=["lebanon"];persist();return openFilters()}
+  if(t.id==="f-pmin"||t.id==="f-pmax"){S.filters[t.id==="f-pmin"?"prizeMin":"prizeMax"]=t.value.trim();persist();return openFilters()}
   if(t.id==="f-ended"){S.filters.ended=t.checked;persist();return openFilters()}
   if(t.id==="f-dldate"){S.filters.dlDate=t.value;if(t.value&&!S.filters.dlMode)S.filters.dlMode="before";persist();return openFilters()}
   if(t.id==="f-min"||t.id==="f-max"){
