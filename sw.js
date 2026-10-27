@@ -1,7 +1,7 @@
 // Darb service worker: makes the site installable as an Android app, keeps the
 // last-loaded version available offline, and sends deadline reminders for saved items.
 // Always tries the network first so the daily opportunity updates show up immediately.
-const CACHE = "darb-v1";
+const CACHE = "darb-v2";
 const REMINDERS = "darb-reminders"; // saved deadlines written by the page; read here in the background
 
 self.addEventListener("install", () => self.skipWaiting());
@@ -10,8 +10,11 @@ self.addEventListener("activate", e => e.waitUntil(self.clients.claim()));
 self.addEventListener("fetch", e => {
   const req = e.request;
   if (req.method !== "GET" || new URL(req.url).origin !== self.location.origin) return;
+  // The page and its data always check the server first (GitHub Pages would otherwise let the phone
+  // keep a 10-minute-old copy), so a new version shows as soon as the app is reopened.
+  const fresh = req.mode === "navigate" || /\.(html|json)$|\/$/.test(new URL(req.url).pathname);
   e.respondWith(
-    fetch(req)
+    fetch(fresh ? new Request(req, { cache: "no-cache" }) : req)
       .then(res => {
         const copy = res.clone();
         caches.open(CACHE).then(c => c.put(req, copy));
