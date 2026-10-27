@@ -312,7 +312,7 @@ const CATS={research:"Research",hackathon:"Hackathon",case:"Case competition",ru
 const INTERESTS={consulting:"Consulting",finance:"Finance & VC",startups:"Startups",case:"Case comps",hackathon:"Hackathons",research:"Research",exchange:"Exchange & scholarships",careers:"Careers",running:"Running",hiking:"Hiking",volunteering:"Volunteering",sports:"Sports (football, basketball…)",arts:"Arts & creative"};
 
 /* ---------- state ---------- */
-const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{types:[],degree:[],when:"any",where:[],region:"",money:[],fee:"any",feeMin:"",eligOnly:false,sort:"best",dlMode:"",dlDate:"",ended:true,city:"",happens:"",skills:[],aud:[],prizeMin:"",prizeMax:"",group:""},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
+const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{types:[],degree:[],when:"any",where:[],region:"",money:[],fee:"any",feeMin:"",eligOnly:false,sort:"best",dlMode:"",dlDate:"",ended:true,city:"",happens:"",skills:[],aud:[],prizeMin:"",prizeMax:"",group:"",hapMode:"",hapFrom:"",hapTo:""},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
 let S=JSON.parse(JSON.stringify(DEF));
 try{const raw=localStorage.getItem("darb-state");if(raw){const p=JSON.parse(raw);S={...S,...p,profile:{...S.profile,...(p.profile||{})}}}}catch(e){}
 S.filters={...DEF.filters,...(S.filters||{})};
@@ -588,7 +588,6 @@ const CAT_TREE=[
 function inGroup(o,gk){const g=CAT_TREE.find(x=>x.k===gk);if(!g)return true;const tp=topicsOf(o),ty=typesOf(o);
   if(g.k==="work")return ty.has("job")||ty.has("intern")||ty.has("volunteer");
   return g.subs.length?g.subs.some(k=>tp.has(k)):g.kinds.some(([k])=>ty.has(k))}
-function catCount({group,sub,kind}){return OPPS.filter(o=>!isClosed(o)&&!seasonHidden(o)&&(!group||inGroup(o,group))&&(!sub||topicsOf(o).has(sub))&&(!kind||typesOf(o).has(kind))).length}
 
 const SPORT_RE={football:/football|soccer|futsal/i,basketball:/basketball/i,volleyball:/volleyball/i,padel:/padel|tennis/i,swimming:/swim/i,cycling:/cycl|\bbike\b/i,ski:/\bski(ing)?\b|snowboard/i,chess:/chess/i,gymnastics:/gymnast|trampoline|cheerlead|acrobat/i,yoga:/\byoga\b|pilates/i,fitness:/crossfit|hyrox|fitness|bootcamp|weightlift|powerlift|bodybuild|\bgym\b/i,martial:/martial|karate|taekwondo|judo|jiu-?jitsu|\bbjj\b|\bmma\b|boxing|kickbox|muay thai|wrestling/i,climbing:/climb|boulder/i,racket:/table tennis|ping ?pong|squash|badminton/i,fencing:/fencing|archery|shooting club|sport shooting/i,golf:/\bgolf\b/i,skating:/skat(e|ing)|skateboard|parkour|roller/i,rugby:/rugby|cricket|frisbee|ultimate|baseball|softball|handball|water polo/i,bowling:/bowling|billiard|snooker|darts/i,motor:/karting|kart\b|rally|motocross|motorsport|drift|\batv\b/i,water:/scuba|diving|freediv|snorkel|sailing|kite ?surf|windsurf|surf|kayak|paddle ?board|\bsup\b|yacht|rowing/i,riding:/horse|equestrian|riding club/i,dance:/dance|salsa|dabke|ballet|hip-?hop|tango/i,music:/music|concert|orchestra|choir|guitar|piano|oud|conservatoire|philharmonic/i,esports:/e-?sports|\bgaming\b|\bfifa\b|ea fc|valorant|league of legends|\blan party/i};
 function topicsOf(o){
@@ -682,7 +681,10 @@ function passFilters(o){
   if(f.types.length&&!f.types.some(t=>typesOf(o).has(t)))return false;
   if(f.region&&regionOf(o)!==f.region)return false;
   if(f.group&&!inGroup(o,f.group))return false;
-  if(f.happens&&!happensIn(o,f.happens))return false;
+  if(f.hapMode&&f.hapFrom){
+    if(!o.eventDate)return false;const s0=new Date(o.eventDate),e0=o.eventEnd?new Date(o.eventEnd):s0,a=new Date(f.hapFrom+"T00:00:00"),b=new Date((f.hapMode==="between"&&f.hapTo?f.hapTo:f.hapFrom)+"T23:59:59");
+    if(f.hapMode==="before"&&s0>b)return false;if(f.hapMode==="after"&&e0<a)return false;if(f.hapMode==="between"&&(s0>b||e0<a))return false;
+  }else if(f.happens&&!happensIn(o,f.happens))return false;
   if((f.skills||[]).length&&!(o.skills&&f.skills.includes(o.skills)))return false;
   if((f.aud||[]).length&&!(o.audience&&(o.audience.includes("anyone")||f.aud.some(a=>o.audience.includes(a)))))return false;
   if(f.prizeMin&&prizeUSD(o)<Number(f.prizeMin))return false;
@@ -699,7 +701,7 @@ function passFilters(o){
   if(f.eligOnly&&(o.elig.status!=="ok"||fitFor(o).block))return false;
   return true;
 }
-function activeFilters(){const f=S.filters;return(S.profile.topics||[]).length+f.types.length+(f.when!=="any")+!!(f.dlMode&&f.dlDate)+!!f.city+!!f.happens+(f.skills||[]).length+(f.aud||[]).length+!!(f.prizeMin||f.prizeMax)+(f.ended===false)+f.where.length+!!f.region+f.money.length+(f.fee!=="any"||f.feeMin!=="")+f.eligOnly+(f.sort!=="best")}
+function activeFilters(){const f=S.filters;return(S.profile.topics||[]).length+f.types.length+(f.when!=="any")+!!(f.dlMode&&f.dlDate)+!!f.city+!!(f.happens||(f.hapMode&&f.hapFrom))+(f.skills||[]).length+(f.aud||[]).length+!!(f.prizeMin||f.prizeMax)+(f.ended===false)+f.where.length+!!f.region+f.money.length+(f.fee!=="any"||f.feeMin!=="")+f.eligOnly+(f.sort!=="best")}
 
 /* ---------- For You: learns from what you watch, save, like and skip ---------- */
 const jitter=id=>(hash(id+SESSION_SEED)%1000)/1000;
@@ -710,17 +712,35 @@ function rankForYou(o){
 }
 function bump(o,w){for(const t of topicsOf(o))S.aff[t]=(S.aff[t]||0)+w;const k="org:"+orgKey(o);S.aff[k]=(S.aff[k]||0)+w/2}
 
+// Everything the feed would show right now (before ordering). Filter counts use this too,
+// so a number in the filters always matches "See N results".
+function feedPool(){
+  const f0=S.filters,sort=f0.sort,strict=["soon","cheap","prize"].includes(sort);
+  const showEnded=f0.ended!==false&&!strict&&f0.when==="any"&&!(f0.dlMode&&f0.dlDate);
+  let list=OPPS.filter(o=>(!isClosed(o)||(showEnded&&!o.job))&&!S.hidden.includes(o.id)&&o.elig.status!=="no"&&!seasonHidden(o)&&(!isListing(o)||f0.types.some(t=>t==="club"||t==="place")));
+  const tp=S.profile.topics||[];
+  if(tp.length)list=list.filter(o=>tp.some(k=>topicsOf(o).has(k)));
+  list=list.filter(passFilters);
+  if(feedMode==="following")list=list.filter(isFollowed);
+  if(sort==="cheap")list=list.filter(o=>!o.job&&o.feeUSD!==null);
+  else if(sort==="prize")list=list.filter(o=>prizeUSD(o)>0);
+  if(!S.profile.reach)list=list.filter(o=>!reachReason(o));
+  return list;
+}
+// How many results there would be with some filters changed (e.g. for "Football · 21").
+function countWith(over){
+  const sf=S.filters,st=S.profile.topics;
+  S.filters={...sf,...(over.filters||{})};if(over.topics)S.profile.topics=over.topics;
+  try{return feedPool().length}finally{S.filters=sf;S.profile.topics=st}
+}
+function catCount({group,sub,kind}){return countWith({filters:{group:group||"",types:kind?[kind]:[]},topics:sub?[sub]:[]})}
 function feedItems(){
   const sort=S.filters.sort,strict=["soon","cheap","prize"].includes(sort),f0=S.filters;
   // Ended events stay (registration closed, happening now, or over with their photos), except jobs,
   // and except when you sort or filter by deadline, where only open ones make sense.
   const showEnded=f0.ended!==false&&!strict&&f0.when==="any"&&!(f0.dlMode&&f0.dlDate);
   // Ski resorts, beaches and other seasonal places join the feed once their owners announce the season.
-  let list=OPPS.filter(o=>(!isClosed(o)||(showEnded&&!o.job))&&!S.hidden.includes(o.id)&&o.elig.status!=="no"&&!seasonHidden(o)&&(!isListing(o)||f0.types.some(t=>t==="club"||t==="place")));
-  const tp=S.profile.topics||[];
-  if(tp.length)list=list.filter(o=>tp.some(k=>topicsOf(o).has(k)));
-  list=list.filter(passFilters);
-  if(feedMode==="following")list=list.filter(isFollowed);
+  let list=feedPool();
   if(sort==="cheap")list=list.filter(o=>!o.job&&o.feeUSD!==null).sort((a,b)=>(a.feeUSD??1e9)-(b.feeUSD??1e9)||jitter(a.id)-jitter(b.id));
   else if(sort==="prize")list=list.filter(o=>prizeUSD(o)>0).sort((a,b)=>prizeUSD(b)-prizeUSD(a));
   else if(sort==="soon")list.sort((a,b)=>(daysLeft(a)??9999)-(daysLeft(b)??9999));
@@ -1198,21 +1218,27 @@ function openFilters(){
     const sub=(S.profile.topics||[])[0]||"",subName=sub?(TOPICS.find(t=>t[0]===sub)||[,sub])[1].replace(/^\S+\s/,""):g.label.replace(/^\S+\s/,"");
     body=head(subName,1)+opt('data-fkind=""',!f.types.length,`All ${subName.toLowerCase()}`,`${catCount({group:g.k,sub})} open`)+`<div class="flabel">What kind?</div>`+
       g.kinds.map(([k,l])=>[k,l,catCount({group:g.k,sub,kind:k})]).filter(([k,l,c])=>c||f.types.includes(k)).map(([k,l,c])=>opt(`data-fkind="${k}"`,f.types.length===1&&f.types[0]===k,l,`${c} open`)).join("");
+  }else if(filterPage==="when"){
+    // When it happens: before / after / between dates you choose.
+    const m=f.hapMode||"";
+    body=head("When it happens",1)+`<div class="flabel">Quick picks</div><div class="frowpad"><div class="ichips">${Object.entries(HAPPENS).map(([k,l])=>`<button class="fchip ${f.happens===k&&!m?"on":""}" data-fhap="${k}">${l}</button>`).join("")}</div></div>`+
+      `<div class="flabel">Or choose dates</div><div class="frowpad"><div class="seg">${[["before","Before"],["after","After"],["between","Between"]].map(([k,l])=>`<button class="fchip ${m===k?"on":""}" data-fhm="${k}">${l}</button>`).join("")}${m?'<button class="fchip" data-fhm="">✕</button>':""}</div>`+
+      (m?`<div class="minmax"><input id="f-h1" class="inp" type="date" value="${f.hapFrom||""}" aria-label="${m==="before"?"Before":"From"}">${m==="between"?`<input id="f-h2" class="inp" type="date" value="${f.hapTo||""}" aria-label="To">`:""}</div><p class="note">${m==="before"?"Events starting on or before this date.":m==="after"?"Events starting on or after this date.":"Events happening between these dates."}</p>`:`<p class="note">Choose Before, After or Between, then pick the date.</p>`)+`</div>`;
   }else if(filterPage==="category"){
     const tp=S.profile.topics||[];
-    const cnt=k=>OPPS.filter(o=>!isClosed(o)&&topicsOf(o).has(k)).length,lab=k=>(TOPICS.find(t=>t[0]===k)||[,k])[1];
+    const cnt=k=>countWith({topics:[k]}),lab=k=>(TOPICS.find(t=>t[0]===k)||[,k])[1];
     if(catGroup){const g=TOPIC_GROUPS.find(x=>x[0]===catGroup);
       body=head(g[1],1)+`<div class="flabel">Choose one or more</div>`+g[2].map(k=>{const c=cnt(k);return c||tp.includes(k)?opt(`data-ftopic="${k}"`,tp.includes(k),lab(k),`${c} open`):""}).join("");
     }else body=head("Subject",1)+opt('data-ftopic="all"',!tp.length,"All subjects")+`<div class="flabel">Choose a group</div>`+
       TOPIC_GROUPS.map(([k,l,list])=>{const on=list.filter(x=>tp.includes(x));return`<button class="frow" data-cgroup="${k}"><span><b>${l}</b><small>${on.length?on.map(lab).join(", "):list.slice(0,5).map(x=>lab(x).replace(/^\S+\s/,"")).join(", ")+(list.length>5?"…":"")}</small></span><em>${on.length?on.length+" chosen":"›"}</em></button>`}).join("");
   }else if(filterPage==="location"){
-    const cnt=fn=>OPPS.filter(o=>!isClosed(o)&&fn(o)).length;
+    const cnt=fn=>countWith(fn);
     body=head("Location",1)+opt('data-floc="all"',!f.region&&!f.where.length,"Everywhere")+
-      opt('data-floc="w:online"',f.where.includes("online")&&!f.region,"Online",`${cnt(o=>whereOf(o)==="online")} open`)+
-      opt('data-floc="w:abroad"',f.where.includes("abroad")&&!f.region,"Abroad (travel)",`${cnt(o=>whereOf(o)==="abroad")} open`)+
-      opt('data-floc="w:lebanon"',f.where.includes("lebanon")&&!f.region,"See all in Lebanon",`${cnt(o=>whereOf(o)==="lebanon")} open`)+
+      opt('data-floc="w:online"',f.where.includes("online")&&!f.region,"Online",`${countWith({filters:{where:["online"],region:"",city:""}})} open`)+
+      opt('data-floc="w:abroad"',f.where.includes("abroad")&&!f.region,"Abroad (travel)",`${countWith({filters:{where:["abroad"],region:"",city:""}})} open`)+
+      opt('data-floc="w:lebanon"',f.where.includes("lebanon")&&!f.region,"See all in Lebanon",`${countWith({filters:{where:["lebanon"],region:"",city:""}})} open`)+
       `<div class="flabel">City or town</div><div class="frowpad"><input id="f-city" class="inp" type="search" placeholder="e.g. Jounieh, Zahle, Ehden, Hamra" value="${esc(f.city||"")}" aria-label="City or town"></div>`+
-      `<div class="flabel">Choose region</div>`+REGIONS.map(([k,l])=>opt(`data-floc="r:${k}"`,f.region===k,`📍 ${l}`,`${cnt(o=>regionOf(o)===k)} open`)).join("");
+      `<div class="flabel">Choose region</div>`+REGIONS.map(([k,l])=>opt(`data-floc="r:${k}"`,f.region===k,`📍 ${l}`,`${countWith({filters:{where:["lebanon"],region:k,city:""}})} open`)).join("");
   }else if(filterPage==="deadline"){
     body=head("Deadline",1)+Object.entries(WHEN).map(([k,l])=>opt(`data-fset="when:${k}"`,f.when===k,l)).join("")+
       `<div class="flabel">Or choose a date</div><div class="frowpad"><div class="seg"><button class="fchip ${f.dlMode==="before"?"on":""}" data-fdl="before">Before</button><button class="fchip ${f.dlMode==="after"?"on":""}" data-fdl="after">After</button>${f.dlMode?'<button class="fchip" data-fdl="">✕</button>':""}</div><input id="f-dldate" class="inp" type="date" value="${f.dlDate}" aria-label="Deadline date"><p class="note">e.g. Before + 31 October shows everything closing by 31 October.</p></div>`;
@@ -1232,7 +1258,7 @@ function openFilters(){
     const chips=(label,key,opts)=>`<div class="frow static"><span><b>${label}</b></span><div class="ichips">${opts.map(([k,l])=>`<button class="fchip ${(f[key]||[]).includes(k)?"on":""}" data-ftog="${key}:${k}">${l}</button>`).join("")}</div></div>`;
     const range=(label,a,b,va,vb)=>`<div class="frow static"><span><b>${label}</b></span><div class="minmax"><input id="${a}" class="inp" type="number" inputmode="numeric" min="0" placeholder="Min" value="${va||""}"><input id="${b}" class="inp" type="number" inputmode="numeric" min="0" placeholder="Max" value="${vb||""}"></div></div>`;
     const ROWS={
-      happens:()=>`<div class="frow static"><span><b>When it happens</b></span><div class="ichips">${Object.entries(HAPPENS).map(([k,l])=>`<button class="fchip ${f.happens===k?"on":""}" data-fhap="${k}">${l}</button>`).join("")}</div></div>`,
+      happens:()=>`<div class="frow static"><span style="flex-direction:row;justify-content:space-between;align-items:center"><b>When it happens</b><button class="flink" data-fpage="when" style="margin:0">Choose dates ›</button></span>${f.hapMode&&f.hapFrom?`<small>${f.hapMode==="before"?"Before":f.hapMode==="after"?"After":"Between"} ${fmtDate(f.hapFrom)}${f.hapMode==="between"&&f.hapTo?" and "+fmtDate(f.hapTo):""}</small>`:""}<div class="ichips">${Object.entries(HAPPENS).map(([k,l])=>`<button class="fchip ${f.happens===k?"on":""}" data-fhap="${k}">${l}</button>`).join("")}</div></div>`,
       deadline:()=>row("deadline","Deadline",sum.deadline),
       where:()=>`<div class="frow static"><span style="flex-direction:row;justify-content:space-between;align-items:center"><b>Where</b><button class="flink" data-fpage="location" style="margin:0">Region / city ›</button></span><div class="ichips">${wq("all","Anywhere")}${wq("lebanon","🇱🇧 In Lebanon")}${wq("online","💻 Online")}${wq("abroad","✈️ Outside Lebanon")}</div>${f.region||f.city?`<small>${sum.location}</small>`:""}</div>`,
       topic:()=>row("category","Subject",sum.category),
@@ -1873,7 +1899,8 @@ document.addEventListener("click",e=>{
   if(b.dataset.fsub!==undefined){const k=b.dataset.fsub;S.profile.topics=k?[k]:[];S.filters.types=[];persist();const g=CAT_TREE.find(x=>x.k===S.filters.group);filterPage=g&&g.kinds?"kind":null;return openFilters()}
   if(b.dataset.fkind!==undefined){S.filters.types=b.dataset.fkind?[b.dataset.fkind]:[];persist();filterPage=null;return openFilters()}
   if(b.dataset.fcat!==undefined){const k=b.dataset.fcat;if((S.filters.types[0]||"")!==k)S.profile.topics=[];S.filters.types=k?[k]:[];persist();filterPage="sub";return openFilters()}
-  if(b.dataset.fhap){S.filters.happens=S.filters.happens===b.dataset.fhap?"":b.dataset.fhap;persist();return openFilters()}
+  if(b.dataset.fhm!==undefined){const m=b.dataset.fhm;S.filters.hapMode=m;if(!m){S.filters.hapFrom="";S.filters.hapTo=""}else{S.filters.happens="";if(!S.filters.hapFrom)S.filters.hapFrom=new Date(Date.now()+7*DAY).toISOString().slice(0,10)}persist();return openFilters()}
+  if(b.dataset.fhap){S.filters.hapMode="";S.filters.happens=S.filters.happens===b.dataset.fhap?"":b.dataset.fhap;persist();return openFilters()}
   if(b.dataset.smode){searchMode=b.dataset.smode;return renderSearch()}
   if(b.dataset.ptopic!==undefined){placeTopic=placeTopic===b.dataset.ptopic?"":b.dataset.ptopic;return renderSearch()}
   if(b.dataset.orgtab){return openOrg(b.dataset.orgkey,b.dataset.orgtab)}
@@ -1948,6 +1975,7 @@ document.addEventListener("change",e=>{
   if(t.id==="f-elig"){S.filters.eligOnly=t.checked;persist();return openFilters()}
   if(t.id==="f-city"){S.filters.city=t.value.trim();if(S.filters.city&&!S.filters.where.length&&!S.filters.region)S.filters.where=["lebanon"];persist();return openFilters()}
   if(t.id==="f-pmin"||t.id==="f-pmax"){S.filters[t.id==="f-pmin"?"prizeMin":"prizeMax"]=t.value.trim();persist();return openFilters()}
+  if(t.id==="f-h1"||t.id==="f-h2"){S.filters[t.id==="f-h1"?"hapFrom":"hapTo"]=t.value;persist();return openFilters()}
   if(t.id==="f-ended"){S.filters.ended=t.checked;persist();return openFilters()}
   if(t.id==="f-dldate"){S.filters.dlDate=t.value;if(t.value&&!S.filters.dlMode)S.filters.dlMode="before";persist();return openFilters()}
   if(t.id==="f-min"||t.id==="f-max"){
