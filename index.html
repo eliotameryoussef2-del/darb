@@ -71,6 +71,7 @@ html[dir=rtl] .title,html[dir=rtl] .nt{direction:ltr;unicode-bidi:plaintext;text
 .typetile b{font-size:15px;letter-spacing:.08em;text-transform:uppercase;color:#fff;opacity:.92}
 .thumb .typetile span{font-size:26px}.thumb .typetile b{display:none}
 .cdesc{margin:4px 0 8px;font-size:14px;line-height:1.35;color:#e8e8e8;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.fnext{width:100%;margin:6px 0 4px;justify-content:center}
 .catgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:0 16px 6px}.catbtn{display:flex;justify-content:space-between;align-items:center;gap:6px;text-align:left;border:1px solid var(--line);background:var(--panel);color:var(--fg);border-radius:12px;padding:10px;font-size:13.5px}.catbtn small{color:var(--mute)}.catbtn.on{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
 .clink.liked{color:#ff4d6d}.cbar{position:sticky;bottom:0;background:var(--bg);padding-top:8px}
 .logotile.mono span{font:800 64px/1 var(--display,inherit);color:#222}
@@ -1128,7 +1129,7 @@ function openDirectory(){
 
 /* ---------- filter panel ---------- */
 // Laid out like OLX: a full-screen page of rows; each row opens its own list; live count at the bottom.
-let filterPage=null;
+let filterPage=null,fstep=1;
 const WHEN={any:"Any time","7":"Closing in 7 days","30":"Closing in 30 days",rolling:"Apply any time"};
 const WHERE={lebanon:"In Lebanon",online:"Online",abroad:"Abroad (travel)"};
 const MONEY={full:"Fully funded",partial:"Partly funded",free:"Free to join",prize:"Has a prize"};
@@ -1206,7 +1207,7 @@ function openFilters(){
       more:()=>row("more","More: sort, eligibility, ended events",sum.more)
     };
     const SETS={
-      "":["happens","where","topic","fee","prize","skills","audience","deadline","more"],
+      "":["happens","where","topic","fee","skills","audience","deadline","more"],
       competition:["deadline","where","topic","prize","fee","skills","audience","more"],
       aid:["deadline","where","funding","audience","more"],
       program:["deadline","where","funding","fee","skills","audience","more"],
@@ -1219,7 +1220,10 @@ function openFilters(){
     const open=k=>OPPS.filter(o=>!isClosed(o)&&!seasonHidden(o)&&(k?typesOf(o).has(k):true)).length;
     const tpl=(S.profile.topics||[]).map(k=>(TOPICS.find(t=>t[0]===k)||[,k])[1].replace(/^\S+\s/,""));
     const catSum=(cur?TYPES[cur].replace(/^\S+\s/,""):"Everything")+(tpl.length?" · "+tpl.join(", "):"");
-    body=head("Filters")+row("type","Category",catSum)+(SETS[cur]||SETS[""]).filter(k=>k!=="topic").map(k=>ROWS[k]()).join("");
+    const STEP1=["happens","where","deadline"],step2=(SETS[cur]||SETS[""]).filter(k=>k!=="topic"&&!STEP1.includes(k));
+    const name=cur?TYPES[cur].replace(/^\S+\s/,""):"";
+    if(fstep===2)body=`<div class="fhead"><button class="fback" data-fstep="1" aria-label="Back">‹</button><b>${name?name+" · details":"More details"}</b></div><div class="flabel">Step 2 of 2</div>`+step2.map(k=>ROWS[k]()).join("");
+    else body=head("Filters")+`<div class="flabel">Step 1 of 2</div>`+row("type","Category",catSum)+STEP1.map(k=>ROWS[k]()).join("")+`<div class="frowpad"><button class="btn fnext" data-fstep="2">Next: ${name?name.toLowerCase()+" details":"more details"} ›</button></div>`;
   }
   showSheet(body+foot);$("#sheet").classList.add("full");
 }
@@ -1791,7 +1795,7 @@ document.addEventListener("click",e=>{
   const b=e.target.closest("button,[data-open]");if(!b)return;
   if(b.dataset.v)return show(b.dataset.v);
   if(b.dataset.reload)return loadData(true);
-  if(b.dataset.filters){filterPage=null;return openFilters()}
+  if(b.dataset.filters){filterPage=null;fstep=1;return openFilters()}
   if(b.dataset.remind)return enableReminders();
   if(b.dataset.dir){dirGroup="";dirQ="";return openDirectory()}
   if(b.dataset.dgroup!==undefined){dirGroup=b.dataset.dgroup;return openDirectory()}
@@ -1826,6 +1830,7 @@ document.addEventListener("click",e=>{
   if(b.dataset.sendlink)return sendLink();
   if(b.dataset.verify)return verifyCode();
   if(b.dataset.lang){if(b.dataset.lang!==LANG)setLang(b.dataset.lang);return}
+  if(b.dataset.fstep){fstep=+b.dataset.fstep;filterPage=null;return openFilters()}
   if(b.dataset.fcat!==undefined){const k=b.dataset.fcat;if((S.filters.types[0]||"")!==k)S.profile.topics=[];S.filters.types=k?[k]:[];persist();filterPage="sub";return openFilters()}
   if(b.dataset.fhap){S.filters.happens=S.filters.happens===b.dataset.fhap?"":b.dataset.fhap;persist();return openFilters()}
   if(b.dataset.smode){searchMode=b.dataset.smode;return renderSearch()}
