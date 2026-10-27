@@ -420,6 +420,7 @@ const AR_PATTERNS=[
   [/^That's all (\d+) for your filters$/,(m,n)=>`هذه كل النتائج (${n}) حسب الفلاتر`],[/^(\d+) views?$/,(m,n)=>`${n} مشاهدة`],
   [/^Refreshed · (\d+) open · updated (.+)$/,(m,n,d)=>`تم التحديث · ${n} متاح · آخر تحديث ${arDate(d)}`],
   [new RegExp("^"+DATE_RE+"$"),(m,d)=>arDate(d)],[new RegExp("^Register by "+DATE_RE+"$"),(m,d)=>`التسجيل قبل ${arDate(d)}`],
+  [/^Needs (.+)$/,(m,x)=>`يتطلب ${trCore(x)||x}`],
   [/^Before (.+)$/,(m,d)=>`قبل ${arDate(d)}`],[/^After (.+)$/,(m,d)=>`بعد ${arDate(d)}`],
 ];
 const EMOJI_LEAD=/^((?:\p{Extended_Pictographic}|\p{Regional_Indicator})[️‍\p{Extended_Pictographic}\p{Regional_Indicator}]*\s*)([\s\S]*)$/u;

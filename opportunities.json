@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T20:53:50.283Z",
+ "updated": "2026-10-27T20:54:47.759Z",
  "count": 2952,
  "opportunities": [
   {
@@ -2342,7 +2342,7 @@
    "verified": "2026-10-22",
    "source": "iaeste-internships",
    "added": "2026-10-22",
-   "image": "https://iaeste.org/assets/seo-2aec444cb0bdf3a353ed05195c512a1e97fae6b858c2931a713ff338e9a16a78.jpg",
+   "image": null,
    "logo": null,
    "imageChecked": "2026-10-24",
    "gallery": [],
@@ -9410,7 +9410,10 @@
    "caveat": "Details taken from IWA's official call announcement; membership fee not stated. Submission time not stated.",
    "verified": "2026-10-27",
    "source": "opportunity-desk",
-   "added": "2026-10-27"
+   "added": "2026-10-27",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "id": "ex-cfa-feb-2027",
@@ -9903,7 +9906,10 @@
    "caveat": "For organisations and projects rather than individual students. No monetary prize listed; ceremony details not stated.",
    "verified": "2026-10-27",
    "source": "youthop",
-   "added": "2026-10-27"
+   "added": "2026-10-27",
+   "image": "https://static.wixstatic.com/media/04bfff_b6dc1f76ed534601b868b2606185d813%7Emv2.png/v1/fit/w_2500,h_1330,al_c/04bfff_b6dc1f76ed534601b868b2606185d813%7Emv2.png",
+   "logo": "https://static.wixstatic.com/media/04bfff_d66df79fc6e1408d89b46fd59e6a7b2b%7Emv2_d_1595_1582_s_2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/04bfff_d66df79fc6e1408d89b46fd59e6a7b2b%7Emv2_d_1595_1582_s_2.png",
+   "imageChecked": "2026-10-27"
   },
   {
    "cat": "career",
@@ -14713,7 +14719,10 @@
    "caveat": "Individual prize amounts not broken down on the jam page; judging rubric linked separately.",
    "verified": "2026-10-27",
    "source": "for9a-en",
-   "added": "2026-10-27"
+   "added": "2026-10-27",
+   "image": "https://img.itch.zone/aW1nLzI5ODk5MDY3LnBuZw==/original/d9g8SA.png",
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -15943,7 +15952,10 @@
    "caveat": "No separate registration deadline stated; country eligibility not listed (only 'from around the world'), so Lebanon eligibility should be confirmed in the official rules. Entry fee not mentioned.",
    "verified": "2026-10-27",
    "source": "hackathon-com-online",
-   "added": "2026-10-27"
+   "added": "2026-10-27",
+   "image": "https://v.fastcdn.co/u/0bc8903d/66062192-0-Xylem-2026--Facebook.png",
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "id": "marathon",
@@ -19906,7 +19918,10 @@
    "caveat": "For early-career researchers, not students. Nationality rules not stated on the official page; submission time and timezone not stated.",
    "verified": "2026-10-27",
    "source": "opportunity-desk",
-   "added": "2026-10-27"
+   "added": "2026-10-27",
+   "image": "https://www.hertie-school.org/fileadmin/_processed_/e/c/csm_CIS_Explosion_b0629f7427.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -29407,7 +29422,10 @@
    "caveat": "For senior professionals, not students. Lebanon is not named; eligibility depends on Stanford's view of 'democracy not well entrenched'.",
    "verified": "2026-10-27",
    "source": "opportunities-circle",
-   "added": "2026-10-27"
+   "added": "2026-10-27",
+   "image": "https://fsi9-prod.s3.us-west-1.amazonaws.com/s3fs-public/styles/1200x630/public/2024-10/main_page_2.jpg?itok=7MZNDG_B",
+   "logo": "https://cddrl.fsi.stanford.edu/themes/custom/stanford_fsi/apple-touch-icon.png",
+   "imageChecked": "2026-10-27"
   },
   {
    "id": "ua-ucas-undergraduate-2027",
@@ -37707,7 +37725,10 @@
    "caveat": "The date is shown next to Apply but not labelled as the deadline; IAESTE Lebanon's internal cutoff may be earlier. Nationality rule not stated on the offer page. Employer and city not named.",
    "verified": "2026-10-27",
    "source": "iaeste-internships",
-   "added": "2026-10-27"
+   "added": "2026-10-27",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "id": "lb-aub-fas-undergraduate-research-fund-2027",
@@ -38584,7 +38605,10 @@
    "caveat": "Page states 16:00 CET; 1 April falls in Dutch summer time, so offset shown as +02:00.",
    "verified": "2026-10-27",
    "source": "greatyop",
-   "added": "2026-10-27"
+   "added": "2026-10-27",
+   "image": null,
+   "logo": "https://utwente.becdn.net/.utdesign/img/favicons/apple-touch-icon.png",
+   "imageChecked": "2026-10-27"
   },
   {
    "id": "ua-american-university-of-sharjah-bachelor-2027",
@@ -105675,12 +105699,10 @@
    ],
    "url": "https://iaeste.org/member-countries/lebanon",
    "caveat": "Committee email is obfuscated on the page; see AUB's IAESTE page (aub.edu.lb/msfea/cdc/Pages/iaeste.aspx). Fee amount not stated.",
-   "image": "https://iaeste.org/assets/seo-2aec444cb0bdf3a353ed05195c512a1e97fae6b858c2931a713ff338e9a16a78.jpg",
+   "image": "https://iaeste.org/uploads/images/trainee_story/image/1152/medium_42f12112-0960-4d60-909e-f42cda24b755.jpg",
    "logo": null,
    "imageChecked": "2026-10-24",
-   "gallery": [
-    "https://iaeste.org/uploads/images/trainee_story/image/1152/medium_42f12112-0960-4d60-909e-f42cda24b755.jpg"
-   ],
+   "gallery": [],
    "galleryChecked": "2026-10-24",
    "type": "intern",
    "desc": "Paid technical internships abroad for engineering and science students, applied for via IAESTE Lebanon at AUB.",
@@ -160307,7 +160329,10 @@
    ],
    "url": "https://eventscal.lau.edu.lb/event.php?evt=20261026_ziad-a-visual-tribute",
    "caveat": "Entry fee and public access rules not stated; exhibition of LAU Graphic Design student works.",
-   "source": "lau-events"
+   "source": "lau-events",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160355,7 +160380,10 @@
    ],
    "url": "https://eventscal.lau.edu.lb/event.php?evt=20261027_ai-powered-resume-masterclass",
    "caveat": "Audience not stated; presenter Fawzi Aidi (CPHR).",
-   "source": "lau-events"
+   "source": "lau-events",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160403,7 +160431,10 @@
    ],
    "url": "https://eventscal.lau.edu.lb/event.php?evt=20261027_from-classroom-to-career",
    "caveat": "Exact session dates per campus not stated on the page (calendar shows 4-11/12 Nov 2026). Presenter Suzy Atchabahian, ACC.",
-   "source": "lau-events"
+   "source": "lau-events",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160452,7 +160483,10 @@
    ],
    "url": "https://eventscal.lau.edu.lb/event.php?evt=20261026_overview-of-wall-street-and-the-",
    "caveat": "Addressed to the LAU community; unclear whether outside guests may attend.",
-   "source": "lau-events"
+   "source": "lau-events",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160501,7 +160535,10 @@
    ],
    "url": "https://eventscal.lau.edu.lb/event.php?evt=20261027_the-entrepreneurial-journey-less",
    "caveat": "Audience and fee not stated. Speakers: Daniel El Kadi (Tchips), Ahmad Al Itani (Jemle).",
-   "source": "lau-events"
+   "source": "lau-events",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160550,7 +160587,10 @@
    ],
    "url": "https://eventscal.lau.edu.lb/event.php?evt=20261102_as-part-of-its-brown",
    "caveat": "Audience and fee not stated.",
-   "source": "lau-events"
+   "source": "lau-events",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160599,7 +160639,10 @@
    ],
    "url": "https://eventscal.lau.edu.lb/event.php?evt=20261102_beyond-friend-for-or-frenemy-nav",
    "caveat": "Academic talk; audience and fee not stated. Speaker: Giselle Pempedjian.",
-   "source": "lau-events"
+   "source": "lau-events",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160648,7 +160691,10 @@
    ],
    "url": "https://eventscal.lau.edu.lb/event.php?evt=20261103_a-tale-of-two-narratives-uncover",
    "caveat": "Academic talk; audience and fee not stated. Speaker: Dany Badran.",
-   "source": "lau-events"
+   "source": "lau-events",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160696,7 +160742,10 @@
    ],
    "url": "https://eventscal.lau.edu.lb/event.php?evt=20261027_triple-s-student-experience-prog",
    "caveat": "Programme gives students and fresh graduates practical exposure to TRIPLE S departments; application process for the programme itself not stated.",
-   "source": "lau-events"
+   "source": "lau-events",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160744,7 +160793,10 @@
    ],
    "url": "https://eventscal.lau.edu.lb/event.php?evt=20261027_opening-of-the-engineering-ventu",
    "caveat": "Info session on an optional LAU degree track (GNE 350); relevant mainly to LAU engineering students.",
-   "source": "lau-events"
+   "source": "lau-events",
+   "image": null,
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "travel": false,
@@ -160792,7 +160844,10 @@
    ],
    "url": "https://www.ndu.edu.lb/news-events/events/academic-events/the-future-of-finance-fintech-ai--innovation",
    "caveat": "Registration, fee and audience not stated.",
-   "source": "ndu-home"
+   "source": "ndu-home",
+   "image": "https://www.ndu.edu.lb/Assets/ContentPhotos/Photos/ndu-logo_113510454.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -160850,7 +160905,10 @@
    "url": "https://ticketing.as.com.lb/events/beirut-choreography-encounters",
    "caveat": "Venues, times and prices for individual workshops and performances are not on the listing; start time on 16 Nov not stated (6:00 PM is the listing's header time).",
    "source": "as-ticketing",
-   "summary": "Multi-day dance festival: workshops (Tunisian traditional, contemporary, dabke, oriental, music and movement) and performances by artists from Lebanon and abroad."
+   "summary": "Multi-day dance festival: workshops (Tunisian traditional, contemporary, dabke, oriental, music and movement) and performances by artists from Lebanon and abroad.",
+   "image": "https://ticketing.as.com.lb/as-ticketing-hub-logo.png",
+   "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
+   "imageChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -160907,7 +160965,10 @@
    "url": "https://ticketing.as.com.lb/events/labes",
    "caveat": "Price not shown on the listing. Part of the Beirut Choreography Encounters programme.",
    "source": "as-ticketing",
-   "summary": "Piece for four dancers and a live viola da gamba player mixing breakdance, circus, contemporary and traditional dance; scenography by Nadia Kaabi-Linke."
+   "summary": "Piece for four dancers and a live viola da gamba player mixing breakdance, circus, contemporary and traditional dance; scenography by Nadia Kaabi-Linke.",
+   "image": "https://ticketing.as.com.lb/as-ticketing-hub-logo.png",
+   "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
+   "imageChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -160964,7 +161025,10 @@
    "url": "https://ticketing.as.com.lb/events/yamane",
    "caveat": "Ticket prices not shown on the listing.",
    "source": "as-ticketing",
-   "summary": "Yamane returns to MusicHall after her sold-out first Original concert in September."
+   "summary": "Yamane returns to MusicHall after her sold-out first Original concert in September.",
+   "image": "https://cdn.ticketingboxoffice.com/uploadImages/EventsPics/Events-P-23376-639284695738593425.jpeg",
+   "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
+   "imageChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -161046,7 +161110,10 @@
    "url": "https://ticketing.as.com.lb/events/liliane-chlela-i-the-hybrid-the-antidote",
    "caveat": "Tickets non-refundable; seats assigned by Metro; cash only inside the venue.",
    "source": "as-ticketing",
-   "summary": "Beirut electronic producer Liliane Chlela with Beirut musicians, a Mophradat 2023/4 commission."
+   "summary": "Beirut electronic producer Liliane Chlela with Beirut musicians, a Mophradat 2023/4 commission.",
+   "image": "https://tixity.antoineticketing.com/files/event_image_7455__1792999712.png",
+   "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
+   "imageChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -161103,7 +161170,10 @@
    "url": "https://ticketing.as.com.lb/events/bisou18-001",
    "caveat": "Line-up, price and age policy not shown.",
    "source": "as-ticketing",
-   "summary": "First BISOU18 party at B 018."
+   "summary": "First BISOU18 party at B 018.",
+   "image": "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2FUE4foFVuj4ReMq7xZmXT%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=902620f1-0b2a-4d22-b62c-92e105a320e5",
+   "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
+   "imageChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -161166,7 +161236,10 @@
    "url": "https://ticketing.as.com.lb/events/secret-guest-all-night-long",
    "caveat": "Price and age policy not shown; special guest not named.",
    "source": "as-ticketing",
-   "summary": "NESTA plays an all-night Halloween set at B 018, with a surprise guest."
+   "summary": "NESTA plays an all-night Halloween set at B 018, with a surprise guest.",
+   "image": "https://firebasestorage.googleapis.com/v0/b/ticket-development-6f3af.appspot.com/o/events%2FluzBmNHINqz95ATcPe86%2Fgallery%2Fthumbnail_1600x900.jpeg?alt=media&token=05b2cb55-8d86-4b9f-b892-726cb3359795",
+   "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
+   "imageChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -161222,7 +161295,10 @@
    "url": "https://ticketing.as.com.lb/events/miss-aurora-timeless-2026",
    "caveat": "Organiser not named; ticket price not shown.",
    "source": "as-ticketing",
-   "summary": "Beauty pageant gala in Beirut for women aged 50 and over."
+   "summary": "Beauty pageant gala in Beirut for women aged 50 and over.",
+   "image": "https://images-ihjoz-com.s3.amazonaws.com/events/cover/9258/event_cover_File.jpg",
+   "logo": "https://ticketing.as.com.lb/icon.png?3eaa75a285b95ba8",
+   "imageChecked": "2026-10-27"
   },
   {
    "cat": "community",
@@ -161279,7 +161355,10 @@
    "url": "https://www.antoineticketing.com/events/7459/chopin-chopin-micha-kwieci-ski-agl",
    "caveat": "Language and subtitles not stated.",
    "source": "ent-antoine-ticketing-home-metro-a",
-   "summary": "Preview of the Chopin biopic by Michal Kwiecinski; all proceeds support former GLFL students through the AGL Aid Fund."
+   "summary": "Preview of the Chopin biopic by Michal Kwiecinski; all proceeds support former GLFL students through the AGL Aid Fund.",
+   "image": "https://tixity.antoineticketing.com/files/event_banner_7459__1793082003.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "cat": "hiking",
@@ -161347,7 +161426,10 @@
    "url": "https://www.antoineticketing.com/vouchers/7458/bkassine-wadi-jezzine-hike-with-vamos-todos",
    "caveat": "Year not printed on the page; 14 Nov 2026 is a Saturday, matching the listing.",
    "source": "ent-antoine-ticketing-home-metro-a",
-   "summary": "Pine-forest hike around Bkassine with views of Jezzine and a waterfall, ending with a village lunch."
+   "summary": "Pine-forest hike around Bkassine with views of Jezzine and a waterfall, ending with a village lunch.",
+   "image": "https://tixity.antoineticketing.com/files/event_banner_7458__1793009359.jpg",
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "id": "ibm-z-day-2026",
@@ -161402,7 +161484,10 @@
    "confidence": "High",
    "verified": "2026-10-27",
    "source": "hackathon-com-online",
-   "added": "2026-10-27"
+   "added": "2026-10-27",
+   "image": "https://v.fastcdn.co/u/0bc8903d/66036219-0-IBM-Z-Day-2025-600x4.png",
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "id": "aiforgood-trusted-knowledge-accountable-action-webinar",
@@ -161451,7 +161536,10 @@
    "caveat": "Professional webinar, not aimed specifically at students; eligibility and fee not stated. Page labels the time CEST although Geneva is on CET (+01:00) on 29 Oct; partner named only by logo (speakers are from Progress).",
    "verified": "2026-10-27",
    "source": "ai-for-good-events",
-   "added": "2026-10-27"
+   "added": "2026-10-27",
+   "image": "https://s41721.pcdn.co/wp-content/uploads/ai4g-banners/banner_96889_session.png",
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "id": "aiforgood-resilient-ai-infrastructure-observability-webinar",
@@ -161500,7 +161588,10 @@
    "caveat": "Technical professional webinar, not aimed specifically at students; eligibility and fee not stated.",
    "verified": "2026-10-27",
    "source": "ai-for-good-events",
-   "added": "2026-10-27"
+   "added": "2026-10-27",
+   "image": "https://s41721.pcdn.co/wp-content/uploads/ai4g-banners/banner_97700_session.png",
+   "logo": null,
+   "imageChecked": "2026-10-27"
   },
   {
    "id": "job-sr-744000158053740",
