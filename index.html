@@ -421,6 +421,7 @@ const AR_PATTERNS=[
   [/^Refreshed · (\d+) open · updated (.+)$/,(m,n,d)=>`تم التحديث · ${n} متاح · آخر تحديث ${arDate(d)}`],
   [new RegExp("^"+DATE_RE+"$"),(m,d)=>arDate(d)],[new RegExp("^Register by "+DATE_RE+"$"),(m,d)=>`التسجيل قبل ${arDate(d)}`],
   [/^Needs (.+)$/,(m,x)=>`يتطلب ${trCore(x)||x}`],
+  [/^All ([a-z].+)$/,(m,x)=>{const c=x.charAt(0).toUpperCase()+x.slice(1);const r=trCore(c);return r?`كل ${r}`:null}],
   [/^Before (.+)$/,(m,d)=>`قبل ${arDate(d)}`],[/^After (.+)$/,(m,d)=>`بعد ${arDate(d)}`],
 ];
 const EMOJI_LEAD=/^((?:\p{Extended_Pictographic}|\p{Regional_Indicator})[️‍\p{Extended_Pictographic}\p{Regional_Indicator}]*\s*)([\s\S]*)$/u;
@@ -1151,8 +1152,14 @@ function openFilters(){
   const opt=(attr,on,label,sub)=>`<button class="fopt ${on?"on":""}" ${attr}><span>${label}${sub?`<small>${sub}</small>`:""}</span><i>${on?"✓":""}</i></button>`;
   let body;
   if(filterPage==="type"){
-    body=head("Type",1)+opt('data-fset="types:"',!f.types.length,"Everything")+`<div class="flabel">Choose one or more</div>`+
-      Object.entries(TYPES).map(([k,l])=>opt(`data-ftog="types:${k}"`,f.types.includes(k),l,`${OPPS.filter(o=>!isClosed(o)&&typesOf(o).has(k)).length} open`)).join("");
+    const cnt=k=>OPPS.filter(o=>!isClosed(o)&&!seasonHidden(o)&&(!k||typesOf(o).has(k))).length;
+    body=head("Category",1)+opt('data-fcat=""',!f.types.length,"✨ Everything",`${cnt("")} open`)+`<div class="flabel">Choose a category</div>`+
+      Object.entries(TYPES).map(([k,l])=>opt(`data-fcat="${k}"`,f.types.length===1&&f.types[0]===k,l,`${cnt(k)} open`)).join("");
+  }else if(filterPage==="sub"){
+    // Sub-categories: the subjects that exist for the chosen category (Competitions → Tech & coding, Chess…)
+    const ty=f.types[0]||"",tp=S.profile.topics||[],name=ty?TYPES[ty]:"✨ Everything",base=OPPS.filter(o=>!isClosed(o)&&!seasonHidden(o)&&(!ty||typesOf(o).has(ty)));
+    body=head(name.replace(/^\S+\s/,""),1)+opt('data-ftopic="all"',!tp.length,`All ${name.replace(/^\S+\s/,"").toLowerCase()}`,`${base.length} open`)+
+      TOPIC_GROUPS.map(([g,gl,list])=>{const rows=list.map(k=>[k,base.filter(o=>topicsOf(o).has(k)).length]).filter(([k,c])=>c||tp.includes(k));return rows.length?`<div class="flabel">${gl}</div>`+rows.map(([k,c])=>opt(`data-ftopic="${k}"`,tp.includes(k),(TOPICS.find(t=>t[0]===k)||[,k])[1],`${c} open`)).join(""):""}).join("");
   }else if(filterPage==="category"){
     const tp=S.profile.topics||[];
     const cnt=k=>OPPS.filter(o=>!isClosed(o)&&topicsOf(o).has(k)).length,lab=k=>(TOPICS.find(t=>t[0]===k)||[,k])[1];
@@ -1210,8 +1217,9 @@ function openFilters(){
       exam:["deadline","where","fee","more"],admission:["deadline","where","fee","more"],club:["topic","where","fee","audience","more"],place:["topic","where","fee","more"]
     };
     const open=k=>OPPS.filter(o=>!isClosed(o)&&!seasonHidden(o)&&(k?typesOf(o).has(k):true)).length;
-    body=head("Filters")+`<div class="flabel">What are you looking for?</div><div class="catgrid">${[["","✨ Everything"],...Object.entries(TYPES)].map(([k,l])=>`<button class="catbtn ${cur===k?"on":""}" data-fcat="${k}"><span>${l}</span><small>${open(k)}</small></button>`).join("")}</div>`+
-      `<div class="flabel">${cur?`${TYPES[cur].replace(/^\S+\s/,"")}: filters`:"Filters"}</div>`+(SETS[cur]||SETS[""]).map(k=>ROWS[k]()).join("");
+    const tpl=(S.profile.topics||[]).map(k=>(TOPICS.find(t=>t[0]===k)||[,k])[1].replace(/^\S+\s/,""));
+    const catSum=(cur?TYPES[cur].replace(/^\S+\s/,""):"Everything")+(tpl.length?" · "+tpl.join(", "):"");
+    body=head("Filters")+row("type","Category",catSum)+(SETS[cur]||SETS[""]).filter(k=>k!=="topic").map(k=>ROWS[k]()).join("");
   }
   showSheet(body+foot);$("#sheet").classList.add("full");
 }
@@ -1791,8 +1799,8 @@ document.addEventListener("click",e=>{
   if(b.dataset.fpage){filterPage=b.dataset.fpage;catGroup="";return openFilters()}
   if(b.dataset.cgroup){catGroup=b.dataset.cgroup;return openFilters()}
   if(b.dataset.fdl!==undefined){S.filters.dlMode=b.dataset.fdl;if(!b.dataset.fdl)S.filters.dlDate="";else if(!S.filters.dlDate){const d=new Date(Date.now()+30*DAY);S.filters.dlDate=d.toISOString().slice(0,10)}persist();return openFilters()}
-  if(b.dataset.fback){if(filterPage==="category"&&catGroup){catGroup="";return openFilters()}if(filterPage){filterPage=null;return openFilters()}return closeSheet()}
-  if(b.dataset.ftopic){const k=b.dataset.ftopic,tp=S.profile.topics||(S.profile.topics=[]);if(k==="all")tp.length=0;else toggleIn(tp,k);persist();return openFilters()}
+  if(b.dataset.fback){if(filterPage==="sub"){filterPage="type";return openFilters()}if(filterPage==="category"&&catGroup){catGroup="";return openFilters()}if(filterPage){filterPage=null;return openFilters()}return closeSheet()}
+  if(b.dataset.ftopic){const k=b.dataset.ftopic,tp=S.profile.topics||(S.profile.topics=[]);if(k==="all"){tp.length=0;if(filterPage==="sub")filterPage=null}else toggleIn(tp,k);persist();return openFilters()}
   if(b.dataset.floc){
     const v=b.dataset.floc,f=S.filters;
     if(v==="all"){f.where=[];f.region="";f.city=""}
@@ -1818,7 +1826,7 @@ document.addEventListener("click",e=>{
   if(b.dataset.sendlink)return sendLink();
   if(b.dataset.verify)return verifyCode();
   if(b.dataset.lang){if(b.dataset.lang!==LANG)setLang(b.dataset.lang);return}
-  if(b.dataset.fcat!==undefined){S.filters.types=b.dataset.fcat?[b.dataset.fcat]:[];persist();return openFilters()}
+  if(b.dataset.fcat!==undefined){const k=b.dataset.fcat;if((S.filters.types[0]||"")!==k)S.profile.topics=[];S.filters.types=k?[k]:[];persist();filterPage="sub";return openFilters()}
   if(b.dataset.fhap){S.filters.happens=S.filters.happens===b.dataset.fhap?"":b.dataset.fhap;persist();return openFilters()}
   if(b.dataset.smode){searchMode=b.dataset.smode;return renderSearch()}
   if(b.dataset.ptopic!==undefined){placeTopic=placeTopic===b.dataset.ptopic?"":b.dataset.ptopic;return renderSearch()}
