@@ -312,7 +312,7 @@ const CATS={research:"Research",hackathon:"Hackathon",case:"Case competition",ru
 const INTERESTS={consulting:"Consulting",finance:"Finance & VC",startups:"Startups",case:"Case comps",hackathon:"Hackathons",research:"Research",exchange:"Exchange & scholarships",careers:"Careers",running:"Running",hiking:"Hiking",volunteering:"Volunteering",sports:"Sports (football, basketball…)",arts:"Arts & creative"};
 
 /* ---------- state ---------- */
-const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{types:[],degree:[],when:"any",where:[],region:"",money:[],fee:"any",feeMin:"",eligOnly:false,sort:"best",dlMode:"",dlDate:"",ended:true,city:"",happens:"",skills:[],aud:[],prizeMin:"",prizeMax:""},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
+const DEF={saved:[],hidden:[],applied:[],drafts:0,follow:[],likes:[],seen:{},aff:{},filters:{types:[],degree:[],when:"any",where:[],region:"",money:[],fee:"any",feeMin:"",eligOnly:false,sort:"best",dlMode:"",dlDate:"",ended:true,city:"",happens:"",skills:[],aud:[],prizeMin:"",prizeMax:"",group:""},profile:{travel:true,fullyFunded:false,maxFee:"any",reach:true,level:"",uni:"",field:"",nat:"lb",age:"",topics:[],interests:["consulting","finance","startups","case","hackathon","research","exchange","running"]}};
 let S=JSON.parse(JSON.stringify(DEF));
 try{const raw=localStorage.getItem("darb-state");if(raw){const p=JSON.parse(raw);S={...S,...p,profile:{...S.profile,...(p.profile||{})}}}}catch(e){}
 S.filters={...DEF.filters,...(S.filters||{})};
@@ -550,6 +550,7 @@ function score(o){
 }
 /* ---------- topic filters (football only, startups only, ...) ---------- */
 const TOPICS=[["tournament","🏆 Tournaments"],["football","⚽ Football"],["basketball","🏀 Basketball"],["volleyball","🏐 Volleyball"],["padel","🎾 Padel & tennis"],["swimming","🏊 Swimming"],["cycling","🚴 Cycling"],["ski","⛷️ Ski"],["chess","♟️ Chess"],["water","🤿 Diving & water sports"],["gymnastics","🤸 Gymnastics & cheer"],["yoga","🧘 Yoga & pilates"],["fitness","🏋️ Fitness & CrossFit"],["martial","🥋 Martial arts & boxing"],["climbing","🧗 Climbing"],["racket","🏓 Table tennis, squash & badminton"],["fencing","🤺 Fencing & archery"],["golf","⛳ Golf"],["skating","⛸️ Skating & skateboarding"],["rugby","🏉 Rugby, cricket & other team sports"],["bowling","🎳 Bowling, billiards & darts"],["motor","🏎️ Motorsport & karting"],["riding","🐎 Horse riding"],["dance","💃 Dance"],["music","🎵 Music"],["movies","🎬 Movies & shows"],["museums","🏛️ Museums & places"],["festivals","🎉 Festivals"],["esports","🎮 Esports"],["othersport","🥇 Other sports"],["clubs","👥 Clubs & communities"],["arts","🎨 Arts & creative"],["hiking","🥾 Hiking"],["running","🏃 Running"],["hackathon","💻 Tech & coding"],["startup","🚀 Startups & entrepreneurship"],["case","📊 Business & finance"],["research","🔬 Science & research"],["scholarship","🎓 Scholarships & exchange"],["conference","🎤 Conferences & MUN"],["volunteer","🤝 Volunteering"],["career","💼 Careers"],["funded","✈️ Fully funded"],["religious","⛪ Church & parish events"],["trips","🚌 Day trips & getaways (Lebanon)"],["travel","✈️ Group trips abroad"],["beaches","🏖️ Beaches"],["parks","🎢 Attraction parks & waterparks"],["pools","🏊 Pools"],["food","🎤 Openings & live music nights"]];
+TOPICS.push(...[["j_eng","🏗️ Engineering"],["j_it","💻 IT & software"],["j_sales","📈 Sales & marketing"],["j_fin","💵 Finance & accounting"],["j_health","🩺 Healthcare"],["j_edu","🏫 Education & teaching"],["j_hosp","🍽️ Hospitality & food"],["j_cs","🎧 Customer service"],["j_design","🎨 Design & media"],["j_ngo","🤝 NGO & humanitarian"],["j_admin","🗂️ Admin & HR"],["j_log","🚚 Logistics & operations"],["j_remote","🌍 Remote"]]);
 // Category groups, like OLX: tap a group to see its categories.
 const TOPIC_GROUPS=[
  ["sports","⚽ Sports",["football","basketball","volleyball","padel","swimming","cycling","ski","water","gymnastics","yoga","fitness","martial","climbing","racket","fencing","golf","skating","rugby","bowling","motor","riding","chess","esports","othersport"]],
@@ -560,6 +561,35 @@ const TOPIC_GROUPS=[
 // Subjects that are really types (Festivals, Scholarships, Clubs…) were removed; drop them from saved choices.
 {const ok=new Set(TOPIC_GROUPS.flatMap(g=>g[2]));if(S.profile.topics)S.profile.topics=S.profile.topics.filter(k=>ok.has(k))}
 let catGroup="";
+/* ---------- categories: Category → sub-category → kind ---------- */
+const JOB_FIELDS=[["j_eng","🏗️ Engineering"],["j_it","💻 IT & software"],["j_sales","📈 Sales & marketing"],["j_fin","💵 Finance & accounting"],["j_health","🩺 Healthcare"],["j_edu","🏫 Education & teaching"],["j_hosp","🍽️ Hospitality & food"],["j_cs","🎧 Customer service"],["j_design","🎨 Design & media"],["j_ngo","🤝 NGO & humanitarian"],["j_admin","🗂️ Admin & HR"],["j_log","🚚 Logistics & operations"],["j_remote","🌍 Remote"]];
+const JOB_RE={j_eng:/engineer(?!.*software)|civil|mechanical|electrical|architect|construction|hvac|site |quantity survey/i,
+  j_it:/software|developer|devops|data |data$|it |\bit\b|frontend|front-end|backend|back-end|full ?stack|cloud|cyber|network|qa |sysadmin|programmer|machine learning|\bai\b|product manager|ux|ui\b/i,
+  j_sales:/sales|marketing|business development|account manager|brand|growth|seo|social media|telesales|retail/i,
+  j_fin:/financ|accountant|accounting|audit|tax|treasury|credit|bank|investment|actuar|payroll|controller/i,
+  j_health:/nurse|doctor|physician|pharmac|medical|health|clinic|dentist|therap|laborator|midwife|caregiver/i,
+  j_edu:/teacher|tutor|instructor|lecturer|educat|school|trainer|faculty|professor|teaching/i,
+  j_hosp:/chef|cook|waiter|barista|bartender|hotel|restaurant|kitchen|hospitality|host|housekeep|catering/i,
+  j_cs:/customer|call center|support specialist|support agent|receptionist|client service|help ?desk/i,
+  j_design:/design|graphic|video|photograph|content creator|copywriter|editor|journalist|motion|animator|media/i,
+  j_ngo:/protection|humanitarian|programme officer|program officer|field officer|case worker|caseworker|ngo|unhcr|unicef|relief|livelihood|wash officer/i,
+  j_admin:/\bhr\b|human resources|recruit|admin|assistant|secretary|office manager|coordinator|talent/i,
+  j_log:/logistic|supply chain|warehouse|driver|delivery|procurement|operations|dispatcher|fleet|inventory/i};
+const CAT_TREE=[
+  {k:"sports",label:"⚽ Sports",subs:TOPIC_GROUPS[0][2],kinds:[["class","Training & classes"],["club","Clubs & teams"],["competition","Tournaments & races"],["event","Events & matches"],["trip","Trips"],["place","Places to play"]]},
+  {k:"outdoors",label:"🥾 Outdoors",subs:["hiking","running","beaches","ski"],kinds:[["trip","Trips & hikes"],["competition","Races"],["place","Places"],["class","Lessons"],["club","Clubs"]]},
+  {k:"culture",label:"🎨 Arts & culture",subs:["music","dance","arts","religious"],kinds:[["show","Shows & concerts"],["festival","Festivals"],["event","Events & exhibitions"],["class","Classes & workshops"],["competition","Competitions"],["club","Clubs & choirs"]]},
+  {k:"mind",label:"💡 Tech, business & science",subs:["hackathon","case","startup","research"],kinds:[["competition","Competitions & hackathons"],["program","Programmes & accelerators"],["conference","Conferences & talks"],["class","Courses & bootcamps"],["intern","Internships"],["aid","Scholarships & grants"]]},
+  {k:"study",label:"🎓 Study & scholarships",subs:[],kinds:[["aid","Scholarships & financial aid"],["program","Programmes & exchanges"],["admission","University admissions"],["exam","Exams & tests"],["conference","Conferences & MUN"]]},
+  {k:"work",label:"💼 Work",subs:JOB_FIELDS.map(x=>x[0]),kinds:[["job","Jobs"],["intern","Internships"],["volunteer","Volunteering"]]},
+  {k:"out",label:"🎤 Going out",subs:[],kinds:[["event","Events, fairs & parties"],["show","Shows, concerts & movies"],["festival","Festivals"],["conference","Talks & conferences"],["trip","Trips & outings"]]},
+  {k:"fun",label:"🎢 Fun places",subs:["parks","pools","food","beaches"],kinds:null}];
+// An item belongs to a category if it is about one of its subjects, or (categories without subjects) is one of its kinds.
+function inGroup(o,gk){const g=CAT_TREE.find(x=>x.k===gk);if(!g)return true;const tp=topicsOf(o),ty=typesOf(o);
+  if(g.k==="work")return ty.has("job")||ty.has("intern")||ty.has("volunteer");
+  return g.subs.length?g.subs.some(k=>tp.has(k)):g.kinds.some(([k])=>ty.has(k))}
+function catCount({group,sub,kind}){return OPPS.filter(o=>!isClosed(o)&&!seasonHidden(o)&&(!group||inGroup(o,group))&&(!sub||topicsOf(o).has(sub))&&(!kind||typesOf(o).has(kind))).length}
+
 const SPORT_RE={football:/football|soccer|futsal/i,basketball:/basketball/i,volleyball:/volleyball/i,padel:/padel|tennis/i,swimming:/swim/i,cycling:/cycl|\bbike\b/i,ski:/\bski(ing)?\b|snowboard/i,chess:/chess/i,gymnastics:/gymnast|trampoline|cheerlead|acrobat/i,yoga:/\byoga\b|pilates/i,fitness:/crossfit|hyrox|fitness|bootcamp|weightlift|powerlift|bodybuild|\bgym\b/i,martial:/martial|karate|taekwondo|judo|jiu-?jitsu|\bbjj\b|\bmma\b|boxing|kickbox|muay thai|wrestling/i,climbing:/climb|boulder/i,racket:/table tennis|ping ?pong|squash|badminton/i,fencing:/fencing|archery|shooting club|sport shooting/i,golf:/\bgolf\b/i,skating:/skat(e|ing)|skateboard|parkour|roller/i,rugby:/rugby|cricket|frisbee|ultimate|baseball|softball|handball|water polo/i,bowling:/bowling|billiard|snooker|darts/i,motor:/karting|kart\b|rally|motocross|motorsport|drift|\batv\b/i,water:/scuba|diving|freediv|snorkel|sailing|kite ?surf|windsurf|surf|kayak|paddle ?board|\bsup\b|yacht|rowing/i,riding:/horse|equestrian|riding club/i,dance:/dance|salsa|dabke|ballet|hip-?hop|tango/i,music:/music|concert|orchestra|choir|guitar|piano|oud|conservatoire|philharmonic/i,esports:/e-?sports|\bgaming\b|\bfifa\b|ea fc|valorant|league of legends|\blan party/i};
 function topicsOf(o){
   if(o._topics)return o._topics;
@@ -577,6 +607,7 @@ function topicsOf(o){
   if(trip)t.add(o.travel?"travel":"trips");
   if((o.tags||[]).includes("beach")||/\b(beach|plage)\b/i.test(o.title)&&!/volleyball/i.test(o.title))t.add("beaches");
   if((o.tags||[]).includes("ski"))t.add("ski");
+  if(o.job||o.type==="intern"||o.type==="job"){for(const[k,re]of Object.entries(JOB_RE))if(re.test(o.title))t.add(k);if(/remote|anywhere|worldwide/i.test(o.place||""))t.add("j_remote")}
   // Subjects from what the post is about (title, description, skills needed).
   const about=o.title+" "+(o.desc||"")+" "+(o.skillsNote||"");
   if(/\b(coding|programming|hackathon|software|developer|python|javascript|\bai\b|artificial intelligence|machine learning|data science|cyber ?security|robotics|ctf)\b/i.test(about))t.add("hackathon");
@@ -650,6 +681,7 @@ function passFilters(o){
   const f=S.filters,d=daysLeft(o);
   if(f.types.length&&!f.types.some(t=>typesOf(o).has(t)))return false;
   if(f.region&&regionOf(o)!==f.region)return false;
+  if(f.group&&!inGroup(o,f.group))return false;
   if(f.happens&&!happensIn(o,f.happens))return false;
   if((f.skills||[]).length&&!(o.skills&&f.skills.includes(o.skills)))return false;
   if((f.aud||[]).length&&!(o.audience&&(o.audience.includes("anyone")||f.aud.some(a=>o.audience.includes(a)))))return false;
@@ -1153,14 +1185,19 @@ function openFilters(){
   const opt=(attr,on,label,sub)=>`<button class="fopt ${on?"on":""}" ${attr}><span>${label}${sub?`<small>${sub}</small>`:""}</span><i>${on?"✓":""}</i></button>`;
   let body;
   if(filterPage==="type"){
-    const cnt=k=>OPPS.filter(o=>!isClosed(o)&&!seasonHidden(o)&&(!k||typesOf(o).has(k))).length;
-    body=head("Category",1)+opt('data-fcat=""',!f.types.length,"✨ Everything",`${cnt("")} open`)+`<div class="flabel">Choose a category</div>`+
-      Object.entries(TYPES).map(([k,l])=>opt(`data-fcat="${k}"`,f.types.length===1&&f.types[0]===k,l,`${cnt(k)} open`)).join("");
+    // Category → sub-category → kind (e.g. Sports → Football → Training). Like OLX.
+    body=head("Category",1)+opt('data-fgroup=""',!f.group&&!f.types.length,"✨ Everything",`${catCount({})} open`)+`<div class="flabel">Choose a category</div>`+
+      CAT_TREE.map(g=>opt(`data-fgroup="${g.k}"`,f.group===g.k,g.label,`${catCount({group:g.k})} open`)).join("");
   }else if(filterPage==="sub"){
-    // Sub-categories: the subjects that exist for the chosen category (Competitions → Tech & coding, Chess…)
-    const ty=f.types[0]||"",tp=S.profile.topics||[],name=ty?TYPES[ty]:"✨ Everything",base=OPPS.filter(o=>!isClosed(o)&&!seasonHidden(o)&&(!ty||typesOf(o).has(ty)));
-    body=head(name.replace(/^\S+\s/,""),1)+opt('data-ftopic="all"',!tp.length,`All ${name.replace(/^\S+\s/,"").toLowerCase()}`,`${base.length} open`)+
-      TOPIC_GROUPS.map(([g,gl,list])=>{const rows=list.map(k=>[k,base.filter(o=>topicsOf(o).has(k)).length]).filter(([k,c])=>c||tp.includes(k));return rows.length?`<div class="flabel">${gl}</div>`+rows.map(([k,c])=>opt(`data-ftopic="${k}"`,tp.includes(k),(TOPICS.find(t=>t[0]===k)||[,k])[1],`${c} open`)).join(""):""}).join("");
+    const g=CAT_TREE.find(x=>x.k===f.group);if(!g){filterPage=null;return openFilters()}
+    const tp=S.profile.topics||[],name=g.label.replace(/^\S+\s/,"");
+    body=head(name,1)+opt('data-fsub=""',!tp.length,`All ${name.toLowerCase()}`,`${catCount({group:g.k})} open`)+
+      g.subs.map(k=>[k,catCount({group:g.k,sub:k})]).filter(([k,c])=>c||tp.includes(k)).map(([k,c])=>opt(`data-fsub="${k}"`,tp.includes(k),(TOPICS.find(t=>t[0]===k)||[,k])[1],`${c} open`)).join("");
+  }else if(filterPage==="kind"){
+    const g=CAT_TREE.find(x=>x.k===f.group);if(!g||!g.kinds){filterPage=null;return openFilters()}
+    const sub=(S.profile.topics||[])[0]||"",subName=sub?(TOPICS.find(t=>t[0]===sub)||[,sub])[1].replace(/^\S+\s/,""):g.label.replace(/^\S+\s/,"");
+    body=head(subName,1)+opt('data-fkind=""',!f.types.length,`All ${subName.toLowerCase()}`,`${catCount({group:g.k,sub})} open`)+`<div class="flabel">What kind?</div>`+
+      g.kinds.map(([k,l])=>[k,l,catCount({group:g.k,sub,kind:k})]).filter(([k,l,c])=>c||f.types.includes(k)).map(([k,l,c])=>opt(`data-fkind="${k}"`,f.types.length===1&&f.types[0]===k,l,`${c} open`)).join("");
   }else if(filterPage==="category"){
     const tp=S.profile.topics||[];
     const cnt=k=>OPPS.filter(o=>!isClosed(o)&&topicsOf(o).has(k)).length,lab=k=>(TOPICS.find(t=>t[0]===k)||[,k])[1];
@@ -1219,7 +1256,8 @@ function openFilters(){
     };
     const open=k=>OPPS.filter(o=>!isClosed(o)&&!seasonHidden(o)&&(k?typesOf(o).has(k):true)).length;
     const tpl=(S.profile.topics||[]).map(k=>(TOPICS.find(t=>t[0]===k)||[,k])[1].replace(/^\S+\s/,""));
-    const catSum=(cur?TYPES[cur].replace(/^\S+\s/,""):"Everything")+(tpl.length?" · "+tpl.join(", "):"");
+    const gl=(CAT_TREE.find(x=>x.k===f.group)||{}).label,kindL=cur&&gl?((CAT_TREE.find(x=>x.k===f.group).kinds||[]).find(x=>x[0]===cur)||[,TYPES[cur]])[1]:cur?TYPES[cur]:"";
+    const catSum=[gl?gl.replace(/^\S+\s/,""):(cur?"":"Everything"),...tpl,kindL?kindL.replace(/^[^\p{L}]+\s/u,""):""].filter(Boolean).join(" › ");
     const STEP1=["happens","where","deadline"],step2=(SETS[cur]||SETS[""]).filter(k=>k!=="topic"&&!STEP1.includes(k));
     const name=cur?TYPES[cur].replace(/^\S+\s/,""):"";
     if(fstep===2)body=`<div class="fhead"><button class="fback" data-fstep="1" aria-label="Back">‹</button><b>${name?name+" · details":"More details"}</b></div><div class="flabel">Step 2 of 2</div>`+step2.map(k=>ROWS[k]()).join("");
@@ -1803,7 +1841,7 @@ document.addEventListener("click",e=>{
   if(b.dataset.fpage){filterPage=b.dataset.fpage;catGroup="";return openFilters()}
   if(b.dataset.cgroup){catGroup=b.dataset.cgroup;return openFilters()}
   if(b.dataset.fdl!==undefined){S.filters.dlMode=b.dataset.fdl;if(!b.dataset.fdl)S.filters.dlDate="";else if(!S.filters.dlDate){const d=new Date(Date.now()+30*DAY);S.filters.dlDate=d.toISOString().slice(0,10)}persist();return openFilters()}
-  if(b.dataset.fback){if(filterPage==="sub"){filterPage="type";return openFilters()}if(filterPage==="category"&&catGroup){catGroup="";return openFilters()}if(filterPage){filterPage=null;return openFilters()}return closeSheet()}
+  if(b.dataset.fback){if(filterPage==="kind"){const g=CAT_TREE.find(x=>x.k===S.filters.group);filterPage=g&&g.subs.length?"sub":"type";return openFilters()}if(filterPage==="sub"){filterPage="type";return openFilters()}if(filterPage==="category"&&catGroup){catGroup="";return openFilters()}if(filterPage){filterPage=null;return openFilters()}return closeSheet()}
   if(b.dataset.ftopic){const k=b.dataset.ftopic,tp=S.profile.topics||(S.profile.topics=[]);if(k==="all"){tp.length=0;if(filterPage==="sub")filterPage=null}else toggleIn(tp,k);persist();return openFilters()}
   if(b.dataset.floc){
     const v=b.dataset.floc,f=S.filters;
@@ -1831,6 +1869,9 @@ document.addEventListener("click",e=>{
   if(b.dataset.verify)return verifyCode();
   if(b.dataset.lang){if(b.dataset.lang!==LANG)setLang(b.dataset.lang);return}
   if(b.dataset.fstep){fstep=+b.dataset.fstep;filterPage=null;return openFilters()}
+  if(b.dataset.fgroup!==undefined){const k=b.dataset.fgroup;S.filters.group=k;S.profile.topics=[];S.filters.types=[];persist();const g=CAT_TREE.find(x=>x.k===k);filterPage=!g?null:g.subs.length?"sub":g.kinds?"kind":null;return openFilters()}
+  if(b.dataset.fsub!==undefined){const k=b.dataset.fsub;S.profile.topics=k?[k]:[];S.filters.types=[];persist();const g=CAT_TREE.find(x=>x.k===S.filters.group);filterPage=g&&g.kinds?"kind":null;return openFilters()}
+  if(b.dataset.fkind!==undefined){S.filters.types=b.dataset.fkind?[b.dataset.fkind]:[];persist();filterPage=null;return openFilters()}
   if(b.dataset.fcat!==undefined){const k=b.dataset.fcat;if((S.filters.types[0]||"")!==k)S.profile.topics=[];S.filters.types=k?[k]:[];persist();filterPage="sub";return openFilters()}
   if(b.dataset.fhap){S.filters.happens=S.filters.happens===b.dataset.fhap?"":b.dataset.fhap;persist();return openFilters()}
   if(b.dataset.smode){searchMode=b.dataset.smode;return renderSearch()}
