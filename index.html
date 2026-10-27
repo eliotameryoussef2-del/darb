@@ -547,16 +547,16 @@ function score(o){
   return{s,why:why.slice(0,2),label:s>=55?"Strong match":s>=35?"Good match":"Possible match"};
 }
 /* ---------- topic filters (football only, startups only, ...) ---------- */
-const TOPICS=[["tournament","🏆 Tournaments"],["football","⚽ Football"],["basketball","🏀 Basketball"],["volleyball","🏐 Volleyball"],["padel","🎾 Padel & tennis"],["swimming","🏊 Swimming"],["cycling","🚴 Cycling"],["ski","⛷️ Ski"],["chess","♟️ Chess"],["water","🤿 Diving & water sports"],["gymnastics","🤸 Gymnastics & cheer"],["yoga","🧘 Yoga & pilates"],["fitness","🏋️ Fitness & CrossFit"],["martial","🥋 Martial arts & boxing"],["climbing","🧗 Climbing"],["racket","🏓 Table tennis, squash & badminton"],["fencing","🤺 Fencing & archery"],["golf","⛳ Golf"],["skating","⛸️ Skating & skateboarding"],["rugby","🏉 Rugby, cricket & other team sports"],["bowling","🎳 Bowling, billiards & darts"],["motor","🏎️ Motorsport & karting"],["riding","🐎 Horse riding"],["dance","💃 Dance"],["music","🎵 Music"],["movies","🎬 Movies & shows"],["museums","🏛️ Museums & places"],["festivals","🎉 Festivals"],["esports","🎮 Esports"],["othersport","🥇 Other sports"],["clubs","👥 Clubs & communities"],["arts","🎨 Arts & creative"],["hiking","🥾 Hiking"],["running","🏃 Running"],["hackathon","💻 Hackathons"],["startup","🚀 Startups"],["case","📊 Case comps"],["research","🔬 Research"],["scholarship","🎓 Scholarships & exchange"],["conference","🎤 Conferences & MUN"],["volunteer","🤝 Volunteering"],["career","💼 Careers"],["funded","✈️ Fully funded"],["religious","⛪ Church & parish events"],["trips","🚌 Day trips & getaways (Lebanon)"],["travel","✈️ Group trips abroad"],["beaches","🏖️ Beaches"],["parks","🎢 Attraction parks & waterparks"],["pools","🏊 Pools"],["food","🎤 Openings & live music nights"]];
+const TOPICS=[["tournament","🏆 Tournaments"],["football","⚽ Football"],["basketball","🏀 Basketball"],["volleyball","🏐 Volleyball"],["padel","🎾 Padel & tennis"],["swimming","🏊 Swimming"],["cycling","🚴 Cycling"],["ski","⛷️ Ski"],["chess","♟️ Chess"],["water","🤿 Diving & water sports"],["gymnastics","🤸 Gymnastics & cheer"],["yoga","🧘 Yoga & pilates"],["fitness","🏋️ Fitness & CrossFit"],["martial","🥋 Martial arts & boxing"],["climbing","🧗 Climbing"],["racket","🏓 Table tennis, squash & badminton"],["fencing","🤺 Fencing & archery"],["golf","⛳ Golf"],["skating","⛸️ Skating & skateboarding"],["rugby","🏉 Rugby, cricket & other team sports"],["bowling","🎳 Bowling, billiards & darts"],["motor","🏎️ Motorsport & karting"],["riding","🐎 Horse riding"],["dance","💃 Dance"],["music","🎵 Music"],["movies","🎬 Movies & shows"],["museums","🏛️ Museums & places"],["festivals","🎉 Festivals"],["esports","🎮 Esports"],["othersport","🥇 Other sports"],["clubs","👥 Clubs & communities"],["arts","🎨 Arts & creative"],["hiking","🥾 Hiking"],["running","🏃 Running"],["hackathon","💻 Tech & coding"],["startup","🚀 Startups & entrepreneurship"],["case","📊 Business & finance"],["research","🔬 Science & research"],["scholarship","🎓 Scholarships & exchange"],["conference","🎤 Conferences & MUN"],["volunteer","🤝 Volunteering"],["career","💼 Careers"],["funded","✈️ Fully funded"],["religious","⛪ Church & parish events"],["trips","🚌 Day trips & getaways (Lebanon)"],["travel","✈️ Group trips abroad"],["beaches","🏖️ Beaches"],["parks","🎢 Attraction parks & waterparks"],["pools","🏊 Pools"],["food","🎤 Openings & live music nights"]];
 // Category groups, like OLX: tap a group to see its categories.
 const TOPIC_GROUPS=[
  ["sports","⚽ Sports",["football","basketball","volleyball","padel","swimming","cycling","ski","water","gymnastics","yoga","fitness","martial","climbing","racket","fencing","golf","skating","rugby","bowling","motor","riding","chess","esports","othersport"]],
- ["outdoors","🥾 Trips & outdoors",["travel","trips","beaches","ski","hiking","running"]],
- ["fun","🎢 Fun places",["parks","pools","food","beaches"]],
- ["events","🎉 Events & culture",["festivals","religious","movies","museums","music","dance","arts"]],
- ["compete","🏆 Competitions",["tournament","hackathon","case","startup"]],
- ["study","🎓 Study & careers",["scholarship","funded","research","conference","career"]],
- ["community","👥 Clubs & community",["clubs","volunteer"]]];
+ ["outdoors","🥾 Outdoors",["hiking","running","beaches","ski"]],
+ ["culture","🎨 Arts & culture",["music","dance","arts","religious"]],
+ ["mind","💡 Tech, business & science",["hackathon","case","startup","research"]],
+ ["fun","🎢 Fun places",["parks","pools","food"]]];
+// Subjects that are really types (Festivals, Scholarships, Clubs…) were removed; drop them from saved choices.
+{const ok=new Set(TOPIC_GROUPS.flatMap(g=>g[2]));if(S.profile.topics)S.profile.topics=S.profile.topics.filter(k=>ok.has(k))}
 let catGroup="";
 const SPORT_RE={football:/football|soccer|futsal/i,basketball:/basketball/i,volleyball:/volleyball/i,padel:/padel|tennis/i,swimming:/swim/i,cycling:/cycl|\bbike\b/i,ski:/\bski(ing)?\b|snowboard/i,chess:/chess/i,gymnastics:/gymnast|trampoline|cheerlead|acrobat/i,yoga:/\byoga\b|pilates/i,fitness:/crossfit|hyrox|fitness|bootcamp|weightlift|powerlift|bodybuild|\bgym\b/i,martial:/martial|karate|taekwondo|judo|jiu-?jitsu|\bbjj\b|\bmma\b|boxing|kickbox|muay thai|wrestling/i,climbing:/climb|boulder/i,racket:/table tennis|ping ?pong|squash|badminton/i,fencing:/fencing|archery|shooting club|sport shooting/i,golf:/\bgolf\b/i,skating:/skat(e|ing)|skateboard|parkour|roller/i,rugby:/rugby|cricket|frisbee|ultimate|baseball|softball|handball|water polo/i,bowling:/bowling|billiard|snooker|darts/i,motor:/karting|kart\b|rally|motocross|motorsport|drift|\batv\b/i,water:/scuba|diving|freediv|snorkel|sailing|kite ?surf|windsurf|surf|kayak|paddle ?board|\bsup\b|yacht|rowing/i,riding:/horse|equestrian|riding club/i,dance:/dance|salsa|dabke|ballet|hip-?hop|tango/i,music:/music|concert|orchestra|choir|guitar|piano|oud|conservatoire|philharmonic/i,esports:/e-?sports|\bgaming\b|\bfifa\b|ea fc|valorant|league of legends|\blan party/i};
 function topicsOf(o){
@@ -575,6 +575,11 @@ function topicsOf(o){
   if(trip)t.add(o.travel?"travel":"trips");
   if((o.tags||[]).includes("beach")||/\b(beach|plage)\b/i.test(o.title)&&!/volleyball/i.test(o.title))t.add("beaches");
   if((o.tags||[]).includes("ski"))t.add("ski");
+  // Subjects from what the post is about (title, description, skills needed).
+  const about=o.title+" "+(o.desc||"")+" "+(o.skillsNote||"");
+  if(/\b(coding|programming|hackathon|software|developer|python|javascript|\bai\b|artificial intelligence|machine learning|data science|cyber ?security|robotics|ctf)\b/i.test(about))t.add("hackathon");
+  if(/\b(business|finance|financial|marketing|consulting|case competition|accounting|investment|economics|entrepreneur)\b/i.test(about))t.add("case");
+  if(/\b(research|science|scientific|physics|chemistry|biology|laboratory|phd)\b/i.test(about))t.add("research");
   const tg=o.tags||[];
   if(tg.includes("attraction")||tg.includes("waterpark")||/\b(water ?park|aqua ?park|theme park|amusement park|luna park|fun ?fair|zoo)\b/i.test(o.title))t.add("parks");
   if(tg.includes("pool")||/\bswimming pool\b/i.test(o.title))t.add("pools");
@@ -1132,7 +1137,7 @@ function filterSummary(){
   const loc=(f.city?`“${f.city}” · `:"")+(f.region?REGIONS.find(r=>r[0]===f.region)[1]+", Lebanon":f.where.length?f.where.map(w=>WHERE[w]).join(", "):f.city?"":"Everywhere");
   return{
     type:f.types.length?f.types.map(t=>TYPES[t].replace(/^\S+\s/,"")).join(", "):"Everything",
-    category:tp.length?tp.map(k=>(TOPICS.find(t=>t[0]===k)||[,k])[1]).join(", "):"All categories",
+    category:tp.length?tp.map(k=>(TOPICS.find(t=>t[0]===k)||[,k])[1]).join(", "):"All subjects",
     location:loc,
     deadline:[f.when!=="any"?WHEN[f.when]:"",f.dlMode&&f.dlDate?`${f.dlMode==="before"?"Before":"After"} ${fmtDate(f.dlDate)}`:""].filter(Boolean).join(" · ")||"Any time",
     money:f.money.length?f.money.map(m=>MONEY[m]).join(", "):"Any",
@@ -1153,7 +1158,7 @@ function openFilters(){
     const cnt=k=>OPPS.filter(o=>!isClosed(o)&&topicsOf(o).has(k)).length,lab=k=>(TOPICS.find(t=>t[0]===k)||[,k])[1];
     if(catGroup){const g=TOPIC_GROUPS.find(x=>x[0]===catGroup);
       body=head(g[1],1)+`<div class="flabel">Choose one or more</div>`+g[2].map(k=>{const c=cnt(k);return c||tp.includes(k)?opt(`data-ftopic="${k}"`,tp.includes(k),lab(k),`${c} open`):""}).join("");
-    }else body=head("Category",1)+opt('data-ftopic="all"',!tp.length,"All categories")+`<div class="flabel">Choose a group</div>`+
+    }else body=head("Subject",1)+opt('data-ftopic="all"',!tp.length,"All subjects")+`<div class="flabel">Choose a group</div>`+
       TOPIC_GROUPS.map(([k,l,list])=>{const on=list.filter(x=>tp.includes(x));return`<button class="frow" data-cgroup="${k}"><span><b>${l}</b><small>${on.length?on.map(lab).join(", "):list.slice(0,5).map(x=>lab(x).replace(/^\S+\s/,"")).join(", ")+(list.length>5?"…":"")}</small></span><em>${on.length?on.length+" chosen":"›"}</em></button>`}).join("");
   }else if(filterPage==="location"){
     const cnt=fn=>OPPS.filter(o=>!isClosed(o)&&fn(o)).length;
@@ -1185,7 +1190,7 @@ function openFilters(){
       happens:()=>`<div class="frow static"><span><b>When it happens</b></span><div class="ichips">${Object.entries(HAPPENS).map(([k,l])=>`<button class="fchip ${f.happens===k?"on":""}" data-fhap="${k}">${l}</button>`).join("")}</div></div>`,
       deadline:()=>row("deadline","Deadline",sum.deadline),
       where:()=>`<div class="frow static"><span style="flex-direction:row;justify-content:space-between;align-items:center"><b>Where</b><button class="flink" data-fpage="location" style="margin:0">Region / city ›</button></span><div class="ichips">${wq("all","Anywhere")}${wq("lebanon","🇱🇧 In Lebanon")}${wq("online","💻 Online")}${wq("abroad","✈️ Outside Lebanon")}</div>${f.region||f.city?`<small>${sum.location}</small>`:""}</div>`,
-      topic:()=>row("category","Category",sum.category),
+      topic:()=>row("category","Subject",sum.category),
       fee:()=>range(cur==="trip"?"Price per person (USD)":cur==="show"||cur==="event"||cur==="festival"?"Ticket price (USD)":"Fee (USD)","f-min","f-max",f.feeMin,f.fee==="any"?"":f.fee),
       prize:()=>range("Prize (USD)","f-pmin","f-pmax",f.prizeMin,f.prizeMax),
       funding:()=>row("money","Funding",sum.money),
